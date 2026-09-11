@@ -1,0 +1,11 @@
+{
+  "species": "vegiemon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Vegimon",
+  "source_url": "https://wikimon.net/images/b/b7/Vegimon_new_century.png",
+  "source_sha256": "b62334c1b57777bcdb3a06663b005d2292dfa8312d9634f71fd01228cbfdfe9e",
+  "png_sha256": "01791e6b09f6e333b63019016eff65cadac2054545a9a8de9568176269b74622",
+  "width": 624,
+  "height": 711,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

@@ -1,0 +1,11 @@
+{
+  "species": "togemon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Togemon",
+  "source_url": "https://wikimon.net/images/d/dc/Togemon_new_century.png",
+  "source_sha256": "de9a7e51b60023ee74d607ed30266226b64425aeac8520d58f151da10963868e",
+  "png_sha256": "8748e064ab511529ccf8b5b3f9d25c72d3a8fc96012dd2f01b44fbdabd552772",
+  "width": 536,
+  "height": 672,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

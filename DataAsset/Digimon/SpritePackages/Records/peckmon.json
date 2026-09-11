@@ -1,0 +1,11 @@
+{
+  "species": "peckmon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Peckmon",
+  "source_url": "https://wikimon.net/images/1/15/Peckmon_new_century.png",
+  "source_sha256": "d38b9b3706d8e7669dc492f7587a1c0d841f3a1eccd5268ea03c00fb6ca5dfd9",
+  "png_sha256": "f7f8564fb528a6b22eb320cbb449bfeb49665b102fd25e7f50513d2832e9adb9",
+  "width": 741,
+  "height": 892,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

@@ -1,0 +1,11 @@
+{
+  "species": "shoutmon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Shoutmon",
+  "source_url": "https://wikimon.net/images/a/a6/Shoutmon_new_century.png",
+  "source_sha256": "4cb0b8372ed36a45021034711408a7f16553aeb1d94772147f21a37408e138ab",
+  "png_sha256": "d952c8221221b8d8f07fa36880175c3b4a96f83362d562760152fd346fcf30f2",
+  "width": 950,
+  "height": 776,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

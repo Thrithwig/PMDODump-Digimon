@@ -1,0 +1,11 @@
+{
+  "species": "lucemon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Lucemon",
+  "source_url": "https://wikimon.net/images/7/79/Lucemon.png",
+  "source_sha256": "6ebc7daf28997eb5e522500082b0423e2f971f0ef1f178ea3d1ce23aad834f6b",
+  "png_sha256": "ec02eacf7e265e21f1b0a50772c5147441c24f0dbcbbd04418a118abc3d83e89",
+  "width": 239,
+  "height": 320,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

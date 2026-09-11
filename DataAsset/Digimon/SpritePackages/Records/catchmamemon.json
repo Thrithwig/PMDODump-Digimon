@@ -1,0 +1,11 @@
+{
+  "species": "catchmamemon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Catch_Mamemon",
+  "source_url": "https://wikimon.net/images/5/58/CatchMamemon_collectors.png",
+  "source_sha256": "e7615f6def23719fafbcc6f88290dfa9236fd6935614a94148d3295bb99401cc",
+  "png_sha256": "753f290e35a5d9116b198a244f86287e8eff6221efc6c8e97bdc0e20d770f927",
+  "width": 205,
+  "height": 300,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

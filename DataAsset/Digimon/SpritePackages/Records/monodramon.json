@@ -1,0 +1,11 @@
+{
+  "species": "monodramon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Monodramon",
+  "source_url": "https://wikimon.net/images/2/28/Monodramon.png",
+  "source_sha256": "d27fc9e06665f7c5a7a718e7941262a2545bc78440ffefb536cf5b341330601a",
+  "png_sha256": "a8629759b8a6b329f3b0e1d18f024f2c4b2b3f7219fe57f2ffe024a46c237d1b",
+  "width": 274,
+  "height": 431,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

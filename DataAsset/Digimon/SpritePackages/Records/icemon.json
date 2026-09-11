@@ -1,0 +1,11 @@
+{
+  "species": "icemon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Icemon",
+  "source_url": "https://wikimon.net/images/c/cf/Icemon_new_century.png",
+  "source_sha256": "7e286a763e4aaefb5df4ae1ff977c7f86d459276a2c26873a6cc43e79a54ca41",
+  "png_sha256": "0da6a347ddf62e6e9bbc837ec2cf95e1d8c04b047c2a6266eb245944403cd4fd",
+  "width": 503,
+  "height": 613,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

@@ -1,0 +1,11 @@
+{
+  "species": "piedmon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Piemon",
+  "source_url": "https://wikimon.net/images/f/f6/Piemon_new_century.png",
+  "source_sha256": "819535c36b0372a7a6900d4d1d7bc8a407141e52a00687a97f48f6c54d4e28b2",
+  "png_sha256": "8611927300d84e4fd9c2dc5f63df5f63663dc03c40bd328d91f92ad2c3cd223f",
+  "width": 660,
+  "height": 812,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

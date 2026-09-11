@@ -1,0 +1,11 @@
+{
+  "species": "impmon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Impmon",
+  "source_url": "https://wikimon.net/images/1/1f/Impmon_new_century.png",
+  "source_sha256": "e1c8e810c1be777449687b7fe11ad43fe2ace77df3ad346fd30eeed922751154",
+  "png_sha256": "a1552f98c94869e80fadcd1e60fc6e0998dc1021609b9833fb45377afb2c0ffb",
+  "width": 496,
+  "height": 605,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

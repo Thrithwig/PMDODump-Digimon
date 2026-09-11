@@ -1,0 +1,11 @@
+{
+  "species": "silphymon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Silphymon",
+  "source_url": "https://wikimon.net/images/a/a2/Silphymon.png",
+  "source_sha256": "242fd5cf2a5bc6f7e6865671d8cdb0dc23e24bb8214465f10de30c860838fa94",
+  "png_sha256": "74396c9552ef7c454563677acefacc03144585a4ff6fd3535888dbe16443663e",
+  "width": 1180,
+  "height": 1180,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

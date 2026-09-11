@@ -1,0 +1,977 @@
+{
+  "classification": "CSV Inheritable=Yes",
+  "consumable": true,
+  "chest_categories": [
+    "box_nifty"
+  ],
+  "chest_spawners": 13,
+  "skills": [
+    {
+      "skill": "digi_acceleration_boost",
+      "item": "digi_tm_acceleration_boost"
+    },
+    {
+      "skill": "digi_agility_charge",
+      "item": "digi_tm_agility_charge"
+    },
+    {
+      "skill": "digi_anti_bug",
+      "item": "digi_tm_anti_bug"
+    },
+    {
+      "skill": "digi_anti_panic",
+      "item": "digi_tm_anti_panic"
+    },
+    {
+      "skill": "digi_anti_paralysis",
+      "item": "digi_tm_anti_paralysis"
+    },
+    {
+      "skill": "digi_anti_poison",
+      "item": "digi_tm_anti_poison"
+    },
+    {
+      "skill": "digi_anti_sleep",
+      "item": "digi_tm_anti_sleep"
+    },
+    {
+      "skill": "digi_anti_stun",
+      "item": "digi_tm_anti_stun"
+    },
+    {
+      "skill": "digi_antidote",
+      "item": "digi_tm_antidote"
+    },
+    {
+      "skill": "digi_attack_break",
+      "item": "digi_tm_attack_break"
+    },
+    {
+      "skill": "digi_attack_break_field",
+      "item": "digi_tm_attack_break_field"
+    },
+    {
+      "skill": "digi_attack_charge",
+      "item": "digi_tm_attack_charge"
+    },
+    {
+      "skill": "digi_attack_charge_field",
+      "item": "digi_tm_attack_charge_field"
+    },
+    {
+      "skill": "digi_aura",
+      "item": "digi_tm_aura"
+    },
+    {
+      "skill": "digi_awesome_quake_i",
+      "item": "digi_tm_awesome_quake_i"
+    },
+    {
+      "skill": "digi_awesome_quake_ii",
+      "item": "digi_tm_awesome_quake_ii"
+    },
+    {
+      "skill": "digi_awesome_quake_iii",
+      "item": "digi_tm_awesome_quake_iii"
+    },
+    {
+      "skill": "digi_burst_flame_i",
+      "item": "digi_tm_burst_flame_i"
+    },
+    {
+      "skill": "digi_burst_flame_ii",
+      "item": "digi_tm_burst_flame_ii"
+    },
+    {
+      "skill": "digi_burst_flame_iii",
+      "item": "digi_tm_burst_flame_iii"
+    },
+    {
+      "skill": "digi_chain_loss",
+      "item": "digi_tm_chain_loss"
+    },
+    {
+      "skill": "digi_chain_max",
+      "item": "digi_tm_chain_max"
+    },
+    {
+      "skill": "digi_chain_minus",
+      "item": "digi_tm_chain_minus"
+    },
+    {
+      "skill": "digi_chain_plus",
+      "item": "digi_tm_chain_plus"
+    },
+    {
+      "skill": "digi_character_reversal",
+      "item": "digi_tm_character_reversal"
+    },
+    {
+      "skill": "digi_comet_hammer_i",
+      "item": "digi_tm_comet_hammer_i"
+    },
+    {
+      "skill": "digi_comet_hammer_ii",
+      "item": "digi_tm_comet_hammer_ii"
+    },
+    {
+      "skill": "digi_comet_hammer_iii",
+      "item": "digi_tm_comet_hammer_iii"
+    },
+    {
+      "skill": "digi_crescent_leaf_i",
+      "item": "digi_tm_crescent_leaf_i"
+    },
+    {
+      "skill": "digi_crescent_leaf_ii",
+      "item": "digi_tm_crescent_leaf_ii"
+    },
+    {
+      "skill": "digi_crescent_leaf_iii",
+      "item": "digi_tm_crescent_leaf_iii"
+    },
+    {
+      "skill": "digi_critical_charge",
+      "item": "digi_tm_critical_charge"
+    },
+    {
+      "skill": "digi_cross_counter",
+      "item": "digi_tm_cross_counter"
+    },
+    {
+      "skill": "digi_destruction",
+      "item": "digi_tm_destruction"
+    },
+    {
+      "skill": "digi_destruction_cannon_i",
+      "item": "digi_tm_destruction_cannon_i"
+    },
+    {
+      "skill": "digi_destruction_cannon_ii",
+      "item": "digi_tm_destruction_cannon_ii"
+    },
+    {
+      "skill": "digi_destruction_cannon_iii",
+      "item": "digi_tm_destruction_cannon_iii"
+    },
+    {
+      "skill": "digi_dispel",
+      "item": "digi_tm_dispel"
+    },
+    {
+      "skill": "digi_escape_dash",
+      "item": "digi_tm_escape_dash"
+    },
+    {
+      "skill": "digi_final_aura",
+      "item": "digi_tm_final_aura"
+    },
+    {
+      "skill": "digi_final_heal",
+      "item": "digi_tm_final_heal"
+    },
+    {
+      "skill": "digi_gaia_element_i",
+      "item": "digi_tm_gaia_element_i"
+    },
+    {
+      "skill": "digi_gaia_element_ii",
+      "item": "digi_tm_gaia_element_ii"
+    },
+    {
+      "skill": "digi_gaia_element_iii",
+      "item": "digi_tm_gaia_element_iii"
+    },
+    {
+      "skill": "digi_gale_storm_i",
+      "item": "digi_tm_gale_storm_i"
+    },
+    {
+      "skill": "digi_gale_storm_ii",
+      "item": "digi_tm_gale_storm_ii"
+    },
+    {
+      "skill": "digi_gale_storm_iii",
+      "item": "digi_tm_gale_storm_iii"
+    },
+    {
+      "skill": "digi_grand_rock_i",
+      "item": "digi_tm_grand_rock_i"
+    },
+    {
+      "skill": "digi_grand_rock_ii",
+      "item": "digi_tm_grand_rock_ii"
+    },
+    {
+      "skill": "digi_grand_rock_iii",
+      "item": "digi_tm_grand_rock_iii"
+    },
+    {
+      "skill": "digi_guard_break",
+      "item": "digi_tm_guard_break"
+    },
+    {
+      "skill": "digi_guard_break_field",
+      "item": "digi_tm_guard_break_field"
+    },
+    {
+      "skill": "digi_guard_charge",
+      "item": "digi_tm_guard_charge"
+    },
+    {
+      "skill": "digi_guard_charge_field",
+      "item": "digi_tm_guard_charge_field"
+    },
+    {
+      "skill": "digi_heal",
+      "item": "digi_tm_heal"
+    },
+    {
+      "skill": "digi_heaven_s_thunder_i",
+      "item": "digi_tm_heaven_s_thunder_i"
+    },
+    {
+      "skill": "digi_heaven_s_thunder_ii",
+      "item": "digi_tm_heaven_s_thunder_ii"
+    },
+    {
+      "skill": "digi_heaven_s_thunder_iii",
+      "item": "digi_tm_heaven_s_thunder_iii"
+    },
+    {
+      "skill": "digi_heavy_strike_i",
+      "item": "digi_tm_heavy_strike_i"
+    },
+    {
+      "skill": "digi_heavy_strike_ii",
+      "item": "digi_tm_heavy_strike_ii"
+    },
+    {
+      "skill": "digi_heavy_strike_iii",
+      "item": "digi_tm_heavy_strike_iii"
+    },
+    {
+      "skill": "digi_hell_crusher_i",
+      "item": "digi_tm_hell_crusher_i"
+    },
+    {
+      "skill": "digi_hell_crusher_ii",
+      "item": "digi_tm_hell_crusher_ii"
+    },
+    {
+      "skill": "digi_hell_crusher_iii",
+      "item": "digi_tm_hell_crusher_iii"
+    },
+    {
+      "skill": "digi_hit_charge",
+      "item": "digi_tm_hit_charge"
+    },
+    {
+      "skill": "digi_holy_light_i",
+      "item": "digi_tm_holy_light_i"
+    },
+    {
+      "skill": "digi_holy_light_ii",
+      "item": "digi_tm_holy_light_ii"
+    },
+    {
+      "skill": "digi_holy_light_iii",
+      "item": "digi_tm_holy_light_iii"
+    },
+    {
+      "skill": "digi_hydro_water_i",
+      "item": "digi_tm_hydro_water_i"
+    },
+    {
+      "skill": "digi_hydro_water_ii",
+      "item": "digi_tm_hydro_water_ii"
+    },
+    {
+      "skill": "digi_hydro_water_iii",
+      "item": "digi_tm_hydro_water_iii"
+    },
+    {
+      "skill": "digi_ice_archery_i",
+      "item": "digi_tm_ice_archery_i"
+    },
+    {
+      "skill": "digi_ice_archery_ii",
+      "item": "digi_tm_ice_archery_ii"
+    },
+    {
+      "skill": "digi_ice_archery_iii",
+      "item": "digi_tm_ice_archery_iii"
+    },
+    {
+      "skill": "digi_idle_bubble",
+      "item": "digi_tm_idle_bubble"
+    },
+    {
+      "skill": "digi_mach_rush_i",
+      "item": "digi_tm_mach_rush_i"
+    },
+    {
+      "skill": "digi_mach_rush_ii",
+      "item": "digi_tm_mach_rush_ii"
+    },
+    {
+      "skill": "digi_mach_rush_iii",
+      "item": "digi_tm_mach_rush_iii"
+    },
+    {
+      "skill": "digi_mental_break",
+      "item": "digi_tm_mental_break"
+    },
+    {
+      "skill": "digi_mental_break_field",
+      "item": "digi_tm_mental_break_field"
+    },
+    {
+      "skill": "digi_mental_charge",
+      "item": "digi_tm_mental_charge"
+    },
+    {
+      "skill": "digi_mental_charge_field",
+      "item": "digi_tm_mental_charge_field"
+    },
+    {
+      "skill": "digi_meteor_fall_i",
+      "item": "digi_tm_meteor_fall_i"
+    },
+    {
+      "skill": "digi_meteor_fall_ii",
+      "item": "digi_tm_meteor_fall_ii"
+    },
+    {
+      "skill": "digi_meteor_fall_iii",
+      "item": "digi_tm_meteor_fall_iii"
+    },
+    {
+      "skill": "digi_mirror_reflection",
+      "item": "digi_tm_mirror_reflection"
+    },
+    {
+      "skill": "digi_nanomachine_break_i",
+      "item": "digi_tm_nanomachine_break_i"
+    },
+    {
+      "skill": "digi_nanomachine_break_ii",
+      "item": "digi_tm_nanomachine_break_ii"
+    },
+    {
+      "skill": "digi_nanomachine_break_iii",
+      "item": "digi_tm_nanomachine_break_iii"
+    },
+    {
+      "skill": "digi_nightmare_i",
+      "item": "digi_tm_nightmare_i"
+    },
+    {
+      "skill": "digi_nightmare_ii",
+      "item": "digi_tm_nightmare_ii"
+    },
+    {
+      "skill": "digi_nightmare_iii",
+      "item": "digi_tm_nightmare_iii"
+    },
+    {
+      "skill": "digi_ocean_wave_i",
+      "item": "digi_tm_ocean_wave_i"
+    },
+    {
+      "skill": "digi_ocean_wave_ii",
+      "item": "digi_tm_ocean_wave_ii"
+    },
+    {
+      "skill": "digi_ocean_wave_iii",
+      "item": "digi_tm_ocean_wave_iii"
+    },
+    {
+      "skill": "digi_panic_wisp",
+      "item": "digi_tm_panic_wisp"
+    },
+    {
+      "skill": "digi_perfect_revival",
+      "item": "digi_tm_perfect_revival"
+    },
+    {
+      "skill": "digi_physical_drain",
+      "item": "digi_tm_physical_drain"
+    },
+    {
+      "skill": "digi_power_energy_i",
+      "item": "digi_tm_power_energy_i"
+    },
+    {
+      "skill": "digi_power_energy_ii",
+      "item": "digi_tm_power_energy_ii"
+    },
+    {
+      "skill": "digi_power_energy_iii",
+      "item": "digi_tm_power_energy_iii"
+    },
+    {
+      "skill": "digi_restore",
+      "item": "digi_tm_restore"
+    },
+    {
+      "skill": "digi_revive",
+      "item": "digi_tm_revive"
+    },
+    {
+      "skill": "digi_ripping_net",
+      "item": "digi_tm_ripping_net"
+    },
+    {
+      "skill": "digi_rune_forest_i",
+      "item": "digi_tm_rune_forest_i"
+    },
+    {
+      "skill": "digi_rune_forest_ii",
+      "item": "digi_tm_rune_forest_ii"
+    },
+    {
+      "skill": "digi_rune_forest_iii",
+      "item": "digi_tm_rune_forest_iii"
+    },
+    {
+      "skill": "digi_safety_guard",
+      "item": "digi_tm_safety_guard"
+    },
+    {
+      "skill": "digi_saint_knuckle_i",
+      "item": "digi_tm_saint_knuckle_i"
+    },
+    {
+      "skill": "digi_saint_knuckle_ii",
+      "item": "digi_tm_saint_knuckle_ii"
+    },
+    {
+      "skill": "digi_saint_knuckle_iii",
+      "item": "digi_tm_saint_knuckle_iii"
+    },
+    {
+      "skill": "digi_shining_laser_i",
+      "item": "digi_tm_shining_laser_i"
+    },
+    {
+      "skill": "digi_shining_laser_ii",
+      "item": "digi_tm_shining_laser_ii"
+    },
+    {
+      "skill": "digi_shining_laser_iii",
+      "item": "digi_tm_shining_laser_iii"
+    },
+    {
+      "skill": "digi_shock",
+      "item": "digi_tm_shock"
+    },
+    {
+      "skill": "digi_sonic_void_i",
+      "item": "digi_tm_sonic_void_i"
+    },
+    {
+      "skill": "digi_sonic_void_ii",
+      "item": "digi_tm_sonic_void_ii"
+    },
+    {
+      "skill": "digi_sonic_void_iii",
+      "item": "digi_tm_sonic_void_iii"
+    },
+    {
+      "skill": "digi_speed_break",
+      "item": "digi_tm_speed_break"
+    },
+    {
+      "skill": "digi_speed_break_field",
+      "item": "digi_tm_speed_break_field"
+    },
+    {
+      "skill": "digi_speed_charge",
+      "item": "digi_tm_speed_charge"
+    },
+    {
+      "skill": "digi_speed_charge_field",
+      "item": "digi_tm_speed_charge_field"
+    },
+    {
+      "skill": "digi_spirit_drain",
+      "item": "digi_tm_spirit_drain"
+    },
+    {
+      "skill": "digi_status_barrier",
+      "item": "digi_tm_status_barrier"
+    },
+    {
+      "skill": "digi_support_end",
+      "item": "digi_tm_support_end"
+    },
+    {
+      "skill": "digi_texture_blow",
+      "item": "digi_tm_texture_blow"
+    },
+    {
+      "skill": "digi_thunder_fall_i",
+      "item": "digi_tm_thunder_fall_i"
+    },
+    {
+      "skill": "digi_thunder_fall_ii",
+      "item": "digi_tm_thunder_fall_ii"
+    },
+    {
+      "skill": "digi_thunder_fall_iii",
+      "item": "digi_tm_thunder_fall_iii"
+    },
+    {
+      "skill": "digi_venom_trap",
+      "item": "digi_tm_venom_trap"
+    },
+    {
+      "skill": "digi_wind_claw_i",
+      "item": "digi_tm_wind_claw_i"
+    },
+    {
+      "skill": "digi_wind_claw_ii",
+      "item": "digi_tm_wind_claw_ii"
+    },
+    {
+      "skill": "digi_wind_claw_iii",
+      "item": "digi_tm_wind_claw_iii"
+    },
+    {
+      "skill": "digi_wolkenapalm_i",
+      "item": "digi_tm_wolkenapalm_i"
+    },
+    {
+      "skill": "digi_wolkenapalm_ii",
+      "item": "digi_tm_wolkenapalm_ii"
+    },
+    {
+      "skill": "digi_wolkenapalm_iii",
+      "item": "digi_tm_wolkenapalm_iii"
+    },
+    {
+      "skill": "digi_x_aura",
+      "item": "digi_tm_x_aura"
+    },
+    {
+      "skill": "digi_x_heal",
+      "item": "digi_tm_x_heal"
+    }
+  ],
+  "signature_skills": [
+    "digi_adhesive_bubble_blow",
+    "digi_aguichant_levres",
+    "digi_air_bubbles",
+    "digi_air_shot",
+    "digi_ambush_crunch",
+    "digi_amethyst_mandala",
+    "digi_animal_nail",
+    "digi_arctic_blizzard",
+    "digi_atomic_blaster",
+    "digi_atomic_ray",
+    "digi_aurora_blaster",
+    "digi_aurora_undulation",
+    "digi_baby_breath",
+    "digi_banana_slip",
+    "digi_bantyo_blade",
+    "digi_berserk_sword",
+    "digi_bifrost",
+    "digi_big_bang_voice",
+    "digi_bit_fire",
+    "digi_bite",
+    "digi_biting_crush",
+    "digi_black_aura_blast__leopardmon",
+    "digi_black_aura_blast__leopardmon_nx",
+    "digi_black_pearl_blast",
+    "digi_black_rain",
+    "digi_black_tornado",
+    "digi_blade_of_the_dragon_king__alphamon",
+    "digi_blade_of_the_dragon_king__alphamon_nx",
+    "digi_blaze_sonic_breath",
+    "digi_blazing_ice",
+    "digi_blinded",
+    "digi_blinding_ray",
+    "digi_blue_blaster",
+    "digi_blue_flare_breath",
+    "digi_brain_rupture",
+    "digi_branch_drain",
+    "digi_brave_metal",
+    "digi_breath_of_the_gods",
+    "digi_bubble_blow",
+    "digi_bubbles",
+    "digi_bunny_blades",
+    "digi_burning_fist",
+    "digi_burst_shot",
+    "digi_catastrophe_cannon",
+    "digi_celestial_arrow",
+    "digi_celestial_blade__ravemon",
+    "digi_celestial_blade__susanomon",
+    "digi_chaos_degradation",
+    "digi_cheese_bomb",
+    "digi_cherry_bomb",
+    "digi_chrono_breaker",
+    "digi_cog_crusher",
+    "digi_cold_flame",
+    "digi_corona_blaster",
+    "digi_corona_destroyer",
+    "digi_crazy_giggle",
+    "digi_crimson_curse",
+    "digi_cross_blade",
+    "digi_crystal_cloud",
+    "digi_crystal_revolution",
+    "digi_d_grenade",
+    "digi_dark_prominence",
+    "digi_dark_pupil",
+    "digi_dark_roar",
+    "digi_dark_terra_force",
+    "digi_darkness_wave",
+    "digi_darkness_zone",
+    "digi_data_crusher",
+    "digi_data_drain",
+    "digi_dead_or_alive",
+    "digi_death_charm",
+    "digi_death_claw",
+    "digi_death_parade_blaster",
+    "digi_demi_darts",
+    "digi_demonic_disaster",
+    "digi_desolation_claw",
+    "digi_destroyed_hook",
+    "digi_destroyed_rush",
+    "digi_destruction_crush",
+    "digi_diamond_shell",
+    "digi_diamond_storm",
+    "digi_digital_bomb",
+    "digi_dimension_scissor",
+    "digi_disaster_blaster",
+    "digi_divine_atonement",
+    "digi_divine_dragon_slash",
+    "digi_divine_pierce",
+    "digi_divine_pierce_awake",
+    "digi_dot_matrix",
+    "digi_double_backhand",
+    "digi_double_impact",
+    "digi_double_scissor_claw",
+    "digi_dragon_impulse",
+    "digi_dragon_s_roar",
+    "digi_dragonic_impact",
+    "digi_dumdum_uppercut",
+    "digi_earth_shattering_stomp",
+    "digi_eden_s_javelin",
+    "digi_eiseiryuoujin",
+    "digi_elastic_bubbles",
+    "digi_electric_shock",
+    "digi_electric_stun_blast",
+    "digi_electro_shocker",
+    "digi_energy_bomb",
+    "digi_eternal_nightmare",
+    "digi_exhaust_flame",
+    "digi_extinction_wave",
+    "digi_eye_of_nightmares",
+    "digi_eye_of_the_gorgon",
+    "digi_fang_strike",
+    "digi_feather_slash",
+    "digi_fenrir_sword",
+    "digi_fiery_fastball",
+    "digi_fif_cross",
+    "digi_fifth_rush",
+    "digi_final_shining_burst",
+    "digi_fire_breath",
+    "digi_fire_tornado",
+    "digi_firedrake_strike",
+    "digi_fist_of_athena__crusadermon",
+    "digi_fist_of_athena__crusadermon_nx",
+    "digi_fist_of_ice",
+    "digi_fist_of_the_beast_king",
+    "digi_flame_cannon",
+    "digi_flame_inferno",
+    "digi_flaming_fist",
+    "digi_flashy_boss_punch",
+    "digi_flower_cannon",
+    "digi_flying_kick",
+    "digi_forbidden_trident",
+    "digi_fossil_bite",
+    "digi_fox_fire",
+    "digi_fox_tail",
+    "digi_freeze_fang",
+    "digi_freezing_breath",
+    "digi_frozen_claw",
+    "digi_full_moon_blaster",
+    "digi_full_moon_kick",
+    "digi_full_moon_meteor_impact",
+    "digi_fungus_crusher",
+    "digi_fury_fire",
+    "digi_fury_fire_awake",
+    "digi_galactic_flare",
+    "digi_garuru_tomahawk",
+    "digi_gear_stringer",
+    "digi_genocidal_gears",
+    "digi_genocide_attack",
+    "digi_geogrey_sword",
+    "digi_gift_of_darkness",
+    "digi_giga_blaster",
+    "digi_giga_destroyer",
+    "digi_glare_eye",
+    "digi_glide_horn",
+    "digi_goblin_strike",
+    "digi_god_flame",
+    "digi_god_matrix",
+    "digi_golden_rush",
+    "digi_golden_triangle",
+    "digi_golden_triangle_i",
+    "digi_good_night_moon",
+    "digi_grand_cross",
+    "digi_great_tornado",
+    "digi_great_weight",
+    "digi_green_flare_breath",
+    "digi_hard_rock_spirit",
+    "digi_harpoon_torpedo",
+    "digi_hearts_attack",
+    "digi_heat_wave",
+    "digi_heaven_s_gate",
+    "digi_heaven_s_judgment",
+    "digi_heaven_s_knuckle",
+    "digi_heaven_s_thunder",
+    "digi_heavy_metal_fire",
+    "digi_hell_masquerade",
+    "digi_holy_shot",
+    "digi_horn_buster",
+    "digi_howling_crusher",
+    "digi_hyper_cannon",
+    "digi_hyper_heat",
+    "digi_hyper_infinity_cannon",
+    "digi_hyper_smell",
+    "digi_ice_blast",
+    "digi_ice_wolf_claw",
+    "digi_iceball_bomb",
+    "digi_infinity_cannon",
+    "digi_infinity_dream",
+    "digi_judecca_prison",
+    "digi_judgement_of_the_blade",
+    "digi_justice_kick",
+    "digi_katana_attack",
+    "digi_knuckle_beater",
+    "digi_kunai_wing",
+    "digi_legendary_dragon_blade",
+    "digi_lightning_javelin",
+    "digi_lightning_joust__gallantmon",
+    "digi_lightning_joust__gallantmon_nx",
+    "digi_lightning_paw",
+    "digi_lightning_spear",
+    "digi_lila_shower",
+    "digi_little_horn",
+    "digi_love_serenade",
+    "digi_lullaby_bubble",
+    "digi_lunatic_dance",
+    "digi_mach_stinger_v",
+    "digi_machinegun_destroyer",
+    "digi_marching_fishes",
+    "digi_mature_poop",
+    "digi_mega_burst",
+    "digi_mega_flame",
+    "digi_megadeath",
+    "digi_megiddo_flame",
+    "digi_metal_armor_blade",
+    "digi_metal_cannon",
+    "digi_metal_meteor",
+    "digi_meteor_shower",
+    "digi_meteor_wing",
+    "digi_miracle_bomb",
+    "digi_monkey_wrench",
+    "digi_moon_night_bomb",
+    "digi_mourning_dance",
+    "digi_musical_fist",
+    "digi_nail_bone",
+    "digi_nail_scratch",
+    "digi_needle_spray",
+    "digi_night_raid",
+    "digi_nightmare_syndrome",
+    "digi_ninja_blade",
+    "digi_ninja_claw",
+    "digi_nitro_stinger",
+    "digi_nuclear_laser",
+    "digi_oblivion_bird",
+    "digi_ocean_love",
+    "digi_odin_s_breath",
+    "digi_omni_sword",
+    "digi_pandemonium_lost",
+    "digi_pandora_dialogue",
+    "digi_pendragon_s_glory",
+    "digi_pepper_breath",
+    "digi_phantom_pain",
+    "digi_pit_bomb",
+    "digi_plasma_shot",
+    "digi_plastic_blaze",
+    "digi_platinum_junk",
+    "digi_poison_bubbles",
+    "digi_poison_ivy",
+    "digi_poop",
+    "digi_poop_dunk",
+    "digi_poop_toss",
+    "digi_positron_laser",
+    "digi_power_metal",
+    "digi_prison_fist",
+    "digi_protect_wave",
+    "digi_protect_wave_awake",
+    "digi_pummel_whack",
+    "digi_puppet_pummel",
+    "digi_puppy_howl",
+    "digi_pyro_punch",
+    "digi_quake_blast_fire_father",
+    "digi_quo_vadis",
+    "digi_rare_metal_poop",
+    "digi_razor_wind",
+    "digi_revenge_flame",
+    "digi_river_of_power",
+    "digi_rock_breaker",
+    "digi_rock_fist",
+    "digi_s_gold_solar_storm",
+    "digi_savage_emperor",
+    "digi_scissor_claw",
+    "digi_scrapless_claw",
+    "digi_seed_blast",
+    "digi_seven_s_fantasia",
+    "digi_shadow_wing",
+    "digi_shield_of_the_just__gallantmon",
+    "digi_shield_of_the_just__gallantmon_nx",
+    "digi_shine_of_bee",
+    "digi_shiny_ring",
+    "digi_silent_bullet",
+    "digi_silent_bullet_awake",
+    "digi_sludge",
+    "digi_smile_bomber",
+    "digi_smile_fang",
+    "digi_smile_warhead",
+    "digi_soap_flower",
+    "digi_sorrow_blue",
+    "digi_soul_absorption",
+    "digi_soul_chopper",
+    "digi_soul_core_attack",
+    "digi_soul_digitalization__alphamon",
+    "digi_soul_digitalization__alphamon_nx",
+    "digi_speed_star",
+    "digi_spider_shooter",
+    "digi_spiking_strike",
+    "digi_spinning_needle",
+    "digi_spiral_blow",
+    "digi_spiral_masquerade__crusadermon",
+    "digi_spiral_masquerade__crusadermon_nx",
+    "digi_spiral_sword",
+    "digi_spiral_twister",
+    "digi_spitfire_blast",
+    "digi_starlight_explosion",
+    "digi_starlight_velocity",
+    "digi_sticker_blade",
+    "digi_sticky_net",
+    "digi_strike_of_the_seven_stars",
+    "digi_strike_roll",
+    "digi_sub_zero_ice_punch",
+    "digi_summon",
+    "digi_sunshine_beam",
+    "digi_super_bubble_blow",
+    "digi_super_shocker",
+    "digi_super_stinky_jet",
+    "digi_supersonic_voice",
+    "digi_superstar_uppercut",
+    "digi_supreme_cannon__omnimon",
+    "digi_supreme_cannon__omnimon_nx",
+    "digi_supreme_cannon__omnimon_zwart",
+    "digi_symphony_crusher",
+    "digi_table_flip",
+    "digi_tail_hammer",
+    "digi_taizoukai_mandala",
+    "digi_talisman_of_light",
+    "digi_tearing_shot",
+    "digi_terra_force",
+    "digi_terrier_tornado",
+    "digi_terrors_cluster",
+    "digi_the_king_of_fists",
+    "digi_the_ray_of_victory",
+    "digi_thorn_whip",
+    "digi_thousand_fists",
+    "digi_thunder_cloud",
+    "digi_thunder_cloud_ii",
+    "digi_tidal_wave",
+    "digi_tomahawk_stinger",
+    "digi_top_gun",
+    "digi_transcendent_sword__omnimon",
+    "digi_transcendent_sword__omnimon_nx",
+    "digi_transcendent_sword__omnimon_zwart",
+    "digi_tri_horn_attack",
+    "digi_trick_or_treat",
+    "digi_trident_revolver",
+    "digi_trident_saber",
+    "digi_trump_sword",
+    "digi_turbo_stinger",
+    "digi_twenty_dive",
+    "digi_ultimate_flare",
+    "digi_ultimate_ouryuken",
+    "digi_unidentified_flying_kiss",
+    "digi_v_nova_blast",
+    "digi_vantheon",
+    "digi_vee_laser",
+    "digi_veemon_headbutt",
+    "digi_venom_infusion",
+    "digi_victory_sword",
+    "digi_volcanic_driver",
+    "digi_volcanic_strike",
+    "digi_vortex_penetration",
+    "digi_vulcan_crusher",
+    "digi_vulcan_s_hammer",
+    "digi_waltz_s_end",
+    "digi_weltgeist",
+    "digi_will_o_wisp",
+    "digi_will_o_wisp_slash",
+    "digi_wind_cutter_sword",
+    "digi_winning_knuckle",
+    "digi_wolf_claw",
+    "digi_wyvern_s_breath",
+    "digi_zwei_glanze",
+    "digi_zwei_sieger"
+  ],
+  "visual_templates": {
+    "focus_energy": 1,
+    "leaf_blade": 13,
+    "refresh": 35,
+    "signal_beam": 21,
+    "water_pulse": 18,
+    "aeroblast": 6,
+    "pound": 39,
+    "dazzling_gleam": 19,
+    "rock_smash": 26,
+    "ice_punch": 14,
+    "thunder_punch": 18,
+    "swords_dance": 1,
+    "howl": 1,
+    "life_dew": 3,
+    "earthquake": 7,
+    "fire_punch": 50,
+    "shadow_ball": 15,
+    "psybeam": 17,
+    "swift": 15,
+    "quick_attack": 9,
+    "bubble": 13,
+    "dark_pulse": 15,
+    "bite": 24,
+    "karate_chop": 25,
+    "charge_beam": 16,
+    "peck": 13,
+    "flamethrower": 7,
+    "heat_wave": 23,
+    "discharge": 6,
+    "petal_blizzard": 8,
+    "teleport": 1,
+    "heal_pulse": 4,
+    "energy_ball": 4,
+    "gust": 7,
+    "mud_slap": 3,
+    "leer": 1,
+    "calm_mind": 2,
+    "magic_coat": 1,
+    "endure": 1,
+    "scary_face": 1,
+    "agility": 1,
+    "tailwind": 1,
+    "safeguard": 1
+  }
+}

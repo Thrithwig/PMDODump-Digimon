@@ -1,0 +1,11 @@
+{
+  "species": "agumon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Agumon",
+  "source_url": "https://wikimon.net/images/4/46/Agumon_new_century.png",
+  "source_sha256": "47c75acb2084d56e713ebafaf505d239b7aa472e53fbda1141a6a1fa8af43e88",
+  "png_sha256": "6483728417649a4a735a9efeda240265b2136d57c61d1d6cd1d84b9a7f2156d0",
+  "width": 539,
+  "height": 510,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

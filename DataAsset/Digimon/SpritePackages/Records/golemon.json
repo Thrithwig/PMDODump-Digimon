@@ -1,0 +1,11 @@
+{
+  "species": "golemon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Golemon",
+  "source_url": "https://wikimon.net/images/4/4f/Golemon_Model_DSR.png",
+  "source_sha256": "2d3136529774d04d25fe0d27bdcf740aefacc92455298659eea0b2ba806a0b7f",
+  "png_sha256": "0d8d7d430d3d08b9753019a04557b1f893326af33d104c5e69af135d16f5a528",
+  "width": 1345,
+  "height": 1631,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

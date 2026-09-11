@@ -1,0 +1,394 @@
+[
+  {
+    "item_id": "berry_leppa",
+    "original_name": "Leppa Berry",
+    "cyber_sleuth_item": "SP Capsule A",
+    "source_description": "Restore all SP to one member.",
+    "runtime_description": "Fully restores move PP.",
+    "adaptation": "Move PP is the dungeon analogue of SP; source SP is used only for evolution requirements."
+  },
+  {
+    "item_id": "berry_lum",
+    "original_name": "Lum Berry",
+    "cyber_sleuth_item": "Multi-Recovery",
+    "source_description": "Recover status effects from one member and restore 100 HP.",
+    "runtime_description": "Cures dungeon status problems.",
+    "adaptation": "Cures engine bad statuses; source additional 100 HP healing is not applied."
+  },
+  {
+    "item_id": "berry_oran",
+    "original_name": "Oran Berry",
+    "cyber_sleuth_item": "HP Capsule A",
+    "source_description": "Restore all HP to one member.",
+    "runtime_description": "A peculiar berry with a mix of flavors. It fully restores HP.",
+    "adaptation": "Dungeon adaptation: existing effect amounts and targeting retained."
+  },
+  {
+    "item_id": "boost_calcium",
+    "original_name": "Calcium",
+    "cyber_sleuth_item": "Clever Carrot",
+    "source_description": "Food that increases intellect. (Only usable in DigiFarm.)",
+    "runtime_description": "Permanently increases Special Attack by 4, up to the engine training cap.",
+    "adaptation": "Training food usable in dungeons before the farm minigame; INT is split across Special Attack and Special Defense."
+  },
+  {
+    "item_id": "boost_carbos",
+    "original_name": "Carbos",
+    "cyber_sleuth_item": "Boost Banana",
+    "source_description": "Food that increases speed. (Only usable in DigiFarm.)",
+    "runtime_description": "Permanently increases Speed by 4, up to the engine training cap.",
+    "adaptation": "Training food usable in dungeons before the farm minigame; INT is split across Special Attack and Special Defense."
+  },
+  {
+    "item_id": "boost_hp_up",
+    "original_name": "HP Up",
+    "cyber_sleuth_item": "Vigor Mushroom",
+    "source_description": "Food that increases the maximum HP value. (Only usable in DigiFarm.)",
+    "runtime_description": "Permanently increases maximum HP by 4, up to the engine training cap.",
+    "adaptation": "Training food usable in dungeons before the farm minigame; INT is split across Special Attack and Special Defense."
+  },
+  {
+    "item_id": "boost_iron",
+    "original_name": "Iron",
+    "cyber_sleuth_item": "Aegis Apple",
+    "source_description": "Food that increases defense. (Only usable in DigiFarm.)",
+    "runtime_description": "Permanently increases Defense by 4, up to the engine training cap.",
+    "adaptation": "Training food usable in dungeons before the farm minigame; INT is split across Special Attack and Special Defense."
+  },
+  {
+    "item_id": "boost_protein",
+    "original_name": "Protein",
+    "cyber_sleuth_item": "Power Pine",
+    "source_description": "Food that increases attack. (Only usable in DigiFarm.)",
+    "runtime_description": "Permanently increases Attack by 4, up to the engine training cap.",
+    "adaptation": "Training food usable in dungeons before the farm minigame; INT is split across Special Attack and Special Defense."
+  },
+  {
+    "item_id": "boost_zinc",
+    "original_name": "Zinc",
+    "cyber_sleuth_item": "Clever Carrot",
+    "source_description": "Food that increases intellect. (Only usable in DigiFarm.)",
+    "runtime_description": "Permanently increases Special Defense by 4, up to the engine training cap.",
+    "adaptation": "Training food usable in dungeons before the farm minigame; INT is split across Special Attack and Special Defense."
+  },
+  {
+    "item_id": "evo_dawn_stone",
+    "original_name": "Dawn Stone",
+    "cyber_sleuth_item": "Beast Spirit of Light",
+    "source_description": "Evolution requirement CSV",
+    "runtime_description": "Unlocks compatible digivolutions at the Base Camp terminal while in the bag or equipped. Not consumed.",
+    "adaptation": "Reuses an existing evolution-item drop ID; removes its Pokemon held attack modifier."
+  },
+  {
+    "item_id": "evo_dusk_stone",
+    "original_name": "Dusk Stone",
+    "cyber_sleuth_item": "Beast Spirit of Flame",
+    "source_description": "Evolution requirement CSV",
+    "runtime_description": "Unlocks compatible digivolutions at the Base Camp terminal while in the bag or equipped. Not consumed.",
+    "adaptation": "Reuses an existing evolution-item drop ID; removes its Pokemon held attack modifier."
+  },
+  {
+    "item_id": "evo_fire_stone",
+    "original_name": "Fire Stone",
+    "cyber_sleuth_item": "Human Spirit of Flame",
+    "source_description": "Evolution requirement CSV",
+    "runtime_description": "Unlocks compatible digivolutions at the Base Camp terminal while in the bag or equipped. Not consumed.",
+    "adaptation": "Reuses an existing evolution-item drop ID; removes its Pokemon held attack modifier."
+  },
+  {
+    "item_id": "evo_moon_stone",
+    "original_name": "Moon Stone",
+    "cyber_sleuth_item": "Digi-Egg of Destiny",
+    "source_description": "A Digi-Egg engraved with the crest of Destiny.",
+    "runtime_description": "Unlocks compatible digivolutions at the Base Camp terminal while in the bag or equipped. Not consumed.",
+    "adaptation": "Reuses an existing evolution-item drop ID; removes its Pokemon held attack modifier."
+  },
+  {
+    "item_id": "evo_shiny_stone",
+    "original_name": "Shiny Stone",
+    "cyber_sleuth_item": "Digi-Egg of Miracles",
+    "source_description": "A Digi-Egg engraved with the crest of Miracles.",
+    "runtime_description": "Unlocks compatible digivolutions at the Base Camp terminal while in the bag or equipped. Not consumed.",
+    "adaptation": "Reuses an existing evolution-item drop ID; removes its Pokemon held attack modifier."
+  },
+  {
+    "item_id": "evo_sun_stone",
+    "original_name": "Sun Stone",
+    "cyber_sleuth_item": "Digi-Egg of Courage",
+    "source_description": "A Digi-Egg engraved with the crest of Courage.",
+    "runtime_description": "Unlocks compatible digivolutions at the Base Camp terminal while in the bag or equipped. Not consumed.",
+    "adaptation": "Reuses an existing evolution-item drop ID; removes its Pokemon held attack modifier."
+  },
+  {
+    "item_id": "evo_thunder_stone",
+    "original_name": "Thunder Stone",
+    "cyber_sleuth_item": "Human Spirit of Light",
+    "source_description": "Evolution requirement CSV",
+    "runtime_description": "Unlocks compatible digivolutions at the Base Camp terminal while in the bag or equipped. Not consumed.",
+    "adaptation": "Reuses an existing evolution-item drop ID; removes its Pokemon held attack modifier."
+  },
+  {
+    "item_id": "held_blank_plate",
+    "original_name": "Blank Plate",
+    "cyber_sleuth_item": "Noise Guard DX",
+    "source_description": "Reduce neutral damage by 20%.",
+    "runtime_description": "Reduce neutral damage by 20%.",
+    "adaptation": "Source 20% reduction applied to the corresponding dungeon element."
+  },
+  {
+    "item_id": "held_defense_scarf",
+    "original_name": "Defense Scarf",
+    "cyber_sleuth_item": "DEF Attach E",
+    "source_description": "Defense +5",
+    "runtime_description": "A hold item that slightly boosts the Digimon's Defense.",
+    "adaptation": "Closest stat-equipment role; native percentage or critical-stage effect retained instead of source fixed stat points."
+  },
+  {
+    "item_id": "held_dread_plate",
+    "original_name": "Dread Plate",
+    "cyber_sleuth_item": "Dark Guard DX",
+    "source_description": "Reduce dark damage by 20%.",
+    "runtime_description": "Reduce dark damage by 20%.",
+    "adaptation": "Source 20% reduction applied to the corresponding dungeon element."
+  },
+  {
+    "item_id": "held_earth_plate",
+    "original_name": "Earth Plate",
+    "cyber_sleuth_item": "Sand Guard DX",
+    "source_description": "Reduce earth damage by 20%.",
+    "runtime_description": "Reduce earth damage by 20%.",
+    "adaptation": "Source 20% reduction applied to the corresponding dungeon element."
+  },
+  {
+    "item_id": "held_flame_plate",
+    "original_name": "Flame Plate",
+    "cyber_sleuth_item": "Flare Guard DX",
+    "source_description": "Reduce fire damage by 20%.",
+    "runtime_description": "Reduce fire damage by 20%.",
+    "adaptation": "Source 20% reduction applied to the corresponding dungeon element."
+  },
+  {
+    "item_id": "held_meadow_plate",
+    "original_name": "Meadow Plate",
+    "cyber_sleuth_item": "Plant Guard DX",
+    "source_description": "Reduce plant damage by 20%.",
+    "runtime_description": "Reduce plant damage by 20%.",
+    "adaptation": "Source 20% reduction applied to the corresponding dungeon element."
+  },
+  {
+    "item_id": "held_pixie_plate",
+    "original_name": "Pixie Plate",
+    "cyber_sleuth_item": "Shine Guard DX",
+    "source_description": "Reduce light damage by 20%.",
+    "runtime_description": "Reduce light damage by 20%.",
+    "adaptation": "Source 20% reduction applied to the corresponding dungeon element."
+  },
+  {
+    "item_id": "held_power_band",
+    "original_name": "Power Band",
+    "cyber_sleuth_item": "ATK Attach E",
+    "source_description": "Attack +5",
+    "runtime_description": "A hold item that slightly boosts the Digimon's Attack.",
+    "adaptation": "Closest stat-equipment role; native percentage or critical-stage effect retained instead of source fixed stat points."
+  },
+  {
+    "item_id": "held_scope_lens",
+    "original_name": "Scope Lens",
+    "cyber_sleuth_item": "CRT Attach C",
+    "source_description": "Critical chance +5%",
+    "runtime_description": "A lens used for scoping out weak points. It boosts the holder’s critical-hit ratio.",
+    "adaptation": "Closest stat-equipment role; native percentage or critical-stage effect retained instead of source fixed stat points."
+  },
+  {
+    "item_id": "held_sky_plate",
+    "original_name": "Sky Plate",
+    "cyber_sleuth_item": "Wind Guard DX",
+    "source_description": "Reduce wind damage by 20%.",
+    "runtime_description": "Reduce wind damage by 20%.",
+    "adaptation": "Source 20% reduction applied to the corresponding dungeon element."
+  },
+  {
+    "item_id": "held_special_band",
+    "original_name": "Special Band",
+    "cyber_sleuth_item": "INT Attach E",
+    "source_description": "Intellect +5",
+    "runtime_description": "A hold item that slightly boosts the Digimon's Special Attack.",
+    "adaptation": "Closest stat-equipment role; native percentage or critical-stage effect retained instead of source fixed stat points."
+  },
+  {
+    "item_id": "held_splash_plate",
+    "original_name": "Splash Plate",
+    "cyber_sleuth_item": "Aqua Guard DX",
+    "source_description": "Reduce water damage by 20%.",
+    "runtime_description": "Reduce water damage by 20%.",
+    "adaptation": "Source 20% reduction applied to the corresponding dungeon element."
+  },
+  {
+    "item_id": "held_wide_lens",
+    "original_name": "Wide Lens",
+    "cyber_sleuth_item": "HIT Attach C",
+    "source_description": "Accuracy +5%",
+    "runtime_description": "A magnifying lens that boosts the Digimon's Accuracy.",
+    "adaptation": "Closest stat-equipment role; native percentage or critical-stage effect retained instead of source fixed stat points."
+  },
+  {
+    "item_id": "held_zap_plate",
+    "original_name": "Zap Plate",
+    "cyber_sleuth_item": "Electric Guard DX",
+    "source_description": "Reduce thunder damage by 20%.",
+    "runtime_description": "Reduce thunder damage by 20%.",
+    "adaptation": "Source 20% reduction applied to the corresponding dungeon element."
+  },
+  {
+    "item_id": "held_zinc_band",
+    "original_name": "Zinc Band",
+    "cyber_sleuth_item": "INT Attach E",
+    "source_description": "Intellect +5",
+    "runtime_description": "A hold item that slightly boosts the Digimon's Special Defense.",
+    "adaptation": "Closest stat-equipment role; native percentage or critical-stage effect retained instead of source fixed stat points."
+  },
+  {
+    "item_id": "loot_comet_shard",
+    "original_name": "Comet Shard",
+    "cyber_sleuth_item": "Diamond",
+    "source_description": "Items that only exist to sell.",
+    "runtime_description": "Valuable data that can be sold for Bits.",
+    "adaptation": "Sale-only equivalent; existing price retained."
+  },
+  {
+    "item_id": "loot_nugget",
+    "original_name": "Nugget",
+    "cyber_sleuth_item": "Topaz",
+    "source_description": "Items that only exist to sell.",
+    "runtime_description": "Valuable data that can be sold for Bits.",
+    "adaptation": "Sale-only equivalent; existing price retained."
+  },
+  {
+    "item_id": "loot_pearl",
+    "original_name": "Pearl",
+    "cyber_sleuth_item": "Pearl",
+    "source_description": "Items that only exist to sell.",
+    "runtime_description": "Valuable data that can be sold for Bits.",
+    "adaptation": "Sale-only equivalent; existing price retained."
+  },
+  {
+    "item_id": "loot_star_piece",
+    "original_name": "Star Piece",
+    "cyber_sleuth_item": "Ruby",
+    "source_description": "Items that only exist to sell.",
+    "runtime_description": "Valuable data that can be sold for Bits.",
+    "adaptation": "Sale-only equivalent; existing price retained."
+  },
+  {
+    "item_id": "medicine_dire_hit",
+    "original_name": "Dire Hit",
+    "cyber_sleuth_item": "CRT Boost",
+    "source_description": "During battle, increase critical chance to one member by 20% for 5 turns.",
+    "runtime_description": "An item that raises critical-hit ratio. It affects all team members up to 5 tiles away.",
+    "adaptation": "Dungeon adaptation: existing effect amounts and targeting retained."
+  },
+  {
+    "item_id": "medicine_elixir",
+    "original_name": "Elixir",
+    "cyber_sleuth_item": "SP Spray B",
+    "source_description": "Restore 60 SP to all members (only the 3 battle members during a battle.)",
+    "runtime_description": "Restores 10 PP to each move. Affects nearby teammates.",
+    "adaptation": "Move PP is the dungeon analogue of SP; source SP is used only for evolution requirements."
+  },
+  {
+    "item_id": "medicine_full_heal",
+    "original_name": "Full Heal",
+    "cyber_sleuth_item": "Multi-Recovery DX",
+    "source_description": "Recover status effects from all battle member and restore 100 HP.",
+    "runtime_description": "Cures dungeon status problems. Affects teammates within 5 tiles.",
+    "adaptation": "Cures engine bad statuses; source additional 100 HP healing is not applied."
+  },
+  {
+    "item_id": "medicine_max_elixir",
+    "original_name": "Max Elixir",
+    "cyber_sleuth_item": "SP Spray A",
+    "source_description": "Restore all SP to all members (only the 3 battle members during a battle.)",
+    "runtime_description": "Fully restores move PP. Affects nearby teammates.",
+    "adaptation": "Move PP is the dungeon analogue of SP; source SP is used only for evolution requirements."
+  },
+  {
+    "item_id": "medicine_max_potion",
+    "original_name": "Max Potion",
+    "cyber_sleuth_item": "HP Spray A",
+    "source_description": "Restore all HP to all members (only the 3 battle members during a battle.)",
+    "runtime_description": "A spray-type medicine that fully restores HP. It affects all team members up to 3 tiles away.",
+    "adaptation": "Dungeon adaptation: existing effect amounts and targeting retained."
+  },
+  {
+    "item_id": "medicine_potion",
+    "original_name": "Potion",
+    "cyber_sleuth_item": "HP Spray C",
+    "source_description": "Restore 500 HP to all members (only the 3 battle members during a battle.)",
+    "runtime_description": "A spray-type medicine that somewhat restores HP. It affects all team members up to 5 tiles away.",
+    "adaptation": "Dungeon adaptation: existing effect amounts and targeting retained."
+  },
+  {
+    "item_id": "medicine_x_accuracy",
+    "original_name": "X Accuracy",
+    "cyber_sleuth_item": "HIT Boost",
+    "source_description": "During battle, increase accuracy to one member by 20% for 5 turns.",
+    "runtime_description": "An item that sharply raises Accuracy. It affects all team members up to 5 tiles away.",
+    "adaptation": "Dungeon adaptation: existing effect amounts and targeting retained."
+  },
+  {
+    "item_id": "medicine_x_attack",
+    "original_name": "X Attack",
+    "cyber_sleuth_item": "ATK Boost",
+    "source_description": "During battle, increase attack to one member by 20% for 5 turns.",
+    "runtime_description": "An item that sharply raises Attack. It affects all team members up to 5 tiles away.",
+    "adaptation": "Dungeon adaptation: existing effect amounts and targeting retained."
+  },
+  {
+    "item_id": "medicine_x_defense",
+    "original_name": "X Defense",
+    "cyber_sleuth_item": "DEF Boost",
+    "source_description": "During battle, increase defense to one member by 20% for 5 turns.",
+    "runtime_description": "An item that sharply raises Defense. It affects all team members up to 5 tiles away.",
+    "adaptation": "Dungeon adaptation: existing effect amounts and targeting retained."
+  },
+  {
+    "item_id": "medicine_x_sp_atk",
+    "original_name": "X Sp. Atk",
+    "cyber_sleuth_item": "INT Boost",
+    "source_description": "During battle, increase intellect to one member by 20% for 5 turns.",
+    "runtime_description": "An item that sharply raises Special Attack. It affects all team members up to 5 tiles away.",
+    "adaptation": "Dungeon adaptation: existing effect amounts and targeting retained."
+  },
+  {
+    "item_id": "medicine_x_speed",
+    "original_name": "X Speed",
+    "cyber_sleuth_item": "SPD Boost",
+    "source_description": "During battle, increase speed to one member by 20% for 5 turns.",
+    "runtime_description": "An item that boosts Movement Speed by 1 stage. It affects all team members up to 5 tiles away.",
+    "adaptation": "Dungeon adaptation: existing effect amounts and targeting retained."
+  },
+  {
+    "item_id": "orb_all_dodge",
+    "original_name": "All-Dodge Orb",
+    "cyber_sleuth_item": "AGL Boost",
+    "source_description": "During battle, increase evasion to one member by 20% for 5 turns.",
+    "runtime_description": "An orb that drastically boosts Evasion. It affects team members up to 5 tiles away.",
+    "adaptation": "Dungeon adaptation: existing effect amounts and targeting retained."
+  },
+  {
+    "item_id": "orb_escape",
+    "original_name": "Escape Orb",
+    "cyber_sleuth_item": "Export",
+    "source_description": "Teleports you to the dungeon entrance.",
+    "runtime_description": "An orb that allows the team to instantly warp out of the dungeon.",
+    "adaptation": "Dungeon adaptation: existing effect amounts and targeting retained."
+  },
+  {
+    "item_id": "seed_reviver",
+    "original_name": "Reviver Seed",
+    "cyber_sleuth_item": "Full Revival Spray",
+    "source_description": "Revive all members to full HP.",
+    "runtime_description": "Manually revives all fallen teammates with full HP. Does not activate automatically on defeat.",
+    "adaptation": "Uses native party revival; replaces the automatic Reviver Seed effect."
+  }
+]

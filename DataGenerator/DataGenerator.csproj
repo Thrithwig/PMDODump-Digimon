@@ -45,6 +45,7 @@
     <Compile Include="Dev\WikiUtils.cs" />
     <Compile Include="GenPath.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="DigimonRuntimeChecks.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

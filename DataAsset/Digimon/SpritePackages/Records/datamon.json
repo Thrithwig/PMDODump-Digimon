@@ -1,0 +1,11 @@
+{
+  "species": "datamon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Nanomon",
+  "source_url": "https://wikimon.net/images/1/12/Nanomon_new_century.png",
+  "source_sha256": "71454d19a45317158c85eba085ce2bc4c9bf29b3c90bc0334119a8bc69c0f177",
+  "png_sha256": "e0d1783cb92815590fb5fda6aaf59b1f5b6e1df4385ceee99b5086c64bf20b9b",
+  "width": 659,
+  "height": 594,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

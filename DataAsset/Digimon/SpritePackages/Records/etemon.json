@@ -1,0 +1,11 @@
+{
+  "species": "etemon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Etemon",
+  "source_url": "https://wikimon.net/images/3/3f/Etemon_new_century.png",
+  "source_sha256": "8236195427cc0335d33e13ba1a6fdeb28a33ebc670b3412c9c0e4fd8304b9eac",
+  "png_sha256": "7971b2ac892ef296e62ec2a46c182374888b5054c8484d81b7263c0d9e1c79b5",
+  "width": 578,
+  "height": 707,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

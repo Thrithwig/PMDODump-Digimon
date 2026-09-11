@@ -1,0 +1,11 @@
+{
+  "species": "megidramon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Megidramon",
+  "source_url": "https://wikimon.net/images/6/62/MegidramonReArise.png",
+  "source_sha256": "8e9b183e2d412a50cdfe9e16199aa7c211f27ea0a857b9ce574d98ed76667c11",
+  "png_sha256": "de350b279509fb17c72151ba5bf3dac76153c7c2ebfd50a03996f98434c9b1e3",
+  "width": 411,
+  "height": 477,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

@@ -1,0 +1,11 @@
+{
+  "species": "tokomon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Tokomon",
+  "source_url": "https://wikimon.net/images/e/ef/Tokomon_new_century.png",
+  "source_sha256": "31fd38f39d4ffbb9fefbf35a221f810e14e6a36ad207b831fc06f8703230af1c",
+  "png_sha256": "6b56133a63064f904695ab5e9a88efa9704c371b7fd6c76299b58ddaf61bcb48",
+  "width": 310,
+  "height": 433,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

@@ -1,0 +1,22 @@
+PMDODump Digimon - Windows playtest
+
+Run PMDC.exe or the Start menu shortcut. Start a NEW GAME for this conversion.
+The game and .NET runtime are included; no separate SDK installation is needed.
+Use the in-game controls menu to view or change keyboard/controller bindings.
+
+Progression: clear Tropical Path to reach Forest Camp. Faultline Ridge then
+becomes available and unlocks Trickster Woods. Use the team signposts for scan
+data recovery, and the Tree of Life for digivolution.
+
+All Digimon share one EXP requirement curve. Enemy EXP received depends on stage:
+Baby/In-Training 2x; Rookie 1.5x; Champion 1x; Ultimate 0.75x; Mega 0.5x.
+Evolution resets level to 1 and retains 20% of new stat gains, rounded down.
+
+This is an unfinished, noncommercial fan playtest. Static Digimon art and
+some original PMDO content remain. Original credits and license notices are
+included in README.txt, spritebot_credits.txt, and Licenses.
+
+Report the dungeon/floor, party, actions before the issue, and a screenshot.
+Logs are in LOG next to PMDC.exe. Your saves are in SAVE in that same folder.
+Installer updates preserve saves, but back them up before switching builds.
+Uninstalling removes packaged files; generated saves/configuration are retained.

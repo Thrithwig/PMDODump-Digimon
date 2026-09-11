@@ -1,0 +1,11 @@
+{
+  "species": "palmon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Palmon",
+  "source_url": "https://wikimon.net/images/c/ca/Palmon_new_century.png",
+  "source_sha256": "64bf99ff50956102175e09a131adf43ee74b13353451a585c18c7c79ec37d9d0",
+  "png_sha256": "9b14a5a822bf84d48b920543d5f76a760ea4c4140085eb5fe75ec70a9a7a6786",
+  "width": 493,
+  "height": 675,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

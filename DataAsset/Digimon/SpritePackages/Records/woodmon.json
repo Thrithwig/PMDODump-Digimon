@@ -1,0 +1,11 @@
+{
+  "species": "woodmon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Woodmon",
+  "source_url": "https://wikimon.net/images/3/30/Woodmon_new_century.png",
+  "source_sha256": "ac0d59a72817170e7fba945d7c2ced040ca0dc421cc047beefcef57eef6e17c6",
+  "png_sha256": "c1b8321ca2c6228608e3df52c53d4456a11329860f29ed7c8b423639d88ad865",
+  "width": 614,
+  "height": 755,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

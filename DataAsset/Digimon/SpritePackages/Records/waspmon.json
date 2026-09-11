@@ -1,0 +1,11 @@
+{
+  "species": "waspmon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Waspmon",
+  "source_url": "https://wikimon.net/images/3/3c/Waspmon_Linkz.png",
+  "source_sha256": "394ca8371346442fc0501ca785fd6aff46cfbb96dff7b16f83e1c8030abe5c61",
+  "png_sha256": "876cf50b576f4af536e73bd746adc7ca2c18443fb755b6251c5f92a02eccda7b",
+  "width": 524,
+  "height": 630,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

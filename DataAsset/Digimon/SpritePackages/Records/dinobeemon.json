@@ -1,0 +1,11 @@
+{
+  "species": "dinobeemon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Dinobeemon",
+  "source_url": "https://wikimon.net/images/d/d3/Dinobeemon_TS_Model.png",
+  "source_sha256": "8d43a6e2e13af77a83a592b49fe02d13402bce268aba3ddb75529b3bdfcc8dc1",
+  "png_sha256": "d2859d91b748cfe6cd9bd8d205731e6e177458c0f30c7c4af6cc8a35156c85b9",
+  "width": 2325,
+  "height": 1695,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

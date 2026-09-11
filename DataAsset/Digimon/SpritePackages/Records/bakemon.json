@@ -1,0 +1,11 @@
+{
+  "species": "bakemon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Bakemon",
+  "source_url": "https://wikimon.net/images/a/af/Bakemon_new_century.png",
+  "source_sha256": "20669135076d6d917ade7934083a5ac6e4c17b3c1f3830bb29ee5ae98ba41560",
+  "png_sha256": "271eb6fb6f2e2996f33c16c005df4dcfcdbfffdb009de9ce23d8aecb10bb05b6",
+  "width": 640,
+  "height": 659,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

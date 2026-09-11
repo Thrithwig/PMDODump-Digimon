@@ -1,0 +1,403 @@
+{
+  "removed_story_gates": [
+    {
+      "species": "arcadiamon_champion",
+      "condition": "Cleared \"Hacker's Memory\""
+    },
+    {
+      "species": "arcadiamon_in_tr",
+      "condition": "Cleared \"Hacker's Memory\""
+    },
+    {
+      "species": "arcadiamon_mega",
+      "condition": "Cleared \"Hacker's Memory\""
+    },
+    {
+      "species": "arcadiamon_rookie",
+      "condition": "Cleared \"Hacker's Memory\""
+    },
+    {
+      "species": "arcadiamon_ultimate",
+      "condition": "Cleared \"Hackers's Memory\""
+    },
+    {
+      "species": "arcadiamon_ultra",
+      "condition": "Cleared \"Hacker's Memory\""
+    },
+    {
+      "species": "hudiemon",
+      "condition": "Cleared \"Hacker's Memory\""
+    }
+  ],
+  "skill_assignments": [
+    {
+      "species": "leopardmon",
+      "skill": "black_aura_blast",
+      "runtime_skill": "black_aura_blast__leopardmon",
+      "variant": "black_aura_blast__1c26da3f903216b709fccdd8f890195711bedf485772c6bf8e6612db21af25df",
+      "policy": "Explicit learner adaptation; source CSV lacks variant-to-learner association."
+    },
+    {
+      "species": "leopardmon_nx",
+      "skill": "black_aura_blast",
+      "runtime_skill": "black_aura_blast__leopardmon_nx",
+      "variant": "black_aura_blast__1c26da3f903216b709fccdd8f890195711bedf485772c6bf8e6612db21af25df",
+      "policy": "Explicit learner adaptation; source CSV lacks variant-to-learner association."
+    },
+    {
+      "species": "alphamon",
+      "skill": "blade_of_the_dragon_king",
+      "runtime_skill": "blade_of_the_dragon_king__alphamon",
+      "variant": "blade_of_the_dragon_king__58f84f905804bb85366de3918d9cd7a6fd038e55887fbba1035c42eb97a0565b",
+      "policy": "Explicit learner adaptation; source CSV lacks variant-to-learner association."
+    },
+    {
+      "species": "alphamon_nx",
+      "skill": "blade_of_the_dragon_king",
+      "runtime_skill": "blade_of_the_dragon_king__alphamon_nx",
+      "variant": "blade_of_the_dragon_king__e7b294e2897ff3003c6086c061eb4d19d51235bc394183d8b1e56a51e9d94b1d",
+      "policy": "Explicit learner adaptation; source CSV lacks variant-to-learner association."
+    },
+    {
+      "species": "ravemon",
+      "skill": "celestial_blade",
+      "runtime_skill": "celestial_blade__ravemon",
+      "variant": "celestial_blade__90150aa34a8f187482e356463e1f79eca8e80bfa78c7b2e8447c5aca168c7e7f",
+      "policy": "Explicit learner adaptation; source CSV lacks variant-to-learner association."
+    },
+    {
+      "species": "susanomon",
+      "skill": "celestial_blade",
+      "runtime_skill": "celestial_blade__susanomon",
+      "variant": "celestial_blade__952350cfb2bc05fa104ca95cefdb1a537d62a55acfc7f345072e77e26b53fdc6",
+      "policy": "Explicit learner adaptation; source CSV lacks variant-to-learner association."
+    },
+    {
+      "species": "crusadermon",
+      "skill": "fist_of_athena",
+      "runtime_skill": "fist_of_athena__crusadermon",
+      "variant": "fist_of_athena__b89bd9cffde3ba5fc0bafca077d51561751311acb3d188441a249d1cbb89d681",
+      "policy": "Explicit learner adaptation; source CSV lacks variant-to-learner association."
+    },
+    {
+      "species": "crusadermon_nx",
+      "skill": "fist_of_athena",
+      "runtime_skill": "fist_of_athena__crusadermon_nx",
+      "variant": "fist_of_athena__3b9d93edb8aa23c23154c32b13d8a60572f8a88d466c64f42ed95845de8b9f0f",
+      "policy": "Explicit learner adaptation; source CSV lacks variant-to-learner association."
+    },
+    {
+      "species": "gallantmon",
+      "skill": "lightning_joust",
+      "runtime_skill": "lightning_joust__gallantmon",
+      "variant": "lightning_joust__06ab036c0d4b8d88bc20426a7be68ed5a36eea76f609919272393d46ab20a48b",
+      "policy": "Explicit learner adaptation; source CSV lacks variant-to-learner association."
+    },
+    {
+      "species": "gallantmon_nx",
+      "skill": "lightning_joust",
+      "runtime_skill": "lightning_joust__gallantmon_nx",
+      "variant": "lightning_joust__7a71ec4193bfde75123f4157d5253f417b23cd58f1731715b5e6441a5a1b7994",
+      "policy": "Explicit learner adaptation; source CSV lacks variant-to-learner association."
+    },
+    {
+      "species": "gallantmon",
+      "skill": "shield_of_the_just",
+      "runtime_skill": "shield_of_the_just__gallantmon",
+      "variant": "shield_of_the_just__fe8e25c5f9f2cd5c47b4d55a38d6b9526e8b7043719d50e9636cd7324cbb5c9d",
+      "policy": "Explicit learner adaptation; source CSV lacks variant-to-learner association."
+    },
+    {
+      "species": "gallantmon_nx",
+      "skill": "shield_of_the_just",
+      "runtime_skill": "shield_of_the_just__gallantmon_nx",
+      "variant": "shield_of_the_just__e6387897c6d5a29c134641ed45442aa30b3110d07db0dc7b3a62df054f82989b",
+      "policy": "Explicit learner adaptation; source CSV lacks variant-to-learner association."
+    },
+    {
+      "species": "alphamon",
+      "skill": "soul_digitalization",
+      "runtime_skill": "soul_digitalization__alphamon",
+      "variant": "soul_digitalization__fad5927178c40786390ecf92702b4c35a25ea7dc0dbc1a7a60e7ba2aa344459c",
+      "policy": "Explicit learner adaptation; source CSV lacks variant-to-learner association."
+    },
+    {
+      "species": "alphamon_nx",
+      "skill": "soul_digitalization",
+      "runtime_skill": "soul_digitalization__alphamon_nx",
+      "variant": "soul_digitalization__63aa73437f7600cb2e4ed974997209dc96433c5b08fb6f6c57651303ddefb7f7",
+      "policy": "Explicit learner adaptation; source CSV lacks variant-to-learner association."
+    },
+    {
+      "species": "crusadermon",
+      "skill": "spiral_masquerade",
+      "runtime_skill": "spiral_masquerade__crusadermon",
+      "variant": "spiral_masquerade__d2faa008dfef8ab29d99f81522f092ca5e369e8200edd1c0ece8f693b57300ca",
+      "policy": "Explicit learner adaptation; source CSV lacks variant-to-learner association."
+    },
+    {
+      "species": "crusadermon_nx",
+      "skill": "spiral_masquerade",
+      "runtime_skill": "spiral_masquerade__crusadermon_nx",
+      "variant": "spiral_masquerade__503044906a2e399896f2ee825b22f8a3a88cf82a9f820284a215364d66ddf3c5",
+      "policy": "Explicit learner adaptation; source CSV lacks variant-to-learner association."
+    },
+    {
+      "species": "omnimon",
+      "skill": "supreme_cannon",
+      "runtime_skill": "supreme_cannon__omnimon",
+      "variant": "supreme_cannon__49cdfac8ae062ec89a33bee87d86e767cfd5ec77805f27fea7aef27526260524",
+      "policy": "Explicit learner adaptation; source CSV lacks variant-to-learner association."
+    },
+    {
+      "species": "omnimon_nx",
+      "skill": "supreme_cannon",
+      "runtime_skill": "supreme_cannon__omnimon_nx",
+      "variant": "supreme_cannon__49cdfac8ae062ec89a33bee87d86e767cfd5ec77805f27fea7aef27526260524",
+      "policy": "Explicit learner adaptation; source CSV lacks variant-to-learner association."
+    },
+    {
+      "species": "omnimon_zwart",
+      "skill": "supreme_cannon",
+      "runtime_skill": "supreme_cannon__omnimon_zwart",
+      "variant": "supreme_cannon__d714b99fd6a138cf4f41cbc1fbe878d96374495fd7eececfe445cd24583b021d",
+      "policy": "Explicit learner adaptation; source CSV lacks variant-to-learner association."
+    },
+    {
+      "species": "omnimon",
+      "skill": "transcendent_sword",
+      "runtime_skill": "transcendent_sword__omnimon",
+      "variant": "transcendent_sword__9d01591a0357153812f5b4e2006f2f2970fb1577ae95178486916e20a8827ff0",
+      "policy": "Explicit learner adaptation; source CSV lacks variant-to-learner association."
+    },
+    {
+      "species": "omnimon_nx",
+      "skill": "transcendent_sword",
+      "runtime_skill": "transcendent_sword__omnimon_nx",
+      "variant": "transcendent_sword__9d01591a0357153812f5b4e2006f2f2970fb1577ae95178486916e20a8827ff0",
+      "policy": "Explicit learner adaptation; source CSV lacks variant-to-learner association."
+    },
+    {
+      "species": "omnimon_zwart",
+      "skill": "transcendent_sword",
+      "runtime_skill": "transcendent_sword__omnimon_zwart",
+      "variant": "transcendent_sword__ac30542c3bf3bb24136281740dd005e9420583ef253fdebd85f75b98a018c21e",
+      "policy": "Explicit learner adaptation; source CSV lacks variant-to-learner association."
+    }
+  ],
+  "restoration_only": [
+    "alphamon_nx",
+    "crusadermon_nx",
+    "gallantmon_nx",
+    "leopardmon_nx",
+    "omnimon_nx"
+  ],
+  "item_gates": {
+    "agunimon": [
+      {
+        "kind": "item",
+        "item": "evo_fire_stone",
+        "name": "Human Spirit of Flame",
+        "minimum": 1
+      }
+    ],
+    "alphamon_ouryuken": [
+      {
+        "kind": "party",
+        "species": "alphamon",
+        "minimum": 60
+      },
+      {
+        "kind": "party",
+        "species": "ouryumon",
+        "minimum": 60
+      }
+    ],
+    "burninggreymon": [
+      {
+        "kind": "item",
+        "item": "evo_dusk_stone",
+        "name": "Beast Spirit of Flame",
+        "minimum": 1
+      }
+    ],
+    "chaosmon": [
+      {
+        "kind": "party",
+        "species": "bancholeomon",
+        "minimum": 60
+      },
+      {
+        "kind": "party",
+        "species": "darkdramon",
+        "minimum": 60
+      }
+    ],
+    "chaosmon_va": [
+      {
+        "kind": "party",
+        "species": "bancholeomon",
+        "minimum": 60
+      },
+      {
+        "kind": "party",
+        "species": "varodurumon",
+        "minimum": 60
+      }
+    ],
+    "dinobeemon": [
+      {
+        "kind": "party",
+        "species": "exveemon",
+        "minimum": 30
+      },
+      {
+        "kind": "party",
+        "species": "stingmon",
+        "minimum": 30
+      }
+    ],
+    "examon": [
+      {
+        "kind": "party",
+        "species": "breakdramon",
+        "minimum": 60
+      },
+      {
+        "kind": "party",
+        "species": "slayerdramon",
+        "minimum": 60
+      }
+    ],
+    "flamedramon": [
+      {
+        "kind": "item",
+        "item": "evo_sun_stone",
+        "name": "Digi-Egg of Courage",
+        "minimum": 1
+      }
+    ],
+    "kendogarurumon": [
+      {
+        "kind": "item",
+        "item": "evo_dawn_stone",
+        "name": "Beast Spirit of Light",
+        "minimum": 1
+      }
+    ],
+    "lobomon": [
+      {
+        "kind": "item",
+        "item": "evo_thunder_stone",
+        "name": "Human Spirit of Light",
+        "minimum": 1
+      }
+    ],
+    "magnamon": [
+      {
+        "kind": "item",
+        "item": "evo_shiny_stone",
+        "name": "Digi-Egg of Miracles",
+        "minimum": 1
+      }
+    ],
+    "mastemon": [
+      {
+        "kind": "party",
+        "species": "angewomon",
+        "minimum": 60
+      },
+      {
+        "kind": "party",
+        "species": "ladydevimon",
+        "minimum": 60
+      }
+    ],
+    "omnimon": [
+      {
+        "kind": "party",
+        "species": "metalgarurumon",
+        "minimum": 60
+      },
+      {
+        "kind": "party",
+        "species": "wargreymon",
+        "minimum": 60
+      }
+    ],
+    "omnimon_zwart": [
+      {
+        "kind": "party",
+        "species": "blackwargreymon",
+        "minimum": 60
+      },
+      {
+        "kind": "party",
+        "species": "metalgarurumon_blk",
+        "minimum": 60
+      }
+    ],
+    "paildramon": [
+      {
+        "kind": "party",
+        "species": "exveemon",
+        "minimum": 30
+      },
+      {
+        "kind": "party",
+        "species": "stingmon",
+        "minimum": 30
+      }
+    ],
+    "rapidmon_armor": [
+      {
+        "kind": "item",
+        "item": "evo_moon_stone",
+        "name": "Digi-Egg of Destiny",
+        "minimum": 1
+      }
+    ],
+    "shakkoumon": [
+      {
+        "kind": "party",
+        "species": "angemon",
+        "minimum": 30
+      },
+      {
+        "kind": "party",
+        "species": "ankylomon",
+        "minimum": 30
+      }
+    ],
+    "silphymon": [
+      {
+        "kind": "party",
+        "species": "aquilamon",
+        "minimum": 30
+      },
+      {
+        "kind": "party",
+        "species": "gatomon",
+        "minimum": 30
+      }
+    ],
+    "susanomon": [
+      {
+        "kind": "party",
+        "species": "kaisergreymon",
+        "minimum": 60
+      },
+      {
+        "kind": "party",
+        "species": "magnagarurumon",
+        "minimum": 60
+      }
+    ]
+  },
+  "fusion_policy": "Both listed partners must be in the active party at the source required level. Partner remains in the party; no duplication or item substitute.",
+  "growth_policy": {
+    "Armor": "Champion (1x)",
+    "Ultra": "Mega (0.5x)",
+    "None": "Rookie for Shoutmon; Mega for OmniShoutmon"
+  }
+}

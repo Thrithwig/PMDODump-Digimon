@@ -1,9 +1,9 @@
 [submodule "PMDC"]
 	path = PMDC
-	url = https://github.com/PMDCollab/PMDC.git
+	url = https://github.com/Thrithwig/PMDC-Digimon.git
 [submodule "RawAsset"]
 	path = RawAsset
 	url = https://github.com/PMDCollab/RawAsset.git
 [submodule "DumpAsset"]
 	path = DumpAsset
-	url = https://github.com/audinowho/DumpAsset.git
+	url = https://github.com/Thrithwig/DumpAsset-Digimon.git

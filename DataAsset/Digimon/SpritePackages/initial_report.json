@@ -1,0 +1,665 @@
+{
+  "packages": [
+    {
+      "species": "agumon",
+      "frame_size": 96,
+      "sheet_rows": [
+        "Down",
+        "DownRight",
+        "Right",
+        "UpRight",
+        "Up",
+        "UpLeft",
+        "Left",
+        "DownLeft"
+      ],
+      "package": "SpritePackages/Packages/agumon"
+    },
+    {
+      "species": "angemon",
+      "frame_size": 96,
+      "sheet_rows": [
+        "Down",
+        "DownRight",
+        "Right",
+        "UpRight",
+        "Up",
+        "UpLeft",
+        "Left",
+        "DownLeft"
+      ],
+      "package": "SpritePackages/Packages/angemon"
+    },
+    {
+      "species": "angewomon",
+      "frame_size": 96,
+      "sheet_rows": [
+        "Down",
+        "DownRight",
+        "Right",
+        "UpRight",
+        "Up",
+        "UpLeft",
+        "Left",
+        "DownLeft"
+      ],
+      "package": "SpritePackages/Packages/angewomon"
+    },
+    {
+      "species": "birdramon",
+      "frame_size": 96,
+      "sheet_rows": [
+        "Down",
+        "DownRight",
+        "Right",
+        "UpRight",
+        "Up",
+        "UpLeft",
+        "Left",
+        "DownLeft"
+      ],
+      "package": "SpritePackages/Packages/birdramon"
+    },
+    {
+      "species": "biyomon",
+      "frame_size": 96,
+      "sheet_rows": [
+        "Down",
+        "DownRight",
+        "Right",
+        "UpRight",
+        "Up",
+        "UpLeft",
+        "Left",
+        "DownLeft"
+      ],
+      "package": "SpritePackages/Packages/biyomon"
+    },
+    {
+      "species": "botamon",
+      "frame_size": 96,
+      "sheet_rows": [
+        "Down",
+        "DownRight",
+        "Right",
+        "UpRight",
+        "Up",
+        "UpLeft",
+        "Left",
+        "DownLeft"
+      ],
+      "package": "SpritePackages/Packages/botamon"
+    },
+    {
+      "species": "bukamon",
+      "frame_size": 96,
+      "sheet_rows": [
+        "Down",
+        "DownRight",
+        "Right",
+        "UpRight",
+        "Up",
+        "UpLeft",
+        "Left",
+        "DownLeft"
+      ],
+      "package": "SpritePackages/Packages/bukamon"
+    },
+    {
+      "species": "gabumon",
+      "frame_size": 96,
+      "sheet_rows": [
+        "Down",
+        "DownRight",
+        "Right",
+        "UpRight",
+        "Up",
+        "UpLeft",
+        "Left",
+        "DownLeft"
+      ],
+      "package": "SpritePackages/Packages/gabumon"
+    },
+    {
+      "species": "garudamon",
+      "frame_size": 96,
+      "sheet_rows": [
+        "Down",
+        "DownRight",
+        "Right",
+        "UpRight",
+        "Up",
+        "UpLeft",
+        "Left",
+        "DownLeft"
+      ],
+      "package": "SpritePackages/Packages/garudamon"
+    },
+    {
+      "species": "garurumon",
+      "frame_size": 96,
+      "sheet_rows": [
+        "Down",
+        "DownRight",
+        "Right",
+        "UpRight",
+        "Up",
+        "UpLeft",
+        "Left",
+        "DownLeft"
+      ],
+      "package": "SpritePackages/Packages/garurumon"
+    },
+    {
+      "species": "gatomon",
+      "frame_size": 96,
+      "sheet_rows": [
+        "Down",
+        "DownRight",
+        "Right",
+        "UpRight",
+        "Up",
+        "UpLeft",
+        "Left",
+        "DownLeft"
+      ],
+      "package": "SpritePackages/Packages/gatomon"
+    },
+    {
+      "species": "gomamon",
+      "frame_size": 96,
+      "sheet_rows": [
+        "Down",
+        "DownRight",
+        "Right",
+        "UpRight",
+        "Up",
+        "UpLeft",
+        "Left",
+        "DownLeft"
+      ],
+      "package": "SpritePackages/Packages/gomamon"
+    },
+    {
+      "species": "greymon",
+      "frame_size": 96,
+      "sheet_rows": [
+        "Down",
+        "DownRight",
+        "Right",
+        "UpRight",
+        "Up",
+        "UpLeft",
+        "Left",
+        "DownLeft"
+      ],
+      "package": "SpritePackages/Packages/greymon"
+    },
+    {
+      "species": "herculeskabuterimon",
+      "frame_size": 96,
+      "sheet_rows": [
+        "Down",
+        "DownRight",
+        "Right",
+        "UpRight",
+        "Up",
+        "UpLeft",
+        "Left",
+        "DownLeft"
+      ],
+      "package": "SpritePackages/Packages/herculeskabuterimon"
+    },
+    {
+      "species": "hououmon",
+      "frame_size": 96,
+      "sheet_rows": [
+        "Down",
+        "DownRight",
+        "Right",
+        "UpRight",
+        "Up",
+        "UpLeft",
+        "Left",
+        "DownLeft"
+      ],
+      "package": "SpritePackages/Packages/hououmon"
+    },
+    {
+      "species": "ikkakumon",
+      "frame_size": 96,
+      "sheet_rows": [
+        "Down",
+        "DownRight",
+        "Right",
+        "UpRight",
+        "Up",
+        "UpLeft",
+        "Left",
+        "DownLeft"
+      ],
+      "package": "SpritePackages/Packages/ikkakumon"
+    },
+    {
+      "species": "kabuterimon",
+      "frame_size": 96,
+      "sheet_rows": [
+        "Down",
+        "DownRight",
+        "Right",
+        "UpRight",
+        "Up",
+        "UpLeft",
+        "Left",
+        "DownLeft"
+      ],
+      "package": "SpritePackages/Packages/kabuterimon"
+    },
+    {
+      "species": "koromon",
+      "frame_size": 96,
+      "sheet_rows": [
+        "Down",
+        "DownRight",
+        "Right",
+        "UpRight",
+        "Up",
+        "UpLeft",
+        "Left",
+        "DownLeft"
+      ],
+      "package": "SpritePackages/Packages/koromon"
+    },
+    {
+      "species": "lillymon",
+      "frame_size": 96,
+      "sheet_rows": [
+        "Down",
+        "DownRight",
+        "Right",
+        "UpRight",
+        "Up",
+        "UpLeft",
+        "Left",
+        "DownLeft"
+      ],
+      "package": "SpritePackages/Packages/lillymon"
+    },
+    {
+      "species": "magnaangemon",
+      "frame_size": 96,
+      "sheet_rows": [
+        "Down",
+        "DownRight",
+        "Right",
+        "UpRight",
+        "Up",
+        "UpLeft",
+        "Left",
+        "DownLeft"
+      ],
+      "package": "SpritePackages/Packages/magnaangemon"
+    },
+    {
+      "species": "megakabuterimon",
+      "frame_size": 96,
+      "sheet_rows": [
+        "Down",
+        "DownRight",
+        "Right",
+        "UpRight",
+        "Up",
+        "UpLeft",
+        "Left",
+        "DownLeft"
+      ],
+      "package": "SpritePackages/Packages/megakabuterimon"
+    },
+    {
+      "species": "metalgarurumon",
+      "frame_size": 96,
+      "sheet_rows": [
+        "Down",
+        "DownRight",
+        "Right",
+        "UpRight",
+        "Up",
+        "UpLeft",
+        "Left",
+        "DownLeft"
+      ],
+      "package": "SpritePackages/Packages/metalgarurumon"
+    },
+    {
+      "species": "metalgreymon",
+      "frame_size": 96,
+      "sheet_rows": [
+        "Down",
+        "DownRight",
+        "Right",
+        "UpRight",
+        "Up",
+        "UpLeft",
+        "Left",
+        "DownLeft"
+      ],
+      "package": "SpritePackages/Packages/metalgreymon"
+    },
+    {
+      "species": "motimon",
+      "frame_size": 96,
+      "sheet_rows": [
+        "Down",
+        "DownRight",
+        "Right",
+        "UpRight",
+        "Up",
+        "UpLeft",
+        "Left",
+        "DownLeft"
+      ],
+      "package": "SpritePackages/Packages/motimon"
+    },
+    {
+      "species": "nyaromon",
+      "frame_size": 96,
+      "sheet_rows": [
+        "Down",
+        "DownRight",
+        "Right",
+        "UpRight",
+        "Up",
+        "UpLeft",
+        "Left",
+        "DownLeft"
+      ],
+      "package": "SpritePackages/Packages/nyaromon"
+    },
+    {
+      "species": "ophanimon",
+      "frame_size": 96,
+      "sheet_rows": [
+        "Down",
+        "DownRight",
+        "Right",
+        "UpRight",
+        "Up",
+        "UpLeft",
+        "Left",
+        "DownLeft"
+      ],
+      "package": "SpritePackages/Packages/ophanimon"
+    },
+    {
+      "species": "pabumon",
+      "frame_size": 96,
+      "sheet_rows": [
+        "Down",
+        "DownRight",
+        "Right",
+        "UpRight",
+        "Up",
+        "UpLeft",
+        "Left",
+        "DownLeft"
+      ],
+      "package": "SpritePackages/Packages/pabumon"
+    },
+    {
+      "species": "palmon",
+      "frame_size": 96,
+      "sheet_rows": [
+        "Down",
+        "DownRight",
+        "Right",
+        "UpRight",
+        "Up",
+        "UpLeft",
+        "Left",
+        "DownLeft"
+      ],
+      "package": "SpritePackages/Packages/palmon"
+    },
+    {
+      "species": "patamon",
+      "frame_size": 96,
+      "sheet_rows": [
+        "Down",
+        "DownRight",
+        "Right",
+        "UpRight",
+        "Up",
+        "UpLeft",
+        "Left",
+        "DownLeft"
+      ],
+      "package": "SpritePackages/Packages/patamon"
+    },
+    {
+      "species": "poyomon",
+      "frame_size": 96,
+      "sheet_rows": [
+        "Down",
+        "DownRight",
+        "Right",
+        "UpRight",
+        "Up",
+        "UpLeft",
+        "Left",
+        "DownLeft"
+      ],
+      "package": "SpritePackages/Packages/poyomon"
+    },
+    {
+      "species": "punimon",
+      "frame_size": 96,
+      "sheet_rows": [
+        "Down",
+        "DownRight",
+        "Right",
+        "UpRight",
+        "Up",
+        "UpLeft",
+        "Left",
+        "DownLeft"
+      ],
+      "package": "SpritePackages/Packages/punimon"
+    },
+    {
+      "species": "rosemon",
+      "frame_size": 96,
+      "sheet_rows": [
+        "Down",
+        "DownRight",
+        "Right",
+        "UpRight",
+        "Up",
+        "UpLeft",
+        "Left",
+        "DownLeft"
+      ],
+      "package": "SpritePackages/Packages/rosemon"
+    },
+    {
+      "species": "salamon",
+      "frame_size": 96,
+      "sheet_rows": [
+        "Down",
+        "DownRight",
+        "Right",
+        "UpRight",
+        "Up",
+        "UpLeft",
+        "Left",
+        "DownLeft"
+      ],
+      "package": "SpritePackages/Packages/salamon"
+    },
+    {
+      "species": "seraphimon",
+      "frame_size": 96,
+      "sheet_rows": [
+        "Down",
+        "DownRight",
+        "Right",
+        "UpRight",
+        "Up",
+        "UpLeft",
+        "Left",
+        "DownLeft"
+      ],
+      "package": "SpritePackages/Packages/seraphimon"
+    },
+    {
+      "species": "tanemon",
+      "frame_size": 96,
+      "sheet_rows": [
+        "Down",
+        "DownRight",
+        "Right",
+        "UpRight",
+        "Up",
+        "UpLeft",
+        "Left",
+        "DownLeft"
+      ],
+      "package": "SpritePackages/Packages/tanemon"
+    },
+    {
+      "species": "tentomon",
+      "frame_size": 96,
+      "sheet_rows": [
+        "Down",
+        "DownRight",
+        "Right",
+        "UpRight",
+        "Up",
+        "UpLeft",
+        "Left",
+        "DownLeft"
+      ],
+      "package": "SpritePackages/Packages/tentomon"
+    },
+    {
+      "species": "togemon",
+      "frame_size": 96,
+      "sheet_rows": [
+        "Down",
+        "DownRight",
+        "Right",
+        "UpRight",
+        "Up",
+        "UpLeft",
+        "Left",
+        "DownLeft"
+      ],
+      "package": "SpritePackages/Packages/togemon"
+    },
+    {
+      "species": "tokomon",
+      "frame_size": 96,
+      "sheet_rows": [
+        "Down",
+        "DownRight",
+        "Right",
+        "UpRight",
+        "Up",
+        "UpLeft",
+        "Left",
+        "DownLeft"
+      ],
+      "package": "SpritePackages/Packages/tokomon"
+    },
+    {
+      "species": "tsunomon",
+      "frame_size": 96,
+      "sheet_rows": [
+        "Down",
+        "DownRight",
+        "Right",
+        "UpRight",
+        "Up",
+        "UpLeft",
+        "Left",
+        "DownLeft"
+      ],
+      "package": "SpritePackages/Packages/tsunomon"
+    },
+    {
+      "species": "vikemon",
+      "frame_size": 96,
+      "sheet_rows": [
+        "Down",
+        "DownRight",
+        "Right",
+        "UpRight",
+        "Up",
+        "UpLeft",
+        "Left",
+        "DownLeft"
+      ],
+      "package": "SpritePackages/Packages/vikemon"
+    },
+    {
+      "species": "wargreymon",
+      "frame_size": 96,
+      "sheet_rows": [
+        "Down",
+        "DownRight",
+        "Right",
+        "UpRight",
+        "Up",
+        "UpLeft",
+        "Left",
+        "DownLeft"
+      ],
+      "package": "SpritePackages/Packages/wargreymon"
+    },
+    {
+      "species": "weregarurumon",
+      "frame_size": 96,
+      "sheet_rows": [
+        "Down",
+        "DownRight",
+        "Right",
+        "UpRight",
+        "Up",
+        "UpLeft",
+        "Left",
+        "DownLeft"
+      ],
+      "package": "SpritePackages/Packages/weregarurumon"
+    },
+    {
+      "species": "yokomon",
+      "frame_size": 96,
+      "sheet_rows": [
+        "Down",
+        "DownRight",
+        "Right",
+        "UpRight",
+        "Up",
+        "UpLeft",
+        "Left",
+        "DownLeft"
+      ],
+      "package": "SpritePackages/Packages/yokomon"
+    },
+    {
+      "species": "zudomon",
+      "frame_size": 96,
+      "sheet_rows": [
+        "Down",
+        "DownRight",
+        "Right",
+        "UpRight",
+        "Up",
+        "UpLeft",
+        "Left",
+        "DownLeft"
+      ],
+      "package": "SpritePackages/Packages/zudomon"
+    }
+  ],
+  "unresolved": []
+}

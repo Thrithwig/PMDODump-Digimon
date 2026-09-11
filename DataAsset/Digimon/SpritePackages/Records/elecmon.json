@@ -1,0 +1,11 @@
+{
+  "species": "elecmon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Elecmon",
+  "source_url": "https://wikimon.net/images/c/cd/Elecmon_new_century.png",
+  "source_sha256": "71ef2d7e6174a3afc9652e76d81c1e48ca3cd991789109d44210623885fd505b",
+  "png_sha256": "1dcc768850076ec228ec0ba681aa9d2b69aecc7e0f939ce815bee2a30b3ca7a7",
+  "width": 529,
+  "height": 668,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

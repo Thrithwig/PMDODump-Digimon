@@ -1,0 +1,11 @@
+{
+  "species": "megadramon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Megadramon",
+  "source_url": "https://wikimon.net/images/6/61/Megadramon_new_century.png",
+  "source_sha256": "eb83dc9f7492d6da8d41138fe2ae3b8ea0a41df3414270d738c3958d5db1be2e",
+  "png_sha256": "3daf5a0974605f0a2ba50609fd364366096223a820fb0bc9cc4f0d641a59f1be",
+  "width": 779,
+  "height": 860,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

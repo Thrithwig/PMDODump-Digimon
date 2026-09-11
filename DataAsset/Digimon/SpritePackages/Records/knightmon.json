@@ -1,0 +1,11 @@
+{
+  "species": "knightmon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Knightmon",
+  "source_url": "https://wikimon.net/images/9/9d/Knightmon_new_century.png",
+  "source_sha256": "a5e09361063c575e42256e6899524fd118358835dfbb2cb4cce857199ff77cce",
+  "png_sha256": "efd00955c498997317d00e5c77fee7bfcd8ca57ba3d62da9121c145222a97ab3",
+  "width": 836,
+  "height": 635,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

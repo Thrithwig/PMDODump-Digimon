@@ -1,0 +1,18 @@
+This is for unmatched items. All already matched items should remain the same.
+
+Remove all non-released items
+Change ammo to correspond to the Restraint Chips (i.e. Cacnea Spike = Atk Restraint) for ammo that doesn't negatively impact a stat remove and replace with missing restraint chips. They should be similar to Cacnea spike in design but reducing other stats
+Remove all Apricorns, not needed in Digimon conversion
+Retain Boxes as is. Boxes should still link with their item types (i.e. dainty boxes linking to food items)
+Remove Empty item on line 73
+Remove Evo items on line 74 - 96
+Retain food items as is but rename to digital appropriate alternatives (Apple = cookie, Banana = Pie, etc...)
+Retain Gummis but rename to the food items that boost stats (i.e. Digimeat  - Miracle Meat) Change the additional bonus dependencies from elemental type to personality (Durable: Increases HP (+5%) Lively: Increases Special Defense (+5%) Fighter: Increases Attack (+5%) Defender: Increases Defense (+5%) Brainy: Increases Intelligence (+5%)Nimble: Increases Speed (+5%)Builder: Decreases item development time and adds small balanced points to all stats Searcher: Decreases investigation case time and adds small balanced points to all stats).
+Retain Loot items as is.
+Replace Held items with Equipment items
+Remove Herbs and Medicine
+Retain Machines and Orbs as is. Rename Orbs to Commands (i.e. All-Aim Command)
+Implement the Brave Points as defined by Digimon. Remove all seeds except Blast seed which should be renamed as Dynamite
+For now, remove TMs from item drop tables. Determine feasibility of giving Attachment skill discs when Digimon hit specific levels (i.e. https://game8.co/games/Digimon-Story-Time-Stranger/archives/556175). This would theoretically replace all TM items with their Digimon move counterpart.
+Remove Wands
+Develop 3 concepts to implement xcls. Since Digimon branch and do not stay on one evolutionary line, species exclusive buffs aren't valid but the concept is cool. Until a decision is made, remove from all stores and drop tables.

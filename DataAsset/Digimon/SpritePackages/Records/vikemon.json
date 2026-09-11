@@ -1,0 +1,11 @@
+{
+  "species": "vikemon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Vikemon",
+  "source_url": "https://wikimon.net/images/0/0c/Vikemon_new_century.png",
+  "source_sha256": "e1604e4dc8d54c8a48005d865d9f1193fdfb27a645587fea365d96de4e6c85bb",
+  "png_sha256": "aa6ba672b629d62da3ffa30108262194fee3402f154371852c163e680d29c0d4",
+  "width": 777,
+  "height": 890,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

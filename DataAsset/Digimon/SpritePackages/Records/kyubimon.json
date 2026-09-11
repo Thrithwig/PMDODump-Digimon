@@ -1,0 +1,11 @@
+{
+  "species": "kyubimon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Kyubimon",
+  "source_url": "https://wikimon.net/images/5/54/Kyubimon_new_century.png",
+  "source_sha256": "7d126e4ca2ded31ad7fa3f545da5c6da1965f9de048e10a6d1a2ef664cc6a65e",
+  "png_sha256": "d71c47eb34ffb258eb4c69f68284ecf86b61a6249df662c9a8d86b5e2fc9e598",
+  "width": 642,
+  "height": 798,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

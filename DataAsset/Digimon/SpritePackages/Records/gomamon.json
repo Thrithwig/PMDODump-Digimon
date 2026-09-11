@@ -1,0 +1,11 @@
+{
+  "species": "gomamon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Gomamon",
+  "source_url": "https://wikimon.net/images/f/f2/Gomamon_new_century.png",
+  "source_sha256": "4af623897fb79fcf95ccd4df902c10b09f7301b3fb13c45992e0b264866e0dc7",
+  "png_sha256": "6576e6a4afd81589491ffeb04039d7af24e1b0439ecbcf28d9c1a0f5a47f2121",
+  "width": 461,
+  "height": 745,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

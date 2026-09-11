@@ -29,6 +29,8 @@ namespace DataGenerator
             string[] args = Environment.GetCommandLineArgs();
             PathMod.InitPathMod(args[0]);
 
+            bool digimonCheck = false;
+            string digimonSpriteCheck = null;
             bool loadStrings = false;
             bool itemPrep = false;
             bool zonePrep = false;
@@ -62,6 +64,10 @@ namespace DataGenerator
                     }
                     else if (args[ii].ToLower() == "-wiki")
                         printWiki = true;
+                    else if (args[ii] == "-digimon-check")
+                        digimonCheck = true;
+                    else if (args[ii] == "-digimon-sprite-check")
+                        digimonSpriteCheck = Path.GetFullPath(args[++ii]);
                     else if (args[ii] == "-index")
                     {
                         int jj = 1;
@@ -192,6 +198,53 @@ namespace DataGenerator
 
                 Text.Init();
                 Text.SetCultureCode("");
+
+                if (digimonSpriteCheck != null)
+                {
+                    try
+                    {
+                        using (GameBase game = new GameBase())
+                        {
+                            GraphicsManager.SetWindowMode(1);
+                            GraphicsManager.InitSystem(game.GraphicsDevice);
+                            int count = 0;
+                            foreach (string directory in Directory.GetDirectories(digimonSpriteCheck))
+                            {
+                                using (CharSheet sheet = CharSheet.Import(directory + Path.DirectorySeparatorChar))
+                                using (MemoryStream stream = new MemoryStream())
+                                {
+                                    using (BinaryWriter writer = new BinaryWriter(stream, System.Text.Encoding.UTF8, true))
+                                        sheet.Save(writer);
+                                    stream.Position = 0;
+                                    using (BinaryReader reader = new BinaryReader(stream))
+                                    using (CharSheet reloaded = CharSheet.Load(reader)) { }
+                                }
+                                count++;
+                            }
+                            if (count == 0) throw new InvalidDataException("No sprite packages found.");
+                            Console.WriteLine("Imported and binary-round-tripped " + count + " Digimon sprite packages.");
+                        }
+                    }
+                    catch (Exception error) { Console.Error.WriteLine(error); Environment.ExitCode = 1; }
+                    return;
+                }
+
+                if (digimonCheck)
+                {
+                    try
+                    {
+                        using (GameBase game = new GameBase())
+                        {
+                            GraphicsManager.SetWindowMode(1);
+                            GraphicsManager.InitSystem(game.GraphicsDevice);
+                            GameManager.InitInstance();
+                            GameManager.Instance.CurrentScene = new DigimonRuntimeChecks.CheckScene();
+                            DigimonRuntimeChecks.Run();
+                        }
+                    }
+                    catch (Exception error) { Console.Error.WriteLine(error); Environment.ExitCode = 1; }
+                    return;
+                }
 
                 if (itemPrep)
                 {
@@ -365,6 +418,8 @@ namespace DataGenerator
                     //TODO: remove when data is no longer hardcoded
                     LuaEngine.InitInstance();
                     DataManager.InitInstance();
+                    // Common Lua modules read existing indices during script initialization.
+                    DataManager.Instance.InitData();
                     LuaEngine.Instance.LoadScripts();
                     DataManager.Instance.LoadConversions();
                     DataManager.InitDataDirs(PathMod.ModPath(""));

@@ -1,0 +1,11 @@
+{
+  "species": "punimon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Punimon",
+  "source_url": "https://wikimon.net/images/a/a7/Punimon_new_century.png",
+  "source_sha256": "b0066a52be9b9b84508179f077244c620c2014f0742e7ed324903190b304889a",
+  "png_sha256": "eccf948ed9ca31f6658608309e1c7d3e06338156168f73f65e4e987a1d6b008d",
+  "width": 325,
+  "height": 338,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

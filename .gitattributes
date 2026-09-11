@@ -1,0 +1,5 @@
+# Source checksums pin the downloaded bytes, including original line endings.
+DataAsset/Digimon/Source/*.csv -text
+DataAsset/Digimon/*.json text eol=lf
+DataAsset/Monster/digimon_manifest.json text eol=lf
+DataAsset/Digimon/Source/*.txt -text

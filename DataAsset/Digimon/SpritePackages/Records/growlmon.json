@@ -1,0 +1,11 @@
+{
+  "species": "growlmon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Growmon",
+  "source_url": "https://wikimon.net/images/f/f8/Growmon_Encounters.png",
+  "source_sha256": "fc4b94936a1b7c32d20acf4bd775dffea31965dd15fe7acc06447f4276db5ac6",
+  "png_sha256": "9b63b24d58e48b28e62e9f350abd8f4f9c76b6e0fc3abbb0d8dfcfe08faf98e5",
+  "width": 391,
+  "height": 512,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

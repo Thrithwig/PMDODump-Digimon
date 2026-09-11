@@ -1,0 +1,12 @@
+{
+  "species": "durandamon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Durandamon",
+  "source_url": "https://wikimon.net/images/f/f3/Durandamon_up.png",
+  "source_sha256": "aa6c2602a2e9bdcaf5cd1b41d1c5d93a30bb954b015ade03aa0c3f5aff7eb47c",
+  "png_sha256": "b9e0e0b47b5594b87d3f62d9abb20503bce2d89560ce018e073a84ce61a74b89",
+  "width": 75,
+  "height": 126,
+  "quality_note": "Native pixel-art fallback; higher-resolution illustration still wanted.",
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

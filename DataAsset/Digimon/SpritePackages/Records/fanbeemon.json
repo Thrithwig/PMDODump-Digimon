@@ -1,0 +1,11 @@
+{
+  "species": "fanbeemon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Funbeemon",
+  "source_url": "https://wikimon.net/images/7/7a/Funbeemon_ReArise.png",
+  "source_sha256": "53ef021887277312e04a865a0b704c202137b15f295dd90660da4c57a5b0dc29",
+  "png_sha256": "335caa87ad822ccb5d31c7611cc7e64c68b5fccfab73fdacf4ac6e9c6b523b9a",
+  "width": 512,
+  "height": 512,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

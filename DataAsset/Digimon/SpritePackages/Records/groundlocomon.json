@@ -1,0 +1,11 @@
+{
+  "species": "groundlocomon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Grand_Locomon",
+  "source_url": "https://wikimon.net/images/8/80/GrandLocomon_Linkz.png",
+  "source_sha256": "c766aa6fb832b0d94c179447b0b34207ed3ea13860a3b852fc3797be18ef1041",
+  "png_sha256": "d09e24a0d4e274dba92a43787d9d1b39f21ab93c8820c8823ffac49d74843063",
+  "width": 750,
+  "height": 650,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

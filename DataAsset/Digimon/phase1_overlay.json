@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "balance_version": "phase1-runtime-2",
+  "status": "initial_tuning_not_playtested",
+  "level": {
+    "start": 5,
+    "maximum": 99
+  },
+  "stats": {
+    "max_hp": {
+      "source": "hp",
+      "numerator": 1,
+      "denominator": 10,
+      "offset": 20
+    },
+    "attack": {
+      "source": "atk",
+      "numerator": 1,
+      "denominator": 2,
+      "offset": 5
+    },
+    "defense": {
+      "source": "def",
+      "numerator": 1,
+      "denominator": 2,
+      "offset": 5
+    },
+    "magic_attack": {
+      "source": "int",
+      "numerator": 1,
+      "denominator": 2,
+      "offset": 5
+    },
+    "magic_defense": {
+      "source": "int",
+      "numerator": 1,
+      "denominator": 2,
+      "offset": 5
+    },
+    "speed": {
+      "source": "spd",
+      "numerator": 1,
+      "denominator": 2,
+      "offset": 5
+    },
+    "source_sp": {
+      "source": "sp",
+      "numerator": 1,
+      "denominator": 1,
+      "offset": 0
+    }
+  },
+  "requirement_stats": {
+    "HP": "max_hp",
+    "SP": "source_sp",
+    "ATK": "attack",
+    "DEF": "defense",
+    "INT": "magic_attack",
+    "SPD": "speed"
+  },
+  "progression": {
+    "bond": {
+      "initial": 10,
+      "maximum": 100,
+      "per_eligible_defeat": 1
+    },
+    "training": {
+      "initial": 0,
+      "maximum": 100,
+      "per_new_highest_level": 1
+    },
+    "transitions": {
+      "hub_only": true,
+      "preserve_level": true,
+      "costs": [],
+      "dedigivolution": {
+        "reset_level": 1,
+        "levels_per_stat_bonus": 10,
+        "levels_per_abi": 5,
+        "maximum_stat_bonus": 256
+      }
+    }
+  },
+  "scan": {
+    "points_per_defeat": 25,
+    "unlock_threshold": 100,
+    "points_per_species_per_floor": 100,
+    "overflow_bits_per_point": 0,
+    "restoration_level": 5,
+    "restoration_requires_digicode": true,
+    "direct_recruitment": false,
+    "excluded_sources": [
+      "summon",
+      "illusion",
+      "friendly",
+      "neutral",
+      "pvp_ghost",
+      "scripted_defeat"
+    ],
+    "restoration_levels_per_threshold": 5,
+    "restoration_maximum_level": 99
+  }
+}

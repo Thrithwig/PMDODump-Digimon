@@ -1,0 +1,11 @@
+{
+  "species": "biyomon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Piyomon",
+  "source_url": "https://wikimon.net/images/5/5d/Piyomon_new_century.png",
+  "source_sha256": "94343f3b7d53023d48cfc80e5b4855aa8d1b56b6f20244d7a666d0f1518d8423",
+  "png_sha256": "5c5fc206881bda89d6a9dbb5f5f33e178365afc56133dd7c1981825c529f2fa7",
+  "width": 640,
+  "height": 483,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

@@ -1,0 +1,11 @@
+{
+  "species": "hououmon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Hououmon",
+  "source_url": "https://wikimon.net/images/8/84/Hououmon_new_century.png",
+  "source_sha256": "9d8f08c228043e722a89247c13334f6555b9dcd6be6454d2c9cd41b22b90945c",
+  "png_sha256": "1be96ae3ceda9b9b1c176bdb46fb56e266f75f482c58f3726c8583b305fc1e85",
+  "width": 880,
+  "height": 801,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

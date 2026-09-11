@@ -1,0 +1,11 @@
+{
+  "species": "veedramon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/V-dramon",
+  "source_url": "https://wikimon.net/images/d/da/V-dramon_ReArise.png",
+  "source_sha256": "89589e123817bf88ad1756864db304aa87341afcd2b6588a54adcf557e28bf72",
+  "png_sha256": "c27f354f55099faf65dc48a0d18c43112c9dfc740fc65fef7c431a66623e166d",
+  "width": 603,
+  "height": 883,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

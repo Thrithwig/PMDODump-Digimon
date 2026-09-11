@@ -1,0 +1,358 @@
+{
+  "source_list": "https://wikimon.net/Visual_List_of_Digimon",
+  "rights_status": "Source attribution recorded; redistribution permission not established by this import.",
+  "images": [
+    {
+      "species": "agumon",
+      "wikimon_name": "Agumon",
+      "page_url": "https://wikimon.net/Agumon",
+      "file_page_url": "https://wikimon.net/File:Agumon.jpg",
+      "source_url": "https://wikimon.net/images/7/72/Agumon.jpg",
+      "path": "Images/agumon.png"
+    },
+    {
+      "species": "angemon",
+      "wikimon_name": "Angemon",
+      "page_url": "https://wikimon.net/Angemon",
+      "file_page_url": "https://wikimon.net/File:Angemon.png",
+      "source_url": "https://wikimon.net/images/6/68/Angemon.png",
+      "path": "Images/angemon.png"
+    },
+    {
+      "species": "angewomon",
+      "wikimon_name": "Angewomon",
+      "page_url": "https://wikimon.net/Angewomon",
+      "file_page_url": "https://wikimon.net/File:Angewomon.png",
+      "source_url": "https://wikimon.net/images/2/23/Angewomon.png",
+      "path": "Images/angewomon.png"
+    },
+    {
+      "species": "birdramon",
+      "wikimon_name": "Birdramon",
+      "page_url": "https://wikimon.net/Birdramon",
+      "file_page_url": "https://wikimon.net/File:Birdramon.png",
+      "source_url": "https://wikimon.net/images/0/05/Birdramon.png",
+      "path": "Images/birdramon.png"
+    },
+    {
+      "species": "biyomon",
+      "wikimon_name": "Piyomon",
+      "page_url": "https://wikimon.net/Piyomon",
+      "file_page_url": "https://wikimon.net/File:Piyomon.jpg",
+      "source_url": "https://wikimon.net/images/d/d8/Piyomon.jpg",
+      "path": "Images/biyomon.png"
+    },
+    {
+      "species": "botamon",
+      "wikimon_name": "Botamon",
+      "page_url": "https://wikimon.net/Botamon",
+      "file_page_url": "https://wikimon.net/File:Botamon.jpg",
+      "source_url": "https://wikimon.net/images/e/ed/Botamon.jpg",
+      "path": "Images/botamon.png"
+    },
+    {
+      "species": "bukamon",
+      "wikimon_name": "Pukamon",
+      "page_url": "https://wikimon.net/Pukamon",
+      "file_page_url": "https://wikimon.net/File:Pukamon.jpg",
+      "source_url": "https://wikimon.net/images/7/73/Pukamon.jpg",
+      "path": "Images/bukamon.png"
+    },
+    {
+      "species": "gabumon",
+      "wikimon_name": "Gabumon",
+      "page_url": "https://wikimon.net/Gabumon",
+      "file_page_url": "https://wikimon.net/File:Gabumon.png",
+      "source_url": "https://wikimon.net/images/f/fd/Gabumon.png",
+      "path": "Images/gabumon.png"
+    },
+    {
+      "species": "garudamon",
+      "wikimon_name": "Garudamon",
+      "page_url": "https://wikimon.net/Garudamon",
+      "file_page_url": "https://wikimon.net/File:Garudamon.jpg",
+      "source_url": "https://wikimon.net/images/c/c6/Garudamon.jpg",
+      "path": "Images/garudamon.png"
+    },
+    {
+      "species": "garurumon",
+      "wikimon_name": "Garurumon",
+      "page_url": "https://wikimon.net/Garurumon",
+      "file_page_url": "https://wikimon.net/File:Garurumon.jpg",
+      "source_url": "https://wikimon.net/images/5/57/Garurumon.jpg",
+      "path": "Images/garurumon.png"
+    },
+    {
+      "species": "gatomon",
+      "wikimon_name": "Tailmon",
+      "page_url": "https://wikimon.net/Tailmon",
+      "file_page_url": "https://wikimon.net/File:Tailmon.png",
+      "source_url": "https://wikimon.net/images/2/2b/Tailmon.png",
+      "path": "Images/gatomon.png"
+    },
+    {
+      "species": "gomamon",
+      "wikimon_name": "Gomamon",
+      "page_url": "https://wikimon.net/Gomamon",
+      "file_page_url": "https://wikimon.net/File:Gomamon.jpg",
+      "source_url": "https://wikimon.net/images/9/9b/Gomamon.jpg",
+      "path": "Images/gomamon.png"
+    },
+    {
+      "species": "greymon",
+      "wikimon_name": "Greymon",
+      "page_url": "https://wikimon.net/Greymon",
+      "file_page_url": "https://wikimon.net/File:Greymon.png",
+      "source_url": "https://wikimon.net/images/6/64/Greymon.png",
+      "path": "Images/greymon.png"
+    },
+    {
+      "species": "herculeskabuterimon",
+      "wikimon_name": "Herakle Kabuterimon",
+      "page_url": "https://wikimon.net/Herakle_Kabuterimon",
+      "file_page_url": "https://wikimon.net/File:Heraklekabuterimon.jpg",
+      "source_url": "https://wikimon.net/images/f/f3/Heraklekabuterimon.jpg",
+      "path": "Images/herculeskabuterimon.png"
+    },
+    {
+      "species": "hououmon",
+      "wikimon_name": "Hououmon",
+      "page_url": "https://wikimon.net/Hououmon",
+      "file_page_url": "https://wikimon.net/File:Hououmon.jpg",
+      "source_url": "https://wikimon.net/images/1/10/Hououmon.jpg",
+      "path": "Images/hououmon.png"
+    },
+    {
+      "species": "ikkakumon",
+      "wikimon_name": "Ikkakumon",
+      "page_url": "https://wikimon.net/Ikkakumon",
+      "file_page_url": "https://wikimon.net/File:Ikkakumon.jpg",
+      "source_url": "https://wikimon.net/images/0/01/Ikkakumon.jpg",
+      "path": "Images/ikkakumon.png"
+    },
+    {
+      "species": "kabuterimon",
+      "wikimon_name": "Kabuterimon",
+      "page_url": "https://wikimon.net/Kabuterimon",
+      "file_page_url": "https://wikimon.net/File:Kabuterimon.jpg",
+      "source_url": "https://wikimon.net/images/4/4a/Kabuterimon.jpg",
+      "path": "Images/kabuterimon.png"
+    },
+    {
+      "species": "koromon",
+      "wikimon_name": "Koromon",
+      "page_url": "https://wikimon.net/Koromon",
+      "file_page_url": "https://wikimon.net/File:Koromon.jpg",
+      "source_url": "https://wikimon.net/images/6/6e/Koromon.jpg",
+      "path": "Images/koromon.png"
+    },
+    {
+      "species": "lillymon",
+      "wikimon_name": "Lilimon",
+      "page_url": "https://wikimon.net/Lilimon",
+      "file_page_url": "https://wikimon.net/File:Lilimon.jpg",
+      "source_url": "https://wikimon.net/images/a/a8/Lilimon.jpg",
+      "path": "Images/lillymon.png"
+    },
+    {
+      "species": "magnaangemon",
+      "wikimon_name": "Holy Angemon",
+      "page_url": "https://wikimon.net/Holy_Angemon",
+      "file_page_url": "https://wikimon.net/File:Holyangemon.jpg",
+      "source_url": "https://wikimon.net/images/6/6d/Holyangemon.jpg",
+      "path": "Images/magnaangemon.png"
+    },
+    {
+      "species": "megakabuterimon",
+      "wikimon_name": "Atlur Kabuterimon (Red)",
+      "page_url": "https://wikimon.net/Atlur_Kabuterimon_%28Red%29",
+      "file_page_url": "https://wikimon.net/File:Atlurkabuterimon_red.jpg",
+      "source_url": "https://wikimon.net/images/6/65/Atlurkabuterimon_red.jpg",
+      "path": "Images/megakabuterimon.png"
+    },
+    {
+      "species": "metalgarurumon",
+      "wikimon_name": "Metal Garurumon",
+      "page_url": "https://wikimon.net/Metal_Garurumon",
+      "file_page_url": "https://wikimon.net/File:Metalgarurumon.png",
+      "source_url": "https://wikimon.net/images/0/05/Metalgarurumon.png",
+      "path": "Images/metalgarurumon.png"
+    },
+    {
+      "species": "metalgreymon",
+      "wikimon_name": "Metal Greymon",
+      "page_url": "https://wikimon.net/Metal_Greymon",
+      "file_page_url": "https://wikimon.net/File:Metalgreymon.jpg",
+      "source_url": "https://wikimon.net/images/d/d8/Metalgreymon.jpg",
+      "path": "Images/metalgreymon.png"
+    },
+    {
+      "species": "motimon",
+      "wikimon_name": "Mochimon",
+      "page_url": "https://wikimon.net/Mochimon",
+      "file_page_url": "https://wikimon.net/File:Mochimon.jpg",
+      "source_url": "https://wikimon.net/images/2/29/Mochimon.jpg",
+      "path": "Images/motimon.png"
+    },
+    {
+      "species": "nyaromon",
+      "wikimon_name": "Nyaromon",
+      "page_url": "https://wikimon.net/Nyaromon",
+      "file_page_url": "https://wikimon.net/File:Nyaromon.png",
+      "source_url": "https://wikimon.net/images/1/14/Nyaromon.png",
+      "path": "Images/nyaromon.png"
+    },
+    {
+      "species": "ophanimon",
+      "wikimon_name": "Ofanimon",
+      "page_url": "https://wikimon.net/Ofanimon",
+      "file_page_url": "https://wikimon.net/File:Ofanimon.png",
+      "source_url": "https://wikimon.net/images/5/52/Ofanimon.png",
+      "path": "Images/ophanimon.png"
+    },
+    {
+      "species": "pabumon",
+      "wikimon_name": "Bubbmon",
+      "page_url": "https://wikimon.net/Bubbmon",
+      "file_page_url": "https://wikimon.net/File:Bubbmon.jpg",
+      "source_url": "https://wikimon.net/images/1/1f/Bubbmon.jpg",
+      "path": "Images/pabumon.png"
+    },
+    {
+      "species": "palmon",
+      "wikimon_name": "Palmon",
+      "page_url": "https://wikimon.net/Palmon",
+      "file_page_url": "https://wikimon.net/File:Palmon.jpg",
+      "source_url": "https://wikimon.net/images/6/61/Palmon.jpg",
+      "path": "Images/palmon.png"
+    },
+    {
+      "species": "patamon",
+      "wikimon_name": "Patamon",
+      "page_url": "https://wikimon.net/Patamon",
+      "file_page_url": "https://wikimon.net/File:Patamon.png",
+      "source_url": "https://wikimon.net/images/0/0b/Patamon.png",
+      "path": "Images/patamon.png"
+    },
+    {
+      "species": "poyomon",
+      "wikimon_name": "Poyomon",
+      "page_url": "https://wikimon.net/Poyomon",
+      "file_page_url": "https://wikimon.net/File:Poyomon.jpg",
+      "source_url": "https://wikimon.net/images/8/80/Poyomon.jpg",
+      "path": "Images/poyomon.png"
+    },
+    {
+      "species": "punimon",
+      "wikimon_name": "Punimon",
+      "page_url": "https://wikimon.net/Punimon",
+      "file_page_url": "https://wikimon.net/File:Punimon.jpg",
+      "source_url": "https://wikimon.net/images/a/a0/Punimon.jpg",
+      "path": "Images/punimon.png"
+    },
+    {
+      "species": "rosemon",
+      "wikimon_name": "Rosemon",
+      "page_url": "https://wikimon.net/Rosemon",
+      "file_page_url": "https://wikimon.net/File:Rosemon.jpg",
+      "source_url": "https://wikimon.net/images/b/bb/Rosemon.jpg",
+      "path": "Images/rosemon.png"
+    },
+    {
+      "species": "salamon",
+      "wikimon_name": "Plotmon",
+      "page_url": "https://wikimon.net/Plotmon",
+      "file_page_url": "https://wikimon.net/File:Plotmon.png",
+      "source_url": "https://wikimon.net/images/3/33/Plotmon.png",
+      "path": "Images/salamon.png"
+    },
+    {
+      "species": "seraphimon",
+      "wikimon_name": "Seraphimon",
+      "page_url": "https://wikimon.net/Seraphimon",
+      "file_page_url": "https://wikimon.net/File:Seraphimon.jpg",
+      "source_url": "https://wikimon.net/images/7/75/Seraphimon.jpg",
+      "path": "Images/seraphimon.png"
+    },
+    {
+      "species": "tanemon",
+      "wikimon_name": "Tanemon",
+      "page_url": "https://wikimon.net/Tanemon",
+      "file_page_url": "https://wikimon.net/File:Tanemon.jpg",
+      "source_url": "https://wikimon.net/images/3/3d/Tanemon.jpg",
+      "path": "Images/tanemon.png"
+    },
+    {
+      "species": "tentomon",
+      "wikimon_name": "Tentomon",
+      "page_url": "https://wikimon.net/Tentomon",
+      "file_page_url": "https://wikimon.net/File:Tentomon.jpg",
+      "source_url": "https://wikimon.net/images/a/ac/Tentomon.jpg",
+      "path": "Images/tentomon.png"
+    },
+    {
+      "species": "togemon",
+      "wikimon_name": "Togemon",
+      "page_url": "https://wikimon.net/Togemon",
+      "file_page_url": "https://wikimon.net/File:Togemon.jpg",
+      "source_url": "https://wikimon.net/images/0/0f/Togemon.jpg",
+      "path": "Images/togemon.png"
+    },
+    {
+      "species": "tokomon",
+      "wikimon_name": "Tokomon",
+      "page_url": "https://wikimon.net/Tokomon",
+      "file_page_url": "https://wikimon.net/File:Tokomon.png",
+      "source_url": "https://wikimon.net/images/b/b1/Tokomon.png",
+      "path": "Images/tokomon.png"
+    },
+    {
+      "species": "tsunomon",
+      "wikimon_name": "Tunomon",
+      "page_url": "https://wikimon.net/Tunomon",
+      "file_page_url": "https://wikimon.net/File:Tunomon.jpg",
+      "source_url": "https://wikimon.net/images/5/59/Tunomon.jpg",
+      "path": "Images/tsunomon.png"
+    },
+    {
+      "species": "vikemon",
+      "wikimon_name": "Vikemon",
+      "page_url": "https://wikimon.net/Vikemon",
+      "file_page_url": "https://wikimon.net/File:Vikemon.jpg",
+      "source_url": "https://wikimon.net/images/7/77/Vikemon.jpg",
+      "path": "Images/vikemon.png"
+    },
+    {
+      "species": "wargreymon",
+      "wikimon_name": "War Greymon",
+      "page_url": "https://wikimon.net/War_Greymon",
+      "file_page_url": "https://wikimon.net/File:Wargreymon.jpg",
+      "source_url": "https://wikimon.net/images/9/94/Wargreymon.jpg",
+      "path": "Images/wargreymon.png"
+    },
+    {
+      "species": "weregarurumon",
+      "wikimon_name": "Were Garurumon",
+      "page_url": "https://wikimon.net/Were_Garurumon",
+      "file_page_url": "https://wikimon.net/File:Weregarurumon.jpg",
+      "source_url": "https://wikimon.net/images/8/8f/Weregarurumon.jpg",
+      "path": "Images/weregarurumon.png"
+    },
+    {
+      "species": "yokomon",
+      "wikimon_name": "Pyocomon",
+      "page_url": "https://wikimon.net/Pyocomon",
+      "file_page_url": "https://wikimon.net/File:Pyocomon.jpg",
+      "source_url": "https://wikimon.net/images/a/a4/Pyocomon.jpg",
+      "path": "Images/yokomon.png"
+    },
+    {
+      "species": "zudomon",
+      "wikimon_name": "Zudomon",
+      "page_url": "https://wikimon.net/Zudomon",
+      "file_page_url": "https://wikimon.net/File:Zudomon.jpg",
+      "source_url": "https://wikimon.net/images/b/b3/Zudomon.jpg",
+      "path": "Images/zudomon.png"
+    }
+  ]
+}

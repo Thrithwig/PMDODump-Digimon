@@ -1,0 +1,11 @@
+{
+  "species": "ebemon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/EBEmon",
+  "source_url": "https://wikimon.net/images/e/ea/Ebemon_new_century.png",
+  "source_sha256": "4720ae545c67a9ff4847e8c4b65ee42624a6e8934a275cdc4fca0febe130539b",
+  "png_sha256": "7430e25c31d3b8773021d3f28535c65178622cfb3a917033c1b0d68665277700",
+  "width": 721,
+  "height": 898,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

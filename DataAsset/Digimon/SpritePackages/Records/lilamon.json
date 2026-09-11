@@ -1,0 +1,11 @@
+{
+  "species": "lilamon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Lilamon",
+  "source_url": "https://wikimon.net/images/d/d6/Lilamon.png",
+  "source_sha256": "f95a8c05a244d9e7e6cf682d4402fbf2625b84bd41b930ced4b94ef42b9f2c9d",
+  "png_sha256": "d8f19e388b4ddca68b135c022fe35359cc01cc83e06caed306e94a071b1a11fe",
+  "width": 323,
+  "height": 677,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

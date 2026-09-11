@@ -1,0 +1,11 @@
+{
+  "species": "numemon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Numemon",
+  "source_url": "https://wikimon.net/images/3/35/Numemon_new_century.png",
+  "source_sha256": "652071de7ecf1783661fcef5d5aeee6d746be615eb5196bf647ea36181c2a945",
+  "png_sha256": "ff8418464e86391541025b87aaa22c219196d7dd46b14ef32f27f2815e83cd63",
+  "width": 493,
+  "height": 590,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

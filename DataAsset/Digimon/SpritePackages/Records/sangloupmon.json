@@ -1,0 +1,11 @@
+{
+  "species": "sangloupmon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Sangloupmon",
+  "source_url": "https://wikimon.net/images/2/2b/Sangloupmon_new_century.png",
+  "source_sha256": "b1492f36e971f4efd444d2c5ab7a0ce10014283ee4c157c3fad0957e283403a0",
+  "png_sha256": "d55dd3a60f8f03e17faf6e61042f0c6e5829a14ecfb7e71d38b045c4403b63b4",
+  "width": 945,
+  "height": 1000,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

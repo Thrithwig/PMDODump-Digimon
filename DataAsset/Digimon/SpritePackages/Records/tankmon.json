@@ -1,0 +1,11 @@
+{
+  "species": "tankmon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Tankmon",
+  "source_url": "https://wikimon.net/images/7/7f/Tankmon_new_century.png",
+  "source_sha256": "77f79d479bf80fb60ecab6b3390784ec3e8b14f59cd1e00bf9038d4c9a38d18e",
+  "png_sha256": "8523eb1097f29674251ae8955c58c12e8b3762c709a5110ee5ca0bab29562f22",
+  "width": 770,
+  "height": 805,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

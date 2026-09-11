@@ -1,0 +1,11 @@
+{
+  "species": "airdramon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Airdramon",
+  "source_url": "https://wikimon.net/images/d/d5/Airdramon.png",
+  "source_sha256": "86bcca4f62a8afdd7115a3d49048e179baebdf8eb55cc1bd0563fc1f5d0c2898",
+  "png_sha256": "ebf330cd31a1e83cf66aaf19471fce37dda6c23ce15de12e67ef8dc54b0926cc",
+  "width": 480,
+  "height": 480,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

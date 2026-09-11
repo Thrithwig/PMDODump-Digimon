@@ -1,0 +1,11 @@
+{
+  "species": "mastemon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Mastemon",
+  "source_url": "https://wikimon.net/images/3/3d/Mastemon_new_century.png",
+  "source_sha256": "b0e95c6794135da2eb6563e23c90e1a992ce9f8e55d0954c3affe8c79d773d46",
+  "png_sha256": "ccd0218c83fc2a08944239770c5e77cb548de11a308b6fc3363d753dbc84f4ef",
+  "width": 819,
+  "height": 973,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

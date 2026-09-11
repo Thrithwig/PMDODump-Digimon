@@ -1,0 +1,11 @@
+{
+  "species": "boltmon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Boltmon",
+  "source_url": "https://wikimon.net/images/c/c3/Boltmon_new_century.png",
+  "source_sha256": "c3ac3e0caa48c5f78716e449148f9e7f3a894fbe29c1186caecd1ac171840ea0",
+  "png_sha256": "aea0879e03b0b1264e803e79a22eb9d4394b5894e0218fafac0c4caf0696f8f2",
+  "width": 559,
+  "height": 758,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

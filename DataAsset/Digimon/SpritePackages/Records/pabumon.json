@@ -1,0 +1,11 @@
+{
+  "species": "pabumon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Bubbmon",
+  "source_url": "https://wikimon.net/images/3/34/Bubbmon_new_century.png",
+  "source_sha256": "cff53092249626acdaac4f34605586d2ef9641a3082f5605165e8630c0fcc583",
+  "png_sha256": "87cf81d4109cfaf5b5ec3f7b1ebd9bcb789664324996dcbd7bf1a8f66a2f9095",
+  "width": 397,
+  "height": 319,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

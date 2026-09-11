@@ -1,0 +1,11 @@
+{
+  "species": "grademon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Grademon",
+  "source_url": "https://wikimon.net/images/9/95/Grademon_Model_DSR.png",
+  "source_sha256": "c077e3d06b5b132f2e7aa6ef76fb9dd8647a148813767cd8ed417af0bb114eaa",
+  "png_sha256": "61caec1c31cf631c53f02a296d2ca40262eaedbdbb77cf4fabbb9cb19075e37f",
+  "width": 1062,
+  "height": 1649,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

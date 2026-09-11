@@ -1,0 +1,11 @@
+{
+  "species": "veemon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/V-mon",
+  "source_url": "https://wikimon.net/images/d/df/V-mon_Encounters.png",
+  "source_sha256": "714096a159ab58b0271c8fbc840bca1bef5db7fb64ab7bb940557ce5d0cd5d3a",
+  "png_sha256": "8a55e1e751c682cc0aa0e6d2261fe07baab04b1a83e23a5198e8c8d1e8e271bb",
+  "width": 473,
+  "height": 569,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

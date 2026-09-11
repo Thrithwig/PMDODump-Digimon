@@ -1,0 +1,11 @@
+{
+  "species": "raremon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Raremon",
+  "source_url": "https://wikimon.net/images/a/a0/Raremon_new_century.png",
+  "source_sha256": "642a70d6a71f4c6bf331590bd1333fd9bd83954e40938824fb1be737657cd87c",
+  "png_sha256": "30d995c4848e551950bb19dea82385c88390bde2e692709ac715f6bc8b1dd418",
+  "width": 643,
+  "height": 746,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

@@ -1,0 +1,11 @@
+{
+  "species": "infermon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Infermon",
+  "source_url": "https://wikimon.net/images/2/2f/Infermon.PNG",
+  "source_sha256": "ba9d8edc6debba5ac0c7738a998065f6e376d550ec24d2b3c6dc15512720063b",
+  "png_sha256": "1165f9e0b28e5d5d432d9a5282a8e89a60dda0783d808072c783e6e5912111a7",
+  "width": 361,
+  "height": 350,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

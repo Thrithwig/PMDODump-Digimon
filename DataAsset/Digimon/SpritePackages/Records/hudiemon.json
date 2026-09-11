@@ -1,0 +1,11 @@
+{
+  "species": "hudiemon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Hudiemon",
+  "source_url": "https://wikimon.net/images/2/29/Hudiemon_CS.png",
+  "source_sha256": "e2076305b1f1e785640b830cb18932dff0cc5ec8f62797b84a9fbeb445844540",
+  "png_sha256": "b61de1f45043e9b0460850277b10fa8776b49ece2233ac6fed2af06153040a43",
+  "width": 288,
+  "height": 650,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

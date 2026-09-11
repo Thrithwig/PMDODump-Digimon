@@ -1,0 +1,12 @@
+{
+  "species": "zubaeagermon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Zubaeagermon",
+  "source_url": "https://wikimon.net/images/a/af/Zubaeagermon_up.png",
+  "source_sha256": "774db5bf082e649c521f4ecb2f24b588122c62124b211629392b2c9536890224",
+  "png_sha256": "9d577939013312c51a7478a136ee4c1eac31b359a503e15e71eb348ec725d93f",
+  "width": 68,
+  "height": 59,
+  "quality_note": "Native pixel-art fallback; higher-resolution illustration still wanted.",
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

@@ -1,0 +1,243 @@
+Item Listings
+The following tables are lists of all the items obtained in the game, along with the Japanese item names and a translated description. Each tab of the item menu will have its own table. The items will be sorted as they appear in the game's item list. I will not list the Digimon medals tab, since I have a whole section dedicated to these medals here.
+
+Consumable Items
+「消費」
+
+Item Name	Japanese Name	Description
+Memory UP	メモリアップ	A memory chip used to expand Digivice, increases party memory limit by 5.
+Memory UP DX	メモリアップDX	A high capacity memory chip used to expand Digivice, increases party memory limit by 10.
+HP Capsule C	HPカプセルC	Restore 250 HP to one member.
+HP Capsule B	HPカプセルB	Restore 750 HP to one member.
+HP Capsule A	HPカプセルA	Restore all HP to one member.
+HP Spray C	HPスプレーC	Restore 500 HP to all members (only the 3 battle members during a battle.)
+HP Spray B	HPスプレーB	Restore 1000 HP to all members (only the 3 battle members during a battle.)
+HP Spray A	HPスプレーA	Restore all HP to all members (only the 3 battle members during a battle.)
+SP Capsule C	SPカプセルC	Restore 30 SP to one member.
+SP Capsule B	SPカプセルB	Restore 90 SP to one member.
+SP Capsule A	SPカプセルA	Restore all SP to one member.
+SP Spray B	SPスプレーB	Restore 60 SP to all members (only the 3 battle members during a battle.)
+SP Spray A	SPスプレーA	Restore all SP to all members (only the 3 battle members during a battle.)
+Medical Spray	メディカルスプレー	Restore 50% HP & SP to all members (only the 3 battle members during a battle.)
+Medical Spray DX	メディカルスプレーDX	Restore all HP & SP to all members (only the 3 battle members during a battle.)
+Poison Recovery	ポイズンリカバリー	Recover Poison from one member and restore 100 HP.
+Panic Recovery	パニックリカバリー	Recover Panic from one member and restore 100 HP.
+Paralysis Recovery	パラライズリカバリー	Recover Paralyze from one member and restore 100 HP.
+Sleep Recovery	スリープリカバリー	Recover Sleep from one member and restore 100 HP.
+Stun Recovery	スタンリカバリー	Recover Stun from one member and restore 100 HP.
+Sprite Recovery	ドットリカバリー	Recover Dot from one member and restore 100 HP.
+Bug Recovery	バグリカバリー	Recover Bug from one member and restore 100 HP.
+Multi-Recovery	マルチリカバリー	Recover status effects from one member and restore 100 HP.
+Multi-Recovery DX	マルチリカバリーDX	Recover status effects from all battle member and restore 100 HP.
+Revival Capsule	リヴァイヴカプセル	Revive one member to 50% HP.
+Revival Capsule DX	リヴァイヴカプセルDX	Revive one member to full HP.
+Full Revival Spray	フルリヴァイヴスプレー	Revive all members to full HP.
+ATK Boost	ATKブースト	During battle, increase attack to one member by 20% for 5 turns.
+DEF Boost	DEFブースト	During battle, increase defense to one member by 20% for 5 turns.
+INT Boost	INTブースト	During battle, increase intellect to one member by 20% for 5 turns.
+SPD Boost	SPDブースト	During battle, increase speed to one member by 20% for 5 turns.
+HIT Boost	HITブースト	During battle, increase accuracy to one member by 20% for 5 turns.
+AGL Boost	AGLブースト	During battle, increase evasion to one member by 20% for 5 turns.
+CRT Boost	CRTブースト	During battle, increase critical chance to one member by 20% for 5 turns.
+Escape Gate	エスケープゲート	Allows you to escape from battles.
+Home Gate	ホームゲート	Teleports you to the detective office.
+Export	エクスポート	Teleports you to the dungeon entrance.
+Brave Point E	ブレイブポイントE	Give one Digimon 2,500 EXP.
+Brave Point D	ブレイブポイントD	Give one Digimon 5,000 EXP.
+Brave Point C	ブレイブポイントC	Give one Digimon 10,000 EXP.
+Brave Point B	ブレイブポイントB	Give one Digimon 20,000 EXP.
+Brave Point A	ブレイブポイントA	Give one Digimon 40,000 EXP.
+Friendship	フレンドシップ	Increase CAM by 10.
+Friendship DX	フレンドシップDX	Increase CAM by 25.
+Durability Patch	耐久型パッチ	Change the personality of one Digimon to Durable.
+Lively Patch	活力型パッチ	Change the personality of one Digimon to Lively.
+Fighter Patch	攻撃型パッチ	Change the personality of one Digimon to Fighter.
+Defender Patch	防御型パッチ	Change the personality of one Digimon to Defender.
+Brainy Patch	知力型パッチ	Change the personality of one Digimon to Brainy.
+Nimble Patch	素早さ型パッチ	Change the personality of one Digimon to Nimble.
+Development Patch	開発型パッチ	Change the personality of one Digimon to Builder.
+Searcher Patch	調査型パッチ	Change the personality of one Digimon to Searcher.
+HP Restraint Chip C	HP抑制チップC	Slightly decreases the strengthen maximum HP of one Digimon.
+HP Restraint Chip B	HP抑制チップB	Decreases the strengthen maximum HP of one Digimon.
+HP Restraint Chip A	HP抑制チップA	Greatly decreases the strengthen maximum HP of one Digimon.
+SP Restraint Chip C	SP抑制チップC	Slightly decreases the strengthen maximum SP of one Digimon.
+SP Restraint Chip B	SP抑制チップB	Decreases the strengthen maximum SP of one Digimon.
+SP Restraint Chip A	SP抑制チップA	Greatly decreases the strengthen maximum SP of one Digimon.
+ATK Restraint Chip C	ATK抑制チップC	Slightly decreases the strengthen attack of one Digimon.
+ATK Restraint Chip B	ATK抑制チップB	Decreases the strengthen attack of one Digimon.
+ATK Restraint Chip A	ATK抑制チップA	Greatly decreases the strengthen attack of one Digimon
+DEF Restraint Chip C	DEF抑制チップC	Slightly decreases the strengthen defense of one Digimon.
+DEF Restraint Chip B	DEF抑制チップB	Decreases the strengthen defense of one Digimon.
+DEF Restraint Chip A	DEF抑制チップA	Greatly decreases the strengthen defense of one Digimon.
+INT Restraint Chip C	INT抑制チップC	Slightly decreases the strengthen intellect of one Digimon.
+INT Restraint Chip B	INT抑制チップB	Decreases the strengthen intellect of one Digimon.
+INT Restraint Chip A	INT抑制チップA	Greatly decreases the strengthen intellect of one Digimon.
+SPD Restraint Chip C	SPD抑制チップC	Slightly decreases the strengthen speed of one Digimon.
+SPD Restraint Chip B	SPD抑制チップB	Decreases the strengthen speed of one Digimon.
+SPD Restraint Chip A	SPD抑制チップA	Greatly decreases the strengthen speed of one Digimon.
+Topaz	トパーズ	Items that only exist to sell.
+Pearl	パール	Items that only exist to sell.
+Aquamarine	アクアマリン	Items that only exist to sell.
+Jade	ヒスイ	Items that only exist to sell.
+Alexandrite	アレキサンドライト	Items that only exist to sell.
+Ruby	ルビー	Items that only exist to sell.
+Sapphire	サファイア	Items that only exist to sell.
+Emerald	エメラルド	Items that only exist to sell.
+Diamond	ダイヤモンド	Items that only exist to sell.
+Chrome Digizoid	クロンデジゾイド	Items that only exist to sell.
+Digi-Egg of Courage	勇気のデジメンタル	A Digi-Egg engraved with the crest of Courage.
+Digi-Egg of Miracles	奇跡のデジメンタル	A Digi-Egg engraved with the crest of Miracles.
+Digi-Egg of Destiny	運命のデジメンタル	A Digi-Egg engraved with the crest of Destiny.
+Omni Sword	オメガブレード	Holy sword data that was held by Imperialdramon PM.
+Digimeat	デジ肉	Food that slightly increases CAM. (Only obtainable and usable in DigiFarm.)
+Exciting Meat	ドキドキ肉	Food that rarely increases CAM by a large amount. (Only usable in DigiFarm.)
+Best Meat	極上肉	Food that increases CAM by a large amount. (Only usable in DigiFarm.)
+Vigor Mushroom	タフネスダケ	Food that increases the maximum HP value. (Only usable in DigiFarm.)
+Mental Melon	メンタルメロン	Food that increases the maximum SP value. (Only usable in DigiFarm.)
+Power Pine	パワフルパイン	Food that increases attack. (Only usable in DigiFarm.)
+Aegis Apple	ガードアップル	Food that increases defense. (Only usable in DigiFarm.)
+Clever Carrot	インテリニンジン	Food that increases intellect. (Only usable in DigiFarm.)
+Boost Banana	アクセルバナナ	Food that increases speed. (Only usable in DigiFarm.)
+Miracle Meat	ミラクル肉	Food that increases CAM and ABI by a large amount. (Only usable in DigiFarm.)
+
+
+Equipment
+「装備品」
+
+Item Name	Japanese Name	Description
+HP Attach E	HPアタッチE	HP +50
+HP Attach D	HPアタッチD	HP +100
+HP Attach C	HPアタッチC	HP +150
+HP Attach B	HPアタッチB	HP +200
+HP Attach A	HPアタッチA	HP +250
+SP Attach E	SPアタッチE	SP +5
+SP Attach D	SPアタッチD	SP +10
+SP Attach C	SPアタッチC	SP +15
+SP Attach B	SPアタッチB	SP +20
+SP Attach A	SPアタッチA	SP +25
+ATK Attach E	ATKアタッチE	Attack +5
+ATK Attach D	ATKアタッチD	Attack +10
+ATK Attach C	ATKアタッチC	Attack +15
+ATK Attach B	ATKアタッチB	Attack +20
+ATK Attach A	ATKアタッチA	Attack +25
+DEF Attach E	DEFアタッチE	Defense +5
+DEF Attach D	DEFアタッチD	Defense +10
+DEF Attach C	DEFアタッチC	Defense +15
+DEF Attach B	DEFアタッチB	Defense +20
+DEF Attach A	DEFアタッチA	Defense +25
+INT Attach E	INTアタッチE	Intellect +5
+INT Attach D	INTアタッチD	Intellect +10
+INT Attach C	INTアタッチC	Intellect +15
+INT Attach B	INTアタッチB	Intellect +20
+INT Attach A	INTアタッチA	Intellect +25
+SPD Attach E	SPDアタッチE	Speed +5
+SPD Attach D	SPDアタッチD	Speed +10
+SPD Attach C	SPDアタッチC	Speed +15
+SPD Attach B	SPDアタッチB	Speed +20
+SPD Attach A	SPDアタッチA	Speed +25
+HIT Attach C	HITアタッチC	Accuracy +5%
+HIT Attach B	HITアタッチB	Accuracy +10%
+HIT Attach A	HITアタッチA	Accuracy +15%
+AGL Attach C	AGLアタッチC	Evasion +3%
+AGL Attach B	AGLアタッチB	Evasion +6%
+AGL Attach A	AGLアタッチA	Evasion +9%
+CRT Attach C	CRTアタッチC	Critical chance +5%
+CRT Attach B	CRTアタッチB	Critical chance +10%
+CRT Attach A	CRTアタッチA	Critical chance +15%
+Energy Disk	エナジーディスク	HP +100, SP +10
+Cheerful Disk	チアフルディスク	HP +100, Attack +10
+Tough Disk	タフディスク	HP +100, Defense +10
+Soul Disk	ソウルディスク	HP +100, Intellect +10
+Charge Disk	チャージディスク	HP +100, Speed +10
+Oracle Disk	オラクルディスク	SP +10, Attack +10
+Mind Disk	マインドディスク	SP +10, Defense +10
+Mage Disk	メイジディスク	SP +10, Intellect +10
+Thief Disk	シーフディスク	SP +10, Speed +10
+Fighter Disk	ファイターディスク	Attack +10, Defense +10
+Sage Disk	セージディスク	Attack +10, Intellect +10
+Assassin Disk	アサシンディスク	Attack +10, Speed +10
+Bishop Disk	ビショップディスク	Defense +10, Intellect +10
+Monk Disk	モンクディスク	Defense +10, Speed +10
+Spirit Disk	スピリットディスク	Intellect +10, Speed +10
+Ranger Disk	レンジャーディスク	Intellect +10, Accuracy +5%
+Feather Disk	フェザーディスク	Speed +10, Evasion +5%
+Gladiator Disk	グラディエイターディスク	Attack +10, Critical Chance +5%
+Master Disk	マスターディスク	Max HP +50, Max SP +5, ATK +5, DEF +5, INT +5, SPD +5
+Flare Guard	フレアガード	Reduce fire damage by 10%.
+Flare Guard DX	フレアガードDX	Reduce fire damage by 20%.
+Aqua Guard	アクアガード	Reduce water damage by 10%.
+Aqua Guard DX	アクアガードDX	Reduce water damage by 20%.
+Plant Guard	プラントガード	Reduce plant damage by 10%.
+Plant Guard DX	プラントガードDX	Reduce plant damage by 20%.
+Electric Guard	エレキガード	Reduce thunder damage by 10%.
+Electric Guard DX	エレキガードDX	Reduce thunder damage by 20%.
+Sand Guard	サンドガード	Reduce earth damage by 10%.
+Sand Guard DX	サンドガードDX	Reduce earth damage by 20%.
+Wind Guard	ウィンドガード	Reduce wind damage by 10%.
+Wind Guard DX	ウィンドガードDX	Reduce wind damage by 20%.
+Shine Guard	シャインガード	Reduce light damage by 10%.
+Shine Guard DX	シャインガードDX	Reduce light damage by 20%.
+Dark Guard	ダークガード	Reduce dark damage by 10%.
+Dark Guard DX	ダークガードDX	Reduce dark damage by 20%.
+Noise Guard	ノイズガード	Reduce neutral damage by 10%.
+Noise Guard DX	ノイズガードDX	Reduce neutral damage by 20%.
+Master Guard	マスターガード	Reduce damage from all attributes by 5%.
+Poison Barrier	ポイズンバリア	Half immunity to Poison.
+Poison Barrier DX	ポイズンバリアDX	Full immunity to Poison.
+Panic Barrier	パニックバリア	Half immunity to Panic.
+Panic Barrier DX	パニックバリアDX	Full immunity to Panic.
+Paralysis Barrier	パラライズバリア	Half immunity to Paralyze.
+Paralysis Barrier DX	パラライズバリアDX	Full immunity to Paralyze.
+Sleep Barrier	スリープバリア	Half immunity to Sleep.
+Sleep Barrier DX	スリープバリアDX	Full immunity to Sleep.
+Stun Barrier	スタンバリア	Half immunity to Stun.
+Stun Barrier DX	スタンバリアDX	Full immunity to Stun.
+Pixel Barrier	ドットバリア	Half immunity to Dot.
+Pixel Barrier DX	ドットバリアDX	Full immunity to Dot.
+Bug Barrier	バグバリア	Half immunity to Bug.
+Bug Barrier DX	バグバリアDX	Full immunity to Bug.
+Death Barrier	デスバリア	Half immunity to Death.
+Death Barrier DX	デスバリアDX	Full immunity to Death.
+Master Barrier	マスターバリア	Half immunity to all status effects.
+CAM USB	友情のUSB	Increase the chances of Combo attacks by 10%.
+Ninja USB	忍者のUSB	Always succeed when trying to escape battles.
+Tactician USB	軍師のUSB	Increase EXP gain from battles.
+Billionaire USB	億万長者のUSB	Increase YEN gain from battles.
+Large Capacity USB	大容量のUSB	Increase the item drop rate from enemies.
+Researcher USB	探究者のUSB	Increase the data obtained when scanning Digimon.
+
+
+
+Farm Goods
+「ファームグッズ」
+
+Item Name	Japanese Name	Description
+Flame Symbol	炎のシンボル	Increase the EXP gain of fire Digimon. (Farm Goods)
+Water Symbol	水のシンボル	Increase the EXP gain of water Digimon. (Farm Goods)
+Wood Symbol	木のシンボル	Increase the EXP gain of plant Digimon. (Farm Goods)
+Earth Symbol	大地のシンボル	Increase the EXP gain of earth Digimon. (Farm Goods)
+Electric Symbol	電気のシンボル	Increase the EXP gain of thunder Digimon. (Farm Goods)
+Wind Symbol	風のシンボル	Increase the EXP gain of wind Digimon. (Farm Goods)
+Sacred Symbol	聖心のシンボル	Increase the EXP gain of light Digimon. (Farm Goods)
+Dark Night Symbol	闇夜のシンボル	Increase the EXP gain of dark Digimon. (Farm Goods)
+Void Symbol	虚無のシンボル	Increase the EXP gain of neutral Digimon. (Farm Goods)
+Developer Know-How	開発者の心得	Raise the quality of the items made by developments. (Farm Goods)
+Sleuth's Secret	探偵の極意	Raise the accuracy of investigations. (Farm Goods)
+HP Generator	HPジェネレータ	Slightly increases the max HP value that is obtained through training courses.
+SP Generator	SPジェネレータ	Slightly increases the max SP value that is obtained through training courses.
+Sandbag	サンドバッグ	Slightly increases the attack value that is obtained through training courses.
+Punch Bag	パンチマシン	Slightly increases the defense value that is obtained through training courses.
+Study Room	スタディルーム	Slightly increases the intellect value that is obtained through training courses.
+Treadmill	ランニングマシン	Slightly increases the speed value that is obtained through training courses.
+Mega HP Generator	メガHPジェネレータ	Increases the max HP value that is obtained through training courses.
+Mega SP Generator	メガSPジェネレータ	Increases the max SP value that is obtained through training courses.
+Top Sandbag	高級サンドバッグ	Increases the attack value that is obtained through training courses.
+Top Punch Bag	高級パンチマシン	Increases the defense value that is obtained through training courses.
+Top Study Room	高級スタディルーム	Increases the intellect value that is obtained through training courses.
+Top Treadmill	高級ランニングマシン	Increases the speed value that is obtained through training courses.
+Giga HP Generator	ギガHPジェネレータ	Greatly increases the max HP value that is obtained through training courses.
+Giga SP Generator	ギガSPジェネレータ	Greatly increases the max SP value that is obtained through training courses.
+Best Sandbag	最高級サンドバッグ	Greatly increases the attack value that is obtained through training courses.
+Best Punch Bag	最高級パンチマシン	Greatly increases the defense value that is obtained through training courses.
+Best Study Room	最高級スタディルーム	Greatly increases the intellect value that is obtained through training courses.
+Best Treadmill	最高級ランニングマシン	Greatly increases the speed value that is obtained through training courses.

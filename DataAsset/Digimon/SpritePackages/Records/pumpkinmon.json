@@ -1,0 +1,11 @@
+{
+  "species": "pumpkinmon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Pumpmon",
+  "source_url": "https://wikimon.net/images/e/e6/Pumpmon_new_century.png",
+  "source_sha256": "f2fa00a4fc703021d65cbea85544dc026b4c92cacac249c33528613d5c5d6c7b",
+  "png_sha256": "b163d4a82ce37131828e9935483ac44191eac748d0460ed2004aab3980dd5870",
+  "width": 602,
+  "height": 658,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

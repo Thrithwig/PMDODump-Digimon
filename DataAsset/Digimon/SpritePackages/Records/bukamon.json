@@ -1,0 +1,11 @@
+{
+  "species": "bukamon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Pukamon",
+  "source_url": "https://wikimon.net/images/d/d8/Pukamon_new_century.png",
+  "source_sha256": "94597863ba7136afba23436f80f038b0021635279eb20ae44df903f07b2646cf",
+  "png_sha256": "d9d107a6da03f90051374793b47c2b71351e8834f7a1a130628e242f7888bdb7",
+  "width": 476,
+  "height": 588,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

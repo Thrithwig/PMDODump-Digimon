@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "status": "data_selection_only",
+  "lines": [
+    {
+      "choice": "agumon",
+      "species": [
+        "botamon",
+        "koromon",
+        "agumon",
+        "greymon",
+        "metalgreymon",
+        "wargreymon"
+      ]
+    },
+    {
+      "choice": "gabumon",
+      "species": [
+        "punimon",
+        "tsunomon",
+        "gabumon",
+        "garurumon",
+        "weregarurumon",
+        "metalgarurumon"
+      ]
+    },
+    {
+      "choice": "biyomon",
+      "species": [
+        "pabumon",
+        "yokomon",
+        "biyomon",
+        "birdramon",
+        "garudamon",
+        "hououmon"
+      ]
+    },
+    {
+      "choice": "tentomon",
+      "species": [
+        "pabumon",
+        "motimon",
+        "tentomon",
+        "kabuterimon",
+        "megakabuterimon",
+        "herculeskabuterimon"
+      ]
+    },
+    {
+      "choice": "palmon",
+      "species": [
+        "pabumon",
+        "tanemon",
+        "palmon",
+        "togemon",
+        "lillymon",
+        "rosemon"
+      ]
+    },
+    {
+      "choice": "gomamon",
+      "species": [
+        "poyomon",
+        "bukamon",
+        "gomamon",
+        "ikkakumon",
+        "zudomon",
+        "vikemon"
+      ]
+    },
+    {
+      "choice": "patamon",
+      "species": [
+        "poyomon",
+        "tokomon",
+        "patamon",
+        "angemon",
+        "magnaangemon",
+        "seraphimon"
+      ]
+    },
+    {
+      "choice": "gatomon",
+      "species": [
+        "punimon",
+        "nyaromon",
+        "salamon",
+        "gatomon",
+        "angewomon",
+        "ophanimon"
+      ]
+    }
+  ]
+}

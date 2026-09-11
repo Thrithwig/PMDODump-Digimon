@@ -1,0 +1,11 @@
+{
+  "species": "wisemon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Wisemon",
+  "source_url": "https://wikimon.net/images/b/b7/Wisemon_new_century.png",
+  "source_sha256": "c0c892faa7e0d3fe88b2600cbeb06a088713d0f6b2443cd580aae9701840d5aa",
+  "png_sha256": "afadeed4b6a0e66466f1ae5f6ed270f0a66cf2690601acf0ab2f0951a9069a37",
+  "width": 554,
+  "height": 701,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

@@ -1,0 +1,1692 @@
+[
+  {
+    "species": "aeroveedramon",
+    "index": 10150,
+    "frame_size": 40
+  },
+  {
+    "species": "agumon",
+    "index": 10018,
+    "frame_size": 40
+  },
+  {
+    "species": "agumon_blk",
+    "index": 10019,
+    "frame_size": 40
+  },
+  {
+    "species": "agunimon",
+    "index": 10068,
+    "frame_size": 40
+  },
+  {
+    "species": "airdramon",
+    "index": 10075,
+    "frame_size": 40
+  },
+  {
+    "species": "alphamon",
+    "index": 10219,
+    "frame_size": 40
+  },
+  {
+    "species": "alphamon_nx",
+    "index": 10337,
+    "frame_size": 40
+  },
+  {
+    "species": "alphamon_ouryuken",
+    "index": 10312,
+    "frame_size": 40
+  },
+  {
+    "species": "andromon",
+    "index": 10144,
+    "frame_size": 40
+  },
+  {
+    "species": "angemon",
+    "index": 10077,
+    "frame_size": 40
+  },
+  {
+    "species": "angewomon",
+    "index": 10152,
+    "frame_size": 40
+  },
+  {
+    "species": "ankylomon",
+    "index": 10070,
+    "frame_size": 40
+  },
+  {
+    "species": "antylamon",
+    "index": 10143,
+    "frame_size": 40
+  },
+  {
+    "species": "apocalymon",
+    "index": 10332,
+    "frame_size": 40
+  },
+  {
+    "species": "aquilamon",
+    "index": 10067,
+    "frame_size": 40
+  },
+  {
+    "species": "arcadiamon_in_tr",
+    "index": 10006,
+    "frame_size": 40
+  },
+  {
+    "species": "arcadiamon_ultimate",
+    "index": 10142,
+    "frame_size": 40
+  },
+  {
+    "species": "arcadiamon_ultra",
+    "index": 10311,
+    "frame_size": 40
+  },
+  {
+    "species": "armadillomon",
+    "index": 10021,
+    "frame_size": 40
+  },
+  {
+    "species": "armageddemon",
+    "index": 10310,
+    "frame_size": 40
+  },
+  {
+    "species": "bakemon",
+    "index": 10124,
+    "frame_size": 40
+  },
+  {
+    "species": "bancholeomon",
+    "index": 10272,
+    "frame_size": 40
+  },
+  {
+    "species": "baohuckmon",
+    "index": 10123,
+    "frame_size": 40
+  },
+  {
+    "species": "barbamon",
+    "index": 10271,
+    "frame_size": 40
+  },
+  {
+    "species": "beelzemon",
+    "index": 10281,
+    "frame_size": 40
+  },
+  {
+    "species": "beelzemon_bm",
+    "index": 10282,
+    "frame_size": 40
+  },
+  {
+    "species": "belphemon_rm",
+    "index": 10321,
+    "frame_size": 40
+  },
+  {
+    "species": "belphemon_sm",
+    "index": 10283,
+    "frame_size": 40
+  },
+  {
+    "species": "betamon",
+    "index": 10055,
+    "frame_size": 40
+  },
+  {
+    "species": "birdramon",
+    "index": 10122,
+    "frame_size": 40
+  },
+  {
+    "species": "biyomon",
+    "index": 10050,
+    "frame_size": 40
+  },
+  {
+    "species": "blackgatomon",
+    "index": 10128,
+    "frame_size": 40
+  },
+  {
+    "species": "blackkingnumemon",
+    "index": 10191,
+    "frame_size": 40
+  },
+  {
+    "species": "blackwargreymon",
+    "index": 10276,
+    "frame_size": 40
+  },
+  {
+    "species": "bluemeramon",
+    "index": 10192,
+    "frame_size": 40
+  },
+  {
+    "species": "boltmon",
+    "index": 10286,
+    "frame_size": 40
+  },
+  {
+    "species": "botamon",
+    "index": 10004,
+    "frame_size": 40
+  },
+  {
+    "species": "breakdramon",
+    "index": 10278,
+    "frame_size": 40
+  },
+  {
+    "species": "bukamon",
+    "index": 10015,
+    "frame_size": 40
+  },
+  {
+    "species": "burninggreymon",
+    "index": 10149,
+    "frame_size": 40
+  },
+  {
+    "species": "cannonbeemon",
+    "index": 10158,
+    "frame_size": 40
+  },
+  {
+    "species": "catchmamemon",
+    "index": 10157,
+    "frame_size": 40
+  },
+  {
+    "species": "chaosdramon",
+    "index": 10233,
+    "frame_size": 40
+  },
+  {
+    "species": "chaosgallantmon",
+    "index": 10232,
+    "frame_size": 40
+  },
+  {
+    "species": "chaosmon",
+    "index": 10317,
+    "frame_size": 40
+  },
+  {
+    "species": "chaosmon_va",
+    "index": 10318,
+    "frame_size": 40
+  },
+  {
+    "species": "cherrymon",
+    "index": 10165,
+    "frame_size": 40
+  },
+  {
+    "species": "chirinmon",
+    "index": 10174,
+    "frame_size": 40
+  },
+  {
+    "species": "chuumon",
+    "index": 10038,
+    "frame_size": 40
+  },
+  {
+    "species": "clockmon",
+    "index": 10092,
+    "frame_size": 40
+  },
+  {
+    "species": "coelamon",
+    "index": 10104,
+    "frame_size": 40
+  },
+  {
+    "species": "coredramon_blue",
+    "index": 10096,
+    "frame_size": 40
+  },
+  {
+    "species": "coredramon_green",
+    "index": 10097,
+    "frame_size": 40
+  },
+  {
+    "species": "craniamon",
+    "index": 10241,
+    "frame_size": 40
+  },
+  {
+    "species": "creepymon",
+    "index": 10261,
+    "frame_size": 40
+  },
+  {
+    "species": "crescemon",
+    "index": 10162,
+    "frame_size": 40
+  },
+  {
+    "species": "crowmon",
+    "index": 10208,
+    "frame_size": 40
+  },
+  {
+    "species": "crusadermon",
+    "index": 10306,
+    "frame_size": 40
+  },
+  {
+    "species": "crusadermon_nx",
+    "index": 10338,
+    "frame_size": 40
+  },
+  {
+    "species": "cyberdramon",
+    "index": 10163,
+    "frame_size": 40
+  },
+  {
+    "species": "cyclonemon",
+    "index": 10100,
+    "frame_size": 40
+  },
+  {
+    "species": "darkdramon",
+    "index": 10255,
+    "frame_size": 40
+  },
+  {
+    "species": "datamon",
+    "index": 10183,
+    "frame_size": 40
+  },
+  {
+    "species": "demidevimon",
+    "index": 10049,
+    "frame_size": 40
+  },
+  {
+    "species": "devimon",
+    "index": 10116,
+    "frame_size": 40
+  },
+  {
+    "species": "diaboromon",
+    "index": 10260,
+    "frame_size": 40
+  },
+  {
+    "species": "dianamon",
+    "index": 10259,
+    "frame_size": 40
+  },
+  {
+    "species": "digitamamon",
+    "index": 10176,
+    "frame_size": 40
+  },
+  {
+    "species": "dinobeemon",
+    "index": 10175,
+    "frame_size": 40
+  },
+  {
+    "species": "dorugamon",
+    "index": 10119,
+    "frame_size": 40
+  },
+  {
+    "species": "dorugoramon",
+    "index": 10267,
+    "frame_size": 40
+  },
+  {
+    "species": "dorugreymon",
+    "index": 10181,
+    "frame_size": 40
+  },
+  {
+    "species": "dorumon",
+    "index": 10044,
+    "frame_size": 40
+  },
+  {
+    "species": "dracmon",
+    "index": 10042,
+    "frame_size": 40
+  },
+  {
+    "species": "dracomon",
+    "index": 10043,
+    "frame_size": 40
+  },
+  {
+    "species": "dragomon",
+    "index": 10173,
+    "frame_size": 40
+  },
+  {
+    "species": "duramon",
+    "index": 10178,
+    "frame_size": 40
+  },
+  {
+    "species": "durandamon",
+    "index": 10264,
+    "frame_size": 40
+  },
+  {
+    "species": "dynasmon",
+    "index": 10263,
+    "frame_size": 40
+  },
+  {
+    "species": "ebemon",
+    "index": 10221,
+    "frame_size": 40
+  },
+  {
+    "species": "elecmon",
+    "index": 10023,
+    "frame_size": 40
+  },
+  {
+    "species": "etemon",
+    "index": 10151,
+    "frame_size": 40
+  },
+  {
+    "species": "examon",
+    "index": 10314,
+    "frame_size": 40
+  },
+  {
+    "species": "exveemon",
+    "index": 10076,
+    "frame_size": 40
+  },
+  {
+    "species": "falcomon",
+    "index": 10051,
+    "frame_size": 40
+  },
+  {
+    "species": "fanbeemon",
+    "index": 10052,
+    "frame_size": 40
+  },
+  {
+    "species": "flamedramon",
+    "index": 10323,
+    "frame_size": 40
+  },
+  {
+    "species": "frigimon",
+    "index": 10133,
+    "frame_size": 40
+  },
+  {
+    "species": "gabumon",
+    "index": 10027,
+    "frame_size": 40
+  },
+  {
+    "species": "gabumon_blk",
+    "index": 10028,
+    "frame_size": 40
+  },
+  {
+    "species": "gaiomon",
+    "index": 10230,
+    "frame_size": 40
+  },
+  {
+    "species": "gallantmon",
+    "index": 10262,
+    "frame_size": 40
+  },
+  {
+    "species": "gallantmon_cm",
+    "index": 10320,
+    "frame_size": 40
+  },
+  {
+    "species": "gallantmon_nx",
+    "index": 10341,
+    "frame_size": 40
+  },
+  {
+    "species": "gankoomon",
+    "index": 10234,
+    "frame_size": 40
+  },
+  {
+    "species": "gaogamon",
+    "index": 10081,
+    "frame_size": 40
+  },
+  {
+    "species": "gaomon",
+    "index": 10025,
+    "frame_size": 40
+  },
+  {
+    "species": "gargomon",
+    "index": 10084,
+    "frame_size": 40
+  },
+  {
+    "species": "garudamon",
+    "index": 10154,
+    "frame_size": 40
+  },
+  {
+    "species": "garurumon",
+    "index": 10085,
+    "frame_size": 40
+  },
+  {
+    "species": "garurumon_blk",
+    "index": 10086,
+    "frame_size": 40
+  },
+  {
+    "species": "gatomon",
+    "index": 10115,
+    "frame_size": 40
+  },
+  {
+    "species": "gazimon",
+    "index": 10026,
+    "frame_size": 40
+  },
+  {
+    "species": "gekomon",
+    "index": 10094,
+    "frame_size": 40
+  },
+  {
+    "species": "geogreymon",
+    "index": 10105,
+    "frame_size": 40
+  },
+  {
+    "species": "geremon",
+    "index": 10095,
+    "frame_size": 40
+  },
+  {
+    "species": "gigadramon",
+    "index": 10156,
+    "frame_size": 40
+  },
+  {
+    "species": "ginryumon",
+    "index": 10329,
+    "frame_size": 40
+  },
+  {
+    "species": "goblimon",
+    "index": 10033,
+    "frame_size": 40
+  },
+  {
+    "species": "goldnumemon",
+    "index": 10098,
+    "frame_size": 40
+  },
+  {
+    "species": "goldramon",
+    "index": 10244,
+    "frame_size": 40
+  },
+  {
+    "species": "golemon",
+    "index": 10099,
+    "frame_size": 40
+  },
+  {
+    "species": "gomamon",
+    "index": 10034,
+    "frame_size": 40
+  },
+  {
+    "species": "gotsumon",
+    "index": 10032,
+    "frame_size": 40
+  },
+  {
+    "species": "grademon",
+    "index": 10161,
+    "frame_size": 40
+  },
+  {
+    "species": "grandracmon",
+    "index": 10238,
+    "frame_size": 40
+  },
+  {
+    "species": "grankuwagamon",
+    "index": 10237,
+    "frame_size": 40
+  },
+  {
+    "species": "grapleomon",
+    "index": 10160,
+    "frame_size": 40
+  },
+  {
+    "species": "greymon",
+    "index": 10090,
+    "frame_size": 40
+  },
+  {
+    "species": "greymon_blue",
+    "index": 10091,
+    "frame_size": 40
+  },
+  {
+    "species": "groundlocomon",
+    "index": 10239,
+    "frame_size": 40
+  },
+  {
+    "species": "groundramon",
+    "index": 10159,
+    "frame_size": 40
+  },
+  {
+    "species": "growlmon",
+    "index": 10088,
+    "frame_size": 40
+  },
+  {
+    "species": "gryphonmon",
+    "index": 10240,
+    "frame_size": 40
+  },
+  {
+    "species": "guardromon",
+    "index": 10079,
+    "frame_size": 40
+  },
+  {
+    "species": "guardromon_gold",
+    "index": 10080,
+    "frame_size": 40
+  },
+  {
+    "species": "guilmon",
+    "index": 10029,
+    "frame_size": 40
+  },
+  {
+    "species": "hackmon",
+    "index": 10047,
+    "frame_size": 40
+  },
+  {
+    "species": "hagurumon",
+    "index": 10045,
+    "frame_size": 40
+  },
+  {
+    "species": "hawkmon",
+    "index": 10056,
+    "frame_size": 40
+  },
+  {
+    "species": "herculeskabuterimon",
+    "index": 10280,
+    "frame_size": 40
+  },
+  {
+    "species": "hiandromon",
+    "index": 10269,
+    "frame_size": 40
+  },
+  {
+    "species": "hippogryphonmon",
+    "index": 10189,
+    "frame_size": 40
+  },
+  {
+    "species": "hisyaryumon",
+    "index": 10330,
+    "frame_size": 40
+  },
+  {
+    "species": "hououmon",
+    "index": 10284,
+    "frame_size": 40
+  },
+  {
+    "species": "hudiemon",
+    "index": 10126,
+    "frame_size": 40
+  },
+  {
+    "species": "icedevimon",
+    "index": 10065,
+    "frame_size": 40
+  },
+  {
+    "species": "icemon",
+    "index": 10066,
+    "frame_size": 40
+  },
+  {
+    "species": "ikkakumon",
+    "index": 10071,
+    "frame_size": 40
+  },
+  {
+    "species": "imperialdramon_dm",
+    "index": 10222,
+    "frame_size": 40
+  },
+  {
+    "species": "imperialdramon_fm",
+    "index": 10223,
+    "frame_size": 40
+  },
+  {
+    "species": "imperialdramon_pm",
+    "index": 10313,
+    "frame_size": 40
+  },
+  {
+    "species": "impmon",
+    "index": 10022,
+    "frame_size": 40
+  },
+  {
+    "species": "infermon",
+    "index": 10146,
+    "frame_size": 40
+  },
+  {
+    "species": "jesmon",
+    "index": 10247,
+    "frame_size": 40
+  },
+  {
+    "species": "justimon",
+    "index": 10250,
+    "frame_size": 40
+  },
+  {
+    "species": "kabuterimon",
+    "index": 10082,
+    "frame_size": 40
+  },
+  {
+    "species": "kaisergreymon",
+    "index": 10231,
+    "frame_size": 40
+  },
+  {
+    "species": "kendogarurumon",
+    "index": 10155,
+    "frame_size": 40
+  },
+  {
+    "species": "kentaurosmon",
+    "index": 10251,
+    "frame_size": 40
+  },
+  {
+    "species": "keramon",
+    "index": 10031,
+    "frame_size": 40
+  },
+  {
+    "species": "kerpymon_blk",
+    "index": 10242,
+    "frame_size": 40
+  },
+  {
+    "species": "kerpymon_good",
+    "index": 10243,
+    "frame_size": 40
+  },
+  {
+    "species": "kingetemon",
+    "index": 10235,
+    "frame_size": 40
+  },
+  {
+    "species": "knightmon",
+    "index": 10182,
+    "frame_size": 40
+  },
+  {
+    "species": "koromon",
+    "index": 10007,
+    "frame_size": 40
+  },
+  {
+    "species": "kudamon",
+    "index": 10030,
+    "frame_size": 40
+  },
+  {
+    "species": "kuramon",
+    "index": 10001,
+    "frame_size": 40
+  },
+  {
+    "species": "kurisarimon",
+    "index": 10089,
+    "frame_size": 40
+  },
+  {
+    "species": "kuwagamon",
+    "index": 10093,
+    "frame_size": 40
+  },
+  {
+    "species": "kuzuhamon",
+    "index": 10236,
+    "frame_size": 40
+  },
+  {
+    "species": "kyubimon",
+    "index": 10087,
+    "frame_size": 40
+  },
+  {
+    "species": "ladydevimon",
+    "index": 10214,
+    "frame_size": 40
+  },
+  {
+    "species": "lalamon",
+    "index": 10059,
+    "frame_size": 40
+  },
+  {
+    "species": "lekismon",
+    "index": 10138,
+    "frame_size": 40
+  },
+  {
+    "species": "leomon",
+    "index": 10137,
+    "frame_size": 40
+  },
+  {
+    "species": "leopardmon",
+    "index": 10265,
+    "frame_size": 40
+  },
+  {
+    "species": "leopardmon_lm",
+    "index": 10266,
+    "frame_size": 40
+  },
+  {
+    "species": "leopardmon_nx",
+    "index": 10339,
+    "frame_size": 40
+  },
+  {
+    "species": "leviamon",
+    "index": 10302,
+    "frame_size": 40
+  },
+  {
+    "species": "lilamon",
+    "index": 10210,
+    "frame_size": 40
+  },
+  {
+    "species": "lilithmon",
+    "index": 10303,
+    "frame_size": 40
+  },
+  {
+    "species": "lillymon",
+    "index": 10212,
+    "frame_size": 40
+  },
+  {
+    "species": "lobomon",
+    "index": 10073,
+    "frame_size": 40
+  },
+  {
+    "species": "lopmon",
+    "index": 10063,
+    "frame_size": 40
+  },
+  {
+    "species": "lotosmon",
+    "index": 10309,
+    "frame_size": 40
+  },
+  {
+    "species": "lucemon",
+    "index": 10060,
+    "frame_size": 40
+  },
+  {
+    "species": "lucemon_fm",
+    "index": 10213,
+    "frame_size": 40
+  },
+  {
+    "species": "lucemon_sm",
+    "index": 10322,
+    "frame_size": 40
+  },
+  {
+    "species": "lunamon",
+    "index": 10061,
+    "frame_size": 40
+  },
+  {
+    "species": "machgaogamon",
+    "index": 10198,
+    "frame_size": 40
+  },
+  {
+    "species": "machinedramon",
+    "index": 10294,
+    "frame_size": 40
+  },
+  {
+    "species": "magnaangemon",
+    "index": 10195,
+    "frame_size": 40
+  },
+  {
+    "species": "magnadramon",
+    "index": 10285,
+    "frame_size": 40
+  },
+  {
+    "species": "magnagarurumon",
+    "index": 10287,
+    "frame_size": 40
+  },
+  {
+    "species": "magnagarurumon_sv",
+    "index": 10288,
+    "frame_size": 40
+  },
+  {
+    "species": "magnamon",
+    "index": 10324,
+    "frame_size": 40
+  },
+  {
+    "species": "mamemon",
+    "index": 10199,
+    "frame_size": 40
+  },
+  {
+    "species": "marineangemon",
+    "index": 10290,
+    "frame_size": 40
+  },
+  {
+    "species": "mastemon",
+    "index": 10289,
+    "frame_size": 40
+  },
+  {
+    "species": "matadormon",
+    "index": 10197,
+    "frame_size": 40
+  },
+  {
+    "species": "megadramon",
+    "index": 10201,
+    "frame_size": 40
+  },
+  {
+    "species": "megagargomon",
+    "index": 10254,
+    "frame_size": 40
+  },
+  {
+    "species": "megakabuterimon",
+    "index": 10141,
+    "frame_size": 40
+  },
+  {
+    "species": "megaseadramon",
+    "index": 10200,
+    "frame_size": 40
+  },
+  {
+    "species": "megidramon",
+    "index": 10295,
+    "frame_size": 40
+  },
+  {
+    "species": "meramon",
+    "index": 10131,
+    "frame_size": 40
+  },
+  {
+    "species": "merukimon",
+    "index": 10300,
+    "frame_size": 40
+  },
+  {
+    "species": "metaletemon",
+    "index": 10296,
+    "frame_size": 40
+  },
+  {
+    "species": "metalgarurumon",
+    "index": 10297,
+    "frame_size": 40
+  },
+  {
+    "species": "metalgarurumon_blk",
+    "index": 10298,
+    "frame_size": 40
+  },
+  {
+    "species": "metalgreymon",
+    "index": 10203,
+    "frame_size": 40
+  },
+  {
+    "species": "metalgreymon_blue",
+    "index": 10204,
+    "frame_size": 40
+  },
+  {
+    "species": "metalmamemon",
+    "index": 10206,
+    "frame_size": 40
+  },
+  {
+    "species": "metalseadramon",
+    "index": 10299,
+    "frame_size": 40
+  },
+  {
+    "species": "metaltyrannomon",
+    "index": 10205,
+    "frame_size": 40
+  },
+  {
+    "species": "meteormon",
+    "index": 10145,
+    "frame_size": 40
+  },
+  {
+    "species": "minervamon",
+    "index": 10291,
+    "frame_size": 40
+  },
+  {
+    "species": "miragegaogamon",
+    "index": 10292,
+    "frame_size": 40
+  },
+  {
+    "species": "miragegaogamon_bm",
+    "index": 10293,
+    "frame_size": 40
+  },
+  {
+    "species": "monochromon",
+    "index": 10132,
+    "frame_size": 40
+  },
+  {
+    "species": "monodramon",
+    "index": 10058,
+    "frame_size": 40
+  },
+  {
+    "species": "monzaemon",
+    "index": 10207,
+    "frame_size": 40
+  },
+  {
+    "species": "motimon",
+    "index": 10016,
+    "frame_size": 40
+  },
+  {
+    "species": "mudfrigimon",
+    "index": 10113,
+    "frame_size": 40
+  },
+  {
+    "species": "mushroomon",
+    "index": 10057,
+    "frame_size": 40
+  },
+  {
+    "species": "myotismon",
+    "index": 10147,
+    "frame_size": 40
+  },
+  {
+    "species": "nanimon",
+    "index": 10120,
+    "frame_size": 40
+  },
+  {
+    "species": "neptunemon",
+    "index": 10268,
+    "frame_size": 40
+  },
+  {
+    "species": "numemon",
+    "index": 10121,
+    "frame_size": 40
+  },
+  {
+    "species": "nyaromon",
+    "index": 10012,
+    "frame_size": 40
+  },
+  {
+    "species": "ogremon",
+    "index": 10078,
+    "frame_size": 40
+  },
+  {
+    "species": "okuwamon",
+    "index": 10153,
+    "frame_size": 40
+  },
+  {
+    "species": "omnimon",
+    "index": 10315,
+    "frame_size": 40
+  },
+  {
+    "species": "omnimon_nx",
+    "index": 10340,
+    "frame_size": 40
+  },
+  {
+    "species": "omnimon_zwart",
+    "index": 10316,
+    "frame_size": 40
+  },
+  {
+    "species": "omnishoutmon",
+    "index": 10327,
+    "frame_size": 40
+  },
+  {
+    "species": "ophanimon",
+    "index": 10229,
+    "frame_size": 40
+  },
+  {
+    "species": "otamamon",
+    "index": 10024,
+    "frame_size": 40
+  },
+  {
+    "species": "ouryumon",
+    "index": 10331,
+    "frame_size": 40
+  },
+  {
+    "species": "pabumon",
+    "index": 10002,
+    "frame_size": 40
+  },
+  {
+    "species": "pagumon",
+    "index": 10013,
+    "frame_size": 40
+  },
+  {
+    "species": "paildramon",
+    "index": 10184,
+    "frame_size": 40
+  },
+  {
+    "species": "palmon",
+    "index": 10048,
+    "frame_size": 40
+  },
+  {
+    "species": "pandamon",
+    "index": 10186,
+    "frame_size": 40
+  },
+  {
+    "species": "panjyamon",
+    "index": 10185,
+    "frame_size": 40
+  },
+  {
+    "species": "patamon",
+    "index": 10046,
+    "frame_size": 40
+  },
+  {
+    "species": "peckmon",
+    "index": 10130,
+    "frame_size": 40
+  },
+  {
+    "species": "phantomon",
+    "index": 10190,
+    "frame_size": 40
+  },
+  {
+    "species": "piedmon",
+    "index": 10273,
+    "frame_size": 40
+  },
+  {
+    "species": "pilevolcamon",
+    "index": 10270,
+    "frame_size": 40
+  },
+  {
+    "species": "piximon",
+    "index": 10188,
+    "frame_size": 40
+  },
+  {
+    "species": "platinumnumemon",
+    "index": 10275,
+    "frame_size": 40
+  },
+  {
+    "species": "platinumsukamon",
+    "index": 10127,
+    "frame_size": 40
+  },
+  {
+    "species": "plesiomon",
+    "index": 10279,
+    "frame_size": 40
+  },
+  {
+    "species": "poyomon",
+    "index": 10005,
+    "frame_size": 40
+  },
+  {
+    "species": "princemamemon",
+    "index": 10277,
+    "frame_size": 40
+  },
+  {
+    "species": "pumpkinmon",
+    "index": 10187,
+    "frame_size": 40
+  },
+  {
+    "species": "punimon",
+    "index": 10003,
+    "frame_size": 40
+  },
+  {
+    "species": "puppetmon",
+    "index": 10274,
+    "frame_size": 40
+  },
+  {
+    "species": "rapidmon",
+    "index": 10211,
+    "frame_size": 40
+  },
+  {
+    "species": "rapidmon_armor",
+    "index": 10325,
+    "frame_size": 40
+  },
+  {
+    "species": "raptordramon",
+    "index": 10135,
+    "frame_size": 40
+  },
+  {
+    "species": "raremon",
+    "index": 10136,
+    "frame_size": 40
+  },
+  {
+    "species": "ravemon",
+    "index": 10304,
+    "frame_size": 40
+  },
+  {
+    "species": "ravemon_bm",
+    "index": 10305,
+    "frame_size": 40
+  },
+  {
+    "species": "renamon",
+    "index": 10062,
+    "frame_size": 40
+  },
+  {
+    "species": "reppamon",
+    "index": 10139,
+    "frame_size": 40
+  },
+  {
+    "species": "rizegreymon",
+    "index": 10209,
+    "frame_size": 40
+  },
+  {
+    "species": "rosemon",
+    "index": 10307,
+    "frame_size": 40
+  },
+  {
+    "species": "rosemon_bm",
+    "index": 10308,
+    "frame_size": 40
+  },
+  {
+    "species": "rusttyranomon",
+    "index": 10301,
+    "frame_size": 40
+  },
+  {
+    "species": "ryudamon",
+    "index": 10328,
+    "frame_size": 40
+  },
+  {
+    "species": "saberleomon",
+    "index": 10245,
+    "frame_size": 40
+  },
+  {
+    "species": "sakuyamon",
+    "index": 10246,
+    "frame_size": 40
+  },
+  {
+    "species": "salamon",
+    "index": 10054,
+    "frame_size": 40
+  },
+  {
+    "species": "sangloupmon",
+    "index": 10101,
+    "frame_size": 40
+  },
+  {
+    "species": "saviorhuckmon",
+    "index": 10171,
+    "frame_size": 40
+  },
+  {
+    "species": "seadramon",
+    "index": 10103,
+    "frame_size": 40
+  },
+  {
+    "species": "seraphimon",
+    "index": 10253,
+    "frame_size": 40
+  },
+  {
+    "species": "shakkoumon",
+    "index": 10164,
+    "frame_size": 40
+  },
+  {
+    "species": "shellnumemon",
+    "index": 10083,
+    "frame_size": 40
+  },
+  {
+    "species": "shinegreymon",
+    "index": 10248,
+    "frame_size": 40
+  },
+  {
+    "species": "shinegreymon_bm",
+    "index": 10249,
+    "frame_size": 40
+  },
+  {
+    "species": "shogungekomon",
+    "index": 10179,
+    "frame_size": 40
+  },
+  {
+    "species": "shoutmon",
+    "index": 10326,
+    "frame_size": 40
+  },
+  {
+    "species": "silphymon",
+    "index": 10166,
+    "frame_size": 40
+  },
+  {
+    "species": "sistermon_b_awake",
+    "index": 10334,
+    "frame_size": 40
+  },
+  {
+    "species": "sistermon_blanc",
+    "index": 10333,
+    "frame_size": 40
+  },
+  {
+    "species": "sistermon_c_awake",
+    "index": 10336,
+    "frame_size": 40
+  },
+  {
+    "species": "sistermon_ciel",
+    "index": 10335,
+    "frame_size": 40
+  },
+  {
+    "species": "skullgreymon",
+    "index": 10168,
+    "frame_size": 40
+  },
+  {
+    "species": "skullmeramon",
+    "index": 10177,
+    "frame_size": 40
+  },
+  {
+    "species": "skullsatamon",
+    "index": 10169,
+    "frame_size": 40
+  },
+  {
+    "species": "slayerdramon",
+    "index": 10252,
+    "frame_size": 40
+  },
+  {
+    "species": "socerimon",
+    "index": 10111,
+    "frame_size": 40
+  },
+  {
+    "species": "solarmon",
+    "index": 10037,
+    "frame_size": 40
+  },
+  {
+    "species": "starmon",
+    "index": 10107,
+    "frame_size": 40
+  },
+  {
+    "species": "stingmon",
+    "index": 10108,
+    "frame_size": 40
+  },
+  {
+    "species": "strikedramon",
+    "index": 10109,
+    "frame_size": 40
+  },
+  {
+    "species": "sukamon",
+    "index": 10106,
+    "frame_size": 40
+  },
+  {
+    "species": "sunflowmon",
+    "index": 10102,
+    "frame_size": 40
+  },
+  {
+    "species": "superstarmon",
+    "index": 10167,
+    "frame_size": 40
+  },
+  {
+    "species": "susanomon",
+    "index": 10319,
+    "frame_size": 40
+  },
+  {
+    "species": "syakomon",
+    "index": 10035,
+    "frame_size": 40
+  },
+  {
+    "species": "tanemon",
+    "index": 10008,
+    "frame_size": 40
+  },
+  {
+    "species": "tankmon",
+    "index": 10112,
+    "frame_size": 40
+  },
+  {
+    "species": "taomon",
+    "index": 10172,
+    "frame_size": 40
+  },
+  {
+    "species": "tentomon",
+    "index": 10040,
+    "frame_size": 40
+  },
+  {
+    "species": "terriermon",
+    "index": 10039,
+    "frame_size": 40
+  },
+  {
+    "species": "tigervespamon",
+    "index": 10256,
+    "frame_size": 40
+  },
+  {
+    "species": "titamon",
+    "index": 10257,
+    "frame_size": 40
+  },
+  {
+    "species": "togemon",
+    "index": 10118,
+    "frame_size": 40
+  },
+  {
+    "species": "tokomon",
+    "index": 10011,
+    "frame_size": 40
+  },
+  {
+    "species": "toyagumon",
+    "index": 10041,
+    "frame_size": 40
+  },
+  {
+    "species": "triceramon",
+    "index": 10180,
+    "frame_size": 40
+  },
+  {
+    "species": "tsumemon",
+    "index": 10010,
+    "frame_size": 40
+  },
+  {
+    "species": "tsunomon",
+    "index": 10009,
+    "frame_size": 40
+  },
+  {
+    "species": "turuiemon",
+    "index": 10117,
+    "frame_size": 40
+  },
+  {
+    "species": "tyrannomon",
+    "index": 10114,
+    "frame_size": 40
+  },
+  {
+    "species": "tyrantkabuterimon",
+    "index": 10258,
+    "frame_size": 40
+  },
+  {
+    "species": "ulforceveedramon",
+    "index": 10220,
+    "frame_size": 40
+  },
+  {
+    "species": "unimon",
+    "index": 10134,
+    "frame_size": 40
+  },
+  {
+    "species": "vademon",
+    "index": 10193,
+    "frame_size": 40
+  },
+  {
+    "species": "valkyrimon",
+    "index": 10225,
+    "frame_size": 40
+  },
+  {
+    "species": "varodurumon",
+    "index": 10226,
+    "frame_size": 40
+  },
+  {
+    "species": "veedramon",
+    "index": 10125,
+    "frame_size": 40
+  },
+  {
+    "species": "veemon",
+    "index": 10053,
+    "frame_size": 40
+  },
+  {
+    "species": "vegiemon",
+    "index": 10129,
+    "frame_size": 40
+  },
+  {
+    "species": "venommyotismon",
+    "index": 10227,
+    "frame_size": 40
+  },
+  {
+    "species": "vikemon",
+    "index": 10224,
+    "frame_size": 40
+  },
+  {
+    "species": "volcanomon",
+    "index": 10196,
+    "frame_size": 40
+  },
+  {
+    "species": "wanyamon",
+    "index": 10017,
+    "frame_size": 40
+  },
+  {
+    "species": "wargreymon",
+    "index": 10228,
+    "frame_size": 40
+  },
+  {
+    "species": "wargrowlmon",
+    "index": 10202,
+    "frame_size": 40
+  },
+  {
+    "species": "waspmon",
+    "index": 10140,
+    "frame_size": 40
+  },
+  {
+    "species": "weregarurumon",
+    "index": 10215,
+    "frame_size": 40
+  },
+  {
+    "species": "weregarurumon_blk",
+    "index": 10216,
+    "frame_size": 40
+  },
+  {
+    "species": "whamon",
+    "index": 10194,
+    "frame_size": 40
+  },
+  {
+    "species": "wingdramon",
+    "index": 10148,
+    "frame_size": 40
+  },
+  {
+    "species": "wisemon",
+    "index": 10217,
+    "frame_size": 40
+  },
+  {
+    "species": "wizardmon",
+    "index": 10072,
+    "frame_size": 40
+  },
+  {
+    "species": "woodmon",
+    "index": 10074,
+    "frame_size": 40
+  },
+  {
+    "species": "wormmon",
+    "index": 10064,
+    "frame_size": 40
+  },
+  {
+    "species": "yokomon",
+    "index": 10014,
+    "frame_size": 40
+  },
+  {
+    "species": "zubaeagermon",
+    "index": 10110,
+    "frame_size": 40
+  },
+  {
+    "species": "zubamon",
+    "index": 10036,
+    "frame_size": 40
+  },
+  {
+    "species": "zudomon",
+    "index": 10170,
+    "frame_size": 40
+  }
+]

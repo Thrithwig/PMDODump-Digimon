@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "zones": [
+    {
+      "id": "bramble_woods",
+      "level": 10,
+      "digimon_encounter_records": 105
+    },
+    {
+      "id": "cave_of_whispers",
+      "level": 5,
+      "digimon_encounter_records": 64
+    },
+    {
+      "id": "eon_island",
+      "level": 5,
+      "digimon_encounter_records": 12
+    },
+    {
+      "id": "faded_trail",
+      "level": 10,
+      "digimon_encounter_records": 106
+    },
+    {
+      "id": "faultline_ridge",
+      "level": 15,
+      "digimon_encounter_records": 50
+    },
+    {
+      "id": "fertile_valley",
+      "level": 15,
+      "digimon_encounter_records": 90
+    },
+    {
+      "id": "guildmaster_trail",
+      "level": 5,
+      "digimon_encounter_records": 1260
+    },
+    {
+      "id": "labyrinth_of_the_lost",
+      "level": 5,
+      "digimon_encounter_records": 12
+    },
+    {
+      "id": "prism_isles",
+      "level": 10,
+      "digimon_encounter_records": 12
+    },
+    {
+      "id": "secret_garden",
+      "level": 5,
+      "digimon_encounter_records": 272
+    },
+    {
+      "id": "the_neverending_tale",
+      "level": 5,
+      "digimon_encounter_records": 12
+    },
+    {
+      "id": "tiny_tunnel",
+      "level": 5,
+      "digimon_encounter_records": 19
+    },
+    {
+      "id": "training_maze",
+      "level": 10,
+      "digimon_encounter_records": 172
+    },
+    {
+      "id": "tropical_path",
+      "level": 5,
+      "digimon_encounter_records": 15
+    }
+  ]
+}

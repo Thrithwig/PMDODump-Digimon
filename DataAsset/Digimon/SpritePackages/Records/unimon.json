@@ -1,0 +1,11 @@
+{
+  "species": "unimon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Unimon",
+  "source_url": "https://wikimon.net/images/0/04/Unimon_Model_DSR.png",
+  "source_sha256": "034e23fce921f1d3edd4bdac982448cea9d0e4b3bdbf608e19bfdf30c89491a3",
+  "png_sha256": "30ea7a25e557a55675010786aa912580401ccfa0a0fc0f021c9002d4812a4760",
+  "width": 1315,
+  "height": 1727,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

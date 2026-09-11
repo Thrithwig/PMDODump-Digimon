@@ -1,0 +1,11 @@
+{
+  "species": "wormmon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Wormmon",
+  "source_url": "https://wikimon.net/images/b/b6/Wormmon.png",
+  "source_sha256": "d71c9db56bf0e10b066dd322ef3a47497454235c719565610b0d4042ed40386e",
+  "png_sha256": "9c04da9509fd46e32a34ee4c482006c29450da6384e37f563c687f7a9c0ef00b",
+  "width": 400,
+  "height": 400,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

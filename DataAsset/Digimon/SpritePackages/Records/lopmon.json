@@ -1,0 +1,11 @@
+{
+  "species": "lopmon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Lopmon",
+  "source_url": "https://wikimon.net/images/1/1f/Lopmon_new_century.png",
+  "source_sha256": "5de1b5eecd8d6f04109ed852ac1314cd0e785006f9fc5d56e27cdd3cf776b121",
+  "png_sha256": "d1941332aa292dc02e2c4c0d7999cd13b56324e98fd86c74e4005d1d2fd41f7d",
+  "width": 524,
+  "height": 667,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

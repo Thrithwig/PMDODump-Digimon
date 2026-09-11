@@ -1,0 +1,11 @@
+{
+  "species": "devimon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Devimon",
+  "source_url": "https://wikimon.net/images/7/75/Devimon_new_century.png",
+  "source_sha256": "8a9ed40e814b71658b9231c96934bd2bb021fa4d6ba4aeed98e6c6b462940888",
+  "png_sha256": "5445f493a4b3fdb7971284c7007289459037457246550cc1a2dda93441c2d352",
+  "width": 819,
+  "height": 960,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

@@ -1,0 +1,11 @@
+{
+  "species": "agumon_blk",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Agumon_(Black)",
+  "source_url": "https://wikimon.net/images/d/d4/Agumon_black_new_century.png",
+  "source_sha256": "0f888a069086261710400ba3e5e479cd4e0baa4e7e4708a0f689ed06510fde9d",
+  "png_sha256": "9d13f10c673886e2d4b9b13ced68ef1749be83673e712469cedb6e06e721e9b6",
+  "width": 543,
+  "height": 578,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

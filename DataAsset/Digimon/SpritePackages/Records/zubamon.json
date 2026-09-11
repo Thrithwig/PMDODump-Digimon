@@ -1,0 +1,12 @@
+{
+  "species": "zubamon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Zubamon",
+  "source_url": "https://wikimon.net/images/d/de/Zubamon_up.png",
+  "source_sha256": "8614010a8ec71268863e6e095c3ba85ca7895059a2459b06b769db9b9bedee63",
+  "png_sha256": "561e04ed7debb729a9e853213cab4057bbaf5df9f754d5fda3ab49a66f733982",
+  "width": 51,
+  "height": 56,
+  "quality_note": "Native pixel-art fallback; higher-resolution illustration still wanted.",
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

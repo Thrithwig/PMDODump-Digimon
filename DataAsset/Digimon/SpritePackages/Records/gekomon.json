@@ -1,0 +1,11 @@
+{
+  "species": "gekomon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Gekomon",
+  "source_url": "https://wikimon.net/images/1/1b/Gekomon_new_century.png",
+  "source_sha256": "e2d20091ed2fded58e38f0f81c897898f86b5c6b779103c7e298aaf48628aaf3",
+  "png_sha256": "d0c2476b940b85ebf7e732cf181f0a0afebff0e87a0e52f1004aea3d4aab0555",
+  "width": 427,
+  "height": 559,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

@@ -1,0 +1,11 @@
+{
+  "species": "meteormon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Insekimon",
+  "source_url": "https://wikimon.net/images/d/d4/Insekimon.png",
+  "source_sha256": "36a41210e90aa03136def1167246cad17ba12ad05a284f74ed79e5b135cb5c4e",
+  "png_sha256": "009f148405f4e7858817526f992efa8e7ed7e22e2e2364c5216a9025cda798c2",
+  "width": 144,
+  "height": 274,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

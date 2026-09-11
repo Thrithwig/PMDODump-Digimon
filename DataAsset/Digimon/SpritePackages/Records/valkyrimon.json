@@ -1,0 +1,11 @@
+{
+  "species": "valkyrimon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Valkyrimon",
+  "source_url": "https://wikimon.net/images/4/4d/Valkyrimon.png",
+  "source_sha256": "6fe3cb80e1f5e65ff4e9088a82b31c2c1cf92d75d3a94b85be4d2c3256d0c06d",
+  "png_sha256": "57997578639f9b67e74103117e51c82eace704139800cfab6dbe7827dfc1a404",
+  "width": 320,
+  "height": 427,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

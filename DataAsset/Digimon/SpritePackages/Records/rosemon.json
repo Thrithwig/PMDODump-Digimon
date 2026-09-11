@@ -1,0 +1,11 @@
+{
+  "species": "rosemon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Rosemon",
+  "source_url": "https://wikimon.net/images/5/56/Rosemon_new_century.png",
+  "source_sha256": "b64522429854676849154232e42b8a6f4f32f9b1b03786f232bbd0d3142613be",
+  "png_sha256": "68634ff418605c59dc3dce65b8b797f83e3b37a9a715f1690040af40f132a60e",
+  "width": 611,
+  "height": 774,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

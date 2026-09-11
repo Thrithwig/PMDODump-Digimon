@@ -1,0 +1,11 @@
+{
+  "species": "gryphonmon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Griffomon",
+  "source_url": "https://wikimon.net/images/7/7f/Griffomon_Model_DSR.png",
+  "source_sha256": "14abeeefab1b81c685fb524047ecd81a41a9623374e5b19d98870a26b2173b0e",
+  "png_sha256": "21bbf93c8e282f388847b9f25bf24956a5798b3d66fef2f4f818f99c97a7cd21",
+  "width": 2413,
+  "height": 1173,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

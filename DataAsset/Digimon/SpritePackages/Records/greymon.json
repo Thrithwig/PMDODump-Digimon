@@ -1,0 +1,11 @@
+{
+  "species": "greymon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Greymon",
+  "source_url": "https://wikimon.net/images/1/17/Greymon_new_century.png",
+  "source_sha256": "eee0933d6d72238509ac40a2b3231893a784870230c7515c4dcb44c48567daaa",
+  "png_sha256": "ccdd5e4b61f969dbf797c3ce1d90fde042a3d2659a3c2db22775f8d0468a7c43",
+  "width": 641,
+  "height": 852,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

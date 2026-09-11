@@ -1,0 +1,11 @@
+{
+  "species": "angemon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Angemon",
+  "source_url": "https://wikimon.net/images/b/b4/Angemon_new_century.png",
+  "source_sha256": "b5146b4be3619e16c68349b6dc2cefd2f9e621cd4661320aea803b9d398b7c9d",
+  "png_sha256": "7ac22e229930bdd93330de711e80eaa5625dd6cfd126decceeab77f511caaed6",
+  "width": 785,
+  "height": 816,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

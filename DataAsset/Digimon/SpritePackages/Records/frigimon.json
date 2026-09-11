@@ -1,0 +1,11 @@
+{
+  "species": "frigimon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Yukidarumon",
+  "source_url": "https://wikimon.net/images/9/92/Yukidarumon.png",
+  "source_sha256": "72da07241783fb9bcb726ae8eb7f7bf0fb1fef9e7da4f02b00b2d612f42d1dc7",
+  "png_sha256": "a35a825fe840073a7462b974d57732bccefd1406f19882670b6e7a6f69222837",
+  "width": 257,
+  "height": 300,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

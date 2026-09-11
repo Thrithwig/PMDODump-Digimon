@@ -1,0 +1,807 @@
+[
+  {
+    "skill": "acceleration_boost",
+    "source_variant": "acceleration_boost__4795d4188f6f569001fb579c6fe72a27cfc663584ff34919efa9e38e4909cbf6",
+    "template": "focus_energy",
+    "runtime_description": "Phase 1 adaptation: The user takes a deep breath and focuses so that critical hits land more easily.",
+    "source_description": "Doubles damage output in the next turn."
+  },
+  {
+    "skill": "adhesive_bubble_blow",
+    "source_variant": "adhesive_bubble_blow__0ebf9cf05b3219236bb0d870f0828f74f96e0c62c0f9258be2c126ec65d44c58",
+    "template": "water_gun",
+    "runtime_description": "Physical Plant attack. Power 13. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Physical attack, 25 Plant damage to one foe. 10% chance of reducing target's SPD by 10%."
+  },
+  {
+    "skill": "air_bubbles",
+    "source_variant": "air_bubbles__e2d03d584eed890706c67fc7502590ccbd11e471371be81c7dddc9e9d44ac6aa",
+    "template": "water_gun",
+    "runtime_description": "Magic Water attack. Power 15. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Magic attack, 30 Water damage to one foe."
+  },
+  {
+    "skill": "air_shot",
+    "source_variant": "air_shot__4903fc8cb68e23311c9a32b2cffc12247d3a17b90cc80b8842ae3c96bd75eb62",
+    "template": "water_gun",
+    "runtime_description": "Magic Wind attack. Power 25. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Magic attack, 50 Wind damage to one foe. 10% chance of increasing SPD by 10%."
+  },
+  {
+    "skill": "anti_panic",
+    "source_variant": "anti_panic__31cbcd21767c2c1ff7efbbbc871c9548b52a52392eeb819e9027866806573a8f",
+    "template": "refresh",
+    "runtime_description": "Phase 1 adaptation: The user cures the party of major status conditions.",
+    "source_description": "Recover Panic from one party member and restore some HP."
+  },
+  {
+    "skill": "anti_paralysis",
+    "source_variant": "anti_paralysis__89458b1ae41dc26be798280f406b05778012099f74a4af488a12e3c667c38690",
+    "template": "refresh",
+    "runtime_description": "Phase 1 adaptation: The user cures the party of major status conditions.",
+    "source_description": "Recover Paralyze from one party member and restore some HP."
+  },
+  {
+    "skill": "anti_poison",
+    "source_variant": "anti_poison__f9bb504084582bf563b07ea4b27f03761cb02cb9e7a208eb359a7dce323d8bcf",
+    "template": "refresh",
+    "runtime_description": "Phase 1 adaptation: The user cures the party of major status conditions.",
+    "source_description": "Recover Poison from one party member and restore some HP."
+  },
+  {
+    "skill": "anti_stun",
+    "source_variant": "anti_stun__2716e975aa128e9b57ca196c6e0e01db91090552874d50823063b4146eb655e7",
+    "template": "refresh",
+    "runtime_description": "Phase 1 adaptation: The user cures the party of major status conditions.",
+    "source_description": "Recover Stun from one party member and restore some HP."
+  },
+  {
+    "skill": "arctic_blizzard",
+    "source_variant": "arctic_blizzard__7adc3d183c1dbd5f34c15b34b6a1a9c7c5a98ecf37595497107f3f3d9fc80698",
+    "template": "water_gun",
+    "runtime_description": "Physical Water attack. Power 63. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Physical attack, 125 Water damage to one foe. 40% chance of stunning target."
+  },
+  {
+    "skill": "attack_charge",
+    "source_variant": "attack_charge__459e9de9a5f4918f88e949c3c05152320548dd9963e179806eeef28737486b51",
+    "template": "swords_dance",
+    "runtime_description": "Phase 1 adaptation: A frenetic dance to uplift the fighting spirit. This sharply raises the Attack stat.",
+    "source_description": "Increases ATK of one member by 10%."
+  },
+  {
+    "skill": "attack_charge_field",
+    "source_variant": "attack_charge_field__c7189cc32f1089e5f08c9f1293a6fcb55aec88b41d5a4660c9cbb73c46cd539f",
+    "template": "howl",
+    "runtime_description": "Phase 1 adaptation: The user howls loudly to raise the party's spirit, which raises the Attack stat.",
+    "source_description": "Increases ATK of all battle members by 10%."
+  },
+  {
+    "skill": "aura",
+    "source_variant": "aura__99b3a9ecb6e68bf9d5d9bf2b0bbe0e00c8c7f52daa1b5eb788c4feb0afc04143",
+    "template": "life_dew",
+    "runtime_description": "Restores 25% HP using the selected dungeon healing range.",
+    "source_description": "Restores a little HP for all party members."
+  },
+  {
+    "skill": "awesome_quake_i",
+    "source_variant": "awesome_quake_i__2b3d380066a043eabd899b9268889528e4db1f2363d65c7c6339406eecdd1ea9",
+    "template": "swift",
+    "runtime_description": "Physical Earth attack. Power 15. Hits nearby foes. Phase 1: source secondary effects are not applied.",
+    "source_description": "Physical attack, 30 Earth damage to all foes. 95% accuracy."
+  },
+  {
+    "skill": "awesome_quake_ii",
+    "source_variant": "awesome_quake_ii__c0452b5b48a615abccbc131d02afd400ff1d05af06ce282ff626256ae59515a7",
+    "template": "swift",
+    "runtime_description": "Physical Earth attack. Power 23. Hits nearby foes. Phase 1: source secondary effects are not applied.",
+    "source_description": "Physical attack, 45 Earth damage to all foes. 95% accuracy."
+  },
+  {
+    "skill": "bite",
+    "source_variant": "bite__e1bf2d4a4dcb6ed733575c9d6f3da5f0a28951ad21c8c4020efa3fd3fc87fa07",
+    "template": "water_gun",
+    "runtime_description": "Physical Neutral attack. Power 20. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Physical attack, 40 Neutral damage to one foe."
+  },
+  {
+    "skill": "blue_blaster",
+    "source_variant": "blue_blaster__ee1e01fdb102d4fb4686b320bcc10baa457ebbad7113052de445339606833f0a",
+    "template": "water_gun",
+    "runtime_description": "Physical Fire attack. Power 33. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Physical attack, 65 Fire damage to one foe. 10% chance of reducing target's DEF by 10%."
+  },
+  {
+    "skill": "bubble_blow",
+    "source_variant": "bubble_blow__70a761ea58f56b1bf93c02c7911a2a9b06081b57b8f6c0494de0232bdd2e78b2",
+    "template": "water_gun",
+    "runtime_description": "Magic Water attack. Power 15. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Magic attack, 30 Water damage to one foe."
+  },
+  {
+    "skill": "bubbles",
+    "source_variant": "bubbles__80d7c8f20fc792e12036fb4ce7e5c50dd6f381506bb6b41ec8cd78a28e2b520e",
+    "template": "water_gun",
+    "runtime_description": "Magic Water attack. Power 15. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Magic attack, 30 Water damage to one foe."
+  },
+  {
+    "skill": "burst_flame_i",
+    "source_variant": "burst_flame_i__d252ce619ba9358bb99632b8b318df8654ed48348045ad8450c8af8e80e577a0",
+    "template": "water_gun",
+    "runtime_description": "Magic Fire attack. Power 28. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Magic attack, 55 Fire damage to one foe. 95% accuracy."
+  },
+  {
+    "skill": "burst_flame_ii",
+    "source_variant": "burst_flame_ii__cdba6c30b7c9f05588a28530fc7f74fe4629ceffbfef0e67aa7b1f51ea89d4c4",
+    "template": "water_gun",
+    "runtime_description": "Magic Fire attack. Power 38. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Magic attack, 75 Fire damage to one foe. 95% accuracy."
+  },
+  {
+    "skill": "burst_flame_iii",
+    "source_variant": "burst_flame_iii__d75436500c9a792e2cb7123f3e82a41bc0f5499257b2485fde075ff1ad4153b0",
+    "template": "water_gun",
+    "runtime_description": "Magic Fire attack. Power 48. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Magic attack, 95 Fire damage to one foe. 95% accuracy."
+  },
+  {
+    "skill": "celestial_arrow",
+    "source_variant": "celestial_arrow__ed6e8036047f9d5f4c21d8aeecd61257950b87a5c7e8ab1cdd827ed12c8f756c",
+    "template": "water_gun",
+    "runtime_description": "Magic Light attack. Power 50. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Magic attack, 100 Light damage to one foe. Always hits."
+  },
+  {
+    "skill": "comet_hammer_i",
+    "source_variant": "comet_hammer_i__996c3a2ea43e272ad03d3cce68c99f0084b144917890330197d1119a6343524b",
+    "template": "water_gun",
+    "runtime_description": "Physical Earth attack. Power 33. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Physical attack, 65 Earth damage to one foe. 95% accuracy."
+  },
+  {
+    "skill": "comet_hammer_iii",
+    "source_variant": "comet_hammer_iii__f7517d44599dd91de14c6b5a44dd70d3804a2f0745561fa8a956c23b68a2444a",
+    "template": "water_gun",
+    "runtime_description": "Physical Earth attack. Power 53. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Physical attack, 105 Earth damage to one foe. 95% accuracy."
+  },
+  {
+    "skill": "crescent_leaf_i",
+    "source_variant": "crescent_leaf_i__46996e26537828cae2f121fde4548057a7dc674c504dcf981314633947529dde",
+    "template": "water_gun",
+    "runtime_description": "Physical Plant attack. Power 33. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Physical attack, 65 Plant damage to one foe. 95% accuracy."
+  },
+  {
+    "skill": "crescent_leaf_ii",
+    "source_variant": "crescent_leaf_ii__263ec779bad8a242c562997395628517eb0e15eee2eb879288c3d00bc64bcb40",
+    "template": "water_gun",
+    "runtime_description": "Physical Plant attack. Power 43. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Physical attack, 85 Plant damage to one foe. 95% accuracy."
+  },
+  {
+    "skill": "eden_s_javelin",
+    "source_variant": "eden_s_javelin__b6734d5d02917367da7b232b909d2ce179d887aff7ec7bf79b66da457b74f1c7",
+    "template": "water_gun",
+    "runtime_description": "Magic Light attack. Power 60. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Magic attack, 120 Light damage to one foe. 30% chance of increasing INT by 20%."
+  },
+  {
+    "skill": "elastic_bubbles",
+    "source_variant": "elastic_bubbles__2927c8bc4ef028d0a8ccc80655dad7cc323867a216ff0e11157a2393d5cffa99",
+    "template": "water_gun",
+    "runtime_description": "Magic Water attack. Power 15. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Magic attack, 30 Water damage to one foe."
+  },
+  {
+    "skill": "electro_shocker",
+    "source_variant": "electro_shocker__530c715efb273b082096e91a2fc8c48887475fd21287600f17d2718f5ad8bf4f",
+    "template": "water_gun",
+    "runtime_description": "Magic Electric attack. Power 40. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Magic attack, 80 Electric damage to one foe."
+  },
+  {
+    "skill": "escape_dash",
+    "source_variant": "escape_dash__3948faf080900091dc65e02e9990400dab03d4d83846f3148a9dca3d01c6db24",
+    "template": "teleport",
+    "runtime_description": "Phase 1 adaptation: The user warps itself and nearby allies to a random location on the floor.",
+    "source_description": "Flee from a battle."
+  },
+  {
+    "skill": "final_aura",
+    "source_variant": "final_aura__f67f92e19b6a7ba4612c08948df90a2285fc5a0aea4a0a85b2aa0565b764b129",
+    "template": "life_dew",
+    "runtime_description": "Restores 75% HP using the selected dungeon healing range.",
+    "source_description": "Restores a lot of HP for all party members."
+  },
+  {
+    "skill": "final_heal",
+    "source_variant": "final_heal__8f850be2a424d0389a73a6b7f9b33b6b5600696d59d2ba817c3c962835c9df70",
+    "template": "heal_pulse",
+    "runtime_description": "Restores 75% HP using the selected dungeon healing range.",
+    "source_description": "Restores a lot of HP for one party member."
+  },
+  {
+    "skill": "flower_cannon",
+    "source_variant": "flower_cannon__f8fa9d931d0017ce86f08d1e10909ad52c5b66a76201efb07fe00eb8b1b104ff",
+    "template": "water_gun",
+    "runtime_description": "Magic Plant attack. Power 53. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Magic attack, 105 Plant damage to one foe. 50% chance of paralyzing target."
+  },
+  {
+    "skill": "fox_fire",
+    "source_variant": "fox_fire__fd2e01482061d912b6472e0d3f16fe2e7e1b597765fafc13d8914b7a7a25ea0e",
+    "template": "water_gun",
+    "runtime_description": "Physical Fire attack. Power 43. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Physical attack, 85 Fire damage to one foe. 10% chance of increasing SPD by 10%."
+  },
+  {
+    "skill": "fox_tail",
+    "source_variant": "fox_tail__aa70d50e550f2e205e01920fd127539e722d5c3dbdeae904977201b2891a3557",
+    "template": "water_gun",
+    "runtime_description": "Physical Light attack. Power 18. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Physical attack, 35 Light damage to one foe."
+  },
+  {
+    "skill": "freezing_breath",
+    "source_variant": "freezing_breath__bdd5647a3cf50d2b56aba340f2eb542a6b961dc6e7f578399ba38f01c48c4c54",
+    "template": "water_gun",
+    "runtime_description": "Magic Water attack. Power 60. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Magic attack, 120 Water damage to one foe. 25% chance of paralyzing target."
+  },
+  {
+    "skill": "gaia_element_i",
+    "source_variant": "gaia_element_i__2841701b92b9f43d0e718cd91ec8659023d7bc8e77be5febe0001229cb59518d",
+    "template": "water_gun",
+    "runtime_description": "Magic Plant attack. Power 28. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Magic attack, 55 Plant damage to one foe. 95% accuracy."
+  },
+  {
+    "skill": "gaia_element_iii",
+    "source_variant": "gaia_element_iii__b0a6af82bdbc9142ff3ba70bfa3cf14200870bad18bca273cf0ca0403a34a85e",
+    "template": "water_gun",
+    "runtime_description": "Magic Plant attack. Power 48. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Magic attack, 95 Plant damage to one foe. 95% accuracy."
+  },
+  {
+    "skill": "gale_storm_i",
+    "source_variant": "gale_storm_i__ceca7e3bdbb9e4a127a282ce6cb42b57daa05eaa5ae338caa13381a66cbb097e",
+    "template": "swift",
+    "runtime_description": "Physical Wind attack. Power 15. Hits nearby foes. Phase 1: source secondary effects are not applied.",
+    "source_description": "Physical attack, 30 Wind damage to all foes. 95% accuracy."
+  },
+  {
+    "skill": "giga_blaster",
+    "source_variant": "giga_blaster__58e09c241faa8e4f81d1d420a175956c875d9734bf9746619a692a9978326715",
+    "template": "water_gun",
+    "runtime_description": "Magic Electric attack. Power 65. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Magic attack, 130 Electric damage to one foe."
+  },
+  {
+    "skill": "giga_destroyer",
+    "source_variant": "giga_destroyer__4ab7ecdcaeaf2937c165a299c52764fa1cfceb96b3c1df321e07afd48c435ba6",
+    "template": "water_gun",
+    "runtime_description": "Physical Fire attack. Power 58. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Physical attack, 115 Fire damage to one foe."
+  },
+  {
+    "skill": "grand_rock_ii",
+    "source_variant": "grand_rock_ii__e6bf0c7669d8d82e07117d1e4940888ac6e529b83777f6d488484a53abb362bf",
+    "template": "water_gun",
+    "runtime_description": "Magic Earth attack. Power 38. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Magic attack, 75 Earth damage to one foe. 95% accuracy."
+  },
+  {
+    "skill": "great_tornado",
+    "source_variant": "great_tornado__8d0714cd022380023ce2522567f7432b725fc74e99294007576690b75630fdf3",
+    "template": "water_gun",
+    "runtime_description": "Physical Neutral attack. Power 60. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "DEF-penetrating strong Neutral attack on one foe."
+  },
+  {
+    "skill": "guard_break",
+    "source_variant": "guard_break__66b68a19321a1bd39b2dd45760caf1a3456bbdb457853aea72d2b9d138bf6d99",
+    "template": "leer",
+    "runtime_description": "Phase 1 adaptation: The user gives opposing Pokémon an intimidating leer that lowers the Defense stat.",
+    "source_description": "Reduces DEF of one enemy by 10%."
+  },
+  {
+    "skill": "harpoon_torpedo",
+    "source_variant": "harpoon_torpedo__a4f6ee4dfdee839c3671e9177c3274663e38853859f4cea3fdab2f14d2e929cd",
+    "template": "water_gun",
+    "runtime_description": "Physical Fire attack. Power 45. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Physical attack, 90 Fire damage to one foe. Always hits."
+  },
+  {
+    "skill": "heal",
+    "source_variant": "heal__c86a68abf0e9c2cb9409a8da824ce87bb0ae911267669b6da9db690ead0ecafb",
+    "template": "heal_pulse",
+    "runtime_description": "Restores 25% HP using the selected dungeon healing range.",
+    "source_description": "Restores a little HP for one party member."
+  },
+  {
+    "skill": "heaven_s_gate",
+    "source_variant": "heaven_s_gate__2066bb4687de2270b2f15abc7ffb6018d31332b21962378f6889bc7fcc6dd814",
+    "template": "water_gun",
+    "runtime_description": "Magic Light attack. Power 50. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Magic attack, 100 Light damage to one foe. 10% chance of instantly killing target."
+  },
+  {
+    "skill": "heaven_s_knuckle",
+    "source_variant": "heaven_s_knuckle__0e0c11c386f31f58387dd4421914844af5001a2d7e595c4703740b49a4344e58",
+    "template": "water_gun",
+    "runtime_description": "Physical Light attack. Power 40. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Physical attack, 80 Light damage to one foe. 10% chance of increasing ATK & INT by 10%."
+  },
+  {
+    "skill": "heaven_s_thunder_ii",
+    "source_variant": "heaven_s_thunder_ii__89f6016e945c068122b8b67a8ae4370c1c525b28b25e32d3afbf0d7ce89a32f4",
+    "template": "water_gun",
+    "runtime_description": "Magic Thunder attack. Power 38. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Magic attack, 75 Thunder damage to one foe. 95% accuracy."
+  },
+  {
+    "skill": "heavy_strike_i",
+    "source_variant": "heavy_strike_i__4302c4385bdc2d7018b5039e086240334560a70232293c65bc4cf258d3d14808",
+    "template": "water_gun",
+    "runtime_description": "Physical Neutral attack. Power 35. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Physical attack, 70 Neutral damage to one foe. Always Hits."
+  },
+  {
+    "skill": "heavy_strike_ii",
+    "source_variant": "heavy_strike_ii__7532c6a228e6cb27bd238f9f39ceba8409d0ecb50aba7f03b590f866fd641e1c",
+    "template": "water_gun",
+    "runtime_description": "Physical Neutral attack. Power 45. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Physical attack, 90 Neutral damage to one foe. Always Hits."
+  },
+  {
+    "skill": "heavy_strike_iii",
+    "source_variant": "heavy_strike_iii__21555234ded0fe480a6fe527e34195a7f71d544994892bc90ed917e817d93d48",
+    "template": "water_gun",
+    "runtime_description": "Physical Neutral attack. Power 55. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Physical attack, 110 Neutral damage to one foe. Always Hits."
+  },
+  {
+    "skill": "holy_light_i",
+    "source_variant": "holy_light_i__eec976bbe0883002f5f09e427d3a6aa2e3ddd02efdea08a32e82f8c469e00319",
+    "template": "water_gun",
+    "runtime_description": "Magic Light attack. Power 28. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Magic attack, 55 Light damage to one foe. 95% accuracy."
+  },
+  {
+    "skill": "holy_light_ii",
+    "source_variant": "holy_light_ii__5542cd95c401c1c3f446538c5b4902bdde61bd1f1866ede3d6d9880c62ceb50c",
+    "template": "water_gun",
+    "runtime_description": "Magic Light attack. Power 38. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Magic attack, 75 Light damage to one foe. 95% accuracy."
+  },
+  {
+    "skill": "holy_light_iii",
+    "source_variant": "holy_light_iii__91817d734ad35b67b7059523854932b356625be2026a2f6a429d3535105f7e53",
+    "template": "water_gun",
+    "runtime_description": "Magic Light attack. Power 48. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Magic attack, 95 Light damage to one foe. 95% accuracy."
+  },
+  {
+    "skill": "horn_buster",
+    "source_variant": "horn_buster__58c8c3e99e8a4fab180f4a6d06f7b0a30e439b6d14a1dbf5150a975a7a1bb95d",
+    "template": "water_gun",
+    "runtime_description": "Magic Electric attack. Power 60. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "INT-penetrating strong Electric attack on one foe."
+  },
+  {
+    "skill": "hydro_water_i",
+    "source_variant": "hydro_water_i__953abc7795b6ff25f54ce8e29f0c4de8f254a509e761fd5ffe96cb5a34dcab81",
+    "template": "water_gun",
+    "runtime_description": "Magic Water attack. Power 28. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Magic attack, 55 Water damage to one foe. 95% accuracy."
+  },
+  {
+    "skill": "ice_archery_ii",
+    "source_variant": "ice_archery_ii__080767a0e59c621fff07ce8aa38163a466d776485c7dffc349096e9bf3426512",
+    "template": "water_gun",
+    "runtime_description": "Physical Water attack. Power 43. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Physical attack, 85 Water damage to one foe. 95% accuracy."
+  },
+  {
+    "skill": "ice_archery_iii",
+    "source_variant": "ice_archery_iii__74169f99c8b4a12752c4a885f8bd7990f93ea09f193e2c57f5257249bf480037",
+    "template": "water_gun",
+    "runtime_description": "Physical Water attack. Power 53. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Physical attack, 105 Water damage to one foe. 95% accuracy."
+  },
+  {
+    "skill": "ice_wolf_claw",
+    "source_variant": "ice_wolf_claw__f73136691d8d8ac8b76b97b43ce7af13d35ace2a88d2ed657689d911fcc11938",
+    "template": "swift",
+    "runtime_description": "Physical Water attack. Power 23. Hits nearby foes. Phase 1: source secondary effects are not applied.",
+    "source_description": "2 physical attacks, 45 Water damage to all foes."
+  },
+  {
+    "skill": "idle_bubble",
+    "source_variant": "idle_bubble__ecb6134867c7216014ea1389c8d2b3be22642cb561861271b40f22de8f665363",
+    "template": "water_gun",
+    "runtime_description": "Magic Water attack. Power 15. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Magic attack, 30 Water damage to one foe. Puts target to sleep. 70% accuracy."
+  },
+  {
+    "skill": "lightning_paw",
+    "source_variant": "lightning_paw__7814c581b8fada0fbc906d39df7be1d5747fc4cf6f816eed1bf88b470c52cc84",
+    "template": "water_gun",
+    "runtime_description": "Fixed Neutral attack. Deals 15 fixed damage. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Fixed damage of 150 to one foe. 60% chance of confusing target."
+  },
+  {
+    "skill": "mach_rush_i",
+    "source_variant": "mach_rush_i__5c24ecfc8662d14c2696a3fd63541cf11d5269e74a4e8adfebc55285696beb3d",
+    "template": "swift",
+    "runtime_description": "Physical Neutral attack. Power 18. Hits nearby foes. Phase 1: source secondary effects are not applied.",
+    "source_description": "Physical attack, 35 Neutral damage to all foes. Always Hits."
+  },
+  {
+    "skill": "marching_fishes",
+    "source_variant": "marching_fishes__4c024f618929b1944ae5df15050799292ec48fc9403734e8f95f6541bf969fd5",
+    "template": "swift",
+    "runtime_description": "Physical Water attack. Power 8. Hits nearby foes. Phase 1: source secondary effects are not applied.",
+    "source_description": "1-3 physical attacks, 15 Water damage to all foes."
+  },
+  {
+    "skill": "mega_flame",
+    "source_variant": "mega_flame__87373f9d38802f6421c675f6a26d049b433999c4e7c2363cf48eefc69b853258",
+    "template": "water_gun",
+    "runtime_description": "Physical Fire attack. Power 48. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Physical attack, 95 Fire damage to one foe."
+  },
+  {
+    "skill": "mental_charge",
+    "source_variant": "mental_charge__a0871264ec3156a9d39dd1a250b89c54b573b0da747e3b186de22a7e984b63f5",
+    "template": "calm_mind",
+    "runtime_description": "Phase 1 adaptation: The user quietly focuses its mind and calms its spirit to raise its Sp. Atk and Sp. Def stats.",
+    "source_description": "Increases INT of one member by 10%."
+  },
+  {
+    "skill": "mental_charge_field",
+    "source_variant": "mental_charge_field__4670f181e81b1c553f8777cdf42d92c0df5cb6e1dbf1e87ee1e841dd86656ecb",
+    "template": "calm_mind",
+    "runtime_description": "Phase 1 adaptation: The user quietly focuses its mind and calms its spirit to raise its Sp. Atk and Sp. Def stats.",
+    "source_description": "Increases INT of all battle members by 10%."
+  },
+  {
+    "skill": "meteor_fall_i",
+    "source_variant": "meteor_fall_i__40b1e27e2ae1ec076816de49178472dfb5125b1114657c58a75c8921fdb824c6",
+    "template": "swift",
+    "runtime_description": "Physical Fire attack. Power 15. Hits nearby foes. Phase 1: source secondary effects are not applied.",
+    "source_description": "Physical attack, 30 Fire damage to all foes. 95% accuracy."
+  },
+  {
+    "skill": "meteor_fall_ii",
+    "source_variant": "meteor_fall_ii__4ad0abd78ec049751425095c9e01c8bcf4a69c63960bfcf320d6acab21ba5ca0",
+    "template": "swift",
+    "runtime_description": "Physical Fire attack. Power 23. Hits nearby foes. Phase 1: source secondary effects are not applied.",
+    "source_description": "Physical attack, 45 Fire damage to all foes. 95% accuracy."
+  },
+  {
+    "skill": "meteor_fall_iii",
+    "source_variant": "meteor_fall_iii__1a7b56602fd7a7625fd6d36b01aa0d4426054be4df5034fa0cff810e27c4ffa3",
+    "template": "swift",
+    "runtime_description": "Physical Fire attack. Power 38. Hits nearby foes. Phase 1: source secondary effects are not applied.",
+    "source_description": "Physical attack, 75 Fire damage to all foes. 95% accuracy."
+  },
+  {
+    "skill": "meteor_wing",
+    "source_variant": "meteor_wing__a04881f987a8b8b3433a69af4199435994cfb6c87867a9f692ce131e26d09643",
+    "template": "swift",
+    "runtime_description": "Magic Fire attack. Power 13. Hits nearby foes. Phase 1: source secondary effects are not applied.",
+    "source_description": "Magic attack, 25 Fire damage to all foes. 10% chance of increasing SPD by 10%."
+  },
+  {
+    "skill": "mirror_reflection",
+    "source_variant": "mirror_reflection__ca6fa747ff7b7df154c69d07cb7a5b644446595fef3a6bd5faed5bc6705d08cc",
+    "template": "magic_coat",
+    "runtime_description": "Phase 1 adaptation: The user puts up a barrier that reflects status moves back to the user.",
+    "source_description": "Counterattacks the enemy when you receive a magic attack."
+  },
+  {
+    "skill": "nanomachine_break_i",
+    "source_variant": "nanomachine_break_i__a1a0d5db471b67ac230f4b713147344f1a62779c573a6a57d7d069967520f804",
+    "template": "water_gun",
+    "runtime_description": "Physical Thunder attack. Power 33. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Physical attack, 65 Thunder damage to one foe. 95% accuracy."
+  },
+  {
+    "skill": "needle_spray",
+    "source_variant": "needle_spray__5d4e591cf437abb6a90604d87a3a134faaf96293936e2ed009888a18d60b3194",
+    "template": "swift",
+    "runtime_description": "Physical Plant attack. Power 20. Hits nearby foes. Phase 1: source secondary effects are not applied.",
+    "source_description": "Physical attack, 40 Plant damage to all foes. 5% chance of paralyzing target."
+  },
+  {
+    "skill": "ocean_wave_i",
+    "source_variant": "ocean_wave_i__e0d7576870cbe0304883ad29320c7654ba662cba99a43d1fa837b8b29257fc30",
+    "template": "swift",
+    "runtime_description": "Magic Water attack. Power 10. Hits nearby foes. Phase 1: source secondary effects are not applied.",
+    "source_description": "Magic attack, 20 Water damage to all foes. 95% accuracy."
+  },
+  {
+    "skill": "ocean_wave_ii",
+    "source_variant": "ocean_wave_ii__51a5eebd8087edf443955a14c26bb54293ff709c957235b1f619e14b90f24776",
+    "template": "swift",
+    "runtime_description": "Magic Water attack. Power 18. Hits nearby foes. Phase 1: source secondary effects are not applied.",
+    "source_description": "Magic attack, 35 Water damage to all foes. 95% accuracy."
+  },
+  {
+    "skill": "ocean_wave_iii",
+    "source_variant": "ocean_wave_iii__dc1bfd6acb2ee54bdd1dfb9bf04341cc12c252fe5fb7cb8dd21b9e821914c69d",
+    "template": "swift",
+    "runtime_description": "Magic Water attack. Power 33. Hits nearby foes. Phase 1: source secondary effects are not applied.",
+    "source_description": "Magic attack, 65 Water damage to all foes. 95% accuracy."
+  },
+  {
+    "skill": "pepper_breath",
+    "source_variant": "pepper_breath__68d53bc4b0470c0c90d6a96265b57d71daf67eccc64dd41ab8597809f3ad72ae",
+    "template": "water_gun",
+    "runtime_description": "Physical Fire attack. Power 35. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Physical attack, 70 Fire damage to one foe."
+  },
+  {
+    "skill": "perfect_revival",
+    "source_variant": "perfect_revival__7ae2f2d1aa4a527fcf93036e13908e35c1e6727ff6c7f7bf2b4e217b6a5717e5",
+    "template": "life_dew",
+    "runtime_description": "Revives fallen teammates using the dungeon revival rules.",
+    "source_description": "Revive all fallen party members with full HP."
+  },
+  {
+    "skill": "poison_ivy",
+    "source_variant": "poison_ivy__1be8f9ec456c8cd8d12fcdd4b79eec1d840bbb6a4becc962115e6f4b47e779a1",
+    "template": "water_gun",
+    "runtime_description": "Physical Plant attack. Power 33. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Physical attack, 65 Plant damage to one foe. 10% chance of poisoning target."
+  },
+  {
+    "skill": "power_energy_i",
+    "source_variant": "power_energy_i__42fa385fd3b9df2c2d1d28bf52a82473e87cc38b7de86f1028914976bbc5f51e",
+    "template": "water_gun",
+    "runtime_description": "Magic Neutral attack. Power 30. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Magic attack, 60 Neutral damage to one foe. Always Hits."
+  },
+  {
+    "skill": "power_energy_iii",
+    "source_variant": "power_energy_iii__88b995969bf53e171bc21c2a4c097fa17dfca128883d64663b8648e5c633cf16",
+    "template": "water_gun",
+    "runtime_description": "Magic Neutral attack. Power 50. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Magic attack, 100 Neutral damage to one foe. Always Hits."
+  },
+  {
+    "skill": "puppy_howl",
+    "source_variant": "puppy_howl__d9d19e03d61ea11bde32b9efb55c7f42858ae7451549d31cded96aad2a283022",
+    "template": "water_gun",
+    "runtime_description": "Magic Light attack. Power 60. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "INT-penetrating medium Light attack on one foe. 10% chance of paralyzing target."
+  },
+  {
+    "skill": "revive",
+    "source_variant": "revive__7289c40142521a2eb08a96319ccc3e5368e6d428dc7c6c0c2ae31a9c14d4a07c",
+    "template": "heal_pulse",
+    "runtime_description": "Revives fallen teammates using the dungeon revival rules.",
+    "source_description": "Revive one fallen party member with 50% HP."
+  },
+  {
+    "skill": "ripping_net",
+    "source_variant": "ripping_net__00b251375b138a0dd1fa545de08c1ecfa03fa3c0cd76c5698c86bbeb7d92178b",
+    "template": "water_gun",
+    "runtime_description": "Physical Thunder attack. Power 20. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Physical attack, 40 Thunder damage to one foe. Paralyzes target. 70% accuracy."
+  },
+  {
+    "skill": "rune_forest_i",
+    "source_variant": "rune_forest_i__45040c5d205134d322a9ffbbf6ec96edb092936620c0e3f96b5b23cdde2ee805",
+    "template": "swift",
+    "runtime_description": "Magic Plant attack. Power 10. Hits nearby foes. Phase 1: source secondary effects are not applied.",
+    "source_description": "Magic attack, 20 Plant damage to all foes. 95% accuracy."
+  },
+  {
+    "skill": "rune_forest_ii",
+    "source_variant": "rune_forest_ii__6d87a3ae3ccef8ebcc6f1b4956b9752ea68461acee9633d20a5da314db704b3f",
+    "template": "swift",
+    "runtime_description": "Magic Plant attack. Power 18. Hits nearby foes. Phase 1: source secondary effects are not applied.",
+    "source_description": "Magic attack, 35 Plant damage to all foes. 95% accuracy."
+  },
+  {
+    "skill": "rune_forest_iii",
+    "source_variant": "rune_forest_iii__155b7707dbfb40338a2a66fa554f2dcb0953ab731e32c89306599023e34cd6fd",
+    "template": "swift",
+    "runtime_description": "Magic Plant attack. Power 33. Hits nearby foes. Phase 1: source secondary effects are not applied.",
+    "source_description": "Magic attack, 65 Plant damage to all foes. 95% accuracy."
+  },
+  {
+    "skill": "safety_guard",
+    "source_variant": "safety_guard__1ffae26d194c0c46aa71bbb8a8d9aa568b85049ba97c27a9b6448ed19a725211",
+    "template": "endure",
+    "runtime_description": "Phase 1 adaptation: The user endures any attack with at least 1 HP.",
+    "source_description": "Make one member endure all attacks that could kill you once."
+  },
+  {
+    "skill": "saint_knuckle_i",
+    "source_variant": "saint_knuckle_i__22513704cc362a23f5ddb82ba00ae1cdea6ca29780a58b5a91a65278321de573",
+    "template": "water_gun",
+    "runtime_description": "Physical Light attack. Power 33. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Physical attack, 65 Light damage to one foe. 95% accuracy."
+  },
+  {
+    "skill": "shadow_wing",
+    "source_variant": "shadow_wing__c898d151bbe91be924e9503b2e3d03fb827e54c825fcc669fa8e82fb2395805c",
+    "template": "swift",
+    "runtime_description": "Magic Fire attack. Power 33. Hits nearby foes. Phase 1: source secondary effects are not applied.",
+    "source_description": "Magic attack, 65 Fire damage to all foes."
+  },
+  {
+    "skill": "shining_laser_i",
+    "source_variant": "shining_laser_i__33942bb3bb0ed042ae0a2ea4df8a2e21f2b0ddcb95d8da587c791e83d47ce03b",
+    "template": "swift",
+    "runtime_description": "Magic Light attack. Power 10. Hits nearby foes. Phase 1: source secondary effects are not applied.",
+    "source_description": "Magic attack, 20 Light damage to all foes. 95% accuracy."
+  },
+  {
+    "skill": "shining_laser_ii",
+    "source_variant": "shining_laser_ii__b1aa0a3309b5aa3e39300bb610c859d918ebcf336dbfebdb032d8d0a9af61a58",
+    "template": "swift",
+    "runtime_description": "Magic Light attack. Power 18. Hits nearby foes. Phase 1: source secondary effects are not applied.",
+    "source_description": "Magic attack, 35 Light damage to all foes. 95% accuracy."
+  },
+  {
+    "skill": "shining_laser_iii",
+    "source_variant": "shining_laser_iii__c4bca28fe4940c557233c04e8d5bd0eaabf0aed8ef65521727b491eddf3f789c",
+    "template": "swift",
+    "runtime_description": "Magic Light attack. Power 33. Hits nearby foes. Phase 1: source secondary effects are not applied.",
+    "source_description": "Magic attack, 65 Light damage to all foes. 95% accuracy."
+  },
+  {
+    "skill": "soap_flower",
+    "source_variant": "soap_flower__ab2d4b1109a26ae164a5a1b16a2eb3124f7dee2307edff834f0d1b2111fad7ce",
+    "template": "water_gun",
+    "runtime_description": "Magic Water attack. Power 15. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Magic attack, 30 Water damage to one foe."
+  },
+  {
+    "skill": "sonic_void_i",
+    "source_variant": "sonic_void_i__dd51111a3e6c990893348f32a7ba8d1b4d3ca401fb2973d0757ac5382a412689",
+    "template": "water_gun",
+    "runtime_description": "Magic Wind attack. Power 28. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Magic attack, 55 Wind damage to one foe. 95% accuracy."
+  },
+  {
+    "skill": "sonic_void_iii",
+    "source_variant": "sonic_void_iii__8da627c785d7bce70c4fdcdab91ad322ffeb6d86b4bab66501fd2589d38d69e4",
+    "template": "water_gun",
+    "runtime_description": "Magic Wind attack. Power 48. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Magic attack, 95 Wind damage to one foe. 95% accuracy."
+  },
+  {
+    "skill": "speed_break",
+    "source_variant": "speed_break__035309021a778d8f310598feb042254494771ae392e80d6fa2e7b1ccc4773537",
+    "template": "scary_face",
+    "runtime_description": "Phase 1 adaptation: The user frightens the target with a scary face to harshly lower its Movement Speed.",
+    "source_description": "Reduces SPD of one enemy by 10%."
+  },
+  {
+    "skill": "speed_charge",
+    "source_variant": "speed_charge__ccdb7bfe5bd3ce6717a47772927c3df8efbc121a3d49ed81f999acacf5aa660d",
+    "template": "agility",
+    "runtime_description": "Phase 1 adaptation: The user relaxes and lightens the body to raise Movement Speed.",
+    "source_description": "Increases SPD of one member by 10%."
+  },
+  {
+    "skill": "speed_charge_field",
+    "source_variant": "speed_charge_field__ae9b0db359b60b93098f2e263e79240c5fa0b53a5cdbb8958cc4349896b91ff3",
+    "template": "tailwind",
+    "runtime_description": "Phase 1 adaptation: The user whips up a turbulent whirlwind that sharply raises the Movement Speed of the user and its allies.",
+    "source_description": "Increases SPD of all battle members by 10%."
+  },
+  {
+    "skill": "spiral_twister",
+    "source_variant": "spiral_twister__0530c46ecb3da5770d310640ed2da55f3f4cd3a4bd7d2ae7e57299ade2e79bb3",
+    "template": "water_gun",
+    "runtime_description": "Magic Fire attack. Power 28. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Magic attack, 55 Fire damage to one foe. 10% chance of increasing INT by 10%."
+  },
+  {
+    "skill": "starlight_explosion",
+    "source_variant": "starlight_explosion__e3ae14caf9adeb60b60721b676d79451d43ffaa019d1000a03b8d12c882ade7b",
+    "template": "swift",
+    "runtime_description": "Magic Light attack. Power 45. Hits nearby foes. Phase 1: source secondary effects are not applied.",
+    "source_description": "Magic attack, 90 Light damage to all foes."
+  },
+  {
+    "skill": "status_barrier",
+    "source_variant": "status_barrier__f6f05d1722522937251c12f0429527f80f2f12c379b481d476786fc5f111b330",
+    "template": "safeguard",
+    "runtime_description": "Phase 1 adaptation: The user creates a protective field that prevents status conditions for ten turns.",
+    "source_description": "Make one member immune to all status effects."
+  },
+  {
+    "skill": "strike_of_the_seven_stars",
+    "source_variant": "strike_of_the_seven_stars__d0f5957cfb01aa424f7d7b4114d2193e948f94faa2296043469d163533d1b25b",
+    "template": "swift",
+    "runtime_description": "Magic Light attack. Power 8. Hits nearby foes. Phase 1: source secondary effects are not applied.",
+    "source_description": "7 magic attacks, 15 Light damage to all foes."
+  },
+  {
+    "skill": "super_bubble_blow",
+    "source_variant": "super_bubble_blow__805c98a4eba8bb3bb32dcc4834fbe0409e6232723c9ebe14de8f582394fe1e16",
+    "template": "water_gun",
+    "runtime_description": "Magic Water attack. Power 18. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Magic attack, 35 Water damage to one foe."
+  },
+  {
+    "skill": "super_shocker",
+    "source_variant": "super_shocker__48deef744a5bcac2476caad7023c2b169960eb4828beae7e4c05cfd643a5a9fb",
+    "template": "water_gun",
+    "runtime_description": "Magic Electric attack. Power 30. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Magic attack, 60 Electric damage to one foe."
+  },
+  {
+    "skill": "terra_force",
+    "source_variant": "terra_force__cfde02f774fe09140d6954be971f72fb37a1f92beec9ae03f18db4b2cbb70f4c",
+    "template": "swift",
+    "runtime_description": "Physical Fire attack. Power 45. Hits nearby foes. Phase 1: source secondary effects are not applied.",
+    "source_description": "Physical attack, 90 Fire damage to all foes. 30% chance of increasing ATK by 20%."
+  },
+  {
+    "skill": "thorn_whip",
+    "source_variant": "thorn_whip__c65a9a840a5f9a099a761e3d2bfe2cbdf9aebddc66ea24c2e5191108abc1f6a9",
+    "template": "water_gun",
+    "runtime_description": "Physical Plant attack. Power 60. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Physical attack, 120 Plant damage to one foe, absorbs 50% into HP. 30% chance of paralyzing target."
+  },
+  {
+    "skill": "thunder_fall_ii",
+    "source_variant": "thunder_fall_ii__5a027e6dd10ff321aa731a1279a59b17768b995e64bbfc7c658dc92c31f6aafe",
+    "template": "swift",
+    "runtime_description": "Physical Thunder attack. Power 23. Hits nearby foes. Phase 1: source secondary effects are not applied.",
+    "source_description": "Physical attack, 45 Thunder damage to all foes. 95% accuracy."
+  },
+  {
+    "skill": "vulcan_s_hammer",
+    "source_variant": "vulcan_s_hammer__907a7e7c544b7f6d720c1e84b5af6d8d3603caffcaa5166b96085afb60243ee9",
+    "template": "water_gun",
+    "runtime_description": "Physical Electric attack. Power 58. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Physical attack, 115 Electric damage to one foe."
+  },
+  {
+    "skill": "wolf_claw",
+    "source_variant": "wolf_claw__6784d6749ccadf463d1fe6c3b6ce020dbb0b67f14ea5712dac0f1b7b563e7dc4",
+    "template": "water_gun",
+    "runtime_description": "Physical Neutral attack. Power 60. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Physical attack, 120 Neutral damage to one foe."
+  },
+  {
+    "skill": "wolkenapalm_i",
+    "source_variant": "wolkenapalm_i__1a9477e4999e14092baa5e98f1c403b5c6a1ba3a1d0f0363e564066a83c5c29f",
+    "template": "water_gun",
+    "runtime_description": "Physical Fire attack. Power 33. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Physical attack, 65 Fire damage to one foe. 95% accuracy."
+  },
+  {
+    "skill": "wolkenapalm_ii",
+    "source_variant": "wolkenapalm_ii__d0b962f294008ce37b54e362cdf6b4d7f52b36efdf5d431d19c036efadb8e4ba",
+    "template": "water_gun",
+    "runtime_description": "Physical Fire attack. Power 43. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Physical attack, 85 Fire damage to one foe. 95% accuracy."
+  },
+  {
+    "skill": "wolkenapalm_iii",
+    "source_variant": "wolkenapalm_iii__36c0f312d3f32b55c48e3d79af735b8ba8d7bfb63fde056c852797b3f7c53fb1",
+    "template": "water_gun",
+    "runtime_description": "Physical Fire attack. Power 53. Hits one foe in a line. Phase 1: source secondary effects are not applied.",
+    "source_description": "Physical attack, 105 Fire damage to one foe. 95% accuracy."
+  },
+  {
+    "skill": "x_heal",
+    "source_variant": "x_heal__d61b9915daeae4c2ad2d785a73371836134aa4dfd063b9ec2362bcf249909c7c",
+    "template": "heal_pulse",
+    "runtime_description": "Restores 50% HP using the selected dungeon healing range.",
+    "source_description": "Restores HP for one party member."
+  }
+]

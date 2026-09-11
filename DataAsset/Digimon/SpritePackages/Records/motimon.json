@@ -1,0 +1,11 @@
+{
+  "species": "motimon",
+  "selection_version": 2,
+  "page_url": "https://wikimon.net/Mochimon",
+  "source_url": "https://wikimon.net/images/7/76/Mochimon_new_century.png",
+  "source_sha256": "2fd2d195835ab8b6737bccf93f3301a7f028aee6beafb81121d66b8b432640e4",
+  "png_sha256": "f0de4f4c9fc8890173c0c32efc539b1f667d9b129c96b9fcb8f36b330a9f5775",
+  "width": 426,
+  "height": 331,
+  "processing": "Lossless RGBA PNG; source dimensions and alpha retained."
+}

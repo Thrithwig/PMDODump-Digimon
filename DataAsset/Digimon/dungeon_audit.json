@@ -1,0 +1,238 @@
+{
+  "zones": [
+    {
+      "id": "ambush_forest",
+      "level": 30,
+      "digimon_encounter_records": 74,
+      "repairs": []
+    },
+    {
+      "id": "bramble_woods",
+      "level": 10,
+      "digimon_encounter_records": 105,
+      "repairs": []
+    },
+    {
+      "id": "castaway_cave",
+      "level": 30,
+      "digimon_encounter_records": 36,
+      "repairs": []
+    },
+    {
+      "id": "cave_of_whispers",
+      "level": 5,
+      "digimon_encounter_records": 64,
+      "repairs": [
+        "segment 0: supplied loot on 16 floors",
+        "segment 0: supplied enemies on 16 floors"
+      ]
+    },
+    {
+      "id": "champions_road",
+      "level": 50,
+      "digimon_encounter_records": 69,
+      "repairs": [
+        "segment 1: supplied loot on 5 floors",
+        "segment 1: supplied enemies on 5 floors"
+      ]
+    },
+    {
+      "id": "copper_quarry",
+      "level": 25,
+      "digimon_encounter_records": 110,
+      "repairs": []
+    },
+    {
+      "id": "depleted_basin",
+      "level": 25,
+      "digimon_encounter_records": 104,
+      "repairs": [
+        "segment 1: supplied loot on 4 floors"
+      ]
+    },
+    {
+      "id": "eon_island",
+      "level": 5,
+      "digimon_encounter_records": 12,
+      "repairs": [
+        "segment 0: supplied loot on 3 floors",
+        "segment 0: supplied enemies on 3 floors"
+      ]
+    },
+    {
+      "id": "faded_trail",
+      "level": 10,
+      "digimon_encounter_records": 106,
+      "repairs": []
+    },
+    {
+      "id": "faultline_ridge",
+      "level": 15,
+      "digimon_encounter_records": 50,
+      "repairs": []
+    },
+    {
+      "id": "fertile_valley",
+      "level": 15,
+      "digimon_encounter_records": 90,
+      "repairs": []
+    },
+    {
+      "id": "flyaway_cliffs",
+      "level": 20,
+      "digimon_encounter_records": 50,
+      "repairs": []
+    },
+    {
+      "id": "forsaken_desert",
+      "level": 30,
+      "digimon_encounter_records": 18,
+      "repairs": []
+    },
+    {
+      "id": "geode_crevice",
+      "level": 20,
+      "digimon_encounter_records": 65,
+      "repairs": []
+    },
+    {
+      "id": "guildmaster_island",
+      "level": 5,
+      "digimon_encounter_records": 0,
+      "repairs": []
+    },
+    {
+      "id": "guildmaster_trail",
+      "level": 5,
+      "digimon_encounter_records": 1260,
+      "repairs": []
+    },
+    {
+      "id": "labyrinth_of_the_lost",
+      "level": 5,
+      "digimon_encounter_records": 12,
+      "repairs": [
+        "segment 0: supplied loot on 3 floors",
+        "segment 0: supplied enemies on 3 floors"
+      ]
+    },
+    {
+      "id": "lava_floe_island",
+      "level": 20,
+      "digimon_encounter_records": 98,
+      "repairs": [
+        "segment 1: supplied loot on 10 floors"
+      ]
+    },
+    {
+      "id": "moonlit_courtyard",
+      "level": 25,
+      "digimon_encounter_records": 153,
+      "repairs": []
+    },
+    {
+      "id": "overgrown_wilds",
+      "level": 20,
+      "digimon_encounter_records": 99,
+      "repairs": []
+    },
+    {
+      "id": "prism_isles",
+      "level": 10,
+      "digimon_encounter_records": 12,
+      "repairs": [
+        "segment 0: supplied loot on 3 floors",
+        "segment 0: supplied enemies on 3 floors"
+      ]
+    },
+    {
+      "id": "relic_tower",
+      "level": 35,
+      "digimon_encounter_records": 85,
+      "repairs": []
+    },
+    {
+      "id": "secret_garden",
+      "level": 5,
+      "digimon_encounter_records": 272,
+      "repairs": []
+    },
+    {
+      "id": "sickly_hollow",
+      "level": 25,
+      "digimon_encounter_records": 80,
+      "repairs": []
+    },
+    {
+      "id": "sleeping_caldera",
+      "level": 30,
+      "digimon_encounter_records": 44,
+      "repairs": []
+    },
+    {
+      "id": "snowbound_path",
+      "level": 40,
+      "digimon_encounter_records": 146,
+      "repairs": []
+    },
+    {
+      "id": "the_neverending_tale",
+      "level": 5,
+      "digimon_encounter_records": 12,
+      "repairs": [
+        "segment 0: supplied loot on 3 floors",
+        "segment 0: supplied enemies on 3 floors"
+      ]
+    },
+    {
+      "id": "thunderstruck_pass",
+      "level": 30,
+      "digimon_encounter_records": 74,
+      "repairs": []
+    },
+    {
+      "id": "tiny_tunnel",
+      "level": 5,
+      "digimon_encounter_records": 19,
+      "repairs": []
+    },
+    {
+      "id": "training_maze",
+      "level": 10,
+      "digimon_encounter_records": 172,
+      "repairs": []
+    },
+    {
+      "id": "treacherous_mountain",
+      "level": 40,
+      "digimon_encounter_records": 37,
+      "repairs": []
+    },
+    {
+      "id": "trickster_woods",
+      "level": 20,
+      "digimon_encounter_records": 156,
+      "repairs": []
+    },
+    {
+      "id": "tropical_path",
+      "level": 5,
+      "digimon_encounter_records": 15,
+      "repairs": []
+    },
+    {
+      "id": "veiled_ridge",
+      "level": 35,
+      "digimon_encounter_records": 106,
+      "repairs": []
+    },
+    {
+      "id": "wayward_wetlands",
+      "level": 20,
+      "digimon_encounter_records": 138,
+      "repairs": [
+        "removed 6 null generation steps"
+      ]
+    }
+  ]
+}
