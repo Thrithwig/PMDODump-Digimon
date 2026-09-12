@@ -2,7 +2,7 @@
 import copy
 import json
 from pathlib import Path
-from digimon_early_zones import ROOT, ZONE_DIR, load, convert, stage_pool, known_skills, restore_placement_ranges, baseline_zone
+from digimon_early_zones import ROOT, ZONE_DIR, load, convert, pick_species, known_skills, restore_placement_ranges, baseline_zone
 
 
 def walk(node):
@@ -31,7 +31,7 @@ def main():
         before = copy.deepcopy(data)
         restore_placement_ranges(data, baseline_zone(path.stem))
         level = max(5, obj.get('Level', 5))
-        pool = stage_pool(species, level)
+        pool = species
         repairs = list(previous.get(path.stem, []))
         removed = 0
         for node in walk(data):
@@ -53,11 +53,11 @@ def main():
             for step in segment.get('ZoneSteps', []):
                 if 'TeamSpawnZoneStep' in step['$type'] and not step['Spawns'] and not step['SpecificSpawns']:
                     for floor in range(end):
-                        for offset in range(min(4, len(pool))):
+                        for offset in range(4):
                             row = copy.deepcopy(monster)
-                            sid = pool[(floor + offset + sum(map(ord, path.stem))) % len(pool)]['id']
-                            enemy = row['Spawn']['Spawn']
                             enemy_level = min(99, level + floor)
+                            sid = pick_species(pool, enemy_level, f'{path.stem}:fill:{index}:{floor}:{offset}')['id']
+                            enemy = row['Spawn']['Spawn']
                             enemy['BaseForm'].update(Species=sid, Form=0, Skin='normal', Gender=-1)
                             enemy['Level'] = {'Min': enemy_level, 'Max': enemy_level}
                             enemy['SpecifiedSkills'] = known_skills(sid, enemy_level)

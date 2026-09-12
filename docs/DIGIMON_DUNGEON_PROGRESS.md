@@ -51,6 +51,33 @@ respawn tables, loot tables, placed loot, valid item references and absolute sta
 Relative stairs may intentionally exit a segment. Fixed-map enemies run through
 the same Digimon conversion callback as the playable game before validation.
 
+## Enemy stage tiers (2026-09-12 playtest retuning)
+
+The first slice picked enemy stages from the zone's starting level, one full stage
+ahead of what the player could reach: level-10 zones were about 60% Champions and
+Trickster Woods (level 20, solo) was 52% Ultimates, while Rookie-to-Champion needs
+level 12-20 and Champion-to-Ultimate needs level 26-40 in the source requirements.
+In this stat model a stage step is worth 10-20 stat points and a level about one,
+so that mismatch, not enemy level, made the third story dungeon unwinnable.
+
+Enemy stage now follows each spawn's own level, and the upper stage's share rises
+across the tier. Enemy levels themselves are unchanged from upstream.
+
+| Enemy level | Stages | Upper-stage share |
+| --- | --- | --- |
+| 1-7 | Baby, In-Training | 50% |
+| 8-13 | In-Training, Rookie | 60% |
+| 14-27 | Rookie, Champion | 20% rising to 50% |
+| 28-54 | Champion, Ultimate | 20% rising to 50% |
+| 55+ | Ultimate, Mega | 20% rising to 50% |
+
+The pick is a deterministic function of zone, spawn path and level, so reruns are
+stable. Tropical Path, the Koromon guardian and Monzaemon are exempt. Spawns whose
+upstream level is far from the zone's starting level (rare high-level encounters and
+low-level fodder) now receive matching stages rather than the zone's average stage.
+Trickster Woods keeps its upstream solo team size. The target is that a story
+dungeon falls in two or three attempts; side dungeons may run slightly harder.
+
 ## Camp NPCs
 
 The seven camp maps (including Base Camp's alternate map) convert static NPCs and

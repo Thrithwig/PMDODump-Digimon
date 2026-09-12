@@ -15,6 +15,35 @@ class EarlyZoneTests(unittest.TestCase):
             self.assertTrue(zone["Released"], row["id"])
             self.assertTrue(5 <= zone["Level"] <= 15, row["id"])
 
+    def test_enemy_stage_follows_spawn_level(self):
+        """Wild Digimon stages track each spawn's own level; hand-authored encounters are exempt."""
+        import sys
+        sys.path.insert(0, str(ROOT / 'Scripts'))
+        from digimon_early_zones import stage_weights, exempt, encounter_level
+        stage = {row['id']: row['stage'] for row in json.loads((ROOT / 'DataAsset/Digimon/phase2_gameplay.json').read_text(encoding='utf-8'))['species']}
+        self.assertEqual(stage_weights(10), {'In-Training': 0.4, 'Rookie': 0.6})
+        self.assertEqual(stage_weights(27), {'Rookie': 0.5, 'Champion': 0.5})
+        self.assertNotIn('Ultimate', stage_weights(27))
+        self.assertNotIn('Mega', stage_weights(54))
+        def walk(node):
+            if isinstance(node, dict):
+                yield node
+                for value in node.values(): yield from walk(value)
+            elif isinstance(node, list):
+                for value in node: yield from walk(value)
+        checked = 0
+        for path in (ROOT / 'DumpAsset/Data/Zone').glob('*.json'):
+            zone = json.loads(path.read_text(encoding='utf-8-sig'))['Object']
+            if not zone.get('Released'): continue
+            for node in walk(zone):
+                base = node.get('BaseForm')
+                if not (isinstance(base, dict) and base.get('Species') in stage): continue
+                if exempt(node, path.stem, base['Species']): continue
+                level = encounter_level(node.get('Level'), max(5, zone.get('Level', 5)))
+                self.assertIn(stage[base['Species']], stage_weights(level), (path.stem, base['Species'], level))
+                checked += 1
+        self.assertGreater(checked, 3000)
+
     def test_camp_routes_match_progression(self):
         import re
         expected = {

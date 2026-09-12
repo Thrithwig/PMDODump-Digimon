@@ -36,7 +36,7 @@ The original user-supplied item files are copied into `DataAsset/Digimon/Source`
 
 ## Early playable zones
 
-All 14 zones whose configured starting level is from 5 through 15 are released, unlocked for fresh Digimon saves and listed at Base Camp. Their 2,089 serialized encounter records use Baby through Champion Digimon appropriate to the zone's starting tier. A floor-entry conversion also covers fixed maps and dynamic encounter builders. Runtime validation generates all 169 finite floor definitions, including Tropical Path's secret segment, and checks entries, stairs and generated encounter species.
+All 14 zones whose configured starting level is from 5 through 15 are released, unlocked for fresh Digimon saves and listed at Base Camp. Their serialized encounter records use Digimon whose stage follows each spawn's own level (see the enemy stage tiers in `DIGIMON_DUNGEON_PROGRESS.md`). A floor-entry conversion also covers fixed maps and dynamic encounter builders. Runtime validation generates all 169 finite floor definitions, including Tropical Path's secret segment, and checks entries, stairs and generated encounter species.
 
 ### Existing-save access and quest gates
 
