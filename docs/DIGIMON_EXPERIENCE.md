@@ -10,6 +10,10 @@ Champion 1, Ultimate 0.75, Mega 0.5. The existing overlevel penalty also applies
 the final reward is rounded down. Both active-party and eligible assembly members
 use their own stage. Item EXP is unchanged.
 
+The assembly handout only reaches members who joined mid-adventure; reserves are
+marked absent at dungeon start and skipped. Reserve leveling is instead handled by
+the floor-based catch-up in `DIGIMON_TRAINING.md`.
+
 For a 100 EXP reward without an overlevel penalty, the six stages receive
 200, 200, 150, 100, 75 and 50 EXP respectively. These cases, fractional rounding,
 and anti-farming behavior are checked by the native runtime tests.

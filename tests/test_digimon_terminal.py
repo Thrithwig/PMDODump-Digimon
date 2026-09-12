@@ -34,7 +34,7 @@ class TerminalTests(unittest.TestCase):
             lua.luaL_openlibs(state)
             scripts = ROOT / "DumpAsset/Data/Script"
             code = "package.path = " + json.dumps(scripts.as_posix() + "/?.lua;" + scripts.as_posix() + "/?/init.lua;") + " .. package.path\n"
-            for relative in ("origin/common.lua", "origin/digimon/evolution_preview.lua", "origin/digimon/item_effects.lua", "origin/event_battle.lua", "origin/ground/luminous_spring/init.lua", "origin/scriptvars.lua", "origin/event_single.lua", "origin/zone/tropical_path/init.lua", "origin/digimon/progression.lua", "origin/services/digimon_runtime/init.lua"):
+            for relative in ("origin/common.lua", "origin/digimon/evolution_preview.lua", "origin/digimon/item_effects.lua", "origin/event_battle.lua", "origin/ground/luminous_spring/init.lua", "origin/scriptvars.lua", "origin/event_single.lua", "origin/zone/tropical_path/init.lua", "origin/digimon/progression.lua", "origin/digimon/farm.lua", "origin/digimon/terminal.lua", "origin/services/digimon_runtime/init.lua"):
                 code += "assert(loadfile(" + json.dumps((scripts / relative).as_posix()) + "))\n"
             code += "dofile(" + json.dumps((ROOT / "tests/lua/test_digimon_terminal.lua").as_posix()) + ")"
             code += "\ndofile(" + json.dumps((ROOT / "tests/lua/test_digimon_runtime.lua").as_posix()) + ")"

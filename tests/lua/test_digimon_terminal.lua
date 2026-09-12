@@ -149,6 +149,41 @@ test('confirmed restoration goes to reserves and is visible in ledger', function
   assert(Ledger.get(SV.Digimon, 'agumon').restoration_count == 1)
 end)
 
+local function trainee(level)
+  local char = { BaseForm = { Species = 'agumon' }, Level = level, RewardIdentity = 'trainee', Nickname = 'Agumon',
+                 MaxHPBonus = 0, AtkBonus = 0, DefBonus = 0, MAtkBonus = 0, MDefBonus = 0, SpeedBonus = 0 }
+  function char:GetDisplayName() return self.Nickname end
+  return char
+end
+
+test('training menu assigns and clears a regimen and offers reserve level-up skills', function()
+  SV = { Digimon = Ledger.new() }
+  local char = trainee(12)
+  local checks = {}
+  GAME = { GetPlayerPartyTable = function() return {} end, GetPlayerAssemblyTable = function() return { char } end,
+           CheckLevelSkills = function(_, target, from) table.insert(checks, { target, from }) end }
+  local messages = ui({ 4, 1, 2, 2, 5 })
+  Terminal.show(function() error('wrong action') end, adapter())
+  local row = SV.Digimon.characters.trainee
+  assert(row.regimen == 'AtkBonus' and messages[1]:find('will train Attack') and #checks == 0)
+  row.skill_check_level = 7
+  messages = ui({ 4, 1, 10, 2, 5 })
+  Terminal.show(function() end, adapter())
+  assert(row.regimen == nil and messages[1]:find('will rest'))
+  assert(#checks == 1 and checks[1][1] == char and checks[1][2] == 7 and row.skill_check_level == nil)
+  ui({ 4, 2, 5 })
+  Terminal.show(function() end, adapter())
+  assert(row.regimen == nil)
+end)
+
+test('training is refused on old saves without touching the team', function()
+  SV = {}
+  GAME = { GetPlayerPartyTable = function() error('must not read team') end }
+  local messages = ui({ 4, 5 })
+  Terminal.show(function() end, adapter())
+  assert(#messages == 1 and messages[1]:find('fresh save'))
+end)
+
 test('missing engine records refuse restoration without fallback', function()
   GAME = { GetPlayerPartyTable = function() return {} end, GetPlayerAssemblyTable = function() return {} end }
   RogueEssence = { Data = { DataManager = { DataType = { Monster = 'monster', Skill = 'skill' } } } }

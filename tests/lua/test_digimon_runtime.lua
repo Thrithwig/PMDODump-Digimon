@@ -159,6 +159,69 @@ test('Brave Points award exact EXP through the real level-up queue contract',fun
   assert(queued==5);c.Level=99;assert(not effects.experience(c,40000));assert(queued==5)
 end)
 
+local Farm=require 'origin.digimon.farm'
+local function reserve(species,level,identity)
+  local c=setup(species,level);c.RewardIdentity=identity or ('reserve-'..species);c.EXP=40
+  function c:GetDisplayName() return self.Nickname end
+  return c
+end
+
+test('reserves train the chosen stat per floor and favored regimens train faster',function()
+  local c=reserve('agumon',30)
+  local row=Progress.progress(c);row.personality='Fighter'
+  assert(Farm.set_regimen(c,'AtkBonus')=='AtkBonus')
+  local party={{Level=30}}
+  Farm.tick(party,{c},99);assert(c.AtkBonus==0)
+  Farm.tick(party,{c},99);assert(c.AtkBonus==1 and row.trained_total==1)
+  Farm.set_regimen(c,'DefBonus')
+  for _=1,2 do Farm.tick(party,{c},99) end;assert(c.DefBonus==0)
+  Farm.tick(party,{c},99);assert(c.DefBonus==1 and c.AtkBonus==1)
+  assert(Farm.set_regimen(c,'bogus')==nil);Farm.tick(party,{c},99);assert(c.DefBonus==1)
+end)
+
+test('training gains respect every cap and the bond ABI and SP tracks',function()
+  local c=reserve('agumon',30);local row=Progress.progress(c);row.personality='Builder'
+  local party={{Level=30}}
+  c.SpeedBonus=256;Farm.set_regimen(c,'SpeedBonus')
+  for _=1,3 do Farm.tick(party,{c},99) end;assert(c.SpeedBonus==256)
+  row.bond=99;Farm.set_regimen(c,'bond')
+  for _=1,6 do Farm.tick(party,{c},99) end;assert(row.bond==100)
+  row.abi=199;Farm.set_regimen(c,'abi')
+  for _=1,6 do Farm.tick(party,{c},99) end;assert(row.abi==200)
+  row.sp_bonus=0;Farm.set_regimen(c,'sp')
+  for _=1,3 do Farm.tick(party,{c},99) end;assert(row.sp_bonus==1)
+end)
+
+test('reserves catch up toward the party over about one run and never pass it',function()
+  local c=reserve('agumon',1);c.MaxHP=77
+  local party={{Level=30},{Level=12}}
+  local report=Farm.tick(party,{c},99)
+  assert(c.Level==6 and c.EXP==40 and c.HP==77 and report[1].levels==5)
+  local floors=1
+  while c.Level<25 do Farm.tick(party,{c},99);floors=floors+1 end
+  assert(floors<=12,'took '..floors..' floors')
+  assert(#Farm.tick(party,{c},99)==0 and c.Level==25)
+  local row=Progress.progress(c);assert(row.skill_check_level==1 and row.peak==25 and row.abi==20)
+  c.Level=97;Farm.tick({{Level=99}},{c},99);assert(c.Level==97)
+  c.Level=98;Farm.tick({{Level=104}},{c},99);assert(c.Level==99 and c.EXP==0)
+end)
+
+test('active members non-Digimon and dead reserves are left alone',function()
+  local active=reserve('agumon',1,'active');local pokemon=reserve('pikachu',1,'pikachu')
+  local dead=reserve('gabumon',1,'dead');dead.Dead=true
+  local bench=reserve('patamon',1,'bench')
+  local report=Farm.tick({active,{Level=40}},{active,pokemon,dead,bench},99)
+  assert(active.Level==1 and pokemon.Level==1 and dead.Level==1)
+  assert(bench.Level==8 and #report==1 and report[1].character==bench)
+end)
+
+test('training state survives a save round trip',function()
+  local c=reserve('agumon',10);Farm.set_regimen(c,'MAtkBonus');Farm.tick({{Level=30}},{c},99)
+  local ok,saved=Serpent.load(Serpent.block(SV.Digimon));assert(ok)
+  local row=saved.characters[c.RewardIdentity]
+  assert(row.regimen=='MAtkBonus' and row.training_floors==1 and row.skill_check_level==10)
+end)
+
 -- Exercise the real service adapter against C#-shaped map/team collections.
 package.loaded['origin.services.baseservice']=true
 Class=function() return {new=function(self) return setmetatable({},{__index=self}) end} end
@@ -172,11 +235,18 @@ test('floor reload preserves ledger and service excludes friendly or untagged de
   _ZONE.CurrentZoneID='tropical_path'
   _ZONE.CurrentMap={GetCharFaction=function(_,char) return char.faction end}
   _DATA.Save.ActiveTeam={Money=0}
-  GAME={GetPlayerPartyTable=function() return {c} end}
-  _DUNGEON={LogMsg=function() end}
+  local bench={BaseForm={Species='gabumon',Form=0},Level=1,EXP=0,HP=1,MaxHP=1,MaxHPBonus=0,AtkBonus=0,DefBonus=0,MAtkBonus=0,MDefBonus=0,SpeedBonus=0,RewardIdentity='bench',Nickname='Partner',GetDisplayName=function(self) return self.Nickname end}
+  Farm.set_regimen(bench,'AtkBonus')
+  local logged={}
+  GAME={GetPlayerPartyTable=function() return {c} end,GetPlayerAssemblyTable=function() return {bench} end}
+  _DATA.Start={MaxLevel=99}
+  _DUNGEON={LogMsg=function(_,line) table.insert(logged,line) end}
+  c.Level=30
   service:Floor('',{RewardFloorIdentity='floor-one'})
   local seq=SV.Digimon.floor_sequence
+  assert(bench.Level==6 and logged[1]=='Partner (reserve): Lv.6',tostring(logged[1]))
   service:Floor('',{RewardFloorIdentity='floor-one'});assert(SV.Digimon.floor_sequence==seq)
+  assert(bench.Level==6 and #logged==1)
   local foe={Dead=true,LuaDataTable={DigimonNatural=true},faction=2,BaseForm={Species='koromon',Form=0},RewardIdentity='spawn-1'}
   service:Defeat(foe);service:Defeat(foe)
   assert(Ledger.get(SV.Digimon,'koromon').scan_points==25 and Progress.progress(c).bond==11)
