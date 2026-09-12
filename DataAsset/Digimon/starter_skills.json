@@ -1,0 +1,685 @@
+{
+  "policy": "Level-1 source ATK > INT selects Physical; ties select Magic. Source learnsets are preserved after an added level-1 starter. No automatic replacement of existing learned skills.",
+  "species": [
+    {
+      "species": "agumon",
+      "stage": "Rookie",
+      "element": "Fire",
+      "category": "Physical",
+      "skill": "digi_starter_fire_physical",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "agumon_blk",
+      "stage": "Rookie",
+      "element": "Fire",
+      "category": "Physical",
+      "skill": "digi_starter_fire_physical",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "arcadiamon_in_tr",
+      "stage": "In-Training",
+      "element": "Dark",
+      "category": "Physical",
+      "skill": "digi_starter_dark_physical",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "arcadiamon_rookie",
+      "stage": "Rookie",
+      "element": "Dark",
+      "category": "Physical",
+      "skill": "digi_starter_dark_physical",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "armadillomon",
+      "stage": "Rookie",
+      "element": "Earth",
+      "category": "Physical",
+      "skill": "digi_starter_earth_physical",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "betamon",
+      "stage": "Rookie",
+      "element": "Water",
+      "category": "Magic",
+      "skill": "digi_starter_water_magic",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "biyomon",
+      "stage": "Rookie",
+      "element": "Wind",
+      "category": "Magic",
+      "skill": "digi_starter_wind_magic",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "botamon",
+      "stage": "Baby",
+      "element": "Neutral",
+      "category": "Physical",
+      "skill": "digi_starter_neutral_physical",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "bukamon",
+      "stage": "In-Training",
+      "element": "Water",
+      "category": "Magic",
+      "skill": "digi_starter_water_magic",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "chuumon",
+      "stage": "Rookie",
+      "element": "Earth",
+      "category": "Physical",
+      "skill": "digi_starter_earth_physical",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "demidevimon",
+      "stage": "Rookie",
+      "element": "Dark",
+      "category": "Magic",
+      "skill": "digi_starter_dark_magic",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "dorumon",
+      "stage": "Rookie",
+      "element": "Neutral",
+      "category": "Physical",
+      "skill": "digi_starter_neutral_physical",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "dracmon",
+      "stage": "Rookie",
+      "element": "Dark",
+      "category": "Physical",
+      "skill": "digi_starter_dark_physical",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "dracomon",
+      "stage": "Rookie",
+      "element": "Fire",
+      "category": "Physical",
+      "skill": "digi_starter_fire_physical",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "elecmon",
+      "stage": "Rookie",
+      "element": "Electric",
+      "category": "Physical",
+      "skill": "digi_starter_electric_physical",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "falcomon",
+      "stage": "Rookie",
+      "element": "Wind",
+      "category": "Physical",
+      "skill": "digi_starter_wind_physical",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "fanbeemon",
+      "stage": "Rookie",
+      "element": "Plant",
+      "category": "Physical",
+      "skill": "digi_starter_plant_physical",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "gabumon",
+      "stage": "Rookie",
+      "element": "Fire",
+      "category": "Physical",
+      "skill": "digi_starter_fire_physical",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "gabumon_blk",
+      "stage": "Rookie",
+      "element": "Fire",
+      "category": "Physical",
+      "skill": "digi_starter_fire_physical",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "gaomon",
+      "stage": "Rookie",
+      "element": "Neutral",
+      "category": "Physical",
+      "skill": "digi_starter_neutral_physical",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "gazimon",
+      "stage": "Rookie",
+      "element": "Dark",
+      "category": "Physical",
+      "skill": "digi_starter_dark_physical",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "goblimon",
+      "stage": "Rookie",
+      "element": "Earth",
+      "category": "Physical",
+      "skill": "digi_starter_earth_physical",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "gomamon",
+      "stage": "Rookie",
+      "element": "Water",
+      "category": "Physical",
+      "skill": "digi_starter_water_physical",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "gotsumon",
+      "stage": "Rookie",
+      "element": "Earth",
+      "category": "Physical",
+      "skill": "digi_starter_earth_physical",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "guilmon",
+      "stage": "Rookie",
+      "element": "Fire",
+      "category": "Physical",
+      "skill": "digi_starter_fire_physical",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "hackmon",
+      "stage": "Rookie",
+      "element": "Fire",
+      "category": "Physical",
+      "skill": "digi_starter_fire_physical",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "hagurumon",
+      "stage": "Rookie",
+      "element": "Electric",
+      "category": "Magic",
+      "skill": "digi_starter_electric_magic",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "hawkmon",
+      "stage": "Rookie",
+      "element": "Wind",
+      "category": "Physical",
+      "skill": "digi_starter_wind_physical",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "impmon",
+      "stage": "Rookie",
+      "element": "Dark",
+      "category": "Magic",
+      "skill": "digi_starter_dark_magic",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "keramon",
+      "stage": "Rookie",
+      "element": "Dark",
+      "category": "Physical",
+      "skill": "digi_starter_dark_physical",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "koromon",
+      "stage": "In-Training",
+      "element": "Fire",
+      "category": "Physical",
+      "skill": "digi_starter_fire_physical",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "kudamon",
+      "stage": "Rookie",
+      "element": "Light",
+      "category": "Magic",
+      "skill": "digi_starter_light_magic",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "kuramon",
+      "stage": "Baby",
+      "element": "Neutral",
+      "category": "Physical",
+      "skill": "digi_starter_neutral_physical",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "lalamon",
+      "stage": "Rookie",
+      "element": "Plant",
+      "category": "Physical",
+      "skill": "digi_starter_plant_physical",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "lopmon",
+      "stage": "Rookie",
+      "element": "Earth",
+      "category": "Magic",
+      "skill": "digi_starter_earth_magic",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "lucemon",
+      "stage": "Rookie",
+      "element": "Light",
+      "category": "Magic",
+      "skill": "digi_starter_light_magic",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "lunamon",
+      "stage": "Rookie",
+      "element": "Water",
+      "category": "Magic",
+      "skill": "digi_starter_water_magic",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "monodramon",
+      "stage": "Rookie",
+      "element": "Neutral",
+      "category": "Physical",
+      "skill": "digi_starter_neutral_physical",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "motimon",
+      "stage": "In-Training",
+      "element": "Neutral",
+      "category": "Magic",
+      "skill": "digi_starter_neutral_magic",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "mushroomon",
+      "stage": "Rookie",
+      "element": "Plant",
+      "category": "Physical",
+      "skill": "digi_starter_plant_physical",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "nyaromon",
+      "stage": "In-Training",
+      "element": "Light",
+      "category": "Magic",
+      "skill": "digi_starter_light_magic",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "otamamon",
+      "stage": "Rookie",
+      "element": "Water",
+      "category": "Magic",
+      "skill": "digi_starter_water_magic",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "pabumon",
+      "stage": "Baby",
+      "element": "Neutral",
+      "category": "Physical",
+      "skill": "digi_starter_neutral_physical",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "pagumon",
+      "stage": "In-Training",
+      "element": "Dark",
+      "category": "Magic",
+      "skill": "digi_starter_dark_magic",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "palmon",
+      "stage": "Rookie",
+      "element": "Plant",
+      "category": "Physical",
+      "skill": "digi_starter_plant_physical",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "patamon",
+      "stage": "Rookie",
+      "element": "Wind",
+      "category": "Magic",
+      "skill": "digi_starter_wind_magic",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "poyomon",
+      "stage": "Baby",
+      "element": "Neutral",
+      "category": "Magic",
+      "skill": "digi_starter_neutral_magic",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "punimon",
+      "stage": "Baby",
+      "element": "Neutral",
+      "category": "Physical",
+      "skill": "digi_starter_neutral_physical",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "renamon",
+      "stage": "Rookie",
+      "element": "Plant",
+      "category": "Magic",
+      "skill": "digi_starter_plant_magic",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "ryudamon",
+      "stage": "Rookie",
+      "element": "Neutral",
+      "category": "Physical",
+      "skill": "digi_starter_neutral_physical",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "salamon",
+      "stage": "Rookie",
+      "element": "Light",
+      "category": "Magic",
+      "skill": "digi_starter_light_magic",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "shoutmon",
+      "stage": "None",
+      "element": "Fire",
+      "category": "Physical",
+      "skill": "digi_starter_fire_physical",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "sistermon_b_awake",
+      "stage": "Rookie",
+      "element": "Light",
+      "category": "Magic",
+      "skill": "digi_starter_light_magic",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "sistermon_blanc",
+      "stage": "Rookie",
+      "element": "Light",
+      "category": "Magic",
+      "skill": "digi_starter_light_magic",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "solarmon",
+      "stage": "Rookie",
+      "element": "Light",
+      "category": "Magic",
+      "skill": "digi_starter_light_magic",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "syakomon",
+      "stage": "Rookie",
+      "element": "Water",
+      "category": "Magic",
+      "skill": "digi_starter_water_magic",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "tanemon",
+      "stage": "In-Training",
+      "element": "Plant",
+      "category": "Physical",
+      "skill": "digi_starter_plant_physical",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "tentomon",
+      "stage": "Rookie",
+      "element": "Plant",
+      "category": "Magic",
+      "skill": "digi_starter_plant_magic",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "terriermon",
+      "stage": "Rookie",
+      "element": "Wind",
+      "category": "Magic",
+      "skill": "digi_starter_wind_magic",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "tokomon",
+      "stage": "In-Training",
+      "element": "Neutral",
+      "category": "Physical",
+      "skill": "digi_starter_neutral_physical",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "toyagumon",
+      "stage": "Rookie",
+      "element": "Neutral",
+      "category": "Physical",
+      "skill": "digi_starter_neutral_physical",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "tsumemon",
+      "stage": "In-Training",
+      "element": "Dark",
+      "category": "Physical",
+      "skill": "digi_starter_dark_physical",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "tsunomon",
+      "stage": "In-Training",
+      "element": "Earth",
+      "category": "Physical",
+      "skill": "digi_starter_earth_physical",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "veemon",
+      "stage": "Rookie",
+      "element": "Neutral",
+      "category": "Physical",
+      "skill": "digi_starter_neutral_physical",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "wanyamon",
+      "stage": "In-Training",
+      "element": "Wind",
+      "category": "Physical",
+      "skill": "digi_starter_wind_physical",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "wormmon",
+      "stage": "Rookie",
+      "element": "Plant",
+      "category": "Physical",
+      "skill": "digi_starter_plant_physical",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "yokomon",
+      "stage": "In-Training",
+      "element": "Plant",
+      "category": "Physical",
+      "skill": "digi_starter_plant_physical",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    },
+    {
+      "species": "zubamon",
+      "stage": "Rookie",
+      "element": "Neutral",
+      "category": "Physical",
+      "skill": "digi_starter_neutral_physical",
+      "level": 1,
+      "power": 20,
+      "pp": 20
+    }
+  ]
+}

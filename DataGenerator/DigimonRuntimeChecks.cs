@@ -47,6 +47,8 @@ namespace DataGenerator
             }
             Require(DigimonExperience.Award(1, 1, 1, "digi_ultimate") == 0, "Fractional EXP must round down");
             int forms = 0;
+            int starterForms = 0;
+            var syncPassive = (NLua.LuaFunction)LuaEngine.Instance.RunString("return require('origin.digimon.passive_abilities').sync")[0];
             foreach (string path in Directory.GetFiles(PathMod.ModPath("Data/Monster/"), "*.json"))
             {
                 string id = Path.GetFileNameWithoutExtension(path);
@@ -65,6 +67,21 @@ namespace DataGenerator
                 }
                 var team = new ExplorerTeam();
                 var character = team.CreatePlayer(new RogueElements.ReRandom(1), new MonsterID(id, 0, "normal", Gender.Genderless), 5, "none", 0);
+                Require(form.Intrinsic1.StartsWith("digi_"), id + ": missing Digimon passive");
+                Require(DataManager.Instance.GetIntrinsic(form.Intrinsic1).Released, id + ": unreleased passive");
+                syncPassive.Call(character);
+                Require(character.BaseIntrinsics[0] == form.Intrinsic1, id + ": passive migration failed");
+                Require(!(bool)syncPassive.Call(character)[0], id + ": passive migration is not idempotent");
+                if (form.LevelSkills[0].Skill.StartsWith("digi_starter_"))
+                {
+                    starterForms++;
+                    var first = form.LevelSkills[0];
+                    var move = DataManager.Instance.GetSkill(first.Skill);
+                    Require(first.Level == 1 && move.BaseCharges == 20, id + ": invalid starter availability or PP");
+                    Require(move.Data.SkillStates.GetWithDefault<BasePowerState>().Power == 20, id + ": invalid starter power");
+                    for (int level = 1; level < 10; level++)
+                        Require(form.RollLatestSkills(level, new List<string>()).Contains(first.Skill), id + ": starter lost before level 10");
+                }
                 character.Nickname = "Identity test";
                 character.SaveLua();
                 Require(character.Clone(new ExplorerTeam()).RewardIdentity == character.RewardIdentity, id + ": team snapshot changed identity");
@@ -77,6 +94,30 @@ namespace DataGenerator
                 }
             }
             Require(forms == 341, "Expected 341 Phase 2 forms, found " + forms);
+            Require(starterForms == 68, "Expected 68 low-stage starter learnsets, found " + starterForms);
+            // Execute native damage events, including a cloned conditional event.
+            var agumonPassive = DataManager.Instance.GetIntrinsic("digi_agumon");
+            var attackContext = new BattleContext(BattleActionType.Skill);
+            attackContext.Data = new BattleData();
+            attackContext.Data.ID = "digi_pepper_breath";
+            attackContext.Data.Category = BattleData.SkillCategory.Magical;
+            foreach (var effect in agumonPassive.OnActions.EnumerateInOrder())
+            {
+                var routine = ((BattleEvent)effect.Clone()).Apply(null, null, attackContext);
+                while (routine.MoveNext()) { }
+            }
+            Require(attackContext.GetContextStateMult<DmgMult>().Multiply(100) == 110, "Agumon signature passive did not execute");
+            var allyContext = new BattleContext(BattleActionType.Skill);
+            allyContext.Data = new BattleData();
+            allyContext.Data.Category = BattleData.SkillCategory.Physical;
+            foreach (var effect in agumonPassive.ProximityEvent.OnActions.EnumerateInOrder())
+            {
+                var routine = effect.Apply(null, null, allyContext);
+                while (routine.MoveNext()) { }
+            }
+            Require(allyContext.GetContextStateMult<DmgMult>().Multiply(100) == 104, "Agumon ally damage event did not execute");
+            Require(((DeepBreathEvent)new DeepBreathEvent(true).Clone()).RestoreAll, "PP recovery clone lost all-moves setting");
+            Require(((TargetNeededEvent)new TargetNeededEvent(Alignment.Foe).Clone()).Target == Alignment.Foe, "Enemy filter clone lost alignment");
             var retentionTeam = new ExplorerTeam();
             var retentionCharacter = retentionTeam.CreatePlayer(new RogueElements.ReRandom(1), new MonsterID("agumon", 0, "normal", Gender.Genderless), 65, "none", 0);
             var retentionCheck = (NLua.LuaFunction)LuaEngine.Instance.RunString(@"
@@ -94,7 +135,11 @@ return function(c)
     local expected = math.floor((form:GetStat(65, RogueEssence.Data.Stat.Attack, 0) - form:GetStat(5, RogueEssence.Data.Stat.Attack, 0) + 25)/5)
     local function change(target)
       for _,e in ipairs(R.transitions) do
-        if e.from==c.BaseForm.Species and e.to==target then assert(P.change(c,e)); return end
+        if e.from==c.BaseForm.Species and e.to==target then
+          assert(P.change(c,e))
+          assert(c.BaseIntrinsics[0]==_DATA:GetMonster(target).Forms[0].Intrinsic1, 'evolution did not replace passive')
+          return
+        end
       end
       error('missing edge')
     end

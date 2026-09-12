@@ -120,6 +120,8 @@ def main():
         growth['Object']['Name']={'DefaultText':'Digimon '+stage,'LocalTexts':{}}
         growth['Object']['EXPTable']=growth_table(base_growth['Object']['EXPTable'],stage)
         write(ASSETS/('Data/GrowthGroup/digi_'+stage.lower().replace('-','_')+'.json'),growth)
+    from digimon_starter_skills import generate as generate_starters, learnset as starter_learnset
+    generate_starters(manifest)
     adaptations=[]
     for index,skill in enumerate(manifest['skills']):
         generated, adaptation=native_skill(skill,index)
@@ -144,6 +146,7 @@ def main():
                      'LevelStats':[[row['stats'][key] for key in ('max_hp','attack','defense','magic_attack','magic_defense','speed')]
                                    for row in curves[species_id]['stats_by_level']],
                      'ExpYield':int(entry['source']['Memory'])*BASE_EXP_PER_MEMORY})
+        form['LevelSkills'] = starter_learnset(entry, form['LevelSkills'])
         if not form['LevelSkills']: raise ValueError('No skills for '+species_id)
         write(ASSETS/f'Data/Monster/{species_id}.json',{'Version':'0.8.12.0','Object':obj})
         transparent_art=DATA/f'SpritePackages/Sources/{species_id}.png'
@@ -152,6 +155,8 @@ def main():
             'sp':[row['stats']['source_sp'] for row in curves[species_id]['stats_by_level']],
             'skills':form['LevelSkills']}
     if args.phase2:
+        from digimon_passive_abilities import apply as apply_passives
+        apply_passives()
         runtime['abi_maximum']=200
         scoped=read(DATA/'phase1_manifest.json')
     else: scoped=manifest

@@ -1,0 +1,571 @@
+{
+  "status": "design only; no runtime consumer",
+  "released_zone_containers": 35,
+  "expedition_challenge_zones": 34,
+  "hub_containers": 1,
+  "dependency_semantics": "All listed debriefs required. Order is topological; access exceptions documented.",
+  "routes": [
+    {
+      "role": "H",
+      "id": "guildmaster_island",
+      "current_name": "Guildmaster Island",
+      "proposed_name": "File Island Settlements",
+      "departure_and_prerequisite": "New game",
+      "mission_resolution": "Hub container, not a conventional dungeon. Establish rescue cooperative and optional Monzaemon storehouse scene after Tropical.",
+      "return_aftermath": "Camp services and local encounter return scenes live here. Monzaemon challenge never blocks the main path.",
+      "order": 0,
+      "requires_debrief_all": [],
+      "current_level": -1,
+      "departure_camp": "New game"
+    },
+    {
+      "role": "M",
+      "id": "tropical_path",
+      "current_name": "Tropical Path",
+      "proposed_name": "Tropical Jungle",
+      "departure_and_prerequisite": "File Town / opening",
+      "mission_resolution": "Rescue Falcomon and sheltered Botamon/Punimon; existing endpoint clears their way out. Preserve the first dungeon's Baby/In-Training intent.",
+      "return_aftermath": "Introduce Native Forest, return File Town. Falcomon admits fear for the Babies kept him repeating an easy route. Guardromon descends Infinity Mountain and reports Beelzemon seized the summit Return Protocol; motive unknown. Forest access, Faded, Bramble, Tiny and Faultline open.",
+      "order": 1,
+      "requires_debrief_all": [
+        "guildmaster_island"
+      ],
+      "current_level": 5,
+      "departure_camp": "File Town"
+    },
+    {
+      "role": "O",
+      "id": "tiny_tunnel",
+      "current_name": "Tiny Tunnel",
+      "proposed_name": "Underroot Tunnel",
+      "departure_and_prerequisite": "Native Forest / Tropical",
+      "mission_resolution": "Find Nyaromon with stranded Wanyamon; its scratched map identifies the exit during the rescue scene.",
+      "return_aftermath": "Native Forest family reunion. Optional Geode hint, never its only unlock.",
+      "order": 2,
+      "requires_debrief_all": [
+        "tropical_path"
+      ],
+      "current_level": 5,
+      "departure_camp": "Native Forest"
+    },
+    {
+      "role": "M",
+      "id": "faded_trail",
+      "current_name": "Faded Trail",
+      "proposed_name": "Native Forest Trail",
+      "departure_and_prerequisite": "Native Forest / Tropical",
+      "mission_resolution": "Recover Lopmon and the undelivered return-mail register from disappearing markers.",
+      "return_aftermath": "Return Native Forest; Terriermon reads names. Contact Panorama and open safe travel, Fertile and Flyaway. No secret exit required.",
+      "order": 3,
+      "requires_debrief_all": [
+        "tropical_path"
+      ],
+      "current_level": 10,
+      "departure_camp": "Native Forest"
+    },
+    {
+      "role": "O",
+      "id": "bramble_woods",
+      "current_name": "Bramble Woods",
+      "proposed_name": "Bramble Grove",
+      "departure_and_prerequisite": "Native Forest / Tropical",
+      "mission_resolution": "Rescue Palmon's food convoy after barriers redirected it into thorns.",
+      "return_aftermath": "Return Native Forest with supplies; open Sickly Hollow.",
+      "order": 4,
+      "requires_debrief_all": [
+        "tropical_path"
+      ],
+      "current_level": 10,
+      "departure_camp": "Native Forest"
+    },
+    {
+      "role": "M",
+      "id": "faultline_ridge",
+      "current_name": "Faultline Ridge",
+      "proposed_name": "Drill Tunnel",
+      "departure_and_prerequisite": "File Town / Tropical and Forest access",
+      "mission_resolution": "Rescue Gotsumon surveyors through the established lower-floor tunnel network. Their route seals reset at each attempted exit; reconnect Drill Tunnel and expose passage toward Signpost Forest.",
+      "return_aftermath": "Return File Town; report sent to Native Forest. Open Trickster Woods as previously requested.",
+      "order": 5,
+      "requires_debrief_all": [
+        "tropical_path"
+      ],
+      "current_level": 15,
+      "departure_camp": "File Town"
+    },
+    {
+      "role": "M",
+      "id": "trickster_woods",
+      "current_name": "Trickster Woods",
+      "proposed_name": "Signpost Forest",
+      "departure_and_prerequisite": "Native Forest / Faultline",
+      "mission_resolution": "Impmon's misleading signs shelter travelers from patrols. Defeat the patrol and recover a routing plate; it admits its warnings were terrible.",
+      "return_aftermath": "Return Native Forest; confirm shared fault. Open Overgrown and Moonlit; this main revelation is also required before Great Canyon travel.",
+      "order": 6,
+      "requires_debrief_all": [
+        "faultline_ridge"
+      ],
+      "current_level": 20,
+      "departure_camp": "Native Forest"
+    },
+    {
+      "role": "O",
+      "id": "overgrown_wilds",
+      "current_name": "Overgrown Wilds",
+      "proposed_name": "Misty Trees",
+      "departure_and_prerequisite": "Native Forest / Trickster",
+      "mission_resolution": "Rescue Woodmon maintenance crew at an overgrown communication relay.",
+      "return_aftermath": "Return Native Forest; nursery check-ins resume in a scene, no power-management mechanic.",
+      "order": 7,
+      "requires_debrief_all": [
+        "trickster_woods"
+      ],
+      "current_level": 20,
+      "departure_camp": "Native Forest"
+    },
+    {
+      "role": "O",
+      "id": "moonlit_courtyard",
+      "current_name": "Moonlit Courtyard",
+      "proposed_name": "Moonlit Court",
+      "departure_and_prerequisite": "Native Forest / Trickster",
+      "mission_resolution": "Bakemon works at night to avoid frightening clients. Rescue its sorter and archive sack.",
+      "return_aftermath": "Return Native Forest; postal staff offer a daylight desk. Open Secret Garden.",
+      "order": 8,
+      "requires_debrief_all": [
+        "trickster_woods"
+      ],
+      "current_level": 25,
+      "departure_camp": "Native Forest"
+    },
+    {
+      "role": "O",
+      "id": "sickly_hollow",
+      "current_name": "Sickly Hollow",
+      "proposed_name": "Geko Hollow",
+      "departure_and_prerequisite": "Native Forest / Bramble",
+      "mission_resolution": "Rescue Betamon technician and its notes explaining contaminated runoff.",
+      "return_aftermath": "Return Native Forest; boil water and reroute supply in a scene. Later reservoir dialogue acknowledges it; no main gate.",
+      "order": 9,
+      "requires_debrief_all": [
+        "bramble_woods"
+      ],
+      "current_level": 25,
+      "departure_camp": "Native Forest"
+    },
+    {
+      "role": "O",
+      "id": "secret_garden",
+      "current_name": "Secret Garden",
+      "proposed_name": "Village Garden",
+      "departure_and_prerequisite": "Native Forest / Moonlit",
+      "mission_resolution": "Pabumon caretakers hide residents with incomplete records. Calm a frightened defender through the endpoint encounter and establish a safe return list.",
+      "return_aftermath": "Return Native Forest; refuge opens. No free recruits or requirement to kill nursery residents. Existing challenge variants remain optional.",
+      "order": 10,
+      "requires_debrief_all": [
+        "moonlit_courtyard"
+      ],
+      "current_level": 5,
+      "departure_camp": "Native Forest"
+    },
+    {
+      "role": "M",
+      "id": "fertile_valley",
+      "current_name": "Fertile Valley",
+      "proposed_name": "Gear Savanna",
+      "departure_and_prerequisite": "Panorama / Faded",
+      "mission_resolution": "Rescue Armadillomon carriers and seed stores stranded on the supply route.",
+      "return_aftermath": "Return Panorama; provision the next expedition. Great Canyon requires this AND Flyaway AND Trickster.",
+      "order": 11,
+      "requires_debrief_all": [
+        "faded_trail"
+      ],
+      "current_level": 15,
+      "departure_camp": "Panorama"
+    },
+    {
+      "role": "M",
+      "id": "flyaway_cliffs",
+      "current_name": "Flyaway Cliffs",
+      "proposed_name": "Panorama Cliffs",
+      "departure_and_prerequisite": "Panorama / Faded",
+      "mission_resolution": "Rescue Hawkmon scouts circling under contradictory safe-route orders.",
+      "return_aftermath": "Return Panorama. With Fertile and Trickster, open Great Canyon travel; open Panorama optional dispatches.",
+      "order": 12,
+      "requires_debrief_all": [
+        "faded_trail"
+      ],
+      "current_level": 20,
+      "departure_camp": "Panorama"
+    },
+    {
+      "role": "O",
+      "id": "training_maze",
+      "current_name": "Training Maze",
+      "proposed_name": "Green Gym Maze",
+      "departure_and_prerequisite": "Panorama training contact / Flyaway",
+      "mission_resolution": "Hawkmon's practice crew lost its marked return route. Finish the existing challenge and bring the group back in a scene.",
+      "return_aftermath": "Return Panorama; voluntary drills stay repeatable. No training prerequisite for story.",
+      "order": 13,
+      "requires_debrief_all": [
+        "flyaway_cliffs"
+      ],
+      "current_level": 10,
+      "departure_camp": "Panorama training contact"
+    },
+    {
+      "role": "O",
+      "id": "wayward_wetlands",
+      "current_name": "Wayward Wetlands",
+      "proposed_name": "Geko Wetlands",
+      "departure_and_prerequisite": "Panorama / Flyaway",
+      "mission_resolution": "Rescue Otamamon workers marooned by flood diversion and recover their survey.",
+      "return_aftermath": "Return Panorama; couriers issue warnings. Repeats are new seasonal requests.",
+      "order": 14,
+      "requires_debrief_all": [
+        "flyaway_cliffs"
+      ],
+      "current_level": 20,
+      "departure_camp": "Panorama"
+    },
+    {
+      "role": "O",
+      "id": "geode_crevice",
+      "current_name": "Geode Crevice",
+      "proposed_name": "Crystal Crevice",
+      "departure_and_prerequisite": "Panorama / Flyaway; Tiny adds a hint only",
+      "mission_resolution": "Rescue prospectors who followed an echo instead of their beacon. Identify the mistaken signal in the endpoint scene.",
+      "return_aftermath": "Return Panorama; markers are corrected. No sound puzzle or rare crystal gate.",
+      "order": 15,
+      "requires_debrief_all": [
+        "flyaway_cliffs"
+      ],
+      "current_level": 20,
+      "departure_camp": "Panorama"
+    },
+    {
+      "role": "O",
+      "id": "lava_floe_island",
+      "current_name": "Lava Floe Island",
+      "proposed_name": "Lava Anchorage",
+      "departure_and_prerequisite": "Panorama expedition contact / Flyaway",
+      "mission_resolution": "Rescue Meramon lighthouse crew stranded when cooling deliveries stopped.",
+      "return_aftermath": "Return Panorama by dispatch boat. Open Castaway; do not add a Base entrance.",
+      "order": 16,
+      "requires_debrief_all": [
+        "flyaway_cliffs"
+      ],
+      "current_level": 20,
+      "departure_camp": "Panorama expedition contact"
+    },
+    {
+      "role": "O",
+      "id": "castaway_cave",
+      "current_name": "Castaway Cave",
+      "proposed_name": "Coela Cavern",
+      "departure_and_prerequisite": "Panorama expedition contact / Lava Floe",
+      "mission_resolution": "Distress bottles have different dates; rescue the still-living Coelamon keeper instead of assuming all calls are stale.",
+      "return_aftermath": "Return Panorama; Falcomon separates mail for living recipients from archive records.",
+      "order": 17,
+      "requires_debrief_all": [
+        "lava_floe_island"
+      ],
+      "current_level": 30,
+      "departure_camp": "Panorama expedition contact"
+    },
+    {
+      "role": "M",
+      "id": "copper_quarry",
+      "current_name": "Copper Quarry",
+      "proposed_name": "Factorial Quarry",
+      "departure_and_prerequisite": "Great Canyon / Trickster AND Fertile AND Flyaway",
+      "mission_resolution": "Rescue Mamemon's ToyAgumon apprentice and recover maintenance records from a sealed vault. Controlled opening is a scene.",
+      "return_aftermath": "Return Great Canyon workshop; records prove forged routing commands came from the occupied summit. With Depleted, open Misty travel. Beelzemon, not Guardromon, authored the malicious changes.",
+      "order": 18,
+      "requires_debrief_all": [
+        "trickster_woods",
+        "fertile_valley",
+        "flyaway_cliffs"
+      ],
+      "current_level": 25,
+      "departure_camp": "Great Canyon"
+    },
+    {
+      "role": "M",
+      "id": "depleted_basin",
+      "current_name": "Depleted Basin",
+      "proposed_name": "Great Canyon Basin",
+      "departure_and_prerequisite": "Great Canyon / Trickster AND Fertile AND Flyaway",
+      "mission_resolution": "Rescue Tankmon and the water-train crew behind an automated closure. Tankmon saw Leviamon rise from the depths and fly toward Infinity Mountain; this authored sighting is part of this adaptation, not a canon claim.",
+      "return_aftermath": "Return Great Canyon; restore water. Tankmon describes Leviamon, the first confirmed awakened accomplice. Guardromon links sustained fear and anger to six dormant Demon Lords, but cannot yet name all six. With Copper Quarry, open Misty and its main jobs; local investigations open.",
+      "order": 19,
+      "requires_debrief_all": [
+        "trickster_woods",
+        "fertile_valley",
+        "flyaway_cliffs"
+      ],
+      "current_level": 25,
+      "departure_camp": "Great Canyon"
+    },
+    {
+      "role": "O",
+      "id": "forsaken_desert",
+      "current_name": "Forsaken Desert",
+      "proposed_name": "Ancient Sands",
+      "departure_and_prerequisite": "Great Canyon / Depleted",
+      "mission_resolution": "Starmon misread a recall order and left its caravan. Rescue the caravan; it helps carry supplies.",
+      "return_aftermath": "Return Great Canyon; public apology and ordinary water-delivery shift, not an automatic villain role.",
+      "order": 20,
+      "requires_debrief_all": [
+        "depleted_basin"
+      ],
+      "current_level": 30,
+      "departure_camp": "Great Canyon"
+    },
+    {
+      "role": "O",
+      "id": "relic_tower",
+      "current_name": "Relic Tower",
+      "proposed_name": "Overdell Tower",
+      "departure_and_prerequisite": "Great Canyon / Copper Quarry",
+      "mission_resolution": "Rescue Hagurumon's records keeper beneath obsolete safety machinery; recover original charter.",
+      "return_aftermath": "Return Great Canyon. Original charter proves the Return Protocol once returned travelers safely; a defaced register hints at six awakening sites. Optional enrichment; mandatory debriefs repeat essential clues.",
+      "order": 21,
+      "requires_debrief_all": [
+        "copper_quarry"
+      ],
+      "current_level": 35,
+      "departure_camp": "Great Canyon"
+    },
+    {
+      "role": "O",
+      "id": "sleeping_caldera",
+      "current_name": "Sleeping Caldera",
+      "proposed_name": "Lava Caldera",
+      "departure_and_prerequisite": "Great Canyon / Depleted",
+      "mission_resolution": "Rescue night workers while Meramon and Frigimon leads argue about a failed heat exchange.",
+      "return_aftermath": "Return Great Canyon; leads sign one repair schedule and shelter heat resumes. No engineering minigame.",
+      "order": 22,
+      "requires_debrief_all": [
+        "depleted_basin"
+      ],
+      "current_level": 30,
+      "departure_camp": "Great Canyon"
+    },
+    {
+      "role": "O",
+      "id": "ambush_forest",
+      "current_name": "Ambush Forest",
+      "proposed_name": "Bamboo Thicket",
+      "departure_and_prerequisite": "Native Forest / Depleted; Great Canyon sends request",
+      "mission_resolution": "Goblimon transporters diverted supplies to stranded nursery residents. Rescue transporters and injured accuser.",
+      "return_aftermath": "Return Native Forest; restitution and shared delivery roster settle it. No new Great Canyon-local entrance.",
+      "order": 23,
+      "requires_debrief_all": [
+        "depleted_basin"
+      ],
+      "current_level": 30,
+      "departure_camp": "Native Forest"
+    },
+    {
+      "role": "O",
+      "id": "eon_island",
+      "current_name": "Eon Island",
+      "proposed_name": "Eon Island",
+      "departure_and_prerequisite": "Native Forest archive contact / Copper Quarry",
+      "mission_resolution": "Rescue Elecmon custodian from an obsolete beacon still attracting volunteer teams.",
+      "return_aftermath": "Return Native Forest; label old relay and add dates to records. Open Prism. Keep existing low-level short excursion.",
+      "order": 24,
+      "requires_debrief_all": [
+        "copper_quarry"
+      ],
+      "current_level": 5,
+      "departure_camp": "Native Forest archive contact"
+    },
+    {
+      "role": "O",
+      "id": "prism_isles",
+      "current_name": "Prism Isles",
+      "proposed_name": "Prism Isles",
+      "departure_and_prerequisite": "Native Forest archive contact / Eon",
+      "mission_resolution": "Rescue Salamon surveyors with conflicting safe-route observations; assemble reports in a scene.",
+      "return_aftermath": "Return Native Forest; disagreement becomes evidence rather than blame. No new color-switch mechanic.",
+      "order": 25,
+      "requires_debrief_all": [
+        "eon_island"
+      ],
+      "current_level": 10,
+      "departure_camp": "Native Forest archive contact"
+    },
+    {
+      "role": "O",
+      "id": "cave_of_whispers",
+      "current_name": "Cave of Whispers",
+      "proposed_name": "Whispering Cave",
+      "departure_and_prerequisite": "Misty / Copper Quarry AND Depleted",
+      "mission_resolution": "Wizardmon follows a call dismissed as a recording. Rescue a living DemiDevimon operator beneath the loop.",
+      "return_aftermath": "Return Misty; remove one name from the missing list. Existing gentle level range is a recovery mission, not a main difficulty gate.",
+      "order": 26,
+      "requires_debrief_all": [
+        "copper_quarry",
+        "depleted_basin"
+      ],
+      "current_level": 5,
+      "departure_camp": "Misty"
+    },
+    {
+      "role": "M",
+      "id": "thunderstruck_pass",
+      "current_name": "Thunderstruck Pass",
+      "proposed_name": "Thunder Pass",
+      "departure_and_prerequisite": "Misty / Copper Quarry AND Depleted",
+      "mission_resolution": "Rescue Aquilamon and the grounded courier crew. Daemon incites accusations while Barbamon withholds their route permits for tribute. Two sequential endpoint encounters free the crew and the manual message route.",
+      "return_aftermath": "Return Misty; Aquilamon admits fear of blame made it hoard reports. Crew testimony names Daemon and Barbamon and explains the anger/greed harvest. With Veiled, open Snowbound.",
+      "order": 27,
+      "requires_debrief_all": [
+        "copper_quarry",
+        "depleted_basin"
+      ],
+      "current_level": 30,
+      "departure_camp": "Misty",
+      "story_bosses": [
+        "Daemon",
+        "Barbamon"
+      ]
+    },
+    {
+      "role": "M",
+      "id": "veiled_ridge",
+      "current_name": "Veiled Ridge",
+      "proposed_name": "Misty Ridge",
+      "departure_and_prerequisite": "Misty / Copper Quarry AND Depleted",
+      "mission_resolution": "Rescue Renamon scouts drawn into Lilithmon’s promises that everyone else will abandon them. Defeat Lilithmon at the endpoint and retrieve the genuine summit authorization.",
+      "return_aftermath": "Return Misty; Renamon describes whispered mistrust and identifies Lilithmon. Wizardmon compares both main rescue reports to explain emotion harvesting. With Thunderstruck, open Snowbound.",
+      "order": 28,
+      "requires_debrief_all": [
+        "copper_quarry",
+        "depleted_basin"
+      ],
+      "current_level": 35,
+      "departure_camp": "Misty",
+      "story_bosses": [
+        "Lilithmon"
+      ]
+    },
+    {
+      "role": "M",
+      "id": "snowbound_path",
+      "current_name": "Snowbound Path",
+      "proposed_name": "Freezeland Path",
+      "departure_and_prerequisite": "Misty / Thunderstruck AND Veiled",
+      "mission_resolution": "Rescue the final supply team from Belphemon Rage Mode, awakened beneath the snow by accumulated resentment and exhaustion. Defeat it to clear the supply approach; aid is a narrative flag, not an inventory quota.",
+      "return_aftermath": "Introduce Freezeland, return Misty to confirm arrival. Survivors name Belphemon Rage Mode and recognize deliberate awakening, not bad weather. Open safe Freezeland travel and Champion’s Road.",
+      "order": 29,
+      "requires_debrief_all": [
+        "thunderstruck_pass",
+        "veiled_ridge"
+      ],
+      "current_level": 40,
+      "departure_camp": "Misty",
+      "story_bosses": [
+        "Belphemon Rage Mode"
+      ]
+    },
+    {
+      "role": "O",
+      "id": "treacherous_mountain",
+      "current_name": "Treacherous Mountain",
+      "proposed_name": "Ice Mountain",
+      "departure_and_prerequisite": "Misty / Snowbound; Freezeland issues request",
+      "mission_resolution": "Rescue Triceramon weather observer, a mission visitor, from the failed watch post.",
+      "return_aftermath": "Return Misty; send forecast to Freezeland. Alters preparation dialogue, not success odds or ending requirements.",
+      "order": 30,
+      "requires_debrief_all": [
+        "snowbound_path"
+      ],
+      "current_level": 40,
+      "departure_camp": "Misty"
+    },
+    {
+      "role": "M",
+      "id": "champions_road",
+      "current_name": "Champion's Road",
+      "proposed_name": "Infinity Approach",
+      "departure_and_prerequisite": "Freezeland / Snowbound",
+      "mission_resolution": "Rescue a stranded advance party from Leviamon and then Lucemon Chaos Mode at separate endpoint beats. Lucemon offers a perfect world with no choices; the party refuses and opens the summit approach.",
+      "return_aftermath": "Return Freezeland with the advance party. All six accomplices are now identified and confronted. Guardromon and Unimon’s recovered instructions explain how to isolate the Return Protocol; prepare the finale at the kitchen table. Do not require unreleased the_sky.",
+      "order": 31,
+      "requires_debrief_all": [
+        "snowbound_path"
+      ],
+      "current_level": 50,
+      "departure_camp": "Freezeland",
+      "story_bosses": [
+        "Leviamon",
+        "Lucemon Chaos Mode"
+      ]
+    },
+    {
+      "role": "M",
+      "id": "guildmaster_trail",
+      "current_name": "Guildmaster Trail",
+      "proposed_name": "Infinity Mountain",
+      "departure_and_prerequisite": "File Town / visible at opening; finale job after Champion's Road",
+      "mission_resolution": "The established Infinity Mountain ascent is guarded by Beelzemon. Rescue Unimon and beacon workers, defeat Beelzemon at the summit, and let the workers isolate his alterations through the manual release.",
+      "return_aftermath": "Return File Town for meal and credits. Reconnected routes and local check-ins let the restored emergency system serve residents again. Beelzemon’s fate remains supervised custody, without demanding instant forgiveness. Open archive aftermath and the optional Apocalymon investigation; retain optional jobs.",
+      "order": 32,
+      "requires_debrief_all": [
+        "champions_road"
+      ],
+      "current_level": 5,
+      "departure_camp": "File Town",
+      "access_note": "Visible and playable from opening; dependency applies to finale job. Early clear can use proposed summit dispatch.",
+      "story_bosses": [
+        "Beelzemon"
+      ]
+    },
+    {
+      "role": "P",
+      "id": "labyrinth_of_the_lost",
+      "current_name": "Labyrinth of the Lost",
+      "proposed_name": "Ancient Labyrinth",
+      "departure_and_prerequisite": "Great Canyon archive contact / finale",
+      "mission_resolution": "Rescue Kuramon archivist and incomplete name index. Beneath the ordinary missing-person records, discover discarded negative data still converging after Beelzemon’s defeat.",
+      "return_aftermath": "Return Great Canyon; preserve uncertain names rather than invent identities. Wizardmon and Guardromon identify Apocalymon’s emerging trace, a consequence Beelzemon did not anticipate. Open Storybook Isles investigation; this short low-level rescue is not the high-level boss arena.",
+      "order": 33,
+      "requires_debrief_all": [
+        "guildmaster_trail"
+      ],
+      "current_level": 5,
+      "departure_camp": "Great Canyon archive contact"
+    },
+    {
+      "role": "P",
+      "id": "the_neverending_tale",
+      "current_name": "The NeverEnding Tale",
+      "proposed_name": "Storybook Isles",
+      "departure_and_prerequisite": "Great Canyon archive contact / Labyrinth",
+      "mission_resolution": "Rescue Bakemon’s replacement letter carrier and a forwarding record for a long-delayed message. The record locates Apocalymon’s condensation at the isolated Infinity Summit.",
+      "return_aftermath": "Return Great Canyon and deliver the letter through Falcomon. Unlock a separate, explicitly endgame Apocalymon summit dispatch using the existing summit encounter space; do not add the boss to this level-5 route. After that optional challenge, return File Town for a survivor debrief and ordinary rescue-board requests.",
+      "order": 34,
+      "requires_debrief_all": [
+        "labyrinth_of_the_lost"
+      ],
+      "current_level": 5,
+      "departure_camp": "Great Canyon archive contact"
+    }
+  ],
+  "narrative_revision": "Human Notes from Storyboard..txt, 12 September 2026; design only",
+  "optional_postgame_encounter": {
+    "boss": "Apocalymon",
+    "location": "Existing guildmaster_summit encounter space within guildmaster_island hub container",
+    "requires_debrief_all": [
+      "guildmaster_trail",
+      "labyrinth_of_the_lost",
+      "the_neverending_tale"
+    ],
+    "departure": "Great Canyon archive contact, explicit endgame warning and preparation",
+    "return": "File Town survivor debrief",
+    "implementation": "Proposed separate dispatch/encounter, not a new released zone or a level-5 route boss"
+  }
+}

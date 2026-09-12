@@ -11,7 +11,7 @@ class EarlyZoneTests(unittest.TestCase):
         self.assertEqual(14, len(manifest["zones"]))
         self.assertGreaterEqual(sum(row["digimon_encounter_records"] for row in manifest["zones"]), 2089)
         for row in manifest["zones"]:
-            zone = json.loads((ROOT / "DumpAsset/Data/Zone" / f"{row['id']}.json").read_text(encoding="utf-8"))["Object"]
+            zone = json.loads((ROOT / "DumpAsset/Data/Zone" / f"{row['id']}.json").read_text(encoding="utf-8-sig"))["Object"]
             self.assertTrue(zone["Released"], row["id"])
             self.assertTrue(5 <= zone["Level"] <= 15, row["id"])
 
