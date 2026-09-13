@@ -22,6 +22,7 @@ families come from `docs/DIGIMON_FAMILY_TYPES.md`. Items are generated with
 
 ```text
 python Scripts/digimon_family_items.py
+python Scripts/digimon_family_items.py --install-secret-boxes
 dotnet build PMDOData.sln --no-restore
 cd DataGenerator/bin/Debug/net8.0
 dotnet DataGenerator.dll -asset ../../../../DumpAsset/ -digimon-items ../../../../DataAsset/Digimon/family_items.json
@@ -29,7 +30,9 @@ dotnet DataGenerator.dll -asset ../../../../DumpAsset/ -index Item
 dotnet DataGenerator.dll -asset ../../../../DumpAsset/ -digimon-check
 ```
 
-The first command validates the design and rewrites this file. The item index step also rebuilds the
+The first command validates the design and rewrites this file. The second restores the light and heavy
+family treasure boxes in the conversion's fixed hidden rooms without regenerating unrelated zone data.
+The item index step also rebuilds the
 species-to-rarity map in `Data/Misc/Rarity.json` that treasure boxes read.
 
 33 families, 132 items.

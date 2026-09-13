@@ -105,12 +105,6 @@ namespace DataGenerator.Data
             {
                 SpawnList<IStepSpawner<MapLoadContext, MapItem>> boxSpawn = new SpawnList<IStepSpawner<MapLoadContext, MapItem>>();
 
-                HashSet<string> exceptFor = new HashSet<string>();
-                foreach (string legend in IterateLegendaries())
-                    exceptFor.Add(legend);
-                SpeciesItemElementSpawner<MapLoadContext> spawn = new SpeciesItemElementSpawner<MapLoadContext>(new IntRange(2), new RandRange(1), element, exceptFor);
-                boxSpawn.Add(new BoxSpawner<MapLoadContext>("box_heavy", spawn), 10);
-
                 PopulateSecretRoomItems(boxSpawn, gamePhase, access);
 
                 MultiStepSpawner <MapLoadContext, MapItem> boxPicker = new MultiStepSpawner<MapLoadContext, MapItem>(new LoopedRand<IStepSpawner<MapLoadContext, MapItem>>(boxSpawn, new RandRange(locs.Length)));
@@ -1325,7 +1319,13 @@ namespace DataGenerator.Data
 
         static void PopulateSecretRoomItems(SpawnList<IStepSpawner<MapLoadContext, MapItem>> spawnStep, DungeonStage gamePhase, DungeonAccessibility access)
         {
-            //actually, we don't need secret room items other than the exclusive items; the vault boxes leading up to the secret room can serve this purpose instead
+            // Secret rooms are the guaranteed source of family treasures.  The
+            // species-aware rarity map supplies the Digimon family item inside
+            // each box, so its contents follow the Digimon encountered there.
+            spawnStep.Add(new BoxSpawner<MapLoadContext>("box_light",
+                new SpeciesItemContextSpawner<MapLoadContext>(new IntRange(1), new RandRange(1))), 3);
+            spawnStep.Add(new BoxSpawner<MapLoadContext>("box_heavy",
+                new SpeciesItemContextSpawner<MapLoadContext>(new IntRange(2), new RandRange(1))), 1);
         }
 
         static void PopulateVaultItems(SpreadVaultZoneStep vaultChanceZoneStep, DungeonStage gamePhase, DungeonAccessibility access, int max_floors, bool locked, bool secretRoom = false)

@@ -9,7 +9,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'Scripts'))
 from digimon_runtime_assets import family_assignments, read  # noqa: E402
-from digimon_family_items import item_id, validate  # noqa: E402
+from digimon_family_items import SECRET_ROOM_ZONES, item_id, secret_room_boxes, validate  # noqa: E402
 
 
 def families():
@@ -82,6 +82,16 @@ class FamilyItemTests(unittest.TestCase):
                 have = {(int(tier), iid) for tier, ids in table.items() for iid in ids if iid.startswith('digixcl_')}
                 self.assertTrue(expected <= have, (family, species, expected - have))
         self.assertEqual(set(rarity_map), set(self.items_species()))
+
+    def test_secret_rooms_restore_family_treasure_boxes(self):
+        for zone_id in SECRET_ROOM_ZONES:
+            boxes = secret_room_boxes(read(ROOT / 'DumpAsset/Data/Zone' / f'{zone_id}.json'))
+            self.assertEqual([(box['Spawn']['BoxID'], box['Rate']) for box in boxes],
+                             [('box_light', 3), ('box_heavy', 1)], zone_id)
+            for box, rarity in zip(boxes, (1, 2)):
+                spawner = box['Spawn']['BaseSpawner']
+                self.assertIn('SpeciesItemContextSpawner', spawner['$type'])
+                self.assertEqual(spawner['Rarity'], {'Min': rarity, 'Max': rarity + 1})
 
     def items_species(self):
         return {s for members in self.families.values() for s in members}

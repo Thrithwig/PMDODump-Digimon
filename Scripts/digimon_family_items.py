@@ -8,8 +8,10 @@ writes the review document afterwards.
 from __future__ import annotations
 
 import collections
+import copy
 import json
 import re
+import sys
 from pathlib import Path
 
 from digimon_runtime_assets import family_assignments, read
@@ -24,6 +26,23 @@ ELEMENT_NAME = {'normal': 'Neutral', 'fire': 'Fire', 'water': 'Water', 'grass': 
 STAT_NAME = {'HP': 'HP', 'Attack': 'Attack', 'Defense': 'Defense', 'MAtk': 'Special Attack', 'MDef': 'Special Defense', 'Speed': 'Speed'}
 # A single effect-and-parameter combination may serve at most this many families.
 MAX_SHARED = 2
+
+# Fixed secret-room segments that use ZoneInfo.getSecretRoom.  Their generated
+# records are patched in place so the conversion keeps its curated zone data.
+SECRET_ROOM_ZONES = (
+    'ambush_forest', 'copper_quarry', 'depleted_basin', 'faultline_ridge',
+    'fertile_valley', 'flyaway_cliffs', 'lava_floe_island', 'moonlit_courtyard',
+    'overgrown_wilds', 'relic_tower', 'sickly_hollow', 'snowbound_path',
+    'thunderstruck_pass', 'treacherous_mountain', 'trickster_woods', 'veiled_ridge',
+)
+SECRET_ROOM_MAPS = {
+    'special_rby_bird', 'special_grass_maze', 'special_rby_fossil',
+    'special_gsc_ghost', 'special_gsc_plant', 'special_rby_fairy',
+}
+
+
+def write(path: Path, value: dict) -> None:
+    path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + '\n', encoding='utf-8', newline='\n')
 
 
 def slug(family: str) -> str:
@@ -121,6 +140,60 @@ def validate(design: dict, families: dict[str, list[str]], effects: set[str]) ->
     return problems
 
 
+def secret_room_boxes(zone: dict) -> list[dict]:
+    """Find the box spawn list attached to a fixed secret-room map."""
+    def generations(value):
+        if isinstance(value, dict):
+            if isinstance(value.get('GenSteps'), list):
+                yield value['GenSteps']
+            for child in value.values():
+                yield from generations(child)
+        elif isinstance(value, list):
+            for child in value:
+                yield from generations(child)
+    for steps in generations(zone['Object']):
+        if not any(step.get('Value', {}).get('MapID') in SECRET_ROOM_MAPS for step in steps):
+            continue
+        for step in steps:
+            value = step.get('Value', {})
+            if 'SpecificSpawnStep' not in value.get('$type', ''):
+                continue
+            picker = value.get('Spawn', {}).get('Picker', {})
+            values = picker.get('Spawner', {}).get('$values')
+            if values and all(entry.get('Spawn', {}).get('BoxID', '').startswith('box_') for entry in values):
+                return values
+    raise ValueError('Fixed secret-room box spawn list not found')
+
+
+def install_secret_room_boxes() -> int:
+    """Restore the family treasure chest pair without regenerating unrelated zones."""
+    written = 0
+    for zone_id in SECRET_ROOM_ZONES:
+        path = ROOT / 'DumpAsset/Data/Zone' / f'{zone_id}.json'
+        zone = read(path)
+        values = secret_room_boxes(zone)
+        if len(values) == 2 and {entry['Spawn']['BoxID'] for entry in values} == {'box_light', 'box_heavy'}:
+            continue
+        if len(values) != 1 or values[0]['Spawn'].get('BoxID') != 'box_heavy':
+            raise ValueError(f'{zone_id}: unexpected secret-room box layout')
+        template = values[0]
+        def family_box(box_id: str, rarity: int, rate: int) -> dict:
+            entry = copy.deepcopy(template)
+            entry['Rate'] = rate
+            spawn = entry['Spawn']
+            spawn['BoxID'] = box_id
+            base = spawn['BaseSpawner']
+            base['$type'] = base['$type'].replace('SpeciesItemElementSpawner', 'SpeciesItemContextSpawner')
+            base.pop('Element', None)
+            base.pop('ExceptFor', None)
+            base['Rarity'] = {'Min': rarity, 'Max': rarity + 1}
+            return entry
+        values[:] = [family_box('box_light', 1, 3), family_box('box_heavy', 2, 1)]
+        write(path, zone)
+        written += 1
+    return written
+
+
 def render(design: dict, families: dict[str, list[str]], names: dict[str, str], templates: dict[str, str]) -> str:
     lines = ['# Digimon family items', '',
              'Design matrix for the family-exclusive items. Source of truth: `DataAsset/Digimon/family_items.json`;',
@@ -138,10 +211,12 @@ def render(design: dict, families: dict[str, list[str]], names: dict[str, str], 
              '  Recipes are generated into `origin/digimon/family_trades.lua`.',
              '- **Names.** Player-facing text says Digimon and uses Digimon element names (Light for fairy, Plant for',
              '  grass, Earth for ground, Wind for flying, Neutral for normal).', '',
-             '## Rebuild', '', '```text', 'python Scripts/digimon_family_items.py', 'dotnet build PMDOData.sln --no-restore',
+             '## Rebuild', '', '```text', 'python Scripts/digimon_family_items.py', 'python Scripts/digimon_family_items.py --install-secret-boxes', 'dotnet build PMDOData.sln --no-restore',
              'cd DataGenerator/bin/Debug/net8.0', 'dotnet DataGenerator.dll -asset ../../../../DumpAsset/ -digimon-items ../../../../DataAsset/Digimon/family_items.json',
              'dotnet DataGenerator.dll -asset ../../../../DumpAsset/ -index Item', 'dotnet DataGenerator.dll -asset ../../../../DumpAsset/ -digimon-check', '```', '',
-             'The first command validates the design and rewrites this file. The item index step also rebuilds the',
+             'The first command validates the design and rewrites this file. The second restores the light and heavy',
+             'family treasure boxes in the conversion\'s fixed hidden rooms without regenerating unrelated zone data.',
+             'The item index step also rebuilds the',
              'species-to-rarity map in `Data/Misc/Rarity.json` that treasure boxes read.', '',
              '## Matrix', '']
     total = 0
@@ -182,6 +257,8 @@ def main() -> None:
     DOC.write_text(render(design, families, names, effect_catalog()), encoding='utf-8')
     total = sum(len(row['items']) for row in design['families'])
     print(f'Family item design valid: {len(design["families"])}/{len(families)} families, {total} items. Wrote {DOC.relative_to(ROOT)}.')
+    if '--install-secret-boxes' in sys.argv:
+        print(f'Restored family treasure boxes in {install_secret_room_boxes()} fixed secret rooms.')
 
 
 if __name__ == '__main__':
