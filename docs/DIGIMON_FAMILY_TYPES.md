@@ -10,113 +10,81 @@ Every listed wiki type is stored, in wiki order, as `Family_Types` on the Digimo
 `family_types` in the Lua runtime catalog. The `NO DATA` placeholder is dropped. The summary
 screen joins them with a slash. A Digimon with several types belongs to every one of them.
 
-## Small-family rule
+## Policy
 
-Owner decision (2026-09-13): types with three or fewer members are not used. That removes 54
-of 97 wiki types and leaves 43. The rule lives in `Scripts/digimon_runtime_assets.py`
-as `MIN_FAMILY_MEMBERS`, so a regeneration reproduces it.
+Owner decisions (2026-09-13), in order:
 
-## Kept families (43)
+1. Wiki types are merged per the table below (`FAMILY_MERGES` in `Scripts/digimon_runtime_assets.py`).
+2. Families with fewer than 4 members are dropped (`MIN_FAMILY_MEMBERS`).
+3. A species whose every family was dropped keeps its source types and is listed for a decision.
 
-| Family type | Members | Species |
+Apply changes with `python Scripts/digimon_family_types.py`, then rebuild the Monster index.
+
+### Merges
+
+| Family | Merged from |
+| --- | --- |
+| Beast | Mammal |
+| Bird | Avian, Birdkin, Giant Bird, Holy Bird, Mysterious Bird |
+| Dragon | Ancient Dragon, Ancient Dragonkin, Dark Dragon, Dragon Warrior, Earth Dragon, Evil Dragon, Holy Dragon, Light Dragon, Machine Dragon, Mythical Dragon, Sky Dragon |
+| Dragonling | Beast Dragon, Mini Dragon |
+| Elemental | Fire, Flame, Ice-Snow, Icy, Mineral, Rock |
+| Evil | Fallen Angel |
+| Fairy | Pixie |
+| Insectoid | Larva |
+| Mollusk | Crustacean, Slime |
+| Mutant | Abnormal, Alien |
+| Mythical Beast | Ancient Animal, Mythical Animal |
+| Reptile | Dinosaur |
+| Sea Animal | Ancient Fish |
+| Spiritual Beast | Holy Beast, Mysterious Beast |
+| Unidentified | Invader, Perfect, Unique |
+| Warrior | Beast Knight, Dark Knight, Dark Warrior, Holy Sword, Weapon |
+
+## Families (35)
+
+| Family | Members | Species |
 | --- | ---: | --- |
 | Cyborg | 36 | Andromon, Boltmon, CannonBeemon, Cyberdramon, Darkdramon, Ebemon, Gigadramon, HiAndromon, Justimon, KendoGarurumon, MachGaogamon, Machinedramon, MagnaGarurumon, MagnaGarurumon (SV), Megadramon, MetalEtemon, MetalGarurumon, MetalGarurumon (Blk), MetalGreymon, MetalGreymon (Blue), MetalMamemon, MetalSeadramon, MetalTyrannomon, PileVolcamon, Rapidmon, Raptordramon, Raremon, Ravemon, Ravemon BM, RizeGreymon, RustTyranomon, Tankmon, TigerVespamon, Volcanomon, WarGrowlmon, Waspmon |
+| Dragon | 33 | AeroVeedramon, Breakdramon, BurningGreymon, Coredramon (Blue), Coredramon (Green), Cyclonemon, Dorugoramon, Dracomon, ExVeemon, Flamedramon, Gaiomon, Ginryumon, Goldramon, Groundramon, Growlmon, Hisyaryumon, Imperialdramon DM, Imperialdramon FM, Imperialdramon PM, KaiserGreymon, Magnadramon, Megadramon, Megidramon, Ouryumon, Paildramon, Plesiomon, Ryudamon, ShineGreymon, ShineGreymon BM, Veedramon, Veemon, WarGreymon, Wingdramon |
+| Warrior | 26 | Alphamon, Alphamon NX, ChaosGallantmon, Crusadermon, Crusadermon NX, Duramon, Durandamon, Dynasmon, Gallantmon, Gallantmon CM, Gallantmon NX, Grademon, Knightmon, Lobomon, Magnamon, MirageGaogamon, MirageGaogamon BM, Omnimon, Omnimon NX, Rapidmon, Rapidmon (Armor), UlforceVeedramon, Valkyrimon, WarGreymon, Zubaeagermon, Zubamon |
 | Android | 23 | Andromon, Boltmon, CannonBeemon, Gigadramon, HiAndromon, Justimon, KendoGarurumon, Machinedramon, MagnaGarurumon, Megadramon, MetalEtemon, MetalGarurumon, MetalGreymon, MetalGreymon (Blue), MetalMamemon, MetalSeadramon, MetalTyrannomon, PileVolcamon, Rapidmon, Raptordramon, Tankmon, Volcanomon, WarGrowlmon |
 | Holy Warrior | 23 | Alphamon, Alphamon NX, Alphamon Ouryuken, Craniamon, Crusadermon, Crusadermon NX, Dynasmon, Examon, Gallantmon, Gallantmon CM, Gallantmon NX, Gankoomon, Jesmon, Kentaurosmon, Leopardmon, Leopardmon LM, Leopardmon NX, Magnamon, Omnimon, Omnimon NX, Omnimon Zwart, Rapidmon (Armor), UlforceVeedramon |
-| Warrior | 19 | Alphamon, Alphamon NX, Crusadermon, Crusadermon NX, Dynasmon, Gallantmon, Gallantmon CM, Gallantmon NX, Grademon, Knightmon, Lobomon, Magnamon, Omnimon, Omnimon NX, Rapidmon, Rapidmon (Armor), UlforceVeedramon, Valkyrimon, WarGreymon |
 | Animal | 18 | Chuumon, DoruGreymon, Dorugamon, Dorumon, Gargomon, Garurumon, Gatomon, GrapLeomon, Hououmon, Leomon, Lopmon, Panjyamon, Renamon, Silphymon, Terriermon, Turuiemon, WereGarurumon, WereGarurumon (Blk) |
-| Dragon | 15 | Coredramon (Blue), Coredramon (Green), Cyclonemon, Dorugoramon, Dracomon, Flamedramon, Gaiomon, Ginryumon, Hisyaryumon, Ouryumon, Paildramon, Plesiomon, Ryudamon, Veemon, WarGreymon |
-| Insectoid | 14 | CannonBeemon, FanBeemon, GranKuwagamon, HerculesKabuterimon, Hudiemon, Kabuterimon, Kuwagamon, MegaKabuterimon, Okuwamon, Stingmon, Tentomon, TigerVespamon, TyrantKabuterimon, Waspmon |
-| Mutant | 13 | Apocalymon, CatchMamemon, Dinobeemon, GoldNumemon, Mamemon, MudFrigimon, PlatinumNumemon, PlatinumSukamon, PrinceMamemon, Shakkoumon, Starmon, Sukamon, SuperStarmon |
+| Beast | 15 | Armadillomon, Chuumon, Dorumon, Elecmon, GaoGamon, Gaomon, Garurumon, Garurumon (Blk), Gazimon, Lopmon, Lunamon, Patamon, Ryudamon, Salamon, Terriermon |
+| Insectoid | 15 | CannonBeemon, FanBeemon, GranKuwagamon, HerculesKabuterimon, Hudiemon, Kabuterimon, Kuwagamon, MegaKabuterimon, Okuwamon, Stingmon, Tentomon, TigerVespamon, TyrantKabuterimon, Waspmon, Wormmon |
+| Mutant | 14 | Apocalymon, CatchMamemon, Dinobeemon, GoldNumemon, Mamemon, MudFrigimon, PlatinumNumemon, PlatinumSukamon, PrinceMamemon, Shakkoumon, Starmon, Sukamon, SuperStarmon, Vademon |
+| Reptile | 14 | Agumon, Agumon (Blk), Ankylomon, BaoHuckmon, Gabumon, Gabumon (Blk), GeoGreymon, Greymon, Greymon (Blue), Guilmon, MetalTyrannomon, Monochromon, Triceramon, Tyrannomon |
+| Spiritual Beast | 13 | Antylamon, Arcadiamon Champion, Arcadiamon In-Tr., Arcadiamon Mega, Arcadiamon Rookie, Arcadiamon Ultimate, Arcadiamon Ultra, Chirinmon, Gatomon, Hououmon, Kudamon, Kyubimon, Reppamon |
+| Unidentified | 13 | Apocalymon, Armageddemon, Chaosmon, Chaosmon VA, Diaboromon, Digitamamon, Infermon, Keramon, Kuramon, Kurisarimon, Nanimon, Tsumemon, Vademon |
 | Beastkin | 12 | BanchoLeomon, Gargomon, GrapLeomon, Lekismon, Leomon, Panjyamon, Renamon, Silphymon, Turuiemon, Vikemon, WereGarurumon, WereGarurumon (Blk) |
 | Dragonkin | 11 | BlackWarGreymon, Cyberdramon, Cyclonemon, Flamedramon, Gaiomon, OmniShoutmon, Paildramon, SaviorHuckmon, Slayerdramon, Strikedramon, WarGreymon |
+| Evil | 11 | Beelzemon, DemiDevimon, Devimon, Goblimon, Guilmon, IceDevimon, Impmon, LadyDevimon, Ogremon, SkullSatamon, VenomMyotismon |
 | Puppet | 11 | Etemon, KingEtemon, Monzaemon, Pandamon, Pumpkinmon, Puppetmon, Sistermon B (Awake.), Sistermon Blanc, Sistermon C (Awake.), Sistermon Ciel, ToyAgumon |
 | Wizard | 11 | Agunimon, Crescemon, Lucemon FM, Lucemon SM, Piedmon, Sakuyamon, Socerimon, Susanomon, Taomon, Wisemon, Wizardmon |
 | Angel | 10 | Angemon, Angewomon, Kerpymon (Blk), Kerpymon (Good), Lucemon, MagnaAngemon, Mastemon, Ophanimon, Seraphimon, Shakkoumon |
-| Beast | 10 | Chuumon, Dorumon, GaoGamon, Gaomon, Garurumon, Garurumon (Blk), Lopmon, Ryudamon, Salamon, Terriermon |
+| Dragonling | 10 | DoruGreymon, Dorugamon, Dorugoramon, Ginryumon, Hackmon, Hisyaryumon, Monodramon, Ouryumon, Shoutmon, Veemon |
 | Lesser | 10 | Bukamon, Koromon, Motimon, Nyaromon, Pagumon, Tanemon, Tokomon, Tsunomon, Wanyamon, Yokomon |
 | Machine | 10 | Chaosdramon, Clockmon, Datamon, GroundLocomon, Guardromon, Guardromon (Gold), Hagurumon, Machinedramon, MegaGargomon, Solarmon |
+| Mollusk | 10 | BlackKingNumemon, Botamon, Geremon, Numemon, Pabumon, PlatinumNumemon, Poyomon, Punimon, ShellNumemon, Syakomon |
+| Bird | 9 | Aquilamon, Birdramon, Biyomon, Crowmon, Falcomon, Garudamon, Hawkmon, Peckmon, Varodurumon |
 | Demon Lord | 9 | Barbamon, Beelzemon, Beelzemon BM, Belphemon RM, Belphemon SM, Creepymon, Leviamon, Lilithmon, Lucemon FM |
-| Dinosaur | 9 | Ankylomon, BaoHuckmon, GeoGreymon, Greymon, Greymon (Blue), MetalTyrannomon, Monochromon, Triceramon, Tyrannomon |
-| Evil | 9 | Beelzemon, DemiDevimon, Devimon, Goblimon, Guilmon, Impmon, LadyDevimon, Ogremon, VenomMyotismon |
+| Elemental | 9 | BlueMeramon, Frigimon, Golemon, Gotsumon, Icemon, Meramon, Meteormon, SkullMeramon, Socerimon |
 | Vegetation | 9 | Cherrymon, Lalamon, Mushroomon, Palmon, Puppetmon, Sunflowmon, Togemon, Vegiemon, Woodmon |
+| Sea Animal | 8 | Coelamon, Dragomon, Gomamon, Ikkakumon, MegaSeadramon, Seadramon, Whamon, Zudomon |
 | Shaman | 8 | Dianamon, Kuzuhamon, Merukimon, Minervamon, Neptunemon, Sakuyamon, Susanomon, Titamon |
-| Unidentified | 8 | Apocalymon, Armageddemon, Diaboromon, Infermon, Keramon, Kuramon, Kurisarimon, Tsumemon |
 | Fairy | 7 | Lilamon, Lillymon, Lotosmon, MarineAngemon, Piximon, Rosemon, Rosemon BM |
-| Mysterious Beast | 7 | Arcadiamon Champion, Arcadiamon In-Tr., Arcadiamon Mega, Arcadiamon Rookie, Arcadiamon Ultimate, Arcadiamon Ultra, Kyubimon |
-| Sea Animal | 7 | Dragomon, Gomamon, Ikkakumon, MegaSeadramon, Seadramon, Whamon, Zudomon |
+| Mythical Beast | 7 | Airdramon, Gryphonmon, HippoGryphonmon, Kyubimon, SaberLeomon, Unimon, Veedramon |
 | Undead | 7 | Breakdramon, Dracmon, Matadormon, Myotismon, Raremon, SkullGreymon, SkullSatamon |
 | Aquatic | 6 | MegaSeadramon, MetalSeadramon, Neptunemon, Seadramon, Syakomon, Whamon |
-| Beast Dragon | 6 | DoruGreymon, Dorugamon, Dorugoramon, Ginryumon, Hisyaryumon, Ouryumon |
 | Ghost | 6 | Bakemon, Myotismon, Phantomon, Raremon, SkullGreymon, SkullSatamon |
-| Holy Beast | 6 | Antylamon, Chirinmon, Gatomon, Hououmon, Kudamon, Reppamon |
-| Mammal | 6 | Armadillomon, Elecmon, Gazimon, Lunamon, Patamon, Salamon |
-| Mythical Animal | 5 | Airdramon, Gryphonmon, Kyubimon, Unimon, Veedramon |
-| Reptile | 5 | Agumon, Agumon (Blk), Gabumon, Gabumon (Blk), Guilmon |
-| Abnormal | 4 | MudFrigimon, PlatinumSukamon, Starmon, Sukamon |
 | Amphibian | 4 | Betamon, Gekomon, Otamamon, ShogunGekomon |
-| Bird | 4 | Aquilamon, Birdramon, Biyomon, Garudamon |
 | Dark Animal | 4 | BlackGatomon, GranDracmon, Sangloupmon, VenomMyotismon |
-| Fallen Angel | 4 | Devimon, IceDevimon, LadyDevimon, SkullSatamon |
-| Mini Dragon | 4 | Hackmon, Monodramon, Shoutmon, Veemon |
-| Mollusk | 4 | BlackKingNumemon, Geremon, Numemon, PlatinumNumemon |
-| Mythical Beast | 4 | Airdramon, Gryphonmon, HippoGryphonmon, Unimon |
-| Pixie | 4 | Lillymon, MarineAngemon, Piximon, Rosemon |
-| Slime | 4 | Botamon, Pabumon, Poyomon, Punimon |
 
-## Removed families (54)
+## Dropped families (19)
 
-Alien (1), Ancient Animal (1), Ancient Dragon (3), Ancient Dragonkin (2), Ancient Fish (1), Ancient Holy Warrior (1), Ankylosaur (2), Aquabeast (1), Archangel (2), Avian (3), Beast Knight (2), Birdkin (1), Bulb (2), Carnivorous Plant (1), Ceratopsian (1), Cherub (2), Composite (2), Crustacean (2), Dark Dragon (3), Dark Knight (1), Dark Warrior (1), Demon (3), Demon God (1), Devil (1), Dragon Warrior (1), Earth Dragon (1), Evil Dragon (1), Fire (2), Flame (3), Giant Bird (2), Holy Bird (1), Holy Dragon (3), Holy Sword (1), Ice-Snow (3), Icy (1), Invader (1), Jellyfish (1), Larva (1), Light Dragon (2), Machine Dragon (1), Micro (1), Mineral (3), Mysterious Bird (1), Mythical Dragon (2), Perfect (1), Plesiosaur (1), Rock (3), Sea Beast (3), Seraph (1), Skeleton (1), Sky Dragon (1), Throne (1), Unique (2), Weapon (3)
+Ancient Holy Warrior (0), Ankylosaur (0), Aquabeast (0), Archangel (0), Bulb (0), Carnivorous Plant (0), Ceratopsian (0), Cherub (0), Composite (0), Demon (0), Demon God (0), Devil (0), Jellyfish (0), Micro (0), Plesiosaur (0), Sea Beast (0), Seraph (0), Skeleton (0), Throne (0)
 
-## Digimon with no remaining family (44) - decision pending
+## Digimon with no remaining family (0)
 
-Every type these species carry was removed. They keep their source types for now so the runtime
-check stays green and nothing is silently reclassified. Options: assign each to an existing kept
-family, restore one removed family for them, or leave them without family items.
-
-| Digimon | Source types |
-| --- | --- |
-| AeroVeedramon | Holy Dragon |
-| BlueMeramon | Flame |
-| BurningGreymon | Dark Dragon |
-| ChaosGallantmon | Dark Knight, Dark Warrior |
-| Chaosmon | Unique |
-| Chaosmon VA | Unique |
-| Coelamon | Ancient Fish |
-| Crowmon | Mysterious Bird |
-| Digitamamon | Perfect |
-| Duramon | Weapon |
-| Durandamon | Holy Sword |
-| ExVeemon | Mythical Dragon |
-| Falcomon | Avian |
-| Frigimon | Ice-Snow, Icy |
-| Goldramon | Holy Dragon |
-| Golemon | Mineral, Rock |
-| Gotsumon | Mineral, Rock |
-| Groundramon | Earth Dragon |
-| Growlmon | Dark Dragon |
-| Hawkmon | Avian |
-| Icemon | Ice-Snow, Mineral |
-| Imperialdramon DM | Ancient Dragon |
-| Imperialdramon FM | Ancient Dragon, Ancient Dragonkin |
-| Imperialdramon PM | Ancient Dragon, Ancient Dragonkin, Ancient Holy Warrior |
-| KaiserGreymon | Dragon Warrior |
-| Magnadramon | Holy Dragon |
-| Megidramon | Evil Dragon |
-| Meramon | Fire, Flame |
-| Meteormon | Rock |
-| MirageGaogamon | Beast Knight |
-| MirageGaogamon BM | Beast Knight |
-| Nanimon | Invader |
-| Peckmon | Avian |
-| SaberLeomon | Ancient Animal |
-| ShellNumemon | Crustacean |
-| ShineGreymon | Light Dragon |
-| ShineGreymon BM | Light Dragon |
-| SkullMeramon | Fire, Flame |
-| Vademon | Alien |
-| Varodurumon | Holy Bird |
-| Wingdramon | Sky Dragon |
-| Wormmon | Larva |
-| Zubaeagermon | Weapon |
-| Zubamon | Weapon |
+None.

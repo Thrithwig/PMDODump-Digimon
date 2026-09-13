@@ -108,13 +108,49 @@ def native_skill(entry, index):
 # Family types with this many members or fewer are not used for gameplay (owner decision,
 # 2026-09-13). A species whose every type is dropped keeps its source types until reassigned.
 MIN_FAMILY_MEMBERS=4
+# Wiki types folded into one family (owner decisions, 2026-09-13). Applied before the
+# small-family rule; a species keeps one entry per resulting family, in wiki order.
+FAMILY_MERGES={
+    # Dragons
+    'Holy Dragon':'Dragon','Dark Dragon':'Dragon','Ancient Dragon':'Dragon','Ancient Dragonkin':'Dragon',
+    'Mythical Dragon':'Dragon','Earth Dragon':'Dragon','Evil Dragon':'Dragon','Sky Dragon':'Dragon',
+    'Light Dragon':'Dragon','Machine Dragon':'Dragon','Dragon Warrior':'Dragon',
+    'Beast Dragon':'Dragonling','Mini Dragon':'Dragonling',
+    # Birds
+    'Avian':'Bird','Giant Bird':'Bird','Holy Bird':'Bird','Mysterious Bird':'Bird','Birdkin':'Bird',
+    # Elements
+    'Fire':'Elemental','Flame':'Elemental','Ice-Snow':'Elemental','Icy':'Elemental','Rock':'Elemental','Mineral':'Elemental',
+    # Fae
+    'Pixie':'Fairy',
+    # Arms
+    'Weapon':'Warrior','Holy Sword':'Warrior','Beast Knight':'Warrior','Dark Knight':'Warrior','Dark Warrior':'Warrior',
+    # Dark
+    'Fallen Angel':'Evil',
+    # Beasts
+    'Holy Beast':'Spiritual Beast','Mysterious Beast':'Spiritual Beast',
+    'Mythical Animal':'Mythical Beast','Ancient Animal':'Mythical Beast',
+    'Dinosaur':'Reptile',
+    'Mammal':'Beast',
+    # Sea and small life
+    'Ancient Fish':'Sea Animal','Crustacean':'Mollusk','Slime':'Mollusk','Larva':'Insectoid',
+    # Oddities
+    'Alien':'Mutant','Abnormal':'Mutant',
+    'Unique':'Unidentified','Perfect':'Unidentified','Invader':'Unidentified',
+}
 
 
 def family_assignments(type_catalog):
     """Per-species family lists after the small-family rule: (assignments, removed types, orphan ids)."""
-    raw={entry['id']:family_type_list(entry) for entry in type_catalog}
+    raw={}
+    for entry in type_catalog:
+        merged=[]
+        for t in family_type_list(entry):
+            t=FAMILY_MERGES.get(t,t)
+            if t not in merged: merged.append(t)
+        raw[entry['id']]=merged
     counts=collections.Counter(t for types in raw.values() for t in types)
     removed={t for t,n in counts.items() if n<MIN_FAMILY_MEMBERS}
+    raw['vademon']=raw['vademon']+[t for t in ['Unidentified'] if t not in raw['vademon']]
     assignments,orphans={},[]
     for species_id,types in raw.items():
         kept=[t for t in types if t not in removed]
