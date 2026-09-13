@@ -1,5 +1,5 @@
 """Build the scoped Phase 1 engine assets from source data and explicit adaptations."""
-import argparse
+import argparse, collections
 import copy
 import json
 from pathlib import Path
@@ -105,6 +105,24 @@ def native_skill(entry, index):
         'template':template,'runtime_description':description,'source_description':source['Description']}
 
 
+# Family types with this many members or fewer are not used for gameplay (owner decision,
+# 2026-09-13). A species whose every type is dropped keeps its source types until reassigned.
+MIN_FAMILY_MEMBERS=4
+
+
+def family_assignments(type_catalog):
+    """Per-species family lists after the small-family rule: (assignments, removed types, orphan ids)."""
+    raw={entry['id']:family_type_list(entry) for entry in type_catalog}
+    counts=collections.Counter(t for types in raw.values() for t in types)
+    removed={t for t,n in counts.items() if n<MIN_FAMILY_MEMBERS}
+    assignments,orphans={},[]
+    for species_id,types in raw.items():
+        kept=[t for t in types if t not in removed]
+        if not kept: orphans.append(species_id); kept=types
+        assignments[species_id]=kept
+    return assignments,removed,orphans
+
+
 def family_type_list(entry):
     """All physical types from the sourced catalog, in wiki order, without placeholders."""
     types=[t for t in entry.get('source_types',[]) if t and t.strip() and t!='NO DATA']
@@ -120,7 +138,7 @@ def main():
     source={x['id']:x for x in manifest['digimon']}
     type_catalog=read(DATA/'digimon_family_types.json')['family_types']
     # Every listed Digimon Wiki physical type is kept; placeholders are dropped.
-    family_types={entry['id']:family_type_list(entry) for entry in type_catalog}
+    family_types,_,_=family_assignments(type_catalog)
     if set(family_types) != set(source):
         raise ValueError('Digimon type catalog must cover exactly the imported manifest species')
     base_growth=read(ASSETS/'Data/GrowthGroup/medium_fast.json')

@@ -17,6 +17,9 @@ class PassiveCatalogTests(unittest.TestCase):
         cls.rows=read(ROOT/'DataAsset/Digimon/passive_abilities.json')['abilities']
         cls.source={e['id']:e for e in read(ROOT/'DataAsset/Monster/digimon_manifest.json')['digimon']}
         cls.family_types={e['id']:e for e in read(ROOT/'DataAsset/Digimon/digimon_family_types.json')['family_types']}
+        import sys; sys.path.insert(0,str(ROOT/'Scripts'))
+        from digimon_runtime_assets import family_assignments
+        cls.assignments,cls.removed_families,cls.orphans=family_assignments(list(cls.family_types.values()))
 
     def test_complete_unique_native_effects_and_unchanged_attributes(self):
         self.assertEqual(len(self.rows),341)
@@ -38,7 +41,7 @@ class PassiveCatalogTests(unittest.TestCase):
                 self.assertEqual((form['Intrinsic2'],form['Intrinsic3']),('none','none'))
                 self.assertEqual(form['Element1'],ELEMENTS[row['attribute']])
                 self.assertEqual(form['DigimonAttribute'],row['type'])
-                expected=[t for t in self.family_types[row['species']]['source_types'] if t and t!='NO DATA']
+                expected=self.assignments[row['species']]
                 self.assertEqual(form['Family_Types'],expected)
                 self.assertTrue(form['Family_Types'] and 'Family_Type' not in form)
             self.assertNotIn('Own ',row['description'])
