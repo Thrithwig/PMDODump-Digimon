@@ -46,6 +46,7 @@
     <Compile Include="GenPath.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="DigimonRuntimeChecks.cs" />
+    <Compile Include="DigimonFamilyItems.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

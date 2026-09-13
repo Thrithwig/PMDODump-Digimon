@@ -32,7 +32,7 @@ The original user-supplied item files are copied into `DataAsset/Digimon/Source`
 - Consumables otherwise use explicitly described dungeon quantities/ranges. PP recovery is the dungeon analogue of SP. Equipment and buffs retain native percentage/stage effects rather than claiming source fixed-stat effects. Training foods remain usable before the farm minigame. Cure items remove dungeon bad statuses but do not yet add the source's 100 HP healing.
 - Attachment Skills are now 138 single-use TMs, selected strictly from CSV `Inheritable = Yes`. Every Digimon can learn every common TM. There are no character-identity, prior-learning reward or first-acquisition checks. The normal learn/replace/cancel menu remains. Native successful-use consumption removes the disc; cancelling keeps it. Signature skills (`Inheritable = No`) receive no TMs.
 - Nifty Boxes, the original PMDO TM chest category, now roll the complete common-skill pool. All 13 existing Nifty Box spawners are populated, including those in Tiny Tunnel. Chest placement and drop frequency remain those of the original dungeons.
-- Exclusive items should begin as reusable lineage memories keyed to broad families such as Greymon, Garurumon, Angel, Machine and Insect. This keeps equipment useful across a line without creating thousands of species-locked records. Stage-changing crests and achievement chips are reasonable later variants.
+- Exclusive items are keyed to the Digimon Wiki family types rather than evolution lines; see `DIGIMON_FAMILY_ITEMS.md`. The earlier lineage-memory idea is superseded.
 
 ## Early playable zones
 

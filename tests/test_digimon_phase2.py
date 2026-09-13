@@ -82,7 +82,7 @@ class FullRosterTests(unittest.TestCase):
         ids=[r['item_id'] for r in mapped+unmatched]
         self.assertEqual(len(ids),len(set(ids)))
         generated={r['item'] for r in read(DATA/'attachment_skills.json')['skills']}
-        self.assertEqual(set(ids)|generated,{p.stem for p in (ROOT/'DumpAsset/Data/Item').glob('*.json') if not p.stem.startswith('digi_brave_point_')})
+        self.assertEqual(set(ids)|generated,{p.stem for p in (ROOT/'DumpAsset/Data/Item').glob('*.json') if not p.stem.startswith(('digi_brave_point_','digixcl_'))})
         for row in mapped:
             native=read(ROOT/('DumpAsset/Data/Item/'+row['item_id']+'.json'))['Object']
             self.assertEqual(native['Name']['DefaultText'],row['cyber_sleuth_item'])

@@ -30,6 +30,7 @@ namespace DataGenerator
             PathMod.InitPathMod(args[0]);
 
             bool digimonCheck = false;
+            string digimonItems = null;
             string digimonSpriteCheck = null;
             bool loadStrings = false;
             bool itemPrep = false;
@@ -66,6 +67,8 @@ namespace DataGenerator
                         printWiki = true;
                     else if (args[ii] == "-digimon-check")
                         digimonCheck = true;
+                    else if (args[ii] == "-digimon-items")
+                        digimonItems = Path.GetFullPath(args[++ii]);
                     else if (args[ii] == "-digimon-sprite-check")
                         digimonSpriteCheck = Path.GetFullPath(args[++ii]);
                     else if (args[ii] == "-index")
@@ -223,6 +226,23 @@ namespace DataGenerator
                             }
                             if (count == 0) throw new InvalidDataException("No sprite packages found.");
                             Console.WriteLine("Imported and binary-round-tripped " + count + " Digimon sprite packages.");
+                        }
+                    }
+                    catch (Exception error) { Console.Error.WriteLine(error); Environment.ExitCode = 1; }
+                    return;
+                }
+
+                if (digimonItems != null)
+                {
+                    try
+                    {
+                        using (GameBase game = new GameBase())
+                        {
+                            GraphicsManager.SetWindowMode(1);
+                            GraphicsManager.InitSystem(game.GraphicsDevice);
+                            GameManager.InitInstance();
+                            GameManager.Instance.CurrentScene = new DigimonRuntimeChecks.CheckScene();
+                            DigimonFamilyItems.Run(digimonItems);
                         }
                     }
                     catch (Exception error) { Console.Error.WriteLine(error); Environment.ExitCode = 1; }

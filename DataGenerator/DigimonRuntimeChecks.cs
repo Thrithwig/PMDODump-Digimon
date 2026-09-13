@@ -47,6 +47,7 @@ namespace DataGenerator
             }
             Require(DigimonExperience.Award(1, 1, 1, "digi_ultimate") == 0, "Fractional EXP must round down");
             int forms = 0;
+            int familyBoxes = 0;
             int starterForms = 0;
             var syncPassive = (NLua.LuaFunction)LuaEngine.Instance.RunString("return require('origin.digimon.passive_abilities').sync")[0];
             foreach (string path in Directory.GetFiles(PathMod.ModPath("Data/Monster/"), "*.json"))
@@ -264,6 +265,8 @@ end")[0];
                             var itemData = DataManager.Instance.GetItem(item.Value);
                             if (itemData.UsageType == ItemData.UseType.Box)
                                 Check(!String.IsNullOrEmpty(item.HiddenValue), location + ": empty reward box " + item.Value);
+                            if (itemData.UsageType == ItemData.UseType.Box && item.HiddenValue.StartsWith(DigimonFamilyItems.Prefix))
+                                familyBoxes++;
                         }
                         Check(map.EntryPoints.Count > 0, zoneId + " segment " + segment + " floor " + floor + ": map generation fell back or has no entry");
                         for (int x = 0; x < map.Width; x++)
@@ -293,7 +296,8 @@ end")[0];
                 }
             }
             Require(dungeonIssues.Count == 0, string.Join("\n", dungeonIssues));
-            Console.WriteLine("Digimon runtime checks passed: " + forms + " forms; " + convertedItems + " converted items; " + earlyZones.Length + " released zones and " + floorCount + " seeded floors; character save round trips.");
+            Require(familyBoxes > 0, "No seeded treasure box held a Digimon family item");
+            Console.WriteLine("Digimon runtime checks passed: " + forms + " forms; " + convertedItems + " converted items; " + earlyZones.Length + " released zones and " + floorCount + " seeded floors; " + familyBoxes + " treasure boxes holding family items; character save round trips.");
         }
     }
 }

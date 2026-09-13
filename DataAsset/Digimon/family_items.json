@@ -1,0 +1,341 @@
+{
+  "schema_version": 1,
+  "notes": [
+    "Family-exclusive items for the Digimon conversion. One row per item; families are the kept types in docs/DIGIMON_FAMILY_TYPES.md.",
+    "tier 1 = one star (treasure boxes, rarity 1), tier 2 = two stars (deeper boxes, rarity 2), tier 3 = three stars (swap shop only, rarity 3).",
+    "effect names are PMDO ExclusiveItemEffect values; parameters use PMDO element, status, stat, category and map status ids.",
+    "Digimon elements map to PMDO types: Neutral=normal, Fire=fire, Water=water, Plant=grass, Electric=electric, Earth=ground, Wind=flying, Light=fairy, Dark=dark."
+  ],
+  "families": [
+    {
+      "family": "Cyborg",
+      "theme": "Armoured augmentations on Electric and Fire bodies; balanced and durable, the biggest family.",
+      "items": [
+        { "tier": 1, "name": "Surge Guard", "effect": "StatusImmune", "status": "paralyze" },
+        { "tier": 1, "name": "Optic Sight", "effect": "GapProber" },
+        { "tier": 2, "name": "Grounding Spike", "effect": "WeaknessReduce", "element": "ground" },
+        { "tier": 2, "name": "Reactive Armor", "effect": "SpikeDropper", "category": "Physical" },
+        { "tier": 3, "name": "Full Burst Array", "effect": "ExplosiveAttack" }
+      ]
+    },
+    {
+      "family": "Dragon",
+      "theme": "Fire-breathing bruisers with the highest HP and Attack; slow to hit, brutal when they do.",
+      "items": [
+        { "tier": 1, "name": "Ember Whisker", "effect": "NVECrit" },
+        { "tier": 1, "name": "Drake Claw", "effect": "PracticeSwinger" },
+        { "tier": 2, "name": "Wyrm Crest", "effect": "SuperCrit" },
+        { "tier": 2, "name": "Furnace Heart", "effect": "StatusOnAttack", "status": "burn", "quantity": 35 },
+        { "tier": 3, "name": "Rampart Breaker", "effect": "Wallbreaker" }
+      ]
+    },
+    {
+      "family": "Warrior",
+      "theme": "Sword and fist fighters; fast physical attackers built around the regular attack.",
+      "items": [
+        { "tier": 1, "name": "Resolute Gauntlet", "effect": "StatDropImmune", "stat": "Attack" },
+        { "tier": 1, "name": "Iron Greaves", "effect": "Anchor" },
+        { "tier": 2, "name": "Twin Edge", "effect": "DoubleAttacker" },
+        { "tier": 2, "name": "Blitz Bandana", "effect": "LungeAttack" },
+        { "tier": 3, "name": "Champion's Standard", "effect": "BetterOdds" }
+      ]
+    },
+    {
+      "family": "Holy Warrior",
+      "theme": "Royal Knights and their kin; Light-aligned, strong in every stat, protectors of the party.",
+      "items": [
+        { "tier": 1, "name": "Knight's Oath", "effect": "Nontraitor" },
+        { "tier": 1, "name": "Vigil Lantern", "effect": "DeepBreather" },
+        { "tier": 2, "name": "Paladin's Plate", "effect": "WeaknessReduce", "element": "dark" },
+        { "tier": 2, "name": "Aegis Mantle", "effect": "TypeBodyguard", "element": "dark" },
+        { "tier": 3, "name": "Grail of Valor", "effect": "AllyReviverBattle" }
+      ]
+    },
+    {
+      "family": "Android",
+      "theme": "Electric machines with the best Defense in the game; they hold ground and shoot.",
+      "items": [
+        { "tier": 1, "name": "Alloy Casing", "effect": "StatDropImmune", "stat": "Defense" },
+        { "tier": 1, "name": "Coolant Line", "effect": "SelfCurer" },
+        { "tier": 2, "name": "Gyro Stabilizer", "effect": "ExplosionGuard" },
+        { "tier": 2, "name": "Pulse Emitter", "effect": "TypeBulldozer", "element": "electric", "target_element": "ground" },
+        { "tier": 3, "name": "Bastion Frame", "effect": "CounterBasher" }
+      ]
+    },
+    {
+      "family": "Animal",
+      "theme": "Earthy scouts and hunters; fragile but quick, at home reading the dungeon.",
+      "items": [
+        { "tier": 1, "name": "Keen Nose", "effect": "AcuteSniffer" },
+        { "tier": 1, "name": "Digging Claws", "effect": "TrapBuster" },
+        { "tier": 2, "name": "Trail Collar", "effect": "StairSensor" },
+        { "tier": 2, "name": "Pounce Pads", "effect": "HitAndRun" },
+        { "tier": 3, "name": "Wild Instinct", "effect": "ClutchPerformer" }
+      ]
+    },
+    {
+      "family": "Spiritual Beast",
+      "theme": "Holy and dark beasts, cats and fox spirits; Dark-leaning special attackers with tricks.",
+      "items": [
+        { "tier": 1, "name": "Moon Bell", "effect": "SleepWalker" },
+        { "tier": 1, "name": "Spirit Charm", "effect": "StatusImmune", "status": "confuse" },
+        { "tier": 2, "name": "Twilight Veil", "effect": "StatusMirror" },
+        { "tier": 2, "name": "Ninefold Tail", "effect": "ChanceStatusOnTypeHit", "element": "dark", "status": "confuse", "quantity": 25 },
+        { "tier": 3, "name": "Beckoning Mirror", "effect": "WarpPayback", "element": "fairy" }
+      ]
+    },
+    {
+      "family": "Reptile",
+      "theme": "Agumon, Greymon and the dinosaurs; Fire physical hitters that lead with the jaw.",
+      "items": [
+        { "tier": 1, "name": "Sun Basker", "effect": "HealInLava" },
+        { "tier": 1, "name": "Tail Sweep", "effect": "WideAttack" },
+        { "tier": 2, "name": "Nova Tooth", "effect": "ChanceStatusOnTypeHit", "element": "fire", "status": "burn", "quantity": 25 },
+        { "tier": 2, "name": "Greymon Helm", "effect": "KnockbackOnAttack" },
+        { "tier": 3, "name": "Courage Crest", "effect": "SecondSTAB", "element": "fire" }
+      ]
+    },
+    {
+      "family": "Beast",
+      "theme": "Rookie-stage pups and cubs; low stats, so their treasures feed growth and the whole pack.",
+      "items": [
+        { "tier": 1, "name": "Foraging Pouch", "effect": "CheekPouch" },
+        { "tier": 1, "name": "Scent Ribbon", "effect": "CoinWatcher" },
+        { "tier": 2, "name": "Rookie's Pluck", "effect": "PPBoost", "quantity": 3 },
+        { "tier": 2, "name": "Springy Fur", "effect": "StatDropImmune", "stat": "Speed" },
+        { "tier": 3, "name": "Pack Whistle", "effect": "StatusSplash" }
+      ]
+    },
+    {
+      "family": "Insectoid",
+      "theme": "Plant-aligned bugs; armoured, venomous, and good at finding what the dungeon hides.",
+      "items": [
+        { "tier": 1, "name": "Venom Gland", "effect": "StatusImmune", "status": "poison" },
+        { "tier": 1, "name": "Antenna Band", "effect": "AcuteSniffer" },
+        { "tier": 2, "name": "Stinger", "effect": "StatusOnAttack", "status": "poison", "quantity": 35 },
+        { "tier": 2, "name": "Swarm Wings", "effect": "DistanceDodge" },
+        { "tier": 3, "name": "Silk Spinner", "effect": "GapFiller" }
+      ]
+    },
+    {
+      "family": "Mutant",
+      "theme": "Oddities like Numemon and Vademon; tough, strange, and unpredictable to fight.",
+      "items": [
+        { "tier": 1, "name": "Sludge Skin", "effect": "ErraticDefender" },
+        { "tier": 2, "name": "Adaptive Gene", "effect": "StatMirror" },
+        { "tier": 2, "name": "Toxic Spore", "effect": "ChanceStatusOnCategoryHit", "status": "poison", "category": "Physical", "quantity": 25 },
+        { "tier": 3, "name": "Regenerating Ooze", "effect": "FastHealer" }
+      ]
+    },
+    {
+      "family": "Unidentified",
+      "theme": "Chaosmon, Digitamamon and other anomalies; Dark, fast, and hard to pin down.",
+      "items": [
+        { "tier": 1, "name": "Glitch Ribbon", "effect": "ErraticAttacker" },
+        { "tier": 2, "name": "Egg Shell", "effect": "BarrageGuard" },
+        { "tier": 2, "name": "Corrupted Sigil", "effect": "ChanceStatusOnTypeHit", "element": "dark", "status": "blinker", "quantity": 25 },
+        { "tier": 3, "name": "Chaos Lens", "effect": "XRay" }
+      ]
+    },
+    {
+      "family": "Beastkin",
+      "theme": "Leomon and the beast-men; proud melee fighters who press the advantage.",
+      "items": [
+        { "tier": 1, "name": "Fang Necklace", "effect": "SureHitAttacker" },
+        { "tier": 2, "name": "Sprinter's Anklet", "effect": "StatOnCategoryUse", "status": "mod_speed", "category": "Physical", "quantity": 25 },
+        { "tier": 2, "name": "Roaring Mane", "effect": "PressurePlus" },
+        { "tier": 3, "name": "King's Mane", "effect": "Celebrate" }
+      ]
+    },
+    {
+      "family": "Wizard",
+      "theme": "Wizardmon and the spellcasters; the highest special attack, Dark-leaning.",
+      "items": [
+        { "tier": 1, "name": "Apprentice Hat", "effect": "SpecialAttacker" },
+        { "tier": 2, "name": "Grimoire", "effect": "PPBoost", "quantity": 5 },
+        { "tier": 2, "name": "Hex Charm", "effect": "ChanceStatusOnCategoryHit", "status": "confuse", "category": "Magical", "quantity": 25 },
+        { "tier": 3, "name": "Nightmare Tome", "effect": "SecondSTAB", "element": "dark" }
+      ]
+    },
+    {
+      "family": "Evil",
+      "theme": "Devimon and the fallen angels; Dark attackers that punish and spread misery.",
+      "items": [
+        { "tier": 1, "name": "Wicked Grin", "effect": "ChanceStatusOnTypeHit", "element": "dark", "status": "flinch", "quantity": 25 },
+        { "tier": 2, "name": "Vengeful Pact", "effect": "WeaknessPayback", "element": "fairy", "status": "cursed" },
+        { "tier": 2, "name": "Shadow Cloak", "effect": "CloseDodge" },
+        { "tier": 3, "name": "Carnage Talon", "effect": "ExcessiveForce" }
+      ]
+    },
+    {
+      "family": "Dragonkin",
+      "theme": "Veemon, Guilmon and the dragon-men; Fire, fast, and always charging in.",
+      "items": [
+        { "tier": 1, "name": "Spark Bracer", "effect": "ChanceStatOnTypeHit", "element": "fire", "status": "mod_defense", "quantity": 25 },
+        { "tier": 2, "name": "Dragon Drive", "effect": "DoubleDash" },
+        { "tier": 2, "name": "Rush Scarf", "effect": "ChargeWalker" },
+        { "tier": 3, "name": "Imperial Emblem", "effect": "TypedAttack" }
+      ]
+    },
+    {
+      "family": "Puppet",
+      "theme": "Monzaemon, Puppetmon and the toys; Light-touched special attackers who pull strings.",
+      "items": [
+        { "tier": 1, "name": "Toy Bell", "effect": "ShopFinder" },
+        { "tier": 2, "name": "Marionette String", "effect": "ThrowOnAttack" },
+        { "tier": 2, "name": "Cotton Stuffing", "effect": "Gratitude" },
+        { "tier": 3, "name": "Puppet Strings", "effect": "StatusOnAttack", "status": "immobilized", "quantity": 35 }
+      ]
+    },
+    {
+      "family": "Angel",
+      "theme": "Angemon's line; Light healers and blasters with the best magic in the game.",
+      "items": [
+        { "tier": 1, "name": "Vigilant Feather", "effect": "StatusImmune", "status": "sleep" },
+        { "tier": 2, "name": "Halo Ring", "effect": "RoyalVeil" },
+        { "tier": 2, "name": "Judgment Bell", "effect": "ChanceStatusOnTypeHit", "element": "fairy", "status": "paralyze", "quantity": 25 },
+        { "tier": 3, "name": "Grace of Heaven", "effect": "AllyReviver" }
+      ]
+    },
+    {
+      "family": "Sea Animal",
+      "theme": "Seadramon, Gomamon and the ocean dwellers; Water special attackers, slow on land.",
+      "items": [
+        { "tier": 1, "name": "Fin Guard", "effect": "WaterTerrain" },
+        { "tier": 2, "name": "Harpoon Tooth", "effect": "MasterHurler" },
+        { "tier": 2, "name": "Kelp Wrap", "effect": "ChanceStatusOnTypeHit", "element": "water", "status": "immobilized", "quantity": 25 },
+        { "tier": 3, "name": "Leviathan Pearl", "effect": "SecondSTAB", "element": "water" }
+      ]
+    },
+    {
+      "family": "Mollusk",
+      "theme": "Shellmon, Numemon and the slimes; slow, shelled, and fond of treasure.",
+      "items": [
+        { "tier": 1, "name": "Mucus Coat", "effect": "StatusImmune", "status": "burn" },
+        { "tier": 2, "name": "Hard Shell", "effect": "EndureCategory", "category": "Physical" },
+        { "tier": 2, "name": "Pearl Lure", "effect": "ChestFinder" },
+        { "tier": 3, "name": "Cannon Shell", "effect": "ProjectileAttack" }
+      ]
+    },
+    {
+      "family": "Lesser",
+      "theme": "The In-Training babies; tiny stats, so their treasures keep them alive and bouncing.",
+      "items": [
+        { "tier": 1, "name": "Bubble Wrap", "effect": "ExplosionGuard" },
+        { "tier": 2, "name": "Bouncy Ball", "effect": "MisfortuneMirror" },
+        { "tier": 2, "name": "Foam Spray", "effect": "ChanceStatusOnCategoryHit", "status": "blinker", "category": "Physical", "quantity": 25 },
+        { "tier": 3, "name": "Cradle Blanket", "effect": "HealOnNewFloor" }
+      ]
+    },
+    {
+      "family": "Machine",
+      "theme": "Hagurumon, Guardromon and the gear-driven; Electric, armoured, and relentless.",
+      "items": [
+        { "tier": 1, "name": "Gear Cog", "effect": "PPSaver", "quantity": 2 },
+        { "tier": 2, "name": "Static Coil", "effect": "ChanceStatusOnTypeHit", "element": "electric", "status": "paralyze", "quantity": 25 },
+        { "tier": 2, "name": "Crawler Treads", "effect": "AllTerrain", "quantity": 2 },
+        { "tier": 3, "name": "Faraday Frame", "effect": "TypeGroupWeaknessReduce", "element": "electric", "target_element": "ground" }
+      ]
+    },
+    {
+      "family": "Dragonling",
+      "theme": "Young and small dragons; all Attack and appetite, still growing into their scales.",
+      "items": [
+        { "tier": 1, "name": "Nipping Fang", "effect": "DoubleAttacker" },
+        { "tier": 2, "name": "Growth Charm", "effect": "StatOnCategoryUse", "status": "mod_attack", "category": "Physical", "quantity": 25 },
+        { "tier": 2, "name": "Hot Breath", "effect": "ChanceStatusOnCategoryHit", "status": "burn", "category": "Physical", "quantity": 25 },
+        { "tier": 3, "name": "Ember Scale", "effect": "WeaknessReduce", "element": "water" }
+      ]
+    },
+    {
+      "family": "Bird",
+      "theme": "Wind fliers; fast special attackers that ride the weather.",
+      "items": [
+        { "tier": 1, "name": "Wind Vane", "effect": "AttackRangeInWeather", "map_status": "wind" },
+        { "tier": 2, "name": "Gale Talon", "effect": "ChanceStatOnTypeHit", "element": "flying", "status": "mod_speed", "quantity": 25 },
+        { "tier": 3, "name": "Stormcaller Plume", "effect": "SecondSTAB", "element": "flying" }
+      ]
+    },
+    {
+      "family": "Demon Lord",
+      "theme": "The Seven Great Demon Lords; Dark Megas strong in everything and proud of it.",
+      "items": [
+        { "tier": 1, "name": "Pride Ring", "effect": "StatDropImmune", "stat": "MAtk" },
+        { "tier": 2, "name": "Gluttony Fang", "effect": "Absorption" },
+        { "tier": 3, "name": "Crown of Seven Sins", "effect": "WeaknessReduce", "element": "fairy" }
+      ]
+    },
+    {
+      "family": "Elemental",
+      "theme": "Meramon, Frigimon and Gotsumon; living fire, ice and stone, slow and solid.",
+      "items": [
+        { "tier": 1, "name": "Core Shard", "effect": "LavaTerrain" },
+        { "tier": 2, "name": "Elemental Prism", "effect": "ErraticAttacker" },
+        { "tier": 3, "name": "Molten Heart", "effect": "StatusOnCategoryHit", "status": "burn", "category": "Physical" }
+      ]
+    },
+    {
+      "family": "Vegetation",
+      "theme": "Palmon, Togemon and the plants; rooted, hardy, and spore-scattering.",
+      "items": [
+        { "tier": 1, "name": "Rooting Sandals", "effect": "Anchor" },
+        { "tier": 2, "name": "Pollen Puff", "effect": "ChanceStatusOnTypeHit", "element": "grass", "status": "sleep", "quantity": 25 },
+        { "tier": 3, "name": "Verdant Crown", "effect": "MapStatusOnCategoryUse", "category": "Status", "map_status": "grassy_terrain" }
+      ]
+    },
+    {
+      "family": "Shaman",
+      "theme": "Masked Megas who call weather and spirits; superb special stats and speed.",
+      "items": [
+        { "tier": 1, "name": "Spirit Beads", "effect": "DeepBreatherPlus" },
+        { "tier": 2, "name": "Rain Dance Rattle", "effect": "MapStatusOnCategoryUse", "category": "Status", "map_status": "rain" },
+        { "tier": 3, "name": "Spirit Gate", "effect": "MapSurveyor" }
+      ]
+    },
+    {
+      "family": "Mythical Beast",
+      "theme": "Airdramon, Pegasusmon and SaberLeomon; Wind-riding beasts of legend, swift above all.",
+      "items": [
+        { "tier": 1, "name": "Cloud Hoof", "effect": "WeatherProtection" },
+        { "tier": 2, "name": "Zephyr Mane", "effect": "TypeSpeedBoost", "element": "flying" },
+        { "tier": 3, "name": "Storm Horn", "effect": "WeaknessReduce", "element": "electric" }
+      ]
+    },
+    {
+      "family": "Undead",
+      "theme": "SkullGreymon, Bakemon and the risen; Dark bruisers that refuse to stay down.",
+      "items": [
+        { "tier": 1, "name": "Cursed Ash", "effect": "ChanceStatusOnTypeHit", "element": "dark", "status": "cursed", "quantity": 25 },
+        { "tier": 2, "name": "Bone Armor", "effect": "EndureType", "element": "fairy" },
+        { "tier": 3, "name": "Deathly Lullaby", "effect": "WeaknessPayback", "element": "fairy", "status": "sleep" }
+      ]
+    },
+    {
+      "family": "Fairy",
+      "theme": "Lillymon, Rosemon and the pixies; Plant-aligned casters with the finest magic.",
+      "items": [
+        { "tier": 1, "name": "Fae Ribbon", "effect": "SpecialAttacker" },
+        { "tier": 2, "name": "Rose Whip", "effect": "ChanceStatOnTypeHit", "element": "grass", "status": "mod_defense", "quantity": 25 },
+        { "tier": 3, "name": "Blossom Tiara", "effect": "TypeStatBonus", "element": "grass", "stat": "MAtk" }
+      ]
+    },
+    {
+      "family": "Ghost",
+      "theme": "Bakemon, Phantomon and the haunts; Dark specialists that pass through and bind.",
+      "items": [
+        { "tier": 1, "name": "Wisp Lantern", "effect": "PassThroughAttacker" },
+        { "tier": 2, "name": "Spectral Chain", "effect": "ChanceStatusOnTypeHit", "element": "dark", "status": "immobilized", "quantity": 25 },
+        { "tier": 3, "name": "Veil of the Departed", "effect": "WeaknessDodge", "element": "fairy" }
+      ]
+    },
+    {
+      "family": "Aquatic",
+      "theme": "Whamon, MarineAngemon and the deep-sea; Water casters that heal in their element.",
+      "items": [
+        { "tier": 1, "name": "Coral Charm", "effect": "HealInWater" },
+        { "tier": 2, "name": "Bubble Pearl", "effect": "StatusOnCategoryUse", "status": "aqua_ring", "category": "Magical" },
+        { "tier": 3, "name": "Abyssal Pearl", "effect": "WeaknessReduce", "element": "grass" }
+      ]
+    }
+  ]
+}
