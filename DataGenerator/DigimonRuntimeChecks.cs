@@ -58,6 +58,8 @@ namespace DataGenerator
                 Require(DataManager.Instance.GetGrowth(monster.EXPTable).GetExpToNext(5) > 0, id + ": missing stage EXP curve");
                 Require(form.LevelStats.Count == 99, id + ": missing level curve");
                 Require(form.SummaryAttribute == "Virus" || form.SummaryAttribute == "Vaccine" || form.SummaryAttribute == "Data" || form.SummaryAttribute == "Free", id + ": missing Digimon attribute");
+                Require(form.Family_Types != null && form.Family_Types.Count > 0 && form.Family_Types.TrueForAll(t => !String.IsNullOrWhiteSpace(t) && t != "NO DATA")
+                    && form.Family_Types.Count == new HashSet<string>(form.Family_Types).Count, id + ": missing or invalid Digimon family types");
                 Require(!String.IsNullOrWhiteSpace(form.SummaryFamilyType), id + ": missing Digimon family type");
                 Require(File.Exists(PathMod.ModPath("Content/StaticCreature/" + monster.IndexNum + ".png")), id + ": missing static art");
                 for (int level = 1; level <= 99; level++)

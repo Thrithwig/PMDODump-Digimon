@@ -38,8 +38,9 @@ class PassiveCatalogTests(unittest.TestCase):
                 self.assertEqual((form['Intrinsic2'],form['Intrinsic3']),('none','none'))
                 self.assertEqual(form['Element1'],ELEMENTS[row['attribute']])
                 self.assertEqual(form['DigimonAttribute'],row['type'])
-                self.assertEqual(form['Family_Type'],self.family_types[row['species']]['Family_Type'])
-                self.assertTrue(form['Family_Type'])
+                expected=[t for t in self.family_types[row['species']]['source_types'] if t and t!='NO DATA']
+                self.assertEqual(form['Family_Types'],expected)
+                self.assertTrue(form['Family_Types'] and 'Family_Type' not in form)
             self.assertNotIn('Own ',row['description'])
         self.assertEqual(len(signatures),341,'Different names must not hide duplicate native effects')
 

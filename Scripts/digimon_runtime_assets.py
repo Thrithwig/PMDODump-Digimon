@@ -105,6 +105,13 @@ def native_skill(entry, index):
         'template':template,'runtime_description':description,'source_description':source['Description']}
 
 
+def family_type_list(entry):
+    """All physical types from the sourced catalog, in wiki order, without placeholders."""
+    types=[t for t in entry.get('source_types',[]) if t and t.strip() and t!='NO DATA']
+    if not types: raise ValueError('No Digimon family type for '+entry['id'])
+    return types
+
+
 def main():
     parser=argparse.ArgumentParser();parser.add_argument('--phase2',action='store_true');args=parser.parse_args()
     phase='phase2' if args.phase2 else 'phase1'
@@ -112,7 +119,8 @@ def main():
     curves={x['id']:x for x in gameplay['species']}
     source={x['id']:x for x in manifest['digimon']}
     type_catalog=read(DATA/'digimon_family_types.json')['family_types']
-    family_types={entry['id']:entry['Family_Type'] for entry in type_catalog}
+    # Every listed Digimon Wiki physical type is kept; placeholders are dropped.
+    family_types={entry['id']:family_type_list(entry) for entry in type_catalog}
     if set(family_types) != set(source):
         raise ValueError('Digimon type catalog must cover exactly the imported manifest species')
     base_growth=read(ASSETS/'Data/GrowthGroup/medium_fast.json')
@@ -146,7 +154,7 @@ def main():
                      'FormName':{'DefaultText':entry['name'],'LocalTexts':{}},'Temporary':False,
                      'Element1':ELEMENTS[entry['attribute']],'Element2':'none',
                      'DigimonAttribute':entry['type'],
-                     'Family_Type':family_types[species_id],
+                     'Family_Types':family_types[species_id],
                      'Intrinsic1':'none','Intrinsic2':'none','Intrinsic3':'none',
                      'LevelSkills':[{'Level':int(s['level'] or 1),'Skill':'digi_'+s['skill']} for s in entry['skills']],
                      'LevelStats':[[row['stats'][key] for key in ('max_hp','attack','defense','magic_attack','magic_defense','speed')]
@@ -158,7 +166,7 @@ def main():
         transparent_art=DATA/f'SpritePackages/Sources/{species_id}.png'
         shutil.copyfile(transparent_art if transparent_art.exists() else DATA/f'Images/{species_id}.png',art/f'{number}.png')
         runtime['species'][species_id]={'name':entry['name'],'stage':entry['stage'],
-            'element':entry['attribute'],'attribute':entry['type'],'family_type':family_types[species_id],
+            'element':entry['attribute'],'attribute':entry['type'],'family_types':family_types[species_id],
             'sp':[row['stats']['source_sp'] for row in curves[species_id]['stats_by_level']],
             'skills':form['LevelSkills']}
     if args.phase2:
