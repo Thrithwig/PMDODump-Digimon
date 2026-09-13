@@ -57,6 +57,7 @@ namespace DataGenerator
                 forms++;
                 Require(DataManager.Instance.GetGrowth(monster.EXPTable).GetExpToNext(5) > 0, id + ": missing stage EXP curve");
                 Require(form.LevelStats.Count == 99, id + ": missing level curve");
+                Require(form.SummaryAttribute == "Virus" || form.SummaryAttribute == "Vaccine" || form.SummaryAttribute == "Data" || form.SummaryAttribute == "Free", id + ": missing Digimon attribute");
                 Require(File.Exists(PathMod.ModPath("Content/StaticCreature/" + monster.IndexNum + ".png")), id + ": missing static art");
                 for (int level = 1; level <= 99; level++)
                     Require(form.GetStat(level, Stat.HP, 0) > 0, id + ": invalid HP");
@@ -71,6 +72,7 @@ namespace DataGenerator
                 Require(DataManager.Instance.GetIntrinsic(form.Intrinsic1).Released, id + ": unreleased passive");
                 syncPassive.Call(character);
                 Require(character.BaseIntrinsics[0] == form.Intrinsic1, id + ": passive migration failed");
+                Require(character.FormHistory.Count == 1 && character.FormHistory[0] == character.BaseForm, id + ": form history was not initialized");
                 Require(!(bool)syncPassive.Call(character)[0], id + ": passive migration is not idempotent");
                 if (form.LevelSkills[0].Skill.StartsWith("digi_starter_"))
                 {
@@ -90,7 +92,8 @@ namespace DataGenerator
                     Serializer.SerializeData(stream, character);
                     stream.Position = 0;
                     var restored = (Character)Serializer.DeserializeData(stream);
-                    Require(restored.RewardIdentity == character.RewardIdentity && restored.BaseForm.Species == id && restored.Nickname == character.Nickname, id + ": save identity mismatch");
+                    Require(restored.RewardIdentity == character.RewardIdentity && restored.BaseForm.Species == id && restored.Nickname == character.Nickname
+                        && restored.FormHistory.Count == 1 && restored.FormHistory[0] == character.BaseForm, id + ": save identity or lineage mismatch");
                 }
             }
             Require(forms == 341, "Expected 341 Phase 2 forms, found " + forms);
@@ -156,6 +159,11 @@ return function(c)
   assert(ok, tostring(err))
 end")[0];
             retentionCheck.Call(retentionCharacter);
+            Require(retentionCharacter.FormHistory.Count == 4
+                && retentionCharacter.FormHistory[0].Species == "agumon"
+                && retentionCharacter.FormHistory[1].Species == "koromon"
+                && retentionCharacter.FormHistory[2].Species == "botamon"
+                && retentionCharacter.FormHistory[3].Species == "koromon", "Form history did not retain the chronological Digivolution path");
             retentionCharacter.SaveLua();
             using (var stream = new MemoryStream())
             {
@@ -164,6 +172,7 @@ end")[0];
                 var loaded = (Character)Serializer.DeserializeData(stream);
                 loaded.LoadLua();
                 Require(Convert.ToInt32(loaded.LuaDataTable["DigimonRetainedAtkBonus"]) == retentionCharacter.AtkBonus, "Retained stats did not survive serialization");
+                Require(loaded.FormHistory.Count == retentionCharacter.FormHistory.Count && loaded.FormHistory[3].Species == "koromon", "Form history did not survive serialization");
             }
             int attachmentCount = 0;
             foreach (string path in Directory.GetFiles(PathMod.ModPath("Data/Item/"), "digi_tm_*.json"))
@@ -246,6 +255,13 @@ end")[0];
                         foreach (var item in map.ItemSpawns.EnumerateOutcomes())
                             Check(!item.ID.StartsWith("apricorn_") && DataManager.Instance.GetItem(item.ID).Released,
                                 location + ": unavailable loot " + item.ID);
+                        foreach (var item in map.Items)
+                        {
+                            if (item.IsMoney) continue;
+                            var itemData = DataManager.Instance.GetItem(item.Value);
+                            if (itemData.UsageType == ItemData.UseType.Box)
+                                Check(!String.IsNullOrEmpty(item.HiddenValue), location + ": empty reward box " + item.Value);
+                        }
                         Check(map.EntryPoints.Count > 0, zoneId + " segment " + segment + " floor " + floor + ": map generation fell back or has no entry");
                         for (int x = 0; x < map.Width; x++)
                             for (int y = 0; y < map.Height; y++)

@@ -1,6 +1,6 @@
 local Access=require 'origin.digimon.dungeon_access'
 local Ledger=require 'origin.digimon.scan_ledger'
-local unlocked={tropical_path=true,faultline_ridge=true,trickster_woods=true}
+local unlocked={tropical_path=true,faultline_ridge=false,trickster_woods=false}
 local cleared={}
 SV={Digimon=Ledger.new(),team_kidnapped={Status=2},forest_camp={ExpositionComplete=false}}
 GAME={DungeonUnlocked=function(_,id) return unlocked[id] end,
@@ -19,11 +19,13 @@ assert(#Access.destinations({})==0) -- south exits and ferries do not gain globa
 assert(#Access.destinations({'trickster_woods'})==0)
 assert(SV.team_kidnapped.Status==2 and not SV.forest_camp.ExpositionComplete)
 cleared.tropical_path=true
+SV.Digimon.StoryMissions.records.DigimonStory_TropicalPath.debriefed=true
+SV.forest_camp.ExpositionComplete=true
 assert(#Access.destinations(base)==3)
 assert(Access.grounds({{Zone='guildmaster_island',ID=3,Entry=0,Flag=false}})[1].Flag)
-assert(not SV.forest_camp.ExpositionComplete) -- keep Forest Camp's first-visit scene
 assert(#Access.destinations({'trickster_woods'})==0)
 cleared.faultline_ridge=true
+SV.Digimon.StoryMissions.records.DigimonStory_FaultlineRidge.debriefed=true
 assert(#Access.destinations({'trickster_woods'})==1)
 assert(Access.entry_floor('training_maze')==4)
 SOUND={PlaySE=function() end,PlayBGM=function() end}

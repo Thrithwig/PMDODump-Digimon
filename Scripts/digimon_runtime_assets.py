@@ -141,6 +141,7 @@ def main():
                      'Personalities':[0],'TeachSkills':[],'SharedSkills':[],'SecretSkills':[],
                      'FormName':{'DefaultText':entry['name'],'LocalTexts':{}},'Temporary':False,
                      'Element1':ELEMENTS[entry['attribute']],'Element2':'none',
+                     'DigimonAttribute':entry['type'],
                      'Intrinsic1':'none','Intrinsic2':'none','Intrinsic3':'none',
                      'LevelSkills':[{'Level':int(s['level'] or 1),'Skill':'digi_'+s['skill']} for s in entry['skills']],
                      'LevelStats':[[row['stats'][key] for key in ('max_hp','attack','defense','magic_attack','magic_defense','speed')]
@@ -152,6 +153,7 @@ def main():
         transparent_art=DATA/f'SpritePackages/Sources/{species_id}.png'
         shutil.copyfile(transparent_art if transparent_art.exists() else DATA/f'Images/{species_id}.png',art/f'{number}.png')
         runtime['species'][species_id]={'name':entry['name'],'stage':entry['stage'],
+            'element':entry['attribute'],'attribute':entry['type'],
             'sp':[row['stats']['source_sp'] for row in curves[species_id]['stats_by_level']],
             'skills':form['LevelSkills']}
     if args.phase2:

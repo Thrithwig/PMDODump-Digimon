@@ -35,6 +35,7 @@ class PassiveCatalogTests(unittest.TestCase):
                 self.assertEqual(form['Intrinsic1'],row['ability_id'])
                 self.assertEqual((form['Intrinsic2'],form['Intrinsic3']),('none','none'))
                 self.assertEqual(form['Element1'],ELEMENTS[row['attribute']])
+                self.assertEqual(form['DigimonAttribute'],row['type'])
             self.assertNotIn('Own ',row['description'])
         self.assertEqual(len(signatures),341,'Different names must not hide duplicate native effects')
 
