@@ -1,5 +1,6 @@
 """Family-exclusive items: coverage, eligibility data, drops and swap recipes."""
 import collections
+import copy
 import json
 import re
 import sys
@@ -9,7 +10,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'Scripts'))
 from digimon_runtime_assets import family_assignments, read  # noqa: E402
-from digimon_family_items import SECRET_ROOM_ZONES, item_id, secret_room_boxes, validate  # noqa: E402
+from digimon_family_items import (SECRET_ROOM_ZONES, encounter_species, item_id,
+                                 restore_secret_room_boxes, secret_room_boxes, validate)  # noqa: E402
 
 
 def families():
@@ -48,6 +50,7 @@ class FamilyItemTests(unittest.TestCase):
             self.assertTrue(obj['Released'], iid)
             self.assertEqual(obj['Name']['DefaultText'], item['name'])
             self.assertEqual(obj['Rarity'], item['tier'], iid)
+            self.assertTrue(obj['BagEffect'], iid)
             self.assertIn(f'A rare treasure for {family} Digimon.', obj['Desc']['DefaultText'])
             self.assertNotIn('Pok', obj['Desc']['DefaultText'], iid)
             states = obj['ItemStates']
@@ -84,14 +87,51 @@ class FamilyItemTests(unittest.TestCase):
         self.assertEqual(set(rarity_map), set(self.items_species()))
 
     def test_secret_rooms_restore_family_treasure_boxes(self):
+        rarity_map = read(ROOT / 'DumpAsset/Data/Misc/Rarity.json')['Object']['RarityMap']
         for zone_id in SECRET_ROOM_ZONES:
-            boxes = secret_room_boxes(read(ROOT / 'DumpAsset/Data/Zone' / f'{zone_id}.json'))
+            zone = read(ROOT / 'DumpAsset/Data/Zone' / f'{zone_id}.json')
+            boxes = secret_room_boxes(zone)
             self.assertEqual([(box['Spawn']['BoxID'], box['Rate']) for box in boxes],
                              [('box_light', 3), ('box_heavy', 1)], zone_id)
             for box, rarity in zip(boxes, (1, 2)):
                 spawner = box['Spawn']['BaseSpawner']
-                self.assertIn('SpeciesItemContextSpawner', spawner['$type'])
+                self.assertIn('SpeciesItemListSpawner', spawner['$type'])
                 self.assertEqual(spawner['Rarity'], {'Min': rarity, 'Max': rarity + 1})
+                self.assertEqual(spawner['Species'], sorted(encounter_species(zone['Object'])))
+                self.assertTrue(spawner['Species'], zone_id)
+                # This is the native spawner's complete pool, independent of an
+                # empty fixed room's respawn table. Neither tier may fall back.
+                for species in spawner['Species']:
+                    ids = rarity_map[species][str(rarity)]
+                    self.assertTrue(ids, (zone_id, species, rarity))
+                    for iid in ids:
+                        obj = read(ROOT / 'DumpAsset/Data/Item' / f'{iid}.json')['Object']
+                        self.assertTrue(obj['Released'], iid)
+                        self.assertTrue(iid.startswith('digixcl_'), iid)
+                        self.assertEqual(obj['Rarity'], rarity, iid)
+
+    def test_secret_room_repair_is_idempotent_and_preserves_dungeon(self):
+        rarity_map = read(ROOT / 'DumpAsset/Data/Misc/Rarity.json')['Object']['RarityMap']
+        for zone_id in SECRET_ROOM_ZONES:
+            zone = read(ROOT / 'DumpAsset/Data/Zone' / f'{zone_id}.json')
+            expected = copy.deepcopy(zone)
+            self.assertFalse(restore_secret_room_boxes(zone, rarity_map), zone_id)
+            # Reproduce the broken prior pair: IDs alone must not skip repair.
+            for choice in secret_room_boxes(zone):
+                spawner = choice['Spawn']['BaseSpawner']
+                spawner['$type'] = spawner['$type'].replace('SpeciesItemListSpawner', 'SpeciesItemContextSpawner')
+                spawner.pop('Species')
+                choice['Rate'] = 99
+            self.assertTrue(restore_secret_room_boxes(zone, rarity_map), zone_id)
+            self.assertEqual(zone, expected, zone_id)
+            self.assertFalse(restore_secret_room_boxes(zone, rarity_map), zone_id)
+
+    def test_secret_room_missing_family_pool_fails_without_mutation(self):
+        zone = read(ROOT / 'DumpAsset/Data/Zone/ambush_forest.json')
+        before = copy.deepcopy(zone)
+        with self.assertRaisesRegex(ValueError, 'missing Digimon family treasure pool'):
+            restore_secret_room_boxes(zone, {})
+        self.assertEqual(zone, before)
 
     def items_species(self):
         return {s for members in self.families.values() for s in members}

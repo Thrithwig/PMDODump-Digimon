@@ -7,9 +7,10 @@ families come from `docs/DIGIMON_FAMILY_TYPES.md`. Items are generated with
 ## How it works
 
 - **Eligibility.** Each item carries the family's member species in PMDO's `FamilyState`, filled from the
-  installed Digimon forms. Because the check is against the holder's current species, digivolving into or
+  installed Digimon forms. Because the check is against the recipient's current species, digivolving into or
   out of a family updates eligibility with no extra code. A Digimon in several families can use any of them;
-  one held item at a time means effects never stack.
+  original PMDO bag effects are retained. Different carried treasures can benefit eligible Digimon together;
+  duplicate copies of the same item do not multiply its effect.
 - **Drops.** ★ items are rarity 1 and ★★ items rarity 2. Treasure boxes roll from the species-to-rarity map
   using the species present on that floor, so a box near Reptiles holds Reptile treasures. Light boxes use
   rarity 1, deep boxes rarity 2. ★★★ items are rarity 3 and never drop.
@@ -32,6 +33,8 @@ dotnet DataGenerator.dll -asset ../../../../DumpAsset/ -digimon-check
 
 The first command validates the design and rewrites this file. The second restores the light and heavy
 family treasure boxes in the conversion's fixed hidden rooms without regenerating unrelated zone data.
+Fixed hidden rooms have no enemy respawn table, so their boxes use an explicit species pool from
+the parent dungeon encounters. Rerun this command after changing a dungeon's encounter roster.
 The item index step also rebuilds the
 species-to-rarity map in `Data/Misc/Rarity.json` that treasure boxes read.
 

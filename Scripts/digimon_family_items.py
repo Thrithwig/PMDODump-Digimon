@@ -165,33 +165,68 @@ def secret_room_boxes(zone: dict) -> list[dict]:
     raise ValueError('Fixed secret-room box spawn list not found')
 
 
+def encounter_species(value) -> set[str]:
+    """Read actual mob forms, excluding unrelated species filters on items/events."""
+    result = set()
+    if isinstance(value, dict):
+        species = value.get('BaseForm', {}).get('Species')
+        if species and 'Level' in value:
+            result.add(species)
+        for child in value.values():
+            result.update(encounter_species(child))
+    elif isinstance(value, list):
+        for child in value:
+            result.update(encounter_species(child))
+    return result
+
+
+def restore_secret_room_boxes(zone: dict, rarity_map: dict) -> bool:
+    """Fixed rooms have no respawn table: use their parent dungeon's Digimon."""
+    values = secret_room_boxes(zone)
+    if not (len(values) == 1 and values[0]['Spawn']['BoxID'] == 'box_heavy' or
+            len(values) == 2 and {v['Spawn']['BoxID'] for v in values} == {'box_light', 'box_heavy'}):
+        raise ValueError('Unexpected secret-room box layout')
+    species = sorted(encounter_species(zone['Object']))
+    if not species:
+        raise ValueError('Secret room has no parent dungeon encounters')
+    for sid in species:
+        for tier in ('1', '2'):
+            items = rarity_map.get(sid, {}).get(tier, [])
+            if not items or any(not iid.startswith('digixcl_') for iid in items):
+                raise ValueError(f'{sid}: missing Digimon family treasure pool for tier {tier}')
+    def family_box(box_id: str, rarity: int, rate: int) -> dict:
+        entry = copy.deepcopy(values[0])
+        entry['Rate'] = rate
+        spawn = entry['Spawn']
+        spawn['BoxID'] = box_id
+        base = spawn['BaseSpawner']
+        base['$type'] = re.sub(r'SpeciesItem(?:Element|Context|List)Spawner',
+                               'SpeciesItemListSpawner', base['$type'])
+        if 'SpeciesItemListSpawner' not in base['$type']:
+            raise ValueError('Unexpected secret-room content spawner')
+        base.pop('Element', None)
+        base.pop('ExceptFor', None)
+        base['Species'] = species
+        base['Rarity'] = {'Min': rarity, 'Max': rarity + 1}
+        return entry
+    replacement = [family_box('box_light', 1, 3), family_box('box_heavy', 2, 1)]
+    changed = values != replacement
+    values[:] = replacement
+    return changed
+
+
 def install_secret_room_boxes() -> int:
-    """Restore the family treasure chest pair without regenerating unrelated zones."""
-    written = 0
+    """Validate every replacement before writing; preserve all other zone data."""
+    rarity_map = read(ROOT / 'DumpAsset/Data/Misc/Rarity.json')['Object']['RarityMap']
+    pending = []
     for zone_id in SECRET_ROOM_ZONES:
         path = ROOT / 'DumpAsset/Data/Zone' / f'{zone_id}.json'
         zone = read(path)
-        values = secret_room_boxes(zone)
-        if len(values) == 2 and {entry['Spawn']['BoxID'] for entry in values} == {'box_light', 'box_heavy'}:
-            continue
-        if len(values) != 1 or values[0]['Spawn'].get('BoxID') != 'box_heavy':
-            raise ValueError(f'{zone_id}: unexpected secret-room box layout')
-        template = values[0]
-        def family_box(box_id: str, rarity: int, rate: int) -> dict:
-            entry = copy.deepcopy(template)
-            entry['Rate'] = rate
-            spawn = entry['Spawn']
-            spawn['BoxID'] = box_id
-            base = spawn['BaseSpawner']
-            base['$type'] = base['$type'].replace('SpeciesItemElementSpawner', 'SpeciesItemContextSpawner')
-            base.pop('Element', None)
-            base.pop('ExceptFor', None)
-            base['Rarity'] = {'Min': rarity, 'Max': rarity + 1}
-            return entry
-        values[:] = [family_box('box_light', 1, 3), family_box('box_heavy', 2, 1)]
+        if restore_secret_room_boxes(zone, rarity_map):
+            pending.append((path, zone))
+    for path, zone in pending:
         write(path, zone)
-        written += 1
-    return written
+    return len(pending)
 
 
 def render(design: dict, families: dict[str, list[str]], names: dict[str, str], templates: dict[str, str]) -> str:
@@ -201,9 +236,10 @@ def render(design: dict, families: dict[str, list[str]], names: dict[str, str], 
              '`DataGenerator -digimon-items` and reuse PMDO exclusive-item effects; no new battle code.', '',
              '## How it works', '',
              '- **Eligibility.** Each item carries the family\'s member species in PMDO\'s `FamilyState`, filled from the',
-             '  installed Digimon forms. Because the check is against the holder\'s current species, digivolving into or',
+             '  installed Digimon forms. Because the check is against the recipient\'s current species, digivolving into or',
              '  out of a family updates eligibility with no extra code. A Digimon in several families can use any of them;',
-             '  one held item at a time means effects never stack.',
+             '  original PMDO bag effects are retained. Different carried treasures can benefit eligible Digimon together;',
+             '  duplicate copies of the same item do not multiply its effect.',
              '- **Drops.** ★ items are rarity 1 and ★★ items rarity 2. Treasure boxes roll from the species-to-rarity map',
              '  using the species present on that floor, so a box near Reptiles holds Reptile treasures. Light boxes use',
              '  rarity 1, deep boxes rarity 2. ★★★ items are rarity 3 and never drop.',
@@ -216,6 +252,8 @@ def render(design: dict, families: dict[str, list[str]], names: dict[str, str], 
              'dotnet DataGenerator.dll -asset ../../../../DumpAsset/ -index Item', 'dotnet DataGenerator.dll -asset ../../../../DumpAsset/ -digimon-check', '```', '',
              'The first command validates the design and rewrites this file. The second restores the light and heavy',
              'family treasure boxes in the conversion\'s fixed hidden rooms without regenerating unrelated zone data.',
+             'Fixed hidden rooms have no enemy respawn table, so their boxes use an explicit species pool from',
+             'the parent dungeon encounters. Rerun this command after changing a dungeon\'s encounter roster.',
              'The item index step also rebuilds the',
              'species-to-rarity map in `Data/Misc/Rarity.json` that treasure boxes read.', '',
              '## Matrix', '']

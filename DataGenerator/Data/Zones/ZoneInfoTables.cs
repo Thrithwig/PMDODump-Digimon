@@ -105,7 +105,7 @@ namespace DataGenerator.Data
             {
                 SpawnList<IStepSpawner<MapLoadContext, MapItem>> boxSpawn = new SpawnList<IStepSpawner<MapLoadContext, MapItem>>();
 
-                PopulateSecretRoomItems(boxSpawn, gamePhase, access);
+                PopulateSecretRoomItems(boxSpawn, gamePhase, access, element);
 
                 MultiStepSpawner <MapLoadContext, MapItem> boxPicker = new MultiStepSpawner<MapLoadContext, MapItem>(new LoopedRand<IStepSpawner<MapLoadContext, MapItem>>(boxSpawn, new RandRange(locs.Length)));
 
@@ -1317,15 +1317,15 @@ namespace DataGenerator.Data
         }
 
 
-        static void PopulateSecretRoomItems(SpawnList<IStepSpawner<MapLoadContext, MapItem>> spawnStep, DungeonStage gamePhase, DungeonAccessibility access)
+        static void PopulateSecretRoomItems(SpawnList<IStepSpawner<MapLoadContext, MapItem>> spawnStep, DungeonStage gamePhase, DungeonAccessibility access, string element)
         {
-            // Secret rooms are the guaranteed source of family treasures.  The
-            // species-aware rarity map supplies the Digimon family item inside
-            // each box, so its contents follow the Digimon encountered there.
+            // Fixed maps have no respawn context. Use the room theme here; the
+            // conversion installer supplies its curated parent-dungeon species.
+            var exceptFor = new HashSet<string>(IterateLegendaries());
             spawnStep.Add(new BoxSpawner<MapLoadContext>("box_light",
-                new SpeciesItemContextSpawner<MapLoadContext>(new IntRange(1), new RandRange(1))), 3);
+                new SpeciesItemElementSpawner<MapLoadContext>(new IntRange(1), new RandRange(1), element, exceptFor)), 3);
             spawnStep.Add(new BoxSpawner<MapLoadContext>("box_heavy",
-                new SpeciesItemContextSpawner<MapLoadContext>(new IntRange(2), new RandRange(1))), 1);
+                new SpeciesItemElementSpawner<MapLoadContext>(new IntRange(2), new RandRange(1), element, exceptFor)), 1);
         }
 
         static void PopulateVaultItems(SpreadVaultZoneStep vaultChanceZoneStep, DungeonStage gamePhase, DungeonAccessibility access, int max_floors, bool locked, bool secretRoom = false)

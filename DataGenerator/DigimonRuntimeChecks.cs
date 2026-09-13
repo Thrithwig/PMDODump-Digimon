@@ -48,6 +48,11 @@ namespace DataGenerator
             Require(DigimonExperience.Award(1, 1, 1, "digi_ultimate") == 0, "Fractional EXP must round down");
             int forms = 0;
             int familyBoxes = 0;
+            int familySecretRooms = 0;
+            var familyRoomMaps = new HashSet<string> {
+                "special_rby_bird", "special_grass_maze", "special_rby_fossil",
+                "special_gsc_ghost", "special_gsc_plant", "special_rby_fairy"
+            };
             int starterForms = 0;
             var syncPassive = (NLua.LuaFunction)LuaEngine.Instance.RunString("return require('origin.digimon.passive_abilities').sync")[0];
             foreach (string path in Directory.GetFiles(PathMod.ModPath("Data/Monster/"), "*.json"))
@@ -249,6 +254,12 @@ end")[0];
                             foreach (var step in rooms.GenSteps.EnumerateInOrder())
                                 if (step.GetType().Name.StartsWith("PlaceRandomMobsStep")) randomEnemies = true;
                         string location = zoneId + " segment " + segment + " floor " + floor;
+                        bool familySecretRoom = false;
+                        if (generator is LoadGen fixedRoom)
+                            foreach (var step in fixedRoom.GenSteps.EnumerateInOrder())
+                                if (step is MappedRoomStep<MapLoadContext> mapped && familyRoomMaps.Contains(mapped.MapID))
+                                    familySecretRoom = true;
+                        int roomFamilyBoxes = 0;
                         if (randomEnemies)
                         {
                             Check(map.TeamSpawns.CanPick, location + ": empty enemy respawn table");
@@ -266,7 +277,19 @@ end")[0];
                             if (itemData.UsageType == ItemData.UseType.Box)
                                 Check(!String.IsNullOrEmpty(item.HiddenValue), location + ": empty reward box " + item.Value);
                             if (itemData.UsageType == ItemData.UseType.Box && item.HiddenValue.StartsWith(DigimonFamilyItems.Prefix))
+                            {
                                 familyBoxes++;
+                                roomFamilyBoxes++;
+                                int rarity = DataManager.Instance.GetItem(item.HiddenValue).Rarity;
+                                Check(rarity == 1 || rarity == 2, location + ": exchange-only family item dropped");
+                            }
+                            else if (familySecretRoom && itemData.UsageType == ItemData.UseType.Box)
+                                Check(false, location + ": secret-room box fell back to " + item.HiddenValue);
+                        }
+                        if (familySecretRoom)
+                        {
+                            familySecretRooms++;
+                            Check(roomFamilyBoxes > 0, location + ": secret room has no family treasure");
                         }
                         Check(map.EntryPoints.Count > 0, zoneId + " segment " + segment + " floor " + floor + ": map generation fell back or has no entry");
                         for (int x = 0; x < map.Width; x++)
@@ -297,6 +320,7 @@ end")[0];
             }
             Require(dungeonIssues.Count == 0, string.Join("\n", dungeonIssues));
             Require(familyBoxes > 0, "No seeded treasure box held a Digimon family item");
+            Require(familySecretRooms == 16, "Expected to check all 16 restored family secret rooms, found " + familySecretRooms);
             Console.WriteLine("Digimon runtime checks passed: " + forms + " forms; " + convertedItems + " converted items; " + earlyZones.Length + " released zones and " + floorCount + " seeded floors; " + familyBoxes + " treasure boxes holding family items; character save round trips.");
         }
     }
