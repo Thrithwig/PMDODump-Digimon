@@ -127,7 +127,7 @@ FAMILY_MERGES={
     # Dark
     'Fallen Angel':'Evil',
     # Beasts
-    'Holy Beast':'Spiritual Beast','Mysterious Beast':'Spiritual Beast',
+    'Holy Beast':'Spiritual Beast','Mysterious Beast':'Spiritual Beast','Dark Animal':'Spiritual Beast',
     'Mythical Animal':'Mythical Beast','Ancient Animal':'Mythical Beast',
     'Dinosaur':'Reptile',
     'Mammal':'Beast',
@@ -137,6 +137,11 @@ FAMILY_MERGES={
     'Alien':'Mutant','Abnormal':'Mutant',
     'Unique':'Unidentified','Perfect':'Unidentified','Invader':'Unidentified',
 }
+# Per-species type renames applied before FAMILY_MERGES (Amphibian split by creature, 2026-09-13).
+SPECIES_FAMILY_MERGES={
+    'betamon':{'Amphibian':'Sea Animal'},'otamamon':{'Amphibian':'Sea Animal'},
+    'gekomon':{'Amphibian':'Reptile'},'shogungekomon':{'Amphibian':'Reptile'},
+}
 
 
 def family_assignments(type_catalog):
@@ -145,6 +150,7 @@ def family_assignments(type_catalog):
     for entry in type_catalog:
         merged=[]
         for t in family_type_list(entry):
+            t=SPECIES_FAMILY_MERGES.get(entry['id'],{}).get(t,t)
             t=FAMILY_MERGES.get(t,t)
             if t not in merged: merged.append(t)
         raw[entry['id']]=merged

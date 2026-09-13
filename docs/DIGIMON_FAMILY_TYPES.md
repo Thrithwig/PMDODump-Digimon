@@ -37,11 +37,11 @@ Apply changes with `python Scripts/digimon_family_types.py`, then rebuild the Mo
 | Mythical Beast | Ancient Animal, Mythical Animal |
 | Reptile | Dinosaur |
 | Sea Animal | Ancient Fish |
-| Spiritual Beast | Holy Beast, Mysterious Beast |
+| Spiritual Beast | Dark Animal, Holy Beast, Mysterious Beast |
 | Unidentified | Invader, Perfect, Unique |
 | Warrior | Beast Knight, Dark Knight, Dark Warrior, Holy Sword, Weapon |
 
-## Families (35)
+## Families (33)
 
 | Family | Members | Species |
 | --- | ---: | --- |
@@ -51,11 +51,11 @@ Apply changes with `python Scripts/digimon_family_types.py`, then rebuild the Mo
 | Android | 23 | Andromon, Boltmon, CannonBeemon, Gigadramon, HiAndromon, Justimon, KendoGarurumon, Machinedramon, MagnaGarurumon, Megadramon, MetalEtemon, MetalGarurumon, MetalGreymon, MetalGreymon (Blue), MetalMamemon, MetalSeadramon, MetalTyrannomon, PileVolcamon, Rapidmon, Raptordramon, Tankmon, Volcanomon, WarGrowlmon |
 | Holy Warrior | 23 | Alphamon, Alphamon NX, Alphamon Ouryuken, Craniamon, Crusadermon, Crusadermon NX, Dynasmon, Examon, Gallantmon, Gallantmon CM, Gallantmon NX, Gankoomon, Jesmon, Kentaurosmon, Leopardmon, Leopardmon LM, Leopardmon NX, Magnamon, Omnimon, Omnimon NX, Omnimon Zwart, Rapidmon (Armor), UlforceVeedramon |
 | Animal | 18 | Chuumon, DoruGreymon, Dorugamon, Dorumon, Gargomon, Garurumon, Gatomon, GrapLeomon, Hououmon, Leomon, Lopmon, Panjyamon, Renamon, Silphymon, Terriermon, Turuiemon, WereGarurumon, WereGarurumon (Blk) |
+| Spiritual Beast | 17 | Antylamon, Arcadiamon Champion, Arcadiamon In-Tr., Arcadiamon Mega, Arcadiamon Rookie, Arcadiamon Ultimate, Arcadiamon Ultra, BlackGatomon, Chirinmon, Gatomon, GranDracmon, Hououmon, Kudamon, Kyubimon, Reppamon, Sangloupmon, VenomMyotismon |
+| Reptile | 16 | Agumon, Agumon (Blk), Ankylomon, BaoHuckmon, Gabumon, Gabumon (Blk), Gekomon, GeoGreymon, Greymon, Greymon (Blue), Guilmon, MetalTyrannomon, Monochromon, ShogunGekomon, Triceramon, Tyrannomon |
 | Beast | 15 | Armadillomon, Chuumon, Dorumon, Elecmon, GaoGamon, Gaomon, Garurumon, Garurumon (Blk), Gazimon, Lopmon, Lunamon, Patamon, Ryudamon, Salamon, Terriermon |
 | Insectoid | 15 | CannonBeemon, FanBeemon, GranKuwagamon, HerculesKabuterimon, Hudiemon, Kabuterimon, Kuwagamon, MegaKabuterimon, Okuwamon, Stingmon, Tentomon, TigerVespamon, TyrantKabuterimon, Waspmon, Wormmon |
 | Mutant | 14 | Apocalymon, CatchMamemon, Dinobeemon, GoldNumemon, Mamemon, MudFrigimon, PlatinumNumemon, PlatinumSukamon, PrinceMamemon, Shakkoumon, Starmon, Sukamon, SuperStarmon, Vademon |
-| Reptile | 14 | Agumon, Agumon (Blk), Ankylomon, BaoHuckmon, Gabumon, Gabumon (Blk), GeoGreymon, Greymon, Greymon (Blue), Guilmon, MetalTyrannomon, Monochromon, Triceramon, Tyrannomon |
-| Spiritual Beast | 13 | Antylamon, Arcadiamon Champion, Arcadiamon In-Tr., Arcadiamon Mega, Arcadiamon Rookie, Arcadiamon Ultimate, Arcadiamon Ultra, Chirinmon, Gatomon, Hououmon, Kudamon, Kyubimon, Reppamon |
 | Unidentified | 13 | Apocalymon, Armageddemon, Chaosmon, Chaosmon VA, Diaboromon, Digitamamon, Infermon, Keramon, Kuramon, Kurisarimon, Nanimon, Tsumemon, Vademon |
 | Beastkin | 12 | BanchoLeomon, Gargomon, GrapLeomon, Lekismon, Leomon, Panjyamon, Renamon, Silphymon, Turuiemon, Vikemon, WereGarurumon, WereGarurumon (Blk) |
 | Dragonkin | 11 | BlackWarGreymon, Cyberdramon, Cyclonemon, Flamedramon, Gaiomon, OmniShoutmon, Paildramon, SaviorHuckmon, Slayerdramon, Strikedramon, WarGreymon |
@@ -67,19 +67,17 @@ Apply changes with `python Scripts/digimon_family_types.py`, then rebuild the Mo
 | Lesser | 10 | Bukamon, Koromon, Motimon, Nyaromon, Pagumon, Tanemon, Tokomon, Tsunomon, Wanyamon, Yokomon |
 | Machine | 10 | Chaosdramon, Clockmon, Datamon, GroundLocomon, Guardromon, Guardromon (Gold), Hagurumon, Machinedramon, MegaGargomon, Solarmon |
 | Mollusk | 10 | BlackKingNumemon, Botamon, Geremon, Numemon, Pabumon, PlatinumNumemon, Poyomon, Punimon, ShellNumemon, Syakomon |
+| Sea Animal | 10 | Betamon, Coelamon, Dragomon, Gomamon, Ikkakumon, MegaSeadramon, Otamamon, Seadramon, Whamon, Zudomon |
 | Bird | 9 | Aquilamon, Birdramon, Biyomon, Crowmon, Falcomon, Garudamon, Hawkmon, Peckmon, Varodurumon |
 | Demon Lord | 9 | Barbamon, Beelzemon, Beelzemon BM, Belphemon RM, Belphemon SM, Creepymon, Leviamon, Lilithmon, Lucemon FM |
 | Elemental | 9 | BlueMeramon, Frigimon, Golemon, Gotsumon, Icemon, Meramon, Meteormon, SkullMeramon, Socerimon |
 | Vegetation | 9 | Cherrymon, Lalamon, Mushroomon, Palmon, Puppetmon, Sunflowmon, Togemon, Vegiemon, Woodmon |
-| Sea Animal | 8 | Coelamon, Dragomon, Gomamon, Ikkakumon, MegaSeadramon, Seadramon, Whamon, Zudomon |
 | Shaman | 8 | Dianamon, Kuzuhamon, Merukimon, Minervamon, Neptunemon, Sakuyamon, Susanomon, Titamon |
 | Fairy | 7 | Lilamon, Lillymon, Lotosmon, MarineAngemon, Piximon, Rosemon, Rosemon BM |
 | Mythical Beast | 7 | Airdramon, Gryphonmon, HippoGryphonmon, Kyubimon, SaberLeomon, Unimon, Veedramon |
 | Undead | 7 | Breakdramon, Dracmon, Matadormon, Myotismon, Raremon, SkullGreymon, SkullSatamon |
 | Aquatic | 6 | MegaSeadramon, MetalSeadramon, Neptunemon, Seadramon, Syakomon, Whamon |
 | Ghost | 6 | Bakemon, Myotismon, Phantomon, Raremon, SkullGreymon, SkullSatamon |
-| Amphibian | 4 | Betamon, Gekomon, Otamamon, ShogunGekomon |
-| Dark Animal | 4 | BlackGatomon, GranDracmon, Sangloupmon, VenomMyotismon |
 
 ## Dropped families (19)
 
