@@ -1,0 +1,3430 @@
+{
+  "schema_version": 1,
+  "source": {
+    "provider": "Wikimon",
+    "field_reference": "https://wikimon.net/Field",
+    "retrieved_at": "2026-09-13",
+    "selection_rule": "Use the most specific matching official Field for the source element and form theme. When no exact category match exists, propose a family from that same theme and record it for review."
+  },
+  "families": [
+    {
+      "id": "aeroveedramon",
+      "name": "AeroVeedramon",
+      "family": "Dragon's Roar",
+      "source_fields": [
+        "Dragon's Roar",
+        "Nature Spirits",
+        "Virus Busters",
+        "Wind Guardians"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Dragon%27s_Roar | https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Virus_Busters | https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "agumon",
+      "name": "Agumon",
+      "family": "Dragon's Roar",
+      "source_fields": [
+        "Deep Savers",
+        "Dragon's Roar",
+        "Metal Empire",
+        "Nature Spirits",
+        "Nightmare Soldiers",
+        "Unknown",
+        "Virus Busters"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Deep_Savers | https://wikimon.net/Category:Dragon%27s_Roar | https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Nightmare_Soldiers | https://wikimon.net/Category:Unknown | https://wikimon.net/Category:Virus_Busters"
+    },
+    {
+      "id": "agumon_blk",
+      "name": "Agumon (Blk)",
+      "family": "Nature Spirits",
+      "source_fields": [
+        "Nature Spirits"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Nature_Spirits"
+    },
+    {
+      "id": "agunimon",
+      "name": "Agunimon",
+      "family": "Dragon's Roar",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "airdramon",
+      "name": "Airdramon",
+      "family": "Dragon's Roar",
+      "source_fields": [
+        "Dragon's Roar",
+        "Nature Spirits",
+        "Wind Guardians"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Dragon%27s_Roar | https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "alphamon",
+      "name": "Alphamon",
+      "family": "Virus Busters",
+      "source_fields": [
+        "Virus Busters"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Virus_Busters"
+    },
+    {
+      "id": "alphamon_nx",
+      "name": "Alphamon NX",
+      "family": "Nature Spirits",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "alphamon_ouryuken",
+      "name": "Alphamon Ouryuken",
+      "family": "Virus Busters",
+      "source_fields": [
+        "Virus Busters"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Virus_Busters"
+    },
+    {
+      "id": "andromon",
+      "name": "Andromon",
+      "family": "Metal Empire",
+      "source_fields": [
+        "Metal Empire",
+        "Virus Busters"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Virus_Busters"
+    },
+    {
+      "id": "angemon",
+      "name": "Angemon",
+      "family": "Virus Busters",
+      "source_fields": [
+        "Virus Busters",
+        "Wind Guardians"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Virus_Busters | https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "angewomon",
+      "name": "Angewomon",
+      "family": "Virus Busters",
+      "source_fields": [
+        "Nature Spirits",
+        "Virus Busters",
+        "Wind Guardians"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Virus_Busters | https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "ankylomon",
+      "name": "Ankylomon",
+      "family": "Deep Savers",
+      "source_fields": [
+        "Deep Savers",
+        "Metal Empire",
+        "Nature Spirits"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Deep_Savers | https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Nature_Spirits"
+    },
+    {
+      "id": "antylamon",
+      "name": "Antylamon",
+      "family": "Nature Spirits",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "apocalymon",
+      "name": "Apocalymon",
+      "family": "Deep Savers",
+      "source_fields": [
+        "Dark Area",
+        "Deep Savers",
+        "Nature Spirits",
+        "Nightmare Soldiers"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Dark_Area | https://wikimon.net/Category:Deep_Savers | https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Nightmare_Soldiers"
+    },
+    {
+      "id": "aquilamon",
+      "name": "Aquilamon",
+      "family": "Wind Guardians",
+      "source_fields": [
+        "Wind Guardians"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "arcadiamon_champion",
+      "name": "Arcadiamon Champion",
+      "family": "Nightmare Soldiers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "arcadiamon_in_tr",
+      "name": "Arcadiamon In-Tr.",
+      "family": "Nightmare Soldiers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "arcadiamon_mega",
+      "name": "Arcadiamon Mega",
+      "family": "Nightmare Soldiers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "arcadiamon_rookie",
+      "name": "Arcadiamon Rookie",
+      "family": "Nightmare Soldiers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "arcadiamon_ultimate",
+      "name": "Arcadiamon Ultimate",
+      "family": "Nightmare Soldiers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "arcadiamon_ultra",
+      "name": "Arcadiamon Ultra",
+      "family": "Nightmare Soldiers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "armadillomon",
+      "name": "Armadillomon",
+      "family": "Nature Spirits",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "armageddemon",
+      "name": "Armageddemon",
+      "family": "Nightmare Soldiers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "bakemon",
+      "name": "Bakemon",
+      "family": "Nightmare Soldiers",
+      "source_fields": [
+        "Nightmare Soldiers"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Nightmare_Soldiers"
+    },
+    {
+      "id": "bancholeomon",
+      "name": "BanchoLeomon",
+      "family": "Virus Busters",
+      "source_fields": [
+        "Nature Spirits",
+        "Virus Busters"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Virus_Busters"
+    },
+    {
+      "id": "baohuckmon",
+      "name": "BaoHuckmon",
+      "family": "Metal Empire",
+      "source_fields": [
+        "Metal Empire",
+        "Virus Busters"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Virus_Busters"
+    },
+    {
+      "id": "barbamon",
+      "name": "Barbamon",
+      "family": "Nightmare Soldiers",
+      "source_fields": [
+        "Dark Area",
+        "Nightmare Soldiers"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Dark_Area | https://wikimon.net/Category:Nightmare_Soldiers"
+    },
+    {
+      "id": "beelzemon",
+      "name": "Beelzemon",
+      "family": "Nightmare Soldiers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "beelzemon_bm",
+      "name": "Beelzemon BM",
+      "family": "Nightmare Soldiers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "belphemon_rm",
+      "name": "Belphemon RM",
+      "family": "Nightmare Soldiers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "belphemon_sm",
+      "name": "Belphemon SM",
+      "family": "Nightmare Soldiers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "betamon",
+      "name": "Betamon",
+      "family": "Nature Spirits",
+      "source_fields": [
+        "Nature Spirits"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Nature_Spirits"
+    },
+    {
+      "id": "birdramon",
+      "name": "Birdramon",
+      "family": "Wind Guardians",
+      "source_fields": [
+        "Nature Spirits",
+        "Wind Guardians"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "biyomon",
+      "name": "Biyomon",
+      "family": "Wind Guardians",
+      "source_fields": [
+        "Jungle Troopers",
+        "Nature Spirits",
+        "Virus Busters",
+        "Wind Guardians"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Jungle_Troopers | https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Virus_Busters | https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "blackgatomon",
+      "name": "BlackGatomon",
+      "family": "Nightmare Soldiers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "blackkingnumemon",
+      "name": "BlackKingNumemon",
+      "family": "Unknown",
+      "source_fields": [
+        "Unknown"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Unknown"
+    },
+    {
+      "id": "blackwargreymon",
+      "name": "BlackWarGreymon",
+      "family": "Dragon's Roar",
+      "source_fields": [
+        "Dragon's Roar",
+        "Metal Empire"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Dragon%27s_Roar | https://wikimon.net/Category:Metal_Empire"
+    },
+    {
+      "id": "bluemeramon",
+      "name": "BlueMeramon",
+      "family": "Dragon's Roar",
+      "source_fields": [
+        "Dragon's Roar",
+        "Nightmare Soldiers"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Dragon%27s_Roar | https://wikimon.net/Category:Nightmare_Soldiers"
+    },
+    {
+      "id": "boltmon",
+      "name": "Boltmon",
+      "family": "Metal Empire",
+      "source_fields": [
+        "Metal Empire",
+        "Nightmare Soldiers"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Nightmare_Soldiers"
+    },
+    {
+      "id": "botamon",
+      "name": "Botamon",
+      "family": "Virus Busters",
+      "source_fields": [
+        "Nature Spirits",
+        "Virus Busters"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Virus_Busters"
+    },
+    {
+      "id": "breakdramon",
+      "name": "Breakdramon",
+      "family": "Dragon's Roar",
+      "source_fields": [
+        "Dragon's Roar",
+        "Metal Empire"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Dragon%27s_Roar | https://wikimon.net/Category:Metal_Empire"
+    },
+    {
+      "id": "bukamon",
+      "name": "Bukamon",
+      "family": "Deep Savers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "burninggreymon",
+      "name": "BurningGreymon",
+      "family": "Dragon's Roar",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "cannonbeemon",
+      "name": "CannonBeemon",
+      "family": "Metal Empire",
+      "source_fields": [
+        "Metal Empire",
+        "Wind Guardians"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "catchmamemon",
+      "name": "CatchMamemon",
+      "family": "Metal Empire",
+      "source_fields": [
+        "Metal Empire"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Metal_Empire"
+    },
+    {
+      "id": "chaosdramon",
+      "name": "Chaosdramon",
+      "family": "Dragon's Roar",
+      "source_fields": [
+        "Dragon's Roar",
+        "Metal Empire"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Dragon%27s_Roar | https://wikimon.net/Category:Metal_Empire"
+    },
+    {
+      "id": "chaosgallantmon",
+      "name": "ChaosGallantmon",
+      "family": "Nightmare Soldiers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "chaosmon",
+      "name": "Chaosmon",
+      "family": "Virus Busters",
+      "source_fields": [
+        "Unknown",
+        "Virus Busters"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Unknown | https://wikimon.net/Category:Virus_Busters"
+    },
+    {
+      "id": "chaosmon_va",
+      "name": "Chaosmon VA",
+      "family": "Virus Busters",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "cherrymon",
+      "name": "Cherrymon",
+      "family": "Jungle Troopers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "chirinmon",
+      "name": "Chirinmon",
+      "family": "Virus Busters",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "chuumon",
+      "name": "Chuumon",
+      "family": "Nature Spirits",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "clockmon",
+      "name": "Clockmon",
+      "family": "Metal Empire",
+      "source_fields": [
+        "Metal Empire"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Metal_Empire"
+    },
+    {
+      "id": "coelamon",
+      "name": "Coelamon",
+      "family": "Deep Savers",
+      "source_fields": [
+        "Deep Savers"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Deep_Savers"
+    },
+    {
+      "id": "coredramon_blue",
+      "name": "Coredramon (Blue)",
+      "family": "Dragon's Roar",
+      "source_fields": [
+        "Dragon's Roar"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Dragon%27s_Roar"
+    },
+    {
+      "id": "coredramon_green",
+      "name": "Coredramon (Green)",
+      "family": "Dragon's Roar",
+      "source_fields": [
+        "Dragon's Roar"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Dragon%27s_Roar"
+    },
+    {
+      "id": "craniamon",
+      "name": "Craniamon",
+      "family": "Nature Spirits",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "creepymon",
+      "name": "Creepymon",
+      "family": "Nightmare Soldiers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "crescemon",
+      "name": "Crescemon",
+      "family": "Deep Savers",
+      "source_fields": [
+        "Deep Savers"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Deep_Savers"
+    },
+    {
+      "id": "crowmon",
+      "name": "Crowmon",
+      "family": "Wind Guardians",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "crusadermon",
+      "name": "Crusadermon",
+      "family": "Nightmare Soldiers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "crusadermon_nx",
+      "name": "Crusadermon NX",
+      "family": "Nightmare Soldiers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "cyberdramon",
+      "name": "Cyberdramon",
+      "family": "Dragon's Roar",
+      "source_fields": [
+        "Dragon's Roar",
+        "Metal Empire",
+        "Nature Spirits",
+        "Virus Busters",
+        "Wind Guardians"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Dragon%27s_Roar | https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Virus_Busters | https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "cyclonemon",
+      "name": "Cyclonemon",
+      "family": "Nature Spirits",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "darkdramon",
+      "name": "Darkdramon",
+      "family": "Metal Empire",
+      "source_fields": [
+        "Dark Area",
+        "Metal Empire"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Dark_Area | https://wikimon.net/Category:Metal_Empire"
+    },
+    {
+      "id": "datamon",
+      "name": "Datamon",
+      "family": "Metal Empire",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "demidevimon",
+      "name": "DemiDevimon",
+      "family": "Nightmare Soldiers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "devimon",
+      "name": "Devimon",
+      "family": "Nightmare Soldiers",
+      "source_fields": [
+        "Dark Area",
+        "Nightmare Soldiers"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Dark_Area | https://wikimon.net/Category:Nightmare_Soldiers"
+    },
+    {
+      "id": "diaboromon",
+      "name": "Diaboromon",
+      "family": "Nightmare Soldiers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "dianamon",
+      "name": "Dianamon",
+      "family": "Deep Savers",
+      "source_fields": [
+        "Deep Savers",
+        "Nature Spirits"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Deep_Savers | https://wikimon.net/Category:Nature_Spirits"
+    },
+    {
+      "id": "digitamamon",
+      "name": "Digitamamon",
+      "family": "Nightmare Soldiers",
+      "source_fields": [
+        "Nightmare Soldiers",
+        "Unknown"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Nightmare_Soldiers | https://wikimon.net/Category:Unknown"
+    },
+    {
+      "id": "dinobeemon",
+      "name": "Dinobeemon",
+      "family": "Jungle Troopers",
+      "source_fields": [
+        "Jungle Troopers",
+        "Metal Empire",
+        "Nature Spirits",
+        "Nightmare Soldiers",
+        "Wind Guardians"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Jungle_Troopers | https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Nightmare_Soldiers | https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "dorugamon",
+      "name": "Dorugamon",
+      "family": "Dragon's Roar",
+      "source_fields": [
+        "Dragon's Roar",
+        "Nature Spirits",
+        "Nightmare Soldiers"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Dragon%27s_Roar | https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Nightmare_Soldiers"
+    },
+    {
+      "id": "dorugoramon",
+      "name": "Dorugoramon",
+      "family": "Dragon's Roar",
+      "source_fields": [
+        "Dragon's Roar",
+        "Nature Spirits"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Dragon%27s_Roar | https://wikimon.net/Category:Nature_Spirits"
+    },
+    {
+      "id": "dorugreymon",
+      "name": "DoruGreymon",
+      "family": "Dragon's Roar",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "dorumon",
+      "name": "Dorumon",
+      "family": "Dragon's Roar",
+      "source_fields": [
+        "Dragon's Roar",
+        "Nature Spirits",
+        "Nightmare Soldiers",
+        "Virus Busters"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Dragon%27s_Roar | https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Nightmare_Soldiers | https://wikimon.net/Category:Virus_Busters"
+    },
+    {
+      "id": "dracmon",
+      "name": "Dracmon",
+      "family": "Nightmare Soldiers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "dracomon",
+      "name": "Dracomon",
+      "family": "Dragon's Roar",
+      "source_fields": [
+        "Dragon's Roar"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Dragon%27s_Roar"
+    },
+    {
+      "id": "dragomon",
+      "name": "Dragomon",
+      "family": "Deep Savers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "duramon",
+      "name": "Duramon",
+      "family": "Metal Empire",
+      "source_fields": [
+        "Metal Empire",
+        "Virus Busters"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Virus_Busters"
+    },
+    {
+      "id": "durandamon",
+      "name": "Durandamon",
+      "family": "Metal Empire",
+      "source_fields": [
+        "Metal Empire"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Metal_Empire"
+    },
+    {
+      "id": "dynasmon",
+      "name": "Dynasmon",
+      "family": "Virus Busters",
+      "source_fields": [
+        "Virus Busters"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Virus_Busters"
+    },
+    {
+      "id": "ebemon",
+      "name": "Ebemon",
+      "family": "Metal Empire",
+      "source_fields": [
+        "Dark Area",
+        "Metal Empire",
+        "Unknown"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Dark_Area | https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Unknown"
+    },
+    {
+      "id": "elecmon",
+      "name": "Elecmon",
+      "family": "Metal Empire",
+      "source_fields": [
+        "Deep Savers",
+        "Metal Empire",
+        "Nature Spirits"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Deep_Savers | https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Nature_Spirits"
+    },
+    {
+      "id": "etemon",
+      "name": "Etemon",
+      "family": "Deep Savers",
+      "source_fields": [
+        "Deep Savers",
+        "Metal Empire",
+        "Unknown"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Deep_Savers | https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Unknown"
+    },
+    {
+      "id": "examon",
+      "name": "Examon",
+      "family": "Dragon's Roar",
+      "source_fields": [
+        "Dragon's Roar",
+        "Virus Busters"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Dragon%27s_Roar | https://wikimon.net/Category:Virus_Busters"
+    },
+    {
+      "id": "exveemon",
+      "name": "ExVeemon",
+      "family": "Nature Spirits",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "falcomon",
+      "name": "Falcomon",
+      "family": "Wind Guardians",
+      "source_fields": [
+        "Wind Guardians"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "fanbeemon",
+      "name": "FanBeemon",
+      "family": "Jungle Troopers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "flamedramon",
+      "name": "Flamedramon",
+      "family": "Dragon's Roar",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "frigimon",
+      "name": "Frigimon",
+      "family": "Deep Savers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "gabumon",
+      "name": "Gabumon",
+      "family": "Nature Spirits",
+      "source_fields": [
+        "Metal Empire",
+        "Nature Spirits",
+        "Virus Busters",
+        "Wind Guardians"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Virus_Busters | https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "gabumon_blk",
+      "name": "Gabumon (Blk)",
+      "family": "Nature Spirits",
+      "source_fields": [
+        "Nature Spirits"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Nature_Spirits"
+    },
+    {
+      "id": "gaiomon",
+      "name": "Gaiomon",
+      "family": "Dragon's Roar",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "gallantmon",
+      "name": "Gallantmon",
+      "family": "Virus Busters",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "gallantmon_cm",
+      "name": "Gallantmon CM",
+      "family": "Virus Busters",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "gallantmon_nx",
+      "name": "Gallantmon NX",
+      "family": "Virus Busters",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "gankoomon",
+      "name": "Gankoomon",
+      "family": "Virus Busters",
+      "source_fields": [
+        "Virus Busters"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Virus_Busters"
+    },
+    {
+      "id": "gaogamon",
+      "name": "GaoGamon",
+      "family": "Nature Spirits",
+      "source_fields": [
+        "Nature Spirits"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Nature_Spirits"
+    },
+    {
+      "id": "gaomon",
+      "name": "Gaomon",
+      "family": "Dragon's Roar",
+      "source_fields": [
+        "Dragon's Roar",
+        "Jungle Troopers",
+        "Nature Spirits"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Dragon%27s_Roar | https://wikimon.net/Category:Jungle_Troopers | https://wikimon.net/Category:Nature_Spirits"
+    },
+    {
+      "id": "gargomon",
+      "name": "Gargomon",
+      "family": "Nightmare Soldiers",
+      "source_fields": [
+        "Nightmare Soldiers"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Nightmare_Soldiers"
+    },
+    {
+      "id": "garudamon",
+      "name": "Garudamon",
+      "family": "Wind Guardians",
+      "source_fields": [
+        "Virus Busters",
+        "Wind Guardians"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Virus_Busters | https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "garurumon",
+      "name": "Garurumon",
+      "family": "Wind Guardians",
+      "source_fields": [
+        "Metal Empire",
+        "Nature Spirits",
+        "Nightmare Soldiers",
+        "Virus Busters",
+        "Wind Guardians"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Nightmare_Soldiers | https://wikimon.net/Category:Virus_Busters | https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "garurumon_blk",
+      "name": "Garurumon (Blk)",
+      "family": "Nightmare Soldiers",
+      "source_fields": [
+        "Nature Spirits",
+        "Nightmare Soldiers"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Nightmare_Soldiers"
+    },
+    {
+      "id": "gatomon",
+      "name": "Gatomon",
+      "family": "Virus Busters",
+      "source_fields": [
+        "Nature Spirits",
+        "Nightmare Soldiers",
+        "Virus Busters"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Nightmare_Soldiers | https://wikimon.net/Category:Virus_Busters"
+    },
+    {
+      "id": "gazimon",
+      "name": "Gazimon",
+      "family": "Nightmare Soldiers",
+      "source_fields": [
+        "Nature Spirits",
+        "Nightmare Soldiers",
+        "Unknown",
+        "Wind Guardians"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Nightmare_Soldiers | https://wikimon.net/Category:Unknown | https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "gekomon",
+      "name": "Gekomon",
+      "family": "Nature Spirits",
+      "source_fields": [
+        "Nature Spirits"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Nature_Spirits"
+    },
+    {
+      "id": "geogreymon",
+      "name": "GeoGreymon",
+      "family": "Dragon's Roar",
+      "source_fields": [
+        "Dragon's Roar",
+        "Nature Spirits",
+        "Virus Busters"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Dragon%27s_Roar | https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Virus_Busters"
+    },
+    {
+      "id": "geremon",
+      "name": "Geremon",
+      "family": "Metal Empire",
+      "source_fields": [
+        "Metal Empire",
+        "Unknown"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Unknown"
+    },
+    {
+      "id": "gigadramon",
+      "name": "Gigadramon",
+      "family": "Dragon's Roar",
+      "source_fields": [
+        "Dragon's Roar",
+        "Metal Empire",
+        "Wind Guardians"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Dragon%27s_Roar | https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "ginryumon",
+      "name": "Ginryumon",
+      "family": "Dragon's Roar",
+      "source_fields": [
+        "Dragon's Roar",
+        "Nature Spirits"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Dragon%27s_Roar | https://wikimon.net/Category:Nature_Spirits"
+    },
+    {
+      "id": "goblimon",
+      "name": "Goblimon",
+      "family": "Nature Spirits",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "goldnumemon",
+      "name": "GoldNumemon",
+      "family": "Metal Empire",
+      "source_fields": [
+        "Metal Empire"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Metal_Empire"
+    },
+    {
+      "id": "goldramon",
+      "name": "Goldramon",
+      "family": "Virus Busters",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "golemon",
+      "name": "Golemon",
+      "family": "Metal Empire",
+      "source_fields": [
+        "Metal Empire",
+        "Nature Spirits",
+        "Unknown"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Unknown"
+    },
+    {
+      "id": "gomamon",
+      "name": "Gomamon",
+      "family": "Deep Savers",
+      "source_fields": [
+        "Deep Savers"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Deep_Savers"
+    },
+    {
+      "id": "gotsumon",
+      "name": "Gotsumon",
+      "family": "Nature Spirits",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "grademon",
+      "name": "Grademon",
+      "family": "Metal Empire",
+      "source_fields": [
+        "Metal Empire",
+        "Nature Spirits"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Nature_Spirits"
+    },
+    {
+      "id": "grandracmon",
+      "name": "GranDracmon",
+      "family": "Nightmare Soldiers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "grankuwagamon",
+      "name": "GranKuwagamon",
+      "family": "Jungle Troopers",
+      "source_fields": [
+        "Jungle Troopers",
+        "Metal Empire",
+        "Nature Spirits",
+        "Nightmare Soldiers",
+        "Wind Guardians"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Jungle_Troopers | https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Nightmare_Soldiers | https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "grapleomon",
+      "name": "GrapLeomon",
+      "family": "Metal Empire",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "greymon",
+      "name": "Greymon",
+      "family": "Dragon's Roar",
+      "source_fields": [
+        "Deep Savers",
+        "Dragon's Roar",
+        "Metal Empire",
+        "Nature Spirits",
+        "Nightmare Soldiers",
+        "Virus Busters"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Deep_Savers | https://wikimon.net/Category:Dragon%27s_Roar | https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Nightmare_Soldiers | https://wikimon.net/Category:Virus_Busters"
+    },
+    {
+      "id": "greymon_blue",
+      "name": "Greymon (Blue)",
+      "family": "Dragon's Roar",
+      "source_fields": [
+        "Dragon's Roar",
+        "Nature Spirits"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Dragon%27s_Roar | https://wikimon.net/Category:Nature_Spirits"
+    },
+    {
+      "id": "groundlocomon",
+      "name": "GroundLocomon",
+      "family": "Metal Empire",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "groundramon",
+      "name": "Groundramon",
+      "family": "Dragon's Roar",
+      "source_fields": [
+        "Dragon's Roar"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Dragon%27s_Roar"
+    },
+    {
+      "id": "growlmon",
+      "name": "Growlmon",
+      "family": "Dragon's Roar",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "gryphonmon",
+      "name": "Gryphonmon",
+      "family": "Wind Guardians",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "guardromon",
+      "name": "Guardromon",
+      "family": "Metal Empire",
+      "source_fields": [
+        "Metal Empire"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Metal_Empire"
+    },
+    {
+      "id": "guardromon_gold",
+      "name": "Guardromon (Gold)",
+      "family": "Metal Empire",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "guilmon",
+      "name": "Guilmon",
+      "family": "Dragon's Roar",
+      "source_fields": [
+        "Deep Savers",
+        "Dragon's Roar",
+        "Metal Empire",
+        "Nature Spirits",
+        "Virus Busters"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Deep_Savers | https://wikimon.net/Category:Dragon%27s_Roar | https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Virus_Busters"
+    },
+    {
+      "id": "hackmon",
+      "name": "Hackmon",
+      "family": "Dragon's Roar",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "hagurumon",
+      "name": "Hagurumon",
+      "family": "Metal Empire",
+      "source_fields": [
+        "Metal Empire"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Metal_Empire"
+    },
+    {
+      "id": "hawkmon",
+      "name": "Hawkmon",
+      "family": "Wind Guardians",
+      "source_fields": [
+        "Wind Guardians"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "herculeskabuterimon",
+      "name": "HerculesKabuterimon",
+      "family": "Jungle Troopers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "hiandromon",
+      "name": "HiAndromon",
+      "family": "Metal Empire",
+      "source_fields": [
+        "Metal Empire"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Metal_Empire"
+    },
+    {
+      "id": "hippogryphonmon",
+      "name": "HippoGryphonmon",
+      "family": "Wind Guardians",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "hisyaryumon",
+      "name": "Hisyaryumon",
+      "family": "Dragon's Roar",
+      "source_fields": [
+        "Dragon's Roar",
+        "Nature Spirits"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Dragon%27s_Roar | https://wikimon.net/Category:Nature_Spirits"
+    },
+    {
+      "id": "hououmon",
+      "name": "Hououmon",
+      "family": "Wind Guardians",
+      "source_fields": [
+        "Virus Busters",
+        "Wind Guardians"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Virus_Busters | https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "hudiemon",
+      "name": "Hudiemon",
+      "family": "Nature Spirits",
+      "source_fields": [
+        "Nature Spirits"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Nature_Spirits"
+    },
+    {
+      "id": "icedevimon",
+      "name": "IceDevimon",
+      "family": "Nightmare Soldiers",
+      "source_fields": [
+        "Dark Area",
+        "Nightmare Soldiers"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Dark_Area | https://wikimon.net/Category:Nightmare_Soldiers"
+    },
+    {
+      "id": "icemon",
+      "name": "Icemon",
+      "family": "Deep Savers",
+      "source_fields": [
+        "Deep Savers",
+        "Nature Spirits",
+        "Nightmare Soldiers"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Deep_Savers | https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Nightmare_Soldiers"
+    },
+    {
+      "id": "ikkakumon",
+      "name": "Ikkakumon",
+      "family": "Deep Savers",
+      "source_fields": [
+        "Deep Savers"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Deep_Savers"
+    },
+    {
+      "id": "imperialdramon_dm",
+      "name": "Imperialdramon DM",
+      "family": "Dragon's Roar",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "imperialdramon_fm",
+      "name": "Imperialdramon FM",
+      "family": "Dragon's Roar",
+      "source_fields": [
+        "Dark Area",
+        "Dragon's Roar",
+        "Metal Empire",
+        "Nature Spirits",
+        "Nightmare Soldiers",
+        "Wind Guardians"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Dark_Area | https://wikimon.net/Category:Dragon%27s_Roar | https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Nightmare_Soldiers | https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "imperialdramon_pm",
+      "name": "Imperialdramon PM",
+      "family": "Virus Busters",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "impmon",
+      "name": "Impmon",
+      "family": "Nightmare Soldiers",
+      "source_fields": [
+        "Nightmare Soldiers",
+        "Unknown"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Nightmare_Soldiers | https://wikimon.net/Category:Unknown"
+    },
+    {
+      "id": "infermon",
+      "name": "Infermon",
+      "family": "Nightmare Soldiers",
+      "source_fields": [
+        "Dark Area",
+        "Nightmare Soldiers"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Dark_Area | https://wikimon.net/Category:Nightmare_Soldiers"
+    },
+    {
+      "id": "jesmon",
+      "name": "Jesmon",
+      "family": "Virus Busters",
+      "source_fields": [
+        "Virus Busters"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Virus_Busters"
+    },
+    {
+      "id": "justimon",
+      "name": "Justimon",
+      "family": "Virus Busters",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "kabuterimon",
+      "name": "Kabuterimon",
+      "family": "Jungle Troopers",
+      "source_fields": [
+        "Jungle Troopers",
+        "Nature Spirits",
+        "Wind Guardians"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Jungle_Troopers | https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "kaisergreymon",
+      "name": "KaiserGreymon",
+      "family": "Deep Savers",
+      "source_fields": [
+        "Deep Savers",
+        "Nature Spirits",
+        "Nightmare Soldiers",
+        "Wind Guardians"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Deep_Savers | https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Nightmare_Soldiers | https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "kendogarurumon",
+      "name": "KendoGarurumon",
+      "family": "Virus Busters",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "kentaurosmon",
+      "name": "Kentaurosmon",
+      "family": "Virus Busters",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "keramon",
+      "name": "Keramon",
+      "family": "Nightmare Soldiers",
+      "source_fields": [
+        "Dark Area",
+        "Nightmare Soldiers"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Dark_Area | https://wikimon.net/Category:Nightmare_Soldiers"
+    },
+    {
+      "id": "kerpymon_blk",
+      "name": "Kerpymon (Blk)",
+      "family": "Nightmare Soldiers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "kerpymon_good",
+      "name": "Kerpymon (Good)",
+      "family": "Virus Busters",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "kingetemon",
+      "name": "KingEtemon",
+      "family": "Metal Empire",
+      "source_fields": [
+        "Metal Empire",
+        "Nightmare Soldiers"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Nightmare_Soldiers"
+    },
+    {
+      "id": "knightmon",
+      "name": "Knightmon",
+      "family": "Metal Empire",
+      "source_fields": [
+        "Metal Empire",
+        "Virus Busters"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Virus_Busters"
+    },
+    {
+      "id": "koromon",
+      "name": "Koromon",
+      "family": "Virus Busters",
+      "source_fields": [
+        "Virus Busters"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Virus_Busters"
+    },
+    {
+      "id": "kudamon",
+      "name": "Kudamon",
+      "family": "Virus Busters",
+      "source_fields": [
+        "Virus Busters"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Virus_Busters"
+    },
+    {
+      "id": "kuramon",
+      "name": "Kuramon",
+      "family": "Nature Spirits",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "kurisarimon",
+      "name": "Kurisarimon",
+      "family": "Nightmare Soldiers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "kuwagamon",
+      "name": "Kuwagamon",
+      "family": "Wind Guardians",
+      "source_fields": [
+        "Nature Spirits",
+        "Wind Guardians"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "kuzuhamon",
+      "name": "Kuzuhamon",
+      "family": "Nightmare Soldiers",
+      "source_fields": [
+        "Nightmare Soldiers",
+        "Unknown"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Nightmare_Soldiers | https://wikimon.net/Category:Unknown"
+    },
+    {
+      "id": "kyubimon",
+      "name": "Kyubimon",
+      "family": "Wind Guardians",
+      "source_fields": [
+        "Nature Spirits",
+        "Nightmare Soldiers",
+        "Wind Guardians"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Nightmare_Soldiers | https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "ladydevimon",
+      "name": "LadyDevimon",
+      "family": "Nightmare Soldiers",
+      "source_fields": [
+        "Nightmare Soldiers",
+        "Unknown"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Nightmare_Soldiers | https://wikimon.net/Category:Unknown"
+    },
+    {
+      "id": "lalamon",
+      "name": "Lalamon",
+      "family": "Jungle Troopers",
+      "source_fields": [
+        "Jungle Troopers",
+        "Nature Spirits",
+        "Wind Guardians"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Jungle_Troopers | https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "lekismon",
+      "name": "Lekismon",
+      "family": "Deep Savers",
+      "source_fields": [
+        "Deep Savers"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Deep_Savers"
+    },
+    {
+      "id": "leomon",
+      "name": "Leomon",
+      "family": "Virus Busters",
+      "source_fields": [
+        "Nature Spirits",
+        "Virus Busters"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Virus_Busters"
+    },
+    {
+      "id": "leopardmon",
+      "name": "Leopardmon",
+      "family": "Virus Busters",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "leopardmon_lm",
+      "name": "Leopardmon LM",
+      "family": "Nature Spirits",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "leopardmon_nx",
+      "name": "Leopardmon NX",
+      "family": "Virus Busters",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "leviamon",
+      "name": "Leviamon",
+      "family": "Deep Savers",
+      "source_fields": [
+        "Dark Area",
+        "Deep Savers",
+        "Nightmare Soldiers"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Dark_Area | https://wikimon.net/Category:Deep_Savers | https://wikimon.net/Category:Nightmare_Soldiers"
+    },
+    {
+      "id": "lilamon",
+      "name": "Lilamon",
+      "family": "Jungle Troopers",
+      "source_fields": [
+        "Jungle Troopers",
+        "Nature Spirits",
+        "Wind Guardians"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Jungle_Troopers | https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "lilithmon",
+      "name": "Lilithmon",
+      "family": "Nightmare Soldiers",
+      "source_fields": [
+        "Dark Area",
+        "Nightmare Soldiers"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Dark_Area | https://wikimon.net/Category:Nightmare_Soldiers"
+    },
+    {
+      "id": "lillymon",
+      "name": "Lillymon",
+      "family": "Jungle Troopers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "lobomon",
+      "name": "Lobomon",
+      "family": "Virus Busters",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "lopmon",
+      "name": "Lopmon",
+      "family": "Nature Spirits",
+      "source_fields": [
+        "Nature Spirits"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Nature_Spirits"
+    },
+    {
+      "id": "lotosmon",
+      "name": "Lotosmon",
+      "family": "Jungle Troopers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "lucemon",
+      "name": "Lucemon",
+      "family": "Virus Busters",
+      "source_fields": [
+        "Virus Busters"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Virus_Busters"
+    },
+    {
+      "id": "lucemon_fm",
+      "name": "Lucemon FM",
+      "family": "Nature Spirits",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "lucemon_sm",
+      "name": "Lucemon SM",
+      "family": "Nightmare Soldiers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "lunamon",
+      "name": "Lunamon",
+      "family": "Deep Savers",
+      "source_fields": [
+        "Deep Savers"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Deep_Savers"
+    },
+    {
+      "id": "machgaogamon",
+      "name": "MachGaogamon",
+      "family": "Nature Spirits",
+      "source_fields": [
+        "Nature Spirits"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Nature_Spirits"
+    },
+    {
+      "id": "machinedramon",
+      "name": "Machinedramon",
+      "family": "Metal Empire",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "magnaangemon",
+      "name": "MagnaAngemon",
+      "family": "Virus Busters",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "magnadramon",
+      "name": "Magnadramon",
+      "family": "Virus Busters",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "magnagarurumon",
+      "name": "MagnaGarurumon",
+      "family": "Virus Busters",
+      "source_fields": [
+        "Metal Empire",
+        "Virus Busters",
+        "Wind Guardians"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Virus_Busters | https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "magnagarurumon_sv",
+      "name": "MagnaGarurumon (SV)",
+      "family": "Virus Busters",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "magnamon",
+      "name": "Magnamon",
+      "family": "Metal Empire",
+      "source_fields": [
+        "Metal Empire",
+        "Virus Busters"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Virus_Busters"
+    },
+    {
+      "id": "mamemon",
+      "name": "Mamemon",
+      "family": "Metal Empire",
+      "source_fields": [
+        "Metal Empire",
+        "Unknown",
+        "Virus Busters"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Unknown | https://wikimon.net/Category:Virus_Busters"
+    },
+    {
+      "id": "marineangemon",
+      "name": "MarineAngemon",
+      "family": "Deep Savers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "mastemon",
+      "name": "Mastemon",
+      "family": "Virus Busters",
+      "source_fields": [
+        "Nature Spirits",
+        "Nightmare Soldiers",
+        "Unknown",
+        "Virus Busters"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Nightmare_Soldiers | https://wikimon.net/Category:Unknown | https://wikimon.net/Category:Virus_Busters"
+    },
+    {
+      "id": "matadormon",
+      "name": "Matadormon",
+      "family": "Nightmare Soldiers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "megadramon",
+      "name": "Megadramon",
+      "family": "Dragon's Roar",
+      "source_fields": [
+        "Dragon's Roar",
+        "Metal Empire",
+        "Wind Guardians"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Dragon%27s_Roar | https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "megagargomon",
+      "name": "MegaGargomon",
+      "family": "Metal Empire",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "megakabuterimon",
+      "name": "MegaKabuterimon",
+      "family": "Jungle Troopers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "megaseadramon",
+      "name": "MegaSeadramon",
+      "family": "Deep Savers",
+      "source_fields": [
+        "Deep Savers"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Deep_Savers"
+    },
+    {
+      "id": "megidramon",
+      "name": "Megidramon",
+      "family": "Dragon's Roar",
+      "source_fields": [
+        "Dark Area",
+        "Dragon's Roar",
+        "Metal Empire",
+        "Nightmare Soldiers"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Dark_Area | https://wikimon.net/Category:Dragon%27s_Roar | https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Nightmare_Soldiers"
+    },
+    {
+      "id": "meramon",
+      "name": "Meramon",
+      "family": "Dragon's Roar",
+      "source_fields": [
+        "Dragon's Roar",
+        "Nature Spirits",
+        "Nightmare Soldiers"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Dragon%27s_Roar | https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Nightmare_Soldiers"
+    },
+    {
+      "id": "merukimon",
+      "name": "Merukimon",
+      "family": "Wind Guardians",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "metaletemon",
+      "name": "MetalEtemon",
+      "family": "Metal Empire",
+      "source_fields": [
+        "Metal Empire",
+        "Nature Spirits"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Nature_Spirits"
+    },
+    {
+      "id": "metalgarurumon",
+      "name": "MetalGarurumon",
+      "family": "Metal Empire",
+      "source_fields": [
+        "Metal Empire",
+        "Nature Spirits",
+        "Virus Busters",
+        "Wind Guardians"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Virus_Busters | https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "metalgarurumon_blk",
+      "name": "MetalGarurumon (Blk)",
+      "family": "Metal Empire",
+      "source_fields": [
+        "Metal Empire"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Metal_Empire"
+    },
+    {
+      "id": "metalgreymon",
+      "name": "MetalGreymon",
+      "family": "Dragon's Roar",
+      "source_fields": [
+        "Deep Savers",
+        "Dragon's Roar",
+        "Metal Empire",
+        "Nature Spirits",
+        "Nightmare Soldiers",
+        "Virus Busters"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Deep_Savers | https://wikimon.net/Category:Dragon%27s_Roar | https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Nightmare_Soldiers | https://wikimon.net/Category:Virus_Busters"
+    },
+    {
+      "id": "metalgreymon_blue",
+      "name": "MetalGreymon (Blue)",
+      "family": "Dragon's Roar",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "metalmamemon",
+      "name": "MetalMamemon",
+      "family": "Metal Empire",
+      "source_fields": [
+        "Metal Empire",
+        "Virus Busters"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Virus_Busters"
+    },
+    {
+      "id": "metalseadramon",
+      "name": "MetalSeadramon",
+      "family": "Deep Savers",
+      "source_fields": [
+        "Deep Savers",
+        "Metal Empire"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Deep_Savers | https://wikimon.net/Category:Metal_Empire"
+    },
+    {
+      "id": "metaltyrannomon",
+      "name": "MetalTyrannomon",
+      "family": "Metal Empire",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "meteormon",
+      "name": "Meteormon",
+      "family": "Nature Spirits",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "minervamon",
+      "name": "Minervamon",
+      "family": "Nightmare Soldiers",
+      "source_fields": [
+        "Nightmare Soldiers"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Nightmare_Soldiers"
+    },
+    {
+      "id": "miragegaogamon",
+      "name": "MirageGaogamon",
+      "family": "Nature Spirits",
+      "source_fields": [
+        "Nature Spirits"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Nature_Spirits"
+    },
+    {
+      "id": "miragegaogamon_bm",
+      "name": "MirageGaogamon BM",
+      "family": "Nature Spirits",
+      "source_fields": [
+        "Nature Spirits"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Nature_Spirits"
+    },
+    {
+      "id": "monochromon",
+      "name": "Monochromon",
+      "family": "Nature Spirits",
+      "source_fields": [
+        "Nature Spirits"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Nature_Spirits"
+    },
+    {
+      "id": "monodramon",
+      "name": "Monodramon",
+      "family": "Dragon's Roar",
+      "source_fields": [
+        "Dragon's Roar",
+        "Metal Empire",
+        "Nature Spirits"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Dragon%27s_Roar | https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Nature_Spirits"
+    },
+    {
+      "id": "monzaemon",
+      "name": "Monzaemon",
+      "family": "Metal Empire",
+      "source_fields": [
+        "Metal Empire"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Metal_Empire"
+    },
+    {
+      "id": "motimon",
+      "name": "Motimon",
+      "family": "Nature Spirits",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "mudfrigimon",
+      "name": "MudFrigimon",
+      "family": "Nature Spirits",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "mushroomon",
+      "name": "Mushroomon",
+      "family": "Jungle Troopers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "myotismon",
+      "name": "Myotismon",
+      "family": "Nightmare Soldiers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "nanimon",
+      "name": "Nanimon",
+      "family": "Nightmare Soldiers",
+      "source_fields": [
+        "Nightmare Soldiers",
+        "Unknown"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Nightmare_Soldiers | https://wikimon.net/Category:Unknown"
+    },
+    {
+      "id": "neptunemon",
+      "name": "Neptunemon",
+      "family": "Deep Savers",
+      "source_fields": [
+        "Deep Savers"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Deep_Savers"
+    },
+    {
+      "id": "numemon",
+      "name": "Numemon",
+      "family": "Metal Empire",
+      "source_fields": [
+        "Metal Empire",
+        "Nature Spirits",
+        "Nightmare Soldiers",
+        "Unknown"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Nightmare_Soldiers | https://wikimon.net/Category:Unknown"
+    },
+    {
+      "id": "nyaromon",
+      "name": "Nyaromon",
+      "family": "Virus Busters",
+      "source_fields": [
+        "Virus Busters"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Virus_Busters"
+    },
+    {
+      "id": "ogremon",
+      "name": "Ogremon",
+      "family": "Nature Spirits",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "okuwamon",
+      "name": "Okuwamon",
+      "family": "Nightmare Soldiers",
+      "source_fields": [
+        "Nature Spirits",
+        "Nightmare Soldiers"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Nightmare_Soldiers"
+    },
+    {
+      "id": "omnimon",
+      "name": "Omnimon",
+      "family": "Virus Busters",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "omnimon_nx",
+      "name": "Omnimon NX",
+      "family": "Virus Busters",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "omnimon_zwart",
+      "name": "Omnimon Zwart",
+      "family": "Nightmare Soldiers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "omnishoutmon",
+      "name": "OmniShoutmon",
+      "family": "Dragon's Roar",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "ophanimon",
+      "name": "Ophanimon",
+      "family": "Virus Busters",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "otamamon",
+      "name": "Otamamon",
+      "family": "Deep Savers",
+      "source_fields": [
+        "Deep Savers",
+        "Nature Spirits"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Deep_Savers | https://wikimon.net/Category:Nature_Spirits"
+    },
+    {
+      "id": "ouryumon",
+      "name": "Ouryumon",
+      "family": "Dragon's Roar",
+      "source_fields": [
+        "Dragon's Roar",
+        "Nature Spirits"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Dragon%27s_Roar | https://wikimon.net/Category:Nature_Spirits"
+    },
+    {
+      "id": "pabumon",
+      "name": "Pabumon",
+      "family": "Nature Spirits",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "pagumon",
+      "name": "Pagumon",
+      "family": "Nightmare Soldiers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "paildramon",
+      "name": "Paildramon",
+      "family": "Dragon's Roar",
+      "source_fields": [
+        "Dragon's Roar",
+        "Metal Empire",
+        "Nature Spirits",
+        "Nightmare Soldiers",
+        "Wind Guardians"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Dragon%27s_Roar | https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Nightmare_Soldiers | https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "palmon",
+      "name": "Palmon",
+      "family": "Jungle Troopers",
+      "source_fields": [
+        "Jungle Troopers",
+        "Nature Spirits",
+        "Wind Guardians"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Jungle_Troopers | https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "pandamon",
+      "name": "Pandamon",
+      "family": "Metal Empire",
+      "source_fields": [
+        "Metal Empire",
+        "Unknown"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Unknown"
+    },
+    {
+      "id": "panjyamon",
+      "name": "Panjyamon",
+      "family": "Virus Busters",
+      "source_fields": [
+        "Nature Spirits",
+        "Nightmare Soldiers",
+        "Virus Busters"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Nightmare_Soldiers | https://wikimon.net/Category:Virus_Busters"
+    },
+    {
+      "id": "patamon",
+      "name": "Patamon",
+      "family": "Virus Busters",
+      "source_fields": [
+        "Jungle Troopers",
+        "Nature Spirits",
+        "Virus Busters",
+        "Wind Guardians"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Jungle_Troopers | https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Virus_Busters | https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "peckmon",
+      "name": "Peckmon",
+      "family": "Wind Guardians",
+      "source_fields": [
+        "Wind Guardians"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "phantomon",
+      "name": "Phantomon",
+      "family": "Nightmare Soldiers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "piedmon",
+      "name": "Piedmon",
+      "family": "Nightmare Soldiers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "pilevolcamon",
+      "name": "PileVolcamon",
+      "family": "Metal Empire",
+      "source_fields": [
+        "Metal Empire"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Metal_Empire"
+    },
+    {
+      "id": "piximon",
+      "name": "Piximon",
+      "family": "Virus Busters",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "platinumnumemon",
+      "name": "PlatinumNumemon",
+      "family": "Metal Empire",
+      "source_fields": [
+        "Metal Empire",
+        "Nightmare Soldiers"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Nightmare_Soldiers"
+    },
+    {
+      "id": "platinumsukamon",
+      "name": "PlatinumSukamon",
+      "family": "Nature Spirits",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "plesiomon",
+      "name": "Plesiomon",
+      "family": "Deep Savers",
+      "source_fields": [
+        "Deep Savers"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Deep_Savers"
+    },
+    {
+      "id": "poyomon",
+      "name": "Poyomon",
+      "family": "Virus Busters",
+      "source_fields": [
+        "Virus Busters"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Virus_Busters"
+    },
+    {
+      "id": "princemamemon",
+      "name": "PrinceMamemon",
+      "family": "Metal Empire",
+      "source_fields": [
+        "Dark Area",
+        "Metal Empire",
+        "Unknown",
+        "Virus Busters"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Dark_Area | https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Unknown | https://wikimon.net/Category:Virus_Busters"
+    },
+    {
+      "id": "pumpkinmon",
+      "name": "Pumpkinmon",
+      "family": "Nature Spirits",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "punimon",
+      "name": "Punimon",
+      "family": "Nature Spirits",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "puppetmon",
+      "name": "Puppetmon",
+      "family": "Jungle Troopers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "rapidmon",
+      "name": "Rapidmon",
+      "family": "Metal Empire",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "rapidmon_armor",
+      "name": "Rapidmon (Armor)",
+      "family": "Virus Busters",
+      "source_fields": [
+        "Metal Empire",
+        "Virus Busters"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Virus_Busters"
+    },
+    {
+      "id": "raptordramon",
+      "name": "Raptordramon",
+      "family": "Dragon's Roar",
+      "source_fields": [
+        "Dragon's Roar",
+        "Metal Empire",
+        "Nature Spirits",
+        "Virus Busters"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Dragon%27s_Roar | https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Virus_Busters"
+    },
+    {
+      "id": "raremon",
+      "name": "Raremon",
+      "family": "Metal Empire",
+      "source_fields": [
+        "Metal Empire",
+        "Nightmare Soldiers"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Nightmare_Soldiers"
+    },
+    {
+      "id": "ravemon",
+      "name": "Ravemon",
+      "family": "Wind Guardians",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "ravemon_bm",
+      "name": "Ravemon BM",
+      "family": "Wind Guardians",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "renamon",
+      "name": "Renamon",
+      "family": "Nightmare Soldiers",
+      "source_fields": [
+        "Nature Spirits",
+        "Nightmare Soldiers"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Nightmare_Soldiers"
+    },
+    {
+      "id": "reppamon",
+      "name": "Reppamon",
+      "family": "Virus Busters",
+      "source_fields": [
+        "Virus Busters",
+        "Wind Guardians"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Virus_Busters | https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "rizegreymon",
+      "name": "RizeGreymon",
+      "family": "Dragon's Roar",
+      "source_fields": [
+        "Dragon's Roar",
+        "Metal Empire",
+        "Virus Busters"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Dragon%27s_Roar | https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Virus_Busters"
+    },
+    {
+      "id": "rosemon",
+      "name": "Rosemon",
+      "family": "Jungle Troopers",
+      "source_fields": [
+        "Jungle Troopers",
+        "Nightmare Soldiers",
+        "Wind Guardians"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Jungle_Troopers | https://wikimon.net/Category:Nightmare_Soldiers | https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "rosemon_bm",
+      "name": "Rosemon BM",
+      "family": "Jungle Troopers",
+      "source_fields": [
+        "Jungle Troopers",
+        "Wind Guardians"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Jungle_Troopers | https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "rusttyranomon",
+      "name": "RustTyranomon",
+      "family": "Metal Empire",
+      "source_fields": [
+        "Metal Empire"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Metal_Empire"
+    },
+    {
+      "id": "ryudamon",
+      "name": "Ryudamon",
+      "family": "Dragon's Roar",
+      "source_fields": [
+        "Dragon's Roar",
+        "Nature Spirits"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Dragon%27s_Roar | https://wikimon.net/Category:Nature_Spirits"
+    },
+    {
+      "id": "saberleomon",
+      "name": "SaberLeomon",
+      "family": "Virus Busters",
+      "source_fields": [
+        "Nature Spirits",
+        "Virus Busters"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Virus_Busters"
+    },
+    {
+      "id": "sakuyamon",
+      "name": "Sakuyamon",
+      "family": "Virus Busters",
+      "source_fields": [
+        "Nature Spirits",
+        "Nightmare Soldiers",
+        "Virus Busters",
+        "Wind Guardians"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Nightmare_Soldiers | https://wikimon.net/Category:Virus_Busters | https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "salamon",
+      "name": "Salamon",
+      "family": "Virus Busters",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "sangloupmon",
+      "name": "Sangloupmon",
+      "family": "Nightmare Soldiers",
+      "source_fields": [
+        "Dark Area",
+        "Nightmare Soldiers"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Dark_Area | https://wikimon.net/Category:Nightmare_Soldiers"
+    },
+    {
+      "id": "saviorhuckmon",
+      "name": "SaviorHuckmon",
+      "family": "Metal Empire",
+      "source_fields": [
+        "Metal Empire",
+        "Virus Busters"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Virus_Busters"
+    },
+    {
+      "id": "seadramon",
+      "name": "Seadramon",
+      "family": "Deep Savers",
+      "source_fields": [
+        "Deep Savers"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Deep_Savers"
+    },
+    {
+      "id": "seraphimon",
+      "name": "Seraphimon",
+      "family": "Virus Busters",
+      "source_fields": [
+        "Virus Busters",
+        "Wind Guardians"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Virus_Busters | https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "shakkoumon",
+      "name": "Shakkoumon",
+      "family": "Virus Busters",
+      "source_fields": [
+        "Deep Savers",
+        "Metal Empire",
+        "Unknown",
+        "Virus Busters"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Deep_Savers | https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Unknown | https://wikimon.net/Category:Virus_Busters"
+    },
+    {
+      "id": "shellnumemon",
+      "name": "ShellNumemon",
+      "family": "Deep Savers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "shinegreymon",
+      "name": "ShineGreymon",
+      "family": "Dragon's Roar",
+      "source_fields": [
+        "Dragon's Roar",
+        "Nature Spirits",
+        "Virus Busters"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Dragon%27s_Roar | https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Virus_Busters"
+    },
+    {
+      "id": "shinegreymon_bm",
+      "name": "ShineGreymon BM",
+      "family": "Dragon's Roar",
+      "source_fields": [
+        "Dragon's Roar",
+        "Nature Spirits"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Dragon%27s_Roar | https://wikimon.net/Category:Nature_Spirits"
+    },
+    {
+      "id": "shogungekomon",
+      "name": "ShogunGekomon",
+      "family": "Deep Savers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "shoutmon",
+      "name": "Shoutmon",
+      "family": "Virus Busters",
+      "source_fields": [
+        "Nature Spirits",
+        "Virus Busters"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Virus_Busters"
+    },
+    {
+      "id": "silphymon",
+      "name": "Silphymon",
+      "family": "Wind Guardians",
+      "source_fields": [
+        "Nature Spirits",
+        "Virus Busters",
+        "Wind Guardians"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Virus_Busters | https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "sistermon_b_awake",
+      "name": "Sistermon B (Awake.)",
+      "family": "Virus Busters",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "sistermon_blanc",
+      "name": "Sistermon Blanc",
+      "family": "Nature Spirits",
+      "source_fields": [
+        "Nature Spirits"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Nature_Spirits"
+    },
+    {
+      "id": "sistermon_c_awake",
+      "name": "Sistermon C (Awake.)",
+      "family": "Virus Busters",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "sistermon_ciel",
+      "name": "Sistermon Ciel",
+      "family": "Virus Busters",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "skullgreymon",
+      "name": "SkullGreymon",
+      "family": "Dragon's Roar",
+      "source_fields": [
+        "Dragon's Roar",
+        "Nightmare Soldiers"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Dragon%27s_Roar | https://wikimon.net/Category:Nightmare_Soldiers"
+    },
+    {
+      "id": "skullmeramon",
+      "name": "SkullMeramon",
+      "family": "Dragon's Roar",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "skullsatamon",
+      "name": "SkullSatamon",
+      "family": "Nightmare Soldiers",
+      "source_fields": [
+        "Nightmare Soldiers"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Nightmare_Soldiers"
+    },
+    {
+      "id": "slayerdramon",
+      "name": "Slayerdramon",
+      "family": "Dragon's Roar",
+      "source_fields": [
+        "Dragon's Roar"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Dragon%27s_Roar"
+    },
+    {
+      "id": "socerimon",
+      "name": "Socerimon",
+      "family": "Deep Savers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "solarmon",
+      "name": "Solarmon",
+      "family": "Virus Busters",
+      "source_fields": [
+        "Metal Empire",
+        "Virus Busters"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Virus_Busters"
+    },
+    {
+      "id": "starmon",
+      "name": "Starmon",
+      "family": "Deep Savers",
+      "source_fields": [
+        "Deep Savers",
+        "Metal Empire",
+        "Nature Spirits",
+        "Nightmare Soldiers"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Deep_Savers | https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Nightmare_Soldiers"
+    },
+    {
+      "id": "stingmon",
+      "name": "Stingmon",
+      "family": "Jungle Troopers",
+      "source_fields": [
+        "Jungle Troopers",
+        "Nature Spirits",
+        "Nightmare Soldiers",
+        "Wind Guardians"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Jungle_Troopers | https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Nightmare_Soldiers | https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "strikedramon",
+      "name": "Strikedramon",
+      "family": "Metal Empire",
+      "source_fields": [
+        "Metal Empire",
+        "Nature Spirits"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Nature_Spirits"
+    },
+    {
+      "id": "sukamon",
+      "name": "Sukamon",
+      "family": "Nature Spirits",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "sunflowmon",
+      "name": "Sunflowmon",
+      "family": "Jungle Troopers",
+      "source_fields": [
+        "Jungle Troopers"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Jungle_Troopers"
+    },
+    {
+      "id": "superstarmon",
+      "name": "SuperStarmon",
+      "family": "Metal Empire",
+      "source_fields": [
+        "Metal Empire",
+        "Nature Spirits"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Nature_Spirits"
+    },
+    {
+      "id": "susanomon",
+      "name": "Susanomon",
+      "family": "Virus Busters",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "syakomon",
+      "name": "Syakomon",
+      "family": "Deep Savers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "tanemon",
+      "name": "Tanemon",
+      "family": "Jungle Troopers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "tankmon",
+      "name": "Tankmon",
+      "family": "Metal Empire",
+      "source_fields": [
+        "Metal Empire"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Metal_Empire"
+    },
+    {
+      "id": "taomon",
+      "name": "Taomon",
+      "family": "Nightmare Soldiers",
+      "source_fields": [
+        "Nature Spirits",
+        "Nightmare Soldiers",
+        "Virus Busters",
+        "Wind Guardians"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Nightmare_Soldiers | https://wikimon.net/Category:Virus_Busters | https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "tentomon",
+      "name": "Tentomon",
+      "family": "Jungle Troopers",
+      "source_fields": [
+        "Jungle Troopers",
+        "Metal Empire",
+        "Nature Spirits"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Jungle_Troopers | https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Nature_Spirits"
+    },
+    {
+      "id": "terriermon",
+      "name": "Terriermon",
+      "family": "Wind Guardians",
+      "source_fields": [
+        "Metal Empire",
+        "Nature Spirits",
+        "Virus Busters",
+        "Wind Guardians"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Virus_Busters | https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "tigervespamon",
+      "name": "TigerVespamon",
+      "family": "Metal Empire",
+      "source_fields": [
+        "Jungle Troopers",
+        "Metal Empire",
+        "Wind Guardians"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Jungle_Troopers | https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "titamon",
+      "name": "Titamon",
+      "family": "Nightmare Soldiers",
+      "source_fields": [
+        "Dark Area",
+        "Nightmare Soldiers"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Dark_Area | https://wikimon.net/Category:Nightmare_Soldiers"
+    },
+    {
+      "id": "togemon",
+      "name": "Togemon",
+      "family": "Jungle Troopers",
+      "source_fields": [
+        "Jungle Troopers",
+        "Nature Spirits",
+        "Wind Guardians"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Jungle_Troopers | https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "tokomon",
+      "name": "Tokomon",
+      "family": "Virus Busters",
+      "source_fields": [
+        "Virus Busters"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Virus_Busters"
+    },
+    {
+      "id": "toyagumon",
+      "name": "ToyAgumon",
+      "family": "Metal Empire",
+      "source_fields": [
+        "Metal Empire"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Metal_Empire"
+    },
+    {
+      "id": "triceramon",
+      "name": "Triceramon",
+      "family": "Nightmare Soldiers",
+      "source_fields": [
+        "Nature Spirits",
+        "Nightmare Soldiers"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Nightmare_Soldiers"
+    },
+    {
+      "id": "tsumemon",
+      "name": "Tsumemon",
+      "family": "Nightmare Soldiers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "tsunomon",
+      "name": "Tsunomon",
+      "family": "Nature Spirits",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "turuiemon",
+      "name": "Turuiemon",
+      "family": "Nature Spirits",
+      "source_fields": [
+        "Nature Spirits",
+        "Unknown"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Unknown"
+    },
+    {
+      "id": "tyrannomon",
+      "name": "Tyrannomon",
+      "family": "Dragon's Roar",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "tyrantkabuterimon",
+      "name": "TyrantKabuterimon",
+      "family": "Nature Spirits",
+      "source_fields": [
+        "Nature Spirits"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Nature_Spirits"
+    },
+    {
+      "id": "ulforceveedramon",
+      "name": "UlforceVeedramon",
+      "family": "Dragon's Roar",
+      "source_fields": [
+        "Dragon's Roar",
+        "Nature Spirits",
+        "Virus Busters",
+        "Wind Guardians"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Dragon%27s_Roar | https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Virus_Busters | https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "unimon",
+      "name": "Unimon",
+      "family": "Wind Guardians",
+      "source_fields": [
+        "Nature Spirits",
+        "Virus Busters",
+        "Wind Guardians"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Virus_Busters | https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "vademon",
+      "name": "Vademon",
+      "family": "Dark Area",
+      "source_fields": [
+        "Dark Area",
+        "Unknown"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Dark_Area | https://wikimon.net/Category:Unknown"
+    },
+    {
+      "id": "valkyrimon",
+      "name": "Valkyrimon",
+      "family": "Wind Guardians",
+      "source_fields": [
+        "Nature Spirits",
+        "Virus Busters",
+        "Wind Guardians"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Virus_Busters | https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "varodurumon",
+      "name": "Varodurumon",
+      "family": "Virus Busters",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "veedramon",
+      "name": "Veedramon",
+      "family": "Dragon's Roar",
+      "source_fields": [
+        "Dragon's Roar",
+        "Nature Spirits",
+        "Virus Busters",
+        "Wind Guardians"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Dragon%27s_Roar | https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Virus_Busters | https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "veemon",
+      "name": "Veemon",
+      "family": "Nature Spirits",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "vegiemon",
+      "name": "Vegiemon",
+      "family": "Jungle Troopers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "venommyotismon",
+      "name": "VenomMyotismon",
+      "family": "Nightmare Soldiers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "vikemon",
+      "name": "Vikemon",
+      "family": "Deep Savers",
+      "source_fields": [
+        "Deep Savers",
+        "Nature Spirits"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Deep_Savers | https://wikimon.net/Category:Nature_Spirits"
+    },
+    {
+      "id": "volcanomon",
+      "name": "Volcanomon",
+      "family": "Dragon's Roar",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "wanyamon",
+      "name": "Wanyamon",
+      "family": "Nature Spirits",
+      "source_fields": [
+        "Nature Spirits"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Nature_Spirits"
+    },
+    {
+      "id": "wargreymon",
+      "name": "WarGreymon",
+      "family": "Dragon's Roar",
+      "source_fields": [
+        "Deep Savers",
+        "Dragon's Roar",
+        "Metal Empire",
+        "Nature Spirits",
+        "Nightmare Soldiers",
+        "Virus Busters"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Deep_Savers | https://wikimon.net/Category:Dragon%27s_Roar | https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Nightmare_Soldiers | https://wikimon.net/Category:Virus_Busters"
+    },
+    {
+      "id": "wargrowlmon",
+      "name": "WarGrowlmon",
+      "family": "Dragon's Roar",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "waspmon",
+      "name": "Waspmon",
+      "family": "Metal Empire",
+      "source_fields": [
+        "Metal Empire",
+        "Wind Guardians"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "weregarurumon",
+      "name": "WereGarurumon",
+      "family": "Wind Guardians",
+      "source_fields": [
+        "Metal Empire",
+        "Nature Spirits",
+        "Nightmare Soldiers",
+        "Virus Busters",
+        "Wind Guardians"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Metal_Empire | https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Nightmare_Soldiers | https://wikimon.net/Category:Virus_Busters | https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "weregarurumon_blk",
+      "name": "WereGarurumon (Blk)",
+      "family": "Nightmare Soldiers",
+      "source_fields": [
+        "Nature Spirits",
+        "Nightmare Soldiers"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Nightmare_Soldiers"
+    },
+    {
+      "id": "whamon",
+      "name": "Whamon",
+      "family": "Deep Savers",
+      "source_fields": [
+        "Deep Savers"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Deep_Savers"
+    },
+    {
+      "id": "wingdramon",
+      "name": "Wingdramon",
+      "family": "Dragon's Roar",
+      "source_fields": [
+        "Dragon's Roar",
+        "Wind Guardians"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Dragon%27s_Roar | https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "wisemon",
+      "name": "Wisemon",
+      "family": "Nightmare Soldiers",
+      "source_fields": [
+        "Nightmare Soldiers"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Nightmare_Soldiers"
+    },
+    {
+      "id": "wizardmon",
+      "name": "Wizardmon",
+      "family": "Nightmare Soldiers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "woodmon",
+      "name": "Woodmon",
+      "family": "Jungle Troopers",
+      "source_fields": [
+        "Jungle Troopers",
+        "Nature Spirits",
+        "Wind Guardians"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Jungle_Troopers | https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Wind_Guardians"
+    },
+    {
+      "id": "wormmon",
+      "name": "Wormmon",
+      "family": "Jungle Troopers",
+      "source_fields": [
+        "Jungle Troopers",
+        "Nature Spirits",
+        "Nightmare Soldiers",
+        "Unknown"
+      ],
+      "assignment_kind": "proposed_from_multiple_official_fields",
+      "source_url": "https://wikimon.net/Category:Jungle_Troopers | https://wikimon.net/Category:Nature_Spirits | https://wikimon.net/Category:Nightmare_Soldiers | https://wikimon.net/Category:Unknown"
+    },
+    {
+      "id": "yokomon",
+      "name": "Yokomon",
+      "family": "Jungle Troopers",
+      "source_fields": [],
+      "assignment_kind": "proposed_from_element_and_form_theme",
+      "source_url": "https://wikimon.net/Field"
+    },
+    {
+      "id": "zubaeagermon",
+      "name": "Zubaeagermon",
+      "family": "Metal Empire",
+      "source_fields": [
+        "Metal Empire"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Metal_Empire"
+    },
+    {
+      "id": "zubamon",
+      "name": "Zubamon",
+      "family": "Metal Empire",
+      "source_fields": [
+        "Metal Empire"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Metal_Empire"
+    },
+    {
+      "id": "zudomon",
+      "name": "Zudomon",
+      "family": "Deep Savers",
+      "source_fields": [
+        "Deep Savers"
+      ],
+      "assignment_kind": "verified",
+      "source_url": "https://wikimon.net/Category:Deep_Savers"
+    }
+  ]
+}

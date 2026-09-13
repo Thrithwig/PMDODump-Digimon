@@ -16,10 +16,12 @@ class PassiveCatalogTests(unittest.TestCase):
     def setUpClass(cls):
         cls.rows=read(ROOT/'DataAsset/Digimon/passive_abilities.json')['abilities']
         cls.source={e['id']:e for e in read(ROOT/'DataAsset/Monster/digimon_manifest.json')['digimon']}
+        cls.families={e['id']:e for e in read(ROOT/'DataAsset/Digimon/digimon_families.json')['families']}
 
     def test_complete_unique_native_effects_and_unchanged_attributes(self):
         self.assertEqual(len(self.rows),341)
         self.assertEqual({r['species'] for r in self.rows},set(self.source))
+        self.assertEqual(set(self.families),set(self.source))
         self.assertEqual(len({r['ability_id'] for r in self.rows}),341)
         signatures=set()
         for row in self.rows:
@@ -36,6 +38,7 @@ class PassiveCatalogTests(unittest.TestCase):
                 self.assertEqual((form['Intrinsic2'],form['Intrinsic3']),('none','none'))
                 self.assertEqual(form['Element1'],ELEMENTS[row['attribute']])
                 self.assertEqual(form['DigimonAttribute'],row['type'])
+                self.assertEqual(form['DigimonFamily'],self.families[row['species']]['family'])
             self.assertNotIn('Own ',row['description'])
         self.assertEqual(len(signatures),341,'Different names must not hide duplicate native effects')
 
