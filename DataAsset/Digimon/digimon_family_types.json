@@ -1,0 +1,3915 @@
+{
+  "schema_version": 1,
+  "source": {
+    "provider": "Digimon Wiki",
+    "species_reference": "https://digimon.fandom.com/wiki/Category:Species_by_type",
+    "retrieved_at": "2026-09-13",
+    "selection_rule": "Family_Type displays the first listed Digimon Wiki physical Type. All listed physical Types are preserved in source_types."
+  },
+  "family_types": [
+    {
+      "id": "aeroveedramon",
+      "name": "AeroVeedramon",
+      "Family_Type": "Holy Dragon",
+      "source_types": [
+        "Holy Dragon"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "AeroVeedramon",
+      "source_url": "https://digimon.fandom.com/wiki/AeroVeedramon"
+    },
+    {
+      "id": "agumon",
+      "name": "Agumon",
+      "Family_Type": "Reptile",
+      "source_types": [
+        "Reptile"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Agumon",
+      "source_url": "https://digimon.fandom.com/wiki/Agumon"
+    },
+    {
+      "id": "agumon_blk",
+      "name": "Agumon (Blk)",
+      "Family_Type": "Reptile",
+      "source_types": [
+        "Reptile"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "BlackAgumon",
+      "source_url": "https://digimon.fandom.com/wiki/BlackAgumon"
+    },
+    {
+      "id": "agunimon",
+      "name": "Agunimon",
+      "Family_Type": "Wizard",
+      "source_types": [
+        "Wizard"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Agunimon",
+      "source_url": "https://digimon.fandom.com/wiki/Agunimon"
+    },
+    {
+      "id": "airdramon",
+      "name": "Airdramon",
+      "Family_Type": "Mythical Animal",
+      "source_types": [
+        "Mythical Animal",
+        "Mythical Beast"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Airdramon",
+      "source_url": "https://digimon.fandom.com/wiki/Airdramon"
+    },
+    {
+      "id": "alphamon",
+      "name": "Alphamon",
+      "Family_Type": "Holy Warrior",
+      "source_types": [
+        "Holy Warrior",
+        "Warrior"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Alphamon",
+      "source_url": "https://digimon.fandom.com/wiki/Alphamon"
+    },
+    {
+      "id": "alphamon_nx",
+      "name": "Alphamon NX",
+      "Family_Type": "Holy Warrior",
+      "source_types": [
+        "Holy Warrior",
+        "Warrior"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Alphamon",
+      "source_url": "https://digimon.fandom.com/wiki/Alphamon"
+    },
+    {
+      "id": "alphamon_ouryuken",
+      "name": "Alphamon Ouryuken",
+      "Family_Type": "Holy Warrior",
+      "source_types": [
+        "Holy Warrior",
+        "NO DATA"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Alphamon Ouryuken",
+      "source_url": "https://digimon.fandom.com/wiki/Alphamon_Ouryuken"
+    },
+    {
+      "id": "andromon",
+      "name": "Andromon",
+      "Family_Type": "Android",
+      "source_types": [
+        "Android",
+        "Cyborg"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Andromon",
+      "source_url": "https://digimon.fandom.com/wiki/Andromon"
+    },
+    {
+      "id": "angemon",
+      "name": "Angemon",
+      "Family_Type": "Angel",
+      "source_types": [
+        "Angel"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Angemon",
+      "source_url": "https://digimon.fandom.com/wiki/Angemon"
+    },
+    {
+      "id": "angewomon",
+      "name": "Angewomon",
+      "Family_Type": "Angel",
+      "source_types": [
+        "Angel",
+        "Archangel"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Angewomon",
+      "source_url": "https://digimon.fandom.com/wiki/Angewomon"
+    },
+    {
+      "id": "ankylomon",
+      "name": "Ankylomon",
+      "Family_Type": "Ankylosaur",
+      "source_types": [
+        "Ankylosaur",
+        "Dinosaur"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Ankylomon",
+      "source_url": "https://digimon.fandom.com/wiki/Ankylomon"
+    },
+    {
+      "id": "antylamon",
+      "name": "Antylamon",
+      "Family_Type": "Holy Beast",
+      "source_types": [
+        "Holy Beast"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Antylamon (Good)",
+      "source_url": "https://digimon.fandom.com/wiki/Antylamon_%28Good%29"
+    },
+    {
+      "id": "apocalymon",
+      "name": "Apocalymon",
+      "Family_Type": "Mutant",
+      "source_types": [
+        "Mutant",
+        "Unidentified"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Apocalymon",
+      "source_url": "https://digimon.fandom.com/wiki/Apocalymon"
+    },
+    {
+      "id": "aquilamon",
+      "name": "Aquilamon",
+      "Family_Type": "Bird",
+      "source_types": [
+        "Bird",
+        "Giant Bird"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Aquilamon",
+      "source_url": "https://digimon.fandom.com/wiki/Aquilamon"
+    },
+    {
+      "id": "arcadiamon_champion",
+      "name": "Arcadiamon Champion",
+      "Family_Type": "Mysterious Beast",
+      "source_types": [
+        "Mysterious Beast"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Arcadiamon (Champion)",
+      "source_url": "https://digimon.fandom.com/wiki/Arcadiamon_%28Champion%29"
+    },
+    {
+      "id": "arcadiamon_in_tr",
+      "name": "Arcadiamon In-Tr.",
+      "Family_Type": "Unidentified",
+      "source_types": [],
+      "assignment_kind": "proposed_missing_wiki_type",
+      "source_title": "Arcadiamon (In-Training)",
+      "source_url": "https://digimon.fandom.com/wiki/Arcadiamon_%28In-Training%29"
+    },
+    {
+      "id": "arcadiamon_mega",
+      "name": "Arcadiamon Mega",
+      "Family_Type": "Mysterious Beast",
+      "source_types": [
+        "Mysterious Beast"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Arcadiamon (Mega)",
+      "source_url": "https://digimon.fandom.com/wiki/Arcadiamon_%28Mega%29"
+    },
+    {
+      "id": "arcadiamon_rookie",
+      "name": "Arcadiamon Rookie",
+      "Family_Type": "Mysterious Beast",
+      "source_types": [
+        "Mysterious Beast"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Arcadiamon (Rookie)",
+      "source_url": "https://digimon.fandom.com/wiki/Arcadiamon_%28Rookie%29"
+    },
+    {
+      "id": "arcadiamon_ultimate",
+      "name": "Arcadiamon Ultimate",
+      "Family_Type": "Mysterious Beast",
+      "source_types": [
+        "Mysterious Beast"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Arcadiamon (Ultimate)",
+      "source_url": "https://digimon.fandom.com/wiki/Arcadiamon_%28Ultimate%29"
+    },
+    {
+      "id": "arcadiamon_ultra",
+      "name": "Arcadiamon Ultra",
+      "Family_Type": "Mysterious Beast",
+      "source_types": [
+        "Mysterious Beast"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Arcadiamon (Ultra)",
+      "source_url": "https://digimon.fandom.com/wiki/Arcadiamon_%28Ultra%29"
+    },
+    {
+      "id": "armadillomon",
+      "name": "Armadillomon",
+      "Family_Type": "Mammal",
+      "source_types": [
+        "Mammal"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Armadillomon",
+      "source_url": "https://digimon.fandom.com/wiki/Armadillomon"
+    },
+    {
+      "id": "armageddemon",
+      "name": "Armageddemon",
+      "Family_Type": "Unidentified",
+      "source_types": [
+        "Unidentified"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Armageddemon",
+      "source_url": "https://digimon.fandom.com/wiki/Armageddemon"
+    },
+    {
+      "id": "bakemon",
+      "name": "Bakemon",
+      "Family_Type": "Ghost",
+      "source_types": [
+        "Ghost"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Bakemon",
+      "source_url": "https://digimon.fandom.com/wiki/Bakemon"
+    },
+    {
+      "id": "bancholeomon",
+      "name": "BanchoLeomon",
+      "Family_Type": "Beastkin",
+      "source_types": [
+        "Beastkin"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "BanchoLeomon",
+      "source_url": "https://digimon.fandom.com/wiki/BanchoLeomon"
+    },
+    {
+      "id": "baohuckmon",
+      "name": "BaoHuckmon",
+      "Family_Type": "Dinosaur",
+      "source_types": [
+        "Dinosaur"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "BaoHuckmon",
+      "source_url": "https://digimon.fandom.com/wiki/BaoHuckmon"
+    },
+    {
+      "id": "barbamon",
+      "name": "Barbamon",
+      "Family_Type": "Demon Lord",
+      "source_types": [
+        "Demon Lord"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Barbamon",
+      "source_url": "https://digimon.fandom.com/wiki/Barbamon"
+    },
+    {
+      "id": "beelzemon",
+      "name": "Beelzemon",
+      "Family_Type": "Demon Lord",
+      "source_types": [
+        "Demon Lord",
+        "Evil"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Beelzemon",
+      "source_url": "https://digimon.fandom.com/wiki/Beelzemon"
+    },
+    {
+      "id": "beelzemon_bm",
+      "name": "Beelzemon BM",
+      "Family_Type": "Demon Lord",
+      "source_types": [
+        "Demon Lord"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Beelzemon Blast Mode",
+      "source_url": "https://digimon.fandom.com/wiki/Beelzemon_Blast_Mode"
+    },
+    {
+      "id": "belphemon_rm",
+      "name": "Belphemon RM",
+      "Family_Type": "Demon Lord",
+      "source_types": [
+        "Demon Lord"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Belphemon Rage Mode",
+      "source_url": "https://digimon.fandom.com/wiki/Belphemon_Rage_Mode"
+    },
+    {
+      "id": "belphemon_sm",
+      "name": "Belphemon SM",
+      "Family_Type": "Demon Lord",
+      "source_types": [
+        "Demon Lord"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Belphemon Sleep Mode",
+      "source_url": "https://digimon.fandom.com/wiki/Belphemon_Sleep_Mode"
+    },
+    {
+      "id": "betamon",
+      "name": "Betamon",
+      "Family_Type": "Amphibian",
+      "source_types": [
+        "Amphibian"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Betamon",
+      "source_url": "https://digimon.fandom.com/wiki/Betamon"
+    },
+    {
+      "id": "birdramon",
+      "name": "Birdramon",
+      "Family_Type": "Bird",
+      "source_types": [
+        "Bird",
+        "Giant Bird"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Birdramon",
+      "source_url": "https://digimon.fandom.com/wiki/Birdramon"
+    },
+    {
+      "id": "biyomon",
+      "name": "Biyomon",
+      "Family_Type": "Bird",
+      "source_types": [
+        "Bird"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Biyomon",
+      "source_url": "https://digimon.fandom.com/wiki/Biyomon"
+    },
+    {
+      "id": "blackgatomon",
+      "name": "BlackGatomon",
+      "Family_Type": "Dark Animal",
+      "source_types": [
+        "Dark Animal"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "BlackGatomon",
+      "source_url": "https://digimon.fandom.com/wiki/BlackGatomon"
+    },
+    {
+      "id": "blackkingnumemon",
+      "name": "BlackKingNumemon",
+      "Family_Type": "Mollusk",
+      "source_types": [
+        "Mollusk"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "BlackKingNumemon",
+      "source_url": "https://digimon.fandom.com/wiki/BlackKingNumemon"
+    },
+    {
+      "id": "blackwargreymon",
+      "name": "BlackWarGreymon",
+      "Family_Type": "Dragonkin",
+      "source_types": [
+        "Dragonkin"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "BlackWarGreymon",
+      "source_url": "https://digimon.fandom.com/wiki/BlackWarGreymon"
+    },
+    {
+      "id": "bluemeramon",
+      "name": "BlueMeramon",
+      "Family_Type": "Flame",
+      "source_types": [
+        "Flame"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "BlueMeramon",
+      "source_url": "https://digimon.fandom.com/wiki/BlueMeramon"
+    },
+    {
+      "id": "boltmon",
+      "name": "Boltmon",
+      "Family_Type": "Android",
+      "source_types": [
+        "Android",
+        "Cyborg"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Boltmon",
+      "source_url": "https://digimon.fandom.com/wiki/Boltmon"
+    },
+    {
+      "id": "botamon",
+      "name": "Botamon",
+      "Family_Type": "Slime",
+      "source_types": [
+        "Slime"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Botamon",
+      "source_url": "https://digimon.fandom.com/wiki/Botamon"
+    },
+    {
+      "id": "breakdramon",
+      "name": "Breakdramon",
+      "Family_Type": "Machine Dragon",
+      "source_types": [
+        "Machine Dragon",
+        "Undead"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Breakdramon",
+      "source_url": "https://digimon.fandom.com/wiki/Breakdramon"
+    },
+    {
+      "id": "bukamon",
+      "name": "Bukamon",
+      "Family_Type": "Lesser",
+      "source_types": [
+        "Lesser",
+        "Micro"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Bukamon",
+      "source_url": "https://digimon.fandom.com/wiki/Bukamon"
+    },
+    {
+      "id": "burninggreymon",
+      "name": "BurningGreymon",
+      "Family_Type": "Dark Dragon",
+      "source_types": [
+        "Dark Dragon"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "BurningGreymon",
+      "source_url": "https://digimon.fandom.com/wiki/BurningGreymon"
+    },
+    {
+      "id": "cannonbeemon",
+      "name": "CannonBeemon",
+      "Family_Type": "Android",
+      "source_types": [
+        "Android",
+        "Cyborg",
+        "Insectoid"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "CannonBeemon",
+      "source_url": "https://digimon.fandom.com/wiki/CannonBeemon"
+    },
+    {
+      "id": "catchmamemon",
+      "name": "CatchMamemon",
+      "Family_Type": "Mutant",
+      "source_types": [
+        "Mutant"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "CatchMamemon",
+      "source_url": "https://digimon.fandom.com/wiki/CatchMamemon"
+    },
+    {
+      "id": "chaosdramon",
+      "name": "Chaosdramon",
+      "Family_Type": "Machine",
+      "source_types": [
+        "Machine"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Chaosdramon",
+      "source_url": "https://digimon.fandom.com/wiki/Chaosdramon"
+    },
+    {
+      "id": "chaosgallantmon",
+      "name": "ChaosGallantmon",
+      "Family_Type": "Dark Knight",
+      "source_types": [
+        "Dark Knight",
+        "Dark Warrior"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "ChaosGallantmon",
+      "source_url": "https://digimon.fandom.com/wiki/ChaosGallantmon"
+    },
+    {
+      "id": "chaosmon",
+      "name": "Chaosmon",
+      "Family_Type": "Unique",
+      "source_types": [
+        "Unique"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Chaosmon",
+      "source_url": "https://digimon.fandom.com/wiki/Chaosmon"
+    },
+    {
+      "id": "chaosmon_va",
+      "name": "Chaosmon VA",
+      "Family_Type": "Unique",
+      "source_types": [
+        "Unique"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Chaosmon Valdur Arm",
+      "source_url": "https://digimon.fandom.com/wiki/Chaosmon_Valdur_Arm"
+    },
+    {
+      "id": "cherrymon",
+      "name": "Cherrymon",
+      "Family_Type": "Vegetation",
+      "source_types": [
+        "Vegetation"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Cherrymon",
+      "source_url": "https://digimon.fandom.com/wiki/Cherrymon"
+    },
+    {
+      "id": "chirinmon",
+      "name": "Chirinmon",
+      "Family_Type": "Holy Beast",
+      "source_types": [
+        "Holy Beast"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Chirinmon",
+      "source_url": "https://digimon.fandom.com/wiki/Chirinmon"
+    },
+    {
+      "id": "chuumon",
+      "name": "Chuumon",
+      "Family_Type": "Animal",
+      "source_types": [
+        "Animal",
+        "Beast"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Chuumon",
+      "source_url": "https://digimon.fandom.com/wiki/Chuumon"
+    },
+    {
+      "id": "clockmon",
+      "name": "Clockmon",
+      "Family_Type": "Machine",
+      "source_types": [
+        "Machine"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Clockmon",
+      "source_url": "https://digimon.fandom.com/wiki/Clockmon"
+    },
+    {
+      "id": "coelamon",
+      "name": "Coelamon",
+      "Family_Type": "Ancient Fish",
+      "source_types": [
+        "Ancient Fish"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Coelamon",
+      "source_url": "https://digimon.fandom.com/wiki/Coelamon"
+    },
+    {
+      "id": "coredramon_blue",
+      "name": "Coredramon (Blue)",
+      "Family_Type": "Dragon",
+      "source_types": [
+        "Dragon"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Coredramon (Blue)",
+      "source_url": "https://digimon.fandom.com/wiki/Coredramon_%28Blue%29"
+    },
+    {
+      "id": "coredramon_green",
+      "name": "Coredramon (Green)",
+      "Family_Type": "Dragon",
+      "source_types": [
+        "Dragon"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Coredramon (Green)",
+      "source_url": "https://digimon.fandom.com/wiki/Coredramon_%28Green%29"
+    },
+    {
+      "id": "craniamon",
+      "name": "Craniamon",
+      "Family_Type": "Holy Warrior",
+      "source_types": [
+        "Holy Warrior"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Craniamon",
+      "source_url": "https://digimon.fandom.com/wiki/Craniamon"
+    },
+    {
+      "id": "creepymon",
+      "name": "Creepymon",
+      "Family_Type": "Demon Lord",
+      "source_types": [
+        "Demon Lord"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Daemon",
+      "source_url": "https://digimon.fandom.com/wiki/Daemon"
+    },
+    {
+      "id": "crescemon",
+      "name": "Crescemon",
+      "Family_Type": "Wizard",
+      "source_types": [
+        "Wizard"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Crescemon",
+      "source_url": "https://digimon.fandom.com/wiki/Crescemon"
+    },
+    {
+      "id": "crowmon",
+      "name": "Crowmon",
+      "Family_Type": "Mysterious Bird",
+      "source_types": [
+        "Mysterious Bird"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Crowmon",
+      "source_url": "https://digimon.fandom.com/wiki/Crowmon"
+    },
+    {
+      "id": "crusadermon",
+      "name": "Crusadermon",
+      "Family_Type": "Holy Warrior",
+      "source_types": [
+        "Holy Warrior",
+        "Warrior"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Crusadermon",
+      "source_url": "https://digimon.fandom.com/wiki/Crusadermon"
+    },
+    {
+      "id": "crusadermon_nx",
+      "name": "Crusadermon NX",
+      "Family_Type": "Holy Warrior",
+      "source_types": [
+        "Holy Warrior",
+        "Warrior"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Crusadermon",
+      "source_url": "https://digimon.fandom.com/wiki/Crusadermon"
+    },
+    {
+      "id": "cyberdramon",
+      "name": "Cyberdramon",
+      "Family_Type": "Cyborg",
+      "source_types": [
+        "Cyborg",
+        "Dragonkin"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Cyberdramon",
+      "source_url": "https://digimon.fandom.com/wiki/Cyberdramon"
+    },
+    {
+      "id": "cyclonemon",
+      "name": "Cyclonemon",
+      "Family_Type": "Dragon",
+      "source_types": [
+        "Dragon",
+        "Dragonkin"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Cyclonemon",
+      "source_url": "https://digimon.fandom.com/wiki/Cyclonemon"
+    },
+    {
+      "id": "darkdramon",
+      "name": "Darkdramon",
+      "Family_Type": "Cyborg",
+      "source_types": [
+        "Cyborg"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Darkdramon",
+      "source_url": "https://digimon.fandom.com/wiki/Darkdramon"
+    },
+    {
+      "id": "datamon",
+      "name": "Datamon",
+      "Family_Type": "Machine",
+      "source_types": [
+        "Machine"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Datamon",
+      "source_url": "https://digimon.fandom.com/wiki/Datamon"
+    },
+    {
+      "id": "demidevimon",
+      "name": "DemiDevimon",
+      "Family_Type": "Evil",
+      "source_types": [
+        "Evil"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "DemiDevimon",
+      "source_url": "https://digimon.fandom.com/wiki/DemiDevimon"
+    },
+    {
+      "id": "devimon",
+      "name": "Devimon",
+      "Family_Type": "Evil",
+      "source_types": [
+        "Evil",
+        "Fallen Angel"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Devimon",
+      "source_url": "https://digimon.fandom.com/wiki/Devimon"
+    },
+    {
+      "id": "diaboromon",
+      "name": "Diaboromon",
+      "Family_Type": "Unidentified",
+      "source_types": [
+        "Unidentified"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Diaboromon",
+      "source_url": "https://digimon.fandom.com/wiki/Diaboromon"
+    },
+    {
+      "id": "dianamon",
+      "name": "Dianamon",
+      "Family_Type": "Shaman",
+      "source_types": [
+        "Shaman"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Dianamon",
+      "source_url": "https://digimon.fandom.com/wiki/Dianamon"
+    },
+    {
+      "id": "digitamamon",
+      "name": "Digitamamon",
+      "Family_Type": "Perfect",
+      "source_types": [
+        "Perfect"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Digitamamon",
+      "source_url": "https://digimon.fandom.com/wiki/Digitamamon"
+    },
+    {
+      "id": "dinobeemon",
+      "name": "Dinobeemon",
+      "Family_Type": "Mutant",
+      "source_types": [
+        "Mutant"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Dinobeemon",
+      "source_url": "https://digimon.fandom.com/wiki/Dinobeemon"
+    },
+    {
+      "id": "dorugamon",
+      "name": "Dorugamon",
+      "Family_Type": "Animal",
+      "source_types": [
+        "Animal",
+        "Beast Dragon"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Dorugamon",
+      "source_url": "https://digimon.fandom.com/wiki/Dorugamon"
+    },
+    {
+      "id": "dorugoramon",
+      "name": "Dorugoramon",
+      "Family_Type": "Beast Dragon",
+      "source_types": [
+        "Beast Dragon",
+        "Dragon"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Dorugoramon",
+      "source_url": "https://digimon.fandom.com/wiki/Dorugoramon"
+    },
+    {
+      "id": "dorugreymon",
+      "name": "DoruGreymon",
+      "Family_Type": "Animal",
+      "source_types": [
+        "Animal",
+        "Beast Dragon"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "DoruGreymon",
+      "source_url": "https://digimon.fandom.com/wiki/DoruGreymon"
+    },
+    {
+      "id": "dorumon",
+      "name": "Dorumon",
+      "Family_Type": "Animal",
+      "source_types": [
+        "Animal",
+        "Beast"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Dorumon",
+      "source_url": "https://digimon.fandom.com/wiki/Dorumon"
+    },
+    {
+      "id": "dracmon",
+      "name": "Dracmon",
+      "Family_Type": "Undead",
+      "source_types": [
+        "Undead"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Dracmon",
+      "source_url": "https://digimon.fandom.com/wiki/Dracmon"
+    },
+    {
+      "id": "dracomon",
+      "name": "Dracomon",
+      "Family_Type": "Dragon",
+      "source_types": [
+        "Dragon"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Dracomon",
+      "source_url": "https://digimon.fandom.com/wiki/Dracomon"
+    },
+    {
+      "id": "dragomon",
+      "name": "Dragomon",
+      "Family_Type": "Aquabeast",
+      "source_types": [
+        "Aquabeast",
+        "Sea Animal"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Dragomon",
+      "source_url": "https://digimon.fandom.com/wiki/Dragomon"
+    },
+    {
+      "id": "duramon",
+      "name": "Duramon",
+      "Family_Type": "Weapon",
+      "source_types": [
+        "Weapon"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Duramon",
+      "source_url": "https://digimon.fandom.com/wiki/Duramon"
+    },
+    {
+      "id": "durandamon",
+      "name": "Durandamon",
+      "Family_Type": "Holy Sword",
+      "source_types": [
+        "Holy Sword"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Durandamon",
+      "source_url": "https://digimon.fandom.com/wiki/Durandamon"
+    },
+    {
+      "id": "dynasmon",
+      "name": "Dynasmon",
+      "Family_Type": "Holy Warrior",
+      "source_types": [
+        "Holy Warrior",
+        "Warrior"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Dynasmon",
+      "source_url": "https://digimon.fandom.com/wiki/Dynasmon"
+    },
+    {
+      "id": "ebemon",
+      "name": "Ebemon",
+      "Family_Type": "Cyborg",
+      "source_types": [
+        "Cyborg"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Ebemon",
+      "source_url": "https://digimon.fandom.com/wiki/Ebemon"
+    },
+    {
+      "id": "elecmon",
+      "name": "Elecmon",
+      "Family_Type": "Mammal",
+      "source_types": [
+        "Mammal"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Elecmon",
+      "source_url": "https://digimon.fandom.com/wiki/Elecmon"
+    },
+    {
+      "id": "etemon",
+      "name": "Etemon",
+      "Family_Type": "Puppet",
+      "source_types": [
+        "Puppet"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Etemon",
+      "source_url": "https://digimon.fandom.com/wiki/Etemon"
+    },
+    {
+      "id": "examon",
+      "name": "Examon",
+      "Family_Type": "Holy Warrior",
+      "source_types": [
+        "Holy Warrior"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Examon",
+      "source_url": "https://digimon.fandom.com/wiki/Examon"
+    },
+    {
+      "id": "exveemon",
+      "name": "ExVeemon",
+      "Family_Type": "Mythical Dragon",
+      "source_types": [
+        "Mythical Dragon"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "ExVeemon",
+      "source_url": "https://digimon.fandom.com/wiki/ExVeemon"
+    },
+    {
+      "id": "falcomon",
+      "name": "Falcomon",
+      "Family_Type": "Avian",
+      "source_types": [
+        "Avian"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Falcomon",
+      "source_url": "https://digimon.fandom.com/wiki/Falcomon"
+    },
+    {
+      "id": "fanbeemon",
+      "name": "FanBeemon",
+      "Family_Type": "Insectoid",
+      "source_types": [
+        "Insectoid"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "FanBeemon",
+      "source_url": "https://digimon.fandom.com/wiki/FanBeemon"
+    },
+    {
+      "id": "flamedramon",
+      "name": "Flamedramon",
+      "Family_Type": "Dragon",
+      "source_types": [
+        "Dragon",
+        "Dragonkin"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Flamedramon",
+      "source_url": "https://digimon.fandom.com/wiki/Flamedramon"
+    },
+    {
+      "id": "frigimon",
+      "name": "Frigimon",
+      "Family_Type": "Ice-Snow",
+      "source_types": [
+        "Ice-Snow",
+        "Icy"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Frigimon",
+      "source_url": "https://digimon.fandom.com/wiki/Frigimon"
+    },
+    {
+      "id": "gabumon",
+      "name": "Gabumon",
+      "Family_Type": "Reptile",
+      "source_types": [
+        "Reptile"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Gabumon",
+      "source_url": "https://digimon.fandom.com/wiki/Gabumon"
+    },
+    {
+      "id": "gabumon_blk",
+      "name": "Gabumon (Blk)",
+      "Family_Type": "Reptile",
+      "source_types": [
+        "Reptile"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "BlackGabumon",
+      "source_url": "https://digimon.fandom.com/wiki/BlackGabumon"
+    },
+    {
+      "id": "gaiomon",
+      "name": "Gaiomon",
+      "Family_Type": "Dragon",
+      "source_types": [
+        "Dragon",
+        "Dragonkin"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Gaiomon",
+      "source_url": "https://digimon.fandom.com/wiki/Gaiomon"
+    },
+    {
+      "id": "gallantmon",
+      "name": "Gallantmon",
+      "Family_Type": "Holy Warrior",
+      "source_types": [
+        "Holy Warrior",
+        "Warrior"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Gallantmon",
+      "source_url": "https://digimon.fandom.com/wiki/Gallantmon"
+    },
+    {
+      "id": "gallantmon_cm",
+      "name": "Gallantmon CM",
+      "Family_Type": "Holy Warrior",
+      "source_types": [
+        "Holy Warrior",
+        "Warrior"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Gallantmon Crimson Mode",
+      "source_url": "https://digimon.fandom.com/wiki/Gallantmon_Crimson_Mode"
+    },
+    {
+      "id": "gallantmon_nx",
+      "name": "Gallantmon NX",
+      "Family_Type": "Holy Warrior",
+      "source_types": [
+        "Holy Warrior",
+        "Warrior"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Gallantmon",
+      "source_url": "https://digimon.fandom.com/wiki/Gallantmon"
+    },
+    {
+      "id": "gankoomon",
+      "name": "Gankoomon",
+      "Family_Type": "Holy Warrior",
+      "source_types": [
+        "Holy Warrior"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Gankoomon",
+      "source_url": "https://digimon.fandom.com/wiki/Gankoomon"
+    },
+    {
+      "id": "gaogamon",
+      "name": "GaoGamon",
+      "Family_Type": "Beast",
+      "source_types": [
+        "Beast"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Gaogamon",
+      "source_url": "https://digimon.fandom.com/wiki/Gaogamon"
+    },
+    {
+      "id": "gaomon",
+      "name": "Gaomon",
+      "Family_Type": "Beast",
+      "source_types": [
+        "Beast"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Gaomon",
+      "source_url": "https://digimon.fandom.com/wiki/Gaomon"
+    },
+    {
+      "id": "gargomon",
+      "name": "Gargomon",
+      "Family_Type": "Animal",
+      "source_types": [
+        "Animal",
+        "Beastkin"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Gargomon",
+      "source_url": "https://digimon.fandom.com/wiki/Gargomon"
+    },
+    {
+      "id": "garudamon",
+      "name": "Garudamon",
+      "Family_Type": "Bird",
+      "source_types": [
+        "Bird",
+        "Birdkin"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Garudamon",
+      "source_url": "https://digimon.fandom.com/wiki/Garudamon"
+    },
+    {
+      "id": "garurumon",
+      "name": "Garurumon",
+      "Family_Type": "Animal",
+      "source_types": [
+        "Animal",
+        "Beast"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Garurumon",
+      "source_url": "https://digimon.fandom.com/wiki/Garurumon"
+    },
+    {
+      "id": "garurumon_blk",
+      "name": "Garurumon (Blk)",
+      "Family_Type": "Beast",
+      "source_types": [
+        "Beast"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "BlackGarurumon",
+      "source_url": "https://digimon.fandom.com/wiki/BlackGarurumon"
+    },
+    {
+      "id": "gatomon",
+      "name": "Gatomon",
+      "Family_Type": "Animal",
+      "source_types": [
+        "Animal",
+        "Holy Beast"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Gatomon",
+      "source_url": "https://digimon.fandom.com/wiki/Gatomon"
+    },
+    {
+      "id": "gazimon",
+      "name": "Gazimon",
+      "Family_Type": "Mammal",
+      "source_types": [
+        "Mammal"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Gazimon",
+      "source_url": "https://digimon.fandom.com/wiki/Gazimon"
+    },
+    {
+      "id": "gekomon",
+      "name": "Gekomon",
+      "Family_Type": "Amphibian",
+      "source_types": [
+        "Amphibian"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Gekomon",
+      "source_url": "https://digimon.fandom.com/wiki/Gekomon"
+    },
+    {
+      "id": "geogreymon",
+      "name": "GeoGreymon",
+      "Family_Type": "Dinosaur",
+      "source_types": [
+        "Dinosaur"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "GeoGreymon",
+      "source_url": "https://digimon.fandom.com/wiki/GeoGreymon"
+    },
+    {
+      "id": "geremon",
+      "name": "Geremon",
+      "Family_Type": "Mollusk",
+      "source_types": [
+        "Mollusk"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Geremon",
+      "source_url": "https://digimon.fandom.com/wiki/Geremon"
+    },
+    {
+      "id": "gigadramon",
+      "name": "Gigadramon",
+      "Family_Type": "Android",
+      "source_types": [
+        "Android",
+        "Cyborg"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Gigadramon",
+      "source_url": "https://digimon.fandom.com/wiki/Gigadramon"
+    },
+    {
+      "id": "ginryumon",
+      "name": "Ginryumon",
+      "Family_Type": "Beast Dragon",
+      "source_types": [
+        "Beast Dragon",
+        "Dragon"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Ginryumon",
+      "source_url": "https://digimon.fandom.com/wiki/Ginryumon"
+    },
+    {
+      "id": "goblimon",
+      "name": "Goblimon",
+      "Family_Type": "Demon",
+      "source_types": [
+        "Demon",
+        "Evil"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Goblimon",
+      "source_url": "https://digimon.fandom.com/wiki/Goblimon"
+    },
+    {
+      "id": "goldnumemon",
+      "name": "GoldNumemon",
+      "Family_Type": "Mutant",
+      "source_types": [
+        "Mutant"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "GoldNumemon",
+      "source_url": "https://digimon.fandom.com/wiki/GoldNumemon"
+    },
+    {
+      "id": "goldramon",
+      "name": "Goldramon",
+      "Family_Type": "Holy Dragon",
+      "source_types": [
+        "Holy Dragon"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Goldramon",
+      "source_url": "https://digimon.fandom.com/wiki/Goldramon"
+    },
+    {
+      "id": "golemon",
+      "name": "Golemon",
+      "Family_Type": "Mineral",
+      "source_types": [
+        "Mineral",
+        "Rock"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Golemon",
+      "source_url": "https://digimon.fandom.com/wiki/Golemon"
+    },
+    {
+      "id": "gomamon",
+      "name": "Gomamon",
+      "Family_Type": "Sea Animal",
+      "source_types": [
+        "Sea Animal",
+        "Sea Beast"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Gomamon",
+      "source_url": "https://digimon.fandom.com/wiki/Gomamon"
+    },
+    {
+      "id": "gotsumon",
+      "name": "Gotsumon",
+      "Family_Type": "Mineral",
+      "source_types": [
+        "Mineral",
+        "Rock"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Gotsumon",
+      "source_url": "https://digimon.fandom.com/wiki/Gotsumon"
+    },
+    {
+      "id": "grademon",
+      "name": "Grademon",
+      "Family_Type": "Warrior",
+      "source_types": [
+        "Warrior"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Grademon",
+      "source_url": "https://digimon.fandom.com/wiki/Grademon"
+    },
+    {
+      "id": "grandracmon",
+      "name": "GranDracmon",
+      "Family_Type": "Dark Animal",
+      "source_types": [
+        "Dark Animal"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "GranDracmon",
+      "source_url": "https://digimon.fandom.com/wiki/GranDracmon"
+    },
+    {
+      "id": "grankuwagamon",
+      "name": "GranKuwagamon",
+      "Family_Type": "Insectoid",
+      "source_types": [
+        "Insectoid"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "GranKuwagamon",
+      "source_url": "https://digimon.fandom.com/wiki/GranKuwagamon"
+    },
+    {
+      "id": "grapleomon",
+      "name": "GrapLeomon",
+      "Family_Type": "Animal",
+      "source_types": [
+        "Animal",
+        "Beastkin"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "GrapLeomon",
+      "source_url": "https://digimon.fandom.com/wiki/GrapLeomon"
+    },
+    {
+      "id": "greymon",
+      "name": "Greymon",
+      "Family_Type": "Dinosaur",
+      "source_types": [
+        "Dinosaur"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Greymon",
+      "source_url": "https://digimon.fandom.com/wiki/Greymon"
+    },
+    {
+      "id": "greymon_blue",
+      "name": "Greymon (Blue)",
+      "Family_Type": "Dinosaur",
+      "source_types": [
+        "Dinosaur"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Greymon (Blue)",
+      "source_url": "https://digimon.fandom.com/wiki/Greymon_%28Blue%29"
+    },
+    {
+      "id": "groundlocomon",
+      "name": "GroundLocomon",
+      "Family_Type": "Machine",
+      "source_types": [
+        "Machine"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "GranLocomon",
+      "source_url": "https://digimon.fandom.com/wiki/GranLocomon"
+    },
+    {
+      "id": "groundramon",
+      "name": "Groundramon",
+      "Family_Type": "Earth Dragon",
+      "source_types": [
+        "Earth Dragon"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Groundramon",
+      "source_url": "https://digimon.fandom.com/wiki/Groundramon"
+    },
+    {
+      "id": "growlmon",
+      "name": "Growlmon",
+      "Family_Type": "Dark Dragon",
+      "source_types": [
+        "Dark Dragon"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Growlmon",
+      "source_url": "https://digimon.fandom.com/wiki/Growlmon"
+    },
+    {
+      "id": "gryphonmon",
+      "name": "Gryphonmon",
+      "Family_Type": "Mythical Animal",
+      "source_types": [
+        "Mythical Animal",
+        "Mythical Beast"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Gryphonmon",
+      "source_url": "https://digimon.fandom.com/wiki/Gryphonmon"
+    },
+    {
+      "id": "guardromon",
+      "name": "Guardromon",
+      "Family_Type": "Machine",
+      "source_types": [
+        "Machine"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Guardromon",
+      "source_url": "https://digimon.fandom.com/wiki/Guardromon"
+    },
+    {
+      "id": "guardromon_gold",
+      "name": "Guardromon (Gold)",
+      "Family_Type": "Machine",
+      "source_types": [
+        "Machine"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Guardromon (Gold)",
+      "source_url": "https://digimon.fandom.com/wiki/Guardromon_%28Gold%29"
+    },
+    {
+      "id": "guilmon",
+      "name": "Guilmon",
+      "Family_Type": "Evil",
+      "source_types": [
+        "Evil",
+        "Reptile"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Guilmon",
+      "source_url": "https://digimon.fandom.com/wiki/Guilmon"
+    },
+    {
+      "id": "hackmon",
+      "name": "Hackmon",
+      "Family_Type": "Mini Dragon",
+      "source_types": [
+        "Mini Dragon"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Hackmon",
+      "source_url": "https://digimon.fandom.com/wiki/Hackmon"
+    },
+    {
+      "id": "hagurumon",
+      "name": "Hagurumon",
+      "Family_Type": "Machine",
+      "source_types": [
+        "Machine"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Hagurumon",
+      "source_url": "https://digimon.fandom.com/wiki/Hagurumon"
+    },
+    {
+      "id": "hawkmon",
+      "name": "Hawkmon",
+      "Family_Type": "Avian",
+      "source_types": [
+        "Avian"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Hawkmon",
+      "source_url": "https://digimon.fandom.com/wiki/Hawkmon"
+    },
+    {
+      "id": "herculeskabuterimon",
+      "name": "HerculesKabuterimon",
+      "Family_Type": "Insectoid",
+      "source_types": [
+        "Insectoid"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "HerculesKabuterimon",
+      "source_url": "https://digimon.fandom.com/wiki/HerculesKabuterimon"
+    },
+    {
+      "id": "hiandromon",
+      "name": "HiAndromon",
+      "Family_Type": "Android",
+      "source_types": [
+        "Android",
+        "Cyborg"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "HiAndromon",
+      "source_url": "https://digimon.fandom.com/wiki/HiAndromon"
+    },
+    {
+      "id": "hippogryphonmon",
+      "name": "HippoGryphonmon",
+      "Family_Type": "Mythical Beast",
+      "source_types": [
+        "Mythical Beast"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "HippoGryphonmon",
+      "source_url": "https://digimon.fandom.com/wiki/HippoGryphonmon"
+    },
+    {
+      "id": "hisyaryumon",
+      "name": "Hisyaryumon",
+      "Family_Type": "Beast Dragon",
+      "source_types": [
+        "Beast Dragon",
+        "Dragon"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Hisyaryumon",
+      "source_url": "https://digimon.fandom.com/wiki/Hisyaryumon"
+    },
+    {
+      "id": "hououmon",
+      "name": "Hououmon",
+      "Family_Type": "Animal",
+      "source_types": [
+        "Animal",
+        "Holy Beast"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Phoenixmon",
+      "source_url": "https://digimon.fandom.com/wiki/Phoenixmon"
+    },
+    {
+      "id": "hudiemon",
+      "name": "Hudiemon",
+      "Family_Type": "Insectoid",
+      "source_types": [
+        "Insectoid"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Hudiemon",
+      "source_url": "https://digimon.fandom.com/wiki/Hudiemon"
+    },
+    {
+      "id": "icedevimon",
+      "name": "IceDevimon",
+      "Family_Type": "Fallen Angel",
+      "source_types": [
+        "Fallen Angel"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "IceDevimon",
+      "source_url": "https://digimon.fandom.com/wiki/IceDevimon"
+    },
+    {
+      "id": "icemon",
+      "name": "Icemon",
+      "Family_Type": "Ice-Snow",
+      "source_types": [
+        "Ice-Snow",
+        "Mineral"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Icemon",
+      "source_url": "https://digimon.fandom.com/wiki/Icemon"
+    },
+    {
+      "id": "ikkakumon",
+      "name": "Ikkakumon",
+      "Family_Type": "Sea Animal",
+      "source_types": [
+        "Sea Animal",
+        "Sea Beast"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Ikkakumon",
+      "source_url": "https://digimon.fandom.com/wiki/Ikkakumon"
+    },
+    {
+      "id": "imperialdramon_dm",
+      "name": "Imperialdramon DM",
+      "Family_Type": "Ancient Dragon",
+      "source_types": [
+        "Ancient Dragon"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Imperialdramon Dragon Mode",
+      "source_url": "https://digimon.fandom.com/wiki/Imperialdramon_Dragon_Mode"
+    },
+    {
+      "id": "imperialdramon_fm",
+      "name": "Imperialdramon FM",
+      "Family_Type": "Ancient Dragon",
+      "source_types": [
+        "Ancient Dragon",
+        "Ancient Dragonkin"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Imperialdramon Fighter Mode",
+      "source_url": "https://digimon.fandom.com/wiki/Imperialdramon_Fighter_Mode"
+    },
+    {
+      "id": "imperialdramon_pm",
+      "name": "Imperialdramon PM",
+      "Family_Type": "Ancient Dragon",
+      "source_types": [
+        "Ancient Dragon",
+        "Ancient Dragonkin",
+        "Ancient Holy Warrior"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Imperialdramon Paladin Mode",
+      "source_url": "https://digimon.fandom.com/wiki/Imperialdramon_Paladin_Mode"
+    },
+    {
+      "id": "impmon",
+      "name": "Impmon",
+      "Family_Type": "Evil",
+      "source_types": [
+        "Evil"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Impmon",
+      "source_url": "https://digimon.fandom.com/wiki/Impmon"
+    },
+    {
+      "id": "infermon",
+      "name": "Infermon",
+      "Family_Type": "Unidentified",
+      "source_types": [
+        "Unidentified"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Infermon",
+      "source_url": "https://digimon.fandom.com/wiki/Infermon"
+    },
+    {
+      "id": "jesmon",
+      "name": "Jesmon",
+      "Family_Type": "Holy Warrior",
+      "source_types": [
+        "Holy Warrior"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Jesmon",
+      "source_url": "https://digimon.fandom.com/wiki/Jesmon"
+    },
+    {
+      "id": "justimon",
+      "name": "Justimon",
+      "Family_Type": "Android",
+      "source_types": [
+        "Android",
+        "Cyborg"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Justimon (Blitz Arm)",
+      "source_url": "https://digimon.fandom.com/wiki/Justimon_%28Blitz_Arm%29"
+    },
+    {
+      "id": "kabuterimon",
+      "name": "Kabuterimon",
+      "Family_Type": "Insectoid",
+      "source_types": [
+        "Insectoid"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Kabuterimon",
+      "source_url": "https://digimon.fandom.com/wiki/Kabuterimon"
+    },
+    {
+      "id": "kaisergreymon",
+      "name": "KaiserGreymon",
+      "Family_Type": "Dragon Warrior",
+      "source_types": [
+        "Dragon Warrior"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "EmperorGreymon",
+      "source_url": "https://digimon.fandom.com/wiki/EmperorGreymon"
+    },
+    {
+      "id": "kendogarurumon",
+      "name": "KendoGarurumon",
+      "Family_Type": "Android",
+      "source_types": [
+        "Android",
+        "Cyborg"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "KendoGarurumon",
+      "source_url": "https://digimon.fandom.com/wiki/KendoGarurumon"
+    },
+    {
+      "id": "kentaurosmon",
+      "name": "Kentaurosmon",
+      "Family_Type": "Holy Warrior",
+      "source_types": [
+        "Holy Warrior"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Kentaurosmon",
+      "source_url": "https://digimon.fandom.com/wiki/Kentaurosmon"
+    },
+    {
+      "id": "keramon",
+      "name": "Keramon",
+      "Family_Type": "Unidentified",
+      "source_types": [
+        "Unidentified"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Keramon",
+      "source_url": "https://digimon.fandom.com/wiki/Keramon"
+    },
+    {
+      "id": "kerpymon_blk",
+      "name": "Kerpymon (Blk)",
+      "Family_Type": "Angel",
+      "source_types": [
+        "Angel",
+        "Cherub"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Cherubimon (Evil)",
+      "source_url": "https://digimon.fandom.com/wiki/Cherubimon_%28Evil%29"
+    },
+    {
+      "id": "kerpymon_good",
+      "name": "Kerpymon (Good)",
+      "Family_Type": "Angel",
+      "source_types": [
+        "Angel",
+        "Cherub"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Cherubimon (Good)",
+      "source_url": "https://digimon.fandom.com/wiki/Cherubimon_%28Good%29"
+    },
+    {
+      "id": "kingetemon",
+      "name": "KingEtemon",
+      "Family_Type": "Puppet",
+      "source_types": [
+        "Puppet"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "KingEtemon",
+      "source_url": "https://digimon.fandom.com/wiki/KingEtemon"
+    },
+    {
+      "id": "knightmon",
+      "name": "Knightmon",
+      "Family_Type": "Warrior",
+      "source_types": [
+        "Warrior"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Knightmon",
+      "source_url": "https://digimon.fandom.com/wiki/Knightmon"
+    },
+    {
+      "id": "koromon",
+      "name": "Koromon",
+      "Family_Type": "Lesser",
+      "source_types": [
+        "Lesser"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Koromon",
+      "source_url": "https://digimon.fandom.com/wiki/Koromon"
+    },
+    {
+      "id": "kudamon",
+      "name": "Kudamon",
+      "Family_Type": "Holy Beast",
+      "source_types": [
+        "Holy Beast"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Kudamon",
+      "source_url": "https://digimon.fandom.com/wiki/Kudamon"
+    },
+    {
+      "id": "kuramon",
+      "name": "Kuramon",
+      "Family_Type": "Unidentified",
+      "source_types": [
+        "Unidentified"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Kuramon",
+      "source_url": "https://digimon.fandom.com/wiki/Kuramon"
+    },
+    {
+      "id": "kurisarimon",
+      "name": "Kurisarimon",
+      "Family_Type": "Unidentified",
+      "source_types": [
+        "Unidentified"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Chrysalimon",
+      "source_url": "https://digimon.fandom.com/wiki/Chrysalimon"
+    },
+    {
+      "id": "kuwagamon",
+      "name": "Kuwagamon",
+      "Family_Type": "Insectoid",
+      "source_types": [
+        "Insectoid"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Kuwagamon",
+      "source_url": "https://digimon.fandom.com/wiki/Kuwagamon"
+    },
+    {
+      "id": "kuzuhamon",
+      "name": "Kuzuhamon",
+      "Family_Type": "Shaman",
+      "source_types": [
+        "Shaman"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Kuzuhamon",
+      "source_url": "https://digimon.fandom.com/wiki/Kuzuhamon"
+    },
+    {
+      "id": "kyubimon",
+      "name": "Kyubimon",
+      "Family_Type": "Mysterious Beast",
+      "source_types": [
+        "Mysterious Beast",
+        "Mythical Animal"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Kyubimon",
+      "source_url": "https://digimon.fandom.com/wiki/Kyubimon"
+    },
+    {
+      "id": "ladydevimon",
+      "name": "LadyDevimon",
+      "Family_Type": "Evil",
+      "source_types": [
+        "Evil",
+        "Fallen Angel"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "LadyDevimon",
+      "source_url": "https://digimon.fandom.com/wiki/LadyDevimon"
+    },
+    {
+      "id": "lalamon",
+      "name": "Lalamon",
+      "Family_Type": "Vegetation",
+      "source_types": [
+        "Vegetation"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Lalamon",
+      "source_url": "https://digimon.fandom.com/wiki/Lalamon"
+    },
+    {
+      "id": "lekismon",
+      "name": "Lekismon",
+      "Family_Type": "Beastkin",
+      "source_types": [
+        "Beastkin"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Lekismon",
+      "source_url": "https://digimon.fandom.com/wiki/Lekismon"
+    },
+    {
+      "id": "leomon",
+      "name": "Leomon",
+      "Family_Type": "Animal",
+      "source_types": [
+        "Animal",
+        "Beastkin"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Leomon",
+      "source_url": "https://digimon.fandom.com/wiki/Leomon"
+    },
+    {
+      "id": "leopardmon",
+      "name": "Leopardmon",
+      "Family_Type": "Holy Warrior",
+      "source_types": [
+        "Holy Warrior"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Leopardmon",
+      "source_url": "https://digimon.fandom.com/wiki/Leopardmon"
+    },
+    {
+      "id": "leopardmon_lm",
+      "name": "Leopardmon LM",
+      "Family_Type": "Holy Warrior",
+      "source_types": [
+        "Holy Warrior"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Leopardmon Leopard Mode",
+      "source_url": "https://digimon.fandom.com/wiki/Leopardmon_Leopard_Mode"
+    },
+    {
+      "id": "leopardmon_nx",
+      "name": "Leopardmon NX",
+      "Family_Type": "Holy Warrior",
+      "source_types": [
+        "Holy Warrior"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Leopardmon",
+      "source_url": "https://digimon.fandom.com/wiki/Leopardmon"
+    },
+    {
+      "id": "leviamon",
+      "name": "Leviamon",
+      "Family_Type": "Demon Lord",
+      "source_types": [
+        "Demon Lord"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Leviamon",
+      "source_url": "https://digimon.fandom.com/wiki/Leviamon"
+    },
+    {
+      "id": "lilamon",
+      "name": "Lilamon",
+      "Family_Type": "Fairy",
+      "source_types": [
+        "Fairy"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Lilamon",
+      "source_url": "https://digimon.fandom.com/wiki/Lilamon"
+    },
+    {
+      "id": "lilithmon",
+      "name": "Lilithmon",
+      "Family_Type": "Demon Lord",
+      "source_types": [
+        "Demon Lord"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Lilithmon",
+      "source_url": "https://digimon.fandom.com/wiki/Lilithmon"
+    },
+    {
+      "id": "lillymon",
+      "name": "Lillymon",
+      "Family_Type": "Fairy",
+      "source_types": [
+        "Fairy",
+        "Pixie"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Lillymon",
+      "source_url": "https://digimon.fandom.com/wiki/Lillymon"
+    },
+    {
+      "id": "lobomon",
+      "name": "Lobomon",
+      "Family_Type": "Warrior",
+      "source_types": [
+        "Warrior"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Lobomon",
+      "source_url": "https://digimon.fandom.com/wiki/Lobomon"
+    },
+    {
+      "id": "lopmon",
+      "name": "Lopmon",
+      "Family_Type": "Animal",
+      "source_types": [
+        "Animal",
+        "Beast"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Lopmon",
+      "source_url": "https://digimon.fandom.com/wiki/Lopmon"
+    },
+    {
+      "id": "lotosmon",
+      "name": "Lotosmon",
+      "Family_Type": "Fairy",
+      "source_types": [
+        "Fairy"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Lotosmon",
+      "source_url": "https://digimon.fandom.com/wiki/Lotosmon"
+    },
+    {
+      "id": "lucemon",
+      "name": "Lucemon",
+      "Family_Type": "Angel",
+      "source_types": [
+        "Angel"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Lucemon",
+      "source_url": "https://digimon.fandom.com/wiki/Lucemon"
+    },
+    {
+      "id": "lucemon_fm",
+      "name": "Lucemon FM",
+      "Family_Type": "Demon Lord",
+      "source_types": [
+        "Demon Lord",
+        "Wizard"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Lucemon Chaos Mode",
+      "source_url": "https://digimon.fandom.com/wiki/Lucemon_Chaos_Mode"
+    },
+    {
+      "id": "lucemon_sm",
+      "name": "Lucemon SM",
+      "Family_Type": "Demon God",
+      "source_types": [
+        "Demon God",
+        "Wizard"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Lucemon Shadowlord Mode",
+      "source_url": "https://digimon.fandom.com/wiki/Lucemon_Shadowlord_Mode"
+    },
+    {
+      "id": "lunamon",
+      "name": "Lunamon",
+      "Family_Type": "Mammal",
+      "source_types": [
+        "Mammal"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Lunamon",
+      "source_url": "https://digimon.fandom.com/wiki/Lunamon"
+    },
+    {
+      "id": "machgaogamon",
+      "name": "MachGaogamon",
+      "Family_Type": "Cyborg",
+      "source_types": [
+        "Cyborg"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "MachGaogamon",
+      "source_url": "https://digimon.fandom.com/wiki/MachGaogamon"
+    },
+    {
+      "id": "machinedramon",
+      "name": "Machinedramon",
+      "Family_Type": "Android",
+      "source_types": [
+        "Android",
+        "Composite",
+        "Cyborg",
+        "Machine"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Machinedramon",
+      "source_url": "https://digimon.fandom.com/wiki/Machinedramon"
+    },
+    {
+      "id": "magnaangemon",
+      "name": "MagnaAngemon",
+      "Family_Type": "Angel",
+      "source_types": [
+        "Angel",
+        "Archangel"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "MagnaAngemon",
+      "source_url": "https://digimon.fandom.com/wiki/MagnaAngemon"
+    },
+    {
+      "id": "magnadramon",
+      "name": "Magnadramon",
+      "Family_Type": "Holy Dragon",
+      "source_types": [
+        "Holy Dragon"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Magnadramon",
+      "source_url": "https://digimon.fandom.com/wiki/Magnadramon"
+    },
+    {
+      "id": "magnagarurumon",
+      "name": "MagnaGarurumon",
+      "Family_Type": "Android",
+      "source_types": [
+        "Android",
+        "Cyborg"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "MagnaGarurumon",
+      "source_url": "https://digimon.fandom.com/wiki/MagnaGarurumon"
+    },
+    {
+      "id": "magnagarurumon_sv",
+      "name": "MagnaGarurumon (SV)",
+      "Family_Type": "Cyborg",
+      "source_types": [
+        "Cyborg"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "MagnaGarurumon (SV)",
+      "source_url": "https://digimon.fandom.com/wiki/MagnaGarurumon_%28SV%29"
+    },
+    {
+      "id": "magnamon",
+      "name": "Magnamon",
+      "Family_Type": "Holy Warrior",
+      "source_types": [
+        "Holy Warrior",
+        "Warrior"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Magnamon",
+      "source_url": "https://digimon.fandom.com/wiki/Magnamon"
+    },
+    {
+      "id": "mamemon",
+      "name": "Mamemon",
+      "Family_Type": "Mutant",
+      "source_types": [
+        "Mutant"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Mamemon",
+      "source_url": "https://digimon.fandom.com/wiki/Mamemon"
+    },
+    {
+      "id": "marineangemon",
+      "name": "MarineAngemon",
+      "Family_Type": "Fairy",
+      "source_types": [
+        "Fairy",
+        "Pixie"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "MarineAngemon",
+      "source_url": "https://digimon.fandom.com/wiki/MarineAngemon"
+    },
+    {
+      "id": "mastemon",
+      "name": "Mastemon",
+      "Family_Type": "Angel",
+      "source_types": [
+        "Angel"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Mastemon",
+      "source_url": "https://digimon.fandom.com/wiki/Mastemon"
+    },
+    {
+      "id": "matadormon",
+      "name": "Matadormon",
+      "Family_Type": "Undead",
+      "source_types": [
+        "Undead"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Matadormon",
+      "source_url": "https://digimon.fandom.com/wiki/Matadormon"
+    },
+    {
+      "id": "megadramon",
+      "name": "Megadramon",
+      "Family_Type": "Android",
+      "source_types": [
+        "Android",
+        "Cyborg",
+        "Dark Dragon"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Megadramon",
+      "source_url": "https://digimon.fandom.com/wiki/Megadramon"
+    },
+    {
+      "id": "megagargomon",
+      "name": "MegaGargomon",
+      "Family_Type": "Machine",
+      "source_types": [
+        "Machine"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "MegaGargomon",
+      "source_url": "https://digimon.fandom.com/wiki/MegaGargomon"
+    },
+    {
+      "id": "megakabuterimon",
+      "name": "MegaKabuterimon",
+      "Family_Type": "Insectoid",
+      "source_types": [
+        "Insectoid"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "MegaKabuterimon (Red)",
+      "source_url": "https://digimon.fandom.com/wiki/MegaKabuterimon_%28Red%29"
+    },
+    {
+      "id": "megaseadramon",
+      "name": "MegaSeadramon",
+      "Family_Type": "Aquatic",
+      "source_types": [
+        "Aquatic",
+        "Sea Animal"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "MegaSeadramon",
+      "source_url": "https://digimon.fandom.com/wiki/MegaSeadramon"
+    },
+    {
+      "id": "megidramon",
+      "name": "Megidramon",
+      "Family_Type": "Evil Dragon",
+      "source_types": [
+        "Evil Dragon"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Megidramon",
+      "source_url": "https://digimon.fandom.com/wiki/Megidramon"
+    },
+    {
+      "id": "meramon",
+      "name": "Meramon",
+      "Family_Type": "Fire",
+      "source_types": [
+        "Fire",
+        "Flame"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Meramon",
+      "source_url": "https://digimon.fandom.com/wiki/Meramon"
+    },
+    {
+      "id": "merukimon",
+      "name": "Merukimon",
+      "Family_Type": "Shaman",
+      "source_types": [
+        "Shaman"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Merukimon",
+      "source_url": "https://digimon.fandom.com/wiki/Merukimon"
+    },
+    {
+      "id": "metaletemon",
+      "name": "MetalEtemon",
+      "Family_Type": "Android",
+      "source_types": [
+        "Android",
+        "Cyborg"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "MetalEtemon",
+      "source_url": "https://digimon.fandom.com/wiki/MetalEtemon"
+    },
+    {
+      "id": "metalgarurumon",
+      "name": "MetalGarurumon",
+      "Family_Type": "Android",
+      "source_types": [
+        "Android",
+        "Cyborg"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "MetalGarurumon",
+      "source_url": "https://digimon.fandom.com/wiki/MetalGarurumon"
+    },
+    {
+      "id": "metalgarurumon_blk",
+      "name": "MetalGarurumon (Blk)",
+      "Family_Type": "Cyborg",
+      "source_types": [
+        "Cyborg"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "BlackMetalGarurumon",
+      "source_url": "https://digimon.fandom.com/wiki/BlackMetalGarurumon"
+    },
+    {
+      "id": "metalgreymon",
+      "name": "MetalGreymon",
+      "Family_Type": "Android",
+      "source_types": [
+        "Android",
+        "Cyborg"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "MetalGreymon (Vaccine)",
+      "source_url": "https://digimon.fandom.com/wiki/MetalGreymon_%28Vaccine%29"
+    },
+    {
+      "id": "metalgreymon_blue",
+      "name": "MetalGreymon (Blue)",
+      "Family_Type": "Android",
+      "source_types": [
+        "Android",
+        "Cyborg"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "MetalGreymon (Virus)",
+      "source_url": "https://digimon.fandom.com/wiki/MetalGreymon_%28Virus%29"
+    },
+    {
+      "id": "metalmamemon",
+      "name": "MetalMamemon",
+      "Family_Type": "Android",
+      "source_types": [
+        "Android",
+        "Cyborg"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "MetalMamemon",
+      "source_url": "https://digimon.fandom.com/wiki/MetalMamemon"
+    },
+    {
+      "id": "metalseadramon",
+      "name": "MetalSeadramon",
+      "Family_Type": "Android",
+      "source_types": [
+        "Android",
+        "Aquatic",
+        "Cyborg"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "MetalSeadramon",
+      "source_url": "https://digimon.fandom.com/wiki/MetalSeadramon"
+    },
+    {
+      "id": "metaltyrannomon",
+      "name": "MetalTyrannomon",
+      "Family_Type": "Android",
+      "source_types": [
+        "Android",
+        "Cyborg",
+        "Dinosaur"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "MetalTyrannomon",
+      "source_url": "https://digimon.fandom.com/wiki/MetalTyrannomon"
+    },
+    {
+      "id": "meteormon",
+      "name": "Meteormon",
+      "Family_Type": "Rock",
+      "source_types": [
+        "Rock"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Meteormon",
+      "source_url": "https://digimon.fandom.com/wiki/Meteormon"
+    },
+    {
+      "id": "minervamon",
+      "name": "Minervamon",
+      "Family_Type": "Shaman",
+      "source_types": [
+        "Shaman"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Minervamon",
+      "source_url": "https://digimon.fandom.com/wiki/Minervamon"
+    },
+    {
+      "id": "miragegaogamon",
+      "name": "MirageGaogamon",
+      "Family_Type": "Beast Knight",
+      "source_types": [
+        "Beast Knight"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "MirageGaogamon",
+      "source_url": "https://digimon.fandom.com/wiki/MirageGaogamon"
+    },
+    {
+      "id": "miragegaogamon_bm",
+      "name": "MirageGaogamon BM",
+      "Family_Type": "Beast Knight",
+      "source_types": [
+        "Beast Knight"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "MirageGaogamon Burst Mode",
+      "source_url": "https://digimon.fandom.com/wiki/MirageGaogamon_Burst_Mode"
+    },
+    {
+      "id": "monochromon",
+      "name": "Monochromon",
+      "Family_Type": "Ankylosaur",
+      "source_types": [
+        "Ankylosaur",
+        "Dinosaur"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Monochromon",
+      "source_url": "https://digimon.fandom.com/wiki/Monochromon"
+    },
+    {
+      "id": "monodramon",
+      "name": "Monodramon",
+      "Family_Type": "Mini Dragon",
+      "source_types": [
+        "Mini Dragon"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Monodramon",
+      "source_url": "https://digimon.fandom.com/wiki/Monodramon"
+    },
+    {
+      "id": "monzaemon",
+      "name": "Monzaemon",
+      "Family_Type": "Puppet",
+      "source_types": [
+        "Puppet"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Monzaemon",
+      "source_url": "https://digimon.fandom.com/wiki/Monzaemon"
+    },
+    {
+      "id": "motimon",
+      "name": "Motimon",
+      "Family_Type": "Lesser",
+      "source_types": [
+        "Lesser"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Motimon",
+      "source_url": "https://digimon.fandom.com/wiki/Motimon"
+    },
+    {
+      "id": "mudfrigimon",
+      "name": "MudFrigimon",
+      "Family_Type": "Abnormal",
+      "source_types": [
+        "Abnormal",
+        "Mutant"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "MudFrigimon",
+      "source_url": "https://digimon.fandom.com/wiki/MudFrigimon"
+    },
+    {
+      "id": "mushroomon",
+      "name": "Mushroomon",
+      "Family_Type": "Vegetation",
+      "source_types": [
+        "Vegetation"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Mushroomon",
+      "source_url": "https://digimon.fandom.com/wiki/Mushroomon"
+    },
+    {
+      "id": "myotismon",
+      "name": "Myotismon",
+      "Family_Type": "Ghost",
+      "source_types": [
+        "Ghost",
+        "Undead"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Myotismon",
+      "source_url": "https://digimon.fandom.com/wiki/Myotismon"
+    },
+    {
+      "id": "nanimon",
+      "name": "Nanimon",
+      "Family_Type": "Invader",
+      "source_types": [
+        "Invader"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Nanimon",
+      "source_url": "https://digimon.fandom.com/wiki/Nanimon"
+    },
+    {
+      "id": "neptunemon",
+      "name": "Neptunemon",
+      "Family_Type": "Aquatic",
+      "source_types": [
+        "Aquatic",
+        "Shaman"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Neptunemon",
+      "source_url": "https://digimon.fandom.com/wiki/Neptunemon"
+    },
+    {
+      "id": "numemon",
+      "name": "Numemon",
+      "Family_Type": "Mollusk",
+      "source_types": [
+        "Mollusk"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Numemon",
+      "source_url": "https://digimon.fandom.com/wiki/Numemon"
+    },
+    {
+      "id": "nyaromon",
+      "name": "Nyaromon",
+      "Family_Type": "Lesser",
+      "source_types": [
+        "Lesser"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Nyaromon",
+      "source_url": "https://digimon.fandom.com/wiki/Nyaromon"
+    },
+    {
+      "id": "ogremon",
+      "name": "Ogremon",
+      "Family_Type": "Demon",
+      "source_types": [
+        "Demon",
+        "Evil"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Ogremon",
+      "source_url": "https://digimon.fandom.com/wiki/Ogremon"
+    },
+    {
+      "id": "okuwamon",
+      "name": "Okuwamon",
+      "Family_Type": "Insectoid",
+      "source_types": [
+        "Insectoid"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Okuwamon",
+      "source_url": "https://digimon.fandom.com/wiki/Okuwamon"
+    },
+    {
+      "id": "omnimon",
+      "name": "Omnimon",
+      "Family_Type": "Holy Warrior",
+      "source_types": [
+        "Holy Warrior",
+        "Warrior"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Omnimon",
+      "source_url": "https://digimon.fandom.com/wiki/Omnimon"
+    },
+    {
+      "id": "omnimon_nx",
+      "name": "Omnimon NX",
+      "Family_Type": "Holy Warrior",
+      "source_types": [
+        "Holy Warrior",
+        "Warrior"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Omnimon",
+      "source_url": "https://digimon.fandom.com/wiki/Omnimon"
+    },
+    {
+      "id": "omnimon_zwart",
+      "name": "Omnimon Zwart",
+      "Family_Type": "Holy Warrior",
+      "source_types": [
+        "Holy Warrior"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Omnimon Zwart",
+      "source_url": "https://digimon.fandom.com/wiki/Omnimon_Zwart"
+    },
+    {
+      "id": "omnishoutmon",
+      "name": "OmniShoutmon",
+      "Family_Type": "Dragonkin",
+      "source_types": [
+        "Dragonkin"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "OmniShoutmon",
+      "source_url": "https://digimon.fandom.com/wiki/OmniShoutmon"
+    },
+    {
+      "id": "ophanimon",
+      "name": "Ophanimon",
+      "Family_Type": "Angel",
+      "source_types": [
+        "Angel",
+        "Throne"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Ophanimon",
+      "source_url": "https://digimon.fandom.com/wiki/Ophanimon"
+    },
+    {
+      "id": "otamamon",
+      "name": "Otamamon",
+      "Family_Type": "Amphibian",
+      "source_types": [
+        "Amphibian"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Otamamon",
+      "source_url": "https://digimon.fandom.com/wiki/Otamamon"
+    },
+    {
+      "id": "ouryumon",
+      "name": "Ouryumon",
+      "Family_Type": "Beast Dragon",
+      "source_types": [
+        "Beast Dragon",
+        "Dragon"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Ouryumon",
+      "source_url": "https://digimon.fandom.com/wiki/Ouryumon"
+    },
+    {
+      "id": "pabumon",
+      "name": "Pabumon",
+      "Family_Type": "Slime",
+      "source_types": [
+        "Slime"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Pabumon",
+      "source_url": "https://digimon.fandom.com/wiki/Pabumon"
+    },
+    {
+      "id": "pagumon",
+      "name": "Pagumon",
+      "Family_Type": "Lesser",
+      "source_types": [
+        "Lesser"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Pagumon",
+      "source_url": "https://digimon.fandom.com/wiki/Pagumon"
+    },
+    {
+      "id": "paildramon",
+      "name": "Paildramon",
+      "Family_Type": "Dragon",
+      "source_types": [
+        "Dragon",
+        "Dragonkin"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Paildramon",
+      "source_url": "https://digimon.fandom.com/wiki/Paildramon"
+    },
+    {
+      "id": "palmon",
+      "name": "Palmon",
+      "Family_Type": "Vegetation",
+      "source_types": [
+        "Vegetation"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Palmon",
+      "source_url": "https://digimon.fandom.com/wiki/Palmon"
+    },
+    {
+      "id": "pandamon",
+      "name": "Pandamon",
+      "Family_Type": "Puppet",
+      "source_types": [
+        "Puppet"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Pandamon",
+      "source_url": "https://digimon.fandom.com/wiki/Pandamon"
+    },
+    {
+      "id": "panjyamon",
+      "name": "Panjyamon",
+      "Family_Type": "Animal",
+      "source_types": [
+        "Animal",
+        "Beastkin"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "IceLeomon",
+      "source_url": "https://digimon.fandom.com/wiki/IceLeomon"
+    },
+    {
+      "id": "patamon",
+      "name": "Patamon",
+      "Family_Type": "Mammal",
+      "source_types": [
+        "Mammal"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Patamon",
+      "source_url": "https://digimon.fandom.com/wiki/Patamon"
+    },
+    {
+      "id": "peckmon",
+      "name": "Peckmon",
+      "Family_Type": "Avian",
+      "source_types": [
+        "Avian"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Peckmon",
+      "source_url": "https://digimon.fandom.com/wiki/Peckmon"
+    },
+    {
+      "id": "phantomon",
+      "name": "Phantomon",
+      "Family_Type": "Ghost",
+      "source_types": [
+        "Ghost"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Phantomon",
+      "source_url": "https://digimon.fandom.com/wiki/Phantomon"
+    },
+    {
+      "id": "piedmon",
+      "name": "Piedmon",
+      "Family_Type": "Wizard",
+      "source_types": [
+        "Wizard"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Piedmon",
+      "source_url": "https://digimon.fandom.com/wiki/Piedmon"
+    },
+    {
+      "id": "pilevolcamon",
+      "name": "PileVolcamon",
+      "Family_Type": "Android",
+      "source_types": [
+        "Android",
+        "Cyborg"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "PileVolcamon",
+      "source_url": "https://digimon.fandom.com/wiki/PileVolcamon"
+    },
+    {
+      "id": "piximon",
+      "name": "Piximon",
+      "Family_Type": "Fairy",
+      "source_types": [
+        "Fairy",
+        "Pixie"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Piximon",
+      "source_url": "https://digimon.fandom.com/wiki/Piximon"
+    },
+    {
+      "id": "platinumnumemon",
+      "name": "PlatinumNumemon",
+      "Family_Type": "Mollusk",
+      "source_types": [
+        "Mollusk",
+        "Mutant"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "PlatinumNumemon",
+      "source_url": "https://digimon.fandom.com/wiki/PlatinumNumemon"
+    },
+    {
+      "id": "platinumsukamon",
+      "name": "PlatinumSukamon",
+      "Family_Type": "Abnormal",
+      "source_types": [
+        "Abnormal",
+        "Mutant"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "PlatinumSukamon",
+      "source_url": "https://digimon.fandom.com/wiki/PlatinumSukamon"
+    },
+    {
+      "id": "plesiomon",
+      "name": "Plesiomon",
+      "Family_Type": "Dragon",
+      "source_types": [
+        "Dragon",
+        "Plesiosaur"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Plesiomon",
+      "source_url": "https://digimon.fandom.com/wiki/Plesiomon"
+    },
+    {
+      "id": "poyomon",
+      "name": "Poyomon",
+      "Family_Type": "Jellyfish",
+      "source_types": [
+        "Jellyfish",
+        "Slime"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Poyomon",
+      "source_url": "https://digimon.fandom.com/wiki/Poyomon"
+    },
+    {
+      "id": "princemamemon",
+      "name": "PrinceMamemon",
+      "Family_Type": "Mutant",
+      "source_types": [
+        "Mutant"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "PrinceMamemon",
+      "source_url": "https://digimon.fandom.com/wiki/PrinceMamemon"
+    },
+    {
+      "id": "pumpkinmon",
+      "name": "Pumpkinmon",
+      "Family_Type": "Puppet",
+      "source_types": [
+        "Puppet"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Pumpkinmon",
+      "source_url": "https://digimon.fandom.com/wiki/Pumpkinmon"
+    },
+    {
+      "id": "punimon",
+      "name": "Punimon",
+      "Family_Type": "Slime",
+      "source_types": [
+        "Slime"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Punimon",
+      "source_url": "https://digimon.fandom.com/wiki/Punimon"
+    },
+    {
+      "id": "puppetmon",
+      "name": "Puppetmon",
+      "Family_Type": "Puppet",
+      "source_types": [
+        "Puppet",
+        "Vegetation"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Puppetmon",
+      "source_url": "https://digimon.fandom.com/wiki/Puppetmon"
+    },
+    {
+      "id": "rapidmon",
+      "name": "Rapidmon",
+      "Family_Type": "Android",
+      "source_types": [
+        "Android",
+        "Cyborg",
+        "Warrior"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Rapidmon",
+      "source_url": "https://digimon.fandom.com/wiki/Rapidmon"
+    },
+    {
+      "id": "rapidmon_armor",
+      "name": "Rapidmon (Armor)",
+      "Family_Type": "Holy Warrior",
+      "source_types": [
+        "Holy Warrior",
+        "Warrior"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Rapidmon (Armor)",
+      "source_url": "https://digimon.fandom.com/wiki/Rapidmon_%28Armor%29"
+    },
+    {
+      "id": "raptordramon",
+      "name": "Raptordramon",
+      "Family_Type": "Android",
+      "source_types": [
+        "Android",
+        "Cyborg"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Reptiledramon",
+      "source_url": "https://digimon.fandom.com/wiki/Reptiledramon"
+    },
+    {
+      "id": "raremon",
+      "name": "Raremon",
+      "Family_Type": "Cyborg",
+      "source_types": [
+        "Cyborg",
+        "Ghost",
+        "Undead"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Raremon",
+      "source_url": "https://digimon.fandom.com/wiki/Raremon"
+    },
+    {
+      "id": "ravemon",
+      "name": "Ravemon",
+      "Family_Type": "Cyborg",
+      "source_types": [
+        "Cyborg"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Ravemon",
+      "source_url": "https://digimon.fandom.com/wiki/Ravemon"
+    },
+    {
+      "id": "ravemon_bm",
+      "name": "Ravemon BM",
+      "Family_Type": "Cyborg",
+      "source_types": [
+        "Cyborg"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Ravemon Burst Mode",
+      "source_url": "https://digimon.fandom.com/wiki/Ravemon_Burst_Mode"
+    },
+    {
+      "id": "renamon",
+      "name": "Renamon",
+      "Family_Type": "Animal",
+      "source_types": [
+        "Animal",
+        "Beastkin"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Renamon",
+      "source_url": "https://digimon.fandom.com/wiki/Renamon"
+    },
+    {
+      "id": "reppamon",
+      "name": "Reppamon",
+      "Family_Type": "Holy Beast",
+      "source_types": [
+        "Holy Beast"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Reppamon",
+      "source_url": "https://digimon.fandom.com/wiki/Reppamon"
+    },
+    {
+      "id": "rizegreymon",
+      "name": "RizeGreymon",
+      "Family_Type": "Cyborg",
+      "source_types": [
+        "Cyborg"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "RizeGreymon",
+      "source_url": "https://digimon.fandom.com/wiki/RizeGreymon"
+    },
+    {
+      "id": "rosemon",
+      "name": "Rosemon",
+      "Family_Type": "Fairy",
+      "source_types": [
+        "Fairy",
+        "Pixie"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Rosemon",
+      "source_url": "https://digimon.fandom.com/wiki/Rosemon"
+    },
+    {
+      "id": "rosemon_bm",
+      "name": "Rosemon BM",
+      "Family_Type": "Fairy",
+      "source_types": [
+        "Fairy"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Rosemon Burst Mode",
+      "source_url": "https://digimon.fandom.com/wiki/Rosemon_Burst_Mode"
+    },
+    {
+      "id": "rusttyranomon",
+      "name": "RustTyranomon",
+      "Family_Type": "Cyborg",
+      "source_types": [
+        "Cyborg"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "RustTyranomon",
+      "source_url": "https://digimon.fandom.com/wiki/RustTyranomon"
+    },
+    {
+      "id": "ryudamon",
+      "name": "Ryudamon",
+      "Family_Type": "Beast",
+      "source_types": [
+        "Beast",
+        "Dragon"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Ryudamon",
+      "source_url": "https://digimon.fandom.com/wiki/Ryudamon"
+    },
+    {
+      "id": "saberleomon",
+      "name": "SaberLeomon",
+      "Family_Type": "Ancient Animal",
+      "source_types": [
+        "Ancient Animal"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "SaberLeomon",
+      "source_url": "https://digimon.fandom.com/wiki/SaberLeomon"
+    },
+    {
+      "id": "sakuyamon",
+      "name": "Sakuyamon",
+      "Family_Type": "Shaman",
+      "source_types": [
+        "Shaman",
+        "Wizard"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Sakuyamon",
+      "source_url": "https://digimon.fandom.com/wiki/Sakuyamon"
+    },
+    {
+      "id": "salamon",
+      "name": "Salamon",
+      "Family_Type": "Beast",
+      "source_types": [
+        "Beast",
+        "Mammal"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Salamon",
+      "source_url": "https://digimon.fandom.com/wiki/Salamon"
+    },
+    {
+      "id": "sangloupmon",
+      "name": "Sangloupmon",
+      "Family_Type": "Dark Animal",
+      "source_types": [
+        "Dark Animal"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Sangloupmon",
+      "source_url": "https://digimon.fandom.com/wiki/Sangloupmon"
+    },
+    {
+      "id": "saviorhuckmon",
+      "name": "SaviorHuckmon",
+      "Family_Type": "Dragonkin",
+      "source_types": [
+        "Dragonkin"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "SaviorHuckmon",
+      "source_url": "https://digimon.fandom.com/wiki/SaviorHuckmon"
+    },
+    {
+      "id": "seadramon",
+      "name": "Seadramon",
+      "Family_Type": "Aquatic",
+      "source_types": [
+        "Aquatic",
+        "Sea Animal"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Seadramon",
+      "source_url": "https://digimon.fandom.com/wiki/Seadramon"
+    },
+    {
+      "id": "seraphimon",
+      "name": "Seraphimon",
+      "Family_Type": "Angel",
+      "source_types": [
+        "Angel",
+        "Seraph"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Seraphimon",
+      "source_url": "https://digimon.fandom.com/wiki/Seraphimon"
+    },
+    {
+      "id": "shakkoumon",
+      "name": "Shakkoumon",
+      "Family_Type": "Angel",
+      "source_types": [
+        "Angel",
+        "Mutant"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Shakkoumon",
+      "source_url": "https://digimon.fandom.com/wiki/Shakkoumon"
+    },
+    {
+      "id": "shellnumemon",
+      "name": "ShellNumemon",
+      "Family_Type": "Crustacean",
+      "source_types": [
+        "Crustacean"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "ShellNumemon",
+      "source_url": "https://digimon.fandom.com/wiki/ShellNumemon"
+    },
+    {
+      "id": "shinegreymon",
+      "name": "ShineGreymon",
+      "Family_Type": "Light Dragon",
+      "source_types": [
+        "Light Dragon"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "ShineGreymon",
+      "source_url": "https://digimon.fandom.com/wiki/ShineGreymon"
+    },
+    {
+      "id": "shinegreymon_bm",
+      "name": "ShineGreymon BM",
+      "Family_Type": "Light Dragon",
+      "source_types": [
+        "Light Dragon"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "ShineGreymon Burst Mode",
+      "source_url": "https://digimon.fandom.com/wiki/ShineGreymon_Burst_Mode"
+    },
+    {
+      "id": "shogungekomon",
+      "name": "ShogunGekomon",
+      "Family_Type": "Amphibian",
+      "source_types": [
+        "Amphibian"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "ShogunGekomon",
+      "source_url": "https://digimon.fandom.com/wiki/ShogunGekomon"
+    },
+    {
+      "id": "shoutmon",
+      "name": "Shoutmon",
+      "Family_Type": "Mini Dragon",
+      "source_types": [
+        "Mini Dragon"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Shoutmon",
+      "source_url": "https://digimon.fandom.com/wiki/Shoutmon"
+    },
+    {
+      "id": "silphymon",
+      "name": "Silphymon",
+      "Family_Type": "Animal",
+      "source_types": [
+        "Animal",
+        "Beastkin"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Silphymon",
+      "source_url": "https://digimon.fandom.com/wiki/Silphymon"
+    },
+    {
+      "id": "sistermon_b_awake",
+      "name": "Sistermon B (Awake.)",
+      "Family_Type": "Puppet",
+      "source_types": [
+        "Puppet"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Sistermon Blanc (Awakened)",
+      "source_url": "https://digimon.fandom.com/wiki/Sistermon_Blanc_%28Awakened%29"
+    },
+    {
+      "id": "sistermon_blanc",
+      "name": "Sistermon Blanc",
+      "Family_Type": "Puppet",
+      "source_types": [
+        "Puppet"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Sistermon Blanc",
+      "source_url": "https://digimon.fandom.com/wiki/Sistermon_Blanc"
+    },
+    {
+      "id": "sistermon_c_awake",
+      "name": "Sistermon C (Awake.)",
+      "Family_Type": "Puppet",
+      "source_types": [
+        "Puppet"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Sistermon Ciel (Awakened)",
+      "source_url": "https://digimon.fandom.com/wiki/Sistermon_Ciel_%28Awakened%29"
+    },
+    {
+      "id": "sistermon_ciel",
+      "name": "Sistermon Ciel",
+      "Family_Type": "Puppet",
+      "source_types": [
+        "Puppet"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Sistermon Ciel",
+      "source_url": "https://digimon.fandom.com/wiki/Sistermon_Ciel"
+    },
+    {
+      "id": "skullgreymon",
+      "name": "SkullGreymon",
+      "Family_Type": "Ghost",
+      "source_types": [
+        "Ghost",
+        "Skeleton",
+        "Undead"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "SkullGreymon",
+      "source_url": "https://digimon.fandom.com/wiki/SkullGreymon"
+    },
+    {
+      "id": "skullmeramon",
+      "name": "SkullMeramon",
+      "Family_Type": "Fire",
+      "source_types": [
+        "Fire",
+        "Flame"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "SkullMeramon",
+      "source_url": "https://digimon.fandom.com/wiki/SkullMeramon"
+    },
+    {
+      "id": "skullsatamon",
+      "name": "SkullSatamon",
+      "Family_Type": "Fallen Angel",
+      "source_types": [
+        "Fallen Angel",
+        "Ghost",
+        "Undead"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "SkullSatamon",
+      "source_url": "https://digimon.fandom.com/wiki/SkullSatamon"
+    },
+    {
+      "id": "slayerdramon",
+      "name": "Slayerdramon",
+      "Family_Type": "Dragonkin",
+      "source_types": [
+        "Dragonkin"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Slayerdramon",
+      "source_url": "https://digimon.fandom.com/wiki/Slayerdramon"
+    },
+    {
+      "id": "socerimon",
+      "name": "Socerimon",
+      "Family_Type": "Ice-Snow",
+      "source_types": [
+        "Ice-Snow",
+        "Wizard"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Sorcermon",
+      "source_url": "https://digimon.fandom.com/wiki/Sorcermon"
+    },
+    {
+      "id": "solarmon",
+      "name": "Solarmon",
+      "Family_Type": "Machine",
+      "source_types": [
+        "Machine"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Solarmon",
+      "source_url": "https://digimon.fandom.com/wiki/Solarmon"
+    },
+    {
+      "id": "starmon",
+      "name": "Starmon",
+      "Family_Type": "Abnormal",
+      "source_types": [
+        "Abnormal",
+        "Mutant"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Starmon",
+      "source_url": "https://digimon.fandom.com/wiki/Starmon"
+    },
+    {
+      "id": "stingmon",
+      "name": "Stingmon",
+      "Family_Type": "Insectoid",
+      "source_types": [
+        "Insectoid"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Stingmon",
+      "source_url": "https://digimon.fandom.com/wiki/Stingmon"
+    },
+    {
+      "id": "strikedramon",
+      "name": "Strikedramon",
+      "Family_Type": "Dragonkin",
+      "source_types": [
+        "Dragonkin"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Strikedramon",
+      "source_url": "https://digimon.fandom.com/wiki/Strikedramon"
+    },
+    {
+      "id": "sukamon",
+      "name": "Sukamon",
+      "Family_Type": "Abnormal",
+      "source_types": [
+        "Abnormal",
+        "Mutant"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Sukamon",
+      "source_url": "https://digimon.fandom.com/wiki/Sukamon"
+    },
+    {
+      "id": "sunflowmon",
+      "name": "Sunflowmon",
+      "Family_Type": "Vegetation",
+      "source_types": [
+        "Vegetation"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Sunflowmon",
+      "source_url": "https://digimon.fandom.com/wiki/Sunflowmon"
+    },
+    {
+      "id": "superstarmon",
+      "name": "SuperStarmon",
+      "Family_Type": "Mutant",
+      "source_types": [
+        "Mutant"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "SuperStarmon",
+      "source_url": "https://digimon.fandom.com/wiki/SuperStarmon"
+    },
+    {
+      "id": "susanomon",
+      "name": "Susanomon",
+      "Family_Type": "Shaman",
+      "source_types": [
+        "Shaman",
+        "Wizard"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Susanoomon",
+      "source_url": "https://digimon.fandom.com/wiki/Susanoomon"
+    },
+    {
+      "id": "syakomon",
+      "name": "Syakomon",
+      "Family_Type": "Aquatic",
+      "source_types": [
+        "Aquatic",
+        "Crustacean"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Syakomon",
+      "source_url": "https://digimon.fandom.com/wiki/Syakomon"
+    },
+    {
+      "id": "tanemon",
+      "name": "Tanemon",
+      "Family_Type": "Bulb",
+      "source_types": [
+        "Bulb",
+        "Lesser"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Tanemon",
+      "source_url": "https://digimon.fandom.com/wiki/Tanemon"
+    },
+    {
+      "id": "tankmon",
+      "name": "Tankmon",
+      "Family_Type": "Android",
+      "source_types": [
+        "Android",
+        "Cyborg"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Tankmon",
+      "source_url": "https://digimon.fandom.com/wiki/Tankmon"
+    },
+    {
+      "id": "taomon",
+      "name": "Taomon",
+      "Family_Type": "Wizard",
+      "source_types": [
+        "Wizard"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Taomon",
+      "source_url": "https://digimon.fandom.com/wiki/Taomon"
+    },
+    {
+      "id": "tentomon",
+      "name": "Tentomon",
+      "Family_Type": "Insectoid",
+      "source_types": [
+        "Insectoid"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Tentomon",
+      "source_url": "https://digimon.fandom.com/wiki/Tentomon"
+    },
+    {
+      "id": "terriermon",
+      "name": "Terriermon",
+      "Family_Type": "Animal",
+      "source_types": [
+        "Animal",
+        "Beast"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Terriermon",
+      "source_url": "https://digimon.fandom.com/wiki/Terriermon"
+    },
+    {
+      "id": "tigervespamon",
+      "name": "TigerVespamon",
+      "Family_Type": "Cyborg",
+      "source_types": [
+        "Cyborg",
+        "Insectoid"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "TigerVespamon",
+      "source_url": "https://digimon.fandom.com/wiki/TigerVespamon"
+    },
+    {
+      "id": "titamon",
+      "name": "Titamon",
+      "Family_Type": "Demon",
+      "source_types": [
+        "Demon",
+        "Shaman"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Titamon",
+      "source_url": "https://digimon.fandom.com/wiki/Titamon"
+    },
+    {
+      "id": "togemon",
+      "name": "Togemon",
+      "Family_Type": "Vegetation",
+      "source_types": [
+        "Vegetation"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Togemon",
+      "source_url": "https://digimon.fandom.com/wiki/Togemon"
+    },
+    {
+      "id": "tokomon",
+      "name": "Tokomon",
+      "Family_Type": "Lesser",
+      "source_types": [
+        "Lesser"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Tokomon",
+      "source_url": "https://digimon.fandom.com/wiki/Tokomon"
+    },
+    {
+      "id": "toyagumon",
+      "name": "ToyAgumon",
+      "Family_Type": "Puppet",
+      "source_types": [
+        "Puppet"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "ToyAgumon",
+      "source_url": "https://digimon.fandom.com/wiki/ToyAgumon"
+    },
+    {
+      "id": "triceramon",
+      "name": "Triceramon",
+      "Family_Type": "Ceratopsian",
+      "source_types": [
+        "Ceratopsian",
+        "Dinosaur"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Triceramon",
+      "source_url": "https://digimon.fandom.com/wiki/Triceramon"
+    },
+    {
+      "id": "tsumemon",
+      "name": "Tsumemon",
+      "Family_Type": "Unidentified",
+      "source_types": [
+        "Unidentified"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Tsumemon",
+      "source_url": "https://digimon.fandom.com/wiki/Tsumemon"
+    },
+    {
+      "id": "tsunomon",
+      "name": "Tsunomon",
+      "Family_Type": "Lesser",
+      "source_types": [
+        "Lesser"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Tsunomon",
+      "source_url": "https://digimon.fandom.com/wiki/Tsunomon"
+    },
+    {
+      "id": "turuiemon",
+      "name": "Turuiemon",
+      "Family_Type": "Animal",
+      "source_types": [
+        "Animal",
+        "Beastkin"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Turuiemon",
+      "source_url": "https://digimon.fandom.com/wiki/Turuiemon"
+    },
+    {
+      "id": "tyrannomon",
+      "name": "Tyrannomon",
+      "Family_Type": "Dinosaur",
+      "source_types": [
+        "Dinosaur"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Tyrannomon",
+      "source_url": "https://digimon.fandom.com/wiki/Tyrannomon"
+    },
+    {
+      "id": "tyrantkabuterimon",
+      "name": "TyrantKabuterimon",
+      "Family_Type": "Insectoid",
+      "source_types": [
+        "Insectoid"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "TyrantKabuterimon",
+      "source_url": "https://digimon.fandom.com/wiki/TyrantKabuterimon"
+    },
+    {
+      "id": "ulforceveedramon",
+      "name": "UlforceVeedramon",
+      "Family_Type": "Holy Warrior",
+      "source_types": [
+        "Holy Warrior",
+        "Warrior"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "UlforceVeedramon",
+      "source_url": "https://digimon.fandom.com/wiki/UlforceVeedramon"
+    },
+    {
+      "id": "unimon",
+      "name": "Unimon",
+      "Family_Type": "Composite",
+      "source_types": [
+        "Composite",
+        "Mythical Animal",
+        "Mythical Beast"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Unimon",
+      "source_url": "https://digimon.fandom.com/wiki/Unimon"
+    },
+    {
+      "id": "vademon",
+      "name": "Vademon",
+      "Family_Type": "Alien",
+      "source_types": [
+        "Alien"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Vademon",
+      "source_url": "https://digimon.fandom.com/wiki/Vademon"
+    },
+    {
+      "id": "valkyrimon",
+      "name": "Valkyrimon",
+      "Family_Type": "Warrior",
+      "source_types": [
+        "Warrior"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Valkyrimon",
+      "source_url": "https://digimon.fandom.com/wiki/Valkyrimon"
+    },
+    {
+      "id": "varodurumon",
+      "name": "Varodurumon",
+      "Family_Type": "Holy Bird",
+      "source_types": [
+        "Holy Bird"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Varodurumon",
+      "source_url": "https://digimon.fandom.com/wiki/Varodurumon"
+    },
+    {
+      "id": "veedramon",
+      "name": "Veedramon",
+      "Family_Type": "Mythical Animal",
+      "source_types": [
+        "Mythical Animal",
+        "Mythical Dragon"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Veedramon",
+      "source_url": "https://digimon.fandom.com/wiki/Veedramon"
+    },
+    {
+      "id": "veemon",
+      "name": "Veemon",
+      "Family_Type": "Dragon",
+      "source_types": [
+        "Dragon",
+        "Mini Dragon"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Veemon",
+      "source_url": "https://digimon.fandom.com/wiki/Veemon"
+    },
+    {
+      "id": "vegiemon",
+      "name": "Vegiemon",
+      "Family_Type": "Carnivorous Plant",
+      "source_types": [
+        "Carnivorous Plant",
+        "Vegetation"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Vegiemon",
+      "source_url": "https://digimon.fandom.com/wiki/Vegiemon"
+    },
+    {
+      "id": "venommyotismon",
+      "name": "VenomMyotismon",
+      "Family_Type": "Dark Animal",
+      "source_types": [
+        "Dark Animal",
+        "Devil",
+        "Evil"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "VenomMyotismon",
+      "source_url": "https://digimon.fandom.com/wiki/VenomMyotismon"
+    },
+    {
+      "id": "vikemon",
+      "name": "Vikemon",
+      "Family_Type": "Beastkin",
+      "source_types": [
+        "Beastkin"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Vikemon",
+      "source_url": "https://digimon.fandom.com/wiki/Vikemon"
+    },
+    {
+      "id": "volcanomon",
+      "name": "Volcanomon",
+      "Family_Type": "Android",
+      "source_types": [
+        "Android",
+        "Cyborg"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Volcamon",
+      "source_url": "https://digimon.fandom.com/wiki/Volcamon"
+    },
+    {
+      "id": "wanyamon",
+      "name": "Wanyamon",
+      "Family_Type": "Lesser",
+      "source_types": [
+        "Lesser"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Wanyamon",
+      "source_url": "https://digimon.fandom.com/wiki/Wanyamon"
+    },
+    {
+      "id": "wargreymon",
+      "name": "WarGreymon",
+      "Family_Type": "Dragon",
+      "source_types": [
+        "Dragon",
+        "Dragonkin",
+        "Warrior"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "WarGreymon",
+      "source_url": "https://digimon.fandom.com/wiki/WarGreymon"
+    },
+    {
+      "id": "wargrowlmon",
+      "name": "WarGrowlmon",
+      "Family_Type": "Android",
+      "source_types": [
+        "Android",
+        "Cyborg"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "WarGrowlmon",
+      "source_url": "https://digimon.fandom.com/wiki/WarGrowlmon"
+    },
+    {
+      "id": "waspmon",
+      "name": "Waspmon",
+      "Family_Type": "Cyborg",
+      "source_types": [
+        "Cyborg",
+        "Insectoid"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Waspmon",
+      "source_url": "https://digimon.fandom.com/wiki/Waspmon"
+    },
+    {
+      "id": "weregarurumon",
+      "name": "WereGarurumon",
+      "Family_Type": "Animal",
+      "source_types": [
+        "Animal",
+        "Beastkin"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "WereGarurumon",
+      "source_url": "https://digimon.fandom.com/wiki/WereGarurumon"
+    },
+    {
+      "id": "weregarurumon_blk",
+      "name": "WereGarurumon (Blk)",
+      "Family_Type": "Animal",
+      "source_types": [
+        "Animal",
+        "Beastkin"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "ShadowWereGarurumon",
+      "source_url": "https://digimon.fandom.com/wiki/ShadowWereGarurumon"
+    },
+    {
+      "id": "whamon",
+      "name": "Whamon",
+      "Family_Type": "Aquatic",
+      "source_types": [
+        "Aquatic",
+        "Sea Animal"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Whamon",
+      "source_url": "https://digimon.fandom.com/wiki/Whamon"
+    },
+    {
+      "id": "wingdramon",
+      "name": "Wingdramon",
+      "Family_Type": "Sky Dragon",
+      "source_types": [
+        "Sky Dragon"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Wingdramon",
+      "source_url": "https://digimon.fandom.com/wiki/Wingdramon"
+    },
+    {
+      "id": "wisemon",
+      "name": "Wisemon",
+      "Family_Type": "Wizard",
+      "source_types": [
+        "Wizard"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Wisemon",
+      "source_url": "https://digimon.fandom.com/wiki/Wisemon"
+    },
+    {
+      "id": "wizardmon",
+      "name": "Wizardmon",
+      "Family_Type": "Wizard",
+      "source_types": [
+        "Wizard"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Wizardmon",
+      "source_url": "https://digimon.fandom.com/wiki/Wizardmon"
+    },
+    {
+      "id": "woodmon",
+      "name": "Woodmon",
+      "Family_Type": "Vegetation",
+      "source_types": [
+        "Vegetation"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Woodmon",
+      "source_url": "https://digimon.fandom.com/wiki/Woodmon"
+    },
+    {
+      "id": "wormmon",
+      "name": "Wormmon",
+      "Family_Type": "Larva",
+      "source_types": [
+        "Larva"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Wormmon",
+      "source_url": "https://digimon.fandom.com/wiki/Wormmon"
+    },
+    {
+      "id": "yokomon",
+      "name": "Yokomon",
+      "Family_Type": "Bulb",
+      "source_types": [
+        "Bulb",
+        "Lesser"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Yokomon",
+      "source_url": "https://digimon.fandom.com/wiki/Yokomon"
+    },
+    {
+      "id": "zubaeagermon",
+      "name": "Zubaeagermon",
+      "Family_Type": "Weapon",
+      "source_types": [
+        "Weapon"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "ZubaEagermon",
+      "source_url": "https://digimon.fandom.com/wiki/ZubaEagermon"
+    },
+    {
+      "id": "zubamon",
+      "name": "Zubamon",
+      "Family_Type": "Weapon",
+      "source_types": [
+        "Weapon"
+      ],
+      "assignment_kind": "verified",
+      "source_title": "Zubamon",
+      "source_url": "https://digimon.fandom.com/wiki/Zubamon"
+    },
+    {
+      "id": "zudomon",
+      "name": "Zudomon",
+      "Family_Type": "Sea Animal",
+      "source_types": [
+        "Sea Animal",
+        "Sea Beast"
+      ],
+      "assignment_kind": "verified_multiple_wiki_types",
+      "source_title": "Zudomon",
+      "source_url": "https://digimon.fandom.com/wiki/Zudomon"
+    }
+  ]
+}
