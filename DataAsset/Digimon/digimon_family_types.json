@@ -195,9 +195,11 @@
     {
       "id": "arcadiamon_in_tr",
       "name": "Arcadiamon In-Tr.",
-      "Family_Type": "Unidentified",
-      "source_types": [],
-      "assignment_kind": "proposed_missing_wiki_type",
+      "Family_Type": "Mysterious Beast",
+      "source_types": [
+        "Mysterious Beast"
+      ],
+      "assignment_kind": "user_confirmed",
       "source_title": "Arcadiamon (In-Training)",
       "source_url": "https://digimon.fandom.com/wiki/Arcadiamon_%28In-Training%29"
     },
