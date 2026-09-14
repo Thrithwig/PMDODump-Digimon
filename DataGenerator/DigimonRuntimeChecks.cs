@@ -34,6 +34,7 @@ namespace DataGenerator
             DataManager.Instance.InitData();
             LuaEngine.Instance.LoadScripts();
             DataManager.Instance.SetProgress(new MainProgress(1, "digimon-runtime-check"));
+            DigimonMatchupChecks.Run();
             Require(DigimonExperience.Award(72, 8, 8) == 122, "Incorrect Digimon EXP formula");
             Require(DigimonExperience.Award(72, 8, 14) == 61, "Incorrect overlevel penalty");
             Require(DigimonExperience.Award(72, 8, 23) == 0, "Intro farming remains effective");

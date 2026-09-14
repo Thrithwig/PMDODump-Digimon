@@ -105,6 +105,7 @@ namespace DataGenerator.Data
             foreach (ElementInfo.Element type in Enum.GetValues(typeof(ElementInfo.Element)))
                 elementTable.TypeMap[Text.Sanitize(type.ToString()).ToLower()] = (int)type;
 
+            DigimonMatchups.ConfigureElements(elementTable);
             universalEvent.UniversalStates.Set(elementTable);
             universalEvent.UniversalStates.Set(new SkinTableState(1024, "shiny", "shiny_square"));
 

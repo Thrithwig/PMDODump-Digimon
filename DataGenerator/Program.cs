@@ -30,6 +30,7 @@ namespace DataGenerator
             PathMod.InitPathMod(args[0]);
 
             bool digimonCheck = false;
+            bool digimonMatchups = false;
             string digimonItems = null;
             string digimonSpriteCheck = null;
             bool loadStrings = false;
@@ -67,6 +68,8 @@ namespace DataGenerator
                         printWiki = true;
                     else if (args[ii] == "-digimon-check")
                         digimonCheck = true;
+                    else if (args[ii] == "-digimon-matchups")
+                        digimonMatchups = true;
                     else if (args[ii] == "-digimon-items")
                         digimonItems = Path.GetFullPath(args[++ii]);
                     else if (args[ii] == "-digimon-sprite-check")
@@ -246,6 +249,18 @@ namespace DataGenerator
                         }
                     }
                     catch (Exception error) { Console.Error.WriteLine(error); Environment.ExitCode = 1; }
+                    return;
+                }
+
+                if (digimonMatchups)
+                {
+                    LuaEngine.InitInstance();
+                    DataManager.InitInstance();
+                    DataManager.Instance.InitData();
+                    var effect = DataManager.Instance.UniversalEvent;
+                    DigimonMatchups.ConfigureElements(effect.UniversalStates.GetWithDefault<PMDC.Dungeon.ElementTableState>());
+                    DataManager.SaveData(effect, DataManager.DATA_PATH, "Universal", DataManager.DATA_EXT);
+                    Console.WriteLine("Updated Cyber Sleuth elemental matchups; other universal rules preserved.");
                     return;
                 }
 
