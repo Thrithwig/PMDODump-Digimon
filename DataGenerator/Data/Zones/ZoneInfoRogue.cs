@@ -36,7 +36,7 @@ namespace DataGenerator.Data
 
             LayeredSegment floorSegment = new LayeredSegment();
             floorSegment.IsRelevant = true;
-            floorSegment.ZoneSteps.Add(new ScriptZoneStep("SpawnMissionNpcFromSV"));
+            // Mission spawning is already registered by the universal effect.
             floorSegment.ZoneSteps.Add(new ScriptZoneStep("FloorRecord"));
             floorSegment.ZoneSteps.Add(new FloorNameDropZoneStep(PR_FLOOR_DATA, new LocalText("Guildmaster Trail\n{0}F"), new Priority(-15)));
 

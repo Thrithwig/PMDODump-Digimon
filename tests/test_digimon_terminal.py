@@ -34,6 +34,7 @@ class TerminalTests(unittest.TestCase):
             lua.luaL_openlibs(state)
             scripts = ROOT / "DumpAsset/Data/Script"
             code = "package.path = " + json.dumps(scripts.as_posix() + "/?.lua;" + scripts.as_posix() + "/?/init.lua;") + " .. package.path\n"
+            code += "assert(loadfile(" + json.dumps((scripts / 'origin/event_mapgen.lua').as_posix()) + "))\n"
             for relative in ("origin/common.lua", "origin/digimon/evolution_preview.lua", "origin/digimon/item_effects.lua", "origin/digimon/story_missions.lua", "origin/event_battle.lua", "origin/ground/luminous_spring/init.lua", "origin/scriptvars.lua", "origin/event_single.lua", "origin/zone/tropical_path/init.lua", "origin/zone/faultline_ridge/init.lua", "origin/zone/trickster_woods/init.lua", "origin/digimon/progression.lua", "origin/digimon/farm.lua", "origin/digimon/terminal.lua", "origin/services/digimon_runtime/init.lua"):
                 code += "assert(loadfile(" + json.dumps((scripts / relative).as_posix()) + "))\n"
             code += "dofile(" + json.dumps((ROOT / "tests/lua/test_digimon_terminal.lua").as_posix()) + ")"
@@ -43,6 +44,10 @@ class TerminalTests(unittest.TestCase):
             menu = common[common.index('function COMMON.ShowDestinationMenu('):common.index('function COMMON.CreateWalkArea(')]
             code += '\n' + menu
             code += "\ndofile(" + json.dumps((ROOT / "tests/lua/test_digimon_access.lua").as_posix()) + ")"
+            battle = (scripts / 'origin/event_battle.lua').read_text(encoding='utf-8-sig')
+            rescue = battle[battle.index('function BATTLE_SCRIPT.SidequestRescueReached('):battle.index('function BATTLE_SCRIPT.SidequestEscortReached(')]
+            code += '\nBATTLE_SCRIPT = {}\n' + rescue
+            code += '\ndofile(' + json.dumps((ROOT / 'tests/lua/test_digimon_rescue_interaction.lua').as_posix()) + ')'
             result = lua.luaL_loadstring(state, code.encode())
             if result == 0:
                 result = lua.lua_pcallk(state, 0, 0, 0, 0, None)

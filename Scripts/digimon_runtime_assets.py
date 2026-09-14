@@ -9,6 +9,7 @@ import shutil
 import subprocess
 import xml.etree.ElementTree as ET
 from digimon_skill_presentation import profile, apply as apply_presentation
+from digimon_move_balance import values as move_balance
 from digimon_progression_tuning import STAGE_MULTIPLIERS, BASE_EXP_PER_MEMORY, growth_table, remove_apricorns
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -50,6 +51,7 @@ def native_skill(entry, index):
     source = entry['variants'][0]['source']
     support = source['Type']=='Support'
     skill_id = entry['id']
+    balance = move_balance(entry)
     mapping = {
         'acceleration_boost':'focus_energy','attack_charge':'swords_dance','attack_charge_field':'howl',
         'mental_charge':'calm_mind','mental_charge_field':'calm_mind','speed_charge':'agility',
@@ -65,6 +67,7 @@ def native_skill(entry, index):
     obj['IndexNum']=12000+index
     obj['Released']=True
     obj['BaseCharges']=max(5,min(30,60//max(1,int(source['SP Cost']))))
+    if balance: obj['BaseCharges'] = balance['pp']
     obj['Comment']='Cyber Sleuth source: '+source['Description']
     if support:
         description = 'Phase 1 adaptation: '+obj['Desc']['DefaultText']
@@ -87,14 +90,16 @@ def native_skill(entry, index):
         data['Category']=1 if source['Type']=='Physical' else 2
         match=re.search(r'(\d+)% accuracy',source['Description'],re.I)
         data['HitRate']=-1 if 'always hits' in source['Description'].lower() else int(match.group(1)) if match else 100
+        if balance and data['HitRate'] != -1: data['HitRate'] = 100
         # Explicit vertical-slice combat conversion, separate from immutable source facts.
-        mapped_power=max(1,(power+1)//2) if power else 60
+        mapped_power=max(20,(power+1)//2) if power else 60
+        if balance: mapped_power = balance['power']
         data['SkillStates']=[{'$type':'RogueEssence.Dungeon.BasePowerState, RogueEssence','Power':mapped_power}]
         damage={'$type':'PMDC.Dungeon.DamageFormulaEvent, PMDC'}
         if source['Type']=='Fixed':
             fixed=re.search(r'Fixed damage of (\d+)',source['Description'])
             if not fixed: raise ValueError('Missing fixed damage: '+skill_id)
-            damage={'$type':'PMDC.Dungeon.SpecificDamageEvent, PMDC','Damage':max(1,int(fixed.group(1))//10)}
+            damage={'$type':'PMDC.Dungeon.SpecificDamageEvent, PMDC','Damage':mapped_power if balance else max(20,int(fixed.group(1))//10)}
         data['OnHits']=[priority(damage)]
         targeting = apply_presentation(obj, selected)
         description=f"{source['Type']} {source['Attribute']} attack. " + (f"Power {mapped_power}." if source['Type']!='Fixed' else f"Deals {damage['Damage']} fixed damage.")

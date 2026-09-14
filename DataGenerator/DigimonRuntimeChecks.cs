@@ -224,6 +224,9 @@ end")[0];
             foreach (string zoneId in earlyZones)
             {
                 Console.WriteLine("Checking released zone: " + zoneId);
+                LuaEngine.Instance.RunString("SV.Digimon = require('origin.digimon.scan_ledger').new(); SV.missions.Missions = {}");
+                if (zoneId == "tropical_path")
+                    LuaEngine.Instance.RunString("require('origin.digimon.story_missions').accept('DigimonStory_TropicalPath')");
                 var zoneData = DataManager.Instance.GetZone(zoneId);
                 Check(zoneData.Released, zoneId + ": zone is not released");
                 if (zoneId == "tropical_path") Check(zoneData.Segments.Count == 2, "Tropical Path secret room is missing");
@@ -242,7 +245,7 @@ end")[0];
                         Map map = zone.GetMap(new SegLoc(segment, floor));
                         // Exercise the same fixed-map NPC conversion used when playing.
                         // This check uses an isolated save and restores the engine binding.
-                        LuaEngine.Instance.RunString("_digimon_previous_zone = _ZONE; _ZONE = {CurrentZoneID='" + zoneId + "'}; SV.Digimon = require('origin.digimon.scan_ledger').new()");
+                        LuaEngine.Instance.RunString("_digimon_previous_zone = _ZONE; _ZONE = {CurrentZoneID='" + zoneId + "'}");
                         try { LuaEngine.Instance.OnDungeonMapEnter(map.AssetName, map); }
                         finally { LuaEngine.Instance.RunString("_ZONE = _digimon_previous_zone; _digimon_previous_zone = nil"); }
                         bool randomEnemies = false;
@@ -307,13 +310,32 @@ end")[0];
                                 Check(dest.Dest.ID >= 0 && targetExists, zoneId + " segment " + segment + " floor " + floor + ": dangling stair floor " + dest.Dest.ID);
                             }
                         int guardians = 0;
+                        var rescueTargets = new Dictionary<string, int>();
+                        foreach (var team in map.AllyTeams)
+                            foreach (var character in team.Players)
+                                if (character.LuaDataTable?["Mission"] as string == "DigimonStory_TropicalPath")
+                                {
+                                    string species = character.BaseForm.Species;
+                                    rescueTargets[species] = rescueTargets.TryGetValue(species, out int count) ? count + 1 : 1;
+                                }
                         foreach (var team in map.MapTeams)
                             foreach (var character in team.Players)
                             {
                                 if (character.LuaDataTable?["DigimonBoss"] is bool guardian && guardian) guardians++;
+                                if (character.LuaDataTable?["Mission"] as string == "DigimonStory_TropicalPath")
+                                {
+                                    string species = character.BaseForm.Species;
+                                    rescueTargets[species] = rescueTargets.TryGetValue(species, out int count) ? count + 1 : 1;
+                                }
                                 Check(DataManager.Instance.GetMonster(character.BaseForm.Species).Forms[0] is DigimonFormData, zoneId + ": non-Digimon encounter " + character.BaseForm.Species);
                             }
                         if (zoneId == "tropical_path" && segment == 0 && floor == 3) Check(guardians == 1, "Final floor needs exactly one guardian");
+                        if (zoneId == "tropical_path" && segment == 0 && floor == 1)
+                        {
+                            Check(rescueTargets.Count == 3, "Nursery rescue needs three distinct targets");
+                            foreach (string species in new[] { "falcomon", "botamon", "punimon" })
+                                Check(rescueTargets.TryGetValue(species, out int count) && count == 1, "Expected exactly one rescue target: " + species);
+                        }
                         floorCount++;
                     }
                 }

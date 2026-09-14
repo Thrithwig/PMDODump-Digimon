@@ -1,0 +1,4725 @@
+{
+  "policy": "Move-owned tiers from earliest source learner stage. Shared moves retain one identity and are explicit cross-stage exceptions. No species checks, variant moves, or learnset gates. Damage bands 20-39/40-59/60-79/80-99; PP bands 20-29/30-39/40-49/50-59. Starter attacks stay 20 power and 20 PP. Source move effects and targeting are preserved.",
+  "moves": {
+    "acceleration_boost": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "power": null,
+      "pp": 29,
+      "shared_exception": true
+    },
+    "adhesive_bubble_blow": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 20,
+      "pp": 29,
+      "shared_exception": false
+    },
+    "agility_charge": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0,
+        1,
+        2
+      ],
+      "power": null,
+      "pp": 29,
+      "shared_exception": true
+    },
+    "aguichant_levres": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 80,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "air_bubbles": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 20,
+      "pp": 29,
+      "shared_exception": false
+    },
+    "air_shot": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 22,
+      "pp": 29,
+      "shared_exception": false
+    },
+    "ambush_crunch": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 45,
+      "pp": 37,
+      "shared_exception": false
+    },
+    "amethyst_mandala": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 84,
+      "pp": 58,
+      "shared_exception": false
+    },
+    "animal_nail": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 67,
+      "pp": 46,
+      "shared_exception": false
+    },
+    "anti_bug": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1,
+        2
+      ],
+      "power": null,
+      "pp": 39,
+      "shared_exception": true
+    },
+    "anti_panic": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0,
+        1,
+        2
+      ],
+      "power": null,
+      "pp": 29,
+      "shared_exception": true
+    },
+    "anti_paralysis": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0,
+        1,
+        2
+      ],
+      "power": null,
+      "pp": 29,
+      "shared_exception": true
+    },
+    "anti_poison": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0,
+        1,
+        2
+      ],
+      "power": null,
+      "pp": 29,
+      "shared_exception": true
+    },
+    "anti_sleep": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0,
+        1,
+        2
+      ],
+      "power": null,
+      "pp": 29,
+      "shared_exception": true
+    },
+    "anti_stun": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0,
+        1,
+        2
+      ],
+      "power": null,
+      "pp": 29,
+      "shared_exception": true
+    },
+    "antidote": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1,
+        2,
+        3
+      ],
+      "power": null,
+      "pp": 39,
+      "shared_exception": true
+    },
+    "arctic_blizzard": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 88,
+      "pp": 56,
+      "shared_exception": false
+    },
+    "atomic_blaster": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 79,
+      "pp": 40,
+      "shared_exception": false
+    },
+    "atomic_ray": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 88,
+      "pp": 56,
+      "shared_exception": false
+    },
+    "attack_break": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0,
+        1,
+        2
+      ],
+      "power": null,
+      "pp": 29,
+      "shared_exception": true
+    },
+    "attack_break_field": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": null,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "attack_charge": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "power": null,
+      "pp": 29,
+      "shared_exception": true
+    },
+    "attack_charge_field": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1,
+        3
+      ],
+      "power": null,
+      "pp": 39,
+      "shared_exception": true
+    },
+    "aura": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1,
+        2,
+        3
+      ],
+      "power": null,
+      "pp": 39,
+      "shared_exception": true
+    },
+    "aurora_blaster": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 88,
+      "pp": 56,
+      "shared_exception": false
+    },
+    "aurora_undulation": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 84,
+      "pp": 58,
+      "shared_exception": false
+    },
+    "awesome_quake_i": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1,
+        2
+      ],
+      "power": 40,
+      "pp": 39,
+      "shared_exception": true
+    },
+    "awesome_quake_ii": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1,
+        2,
+        3
+      ],
+      "power": 42,
+      "pp": 39,
+      "shared_exception": true
+    },
+    "awesome_quake_iii": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1,
+        3
+      ],
+      "power": 44,
+      "pp": 38,
+      "shared_exception": true
+    },
+    "baby_breath": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 24,
+      "pp": 28,
+      "shared_exception": false
+    },
+    "banana_slip": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 87,
+      "pp": 56,
+      "shared_exception": false
+    },
+    "bantyo_blade": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 90,
+      "pp": 55,
+      "shared_exception": false
+    },
+    "berserk_sword": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 60,
+      "pp": 49,
+      "shared_exception": false
+    },
+    "bifrost": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 88,
+      "pp": 56,
+      "shared_exception": false
+    },
+    "big_bang_voice": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 60,
+      "pp": 49,
+      "shared_exception": false
+    },
+    "bit_fire": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 40,
+      "pp": 39,
+      "shared_exception": false
+    },
+    "bite": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 21,
+      "pp": 29,
+      "shared_exception": false
+    },
+    "biting_crush": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 90,
+      "pp": 55,
+      "shared_exception": false
+    },
+    "black_aura_blast__leopardmon": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 87,
+      "pp": 56,
+      "shared_exception": false
+    },
+    "black_aura_blast__leopardmon_nx": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 87,
+      "pp": 56,
+      "shared_exception": false
+    },
+    "black_pearl_blast": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 20,
+      "pp": 29,
+      "shared_exception": false
+    },
+    "black_rain": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 87,
+      "pp": 56,
+      "shared_exception": false
+    },
+    "black_tornado": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 80,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "blade_of_the_dragon_king__alphamon": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 90,
+      "pp": 55,
+      "shared_exception": false
+    },
+    "blade_of_the_dragon_king__alphamon_nx": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 88,
+      "pp": 56,
+      "shared_exception": false
+    },
+    "blaze_sonic_breath": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 66,
+      "pp": 47,
+      "shared_exception": false
+    },
+    "blazing_ice": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 23,
+      "pp": 28,
+      "shared_exception": false
+    },
+    "blinded": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 67,
+      "pp": 46,
+      "shared_exception": false
+    },
+    "blinding_ray": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 23,
+      "pp": 28,
+      "shared_exception": false
+    },
+    "blue_blaster": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 23,
+      "pp": 28,
+      "shared_exception": false
+    },
+    "blue_flare_breath": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 45,
+      "pp": 37,
+      "shared_exception": false
+    },
+    "brain_rupture": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 87,
+      "pp": 56,
+      "shared_exception": false
+    },
+    "branch_drain": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 44,
+      "pp": 38,
+      "shared_exception": false
+    },
+    "brave_metal": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 94,
+      "pp": 53,
+      "shared_exception": false
+    },
+    "breath_of_the_gods": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": null,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "bubble_blow": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 20,
+      "pp": 29,
+      "shared_exception": false
+    },
+    "bubbles": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 20,
+      "pp": 29,
+      "shared_exception": false
+    },
+    "bunny_blades": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 62,
+      "pp": 49,
+      "shared_exception": false
+    },
+    "burning_fist": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 44,
+      "pp": 38,
+      "shared_exception": false
+    },
+    "burst_flame_i": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 22,
+      "pp": 29,
+      "shared_exception": false
+    },
+    "burst_flame_ii": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 44,
+      "pp": 38,
+      "shared_exception": false
+    },
+    "burst_flame_iii": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2,
+        3
+      ],
+      "power": 66,
+      "pp": 47,
+      "shared_exception": true
+    },
+    "burst_shot": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 82,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "catastrophe_cannon": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 84,
+      "pp": 58,
+      "shared_exception": false
+    },
+    "celestial_arrow": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 66,
+      "pp": 47,
+      "shared_exception": false
+    },
+    "celestial_blade__ravemon": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 85,
+      "pp": 57,
+      "shared_exception": false
+    },
+    "celestial_blade__susanomon": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 87,
+      "pp": 56,
+      "shared_exception": false
+    },
+    "chain_loss": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": null,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "chain_max": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": null,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "chain_minus": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1,
+        2,
+        3
+      ],
+      "power": null,
+      "pp": 39,
+      "shared_exception": true
+    },
+    "chain_plus": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0,
+        1,
+        2
+      ],
+      "power": null,
+      "pp": 29,
+      "shared_exception": true
+    },
+    "chaos_degradation": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 80,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "character_reversal": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1,
+        2,
+        3
+      ],
+      "power": 40,
+      "pp": 39,
+      "shared_exception": true
+    },
+    "cheese_bomb": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 24,
+      "pp": 28,
+      "shared_exception": false
+    },
+    "cherry_bomb": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 63,
+      "pp": 48,
+      "shared_exception": false
+    },
+    "chrono_breaker": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 40,
+      "pp": 39,
+      "shared_exception": false
+    },
+    "cog_crusher": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 24,
+      "pp": 28,
+      "shared_exception": false
+    },
+    "cold_flame": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 66,
+      "pp": 47,
+      "shared_exception": false
+    },
+    "comet_hammer_i": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 23,
+      "pp": 28,
+      "shared_exception": false
+    },
+    "comet_hammer_ii": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 45,
+      "pp": 37,
+      "shared_exception": false
+    },
+    "comet_hammer_iii": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1,
+        2,
+        3
+      ],
+      "power": 47,
+      "pp": 36,
+      "shared_exception": true
+    },
+    "corona_blaster": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 60,
+      "pp": 49,
+      "shared_exception": false
+    },
+    "corona_destroyer": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 80,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "crazy_giggle": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 24,
+      "pp": 28,
+      "shared_exception": false
+    },
+    "crescent_leaf_i": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 23,
+      "pp": 28,
+      "shared_exception": false
+    },
+    "crescent_leaf_ii": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1,
+        2
+      ],
+      "power": 45,
+      "pp": 37,
+      "shared_exception": true
+    },
+    "crescent_leaf_iii": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2,
+        3
+      ],
+      "power": 67,
+      "pp": 46,
+      "shared_exception": true
+    },
+    "crimson_curse": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 42,
+      "pp": 39,
+      "shared_exception": false
+    },
+    "critical_charge": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "power": null,
+      "pp": 29,
+      "shared_exception": true
+    },
+    "cross_blade": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 67,
+      "pp": 46,
+      "shared_exception": false
+    },
+    "cross_counter": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "power": null,
+      "pp": 29,
+      "shared_exception": true
+    },
+    "crystal_cloud": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 40,
+      "pp": 39,
+      "shared_exception": false
+    },
+    "crystal_revolution": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 85,
+      "pp": 57,
+      "shared_exception": false
+    },
+    "d_grenade": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 41,
+      "pp": 39,
+      "shared_exception": false
+    },
+    "dark_prominence": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 80,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "dark_pupil": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 67,
+      "pp": 46,
+      "shared_exception": false
+    },
+    "dark_roar": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 89,
+      "pp": 55,
+      "shared_exception": false
+    },
+    "dark_terra_force": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 86,
+      "pp": 57,
+      "shared_exception": false
+    },
+    "darkness_wave": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 61,
+      "pp": 49,
+      "shared_exception": false
+    },
+    "darkness_zone": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 80,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "data_crusher": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 45,
+      "pp": 37,
+      "shared_exception": false
+    },
+    "data_drain": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 21,
+      "pp": 29,
+      "shared_exception": false
+    },
+    "dead_or_alive": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 69,
+      "pp": 45,
+      "shared_exception": false
+    },
+    "death_charm": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 40,
+      "pp": 39,
+      "shared_exception": false
+    },
+    "death_claw": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 40,
+      "pp": 39,
+      "shared_exception": false
+    },
+    "death_parade_blaster": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 61,
+      "pp": 49,
+      "shared_exception": false
+    },
+    "demi_darts": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 20,
+      "pp": 29,
+      "shared_exception": false
+    },
+    "demonic_disaster": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 89,
+      "pp": 55,
+      "shared_exception": false
+    },
+    "desolation_claw": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 67,
+      "pp": 46,
+      "shared_exception": false
+    },
+    "destroyed_hook": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 80,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "destroyed_rush": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 80,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "destruction": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0,
+        2,
+        3
+      ],
+      "power": 21,
+      "pp": 29,
+      "shared_exception": true
+    },
+    "destruction_cannon_i": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0,
+        1
+      ],
+      "power": 23,
+      "pp": 28,
+      "shared_exception": true
+    },
+    "destruction_cannon_ii": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1,
+        2,
+        3
+      ],
+      "power": 45,
+      "pp": 37,
+      "shared_exception": true
+    },
+    "destruction_cannon_iii": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1,
+        2,
+        3
+      ],
+      "power": 47,
+      "pp": 36,
+      "shared_exception": true
+    },
+    "destruction_crush": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 84,
+      "pp": 58,
+      "shared_exception": false
+    },
+    "diamond_shell": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 23,
+      "pp": 28,
+      "shared_exception": false
+    },
+    "diamond_storm": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 20,
+      "pp": 29,
+      "shared_exception": false
+    },
+    "digital_bomb": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 64,
+      "pp": 48,
+      "shared_exception": false
+    },
+    "dimension_scissor": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 80,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "disaster_blaster": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 63,
+      "pp": 48,
+      "shared_exception": false
+    },
+    "dispel": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1,
+        2,
+        3
+      ],
+      "power": null,
+      "pp": 39,
+      "shared_exception": true
+    },
+    "divine_atonement": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 94,
+      "pp": 53,
+      "shared_exception": false
+    },
+    "divine_dragon_slash": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 80,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "divine_pierce": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 23,
+      "pp": 28,
+      "shared_exception": false
+    },
+    "divine_pierce_awake": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 25,
+      "pp": 27,
+      "shared_exception": false
+    },
+    "dot_matrix": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2,
+        3
+      ],
+      "power": 60,
+      "pp": 49,
+      "shared_exception": true
+    },
+    "double_backhand": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 20,
+      "pp": 29,
+      "shared_exception": false
+    },
+    "double_impact": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 80,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "double_scissor_claw": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 60,
+      "pp": 49,
+      "shared_exception": false
+    },
+    "dragon_impulse": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 79,
+      "pp": 40,
+      "shared_exception": false
+    },
+    "dragon_s_roar": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 83,
+      "pp": 58,
+      "shared_exception": false
+    },
+    "dragonic_impact": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 86,
+      "pp": 57,
+      "shared_exception": false
+    },
+    "dumdum_uppercut": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 45,
+      "pp": 37,
+      "shared_exception": false
+    },
+    "earth_shattering_stomp": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 60,
+      "pp": 49,
+      "shared_exception": false
+    },
+    "eden_s_javelin": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 88,
+      "pp": 56,
+      "shared_exception": false
+    },
+    "eiseiryuoujin": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 80,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "elastic_bubbles": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 20,
+      "pp": 29,
+      "shared_exception": false
+    },
+    "electric_shock": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 22,
+      "pp": 29,
+      "shared_exception": false
+    },
+    "electric_stun_blast": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 23,
+      "pp": 28,
+      "shared_exception": false
+    },
+    "electro_shocker": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 44,
+      "pp": 38,
+      "shared_exception": false
+    },
+    "energy_bomb": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 66,
+      "pp": 47,
+      "shared_exception": false
+    },
+    "escape_dash": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "power": null,
+      "pp": 29,
+      "shared_exception": true
+    },
+    "eternal_nightmare": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 80,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "exhaust_flame": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 45,
+      "pp": 37,
+      "shared_exception": false
+    },
+    "extinction_wave": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 84,
+      "pp": 58,
+      "shared_exception": false
+    },
+    "eye_of_nightmares": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 22,
+      "pp": 29,
+      "shared_exception": false
+    },
+    "eye_of_the_gorgon": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": null,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "fang_strike": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 45,
+      "pp": 37,
+      "shared_exception": false
+    },
+    "feather_slash": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 20,
+      "pp": 29,
+      "shared_exception": false
+    },
+    "fenrir_sword": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 89,
+      "pp": 55,
+      "shared_exception": false
+    },
+    "fiery_fastball": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 24,
+      "pp": 28,
+      "shared_exception": false
+    },
+    "fif_cross": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 42,
+      "pp": 39,
+      "shared_exception": false
+    },
+    "fifth_rush": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 20,
+      "pp": 29,
+      "shared_exception": false
+    },
+    "final_aura": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1,
+        3
+      ],
+      "power": null,
+      "pp": 39,
+      "shared_exception": true
+    },
+    "final_heal": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": null,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "final_shining_burst": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 94,
+      "pp": 53,
+      "shared_exception": false
+    },
+    "fire_breath": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 45,
+      "pp": 37,
+      "shared_exception": false
+    },
+    "fire_tornado": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 86,
+      "pp": 57,
+      "shared_exception": false
+    },
+    "firedrake_strike": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 89,
+      "pp": 55,
+      "shared_exception": false
+    },
+    "fist_of_athena__crusadermon": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 80,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "fist_of_athena__crusadermon_nx": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 80,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "fist_of_ice": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 67,
+      "pp": 46,
+      "shared_exception": false
+    },
+    "fist_of_the_beast_king": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 46,
+      "pp": 37,
+      "shared_exception": false
+    },
+    "flame_cannon": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 26,
+      "pp": 27,
+      "shared_exception": false
+    },
+    "flame_inferno": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 85,
+      "pp": 57,
+      "shared_exception": false
+    },
+    "flaming_fist": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 44,
+      "pp": 38,
+      "shared_exception": false
+    },
+    "flashy_boss_punch": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 89,
+      "pp": 55,
+      "shared_exception": false
+    },
+    "flower_cannon": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 67,
+      "pp": 46,
+      "shared_exception": false
+    },
+    "flying_kick": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 46,
+      "pp": 37,
+      "shared_exception": false
+    },
+    "forbidden_trident": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 67,
+      "pp": 46,
+      "shared_exception": false
+    },
+    "fossil_bite": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 40,
+      "pp": 39,
+      "shared_exception": false
+    },
+    "fox_fire": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 45,
+      "pp": 37,
+      "shared_exception": false
+    },
+    "fox_tail": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 21,
+      "pp": 29,
+      "shared_exception": false
+    },
+    "freeze_fang": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 45,
+      "pp": 37,
+      "shared_exception": false
+    },
+    "freezing_breath": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 88,
+      "pp": 56,
+      "shared_exception": false
+    },
+    "frozen_claw": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 40,
+      "pp": 39,
+      "shared_exception": false
+    },
+    "full_moon_blaster": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 89,
+      "pp": 55,
+      "shared_exception": false
+    },
+    "full_moon_kick": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 67,
+      "pp": 46,
+      "shared_exception": false
+    },
+    "full_moon_meteor_impact": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 88,
+      "pp": 56,
+      "shared_exception": false
+    },
+    "fungus_crusher": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 23,
+      "pp": 28,
+      "shared_exception": false
+    },
+    "fury_fire": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 41,
+      "pp": 39,
+      "shared_exception": false
+    },
+    "fury_fire_awake": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 43,
+      "pp": 38,
+      "shared_exception": false
+    },
+    "gaia_element_i": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 22,
+      "pp": 29,
+      "shared_exception": false
+    },
+    "gaia_element_ii": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 44,
+      "pp": 38,
+      "shared_exception": false
+    },
+    "gaia_element_iii": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2,
+        3
+      ],
+      "power": 66,
+      "pp": 47,
+      "shared_exception": true
+    },
+    "galactic_flare": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 62,
+      "pp": 49,
+      "shared_exception": false
+    },
+    "gale_storm_i": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1,
+        2
+      ],
+      "power": 40,
+      "pp": 39,
+      "shared_exception": true
+    },
+    "gale_storm_ii": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2,
+        3
+      ],
+      "power": 62,
+      "pp": 49,
+      "shared_exception": true
+    },
+    "gale_storm_iii": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 84,
+      "pp": 58,
+      "shared_exception": false
+    },
+    "garuru_tomahawk": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 89,
+      "pp": 55,
+      "shared_exception": false
+    },
+    "gear_stringer": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 20,
+      "pp": 29,
+      "shared_exception": false
+    },
+    "genocidal_gears": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 63,
+      "pp": 48,
+      "shared_exception": false
+    },
+    "genocide_attack": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 67,
+      "pp": 46,
+      "shared_exception": false
+    },
+    "geogrey_sword": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 89,
+      "pp": 55,
+      "shared_exception": false
+    },
+    "gift_of_darkness": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 80,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "giga_blaster": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 89,
+      "pp": 55,
+      "shared_exception": false
+    },
+    "giga_destroyer": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 67,
+      "pp": 46,
+      "shared_exception": false
+    },
+    "glare_eye": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 20,
+      "pp": 29,
+      "shared_exception": false
+    },
+    "glide_horn": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 45,
+      "pp": 37,
+      "shared_exception": false
+    },
+    "goblin_strike": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 23,
+      "pp": 28,
+      "shared_exception": false
+    },
+    "god_flame": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 86,
+      "pp": 57,
+      "shared_exception": false
+    },
+    "god_matrix": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 80,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "golden_rush": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 40,
+      "pp": 39,
+      "shared_exception": false
+    },
+    "golden_triangle": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1,
+        2
+      ],
+      "power": 47,
+      "pp": 36,
+      "shared_exception": true
+    },
+    "golden_triangle_i": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 25,
+      "pp": 27,
+      "shared_exception": false
+    },
+    "good_night_moon": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 88,
+      "pp": 56,
+      "shared_exception": false
+    },
+    "grand_cross": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 20,
+      "pp": 29,
+      "shared_exception": false
+    },
+    "grand_rock_i": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 22,
+      "pp": 29,
+      "shared_exception": false
+    },
+    "grand_rock_ii": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 44,
+      "pp": 38,
+      "shared_exception": false
+    },
+    "grand_rock_iii": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2,
+        3
+      ],
+      "power": 66,
+      "pp": 47,
+      "shared_exception": true
+    },
+    "great_tornado": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 80,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "great_weight": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 45,
+      "pp": 37,
+      "shared_exception": false
+    },
+    "green_flare_breath": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 40,
+      "pp": 39,
+      "shared_exception": false
+    },
+    "guard_break": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0,
+        1,
+        2
+      ],
+      "power": null,
+      "pp": 29,
+      "shared_exception": true
+    },
+    "guard_break_field": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": null,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "guard_charge": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0,
+        1,
+        2
+      ],
+      "power": null,
+      "pp": 29,
+      "shared_exception": true
+    },
+    "guard_charge_field": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1,
+        3
+      ],
+      "power": null,
+      "pp": 39,
+      "shared_exception": true
+    },
+    "hard_rock_spirit": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 23,
+      "pp": 28,
+      "shared_exception": false
+    },
+    "harpoon_torpedo": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 45,
+      "pp": 37,
+      "shared_exception": false
+    },
+    "heal": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0,
+        1,
+        2
+      ],
+      "power": null,
+      "pp": 29,
+      "shared_exception": true
+    },
+    "hearts_attack": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": null,
+      "pp": 49,
+      "shared_exception": false
+    },
+    "heat_wave": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 64,
+      "pp": 48,
+      "shared_exception": false
+    },
+    "heaven_s_gate": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 66,
+      "pp": 47,
+      "shared_exception": false
+    },
+    "heaven_s_judgment": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 85,
+      "pp": 57,
+      "shared_exception": false
+    },
+    "heaven_s_knuckle": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 44,
+      "pp": 38,
+      "shared_exception": false
+    },
+    "heaven_s_thunder": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 80,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "heaven_s_thunder_i": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 22,
+      "pp": 29,
+      "shared_exception": false
+    },
+    "heaven_s_thunder_ii": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 44,
+      "pp": 38,
+      "shared_exception": false
+    },
+    "heaven_s_thunder_iii": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2,
+        3
+      ],
+      "power": 66,
+      "pp": 47,
+      "shared_exception": true
+    },
+    "heavy_metal_fire": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 67,
+      "pp": 46,
+      "shared_exception": false
+    },
+    "heavy_strike_i": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 24,
+      "pp": 28,
+      "shared_exception": false
+    },
+    "heavy_strike_ii": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 45,
+      "pp": 37,
+      "shared_exception": false
+    },
+    "heavy_strike_iii": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2,
+        3
+      ],
+      "power": 67,
+      "pp": 46,
+      "shared_exception": true
+    },
+    "hell_crusher_i": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1,
+        2
+      ],
+      "power": 40,
+      "pp": 39,
+      "shared_exception": true
+    },
+    "hell_crusher_ii": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2,
+        3
+      ],
+      "power": 61,
+      "pp": 49,
+      "shared_exception": true
+    },
+    "hell_crusher_iii": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2,
+        3
+      ],
+      "power": 63,
+      "pp": 48,
+      "shared_exception": true
+    },
+    "hell_masquerade": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 61,
+      "pp": 49,
+      "shared_exception": false
+    },
+    "hit_charge": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1,
+        2
+      ],
+      "power": null,
+      "pp": 39,
+      "shared_exception": true
+    },
+    "holy_light_i": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 22,
+      "pp": 29,
+      "shared_exception": false
+    },
+    "holy_light_ii": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 44,
+      "pp": 38,
+      "shared_exception": false
+    },
+    "holy_light_iii": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0,
+        2,
+        3
+      ],
+      "power": 26,
+      "pp": 27,
+      "shared_exception": true
+    },
+    "holy_shot": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 44,
+      "pp": 38,
+      "shared_exception": false
+    },
+    "horn_buster": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 60,
+      "pp": 49,
+      "shared_exception": false
+    },
+    "howling_crusher": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 83,
+      "pp": 58,
+      "shared_exception": false
+    },
+    "hydro_water_i": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 22,
+      "pp": 29,
+      "shared_exception": false
+    },
+    "hydro_water_ii": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1,
+        2
+      ],
+      "power": 44,
+      "pp": 38,
+      "shared_exception": true
+    },
+    "hydro_water_iii": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2,
+        3
+      ],
+      "power": 66,
+      "pp": 47,
+      "shared_exception": true
+    },
+    "hyper_cannon": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 54,
+      "pp": 33,
+      "shared_exception": false
+    },
+    "hyper_heat": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 45,
+      "pp": 37,
+      "shared_exception": false
+    },
+    "hyper_infinity_cannon": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 87,
+      "pp": 56,
+      "shared_exception": false
+    },
+    "hyper_smell": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 44,
+      "pp": 38,
+      "shared_exception": false
+    },
+    "ice_archery_i": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 23,
+      "pp": 28,
+      "shared_exception": false
+    },
+    "ice_archery_ii": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 45,
+      "pp": 37,
+      "shared_exception": false
+    },
+    "ice_archery_iii": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2,
+        3
+      ],
+      "power": 67,
+      "pp": 46,
+      "shared_exception": true
+    },
+    "ice_blast": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 44,
+      "pp": 38,
+      "shared_exception": false
+    },
+    "ice_wolf_claw": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 82,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "iceball_bomb": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 44,
+      "pp": 38,
+      "shared_exception": false
+    },
+    "idle_bubble": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "power": 20,
+      "pp": 29,
+      "shared_exception": true
+    },
+    "infinity_cannon": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 87,
+      "pp": 56,
+      "shared_exception": false
+    },
+    "infinity_dream": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": null,
+      "pp": 39,
+      "shared_exception": false
+    },
+    "judecca_prison": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 87,
+      "pp": 56,
+      "shared_exception": false
+    },
+    "judgement_of_the_blade": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 80,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "justice_kick": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 89,
+      "pp": 55,
+      "shared_exception": false
+    },
+    "katana_attack": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 20,
+      "pp": 29,
+      "shared_exception": false
+    },
+    "knuckle_beater": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 24,
+      "pp": 28,
+      "shared_exception": false
+    },
+    "kunai_wing": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 40,
+      "pp": 39,
+      "shared_exception": false
+    },
+    "legendary_dragon_blade": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 60,
+      "pp": 49,
+      "shared_exception": false
+    },
+    "lightning_javelin": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 67,
+      "pp": 46,
+      "shared_exception": false
+    },
+    "lightning_joust__gallantmon": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 89,
+      "pp": 55,
+      "shared_exception": false
+    },
+    "lightning_joust__gallantmon_nx": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 89,
+      "pp": 55,
+      "shared_exception": false
+    },
+    "lightning_paw": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 40,
+      "pp": 39,
+      "shared_exception": false
+    },
+    "lightning_spear": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 80,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "lila_shower": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 63,
+      "pp": 48,
+      "shared_exception": false
+    },
+    "little_horn": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 24,
+      "pp": 28,
+      "shared_exception": false
+    },
+    "love_serenade": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 60,
+      "pp": 49,
+      "shared_exception": false
+    },
+    "lullaby_bubble": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 22,
+      "pp": 29,
+      "shared_exception": false
+    },
+    "lunatic_dance": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 66,
+      "pp": 47,
+      "shared_exception": false
+    },
+    "mach_rush_i": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1,
+        2
+      ],
+      "power": 41,
+      "pp": 39,
+      "shared_exception": true
+    },
+    "mach_rush_ii": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1,
+        2,
+        3
+      ],
+      "power": 42,
+      "pp": 39,
+      "shared_exception": true
+    },
+    "mach_rush_iii": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0,
+        3
+      ],
+      "power": 24,
+      "pp": 28,
+      "shared_exception": true
+    },
+    "mach_stinger_v": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 80,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "machinegun_destroyer": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 90,
+      "pp": 55,
+      "shared_exception": false
+    },
+    "marching_fishes": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 20,
+      "pp": 29,
+      "shared_exception": false
+    },
+    "mature_poop": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 44,
+      "pp": 38,
+      "shared_exception": false
+    },
+    "mega_burst": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 42,
+      "pp": 39,
+      "shared_exception": false
+    },
+    "mega_flame": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 46,
+      "pp": 37,
+      "shared_exception": false
+    },
+    "megadeath": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 86,
+      "pp": 57,
+      "shared_exception": false
+    },
+    "megiddo_flame": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 89,
+      "pp": 55,
+      "shared_exception": false
+    },
+    "mental_break": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0,
+        1,
+        2
+      ],
+      "power": null,
+      "pp": 29,
+      "shared_exception": true
+    },
+    "mental_break_field": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": null,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "mental_charge": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0,
+        1,
+        2
+      ],
+      "power": null,
+      "pp": 29,
+      "shared_exception": true
+    },
+    "mental_charge_field": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": null,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "metal_armor_blade": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 40,
+      "pp": 39,
+      "shared_exception": false
+    },
+    "metal_cannon": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 24,
+      "pp": 28,
+      "shared_exception": false
+    },
+    "metal_meteor": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 67,
+      "pp": 46,
+      "shared_exception": false
+    },
+    "meteor_fall_i": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1,
+        2
+      ],
+      "power": 40,
+      "pp": 39,
+      "shared_exception": true
+    },
+    "meteor_fall_ii": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1,
+        2,
+        3
+      ],
+      "power": 42,
+      "pp": 39,
+      "shared_exception": true
+    },
+    "meteor_fall_iii": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0,
+        3
+      ],
+      "power": 24,
+      "pp": 28,
+      "shared_exception": true
+    },
+    "meteor_shower": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 41,
+      "pp": 39,
+      "shared_exception": false
+    },
+    "meteor_wing": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 40,
+      "pp": 39,
+      "shared_exception": false
+    },
+    "miracle_bomb": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 69,
+      "pp": 45,
+      "shared_exception": false
+    },
+    "mirror_reflection": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1,
+        2,
+        3
+      ],
+      "power": null,
+      "pp": 39,
+      "shared_exception": true
+    },
+    "monkey_wrench": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": null,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "moon_night_bomb": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 43,
+      "pp": 38,
+      "shared_exception": false
+    },
+    "mourning_dance": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 80,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "musical_fist": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 60,
+      "pp": 49,
+      "shared_exception": false
+    },
+    "nail_bone": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 60,
+      "pp": 49,
+      "shared_exception": false
+    },
+    "nail_scratch": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 21,
+      "pp": 29,
+      "shared_exception": false
+    },
+    "nanomachine_break_i": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 23,
+      "pp": 28,
+      "shared_exception": false
+    },
+    "nanomachine_break_ii": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1,
+        2
+      ],
+      "power": 45,
+      "pp": 37,
+      "shared_exception": true
+    },
+    "nanomachine_break_iii": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2,
+        3
+      ],
+      "power": 67,
+      "pp": 46,
+      "shared_exception": true
+    },
+    "needle_spray": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 41,
+      "pp": 39,
+      "shared_exception": false
+    },
+    "night_raid": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 63,
+      "pp": 48,
+      "shared_exception": false
+    },
+    "nightmare_i": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 22,
+      "pp": 29,
+      "shared_exception": false
+    },
+    "nightmare_ii": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 44,
+      "pp": 38,
+      "shared_exception": false
+    },
+    "nightmare_iii": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2,
+        3
+      ],
+      "power": 66,
+      "pp": 47,
+      "shared_exception": true
+    },
+    "nightmare_syndrome": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 60,
+      "pp": 49,
+      "shared_exception": false
+    },
+    "ninja_blade": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 21,
+      "pp": 29,
+      "shared_exception": false
+    },
+    "ninja_claw": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 40,
+      "pp": 39,
+      "shared_exception": false
+    },
+    "nitro_stinger": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 60,
+      "pp": 49,
+      "shared_exception": false
+    },
+    "nuclear_laser": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 60,
+      "pp": 49,
+      "shared_exception": false
+    },
+    "oblivion_bird": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 67,
+      "pp": 46,
+      "shared_exception": false
+    },
+    "ocean_love": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": null,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "ocean_wave_i": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1,
+        2
+      ],
+      "power": 40,
+      "pp": 39,
+      "shared_exception": true
+    },
+    "ocean_wave_ii": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2,
+        3
+      ],
+      "power": 61,
+      "pp": 49,
+      "shared_exception": true
+    },
+    "ocean_wave_iii": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 83,
+      "pp": 58,
+      "shared_exception": false
+    },
+    "odin_s_breath": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 87,
+      "pp": 56,
+      "shared_exception": false
+    },
+    "omni_sword": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 90,
+      "pp": 55,
+      "shared_exception": false
+    },
+    "pandemonium_lost": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 84,
+      "pp": 58,
+      "shared_exception": false
+    },
+    "pandora_dialogue": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 60,
+      "pp": 49,
+      "shared_exception": false
+    },
+    "panic_wisp": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "power": 20,
+      "pp": 29,
+      "shared_exception": true
+    },
+    "pendragon_s_glory": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 90,
+      "pp": 55,
+      "shared_exception": false
+    },
+    "pepper_breath": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 24,
+      "pp": 28,
+      "shared_exception": false
+    },
+    "perfect_revival": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0,
+        3
+      ],
+      "power": null,
+      "pp": 29,
+      "shared_exception": true
+    },
+    "phantom_pain": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 80,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "physical_drain": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "power": 22,
+      "pp": 29,
+      "shared_exception": true
+    },
+    "pit_bomb": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 67,
+      "pp": 46,
+      "shared_exception": false
+    },
+    "plasma_shot": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 41,
+      "pp": 39,
+      "shared_exception": false
+    },
+    "plastic_blaze": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 23,
+      "pp": 28,
+      "shared_exception": false
+    },
+    "platinum_junk": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 81,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "poison_bubbles": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 20,
+      "pp": 29,
+      "shared_exception": false
+    },
+    "poison_ivy": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 23,
+      "pp": 28,
+      "shared_exception": false
+    },
+    "poop": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 44,
+      "pp": 38,
+      "shared_exception": false
+    },
+    "poop_dunk": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 44,
+      "pp": 38,
+      "shared_exception": false
+    },
+    "poop_toss": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 44,
+      "pp": 38,
+      "shared_exception": false
+    },
+    "positron_laser": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 90,
+      "pp": 55,
+      "shared_exception": false
+    },
+    "power_energy_i": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 23,
+      "pp": 28,
+      "shared_exception": false
+    },
+    "power_energy_ii": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 44,
+      "pp": 38,
+      "shared_exception": false
+    },
+    "power_energy_iii": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2,
+        3
+      ],
+      "power": 66,
+      "pp": 47,
+      "shared_exception": true
+    },
+    "power_metal": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 45,
+      "pp": 37,
+      "shared_exception": false
+    },
+    "prison_fist": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 40,
+      "pp": 39,
+      "shared_exception": false
+    },
+    "protect_wave": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": null,
+      "pp": 29,
+      "shared_exception": false
+    },
+    "protect_wave_awake": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": null,
+      "pp": 29,
+      "shared_exception": false
+    },
+    "pummel_whack": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 45,
+      "pp": 37,
+      "shared_exception": false
+    },
+    "puppet_pummel": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 88,
+      "pp": 56,
+      "shared_exception": false
+    },
+    "puppy_howl": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 20,
+      "pp": 29,
+      "shared_exception": false
+    },
+    "pyro_punch": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 42,
+      "pp": 39,
+      "shared_exception": false
+    },
+    "quake_blast_fire_father": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 81,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "quo_vadis": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 80,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "rare_metal_poop": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 44,
+      "pp": 38,
+      "shared_exception": false
+    },
+    "razor_wind": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 40,
+      "pp": 39,
+      "shared_exception": false
+    },
+    "restore": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": null,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "revenge_flame": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 60,
+      "pp": 49,
+      "shared_exception": false
+    },
+    "revive": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "power": null,
+      "pp": 29,
+      "shared_exception": true
+    },
+    "ripping_net": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0,
+        1,
+        2
+      ],
+      "power": 21,
+      "pp": 29,
+      "shared_exception": true
+    },
+    "river_of_power": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 89,
+      "pp": 55,
+      "shared_exception": false
+    },
+    "rock_breaker": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 24,
+      "pp": 28,
+      "shared_exception": false
+    },
+    "rock_fist": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 23,
+      "pp": 28,
+      "shared_exception": false
+    },
+    "rune_forest_i": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1,
+        2
+      ],
+      "power": 40,
+      "pp": 39,
+      "shared_exception": true
+    },
+    "rune_forest_ii": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2,
+        3
+      ],
+      "power": 61,
+      "pp": 49,
+      "shared_exception": true
+    },
+    "rune_forest_iii": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 83,
+      "pp": 58,
+      "shared_exception": false
+    },
+    "s_gold_solar_storm": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 44,
+      "pp": 38,
+      "shared_exception": false
+    },
+    "safety_guard": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0,
+        3
+      ],
+      "power": null,
+      "pp": 29,
+      "shared_exception": true
+    },
+    "saint_knuckle_i": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 23,
+      "pp": 28,
+      "shared_exception": false
+    },
+    "saint_knuckle_ii": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1,
+        2
+      ],
+      "power": 45,
+      "pp": 37,
+      "shared_exception": true
+    },
+    "saint_knuckle_iii": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1,
+        2,
+        3
+      ],
+      "power": 47,
+      "pp": 36,
+      "shared_exception": true
+    },
+    "savage_emperor": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 67,
+      "pp": 46,
+      "shared_exception": false
+    },
+    "scissor_claw": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 40,
+      "pp": 39,
+      "shared_exception": false
+    },
+    "scrapless_claw": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 67,
+      "pp": 46,
+      "shared_exception": false
+    },
+    "seed_blast": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 20,
+      "pp": 29,
+      "shared_exception": false
+    },
+    "seven_s_fantasia": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 84,
+      "pp": 58,
+      "shared_exception": false
+    },
+    "shadow_wing": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 63,
+      "pp": 48,
+      "shared_exception": false
+    },
+    "shield_of_the_just__gallantmon": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 87,
+      "pp": 56,
+      "shared_exception": false
+    },
+    "shield_of_the_just__gallantmon_nx": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 87,
+      "pp": 56,
+      "shared_exception": false
+    },
+    "shine_of_bee": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 80,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "shining_laser_i": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0,
+        1,
+        2
+      ],
+      "power": 20,
+      "pp": 29,
+      "shared_exception": true
+    },
+    "shining_laser_ii": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "power": 21,
+      "pp": 29,
+      "shared_exception": true
+    },
+    "shining_laser_iii": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "power": 23,
+      "pp": 28,
+      "shared_exception": true
+    },
+    "shiny_ring": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 24,
+      "pp": 28,
+      "shared_exception": false
+    },
+    "shock": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "power": 21,
+      "pp": 29,
+      "shared_exception": true
+    },
+    "silent_bullet": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 40,
+      "pp": 39,
+      "shared_exception": false
+    },
+    "silent_bullet_awake": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 40,
+      "pp": 39,
+      "shared_exception": false
+    },
+    "sludge": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 41,
+      "pp": 39,
+      "shared_exception": false
+    },
+    "smile_bomber": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 67,
+      "pp": 46,
+      "shared_exception": false
+    },
+    "smile_fang": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 21,
+      "pp": 29,
+      "shared_exception": false
+    },
+    "smile_warhead": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 87,
+      "pp": 56,
+      "shared_exception": false
+    },
+    "soap_flower": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 20,
+      "pp": 29,
+      "shared_exception": false
+    },
+    "sonic_void_i": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 22,
+      "pp": 29,
+      "shared_exception": false
+    },
+    "sonic_void_ii": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1,
+        2
+      ],
+      "power": 44,
+      "pp": 38,
+      "shared_exception": true
+    },
+    "sonic_void_iii": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2,
+        3
+      ],
+      "power": 66,
+      "pp": 47,
+      "shared_exception": true
+    },
+    "sorrow_blue": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 80,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "soul_absorption": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 24,
+      "pp": 28,
+      "shared_exception": false
+    },
+    "soul_chopper": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 60,
+      "pp": 49,
+      "shared_exception": false
+    },
+    "soul_core_attack": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 80,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "soul_digitalization__alphamon": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 86,
+      "pp": 57,
+      "shared_exception": false
+    },
+    "soul_digitalization__alphamon_nx": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 85,
+      "pp": 57,
+      "shared_exception": false
+    },
+    "speed_break": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0,
+        1,
+        2
+      ],
+      "power": null,
+      "pp": 29,
+      "shared_exception": true
+    },
+    "speed_break_field": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": null,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "speed_charge": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0,
+        1,
+        2
+      ],
+      "power": null,
+      "pp": 29,
+      "shared_exception": true
+    },
+    "speed_charge_field": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "power": null,
+      "pp": 29,
+      "shared_exception": true
+    },
+    "speed_star": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 65,
+      "pp": 47,
+      "shared_exception": false
+    },
+    "spider_shooter": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 60,
+      "pp": 49,
+      "shared_exception": false
+    },
+    "spiking_strike": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 40,
+      "pp": 39,
+      "shared_exception": false
+    },
+    "spinning_needle": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 42,
+      "pp": 39,
+      "shared_exception": false
+    },
+    "spiral_blow": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 45,
+      "pp": 37,
+      "shared_exception": false
+    },
+    "spiral_masquerade__crusadermon": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 80,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "spiral_masquerade__crusadermon_nx": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 80,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "spiral_sword": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 67,
+      "pp": 46,
+      "shared_exception": false
+    },
+    "spiral_twister": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 22,
+      "pp": 29,
+      "shared_exception": false
+    },
+    "spirit_drain": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1,
+        2,
+        3
+      ],
+      "power": 41,
+      "pp": 39,
+      "shared_exception": true
+    },
+    "spitfire_blast": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 21,
+      "pp": 29,
+      "shared_exception": false
+    },
+    "starlight_explosion": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 85,
+      "pp": 57,
+      "shared_exception": false
+    },
+    "starlight_velocity": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 89,
+      "pp": 55,
+      "shared_exception": false
+    },
+    "status_barrier": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": null,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "sticker_blade": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 40,
+      "pp": 39,
+      "shared_exception": false
+    },
+    "sticky_net": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 23,
+      "pp": 28,
+      "shared_exception": false
+    },
+    "strike_of_the_seven_stars": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 80,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "strike_roll": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 89,
+      "pp": 55,
+      "shared_exception": false
+    },
+    "sub_zero_ice_punch": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 44,
+      "pp": 38,
+      "shared_exception": false
+    },
+    "summon": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 20,
+      "pp": 29,
+      "shared_exception": false
+    },
+    "sunshine_beam": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 44,
+      "pp": 38,
+      "shared_exception": false
+    },
+    "super_bubble_blow": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 21,
+      "pp": 29,
+      "shared_exception": false
+    },
+    "super_shocker": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 23,
+      "pp": 28,
+      "shared_exception": false
+    },
+    "super_stinky_jet": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 40,
+      "pp": 39,
+      "shared_exception": false
+    },
+    "supersonic_voice": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 80,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "superstar_uppercut": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 67,
+      "pp": 46,
+      "shared_exception": false
+    },
+    "support_end": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1,
+        2,
+        3
+      ],
+      "power": 40,
+      "pp": 39,
+      "shared_exception": true
+    },
+    "supreme_cannon__omnimon": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 86,
+      "pp": 57,
+      "shared_exception": false
+    },
+    "supreme_cannon__omnimon_nx": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 86,
+      "pp": 57,
+      "shared_exception": false
+    },
+    "supreme_cannon__omnimon_zwart": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 80,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "symphony_crusher": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 40,
+      "pp": 39,
+      "shared_exception": false
+    },
+    "table_flip": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 86,
+      "pp": 57,
+      "shared_exception": false
+    },
+    "tail_hammer": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 45,
+      "pp": 37,
+      "shared_exception": false
+    },
+    "taizoukai_mandala": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 84,
+      "pp": 58,
+      "shared_exception": false
+    },
+    "talisman_of_light": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 67,
+      "pp": 46,
+      "shared_exception": false
+    },
+    "tearing_shot": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 23,
+      "pp": 28,
+      "shared_exception": false
+    },
+    "terra_force": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 85,
+      "pp": 57,
+      "shared_exception": false
+    },
+    "terrier_tornado": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 20,
+      "pp": 29,
+      "shared_exception": false
+    },
+    "terrors_cluster": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 88,
+      "pp": 56,
+      "shared_exception": false
+    },
+    "texture_blow": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1,
+        2,
+        3
+      ],
+      "power": 41,
+      "pp": 39,
+      "shared_exception": true
+    },
+    "the_king_of_fists": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 62,
+      "pp": 49,
+      "shared_exception": false
+    },
+    "the_ray_of_victory": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 86,
+      "pp": 57,
+      "shared_exception": false
+    },
+    "thorn_whip": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 88,
+      "pp": 56,
+      "shared_exception": false
+    },
+    "thousand_fists": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 80,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "thunder_cloud": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0,
+        1
+      ],
+      "power": 20,
+      "pp": 29,
+      "shared_exception": true
+    },
+    "thunder_cloud_ii": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 24,
+      "pp": 28,
+      "shared_exception": false
+    },
+    "thunder_fall_i": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1,
+        2
+      ],
+      "power": 40,
+      "pp": 39,
+      "shared_exception": true
+    },
+    "thunder_fall_ii": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2,
+        3
+      ],
+      "power": 62,
+      "pp": 49,
+      "shared_exception": true
+    },
+    "thunder_fall_iii": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 84,
+      "pp": 58,
+      "shared_exception": false
+    },
+    "tidal_wave": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 63,
+      "pp": 48,
+      "shared_exception": false
+    },
+    "tomahawk_stinger": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 89,
+      "pp": 55,
+      "shared_exception": false
+    },
+    "top_gun": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 67,
+      "pp": 46,
+      "shared_exception": false
+    },
+    "transcendent_sword__omnimon": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 87,
+      "pp": 56,
+      "shared_exception": false
+    },
+    "transcendent_sword__omnimon_nx": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 87,
+      "pp": 56,
+      "shared_exception": false
+    },
+    "transcendent_sword__omnimon_zwart": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 89,
+      "pp": 55,
+      "shared_exception": false
+    },
+    "tri_horn_attack": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 70,
+      "pp": 45,
+      "shared_exception": false
+    },
+    "trick_or_treat": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 66,
+      "pp": 47,
+      "shared_exception": false
+    },
+    "trident_revolver": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 61,
+      "pp": 49,
+      "shared_exception": false
+    },
+    "trident_saber": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 61,
+      "pp": 49,
+      "shared_exception": false
+    },
+    "trump_sword": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 81,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "turbo_stinger": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 40,
+      "pp": 39,
+      "shared_exception": false
+    },
+    "twenty_dive": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 24,
+      "pp": 28,
+      "shared_exception": false
+    },
+    "ultimate_flare": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 85,
+      "pp": 57,
+      "shared_exception": false
+    },
+    "ultimate_ouryuken": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 80,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "unidentified_flying_kiss": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 66,
+      "pp": 47,
+      "shared_exception": false
+    },
+    "v_nova_blast": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 47,
+      "pp": 36,
+      "shared_exception": false
+    },
+    "vantheon": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 40,
+      "pp": 39,
+      "shared_exception": false
+    },
+    "vee_laser": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 46,
+      "pp": 37,
+      "shared_exception": false
+    },
+    "veemon_headbutt": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 24,
+      "pp": 28,
+      "shared_exception": false
+    },
+    "venom_infusion": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 89,
+      "pp": 55,
+      "shared_exception": false
+    },
+    "venom_trap": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "power": 21,
+      "pp": 29,
+      "shared_exception": true
+    },
+    "victory_sword": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 83,
+      "pp": 58,
+      "shared_exception": false
+    },
+    "volcanic_driver": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 89,
+      "pp": 55,
+      "shared_exception": false
+    },
+    "volcanic_strike": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 46,
+      "pp": 37,
+      "shared_exception": false
+    },
+    "vortex_penetration": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 80,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "vulcan_crusher": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 90,
+      "pp": 55,
+      "shared_exception": false
+    },
+    "vulcan_s_hammer": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 67,
+      "pp": 46,
+      "shared_exception": false
+    },
+    "waltz_s_end": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 81,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "weltgeist": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": null,
+      "pp": 59,
+      "shared_exception": false
+    },
+    "will_o_wisp": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 40,
+      "pp": 39,
+      "shared_exception": false
+    },
+    "will_o_wisp_slash": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 84,
+      "pp": 58,
+      "shared_exception": false
+    },
+    "wind_claw_i": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 23,
+      "pp": 28,
+      "shared_exception": false
+    },
+    "wind_claw_ii": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1,
+        2
+      ],
+      "power": 45,
+      "pp": 37,
+      "shared_exception": true
+    },
+    "wind_claw_iii": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2,
+        3
+      ],
+      "power": 67,
+      "pp": 46,
+      "shared_exception": true
+    },
+    "wind_cutter_sword": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 61,
+      "pp": 49,
+      "shared_exception": false
+    },
+    "winning_knuckle": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 67,
+      "pp": 46,
+      "shared_exception": false
+    },
+    "wolf_claw": {
+      "tier": 2,
+      "learned_by_tiers": [
+        2
+      ],
+      "power": 68,
+      "pp": 46,
+      "shared_exception": false
+    },
+    "wolkenapalm_i": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0
+      ],
+      "power": 23,
+      "pp": 28,
+      "shared_exception": false
+    },
+    "wolkenapalm_ii": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1,
+        2
+      ],
+      "power": 45,
+      "pp": 37,
+      "shared_exception": true
+    },
+    "wolkenapalm_iii": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "power": 27,
+      "pp": 26,
+      "shared_exception": true
+    },
+    "wyvern_s_breath": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 87,
+      "pp": 56,
+      "shared_exception": false
+    },
+    "x_aura": {
+      "tier": 0,
+      "learned_by_tiers": [
+        0,
+        3
+      ],
+      "power": null,
+      "pp": 29,
+      "shared_exception": true
+    },
+    "x_heal": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1,
+        2,
+        3
+      ],
+      "power": null,
+      "pp": 39,
+      "shared_exception": true
+    },
+    "zwei_glanze": {
+      "tier": 3,
+      "learned_by_tiers": [
+        3
+      ],
+      "power": 90,
+      "pp": 55,
+      "shared_exception": false
+    },
+    "zwei_sieger": {
+      "tier": 1,
+      "learned_by_tiers": [
+        1
+      ],
+      "power": 45,
+      "pp": 37,
+      "shared_exception": false
+    }
+  }
+}

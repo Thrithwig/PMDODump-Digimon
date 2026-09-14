@@ -1,0 +1,101 @@
+move_id,move_name,balance_tier,source_learning_stages,reason
+acceleration_boost,Acceleration Boost,Rookie and lower,Rookie and lower; Champion; Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+agility_charge,Agility Charge,Rookie and lower,Rookie and lower; Champion; Ultimate,Shared source learnset; same move works identically for every Digimon
+anti_bug,Anti-Bug,Champion,Champion; Ultimate,Shared source learnset; same move works identically for every Digimon
+anti_panic,Anti-Panic,Rookie and lower,Rookie and lower; Champion; Ultimate,Shared source learnset; same move works identically for every Digimon
+anti_paralysis,Anti-Paralysis,Rookie and lower,Rookie and lower; Champion; Ultimate,Shared source learnset; same move works identically for every Digimon
+anti_poison,Anti-Poison,Rookie and lower,Rookie and lower; Champion; Ultimate,Shared source learnset; same move works identically for every Digimon
+anti_sleep,Anti-Sleep,Rookie and lower,Rookie and lower; Champion; Ultimate,Shared source learnset; same move works identically for every Digimon
+anti_stun,Anti-Stun,Rookie and lower,Rookie and lower; Champion; Ultimate,Shared source learnset; same move works identically for every Digimon
+antidote,Antidote,Champion,Champion; Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+attack_break,Attack Break,Rookie and lower,Rookie and lower; Champion; Ultimate,Shared source learnset; same move works identically for every Digimon
+attack_charge,Attack Charge,Rookie and lower,Rookie and lower; Champion; Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+attack_charge_field,Attack Charge Field,Champion,Champion; Mega,Shared source learnset; same move works identically for every Digimon
+aura,Aura,Champion,Champion; Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+awesome_quake_i,Awesome Quake I,Champion,Champion; Ultimate,Shared source learnset; same move works identically for every Digimon
+awesome_quake_ii,Awesome Quake II,Champion,Champion; Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+awesome_quake_iii,Awesome Quake III,Champion,Champion; Mega,Shared source learnset; same move works identically for every Digimon
+burst_flame_iii,Burst Flame III,Ultimate,Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+chain_minus,Chain Minus,Champion,Champion; Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+chain_plus,Chain Plus,Rookie and lower,Rookie and lower; Champion; Ultimate,Shared source learnset; same move works identically for every Digimon
+character_reversal,Character Reversal,Champion,Champion; Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+comet_hammer_iii,Comet Hammer III,Champion,Champion; Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+crescent_leaf_ii,Crescent Leaf II,Champion,Champion; Ultimate,Shared source learnset; same move works identically for every Digimon
+crescent_leaf_iii,Crescent Leaf III,Ultimate,Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+critical_charge,Critical Charge,Rookie and lower,Rookie and lower; Champion; Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+cross_counter,Cross-Counter,Rookie and lower,Rookie and lower; Champion; Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+destruction,Destruction,Rookie and lower,Rookie and lower; Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+destruction_cannon_i,Destruction Cannon I,Rookie and lower,Rookie and lower; Champion,Shared source learnset; same move works identically for every Digimon
+destruction_cannon_ii,Destruction Cannon II,Champion,Champion; Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+destruction_cannon_iii,Destruction Cannon III,Champion,Champion; Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+dispel,Dispel,Champion,Champion; Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+dot_matrix,Dot Matrix,Ultimate,Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+escape_dash,Escape Dash,Rookie and lower,Rookie and lower; Champion; Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+final_aura,Final Aura,Champion,Champion; Mega,Shared source learnset; same move works identically for every Digimon
+gaia_element_iii,Gaia Element III,Ultimate,Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+gale_storm_i,Gale Storm I,Champion,Champion; Ultimate,Shared source learnset; same move works identically for every Digimon
+gale_storm_ii,Gale Storm II,Ultimate,Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+golden_triangle,Golden Triangle,Champion,Champion; Ultimate,Shared source learnset; same move works identically for every Digimon
+grand_rock_iii,Grand Rock III,Ultimate,Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+guard_break,Guard Break,Rookie and lower,Rookie and lower; Champion; Ultimate,Shared source learnset; same move works identically for every Digimon
+guard_charge,Guard Charge,Rookie and lower,Rookie and lower; Champion; Ultimate,Shared source learnset; same move works identically for every Digimon
+guard_charge_field,Guard Charge Field,Champion,Champion; Mega,Shared source learnset; same move works identically for every Digimon
+heal,Heal,Rookie and lower,Rookie and lower; Champion; Ultimate,Shared source learnset; same move works identically for every Digimon
+heaven_s_thunder_iii,Heaven's Thunder III,Ultimate,Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+heavy_strike_iii,Heavy Strike III,Ultimate,Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+hell_crusher_i,Hell Crusher I,Champion,Champion; Ultimate,Shared source learnset; same move works identically for every Digimon
+hell_crusher_ii,Hell Crusher II,Ultimate,Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+hell_crusher_iii,Hell Crusher III,Ultimate,Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+hit_charge,Hit Charge,Champion,Champion; Ultimate,Shared source learnset; same move works identically for every Digimon
+holy_light_iii,Holy Light III,Rookie and lower,Rookie and lower; Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+hydro_water_ii,Hydro Water II,Champion,Champion; Ultimate,Shared source learnset; same move works identically for every Digimon
+hydro_water_iii,Hydro Water III,Ultimate,Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+ice_archery_iii,Ice Archery III,Ultimate,Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+idle_bubble,Idle Bubble,Rookie and lower,Rookie and lower; Champion; Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+mach_rush_i,Mach Rush I,Champion,Champion; Ultimate,Shared source learnset; same move works identically for every Digimon
+mach_rush_ii,Mach Rush II,Champion,Champion; Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+mach_rush_iii,Mach Rush III,Rookie and lower,Rookie and lower; Mega,Shared source learnset; same move works identically for every Digimon
+mental_break,Mental Break,Rookie and lower,Rookie and lower; Champion; Ultimate,Shared source learnset; same move works identically for every Digimon
+mental_charge,Mental Charge,Rookie and lower,Rookie and lower; Champion; Ultimate,Shared source learnset; same move works identically for every Digimon
+meteor_fall_i,Meteor Fall I,Champion,Champion; Ultimate,Shared source learnset; same move works identically for every Digimon
+meteor_fall_ii,Meteor Fall II,Champion,Champion; Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+meteor_fall_iii,Meteor Fall III,Rookie and lower,Rookie and lower; Mega,Shared source learnset; same move works identically for every Digimon
+mirror_reflection,Mirror Reflection,Champion,Champion; Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+nanomachine_break_ii,Nanomachine Break II,Champion,Champion; Ultimate,Shared source learnset; same move works identically for every Digimon
+nanomachine_break_iii,Nanomachine Break III,Ultimate,Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+nightmare_iii,Nightmare III,Ultimate,Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+ocean_wave_i,Ocean Wave I,Champion,Champion; Ultimate,Shared source learnset; same move works identically for every Digimon
+ocean_wave_ii,Ocean Wave II,Ultimate,Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+panic_wisp,Panic Wisp,Rookie and lower,Rookie and lower; Champion; Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+perfect_revival,Perfect Revival,Rookie and lower,Rookie and lower; Mega,Shared source learnset; same move works identically for every Digimon
+physical_drain,Physical Drain,Rookie and lower,Rookie and lower; Champion; Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+power_energy_iii,Power Energy III,Ultimate,Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+revive,Revive,Rookie and lower,Rookie and lower; Champion; Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+ripping_net,Ripping Net,Rookie and lower,Rookie and lower; Champion; Ultimate,Shared source learnset; same move works identically for every Digimon
+rune_forest_i,Rune Forest I,Champion,Champion; Ultimate,Shared source learnset; same move works identically for every Digimon
+rune_forest_ii,Rune Forest II,Ultimate,Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+safety_guard,Safety Guard,Rookie and lower,Rookie and lower; Mega,Shared source learnset; same move works identically for every Digimon
+saint_knuckle_ii,Saint Knuckle II,Champion,Champion; Ultimate,Shared source learnset; same move works identically for every Digimon
+saint_knuckle_iii,Saint Knuckle III,Champion,Champion; Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+shining_laser_i,Shining Laser I,Rookie and lower,Rookie and lower; Champion; Ultimate,Shared source learnset; same move works identically for every Digimon
+shining_laser_ii,Shining Laser II,Rookie and lower,Rookie and lower; Champion; Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+shining_laser_iii,Shining Laser III,Rookie and lower,Rookie and lower; Champion; Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+shock,Shock,Rookie and lower,Rookie and lower; Champion; Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+sonic_void_ii,Sonic Void II,Champion,Champion; Ultimate,Shared source learnset; same move works identically for every Digimon
+sonic_void_iii,Sonic Void III,Ultimate,Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+speed_break,Speed Break,Rookie and lower,Rookie and lower; Champion; Ultimate,Shared source learnset; same move works identically for every Digimon
+speed_charge,Speed Charge,Rookie and lower,Rookie and lower; Champion; Ultimate,Shared source learnset; same move works identically for every Digimon
+speed_charge_field,Speed Charge Field,Rookie and lower,Rookie and lower; Champion; Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+spirit_drain,Spirit Drain,Champion,Champion; Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+support_end,Support End,Champion,Champion; Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+texture_blow,Texture Blow,Champion,Champion; Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+thunder_cloud,Thunder Cloud,Rookie and lower,Rookie and lower; Champion,Shared source learnset; same move works identically for every Digimon
+thunder_fall_i,Thunder Fall I,Champion,Champion; Ultimate,Shared source learnset; same move works identically for every Digimon
+thunder_fall_ii,Thunder Fall II,Ultimate,Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+venom_trap,Venom Trap,Rookie and lower,Rookie and lower; Champion; Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+wind_claw_ii,Wind Claw II,Champion,Champion; Ultimate,Shared source learnset; same move works identically for every Digimon
+wind_claw_iii,Wind Claw III,Ultimate,Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+wolkenapalm_ii,Wolkenapalm II,Champion,Champion; Ultimate,Shared source learnset; same move works identically for every Digimon
+wolkenapalm_iii,Wolkenapalm III,Rookie and lower,Rookie and lower; Champion; Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
+x_aura,X-Aura,Rookie and lower,Rookie and lower; Mega,Shared source learnset; same move works identically for every Digimon
+x_heal,X-Heal,Champion,Champion; Ultimate; Mega,Shared source learnset; same move works identically for every Digimon
