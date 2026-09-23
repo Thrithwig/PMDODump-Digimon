@@ -1,0 +1,9 @@
+# Optional Test Camp power
+
+Use the second Assembly-style object, immediately right of the dungeon route sign in Test Camp. Its confirmation toggles `SV.Digimon.TestCampPower`; new saves default to off. The flag persists in the save. Toggle it off at the same object to restore normal behavior. The dedicated `test_camp_power` status is synchronized on ground entry and each dungeon floor; inactive reserve members lose it.
+
+While enabled, active party members replace successful physical/magical hits against foes with the engine's 9999 fixed-damage event. The move database is copied, never modified. This replaces that hit's OnHits effects, including secondary effects; misses, elemental immunity and other engine hit gates still apply. Allied healing/support moves are preserved. Incoming hostile combat hits are cancelled. Magic Guard supplies the residual protection supported by existing events (such as poison, burn, weather and recoil where they consult that state).
+
+This is **not universal immunity**. Direct `InflictDamage`, trap implementations that bypass combat/Magic Guard, starvation, scripted HP assignment/loss and scripted death are not guaranteed blocked. No PMDC/RogueEssence changes were made. The toggle never writes mission, completion, debrief, unlock or reward records, and all 14 destinations still use the existing gated route menu.
+
+Regenerate only these assets with `dotnet DataGenerator/bin/Debug/net8.0/DataGenerator.dll -asset ../../../../DumpAsset/ -test-camp`. Normal zone generation also regenerates the object and status. Native `-digimon-check` covers object Action binding, status loading, BattleData copy, fixed-event construction and protection enable/disable. `python -m unittest tests.test_digimon_test_camp_power` covers party/reserve cleanup, idempotence, friendly support, disabling, original move preservation and untouched mission state. Rendered/gameplay interaction has not been visually verified.

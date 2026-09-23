@@ -1,0 +1,41 @@
+zone_id,display_name,entry_level,ordinary_spawn_records,floor_scaled_records,protected_actor_records,exp_percent,no_exp,selection
+ambush_forest,Bamboo Thicket,30,74,0,0,30,False,Final enemy level; weighted stage roll
+barbamon_lair,Clockwork Vault,60,1,0,0,100,False,Final enemy level; weighted stage roll
+beelzemon_lair,Return Protocol Citadel,70,1,0,0,100,False,Final enemy level; weighted stage roll
+bramble_woods,Bramble Grove,10,104,0,1,100,False,Final enemy level; weighted stage roll
+castaway_cave,Coela Cavern,30,36,0,0,100,False,Final enemy level; weighted stage roll
+cave_of_whispers,Whispering Cave,35,3,0,0,100,False,Final enemy level; weighted stage roll
+champions_road,Infinity Approach,50,52,0,0,100,False,Final enemy level; weighted stage roll
+copper_quarry,Factorial Quarry,25,107,0,3,40,False,Final enemy level; weighted stage roll
+daemon_lair,Storm Crown,60,1,0,0,100,False,Final enemy level; weighted stage roll
+depleted_basin,Dragon Eye Basin,25,103,0,1,60,False,Final enemy level; weighted stage roll
+eon_island,Eon Island,45,3,0,0,100,False,Final enemy level; weighted stage roll
+faded_trail,Native Forest Trail,10,103,0,3,75,False,Final enemy level; weighted stage roll
+faultline_ridge,Drill Tunnel,15,50,0,0,100,False,Final enemy level; weighted stage roll
+fertile_valley,Gear Savanna,15,90,0,0,80,False,Final enemy level; weighted stage roll
+flyaway_cliffs,Panorama Cliffs,20,47,0,3,65,False,Final enemy level; weighted stage roll
+forsaken_desert,Ancient Sands,30,17,0,1,70,False,Final enemy level; weighted stage roll
+geode_crevice,Crystal Crevice,20,64,10,1,100,False,Final enemy level; weighted stage roll
+guildmaster_island,Guildmaster Island,-1,0,0,0,100,False,Authored encounters only
+guildmaster_trail,Infinity Mountain,65,983,561,3,100,False,Final enemy level; weighted stage roll
+lava_floe_island,Lava Anchorage,25,98,0,0,75,False,Final enemy level; weighted stage roll
+leviamon_lair,Dragon Eye Depths,60,1,0,0,100,False,Final enemy level; weighted stage roll
+lilithmon_lair,Veil Palace,60,1,0,0,100,False,Final enemy level; weighted stage roll
+lucemon_lair,False Dawn Observatory,60,1,0,0,100,False,Final enemy level; weighted stage roll
+moonlit_courtyard,Moonlit Court,30,152,0,1,55,False,Final enemy level; weighted stage roll
+overgrown_wilds,Misty Trees,15,98,0,1,80,False,Final enemy level; weighted stage roll
+prism_isles,Prism Isles,45,3,0,0,100,False,Final enemy level; weighted stage roll
+relic_tower,Overdell Tower,30,84,0,1,100,False,Final enemy level; weighted stage roll
+secret_garden,Village Garden,5,270,18,2,100,False,Final enemy level; weighted stage roll
+sickly_hollow,Geko Hollow,35,79,0,1,100,False,Final enemy level; weighted stage roll
+sleeping_caldera,Slumbering Caldera,60,1,0,0,100,False,Final enemy level; weighted stage roll
+snowbound_path,Freezeland Path,40,145,4,1,100,False,Final enemy level; weighted stage roll
+the_neverending_tale,Storybook Isles,5,3,0,0,100,False,Final enemy level; weighted stage roll
+thunderstruck_pass,Thunder Pass,30,72,4,2,60,False,Final enemy level; weighted stage roll
+tiny_tunnel,Underroot Tunnel,5,19,0,0,100,False,Final enemy level; weighted stage roll
+training_maze,Green Gym Maze,20,172,0,0,100,False,Final enemy level; weighted stage roll
+treacherous_mountain,Ice Mountain,40,37,8,0,60,False,Final enemy level; weighted stage roll
+trickster_woods,Signpost Forest,20,156,0,0,100,False,Final enemy level; weighted stage roll
+tropical_path,Tropical Jungle,5,44,0,3,75,False,Final enemy level; weighted stage roll
+veiled_ridge,Misty Ridge,35,106,0,0,80,False,Final enemy level; weighted stage roll
+wayward_wetlands,Geko Wetlands,20,137,0,1,100,False,Final enemy level; weighted stage roll

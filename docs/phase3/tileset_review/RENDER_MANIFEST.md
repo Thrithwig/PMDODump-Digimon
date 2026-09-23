@@ -1,0 +1,5 @@
+# Phase 3 tileset v2 render manifest
+
+No rendered-map evidence has been captured in this worktree. `MapGenTest` builds as part of `PMDOData.sln`, but its only supported path is an interactive debugger (`Example.Run()`), which waits for keyboard input and has no batch zone/floor/seed renderer or screenshot output argument. The native `-digimon-check` runner does generate deterministic maps (seed 42) but writes diagnostics only; it does not emit image files. A second native capture attempt launched the current PMDC build in isolated developer mode, but the computer-use surface could not expose a targetable game window (`launched app did not expose a targetable window`), so F11/BaseDungeonScene screenshots could not be collected.
+
+This is a concrete evidence gap, not visual approval. A future interactive review must capture the early, middle and late bands of each run-up; lair challenge bands; each `MountainPeak` arena; and each reward floor, recording seed, weather, active texture IDs, stairs and item/trap readability. The source-sheet catalogue remains available at [CATALOGUE.md](CATALOGUE.md), but it is not a rendered-map substitute.

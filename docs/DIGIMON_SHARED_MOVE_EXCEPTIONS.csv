@@ -1,0 +1,101 @@
+move_id,move_name,access_power_center,source_learning_stages,reason
+acceleration_boost,Acceleration Boost,40.07,Rookie and lower; Champion; Ultimate; Mega,"Acceleration Boost preserves the released Focus Energy native critical-focus behavior, which is the available engine-supported charge effect."
+agility_charge,Agility Charge,34.43,Rookie and lower; Champion; Ultimate,Agility Charge grants one evasion stage to a chosen ally at safe throwing range.
+anti_bug,Anti-Bug,38.6,Champion; Ultimate,Anti-Bug treats its named condition on one ally and restores a quarter of that ally’s maximum HP.
+anti_panic,Anti-Panic,29.06,Rookie and lower; Champion; Ultimate,Anti-Panic treats its named condition on one ally and restores a quarter of that ally’s maximum HP.
+anti_paralysis,Anti-Paralysis,30.15,Rookie and lower; Champion; Ultimate,Anti-Paralysis treats its named condition on one ally and restores a quarter of that ally’s maximum HP.
+anti_poison,Anti-Poison,30.15,Rookie and lower; Champion; Ultimate,Anti-Poison treats its named condition on one ally and restores a quarter of that ally’s maximum HP.
+anti_sleep,Anti-Sleep,30.09,Rookie and lower; Champion; Ultimate,Anti-Sleep treats its named condition on one ally and restores a quarter of that ally’s maximum HP.
+anti_stun,Anti-Stun,30.0,Rookie and lower; Champion; Ultimate,Anti-Stun treats its named condition on one ally and restores a quarter of that ally’s maximum HP.
+antidote,Antidote,41.66,Champion; Ultimate; Mega,Antidote treats its named condition on one ally and restores a quarter of that ally’s maximum HP.
+attack_break,Attack Break,34.59,Rookie and lower; Champion; Ultimate,Attack Break applies a one-stage attack reduction to one foe with a 90% accurate ranged mark.
+attack_charge,Attack Charge,31.51,Rookie and lower; Champion; Ultimate; Mega,Attack Charge grants one attack stage to a chosen ally at safe throwing range.
+attack_charge_field,Attack Charge Field,48.79,Champion; Mega,Attack Charge Field applies one attack stage to every party member through a party burst.
+aura,Aura,41.86,Champion; Ultimate; Mega,"Aura is the party burst healing tier, restoring 1/4 maximum HP to the user and allies."
+awesome_quake_i,Awesome Quake I,39.9,Champion; Ultimate,Awesome Quake I is tier 1 of its inherited chain: power rises from 30 toward the 40 access guide while PP falls for the stronger technique.
+awesome_quake_ii,Awesome Quake II,46.53,Champion; Ultimate; Mega,Awesome Quake II is tier 2 of its inherited chain: power rises from 35 toward the 47 access guide while PP falls for the stronger technique.
+awesome_quake_iii,Awesome Quake III,48.42,Champion; Mega,Awesome Quake III is tier 3 of its inherited chain: power rises from 40 toward the 48 access guide while PP falls for the stronger technique.
+burst_flame_iii,Burst Flame III,48.57,Ultimate; Mega,"A reliable tier-III cone shared across Ultimate, Mega. 50 power stays between its stage targets near the 48.57 blended access guide; 16 PP pays for late numbered-skill strength without imposing Mega-exclusive power on earlier learners."
+chain_minus,Chain Minus,45.2,Champion; Ultimate; Mega,"Chain Minus is the repeatable one-stage ranged Speed reduction, priced above the sharper Chain Loss."
+chain_plus,Chain Plus,36.27,Rookie and lower; Champion; Ultimate,"Chain Plus grants one Speed stage at 22 PP as the safer, more repeatable combo boost."
+character_reversal,Character Reversal,44.61,Champion; Ultimate; Mega,A forward psychic detonation gives this late-access reversal a tactical area without treating it as a room attack.
+comet_hammer_iii,Comet Hammer III,44.24,Champion; Ultimate; Mega,Comet Hammer III is tier 3 of its inherited chain: power rises from 35 toward the 44 access guide while PP falls for the stronger technique.
+crescent_leaf_ii,Crescent Leaf II,36.19,Champion; Ultimate,Crescent Leaf II is tier 2 of its inherited chain: power rises from 25 toward the 36 access guide while PP falls for the stronger technique.
+crescent_leaf_iii,Crescent Leaf III,50.87,Ultimate; Mega,"A reliable tier-III projectile shared across Ultimate, Mega. 55 power stays between its stage targets near the 50.87 blended access guide; 16 PP pays for late numbered-skill strength without imposing Mega-exclusive power on earlier learners."
+critical_charge,Critical Charge,34.04,Rookie and lower; Champion; Ultimate; Mega,"Critical Charge preserves the released Focus Energy native critical-focus behavior, which is the available engine-supported charge effect."
+cross_counter,Cross-Counter,38.59,Rookie and lower; Champion; Ultimate; Mega,Cross-Counter keeps the released native counter behavior because it directly supplies this specialized support role.
+destruction,Destruction,42.45,Rookie and lower; Ultimate; Mega,A close destruction blow trades recoil for its above-center damage and keeps the shared physical attack single-target.
+destruction_cannon_i,Destruction Cannon I,24.37,Rookie and lower; Champion,Destruction Cannon I is tier 1 of its inherited chain: power rises from 20 toward the 24 access guide while PP falls for the stronger technique.
+destruction_cannon_ii,Destruction Cannon II,39.31,Champion; Ultimate; Mega,Destruction Cannon II is tier 2 of its inherited chain: power rises from 30 toward the 39 access guide while PP falls for the stronger technique.
+destruction_cannon_iii,Destruction Cannon III,47.05,Champion; Ultimate; Mega,Destruction Cannon III is tier 3 of its inherited chain: power rises from 35 toward the 47 access guide while PP falls for the stronger technique.
+dispel,Dispel,46.3,Champion; Ultimate; Mega,Dispel removes only negative stat changes from one ally and restores a quarter of its maximum HP.
+dot_matrix,Dot Matrix,48.75,Ultimate; Mega,Dot Matrix uses a melee delivery matched to its source wording and a 49-power access guide. The single secondary effect is taken from the source text and priced into PP/power.
+escape_dash,Escape Dash,38.89,Rookie and lower; Champion; Ultimate; Mega,Escape Dash keeps the released native teleport behavior because it directly supplies this specialized support role.
+final_aura,Final Aura,48.6,Champion; Mega,"Final Aura is the party burst healing tier, restoring 3/4 maximum HP to the user and allies."
+gaia_element_iii,Gaia Element III,50.11,Ultimate; Mega,"A reliable tier-III projectile shared across Ultimate, Mega. 55 power stays between its stage targets near the 50.11 blended access guide; 16 PP pays for late numbered-skill strength without imposing Mega-exclusive power on earlier learners."
+gale_storm_i,Gale Storm I,38.48,Champion; Ultimate,Gale Storm I is tier 1 of its inherited chain: power rises from 30 toward the 38 access guide while PP falls for the stronger technique.
+gale_storm_ii,Gale Storm II,50.25,Ultimate; Mega,Gale Storm II is tier 2 of its inherited chain: power rises from 40 toward the 50 access guide while PP falls for the stronger technique.
+golden_triangle,Golden Triangle,38.75,Champion; Ultimate,"Golden Triangle uses a melee delivery matched to its source wording and a 39-power access guide. The source-wide base-stat rider has no one-stat schema equivalent, so this keeps the attack focused. The named magical emission is a ranged shot, not an adjacent strike."
+grand_rock_iii,Grand Rock III,50.63,Ultimate; Mega,"A reliable tier-III throw shared across Ultimate, Mega. 55 power stays between its stage targets near the 50.63 blended access guide; 16 PP pays for late numbered-skill strength without imposing Mega-exclusive power on earlier learners."
+guard_break,Guard Break,33.42,Rookie and lower; Champion; Ultimate,Guard Break applies a one-stage defense reduction to one foe with a 90% accurate ranged mark.
+guard_charge,Guard Charge,31.02,Rookie and lower; Champion; Ultimate,Guard Charge grants one defense stage to a chosen ally at safe throwing range.
+guard_charge_field,Guard Charge Field,48.4,Champion; Mega,Guard Charge Field applies one defense stage to every party member through a party burst.
+heal,Heal,28.18,Rookie and lower; Champion; Ultimate,"Heal is the single-ally healing tier, restoring 1/4 maximum HP with PP scaled to its strength."
+heaven_s_thunder_iii,Heaven's Thunder III,50.08,Ultimate; Mega,"A reliable tier-III throw shared across Ultimate, Mega. 55 power stays between its stage targets near the 50.08 blended access guide; 16 PP pays for late numbered-skill strength without imposing Mega-exclusive power on earlier learners."
+heavy_strike_iii,Heavy Strike III,49.51,Ultimate; Mega,"A reliable tier-III melee shared across Ultimate, Mega. 55 power stays between its stage targets near the 49.51 blended access guide; 16 PP pays for late numbered-skill strength without imposing Mega-exclusive power on earlier learners."
+hell_crusher_i,Hell Crusher I,40.25,Champion; Ultimate,Hell Crusher I is tier 1 of its inherited chain: power rises from 30 toward the 40 access guide while PP falls for the stronger technique.
+hell_crusher_ii,Hell Crusher II,48.91,Ultimate; Mega,Hell Crusher II is tier 2 of its inherited chain: power rises from 40 toward the 49 access guide while PP falls for the stronger technique.
+hell_crusher_iii,Hell Crusher III,52.11,Ultimate; Mega,"A reliable tier-III beam shared across Ultimate, Mega. 55 power stays between its stage targets near the 52.11 blended access guide; 16 PP pays for late numbered-skill strength without imposing Mega-exclusive power on earlier learners."
+hit_charge,Hit Charge,39.11,Champion; Ultimate,Hit Charge grants one accuracy stage to a chosen ally at safe throwing range.
+holy_light_iii,Holy Light III,42.66,Rookie and lower; Ultimate; Mega,Holy Light III is tier 3 of its inherited chain: power rises from 35 toward the 43 access guide while PP falls for the stronger technique.
+hydro_water_ii,Hydro Water II,37.51,Champion; Ultimate,Hydro Water II is tier 2 of its inherited chain: power rises from 30 toward the 38 access guide while PP falls for the stronger technique.
+hydro_water_iii,Hydro Water III,49.82,Ultimate; Mega,"A reliable tier-III projectile shared across Ultimate, Mega. 55 power stays between its stage targets near the 49.82 blended access guide; 16 PP pays for late numbered-skill strength without imposing Mega-exclusive power on earlier learners."
+ice_archery_iii,Ice Archery III,49.46,Ultimate; Mega,Ice Archery III is the required ranged Physical archery progression at 45 power and 16 PP; each tier gains force while sacrificing uses.
+idle_bubble,Idle Bubble,32.63,Rookie and lower; Champion; Ultimate; Mega,A short bubble shot keeps its disabling theme to a restrained sleep chance for broadly shared access.
+mach_rush_i,Mach Rush I,40.03,Champion; Ultimate,Mach Rush I is tier 1 of its inherited chain: power rises from 30 toward the 40 access guide while PP falls for the stronger technique.
+mach_rush_ii,Mach Rush II,45.58,Champion; Ultimate; Mega,Mach Rush II is tier 2 of its inherited chain: power rises from 35 toward the 46 access guide while PP falls for the stronger technique.
+mach_rush_iii,Mach Rush III,46.2,Rookie and lower; Mega,Mach Rush III is tier 3 of its inherited chain: power rises from 35 toward the 46 access guide while PP falls for the stronger technique.
+mental_break,Mental Break,33.59,Rookie and lower; Champion; Ultimate,Mental Break applies a one-stage special_attack reduction to one foe with a 90% accurate ranged mark.
+mental_charge,Mental Charge,30.89,Rookie and lower; Champion; Ultimate,Mental Charge grants one special_attack stage to a chosen ally at safe throwing range.
+meteor_fall_i,Meteor Fall I,39.91,Champion; Ultimate,Meteor Fall I is tier 1 of its inherited chain: power rises from 30 toward the 40 access guide while PP falls for the stronger technique.
+meteor_fall_ii,Meteor Fall II,47.06,Champion; Ultimate; Mega,Meteor Fall II is tier 2 of its inherited chain: power rises from 35 toward the 47 access guide while PP falls for the stronger technique.
+meteor_fall_iii,Meteor Fall III,46.02,Rookie and lower; Mega,Meteor Fall III is tier 3 of its inherited chain: power rises from 35 toward the 46 access guide while PP falls for the stronger technique.
+mirror_reflection,Mirror Reflection,43.93,Champion; Ultimate; Mega,Mirror Reflection keeps the released native mirror_coat behavior because it directly supplies this specialized support role.
+nanomachine_break_ii,Nanomachine Break II,35.85,Champion; Ultimate,Nanomachine Break II is tier 2 of its inherited chain: power rises from 25 toward the 36 access guide while PP falls for the stronger technique.
+nanomachine_break_iii,Nanomachine Break III,49.23,Ultimate; Mega,"A reliable tier-III melee shared across Ultimate, Mega. 50 power stays between its stage targets near the 49.23 blended access guide; 16 PP pays for late numbered-skill strength without imposing Mega-exclusive power on earlier learners."
+nightmare_iii,Nightmare III,49.16,Ultimate; Mega,"A reliable tier-III projectile shared across Ultimate, Mega. 50 power stays between its stage targets near the 49.16 blended access guide; 16 PP pays for late numbered-skill strength without imposing Mega-exclusive power on earlier learners."
+ocean_wave_i,Ocean Wave I,39.77,Champion; Ultimate,Ocean Wave I is tier 1 of its inherited chain: power rises from 30 toward the 40 access guide while PP falls for the stronger technique.
+ocean_wave_ii,Ocean Wave II,48.86,Ultimate; Mega,Ocean Wave II is tier 2 of its inherited chain: power rises from 40 toward the 49 access guide while PP falls for the stronger technique.
+panic_wisp,Panic Wisp,34.95,Rookie and lower; Champion; Ultimate; Mega,A ranged wisp carries a modest confusion chance while remaining a reliable single-target magical attack.
+perfect_revival,Perfect Revival,45.54,Rookie and lower; Mega,Perfect Revival uses the released recovery SelfAction with the native dungeon ReviveAllEvent at 10 PP; both names share the engine limitation that fallen teammates return at full HP.
+physical_drain,Physical Drain,36.76,Rookie and lower; Champion; Ultimate; Mega,"The physical drain is an adjacent strike that returns a quarter of total damage, so its power sits below its access guide."
+power_energy_iii,Power Energy III,49.76,Ultimate; Mega,"A reliable tier-III projectile shared across Ultimate, Mega. 55 power stays between its stage targets near the 49.76 blended access guide; 16 PP pays for late numbered-skill strength without imposing Mega-exclusive power on earlier learners."
+revive,Revive,37.89,Rookie and lower; Champion; Ultimate; Mega,Revive uses the released recovery SelfAction with the native dungeon ReviveAllEvent at 10 PP; both names share the engine limitation that fallen teammates return at full HP.
+ripping_net,Ripping Net,33.15,Rookie and lower; Champion; Ultimate,A thrown net is a precise ranged attack with only a small immobilize chance to avoid reliable lockdown.
+rune_forest_i,Rune Forest I,41.43,Champion; Ultimate,Rune Forest I is tier 1 of its inherited chain: power rises from 30 toward the 41 access guide while PP falls for the stronger technique.
+rune_forest_ii,Rune Forest II,48.86,Ultimate; Mega,Rune Forest II is tier 2 of its inherited chain: power rises from 40 toward the 49 access guide while PP falls for the stronger technique.
+safety_guard,Safety Guard,45.56,Rookie and lower; Mega,"Safety Guard preserves the released Endure native effect, allowing the user to survive a lethal hit at 1 HP."
+saint_knuckle_ii,Saint Knuckle II,36.85,Champion; Ultimate,Saint Knuckle II is tier 2 of its inherited chain: power rises from 25 toward the 37 access guide while PP falls for the stronger technique.
+saint_knuckle_iii,Saint Knuckle III,47.56,Champion; Ultimate; Mega,"A reliable tier-III melee shared across Champion, Ultimate, Mega. 50 power stays between its stage targets near the 47.56 blended access guide; 16 PP pays for late numbered-skill strength without imposing Mega-exclusive power on earlier learners."
+shining_laser_i,Shining Laser I,37.39,Rookie and lower; Champion; Ultimate,Shining Laser I is tier 1 of its inherited chain: power rises from 25 toward the 37 access guide while PP falls for the stronger technique.
+shining_laser_ii,Shining Laser II,43.15,Rookie and lower; Champion; Ultimate; Mega,Shining Laser II is tier 2 of its inherited chain: power rises from 35 toward the 43 access guide while PP falls for the stronger technique.
+shining_laser_iii,Shining Laser III,44.96,Rookie and lower; Champion; Ultimate; Mega,Shining Laser III is tier 3 of its inherited chain: power rises from 35 toward the 45 access guide while PP falls for the stronger technique.
+shock,Shock,32.62,Rookie and lower; Champion; Ultimate; Mega,A focused electric shot preserves its shock identity through a modest paralysis chance.
+sonic_void_ii,Sonic Void II,36.24,Champion; Ultimate,Sonic Void II is tier 2 of its inherited chain: power rises from 25 toward the 36 access guide while PP falls for the stronger technique.
+sonic_void_iii,Sonic Void III,49.18,Ultimate; Mega,"A reliable tier-III beam shared across Ultimate, Mega. 50 power stays between its stage targets near the 49.18 blended access guide; 16 PP pays for late numbered-skill strength without imposing Mega-exclusive power on earlier learners."
+speed_break,Speed Break,35.44,Rookie and lower; Champion; Ultimate,Speed Break applies a one-stage speed reduction to one foe with a 90% accurate ranged mark.
+speed_charge,Speed Charge,32.06,Rookie and lower; Champion; Ultimate,Speed Charge grants one speed stage to a chosen ally at safe throwing range.
+speed_charge_field,Speed Charge Field,44.5,Rookie and lower; Champion; Ultimate; Mega,Speed Charge Field applies one speed stage to every party member through a party burst.
+spirit_drain,Spirit Drain,44.71,Champion; Ultimate; Mega,The spirit-draining cone pays power and PP for short-range coverage plus quarter damage recovery.
+support_end,Support End,47.59,Champion; Ultimate; Mega,A single-target magical interruption has a modest chance to lower the target’s special offense.
+texture_blow,Texture Blow,43.7,Champion; Ultimate; Mega,A close texture-shattering blow uses a modest defense-drop chance instead of stacking several effects.
+thunder_cloud,Thunder Cloud,28.75,Rookie and lower; Champion,"Thunder Cloud gives Elecmon a throw magic electric signature based on “2 magic attacks, 30 Electric damage to one foe.”; 14 power per hit and 22 PP are tuned around its 28.75 access center. Its 2-hit total is 28, aligned to the 29 access guide while preserving the starter total-power baseline."
+thunder_fall_i,Thunder Fall I,41.18,Champion; Ultimate,Thunder Fall I is tier 1 of its inherited chain: power rises from 30 toward the 41 access guide while PP falls for the stronger technique.
+thunder_fall_ii,Thunder Fall II,51.8,Ultimate; Mega,Thunder Fall II is tier 2 of its inherited chain: power rises from 40 toward the 52 access guide while PP falls for the stronger technique.
+venom_trap,Venom Trap,33.11,Rookie and lower; Champion; Ultimate; Mega,A precise venom trap remains a normal ranged hit with a modest poison chance.
+wind_claw_ii,Wind Claw II,37.5,Champion; Ultimate,Wind Claw II is tier 2 of its inherited chain: power rises from 30 toward the 38 access guide while PP falls for the stronger technique.
+wind_claw_iii,Wind Claw III,49.99,Ultimate; Mega,"A reliable tier-III dash shared across Ultimate, Mega. 55 power stays between its stage targets near the 49.99 blended access guide; 16 PP pays for late numbered-skill strength without imposing Mega-exclusive power on earlier learners."
+wolkenapalm_ii,Wolkenapalm II,37.41,Champion; Ultimate,Wolkenapalm II is tier 2 of its inherited chain: power rises from 25 toward the 37 access guide while PP falls for the stronger technique.
+wolkenapalm_iii,Wolkenapalm III,41.88,Rookie and lower; Champion; Ultimate; Mega,Wolkenapalm III is tier 3 of its inherited chain: power rises from 30 toward the 42 access guide while PP falls for the stronger technique.
+x_aura,X-Aura,44.71,Rookie and lower; Mega,"X-Aura is the party burst healing tier, restoring 1/2 maximum HP to the user and allies."
+x_heal,X-Heal,41.34,Champion; Ultimate; Mega,"X-Heal is the single-ally healing tier, restoring 1/2 maximum HP with PP scaled to its strength."
