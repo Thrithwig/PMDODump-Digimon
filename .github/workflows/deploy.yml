@@ -1,24 +1,62 @@
 name: deploy
+
 on:
   push:
     tags:
       - '*'
 
+permissions:
+  contents: write
+
 jobs:
-  build_deploy:
-    name: Build and Deploy
-    runs-on: ubuntu-latest
+  build_playtest_installer:
+    name: Build Windows Playtest Installer
+    runs-on: windows-latest
     steps:
-      - name: checkout
-        uses: actions/checkout@v2
+      - name: Checkout game and assets
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          submodules: recursive
       - name: Setup .NET SDK
-        uses: actions/setup-dotnet@v1.7.2
+        uses: actions/setup-dotnet@v4
         with:
           dotnet-version: 8.0.x
-      - name: Submodules
-        run: git submodule update --init --recursive PMDC/
+      - name: Ensure Inno Setup is available
+        shell: pwsh
+        run: |
+          $compiler = "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe"
+          if (-not (Test-Path -LiteralPath $compiler)) {
+            choco install innosetup --yes --no-progress
+          }
+      - name: Build self-contained playtest installer
+        shell: pwsh
+        run: |
+          $compiler = "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe"
+          ./Installer/Build-Playtest.ps1 -Compiler $compiler -Version '${{ github.ref_name }}'
+      - name: Upload playtest installer
+        uses: actions/upload-artifact@v4
+        with:
+          name: playtest-installer
+          path: |
+            publish/playtest/*-Setup.exe
+            publish/playtest/*-Setup.exe.sha256
+          if-no-files-found: error
+
+  build_deploy:
+    name: Build Setup Tools and Publish Release
+    needs: build_playtest_installer
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout game and assets
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          submodules: recursive
+      - name: Setup .NET SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
       - name: Restore
         run: dotnet restore
       - name: Build Windows PMDOSetup x86
@@ -30,60 +68,28 @@ jobs:
       - name: Build Mac PMDOSetup
         run: dotnet publish -c Release -r osx-x64 PMDOSetup/PMDOSetup.csproj
       - name: Zip Windows PMDOSetup x86
-        run: cd publish/win-x86/;zip -r setup-windows-x86.zip PMDOSetup/
+        run: cd publish/win-x86/ && zip -r setup-windows-x86.zip PMDOSetup/
       - name: Zip Windows PMDOSetup
-        run: cd publish/win-x64/;zip -r setup-windows-x64.zip PMDOSetup/
+        run: cd publish/win-x64/ && zip -r setup-windows-x64.zip PMDOSetup/
       - name: Zip Linux PMDOSetup
-        run: cd publish/linux-x64/;zip -r setup-linux-x64.zip PMDOSetup/
+        run: cd publish/linux-x64/ && zip -r setup-linux-x64.zip PMDOSetup/
       - name: Zip Mac PMDOSetup
-        run: cd publish/osx-x64/;zip -r setup-osx-x64.zip PMDOSetup/
-      - name: Set Version
-        run: echo "version=$(sed -En 's,<\AssemblyVersion>(.+)</AssemblyVersion>,\1,p' DataGenerator/DataGenerator.csproj)" >> $GITHUB_OUTPUT
-        id: version
-      - name: Create Release
-        uses: actions/create-release@v1
-        id: create_release
+        run: cd publish/osx-x64/ && zip -r setup-osx-x64.zip PMDOSetup/
+      - name: Download playtest installer
+        uses: actions/download-artifact@v4
         with:
-          draft: false
-          prerelease: false
-          release_name: ${{ steps.version.outputs.version }}
-          tag_name: ${{ github.ref }}
+          name: playtest-installer
+          path: publish/playtest
+      - name: Create GitHub release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: ${{ github.ref_name }}
           body_path: CHANGELOG.md
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
-      - name: Upload Windows x86 PMDOSetup
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./publish/win-x86/setup-windows-x86.zip
-          asset_name: setup-windows-x86.zip
-          asset_content_type: application/zip
-      - name: Upload Windows PMDOSetup
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./publish/win-x64/setup-windows-x64.zip
-          asset_name: setup-windows-x64.zip
-          asset_content_type: application/zip
-      - name: Upload Linux PMDOSetup
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./publish/linux-x64/setup-linux-x64.zip
-          asset_name: setup-linux-x64.zip
-          asset_content_type: application/zip
-      - name: Upload Mac PMDOSetup
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./publish/osx-x64/setup-osx-x64.zip
-          asset_name: setup-osx-x64.zip
-          asset_content_type: application/zip
+          fail_on_unmatched_files: true
+          files: |
+            publish/win-x86/setup-windows-x86.zip
+            publish/win-x64/setup-windows-x64.zip
+            publish/linux-x64/setup-linux-x64.zip
+            publish/osx-x64/setup-osx-x64.zip
+            publish/playtest/*-Setup.exe
+            publish/playtest/*-Setup.exe.sha256

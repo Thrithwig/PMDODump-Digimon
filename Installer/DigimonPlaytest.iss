@@ -5,7 +5,7 @@
   #error OutputDir must be specified
 #endif
 #ifndef BuildVersion
-  #define BuildVersion "2026.09.11"
+  #define BuildVersion "2026.09.28"
 #endif
 [Setup]
 AppId={{9270BB87-72A2-4D0C-9582-9A38E6057532}

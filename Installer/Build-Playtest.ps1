@@ -1,6 +1,6 @@
 param(
     [Parameter(Mandatory=$true)][string]$Compiler,
-    [string]$Version = '2026.09.11',
+    [string]$Version = '2026.09.28',
     [switch]$SkipPublish
 )
 $ErrorActionPreference = 'Stop'
