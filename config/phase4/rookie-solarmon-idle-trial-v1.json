@@ -1,0 +1,14 @@
+{
+  "species":"solarmon","display_name":"Solarmon","source_chr_id":"chr728",
+  "model_path":"work/phase4/rookie-production/solarmon-idle-trial-v1/solarmon.glb","pmdo_index":10037,
+  "idle_clip":"chr009_bn01","idle_frames":4,"frame_times":[0,0.666667,1.333333,2.0],"idle_duration_ticks":40,
+  "approved_neutral_height":27,"neutral_frame":0,"frame_size":64,"render_size":512,"minimum_edge_margin":2,"palette_size":64,"alpha_cutoff":128,
+  "outline":{"enabled":true,"depth_threshold":1,"normal_dot_threshold":-1},
+  "placement":{"mode":"airborne","shadow_row":50,"minimum_gap":4},
+  "renderer":{"eye_mode":"source","native_eye_layers":true,"source_eye_masks":true,"head_bones":["J_center"],"emissive_intensity":0.55,"elevation":0.08,
+    "fixed_framing":{"center":[0,1.0,-0.02],"extent":2.29},
+    "offset_bones":{"head":{"bone":"J_center","local_point":[0,0.15,-0.4]},"center":"J_center","left_hand":"J_joint_F","right_hand":"J_joint_E"}},
+  "offsets":{"source":"projected-native-bones-v1","shadow":[0.5,0.8]},
+  "directions":[{"name":"Down","azimuth_degrees":0},{"name":"DownRight","azimuth_degrees":315},{"name":"Right","azimuth_degrees":270},{"name":"UpRight","azimuth_degrees":225},{"name":"Up","azimuth_degrees":180},{"name":"UpLeft","azimuth_degrees":135},{"name":"Left","azimuth_degrees":90},{"name":"DownLeft","azimuth_degrees":45}],
+  "anatomy_notes":{"source":"Own DSTS chr728 Solarmon model using exported native chr009 clips on its shared gear rig.","face":"Preserve source eye materials and their contrast against the gold face.","markers":"J_center front body point for head; J_joint_F and J_joint_E are rotating side gears used for hand slots.","ground":"The gear body has no feet; preserve its native hover and rotation over a fixed row-50 shadow."}
+}

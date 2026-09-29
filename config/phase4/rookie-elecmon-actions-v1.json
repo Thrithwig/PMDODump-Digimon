@@ -1,0 +1,23 @@
+{
+  "species": "elecmon",
+  "model_path": "work/phase4/rookie-production/elecmon-preflight/elecmon.glb",
+  "approved_idle": "work/phase4/rookie-production/elecmon-idle-trial-v4/package/10023",
+  "palette_policy": "approved-idle",
+  "mouth_palette": false,
+  "mouth_colors": [],
+  "open_mouth_actions": [],
+  "palette_rationale": "Preserve the reviewed 23px Idle colors, including source blue eyes, dark pupils, orange face and body, pale belly, blue stripes and white claws. No invented eye or mouth pixels.",
+  "reference": "Own DSTS chr564 mesh, eye meshes, skeleton and native clips. Action names and events use the PMDO registry.",
+  "actions": [
+    {"name":"Walk","clip":"chr564_br01","seconds":0.600000024,"sample_phases":[0,0.125,0.25,0.375,0.5,0.625,0.75,0.875],"durations":[6,6,6,6,6,6,6,6],"ground_policy":"fixed","pose_evidence":"Native quadruped gait, endpoint excluded."},
+    {"name":"Attack","clip":"chr564_ba02","seconds":1.90000012,"sample_phases":[0,0.06,0.13,0.22,0.34,0.47,0.6,0.72,0.84,0.96],"durations":[3,3,4,4,5,5,4,4,4,5],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":5,"ReturnFrame":8},"pose_evidence":"Native claw spread and strike. ba01 was rejected because its root motion crossed the 64px cell edges."},
+    {"name":"Shoot","clip":"chr564_fe01","seconds":2.00000012,"sample_phases":[0,0.12,0.25,0.38,0.52,0.66,0.8,0.96],"durations":[4,5,5,6,6,5,5,6],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":5,"ReturnFrame":7},"pose_evidence":"Native chest and arm expression; no projectile asset."},
+    {"name":"Sleep","clip":"chr564_bn02","seconds":3.00000012,"sample_phases":[0,0.125,0.25,0.375,0.5,0.625,0.75,0.875],"durations":[25,25,25,25,25,25,25,25],"ground_policy":"fixed","pose_evidence":"Native seated resting pose; source eye expression retained."},
+    {"name":"Hurt","clip":"chr564_bd01","seconds":1.00000012,"sample_phases":[0,0.07,0.16,0.28,0.42,0.56,0.72,0.94],"durations":[3,4,4,5,5,4,4,5],"ground_policy":"fixed","events":{"HitFrame":2},"pose_evidence":"Native recoil, including lifted head and limbs."},
+    {"name":"Swing","clip":"chr564_bg01","seconds":0.83333345,"sample_phases":[0,0.1,0.22,0.36,0.5,0.64,0.78,0.96],"durations":[4,4,5,5,5,5,4,5],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":6},"pose_evidence":"Own bg01 arm sweep. bs01 leaves the camera after its opening frames and was rejected."},
+    {"name":"Double","clip":"chr564_ba02","seconds":1.90000012,"sample_phases":[0,0.13,0.34,0.6,0.84,0,0.13,0.34,0.6,0.84],"durations":[3,4,5,4,4,3,4,5,4,5],"ground_policy":"fixed","events":{"RushFrame":1,"HitFrame":3,"ReturnFrame":9},"pose_evidence":"Two repeats of the native claw strike; PMDO exposes one HitFrame."},
+    {"name":"Hop","clip":"chr564_bf01","seconds":1.83333345,"sample_phases":[0,0.07,0.16,0.29,0.44,0.6,0.78,0.96],"durations":[4,5,6,7,7,6,5,6],"ground_policy":"fixed","events":{"HitFrame":4},"pose_evidence":"Native forward leap with fixed shadow and preserved vertical movement."},
+    {"name":"Charge","clip":"chr564_bv01","seconds":2.33333345,"sample_phases":[0,0.1,0.23,0.38,0.53,0.68,0.83,0.97],"durations":[5,5,6,6,7,6,5,6],"ground_policy":"fixed","events":{"HitFrame":5,"ReturnFrame":7},"pose_evidence":"Native anticipation and release, without aura or effects."},
+    {"name":"Rotate","clip":"chr564_fq01","seconds":2.00000012,"sample_phases":[0,0.0833333,0.1666667,0.25,0.3333333,0.4166667,0.5,0.5833333,0.6666667,0.75,0.8333333,0.9166667],"durations":[4,4,4,4,4,4,4,4,4,4,4,4],"ground_policy":"fixed","turn_degrees":[0,30,60,90,120,150,180,210,240,270,300,330],"events":{"HitFrame":6},"pose_evidence":"Native gaze clip plus explicit whole-view turn, excluding the endpoint."}
+  ]
+}

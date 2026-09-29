@@ -1,0 +1,101 @@
+{
+  "species": "pabumon",
+  "jobs": [
+    {
+      "clip": "chr387_bn02",
+      "time": 0.3,
+      "azimuth": 90,
+      "note": "Native body/mouth/bead pose; J_root XZ stabilized where configured"
+    },
+    {
+      "clip": "chr387_bn02",
+      "time": 1.8,
+      "azimuth": 90,
+      "note": "Native body/mouth/bead pose; J_root XZ stabilized where configured"
+    },
+    {
+      "clip": "chr387_bn02",
+      "time": 3.3,
+      "azimuth": 90,
+      "note": "Native body/mouth/bead pose; J_root XZ stabilized where configured"
+    },
+    {
+      "clip": "chr387_bn02",
+      "time": 4.8,
+      "azimuth": 90,
+      "note": "Native body/mouth/bead pose; J_root XZ stabilized where configured"
+    },
+    {
+      "clip": "chr387_br01",
+      "time": 0.083333,
+      "azimuth": 90,
+      "note": "Native body/mouth/bead pose; J_root XZ stabilized where configured"
+    },
+    {
+      "clip": "chr387_br01",
+      "time": 0.5,
+      "azimuth": 90,
+      "note": "Native body/mouth/bead pose; J_root XZ stabilized where configured"
+    },
+    {
+      "clip": "chr387_br01",
+      "time": 0.916667,
+      "azimuth": 90,
+      "note": "Native body/mouth/bead pose; J_root XZ stabilized where configured"
+    },
+    {
+      "clip": "chr387_br01",
+      "time": 1.333333,
+      "azimuth": 90,
+      "note": "Native body/mouth/bead pose; J_root XZ stabilized where configured"
+    },
+    {
+      "clip": "chr387_fe03",
+      "time": 0.15,
+      "azimuth": 90,
+      "note": "Native body/mouth/bead pose; J_root XZ stabilized where configured"
+    },
+    {
+      "clip": "chr387_fe03",
+      "time": 0.9,
+      "azimuth": 90,
+      "note": "Native body/mouth/bead pose; J_root XZ stabilized where configured"
+    },
+    {
+      "clip": "chr387_fe03",
+      "time": 1.65,
+      "azimuth": 90,
+      "note": "Native body/mouth/bead pose; J_root XZ stabilized where configured"
+    },
+    {
+      "clip": "chr387_fe03",
+      "time": 2.4,
+      "azimuth": 90,
+      "note": "Native body/mouth/bead pose; J_root XZ stabilized where configured"
+    },
+    {
+      "clip": "chr387_fq02",
+      "time": 0.166667,
+      "azimuth": 90,
+      "note": "Native body/mouth/bead pose; J_root XZ stabilized where configured"
+    },
+    {
+      "clip": "chr387_fq02",
+      "time": 1.0,
+      "azimuth": 90,
+      "note": "Native body/mouth/bead pose; J_root XZ stabilized where configured"
+    },
+    {
+      "clip": "chr387_fq02",
+      "time": 1.833333,
+      "azimuth": 90,
+      "note": "Native body/mouth/bead pose; J_root XZ stabilized where configured"
+    },
+    {
+      "clip": "chr387_fq02",
+      "time": 2.666667,
+      "azimuth": 90,
+      "note": "Native body/mouth/bead pose; J_root XZ stabilized where configured"
+    }
+  ]
+}

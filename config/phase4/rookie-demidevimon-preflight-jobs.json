@@ -1,0 +1,7 @@
+{
+  "species":"demidevimon",
+  "jobs":[
+    {"clip":"chr097_bn01","time":0,"azimuth":0},
+    {"clip":"chr097_bn01","time":0,"azimuth":90}
+  ]
+}

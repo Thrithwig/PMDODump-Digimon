@@ -1,0 +1,508 @@
+{
+  "species": "punimon",
+  "display_name": "Punimon",
+  "source_chr_id": "chr437",
+  "model_path": "work/phase4/source/punimon.glb",
+  "pmdo_index": 10003,
+  "idle_clip": "chr437_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0,
+    0.28333336114883423,
+    0.5666667222976685,
+    0.8500000834465027
+  ],
+  "idle_duration_ticks": 17,
+  "approved_neutral_height": 18,
+  "neutral_frame": 0,
+  "frame_size": 96,
+  "render_size": 768,
+  "minimum_edge_margin": 2,
+  "palette_size": 63,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1
+  },
+  "idle_ground_policy": "fixed",
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "head_bones": [
+      "J_center"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.08,
+    "fixed_framing": {
+      "center": [
+        0,
+        0.27,
+        0
+      ],
+      "extent": 1.44
+    },
+    "offset_bones": {
+      "head": {
+        "bone": "J_center",
+        "local_point": [
+          0,
+          0.006163496524095535,
+          0.20377548784017563
+        ]
+      },
+      "center": "J_center",
+      "left_hand": {
+        "bone": "J_center",
+        "local_point": [
+          0.18,
+          -0.02390099167823792,
+          0.06
+        ]
+      },
+      "right_hand": {
+        "bone": "J_center",
+        "local_point": [
+          -0.18,
+          -0.02390099167823792,
+          0.06
+        ]
+      }
+    },
+    "horizontal_root_lock": {
+      "chr437_ba01": {
+        "bone": "J_center",
+        "reference_time": 0
+      },
+      "chr437_ba02": {
+        "bone": "J_center",
+        "reference_time": 0
+      },
+      "chr437_bd01": {
+        "bone": "J_center",
+        "reference_time": 0
+      },
+      "chr437_bd02": {
+        "bone": "J_center",
+        "reference_time": 0
+      },
+      "chr437_bd03": {
+        "bone": "J_center",
+        "reference_time": 0
+      },
+      "chr437_br01": {
+        "bone": "J_center",
+        "reference_time": 0
+      },
+      "chr437_bv01": {
+        "bone": "J_center",
+        "reference_time": 0
+      },
+      "chr437_bn02": {
+        "bone": "J_center",
+        "reference_time": 0
+      },
+      "chr437_fe01": {
+        "bone": "J_center",
+        "reference_time": 0
+      },
+      "chr437_fe02": {
+        "bone": "J_center",
+        "reference_time": 0
+      },
+      "chr437_fe03": {
+        "bone": "J_center",
+        "reference_time": 0
+      },
+      "chr437_fe04": {
+        "bone": "J_center",
+        "reference_time": 0
+      },
+      "chr437_fq01": {
+        "bone": "J_center",
+        "reference_time": 0
+      },
+      "chr437_fq02": {
+        "bone": "J_center",
+        "reference_time": 0
+      }
+    },
+    "native_eye_expression_offsets": {
+      "chr437_bn02": [
+        0,
+        0.25
+      ]
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.8
+    ]
+  },
+  "anatomy_notes": {
+    "source": "Existing chr437 dsts-extractor0.9.0 GLB; PMDO10003 verified against local installed manifest read-only.",
+    "eyes": "Opt-in source layers: chr437b01 dark eye/face on UV3, chr437p01 iris via UV2 cropped by chr437b01m green. eye_L/R are shine hemispheres: chr437e01h whiteRGB is fallback, alpha holds view-space highlights; alpha-to-RGB matcap with native vertex-alpha and green crop. No invented pupils or Agumon masks. This restores source-backed layering, not full original-game shader equivalence.",
+    "head": "Measured bind eye-pair midpoint [0,0.1800644882,0.2037754878] transformed to native J_center local space.",
+    "hand_slots": "No arm/leg bones. J_mimi_L/R/B animate three upper spikes. Hand slots instead use inner body-side bind points [+/-0.18,0.15,0.06] relative to J_center; conventions, not anatomical hands. Anatomical left +X is screen-right in Down.",
+    "ground": "Native J_root remains at origin; J_center bobs by0.0507 world units with body squash and independently moving spikes. Sampled neutral underside-0.0023 near bind floor0, quarter phases+0.0275,+0.0108,+0.0264: grounded soft-body bob, not sustained flight. Fixed neutral ground placement per direction preserves subsequent native gaps; fixed shadowrow25, no per-frame fitting.",
+    "motion": "bn01 duration1.133333s, four quarter-cycle samples at17ticks each. Scale track ends at1.1s with Y scale1.014769 versus0.971765 at start; source seam retained, not procedurally repaired.",
+    "pending": "V1 approval withdrawn after source alpha/matcap audit. V2 restores native dark eye opening/iris plus source shine; source body/spikes/scale/motion unchanged. Parent gate required; Idle only.",
+    "actions": "96/768/extent1.44 are triple Idle padding at identical pixels/world-unit. Shadow57-center48 equals Idle25-center16=+9. Placement mode airborne is shared fixed-origin implementation only: Punimon remains grounded, no artificial lift. Allframes fixedshift0, source Y/rotation/scale/spikes preserved; J_center XZ travel stabilized only.",
+    "sleep": "Native bn02 flattened body breathing with explicitly selected source b01 second-row closed-eye curves (UV3 +0.25V); same shift in green crop mask disables native iris/shine. No painted pupils/lids. Not claiming exported facial animation.",
+    "ground_tolerance": "Fixed origin/zero global shift; <=1px exact-black contact outline may cross shadow row. Any source-colored pixels below row require separate review/correction."
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ],
+  "placement": {
+    "mode": "airborne",
+    "shadow_row": 57,
+    "minimum_gap": -1,
+    "fixed_vertical_shift": 0
+  },
+  "fixed_palette_colors": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      34,
+      33,
+      34
+    ],
+    [
+      65,
+      49,
+      51
+    ],
+    [
+      114,
+      54,
+      58
+    ],
+    [
+      117,
+      45,
+      51
+    ],
+    [
+      125,
+      48,
+      54
+    ],
+    [
+      131,
+      51,
+      57
+    ],
+    [
+      134,
+      52,
+      58
+    ],
+    [
+      136,
+      56,
+      62
+    ],
+    [
+      140,
+      54,
+      61
+    ],
+    [
+      141,
+      55,
+      62
+    ],
+    [
+      143,
+      56,
+      62
+    ],
+    [
+      144,
+      57,
+      65
+    ],
+    [
+      147,
+      58,
+      65
+    ],
+    [
+      148,
+      59,
+      66
+    ],
+    [
+      148,
+      62,
+      69
+    ],
+    [
+      152,
+      61,
+      69
+    ],
+    [
+      153,
+      59,
+      65
+    ],
+    [
+      155,
+      74,
+      80
+    ],
+    [
+      156,
+      62,
+      68
+    ],
+    [
+      156,
+      63,
+      70
+    ],
+    [
+      156,
+      64,
+      72
+    ],
+    [
+      157,
+      65,
+      73
+    ],
+    [
+      159,
+      67,
+      75
+    ],
+    [
+      162,
+      65,
+      71
+    ],
+    [
+      162,
+      67,
+      76
+    ],
+    [
+      163,
+      69,
+      78
+    ],
+    [
+      166,
+      66,
+      72
+    ],
+    [
+      166,
+      69,
+      78
+    ],
+    [
+      167,
+      74,
+      83
+    ],
+    [
+      169,
+      69,
+      76
+    ],
+    [
+      170,
+      72,
+      81
+    ],
+    [
+      171,
+      76,
+      85
+    ],
+    [
+      173,
+      70,
+      76
+    ],
+    [
+      175,
+      73,
+      80
+    ],
+    [
+      175,
+      76,
+      84
+    ],
+    [
+      176,
+      77,
+      86
+    ],
+    [
+      176,
+      79,
+      88
+    ],
+    [
+      180,
+      73,
+      79
+    ],
+    [
+      180,
+      85,
+      94
+    ],
+    [
+      181,
+      79,
+      86
+    ],
+    [
+      181,
+      81,
+      89
+    ],
+    [
+      182,
+      75,
+      81
+    ],
+    [
+      187,
+      76,
+      82
+    ],
+    [
+      187,
+      80,
+      86
+    ],
+    [
+      189,
+      85,
+      93
+    ],
+    [
+      191,
+      79,
+      85
+    ],
+    [
+      195,
+      84,
+      89
+    ],
+    [
+      195,
+      87,
+      95
+    ],
+    [
+      197,
+      93,
+      101
+    ],
+    [
+      198,
+      81,
+      87
+    ],
+    [
+      202,
+      84,
+      90
+    ],
+    [
+      202,
+      89,
+      94
+    ],
+    [
+      207,
+      93,
+      99
+    ],
+    [
+      208,
+      87,
+      93
+    ],
+    [
+      211,
+      99,
+      106
+    ],
+    [
+      213,
+      94,
+      100
+    ],
+    [
+      215,
+      88,
+      95
+    ],
+    [
+      219,
+      94,
+      100
+    ],
+    [
+      223,
+      99,
+      105
+    ],
+    [
+      224,
+      105,
+      110
+    ],
+    [
+      230,
+      117,
+      123
+    ]
+  ]
+}

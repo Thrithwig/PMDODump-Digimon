@@ -1,0 +1,101 @@
+{
+  "species": "andromon",
+  "display_name": "Andromon",
+  "source_chr_id": "chr342",
+  "model_path": "work/phase4/ultimate-production/andromon-idle-candidate/andromon.glb",
+  "pmdo_index": 10144,
+  "idle_clip": "chr342_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0,
+    0.5333333672417556,
+    1.0666667344835112,
+    1.600000101725267
+  ],
+  "idle_duration_ticks": 32,
+  "approved_neutral_height": 32,
+  "neutral_frame": 0,
+  "frame_size": 96,
+  "render_size": 768,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1
+  },
+  "idle_ground_policy": "fixed",
+  "ground_contact_row": 77,
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "source_eye_masks": true,
+    "head_bones": [
+      "J_kao"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.08,
+    "fixed_framing": {
+      "center": [
+        0,
+        1.1,
+        0
+      ],
+      "extent": 3.78
+    },
+    "offset_bones": {
+      "head": "J_kao",
+      "center": "J_center",
+      "left_hand": "J_te_L",
+      "right_hand": "J_te_R"
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.8125
+    ]
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ],
+  "anatomy_notes": {
+    "source": "Direct chr342 native model and chr342_bn01 loop; four samples omit the endpoint.",
+    "eyes": "Preserve paired source eye meshes and native e01/e01h/b01m layers; inspect actual light face at native output size before any bounded augmentation.",
+    "offsets": "J_kao is the native face joint; J_te_L/R are anatomical hands.",
+    "ground": "Grounded biped; inspect both boots and native bounce against the fixed shadow."
+  }
+}

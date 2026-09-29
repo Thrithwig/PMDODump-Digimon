@@ -1,0 +1,38 @@
+{
+  "species": "tanemon", "display_name": "Tanemon", "source_chr_id": "chr512",
+  "model_path": "work/phase4/source/tanemon.glb", "pmdo_index": 10008,
+  "idle_clip": "chr512_bn01", "idle_frames": 4,
+  "frame_times": [0, 0.33333335452609725, 0.6666667090521945, 1.0000000635782917],
+  "idle_duration_ticks": 20, "approved_neutral_height": 18, "neutral_frame": 0,
+  "frame_size": 48, "render_size": 384, "minimum_edge_margin": 2,
+  "palette_size": 64, "alpha_cutoff": 128,
+  "outline": {"enabled": true, "depth_threshold": 1, "normal_dot_threshold": -1},
+  "idle_ground_policy": "fixed", "ground_contact_row": 34,
+  "renderer": {
+    "eye_mode": "source", "native_eye_layers": true, "source_eye_masks": true,
+    "head_bones": ["J_ago"], "emissive_intensity": 0.55, "elevation": 0.08,
+    "fixed_framing": {"center": [0, 0.24, 0], "extent": 1.20},
+    "offset_bones": {
+      "head": {"bone": "J_ago", "local_point": [0, 0.17, 0.15]},
+      "center": "J_center", "left_hand": "J_ude_L", "right_hand": "J_ude_R"
+    }
+  },
+  "offsets": {"source": "projected-native-bones-v1", "shadow": [0.5, 0.8]},
+  "directions": [
+    {"name": "Down", "azimuth_degrees": 0},
+    {"name": "DownRight", "azimuth_degrees": 315},
+    {"name": "Right", "azimuth_degrees": 270},
+    {"name": "UpRight", "azimuth_degrees": 225},
+    {"name": "Up", "azimuth_degrees": 180},
+    {"name": "UpLeft", "azimuth_degrees": 135},
+    {"name": "Left", "azimuth_degrees": 90},
+    {"name": "DownLeft", "azimuth_degrees": 45}
+  ],
+  "anatomy_notes": {
+    "source": "Own chr512 model, PMDO10008, Small 18px; one fixed orthographic extent, no raster scaling.",
+    "eyes": "Paired source eye geometry and native expression layers; evaluate native-size contrast before correction.",
+    "ground": "Source feet/underside ground, not leaves; fixed contact row.",
+    "markers": "Real J_ago eye/face marker and J_ude_L/R arm bones.",
+    "motion": "Own chr512_bn01 1.3333334s loop, four quarter-cycle samples."
+  }
+}

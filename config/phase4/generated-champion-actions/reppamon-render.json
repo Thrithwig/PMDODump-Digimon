@@ -1,0 +1,102 @@
+{
+  "species": "reppamon",
+  "display_name": "Reppamon",
+  "source_chr_id": "chr077",
+  "model_path": "work/phase4/champion-production/reppamon-idle-candidate/reppamon.glb",
+  "pmdo_index": 10139,
+  "idle_clip": "chr077_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0,
+    0.375,
+    0.75,
+    1.125
+  ],
+  "idle_duration_ticks": 23,
+  "approved_neutral_height": 44,
+  "neutral_frame": 0,
+  "frame_size": 192,
+  "render_size": 1536,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1
+  },
+  "idle_ground_policy": "fixed",
+  "ground_contact_row": 142,
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "source_eye_masks": true,
+    "head_bones": [
+      "head"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.06,
+    "fixed_framing": {
+      "center": [
+        0,
+        1.6,
+        0
+      ],
+      "extent": 7.83
+    },
+    "offset_bones": {
+      "head": "head",
+      "center": "spine2",
+      "left_hand": "foot_f_l",
+      "right_hand": "foot_f_r"
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.859375
+    ]
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ],
+  "anatomy_notes": {
+    "source": "Direct Time Stranger chr077 model with its own native chr077_bn01 Idle loop.",
+    "silhouette": "Preserve the long muzzle, swept hair, paired beard strands, four legs, feet, tail and shoulder ornaments.",
+    "eyes": "Inspect source-composited visible eyes at native size before any bounded adjustment; no speculative pupil or repaint.",
+    "ground": "Grounded quadruped; forefoot and hindfoot contact govern the fixed shadow. Beard, hair, tail and ornaments are not contact anchors.",
+    "markers": "Source forefoot bones foot_f_l and foot_f_r supply PMDO hand-slot substitutes."
+  }
+}

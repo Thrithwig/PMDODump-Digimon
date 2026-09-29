@@ -1,0 +1,21 @@
+{
+  "species":"gaomon",
+  "model_path":"work/phase4/rookie-production/gaomon-preflight/gaomon.glb",
+  "approved_idle":"work/phase4/rookie-production/gaomon-idle-trial-v2/package/10025",
+  "palette_policy":"approved-idle","mouth_palette":false,"mouth_colors":[],"open_mouth_actions":[],
+  "palette_rationale":"Preserve the preflight blue, white, red, black and source eye tones without guessed pupils or new face colors.",
+  "reference":"Own DSTS chr055 model and native clips; PMDO registry provides names and event fields.",
+  "actions":[
+    {"name":"Walk","clip":"chr055_br01","seconds":0.666667,"sample_phases":[0,0.125,0.25,0.375,0.5,0.625,0.75,0.875],"durations":[8,8,8,8,8,8,8,8],"ground_policy":"per-frame","pose_evidence":"Native short-legged running cycle; each stance is grounded from the source foot silhouette to avoid fixed-row penetration, with no duplicate endpoint."},
+    {"name":"Attack","clip":"chr055_ba01","seconds":1.4,"sample_phases":[0,0.06,0.15,0.27,0.38,0.52,0.67,0.82,0.97],"durations":[3,3,4,5,5,4,4,4,5],"ground_policy":"fixed","events":{"RushFrame":1,"HitFrame":4,"ReturnFrame":7},"pose_evidence":"Native glove punch and forward step; physical Attack is never ground-trimmed."},
+    {"name":"Shoot","clip":"chr055_fe03","seconds":3.0,"sample_phases":[0,0.08,0.16,0.28,0.4,0.55,0.75,0.97],"durations":[4,4,5,5,6,5,4,6],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":6},"pose_evidence":"Native mouth-open, fists-wide special release; no projectile or effect asset inferred."},
+    {"name":"Sleep","clip":"chr055_bn02","seconds":6.666667,"sample_phases":[0,0.166667,0.333333,0.5,0.666667,0.833333],"durations":[33,33,33,33,33,33],"ground_policy":"fixed","pose_evidence":"Own long neutral/rest clip; source eyes remain open-looking, so no invented eyelids."},
+    {"name":"Hurt","clip":"chr055_bd01","seconds":1.0,"sample_phases":[0,0.06,0.13,0.22,0.32,0.45,0.62,0.8,0.97],"durations":[3,4,4,4,5,4,4,4,5],"ground_policy":"fixed","events":{"HitFrame":2},"pose_evidence":"Native recoiling open-mouth pose, not an idle endpoint."},
+    {"name":"Swing","clip":"chr055_bs01","seconds":2.666667,"sample_phases":[0,0.03,0.06,0.1,0.14,0.17,0.2,0.24],"durations":[4,4,5,5,5,4,4,5],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":6},"pose_evidence":"Early source glove swing only; later native travel leaves the fixed PMDO cell and is deliberately excluded. Horizontal root X/Z is locked, preserving native deformation and Y."},
+    {"name":"Double","clip":"chr055_ba01","seconds":1.4,"sample_phases":[0,0.17,0.4,0.7,0.98,0,0.17,0.4,0.7,0.98],"durations":[3,4,5,4,4,3,4,5,4,6],"ground_policy":"fixed","events":{"RushFrame":1,"HitFrame":2,"ReturnFrame":8},"pose_evidence":"Two native glove-punch cycles; PMDO XML exposes one HitFrame."},
+    {"name":"Hop","clip":"chr055_fe02","seconds":3.5,"sample_phases":[0,0.1,0.2,0.27,0.34,0.43,0.57,0.97],"durations":[4,5,5,8,8,5,4,6],"ground_policy":"fixed","events":{"HitFrame":5},"pose_evidence":"Native acrobatic flip/lift is the distinct whole-body airborne arc; bf01 stays planted. Horizontal root X/Z locked, native Y and rotation retained."},
+    {"name":"Charge","clip":"chr055_bv01","seconds":2.666667,"sample_phases":[0,0.1,0.2,0.3,0.4,0.5,0.6,0.5,0.3,0],"durations":[4,5,5,6,7,7,8,5,4,5],"ground_policy":"fixed","events":{"HitFrame":6,"ReturnFrame":8},"pose_evidence":"Native crouch/strain, reverse-sampled to recover; no effect invented."},
+    {"name":"Rotate","clip":"chr055_fq01","seconds":2.0,"sample_phases":[0,0.083333,0.166667,0.25,0.333333,0.416667,0.5,0.583333,0.666667,0.75,0.833333,0.916667],"durations":[4,4,4,4,4,4,4,4,4,4,4,4],"ground_policy":"fixed","turn_degrees":[0,30,60,90,120,150,180,210,240,270,300,330],"events":{"HitFrame":6},"pose_evidence":"Native gesture with whole-view yaw for Rotate; no duplicate endpoint."}
+  ]
+}
+

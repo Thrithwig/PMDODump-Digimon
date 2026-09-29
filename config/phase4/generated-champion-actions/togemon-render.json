@@ -1,0 +1,102 @@
+{
+  "species": "togemon",
+  "display_name": "Togemon",
+  "source_chr_id": "chr349",
+  "model_path": "work/phase4/champion-production/togemon-idle-candidate/togemon.glb",
+  "pmdo_index": 10118,
+  "idle_clip": "chr349_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0,
+    0.4166666932,
+    0.8333333863,
+    1.2500000795
+  ],
+  "idle_duration_ticks": 25,
+  "approved_neutral_height": 29,
+  "neutral_frame": 0,
+  "frame_size": 96,
+  "render_size": 768,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1
+  },
+  "idle_ground_policy": "fixed",
+  "ground_contact_row": 77,
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "source_eye_masks": true,
+    "head_bones": [
+      "J_atama"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.06,
+    "fixed_framing": {
+      "center": [
+        0,
+        1.0746,
+        -0.0234
+      ],
+      "extent": 3.42
+    },
+    "offset_bones": {
+      "head": "J_atama",
+      "center": "J_center",
+      "left_hand": "J_te_L",
+      "right_hand": "J_te_R"
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.8020833333
+    ]
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ],
+  "anatomy_notes": {
+    "source": "Direct chr349 model and native chr349_bn01 1.666666773-second Idle loop.",
+    "silhouette": "Preserve cactus body, spines, flower, boxing gloves, legs and feet.",
+    "eyes": "Eyes are source-textured on the body mesh through a01 diffuse, a01m mask, a01l matcap and a01s/a02s shine. Inspect native-size contrast; add no speculative pupils or repaint.",
+    "markers": "J_atama head, J_center torso, J_te_L/R anatomical hands; J_tuma_L/R toes govern grounded contact.",
+    "ground": "Grounded biped with one fixed PMDO shadow and native Idle vertical motion retained."
+  }
+}

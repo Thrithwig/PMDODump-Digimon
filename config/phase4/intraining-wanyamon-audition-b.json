@@ -1,0 +1,13 @@
+{
+  "species":"wanyamon",
+  "jobs":[
+    {"clip":"chr321_bf01","time":0.15,"azimuth":90},{"clip":"chr321_bf01","time":0.85,"azimuth":90},
+    {"clip":"chr321_bg02","time":0.1,"azimuth":90},{"clip":"chr321_bg02","time":0.5,"azimuth":90},
+    {"clip":"chr321_bv01","time":0.3,"azimuth":90},{"clip":"chr321_bv01","time":1.65,"azimuth":90},
+    {"clip":"chr321_fe02","time":0.28,"azimuth":90},{"clip":"chr321_fe02","time":1.65,"azimuth":90},
+    {"clip":"chr321_fe04","time":0.2,"azimuth":90},{"clip":"chr321_fe04","time":1.1,"azimuth":90},
+    {"clip":"chr321_bd02","time":0.12,"azimuth":90},{"clip":"chr321_bd02","time":0.66,"azimuth":90},
+    {"clip":"chr321_fq01","time":0.15,"azimuth":90},{"clip":"chr321_fq01","time":0.9,"azimuth":90},
+    {"clip":"chr321_fq02","time":0.15,"azimuth":90},{"clip":"chr321_fq02","time":0.9,"azimuth":90}
+  ]
+}

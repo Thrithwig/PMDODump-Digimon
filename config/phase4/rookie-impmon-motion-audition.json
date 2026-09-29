@@ -1,0 +1,21 @@
+{
+  "species":"impmon",
+  "jobs":[
+    {"clip":"chr081_ba01","time":0.2,"azimuth":0,"note":"Attack early"},
+    {"clip":"chr081_ba01","time":0.55,"azimuth":0,"note":"Attack contact"},
+    {"clip":"chr081_ba01","time":0.9,"azimuth":0,"note":"Attack recoil"},
+    {"clip":"chr081_ba01","time":1.25,"azimuth":0,"note":"Attack recovery"},
+    {"clip":"chr081_ba01","time":0.55,"azimuth":270,"note":"Attack side contact"},
+    {"clip":"chr081_bf01","time":0.2,"azimuth":0,"note":"Hop early"},
+    {"clip":"chr081_bf01","time":0.45,"azimuth":0,"note":"Hop first lift"},
+    {"clip":"chr081_bf01","time":0.7,"azimuth":0,"note":"Hop apex"},
+    {"clip":"chr081_bf01","time":1.0,"azimuth":0,"note":"Hop descent"},
+    {"clip":"chr081_bf01","time":1.3,"azimuth":0,"note":"Hop recovery"},
+    {"clip":"chr081_bf01","time":0.7,"azimuth":270,"note":"Hop side apex"},
+    {"clip":"chr081_bs01","time":0.4,"azimuth":0,"note":"Swing windup"},
+    {"clip":"chr081_bs01","time":1.0,"azimuth":0,"note":"Swing middle"},
+    {"clip":"chr081_bs01","time":1.6,"azimuth":0,"note":"Swing later"},
+    {"clip":"chr081_fe01","time":0.45,"azimuth":0,"note":"Shoot windup"},
+    {"clip":"chr081_fe01","time":1.5,"azimuth":0,"note":"Shoot release"}
+  ]
+}

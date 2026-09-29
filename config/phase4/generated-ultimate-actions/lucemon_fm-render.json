@@ -1,0 +1,105 @@
+{
+  "species": "lucemon_fm",
+  "display_name": "Lucemon Falldown Mode",
+  "source_chr_id": "chr039",
+  "model_path": "work/phase4/ultimate-production/lucemon-fm-idle-candidate/lucemon-fm.glb",
+  "pmdo_index": 10213,
+  "idle_clip": "chr039_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0,
+    0.5000000317891459,
+    1.0000000635782917,
+    1.5000000953674375
+  ],
+  "idle_duration_ticks": 30,
+  "approved_neutral_height": 49,
+  "neutral_frame": 0,
+  "frame_size": 128,
+  "render_size": 1024,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1
+  },
+  "idle_ground_policy": "fixed",
+  "placement": {
+    "mode": "airborne",
+    "shadow_row": 94,
+    "minimum_gap": 6
+  },
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "source_eye_masks": true,
+    "head_bones": [
+      "J_hed"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.08,
+    "fixed_framing": {
+      "center": [
+        0,
+        2.4,
+        0
+      ],
+      "extent": 6.7
+    },
+    "offset_bones": {
+      "head": "J_hed",
+      "center": "J_center",
+      "left_hand": "J_hand_L",
+      "right_hand": "J_hand_R"
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.734375
+    ]
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ],
+  "anatomy_notes": {
+    "source": "PMDO Lucemon Falldown Mode uses the approved Lucemon CM catalog alias, direct Time Stranger chr039 model, and native two-second chr039_bn01 Idle.",
+    "face": "Separate source eye and eyelash meshes are retained. Facial detail is tiny beneath gold hair at native size, so no speculative repaint is permitted.",
+    "silhouette": "Preserve humanoid body, asymmetric white feather and black bat wings, hair, gauntlets, legs, and boots.",
+    "ground": "Native stance is airborne with hanging feet; preserve the source hover above one fixed row-94 shadow with at least six pixels of gap. Never crop Idle. Huge corridor gate remains pending."
+  }
+}

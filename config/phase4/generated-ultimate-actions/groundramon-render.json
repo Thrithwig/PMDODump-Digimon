@@ -1,0 +1,102 @@
+{
+  "species": "groundramon",
+  "display_name": "Groundramon",
+  "source_chr_id": "chr211",
+  "model_path": "work/phase4/ultimate-production/groundramon-idle-candidate/groundramon.glb",
+  "pmdo_index": 10159,
+  "idle_clip": "chr211_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0,
+    0.5000000317891459,
+    1.0000000635782917,
+    1.5000000953674377
+  ],
+  "idle_duration_ticks": 30,
+  "approved_neutral_height": 54,
+  "neutral_frame": 0,
+  "frame_size": 352,
+  "render_size": 2048,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1
+  },
+  "idle_ground_policy": "per-frame",
+  "ground_contact_row": 213,
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "source_eye_masks": true,
+    "head_bones": [
+      "atama"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.08,
+    "fixed_framing": {
+      "center": [
+        0,
+        4.5,
+        0
+      ],
+      "extent": 24.84
+    },
+    "offset_bones": {
+      "head": "atama",
+      "center": "hara",
+      "left_hand": "L_tekubi",
+      "right_hand": "R_tekubi"
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.7102272727272727
+    ]
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ],
+  "anatomy_notes": {
+    "source": "Direct Time Stranger chr211; four endpoint-exclusive samples of native chr211_bn01.",
+    "face": "Preserve separate native eye_L and eye_R meshes and source textures; inspect post-palette contrast at native size.",
+    "silhouette": "Preserve native head, jaw, wings, forearms, legs, feet and long tail.",
+    "offsets": "Native atama, hara and left/right wrist bones provide the projected PMDO markers.",
+    "ground": "Ground each source pose at the fixed shadow row; trial-v2 had only two attached black foot-contour pixels one row below the shadow in UpLeft frame 1. Huge corridor clearance remains pending."
+  }
+}

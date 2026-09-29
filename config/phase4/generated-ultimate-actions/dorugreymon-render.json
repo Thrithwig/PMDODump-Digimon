@@ -1,0 +1,102 @@
+{
+  "species": "dorugreymon",
+  "display_name": "DoruGreymon",
+  "source_chr_id": "chr407",
+  "model_path": "work/phase4/ultimate-production/dorugreymon-idle-candidate/dorugreymon.glb",
+  "pmdo_index": 10181,
+  "idle_clip": "chr407_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0,
+    0.5000000317891459,
+    1.0000000635782917,
+    1.5000000953674377
+  ],
+  "idle_duration_ticks": 30,
+  "approved_neutral_height": 46,
+  "neutral_frame": 1,
+  "frame_size": 256,
+  "render_size": 2048,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1
+  },
+  "idle_ground_policy": "fixed",
+  "ground_contact_row": 158,
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "source_eye_masks": true,
+    "head_bones": [
+      "J_head"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.08,
+    "fixed_framing": {
+      "center": [
+        0,
+        1.6,
+        0
+      ],
+      "extent": 9.7
+    },
+    "offset_bones": {
+      "head": "J_head",
+      "center": "J_center",
+      "left_hand": "J_handL",
+      "right_hand": "J_handR"
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.734375
+    ]
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ],
+  "anatomy_notes": {
+    "source": "Direct chr407, four endpoint-exclusive native chr407_bn01 samples. Frame 1 is the 46px neutral representative.",
+    "face": "Native eye_L/eye_R meshes and source layers only; inspect post-palette separation.",
+    "silhouette": "Native head, neck, wings, arms, legs, feet, and tail.",
+    "offsets": "Native J_head, J_center and J_handL/R.",
+    "ground": "Fixed shadow with foot contact; Huge corridor gate pending."
+  }
+}

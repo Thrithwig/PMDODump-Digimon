@@ -1,0 +1,101 @@
+{
+  "species": "punimon",
+  "jobs": [
+    {
+      "clip": "chr437_ba01",
+      "time": 0.056667,
+      "azimuth": 90,
+      "note": "Native body/spikes; J_center XZ only locked, actual Y retained"
+    },
+    {
+      "clip": "chr437_ba01",
+      "time": 0.34,
+      "azimuth": 90,
+      "note": "Native body/spikes; J_center XZ only locked, actual Y retained"
+    },
+    {
+      "clip": "chr437_ba01",
+      "time": 0.623333,
+      "azimuth": 90,
+      "note": "Native body/spikes; J_center XZ only locked, actual Y retained"
+    },
+    {
+      "clip": "chr437_ba01",
+      "time": 0.906667,
+      "azimuth": 90,
+      "note": "Native body/spikes; J_center XZ only locked, actual Y retained"
+    },
+    {
+      "clip": "chr437_ba02",
+      "time": 0.081667,
+      "azimuth": 90,
+      "note": "Native body/spikes; J_center XZ only locked, actual Y retained"
+    },
+    {
+      "clip": "chr437_ba02",
+      "time": 0.49,
+      "azimuth": 90,
+      "note": "Native body/spikes; J_center XZ only locked, actual Y retained"
+    },
+    {
+      "clip": "chr437_ba02",
+      "time": 0.898333,
+      "azimuth": 90,
+      "note": "Native body/spikes; J_center XZ only locked, actual Y retained"
+    },
+    {
+      "clip": "chr437_ba02",
+      "time": 1.306667,
+      "azimuth": 90,
+      "note": "Native body/spikes; J_center XZ only locked, actual Y retained"
+    },
+    {
+      "clip": "chr437_br01",
+      "time": 0.066667,
+      "azimuth": 90,
+      "note": "Native body/spikes; J_center XZ only locked, actual Y retained"
+    },
+    {
+      "clip": "chr437_br01",
+      "time": 0.4,
+      "azimuth": 90,
+      "note": "Native body/spikes; J_center XZ only locked, actual Y retained"
+    },
+    {
+      "clip": "chr437_br01",
+      "time": 0.733333,
+      "azimuth": 90,
+      "note": "Native body/spikes; J_center XZ only locked, actual Y retained"
+    },
+    {
+      "clip": "chr437_br01",
+      "time": 1.066667,
+      "azimuth": 90,
+      "note": "Native body/spikes; J_center XZ only locked, actual Y retained"
+    },
+    {
+      "clip": "chr437_bv01",
+      "time": 0.098333,
+      "azimuth": 90,
+      "note": "Native body/spikes; J_center XZ only locked, actual Y retained"
+    },
+    {
+      "clip": "chr437_bv01",
+      "time": 0.59,
+      "azimuth": 90,
+      "note": "Native body/spikes; J_center XZ only locked, actual Y retained"
+    },
+    {
+      "clip": "chr437_bv01",
+      "time": 1.081667,
+      "azimuth": 90,
+      "note": "Native body/spikes; J_center XZ only locked, actual Y retained"
+    },
+    {
+      "clip": "chr437_bv01",
+      "time": 1.573333,
+      "azimuth": 90,
+      "note": "Native body/spikes; J_center XZ only locked, actual Y retained"
+    }
+  ]
+}

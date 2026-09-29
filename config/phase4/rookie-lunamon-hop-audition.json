@@ -1,0 +1,13 @@
+{
+  "species":"lunamon",
+  "jobs":[
+    {"clip":"chr002_bf01","time":0.22,"azimuth":0,"note":"Hop early 0.22 front"},
+    {"clip":"chr002_bf01","time":0.28,"azimuth":0,"note":"Hop rise 0.28 front"},
+    {"clip":"chr002_bf01","time":0.34,"azimuth":0,"note":"Hop rise 0.34 front"},
+    {"clip":"chr002_bf01","time":0.40,"azimuth":0,"note":"Hop rise 0.40 front"},
+    {"clip":"chr002_bf01","time":0.22,"azimuth":270,"note":"Hop early 0.22 side"},
+    {"clip":"chr002_bf01","time":0.28,"azimuth":270,"note":"Hop rise 0.28 side"},
+    {"clip":"chr002_bf01","time":0.34,"azimuth":270,"note":"Hop rise 0.34 side"},
+    {"clip":"chr002_bf01","time":0.40,"azimuth":270,"note":"Hop rise 0.40 side"}
+  ]
+}

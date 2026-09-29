@@ -1,0 +1,24 @@
+{
+  "species": "tentomon",
+  "model_path": "work/phase4/source/tentomon.glb",
+  "approved_idle": "work/phase4/tentomon/output/tentomon",
+  "palette_policy": "approved-idle",
+  "mouth_palette": false,
+  "mouth_colors": [],
+  "open_mouth_actions": [],
+  "palette_rationale": "Preserve Tentomon's reviewed approved Idle palette and source-visible anatomy.",
+  "reference": "Own DSTS chr303 model and native clips; PMDO registry supplies engine action names and event fields.",
+  "ground_policy_note": "Preserve Tentomon's approved airborne baseline and fixed shadow; never normalize individual flying frames to the shadow.",
+  "actions": [
+    {"name":"Walk","clip":"chr303_br01","seconds":0.666667,"sample_phases":[0,0.125,0.25,0.375,0.5,0.625,0.75,0.875],"durations":[8,8,8,8,8,8,8,8],"ground_policy":"per-frame","pose_evidence":"Own native travel cycle while airborne; no invented motion."},
+    {"name":"Attack","clip":"chr303_ba01","seconds":1.5,"sample_phases":[0,0.08,0.18,0.32,0.5,0.65,0.78,0.9,0.98],"durations":[3,3,4,5,5,4,4,4,5],"ground_policy":"fixed","events":{"RushFrame":1,"HitFrame":4,"ReturnFrame":7},"pose_evidence":"Own native primary strike."},
+    {"name":"Shoot","clip":"chr303_fe04","seconds":1.866667,"sample_phases":[0,0.1,0.24,0.42,0.58,0.72,0.86,0.97],"durations":[4,4,5,5,6,5,4,6],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":6},"pose_evidence":"Own native special-release gesture; no projectile is invented."},
+    {"name":"Sleep","clip":"chr303_bn02","seconds":3.0,"sample_phases":[0,0.166667,0.333333,0.5,0.666667,0.833333],"durations":[33,33,33,33,33,33],"ground_policy":"fixed","pose_evidence":"Own native resting loop while retaining the reviewed flying-species placement policy."},
+    {"name":"Hurt","clip":"chr303_bd01","seconds":1.0,"sample_phases":[0,0.06,0.14,0.25,0.38,0.52,0.68,0.84,0.97],"durations":[3,4,4,4,5,4,4,4,5],"ground_policy":"fixed","events":{"HitFrame":4},"pose_evidence":"Own native recoil."},
+    {"name":"Swing","clip":"chr303_bs01","seconds":2.666667,"sample_phases":[0,0.08,0.2,0.34,0.5,0.66,0.82,0.97],"durations":[4,4,5,5,5,4,4,5],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":6},"pose_evidence":"Own native broad swing motion."},
+    {"name":"Double","clip":"chr303_ba01","seconds":1.5,"sample_phases":[0,0.18,0.5,0.78,0.97,0,0.18,0.5,0.78,0.97],"durations":[3,4,5,4,4,3,4,5,4,6],"ground_policy":"fixed","events":{"RushFrame":1,"HitFrame":2,"ReturnFrame":8},"pose_evidence":"Two cycles of Tentomon's own primary strike."},
+    {"name":"Hop","clip":"chr303_bf01","seconds":1.5,"sample_phases":[0,0.08,0.18,0.3,0.45,0.6,0.78,0.97],"durations":[4,5,5,8,8,5,4,6],"ground_policy":"fixed","events":{"HitFrame":5},"pose_evidence":"Own native lift motion above the fixed shadow."},
+    {"name":"Charge","clip":"chr303_bv01","seconds":2.0,"sample_phases":[0,0.08,0.18,0.3,0.43,0.57,0.7,0.82,0.92,0.98],"durations":[4,5,5,6,7,7,8,5,4,5],"ground_policy":"fixed","events":{"HitFrame":6,"ReturnFrame":8},"pose_evidence":"Own native preparation and recovery motion."},
+    {"name":"Rotate","clip":"chr303_fq01","seconds":1.333333,"sample_phases":[0,0.083333,0.166667,0.25,0.333333,0.416667,0.5,0.583333,0.666667,0.75,0.833333,0.916667],"durations":[4,4,4,4,4,4,4,4,4,4,4,4],"ground_policy":"fixed","turn_degrees":[0,30,60,90,120,150,180,210,240,270,300,330],"events":{"HitFrame":6},"pose_evidence":"Own native motion with whole-view yaw for PMDO Rotate."}
+  ]
+}

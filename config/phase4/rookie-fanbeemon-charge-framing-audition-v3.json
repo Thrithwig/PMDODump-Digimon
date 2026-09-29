@@ -1,0 +1,6 @@
+{"species":"fanbeemon","jobs":[
+  {"clip":"chr042_bv01","time":0.4333334,"azimuth":270,"note":"Right frame 1"},
+  {"clip":"chr042_bv01","time":2.166667,"azimuth":270,"note":"Right frame 5 boundary pose"},
+  {"clip":"chr042_bv01","time":0.4333334,"azimuth":90,"note":"Left frame 1"},
+  {"clip":"chr042_bv01","time":2.166667,"azimuth":90,"note":"Left frame 5 boundary pose"}
+]}

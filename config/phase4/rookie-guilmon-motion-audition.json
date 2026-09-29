@@ -1,0 +1,10 @@
+{"species":"guilmon","jobs":[
+  {"clip":"chr090_bf01","time":0.2,"azimuth":0,"note":"Hop early front"},
+  {"clip":"chr090_bf01","time":1.0,"azimuth":0,"note":"Hop late front"},
+  {"clip":"chr090_bf01","time":0.25,"azimuth":270,"note":"Hop early side"},
+  {"clip":"chr090_bf01","time":1.0,"azimuth":270,"note":"Hop late side"},
+  {"clip":"chr090_bs01","time":1.3,"azimuth":270,"note":"Swing side late"},
+  {"clip":"chr090_fe03","time":1.2,"azimuth":0,"note":"Special fe03"},
+  {"clip":"chr090_fe02","time":1.5,"azimuth":0,"note":"Special fe02 late"},
+  {"clip":"chr090_bv01","time":2.2,"azimuth":0,"note":"Charge late"}
+]}

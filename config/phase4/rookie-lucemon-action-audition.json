@@ -1,0 +1,20 @@
+{
+  "species":"lucemon",
+  "jobs":[
+    {"clip":"chr390_br01","time":0.2,"azimuth":0,"note":"Walk front hover travel"},
+    {"clip":"chr390_br01","time":0.45,"azimuth":270,"note":"Walk side hover travel"},
+    {"clip":"chr390_ba01","time":0.6,"azimuth":0,"note":"Attack ba01"},
+    {"clip":"chr390_ba02","time":0.9,"azimuth":0,"note":"Attack ba02"},
+    {"clip":"chr390_fe01","time":1.1,"azimuth":0,"note":"Shoot fe01"},
+    {"clip":"chr390_fe02","time":1.1,"azimuth":0,"note":"Shoot fe02"},
+    {"clip":"chr390_fe03","time":1.2,"azimuth":0,"note":"Shoot fe03"},
+    {"clip":"chr390_fe04","time":0.8,"azimuth":0,"note":"Shoot fe04"},
+    {"clip":"chr390_bn02","time":1.6,"azimuth":0,"note":"Sleep front"},
+    {"clip":"chr390_bn02","time":1.6,"azimuth":270,"note":"Sleep side"},
+    {"clip":"chr390_bd01","time":0.35,"azimuth":0,"note":"Hurt"},
+    {"clip":"chr390_bs01","time":1.5,"azimuth":0,"note":"Swing"},
+    {"clip":"chr390_bf01","time":0.7,"azimuth":0,"note":"Hop native"},
+    {"clip":"chr390_bv01","time":1.3,"azimuth":0,"note":"Charge native"},
+    {"clip":"chr390_fq01","time":1.0,"azimuth":0,"note":"Rotate native"}
+  ]
+}

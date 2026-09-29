@@ -1,0 +1,18 @@
+{
+  "species": "dorumon",
+  "jobs": [
+    {"clip":"chr112_br01","time":0.0,"azimuth":0,"note":"walk-start"},
+    {"clip":"chr112_br01","time":0.35,"azimuth":270,"note":"walk-side"},
+    {"clip":"chr112_ba01","time":0.55,"azimuth":0,"note":"attack-contact"},
+    {"clip":"chr112_ba02","time":0.6,"azimuth":270,"note":"alternate-attack"},
+    {"clip":"chr112_fe04","time":0.65,"azimuth":0,"note":"mouth-release"},
+    {"clip":"chr112_bn02","time":1.5,"azimuth":0,"note":"sleep-front"},
+    {"clip":"chr112_bn02","time":1.5,"azimuth":270,"note":"sleep-side"},
+    {"clip":"chr112_bd01","time":0.25,"azimuth":0,"note":"hurt"},
+    {"clip":"chr112_bs01","time":0.65,"azimuth":270,"note":"swing"},
+    {"clip":"chr112_bf01","time":0.6,"azimuth":0,"note":"hop-front"},
+    {"clip":"chr112_bf01","time":0.6,"azimuth":270,"note":"hop-side"},
+    {"clip":"chr112_bv01","time":1.1,"azimuth":0,"note":"charge"},
+    {"clip":"chr112_fq01","time":0.8,"azimuth":0,"note":"rotate-source"}
+  ]
+}

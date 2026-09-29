@@ -1,0 +1,19 @@
+{
+  "species":"lalamon",
+  "jobs":[
+    {"clip":"chr056_ba02","time":0.3,"azimuth":0,"note":"Attack ba02 early"},
+    {"clip":"chr056_ba02","time":0.8,"azimuth":0,"note":"Attack ba02 windup"},
+    {"clip":"chr056_ba02","time":1.6,"azimuth":0,"note":"Attack ba02 contact"},
+    {"clip":"chr056_ba02","time":2.3,"azimuth":0,"note":"Attack ba02 recover"},
+    {"clip":"chr056_fe02","time":0.4,"azimuth":0,"note":"Shoot fe02 early"},
+    {"clip":"chr056_fe02","time":0.8,"azimuth":0,"note":"Shoot fe02 windup"},
+    {"clip":"chr056_fe02","time":1.5,"azimuth":0,"note":"Shoot fe02 release"},
+    {"clip":"chr056_fe02","time":2.0,"azimuth":0,"note":"Shoot fe02 recover"},
+    {"clip":"chr056_fe04","time":0.4,"azimuth":0,"note":"Shoot fe04 early"},
+    {"clip":"chr056_fe04","time":1.1,"azimuth":0,"note":"Shoot fe04 later"},
+    {"clip":"chr056_bv01","time":0.4,"azimuth":0,"note":"Charge bv01 early"},
+    {"clip":"chr056_bv01","time":0.8,"azimuth":0,"note":"Charge bv01 windup"},
+    {"clip":"chr056_bv01","time":1.6,"azimuth":0,"note":"Charge bv01 contact"},
+    {"clip":"chr056_bv01","time":2.2,"azimuth":0,"note":"Charge bv01 recover"}
+  ]
+}

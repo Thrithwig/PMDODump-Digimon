@@ -1,0 +1,21 @@
+{
+  "species":"goblimon",
+  "jobs":[
+    {"clip":"chr111_br01","time":0.18,"azimuth":0,"note":"Walk front early club carry"},
+    {"clip":"chr111_br01","time":0.56,"azimuth":270,"note":"Walk side late club carry"},
+    {"clip":"chr111_ba01","time":0.32,"azimuth":0,"note":"Attack native windup"},
+    {"clip":"chr111_ba01","time":0.72,"azimuth":270,"note":"Attack native side contact"},
+    {"clip":"chr111_ba02","time":0.95,"azimuth":0,"note":"Alternate attack"},
+    {"clip":"chr111_fe04","time":0.75,"azimuth":0,"note":"Special release"},
+    {"clip":"chr111_fe01","time":0.9,"azimuth":270,"note":"Alternate special"},
+    {"clip":"chr111_bn02","time":1.0,"azimuth":0,"note":"Sleep front"},
+    {"clip":"chr111_bd01","time":0.3,"azimuth":0,"note":"Hurt front"},
+    {"clip":"chr111_bs01","time":0.95,"azimuth":270,"note":"Swing side club arc"},
+    {"clip":"chr111_bs02","time":1.3,"azimuth":0,"note":"Alternate swing club"},
+    {"clip":"chr111_bf01","time":0.62,"azimuth":0,"note":"Hop front"},
+    {"clip":"chr111_bv01","time":1.35,"azimuth":270,"note":"Charge side"},
+    {"clip":"chr111_bg01","time":0.35,"azimuth":0,"note":"Guard alternate"},
+    {"clip":"chr111_fq01","time":0.75,"azimuth":0,"note":"Rotate native motion"},
+    {"clip":"chr111_bs01","time":2.0,"azimuth":0,"note":"Swing late front"}
+  ]
+}

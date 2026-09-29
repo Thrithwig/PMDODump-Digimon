@@ -1,0 +1,104 @@
+{
+  "species": "piximon",
+  "display_name": "Piximon",
+  "source_chr_id": "chr410",
+  "model_path": "work/phase4/model-exports/piximon.glb",
+  "pmdo_index": 10188,
+  "idle_clip": "chr410_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0.0,
+    0.33333335452609725,
+    0.6666667090521945,
+    1.0000000635782917
+  ],
+  "idle_duration_ticks": 20,
+  "approved_neutral_height": 20,
+  "neutral_frame": 2,
+  "frame_size": 96,
+  "render_size": 768,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1
+  },
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "source_eye_masks": true,
+    "head_bones": [
+      "J_ago"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.08,
+    "fixed_framing": {
+      "center": [
+        0,
+        1.15,
+        0
+      ],
+      "extent": 1.6049550000000001
+    },
+    "offset_bones": {
+      "head": "J_ago",
+      "center": "J_center",
+      "left_hand": "J_te_L",
+      "right_hand": "J_te_R"
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.765625
+    ]
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ],
+  "anatomy_notes": {
+    "source": "Direct Time Stranger chr410; native chr410_bn01 loop sampled endpoint-exclusively.",
+    "face": "Preserve source eye meshes, texture anatomy, and material layers; no speculative repaint.",
+    "silhouette": "Preserve complete source anatomy and review the native-size contact sheet before approval.",
+    "ground": "Native neutral pose is airborne; retain a fixed four-pixel body-to-shadow gap and preserve source bobbing."
+  },
+  "placement": {
+    "mode": "airborne",
+    "shadow_row": 65,
+    "minimum_gap": 4
+  }
+}

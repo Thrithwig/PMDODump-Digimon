@@ -1,0 +1,6 @@
+{"species":"solarmon","jobs":[
+  {"clip":"chr009_ba01","time":0.05,"azimuth":0,"note":"ba01 start"},{"clip":"chr009_ba01","time":0.32,"azimuth":0,"note":"ba01 windup"},{"clip":"chr009_ba01","time":0.65,"azimuth":0,"note":"ba01 contact"},{"clip":"chr009_ba01","time":1.16,"azimuth":0,"note":"ba01 recovery"},
+  {"clip":"chr009_ba02","time":0.05,"azimuth":0,"note":"ba02 start"},{"clip":"chr009_ba02","time":0.45,"azimuth":0,"note":"ba02 windup"},{"clip":"chr009_ba02","time":0.9,"azimuth":0,"note":"ba02 contact"},{"clip":"chr009_ba02","time":1.58,"azimuth":0,"note":"ba02 recovery"},
+  {"clip":"chr009_bs01","time":0.05,"azimuth":0,"note":"Swing start"},{"clip":"chr009_bs01","time":0.5,"azimuth":0,"note":"Swing rise"},{"clip":"chr009_bs01","time":1.0,"azimuth":0,"note":"Swing contact"},{"clip":"chr009_bs01","time":1.9,"azimuth":0,"note":"Swing recovery"},
+  {"clip":"chr009_bv01","time":0.05,"azimuth":0,"note":"Charge start"},{"clip":"chr009_bv01","time":0.7,"azimuth":0,"note":"Charge gather"},{"clip":"chr009_bv01","time":1.4,"azimuth":0,"note":"Charge peak"},{"clip":"chr009_bv01","time":2.6,"azimuth":0,"note":"Charge recovery"}
+]}

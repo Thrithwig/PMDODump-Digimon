@@ -1,0 +1,20 @@
+{
+  "species":"lalamon",
+  "jobs":[
+    {"clip":"chr056_br01","time":0.2,"azimuth":0,"note":"Walk front"},
+    {"clip":"chr056_br01","time":0.4,"azimuth":270,"note":"Walk side"},
+    {"clip":"chr056_ba01","time":0.45,"azimuth":0,"note":"Attack ba01"},
+    {"clip":"chr056_ba02","time":1.2,"azimuth":0,"note":"Attack ba02"},
+    {"clip":"chr056_fe01","time":0.8,"azimuth":0,"note":"Shoot fe01"},
+    {"clip":"chr056_fe02","time":1.0,"azimuth":0,"note":"Shoot fe02"},
+    {"clip":"chr056_fe04","time":0.8,"azimuth":0,"note":"Shoot fe04"},
+    {"clip":"chr056_bn02","time":1.6,"azimuth":0,"note":"Sleep front"},
+    {"clip":"chr056_bn02","time":1.6,"azimuth":270,"note":"Sleep side"},
+    {"clip":"chr056_bd01","time":0.35,"azimuth":0,"note":"Hurt bd01"},
+    {"clip":"chr056_bs01","time":0.8,"azimuth":0,"note":"Swing bs01"},
+    {"clip":"chr056_bf01","time":0.55,"azimuth":0,"note":"Hop bf01"},
+    {"clip":"chr056_bv01","time":1.2,"azimuth":0,"note":"Charge bv01"},
+    {"clip":"chr056_fq01","time":0.8,"azimuth":0,"note":"Rotate fq01"},
+    {"clip":"chr056_bg01","time":0.35,"azimuth":0,"note":"Alternate bg01"}
+  ]
+}

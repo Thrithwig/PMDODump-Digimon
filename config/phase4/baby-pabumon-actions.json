@@ -1,0 +1,324 @@
+{
+  "species": "pabumon",
+  "model_path": "work/phase4/source/pabumon.glb",
+  "approved_idle": "work/phase4/baby-production/pabumon-idle-v1/package/10002",
+  "palette_policy": "approved-idle",
+  "mouth_palette": false,
+  "mouth_colors": [],
+  "open_mouth_actions": [],
+  "reference": "Pinned RawAsset Sprite/0316 Gulpin, grounded soft-body/mouth timing for Sleep, Shoot, Charge only; native Pabumon anatomy primary, no anatomy/projectile transfer.",
+  "reference_commit": "03c80dad937911572f8fb19903771a47956fc696",
+  "reference_animdata_sha256": "e19bcd945e26bb3c67aef6558a60d8b807fdff85d75a7b49c9313b61e0f61473",
+  "actions": [
+    {
+      "name": "Walk",
+      "clip": "chr387_br01",
+      "seconds": 1.666667,
+      "sample_phases": [
+        0.0,
+        0.124999775000045,
+        0.25000014999997,
+        0.374999925000015,
+        0.49999970000006,
+        0.625000074999985,
+        0.74999985000003,
+        0.8749996250000751
+      ],
+      "durations": [
+        12,
+        13,
+        12,
+        13,
+        12,
+        13,
+        12,
+        13
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Native short appendage/mound undulation with independently moving beads, verified side audition. Remove J_root XZ locomotion; full native loop without duplicate endpoint."
+    },
+    {
+      "name": "Attack",
+      "clip": "chr387_ba01",
+      "seconds": 1,
+      "sample_phases": [
+        0.0,
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.55,
+        0.7,
+        0.95
+      ],
+      "durations": [
+        4,
+        3,
+        3,
+        4,
+        5,
+        3,
+        3,
+        5
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Auditioned native hopping body strike: anticipation, upward/forward mound contact, native return. Brown mouth and beads deform with source. J_root held at recovered .95s anchor; body lunge retained.",
+      "events": {
+        "RushFrame": 2,
+        "HitFrame": 4,
+        "ReturnFrame": 6
+      }
+    },
+    {
+      "name": "Shoot",
+      "clip": "chr387_ba02",
+      "seconds": 2,
+      "sample_phases": [
+        0.0,
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.525,
+        0.7,
+        0.975
+      ],
+      "durations": [
+        4,
+        4,
+        5,
+        5,
+        3,
+        4,
+        4,
+        6
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Native grounded crouch/rise with explicit mouth-chain rotation/translation/scale and source brown mouth release. Retimed as special gesture, guided by pinned Gulpin mouth/body Shoot timing. No verified native projectile and none invented.",
+      "events": {
+        "RushFrame": 2,
+        "HitFrame": 5,
+        "ReturnFrame": 6
+      }
+    },
+    {
+      "name": "Sleep",
+      "clip": "chr387_bn02",
+      "seconds": 6,
+      "sample_phases": [
+        0.0,
+        0.25,
+        0.5,
+        0.75
+      ],
+      "durations": [
+        80,
+        100,
+        80,
+        100
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Native flattened resting mound; source float beads shrink/settle in this clip, not manually deleted. Native white eyes remain open so source-eye masks receive green fill and brown horizontal lids. Alternating hold convention from pinned Gulpin Sleep [30,35], expanded to native six-second loop.",
+      "closed_eyes": true
+    },
+    {
+      "name": "Hurt",
+      "clip": "chr387_bd01",
+      "seconds": 1.333333,
+      "sample_phases": [
+        0.0,
+        0.050000262500065625,
+        0.11250002812500702,
+        0.2625000656250164,
+        0.5250001312500328,
+        0.9750002437500609
+      ],
+      "durations": [
+        3,
+        7,
+        5,
+        4,
+        4,
+        6
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Native early body flop/impact, short recovery and return, selected from .067s visible recoil rather than blind uniform sampling. J_root XZ locked; source child recoil retained."
+    },
+    {
+      "name": "Swing",
+      "clip": "chr387_ba01",
+      "seconds": 1,
+      "sample_phases": [
+        0.0,
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.55,
+        0.7,
+        0.95
+      ],
+      "durations": [
+        4,
+        3,
+        3,
+        4,
+        5,
+        3,
+        4,
+        5
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Native mound strike plus restrained procedural whole-body yaw sweep [-30,+35] degrees. Lateral mound/short-appendage contact, no humanoid arms.",
+      "turn_degrees": [
+        0,
+        -15,
+        -30,
+        -15,
+        35,
+        25,
+        10,
+        0
+      ],
+      "events": {
+        "RushFrame": 2,
+        "HitFrame": 4,
+        "ReturnFrame": 6
+      }
+    },
+    {
+      "name": "Double",
+      "clip": "chr387_ba01",
+      "seconds": 1,
+      "sample_phases": [
+        0.0,
+        0.2,
+        0.35,
+        0.5,
+        0.75,
+        0.95,
+        0.0,
+        0.2,
+        0.35,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "durations": [
+        4,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        4,
+        6
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Two native mound-strike cycles with retimed contacts. Visual contacts2/8; engine HitFrame2 only, no extra gameplay damage invented.",
+      "events": {
+        "RushFrame": 1,
+        "HitFrame": 2,
+        "ReturnFrame": 10
+      },
+      "secondary_visual_contact_frame": 8
+    },
+    {
+      "name": "Hop",
+      "clip": "chr387_ba01",
+      "seconds": 1,
+      "sample_phases": [
+        0.0,
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        0.65,
+        0.8,
+        0.99
+      ],
+      "durations": [
+        4,
+        3,
+        4,
+        5,
+        6,
+        5,
+        4,
+        3,
+        5
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Native ba01 complete airborne body arc, retimed as hop rather than strike. Full source lift/return retained; .99s recovery returns to ground. Same physical mechanism as Attack, different sampling/timing and landing event.",
+      "events": {
+        "HitFrame": 8
+      }
+    },
+    {
+      "name": "Charge",
+      "clip": "chr387_fe03",
+      "seconds": 3,
+      "sample_phases": [
+        0.0,
+        0.16666666666666666,
+        0.3,
+        0.4666666666666666,
+        0.6666666666666666,
+        0.9833333333333334
+      ],
+      "durations": [
+        6,
+        7,
+        9,
+        9,
+        7,
+        6
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Native raised-mouth/body gathering gesture from front/side audition and native mouth rotation tracks; subtle at19px, no synthetic energy. Pinned Gulpin Charge supports mouth/body buildup convention.",
+      "events": {
+        "HitFrame": 3,
+        "ReturnFrame": 5
+      }
+    },
+    {
+      "name": "Rotate",
+      "clip": "chr387_bv01",
+      "seconds": 2.833333,
+      "sample_phases": [
+        0.0,
+        0.10588236539792534,
+        0.21176473079585068,
+        0.2823529743944676,
+        0.42352946159170135,
+        0.5294118269896266,
+        0.6705883141868605,
+        0.7411765577854774,
+        0.8470589231834027,
+        0.9882354103806364
+      ],
+      "durations": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        6
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Native full hopping/twisting body turn; final quaternion equivalent to start. V2 samples .8s instead of .9s and 1.9s instead of 1.8s consistently across all eight directions, avoiding the source underside dip confirmed by skinned geometry and fixed-placement auditions. No Y correction, scale change, per-frame fit or changed durations. Intentional native lift and fixed shadow retained; parent reviews turn continuity.",
+      "events": {
+        "HitFrame": 9
+      }
+    }
+  ]
+}

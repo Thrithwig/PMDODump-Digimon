@@ -1,0 +1,6 @@
+{"species":"pabumon","jobs":[
+ {"clip":"chr387_bv01","time":0.8,"azimuth":225},{"clip":"chr387_bv01","time":0.85,"azimuth":225},
+ {"clip":"chr387_bv01","time":1.6,"azimuth":225},{"clip":"chr387_bv01","time":1.65,"azimuth":225},
+ {"clip":"chr387_bv01","time":1.6,"azimuth":180},{"clip":"chr387_bv01","time":1.65,"azimuth":180},
+ {"clip":"chr387_bv01","time":1.9,"azimuth":225},{"clip":"chr387_bv01","time":1.9,"azimuth":180}
+]}

@@ -1,0 +1,101 @@
+{
+  "species": "koromon",
+  "jobs": [
+    {
+      "clip": "chr322_fe01",
+      "time": 0.06,
+      "azimuth": 90,
+      "note": "Source-specific pose audition; rootXZ lock only; no semantic claim from suffix"
+    },
+    {
+      "clip": "chr322_fe01",
+      "time": 0.6,
+      "azimuth": 90,
+      "note": "Source-specific pose audition; rootXZ lock only; no semantic claim from suffix"
+    },
+    {
+      "clip": "chr322_fe01",
+      "time": 1.1,
+      "azimuth": 90,
+      "note": "Source-specific pose audition; rootXZ lock only; no semantic claim from suffix"
+    },
+    {
+      "clip": "chr322_fe01",
+      "time": 1.6,
+      "azimuth": 90,
+      "note": "Source-specific pose audition; rootXZ lock only; no semantic claim from suffix"
+    },
+    {
+      "clip": "chr322_fe03",
+      "time": 0.09,
+      "azimuth": 90,
+      "note": "Source-specific pose audition; rootXZ lock only; no semantic claim from suffix"
+    },
+    {
+      "clip": "chr322_fe03",
+      "time": 0.9,
+      "azimuth": 90,
+      "note": "Source-specific pose audition; rootXZ lock only; no semantic claim from suffix"
+    },
+    {
+      "clip": "chr322_fe03",
+      "time": 1.65,
+      "azimuth": 90,
+      "note": "Source-specific pose audition; rootXZ lock only; no semantic claim from suffix"
+    },
+    {
+      "clip": "chr322_fe03",
+      "time": 2.4,
+      "azimuth": 90,
+      "note": "Source-specific pose audition; rootXZ lock only; no semantic claim from suffix"
+    },
+    {
+      "clip": "chr322_fq01",
+      "time": 0.04,
+      "azimuth": 90,
+      "note": "Source-specific pose audition; rootXZ lock only; no semantic claim from suffix"
+    },
+    {
+      "clip": "chr322_fq01",
+      "time": 0.4,
+      "azimuth": 90,
+      "note": "Source-specific pose audition; rootXZ lock only; no semantic claim from suffix"
+    },
+    {
+      "clip": "chr322_fq01",
+      "time": 0.733333,
+      "azimuth": 90,
+      "note": "Source-specific pose audition; rootXZ lock only; no semantic claim from suffix"
+    },
+    {
+      "clip": "chr322_fq01",
+      "time": 1.066667,
+      "azimuth": 90,
+      "note": "Source-specific pose audition; rootXZ lock only; no semantic claim from suffix"
+    },
+    {
+      "clip": "chr322_fq02",
+      "time": 0.04,
+      "azimuth": 90,
+      "note": "Source-specific pose audition; rootXZ lock only; no semantic claim from suffix"
+    },
+    {
+      "clip": "chr322_fq02",
+      "time": 0.4,
+      "azimuth": 90,
+      "note": "Source-specific pose audition; rootXZ lock only; no semantic claim from suffix"
+    },
+    {
+      "clip": "chr322_fq02",
+      "time": 0.733333,
+      "azimuth": 90,
+      "note": "Source-specific pose audition; rootXZ lock only; no semantic claim from suffix"
+    },
+    {
+      "clip": "chr322_fq02",
+      "time": 1.066667,
+      "azimuth": 90,
+      "note": "Source-specific pose audition; rootXZ lock only; no semantic claim from suffix"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "species":"lopmon",
+  "jobs":[
+    {"clip":"chr701_bv02","time":0.3,"azimuth":0,"note":"Charge bv02 early"},
+    {"clip":"chr701_bv02","time":0.9,"azimuth":0,"note":"Charge bv02 windup"},
+    {"clip":"chr701_bv02","time":1.5,"azimuth":0,"note":"Charge bv02 contact"},
+    {"clip":"chr701_bv02","time":2.1,"azimuth":0,"note":"Charge bv02 later"},
+    {"clip":"chr701_bv03","time":0.3,"azimuth":0,"note":"Charge bv03 early"},
+    {"clip":"chr701_bv03","time":0.9,"azimuth":0,"note":"Charge bv03 windup"},
+    {"clip":"chr701_bv03","time":1.5,"azimuth":0,"note":"Charge bv03 contact"},
+    {"clip":"chr701_bv03","time":2.1,"azimuth":0,"note":"Charge bv03 later"}
+  ]
+}

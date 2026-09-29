@@ -1,0 +1,123 @@
+{
+  "species": "ginryumon",
+  "display_name": "Ginryumon",
+  "source_chr_id": "chr191",
+  "model_path": "work/phase4/champion-production/ginryumon-idle-candidate/ginryumon.glb",
+  "pmdo_index": 10329,
+  "idle_clip": "chr191_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0,
+    0.5,
+    1.0,
+    1.5
+  ],
+  "idle_duration_ticks": 30,
+  "approved_neutral_height": 35,
+  "neutral_frame": 0,
+  "frame_size": 192,
+  "render_size": 1536,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1
+  },
+  "idle_ground_policy": "per-frame",
+  "ground_contact_row": 137,
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "source_eye_masks": true,
+    "head_bones": [
+      "J_head"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.06,
+    "fixed_framing": {
+      "center": [
+        0,
+        1.25,
+        0
+      ],
+      "extent": 7.875
+    },
+    "offset_bones": {
+      "head": "J_head",
+      "center": "J_center",
+      "left_hand": "J_hand_l",
+      "right_hand": "J_hand_r"
+    },
+    "horizontal_root_lock": {
+      "chr191_bs01": {
+        "bone": "J_center",
+        "reference_time": 0.0,
+        "axes": [
+          "x",
+          "y",
+          "z"
+        ],
+        "reference_clip": "chr191_bn01"
+      },
+      "chr191_bv01": {
+        "bone": "J_center",
+        "reference_time": 0.0,
+        "axes": [
+          "x",
+          "y",
+          "z"
+        ],
+        "reference_clip": "chr191_bn01"
+      }
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.8203125
+    ]
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ],
+  "anatomy_notes": {
+    "source": "Direct chr191 model and native two-second chr191_bn01 Idle loop.",
+    "silhouette": "Preserve armor, horned head, paired limbs, lance and articulated tail.",
+    "eyes": "Use source eye_L and eye_R meshes without repaint.",
+    "ground": "Grounded feet meet one fixed shadow; per-frame placement uses visible foot/contact bounds, which require native-size visual review."
+  }
+}

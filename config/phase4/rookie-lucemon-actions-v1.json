@@ -1,0 +1,21 @@
+{
+  "species":"lucemon",
+  "model_path":"work/phase4/rookie-production/lucemon-preflight/lucemon.glb",
+  "approved_idle":"work/phase4/rookie-production/lucemon-idle-trial-v4/package/10060",
+  "palette_policy":"approved-idle","mouth_palette":false,"mouth_colors":[],"open_mouth_actions":[],
+  "palette_rationale":"Preserve reviewed pale feather/robe whites, yellow hair, skin/eye source accents and exact-black silhouette within the 63-color Idle palette.",
+  "reference":"Own DSTS chr390 base-model clips; PMDO registry supplies action names and event fields.",
+  "ground_policy_note":"Airborne row-53 shadow with at least five transparent pixels under every pose; do not foot-ground a flying angel.",
+  "actions":[
+    {"name":"Walk","clip":"chr390_br01","seconds":0.933333,"sample_phases":[0,0.125,0.25,0.375,0.5,0.625,0.75,0.875],"durations":[8,8,8,8,8,8,8,8],"ground_policy":"fixed","pose_evidence":"Own traveling wingbeat in air; loop endpoint excluded."},
+    {"name":"Attack","clip":"chr390_ba01","seconds":1.433333,"sample_phases":[0,0.08,0.16,0.25,0.4,0.52,0.65,0.8,0.96],"durations":[3,3,4,5,5,4,4,4,5],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":7},"pose_evidence":"Own forward arm/fist strike with source wing spread; never trim Physical Attack."},
+    {"name":"Shoot","clip":"chr390_fe03","seconds":3.0,"sample_phases":[0,0.1,0.22,0.35,0.48,0.62,0.78,0.96],"durations":[4,4,5,5,6,5,4,6],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":6},"pose_evidence":"Own open-arm casting gesture and wing flare; no projectile or glow invented."},
+    {"name":"Sleep","clip":"chr390_bn02","seconds":3.333333,"sample_phases":[0,0.166667,0.333333,0.5,0.666667,0.833333],"durations":[33,33,33,33,33,33],"ground_policy":"fixed","pose_evidence":"Native drooping rest while hovering; no painted eyelids."},
+    {"name":"Hurt","clip":"chr390_bd01","seconds":1.066667,"sample_phases":[0,0.13,0.22,0.35,0.48,0.62,0.72,0.8,0.97],"durations":[3,4,4,4,5,4,4,4,5],"ground_policy":"fixed","events":{"HitFrame":4},"pose_evidence":"Own wing-folding recoil; the 0.06 source phase is excluded because its upper wing clips fixed airborne framing."},
+    {"name":"Swing","clip":"chr390_bs01","seconds":4.333333,"sample_phases":[0,0.1,0.22,0.35,0.48,0.62,0.78,0.96],"durations":[4,4,5,5,5,4,4,5],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":6},"pose_evidence":"Own arm/wing sweep, not a synthetic weapon."},
+    {"name":"Double","clip":"chr390_ba01","seconds":1.433333,"sample_phases":[0,0.16,0.4,0.65,0.9,0,0.16,0.4,0.65,0.9],"durations":[3,4,5,4,4,3,4,5,4,6],"ground_policy":"fixed","events":{"RushFrame":1,"HitFrame":2,"ReturnFrame":8},"pose_evidence":"Two visual cycles of own arm strike, one PMDO HitFrame."},
+    {"name":"Hop","clip":"chr390_bf01","seconds":1.433333,"sample_phases":[0,0.07,0.16,0.27,0.4,0.55,0.72,0.95],"durations":[4,5,5,8,8,5,4,6],"ground_policy":"fixed","events":{"HitFrame":4},"pose_evidence":"Native buoyant wing/leg lift relative to hovering baseline, no ground contact."},
+    {"name":"Charge","clip":"chr390_bv01","seconds":2.666667,"sample_phases":[0,0.1,0.2,0.3,0.4,0.5,0.6,0.5,0.3,0],"durations":[4,5,5,6,7,7,8,5,4,5],"ground_policy":"fixed","events":{"HitFrame":6,"ReturnFrame":8},"pose_evidence":"Own braced wing/arm charge and reverse-sampled recovery, no aura."},
+    {"name":"Rotate","clip":"chr390_fq01","seconds":2.0,"sample_phases":[0,0.083333,0.166667,0.25,0.333333,0.416667,0.5,0.583333,0.666667,0.75,0.833333,0.916667],"durations":[4,4,4,4,4,4,4,4,4,4,4,4],"ground_policy":"fixed","turn_degrees":[0,30,60,90,120,150,180,210,240,270,300,330],"events":{"HitFrame":6},"pose_evidence":"Own wing/body motion with whole-view yaw, loop endpoint excluded."}
+  ]
+}

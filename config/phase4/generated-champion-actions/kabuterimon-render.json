@@ -1,0 +1,105 @@
+{
+  "species": "kabuterimon",
+  "display_name": "Kabuterimon",
+  "source_chr_id": "chr304",
+  "model_path": "work/phase4/champion-production/kabuterimon-idle-candidate/kabuterimon.glb",
+  "pmdo_index": 10082,
+  "idle_clip": "chr304_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0,
+    0.533333,
+    1.066667,
+    1.6
+  ],
+  "idle_duration_ticks": 32,
+  "approved_neutral_height": 31,
+  "neutral_frame": 0,
+  "frame_size": 96,
+  "render_size": 768,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1
+  },
+  "idle_ground_policy": "fixed",
+  "placement": {
+    "mode": "airborne",
+    "shadow_row": 82,
+    "minimum_gap": 4
+  },
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "source_eye_masks": true,
+    "head_bones": [
+      "J_atama"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.06,
+    "fixed_framing": {
+      "center": [
+        0,
+        2.65,
+        -0.44
+      ],
+      "extent": 3.65
+    },
+    "offset_bones": {
+      "head": "J_atama",
+      "center": "J_center",
+      "left_hand": "J_te_L",
+      "right_hand": "J_te_R"
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.8541666667
+    ]
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ],
+  "anatomy_notes": {
+    "source": "Direct chr304 Time Stranger model and native chr304_bn01 Idle loop.",
+    "silhouette": "Preserve horned beetle head, upper and lower wing pairs, four arms, segmented torso, paired legs and feet.",
+    "eyes": "Dark face with source red compound eyes; no eye contour or pupil repaint.",
+    "ground": "Native wing-spread Idle reads as hovering; preserve all-direction bob above one fixed PMDO shadow."
+  }
+}

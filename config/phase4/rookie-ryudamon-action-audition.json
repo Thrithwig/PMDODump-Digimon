@@ -1,0 +1,7 @@
+{"species":"ryudamon","jobs":[
+  {"clip":"chr190_br01","time":0.35,"azimuth":0,"note":"Walk"},{"clip":"chr190_ba01","time":0.72,"azimuth":0,"note":"Attack ba01"},{"clip":"chr190_ba02","time":1.0,"azimuth":0,"note":"Attack ba02"},
+  {"clip":"chr190_fe01","time":1.5,"azimuth":0,"note":"Shoot fe01"},{"clip":"chr190_fe02","time":0.85,"azimuth":0,"note":"Shoot fe02"},{"clip":"chr190_fe04","time":1.0,"azimuth":0,"note":"Shoot fe04"},
+  {"clip":"chr190_bn02","time":1.0,"azimuth":0,"note":"Sleep"},{"clip":"chr190_bd01","time":0.32,"azimuth":0,"note":"Hurt bd01"},{"clip":"chr190_bd02","time":0.52,"azimuth":0,"note":"Hurt bd02"},{"clip":"chr190_bd03","time":0.4,"azimuth":0,"note":"Hurt bd03"},
+  {"clip":"chr190_bs01","time":1.0,"azimuth":0,"note":"Swing"},{"clip":"chr190_bf01","time":0.72,"azimuth":0,"note":"Hop"},{"clip":"chr190_bv01","time":1.0,"azimuth":0,"note":"Charge"},
+  {"clip":"chr190_fn02_01","time":1.0,"azimuth":0,"note":"Alternate"},{"clip":"chr190_fq01","time":0.83,"azimuth":0,"note":"Rotate fq01"},{"clip":"chr190_fq02","time":0.83,"azimuth":0,"note":"Rotate fq02"}
+]}

@@ -1,0 +1,102 @@
+{
+  "species": "peckmon",
+  "display_name": "Peckmon",
+  "source_chr_id": "chr702",
+  "model_path": "work/phase4/champion-production/peckmon-idle-candidate/peckmon.glb",
+  "pmdo_index": 10130,
+  "idle_clip": "chr702_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0,
+    0.4,
+    0.8,
+    1.2
+  ],
+  "idle_duration_ticks": 24,
+  "approved_neutral_height": 35,
+  "neutral_frame": 0,
+  "frame_size": 128,
+  "render_size": 1024,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1
+  },
+  "idle_ground_policy": "fixed",
+  "ground_contact_row": 110,
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "source_eye_masks": true,
+    "head_bones": [
+      "J_head"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.06,
+    "fixed_framing": {
+      "center": [
+        0,
+        1.25,
+        0
+      ],
+      "extent": 4.64
+    },
+    "offset_bones": {
+      "head": "J_head",
+      "center": "J_center",
+      "left_hand": "J_hane09_l",
+      "right_hand": "J_hane09_r"
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.859375
+    ]
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ],
+  "anatomy_notes": {
+    "source": "Direct chr702 Time Stranger model; native 1.6-second chr702_bn01 Idle loop with 81 channels.",
+    "silhouette": "Preserve source beak, feather chains, cloth, tail, legs, feet, and kunai attachments.",
+    "markers": "The paired wing feather tip bones are anatomical proxies for PMDO hand markers; Peckmon has no hands.",
+    "eyes": "Use native eye meshes and eye-layer compositing; inspect native-size contrast before any source-bounded edge edit.",
+    "ground": "Grounded bird: inspect both feet against one fixed shadow, independently of feather and kunai tips."
+  }
+}

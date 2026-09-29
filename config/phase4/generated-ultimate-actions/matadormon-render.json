@@ -1,0 +1,102 @@
+{
+  "species": "matadormon",
+  "display_name": "Matadormon",
+  "source_chr_id": "chr031",
+  "model_path": "work/phase4/ultimate-production/matadormon-idle-candidate/matadormon.glb",
+  "pmdo_index": 10197,
+  "idle_clip": "chr031_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0,
+    0.5000000317891459,
+    1.0000000635782917,
+    1.5000000953674375
+  ],
+  "idle_duration_ticks": 30,
+  "approved_neutral_height": 30,
+  "neutral_frame": 0,
+  "frame_size": 96,
+  "render_size": 768,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1
+  },
+  "idle_ground_policy": "per-frame",
+  "ground_contact_row": 78,
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "source_eye_masks": true,
+    "head_bones": [
+      "J_head"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.08,
+    "fixed_framing": {
+      "center": [
+        0,
+        1.1,
+        0
+      ],
+      "extent": 3.7
+    },
+    "offset_bones": {
+      "head": "J_head",
+      "center": "J_center",
+      "left_hand": "J_hand_l",
+      "right_hand": "J_hand_r"
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.8125
+    ]
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ],
+  "anatomy_notes": {
+    "source": "Direct Time Stranger chr031 model and native two-second chr031_bn01 Idle; four endpoint-exclusive samples.",
+    "face": "The source export has no separate eye meshes and the face is mask-and-hair obscured; no speculative repaint.",
+    "silhouette": "Preserve mask and hair, tall collar, broad sleeves and cuffs, wing-like cape structures, long legs, and pointed boots.",
+    "bind_axis": "Azimuth 0 shows the green front panel and patterned trousers; azimuth 180 shows the plain rear.",
+    "ground": "Native Idle is grounded; snap the lowest boot pixels per frame to row 78. Never crop Idle."
+  }
+}

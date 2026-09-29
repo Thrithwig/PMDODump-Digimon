@@ -1,0 +1,21 @@
+{
+  "species":"hagurumon",
+  "model_path":"work/phase4/rookie-production/hagurumon-preflight/hagurumon.glb",
+  "approved_idle":"work/phase4/rookie-production/hagurumon-idle-trial-v1/package/10045",
+  "palette_policy":"approved-idle","mouth_palette":false,"mouth_colors":[],"open_mouth_actions":[],
+  "palette_rationale":"Preserve approved gold body gear, charcoal face, white side gears, and source eye colors in one Idle-anchored palette.",
+  "reference":"Own DSTS chr009 model and native clips; PMDO registry provides action names, indices, and event fields.",
+  "ground_policy_note":"Intentionally hovering, fixed shadow row 50 and source-consistent +2 px body shift; no artificial ground snap.",
+  "actions":[
+    {"name":"Walk","clip":"chr009_br01","seconds":0.800001,"sample_phases":[0,0.125,0.25,0.375,0.5,0.625,0.75,0.875],"durations":[8,8,8,8,8,8,8,8],"ground_policy":"fixed","pose_evidence":"Native hovering gear travel/bob; no feet or walking cycle invented."},
+    {"name":"Attack","clip":"chr009_ba01","seconds":1.233334,"sample_phases":[0,0.06,0.15,0.27,0.38,0.52,0.67,0.82,0.97],"durations":[3,3,4,5,5,4,4,4,5],"ground_policy":"fixed","events":{"RushFrame":1,"HitFrame":4,"ReturnFrame":7},"pose_evidence":"Native side-gear strike and body turn, with source recovery."},
+    {"name":"Shoot","clip":"chr009_fe03","seconds":3.000001,"sample_phases":[0,0.1,0.22,0.35,0.48,0.62,0.78,0.96],"durations":[4,4,5,5,6,5,4,6],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":6},"pose_evidence":"Native side-gear lift/release gesture; no separate projectile or effect asset."},
+    {"name":"Sleep","clip":"chr009_bn02","seconds":5.333334,"sample_phases":[0,0.166667,0.333333,0.5,0.666667,0.833333],"durations":[33,33,33,33,33,33],"ground_policy":"fixed","pose_evidence":"Source resting/tilted gear pose; preserve source eyes and hover gap, no invented eyelids."},
+    {"name":"Hurt","clip":"chr009_bd01","seconds":0.800001,"sample_phases":[0,0.06,0.13,0.22,0.32,0.45,0.62,0.8,0.97],"durations":[3,4,4,4,5,4,4,4,5],"ground_policy":"fixed","events":{"HitFrame":2},"pose_evidence":"Native face/body recoil with side-gear response."},
+    {"name":"Swing","clip":"chr009_bs01","seconds":2.000001,"sample_phases":[0,0.1,0.22,0.35,0.48,0.62,0.78,0.96],"durations":[4,4,5,5,5,4,4,5],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":6},"pose_evidence":"Native side-gear and source face-split sweep, not a painted weapon."},
+    {"name":"Double","clip":"chr009_ba01","seconds":1.233334,"sample_phases":[0,0.17,0.4,0.7,0.98,0,0.17,0.4,0.7,0.98],"durations":[3,4,5,4,4,3,4,5,4,6],"ground_policy":"fixed","events":{"RushFrame":1,"HitFrame":2,"ReturnFrame":8},"pose_evidence":"Two cycles of source side-gear contact; PMDO XML has one HitFrame."},
+    {"name":"Hop","clip":"chr009_bf01","seconds":1.233334,"sample_phases":[0,0.06,0.14,0.25,0.4,0.55,0.72,0.97],"durations":[4,5,5,8,8,5,4,6],"ground_policy":"fixed","events":{"HitFrame":5},"pose_evidence":"Native gear-body lift relative to fixed shadow, without a ground takeoff pose."},
+    {"name":"Charge","clip":"chr009_bv01","seconds":2.733334,"sample_phases":[0,0.1,0.2,0.3,0.4,0.5,0.6,0.5,0.3,0],"durations":[4,5,5,6,7,7,8,5,4,5],"ground_policy":"fixed","events":{"HitFrame":6,"ReturnFrame":8},"pose_evidence":"Source gear-body brace/tilt, reverse-sampled recovery; no invented glow."},
+    {"name":"Rotate","clip":"chr009_fq01","seconds":2.666668,"sample_phases":[0,0.083333,0.166667,0.25,0.333333,0.416667,0.5,0.583333,0.666667,0.75,0.833333,0.916667],"durations":[4,4,4,4,4,4,4,4,4,4,4,4],"ground_policy":"fixed","turn_degrees":[0,30,60,90,120,150,180,210,240,270,300,330],"events":{"HitFrame":6},"pose_evidence":"Native gear motion with whole-view yaw and no duplicate endpoint."}
+  ]
+}

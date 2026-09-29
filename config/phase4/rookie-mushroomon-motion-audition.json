@@ -1,0 +1,21 @@
+{
+  "species":"mushroomon",
+  "jobs":[
+    {"clip":"chr607_ba01","time":0.1,"azimuth":0,"note":"ba01 start"},
+    {"clip":"chr607_ba01","time":0.45,"azimuth":0,"note":"ba01 windup"},
+    {"clip":"chr607_ba01","time":0.8,"azimuth":0,"note":"ba01 contact"},
+    {"clip":"chr607_ba01","time":1.35,"azimuth":0,"note":"ba01 recovery"},
+    {"clip":"chr607_ba02","time":0.1,"azimuth":0,"note":"ba02 start"},
+    {"clip":"chr607_ba02","time":0.55,"azimuth":0,"note":"ba02 windup"},
+    {"clip":"chr607_ba02","time":1.0,"azimuth":0,"note":"ba02 contact"},
+    {"clip":"chr607_ba02","time":1.7,"azimuth":0,"note":"ba02 recovery"},
+    {"clip":"chr607_fe04","time":0.1,"azimuth":0,"note":"fe04 start"},
+    {"clip":"chr607_fe04","time":0.55,"azimuth":0,"note":"fe04 gather"},
+    {"clip":"chr607_fe04","time":1.0,"azimuth":0,"note":"fe04 release"},
+    {"clip":"chr607_fe04","time":1.7,"azimuth":0,"note":"fe04 recovery"},
+    {"clip":"chr607_bs01","time":0.1,"azimuth":0,"note":"bs01 start"},
+    {"clip":"chr607_bs01","time":0.5,"azimuth":0,"note":"bs01 rise"},
+    {"clip":"chr607_bs01","time":0.9,"azimuth":0,"note":"bs01 apex"},
+    {"clip":"chr607_bs01","time":1.55,"azimuth":0,"note":"bs01 recovery"}
+  ]
+}

@@ -1,0 +1,12 @@
+{"species":"gaomon","jobs":[
+  {"clip":"chr055_fe01","time":0.6,"azimuth":0,"note":"fe01 early"},
+  {"clip":"chr055_fe01","time":1.4,"azimuth":0,"note":"fe01 late"},
+  {"clip":"chr055_fe02","time":0.6,"azimuth":0,"note":"fe02 early"},
+  {"clip":"chr055_fe02","time":1.8,"azimuth":0,"note":"fe02 late"},
+  {"clip":"chr055_fe03","time":0.9,"azimuth":0,"note":"fe03 middle"},
+  {"clip":"chr055_fe04","time":0.4,"azimuth":0,"note":"fe04 early"},
+  {"clip":"chr055_bs01","time":0.45,"azimuth":0,"note":"bs01 early"},
+  {"clip":"chr055_bs01","time":1.8,"azimuth":0,"note":"bs01 late"},
+  {"clip":"chr055_bv01","time":1.8,"azimuth":0,"note":"bv01 late"},
+  {"clip":"chr055_fe03","time":0.9,"azimuth":270,"note":"fe03 side"}
+]}

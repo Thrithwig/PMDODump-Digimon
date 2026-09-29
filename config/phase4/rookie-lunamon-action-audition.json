@@ -1,0 +1,20 @@
+{
+  "species":"lunamon",
+  "jobs":[
+    {"clip":"chr002_br01","time":0.15,"azimuth":0,"note":"Walk front"},
+    {"clip":"chr002_br01","time":0.3,"azimuth":270,"note":"Walk side"},
+    {"clip":"chr002_ba01","time":0.7,"azimuth":0,"note":"Attack ba01 front"},
+    {"clip":"chr002_ba01","time":0.7,"azimuth":270,"note":"Attack ba01 side"},
+    {"clip":"chr002_ba02","time":1.3,"azimuth":0,"note":"Attack ba02"},
+    {"clip":"chr002_fe01","time":0.8,"azimuth":0,"note":"Shoot fe01"},
+    {"clip":"chr002_fe02","time":1.3,"azimuth":0,"note":"Shoot fe02"},
+    {"clip":"chr002_fe04","time":0.8,"azimuth":0,"note":"Shoot fe04"},
+    {"clip":"chr002_bn02","time":1.0,"azimuth":0,"note":"Sleep front"},
+    {"clip":"chr002_bd01","time":0.35,"azimuth":0,"note":"Hurt"},
+    {"clip":"chr002_bs01","time":1.6,"azimuth":0,"note":"Swing"},
+    {"clip":"chr002_bf01","time":0.8,"azimuth":0,"note":"Hop"},
+    {"clip":"chr002_bv01","time":1.2,"azimuth":0,"note":"Charge"},
+    {"clip":"chr002_fq01","time":0.8,"azimuth":0,"note":"Rotate"},
+    {"clip":"chr002_bg01","time":0.6,"azimuth":0,"note":"Alternate guard"}
+  ]
+}

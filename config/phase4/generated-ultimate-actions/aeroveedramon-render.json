@@ -1,0 +1,114 @@
+{
+  "species": "aeroveedramon",
+  "display_name": "AeroVeedramon",
+  "source_chr_id": "chr400",
+  "model_path": "work/phase4/ultimate-production/aeroveedramon-idle-candidate/aeroveedramon.glb",
+  "pmdo_index": 10150,
+  "idle_clip": "chr400_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0,
+    0.416667,
+    0.833333,
+    1.25
+  ],
+  "idle_duration_ticks": 25,
+  "approved_neutral_height": 28,
+  "neutral_frame": 0,
+  "frame_size": 288,
+  "render_size": 2304,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1
+  },
+  "idle_ground_policy": "fixed",
+  "ground_contact_row": 164,
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "source_eye_masks": true,
+    "head_bones": [
+      "J_head"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.08,
+    "fixed_framing": {
+      "center": [
+        0,
+        0.95,
+        0
+      ],
+      "extent": 11.28
+    },
+    "offset_bones": {
+      "head": "J_head",
+      "center": "J_center",
+      "left_hand": "J_handL1",
+      "right_hand": "J_handR1"
+    },
+    "horizontal_root_lock": {
+      "chr400_bs01": {
+        "bone": "J_center",
+        "reference_time": 0.0,
+        "axes": [
+          "x",
+          "y",
+          "z"
+        ],
+        "reference_clip": "chr400_bn01"
+      }
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.7083333333333334
+    ]
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ],
+  "anatomy_notes": {
+    "source": "Direct Time Stranger chr400 model and native chr400_bn01 Idle; no pose repaint.",
+    "face": "Native eye_L/eye_R and source texture layers only; no invented pupils or face repaint.",
+    "silhouette": "Preserve head horn, armor, wings, limbs and tail.",
+    "offsets": "Source J_handL1/R1 provide anatomical PMDO hand markers.",
+    "ground": "Assess feet against fixed row-68 shadow separately from wing and tail tips."
+  }
+}

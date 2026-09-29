@@ -1,0 +1,53 @@
+{
+  "species": "mushroomon",
+  "display_name": "Mushroomon",
+  "source_chr_id": "chr607",
+  "model_path": "work/phase4/rookie-production/mushroomon-preflight/mushroomon.glb",
+  "pmdo_index": 10057,
+  "idle_clip": "chr607_bn01",
+  "idle_frames": 4,
+  "frame_times": [0, 0.333333, 0.666667, 1.0],
+  "idle_duration_ticks": 20,
+  "approved_neutral_height": 20,
+  "neutral_frame": 0,
+  "frame_size": 64,
+  "render_size": 512,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {"enabled": true, "depth_threshold": 1, "normal_dot_threshold": -1},
+  "idle_ground_policy": "fixed",
+  "ground_contact_row": 47,
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "source_eye_masks": true,
+    "head_bones": ["J_atama"],
+    "emissive_intensity": 0.55,
+    "elevation": 0.08,
+    "fixed_framing": {"center": [0, 0.486, 0], "extent": 1.68},
+    "offset_bones": {
+      "head": "J_atama",
+      "center": "J_center",
+      "left_hand": "J_te_L",
+      "right_hand": "J_te_R"
+    }
+  },
+  "offsets": {"source": "projected-native-bones-v1", "shadow": [0.5, 0.8]},
+  "directions": [
+    {"name": "Down", "azimuth_degrees": 0},
+    {"name": "DownRight", "azimuth_degrees": 315},
+    {"name": "Right", "azimuth_degrees": 270},
+    {"name": "UpRight", "azimuth_degrees": 225},
+    {"name": "Up", "azimuth_degrees": 180},
+    {"name": "UpLeft", "azimuth_degrees": 135},
+    {"name": "Left", "azimuth_degrees": 90},
+    {"name": "DownLeft", "azimuth_degrees": 45}
+  ],
+  "anatomy_notes": {
+    "source": "Own DSTS chr607 model and chr607_bn01 Idle only.",
+    "face": "Inspect native eye_L/eye_R beneath the cap at 64 px.",
+    "silhouette": "Inspect mushroom cap/body separation and small arms/feet across all directions.",
+    "ground": "Keep source Idle motion with a fixed row-47 shadow and visible foot contact."
+  }
+}

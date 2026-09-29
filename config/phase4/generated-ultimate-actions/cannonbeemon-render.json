@@ -1,0 +1,105 @@
+{
+  "species": "cannonbeemon",
+  "display_name": "CannonBeemon",
+  "source_chr_id": "chr727",
+  "model_path": "work/phase4/ultimate-production/cannonbeemon-idle-candidate/cannonbeemon.glb",
+  "pmdo_index": 10158,
+  "idle_clip": "chr727_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "idle_duration_ticks": 60,
+  "approved_neutral_height": 37,
+  "neutral_frame": 0,
+  "frame_size": 192,
+  "render_size": 1536,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1
+  },
+  "idle_ground_policy": "fixed",
+  "placement": {
+    "mode": "airborne",
+    "shadow_row": 126,
+    "minimum_gap": 6
+  },
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "source_eye_masks": true,
+    "head_bones": [
+      "J_head"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.08,
+    "fixed_framing": {
+      "center": [
+        0,
+        0.2,
+        0
+      ],
+      "extent": 7.4
+    },
+    "offset_bones": {
+      "head": "J_head",
+      "center": "J_center",
+      "left_hand": "J_arm_f02_l",
+      "right_hand": "J_arm_f02_r"
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.8125
+    ]
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ],
+  "anatomy_notes": {
+    "source": "Direct chr727 Time Stranger model; four endpoint-exclusive samples from native chr727_bn01.",
+    "silhouette": "Preserve native cannon, paired wings, antennae, striped armor and multi-arm anatomy.",
+    "eyes": "Use source face layers; no generated pupil or speculative repaint.",
+    "ground": "One fixed airborne shift preserves native vertical bob above fixed ground-anchored shadow."
+  }
+}

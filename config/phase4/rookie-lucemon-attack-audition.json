@@ -1,0 +1,15 @@
+{
+  "species":"lucemon",
+  "jobs":[
+    {"clip":"chr390_ba02","time":0.2,"azimuth":0,"note":"ba02 front early"},
+    {"clip":"chr390_ba02","time":0.5,"azimuth":0,"note":"ba02 front windup"},
+    {"clip":"chr390_ba02","time":0.9,"azimuth":0,"note":"ba02 front contact"},
+    {"clip":"chr390_ba02","time":1.3,"azimuth":0,"note":"ba02 front recoil"},
+    {"clip":"chr390_ba02","time":1.7,"azimuth":0,"note":"ba02 front recovery"},
+    {"clip":"chr390_ba02","time":0.2,"azimuth":315,"note":"ba02 diagonal early"},
+    {"clip":"chr390_ba02","time":0.5,"azimuth":315,"note":"ba02 diagonal windup"},
+    {"clip":"chr390_ba02","time":0.9,"azimuth":315,"note":"ba02 diagonal contact"},
+    {"clip":"chr390_ba02","time":1.3,"azimuth":315,"note":"ba02 diagonal recoil"},
+    {"clip":"chr390_ba02","time":1.7,"azimuth":315,"note":"ba02 diagonal recovery"}
+  ]
+}

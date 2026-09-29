@@ -1,0 +1,7 @@
+{"species":"guilmon","jobs":[
+  {"clip":"chr090_ba01","time":0.47,"azimuth":270,"note":"Attack right contact root-locked"},
+  {"clip":"chr090_ba01","time":0.9,"azimuth":270,"note":"Attack right late root-locked"},
+  {"clip":"chr090_ba01","time":0.47,"azimuth":90,"note":"Attack left contact root-locked"},
+  {"clip":"chr090_bs01","time":1.6,"azimuth":270,"note":"Swing right final root-locked"},
+  {"clip":"chr090_bs01","time":1.6,"azimuth":90,"note":"Swing left final root-locked"}
+]}

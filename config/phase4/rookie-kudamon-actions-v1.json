@@ -1,0 +1,21 @@
+{
+  "species":"kudamon",
+  "model_path":"work/phase4/rookie-production/kudamon-preflight/kudamon.glb",
+  "approved_idle":"work/phase4/rookie-production/kudamon-idle-trial-v2/package/10030",
+  "palette_policy":"approved-idle","mouth_palette":false,"mouth_colors":[],"open_mouth_actions":[],
+  "palette_rationale":"Preserve reviewed white body/face, gold bands and tail ornament, source eye marks and earrings from the approved Idle palette.",
+  "reference":"Own DSTS chr053 model and clips; PMDO registry supplies engine action names, events and timing fields.",
+  "ground_policy_note":"Reviewed Idle and row-47 shadow. Fixed placement retains native body/tail lift; no tail-tip-based ground snapping.",
+  "actions":[
+    {"name":"Walk","clip":"chr053_br01","seconds":0.933334,"sample_phases":[0,0.125,0.25,0.375,0.5,0.625,0.75,0.875],"durations":[8,8,8,8,8,8,8,8],"ground_policy":"fixed","pose_evidence":"Own serpentine body/tail cycle; fixed root/shadow avoids snapping to swinging tail tip."},
+    {"name":"Attack","clip":"chr053_ba01","seconds":1.166668,"sample_phases":[0,0.1,0.2,0.3,0.4,0.5,0.65,0.8,0.95],"durations":[3,3,4,5,5,4,4,4,5],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":7},"pose_evidence":"Native coil-to-dive body strike around 0.35-0.45s; never ground-trim Physical Attack."},
+    {"name":"Shoot","clip":"chr053_fe01","seconds":3.200001,"sample_phases":[0,0.1,0.22,0.35,0.48,0.62,0.78,0.96],"durations":[4,4,5,5,6,5,4,6],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":6},"pose_evidence":"Own raised front/release gesture; no projectile or effect asset invented."},
+    {"name":"Sleep","clip":"chr053_bn02","seconds":2.000001,"sample_phases":[0,0.166667,0.333333,0.5,0.666667,0.833333],"durations":[33,33,33,33,33,33],"ground_policy":"fixed","pose_evidence":"Own low coiled rest; no painted eyelids."},
+    {"name":"Hurt","clip":"chr053_bd01","seconds":0.933334,"sample_phases":[0,0.06,0.13,0.22,0.32,0.45,0.62,0.8,0.97],"durations":[3,4,4,4,5,4,4,4,5],"ground_policy":"fixed","events":{"HitFrame":3},"pose_evidence":"Native body arch and recoiling head/tail."},
+    {"name":"Swing","clip":"chr053_bs01","seconds":2.666668,"sample_phases":[0,0.1,0.22,0.35,0.48,0.62,0.78,0.96],"durations":[4,4,5,5,5,4,4,5],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":6},"pose_evidence":"Own long-body/tail sweep, no synthetic weapon."},
+    {"name":"Double","clip":"chr053_ba01","seconds":1.166668,"sample_phases":[0,0.2,0.4,0.65,0.95,0,0.2,0.4,0.65,0.95],"durations":[3,4,5,4,4,3,4,5,4,6],"ground_policy":"fixed","events":{"RushFrame":1,"HitFrame":2,"ReturnFrame":8},"pose_evidence":"Two visual cycles of own body dive, one PMDO HitFrame."},
+    {"name":"Hop","clip":"chr053_bf01","seconds":1.166668,"sample_phases":[0,0.07,0.16,0.27,0.4,0.55,0.72,0.95],"durations":[4,5,5,8,8,5,4,6],"ground_policy":"fixed","events":{"HitFrame":4},"pose_evidence":"Native coil-to-rise arc; no artificial vertical offset."},
+    {"name":"Charge","clip":"chr053_bv01","seconds":2.333334,"sample_phases":[0,0.1,0.2,0.3,0.4,0.5,0.6,0.5,0.3,0],"durations":[4,5,5,6,7,7,8,5,4,5],"ground_policy":"fixed","events":{"HitFrame":6,"ReturnFrame":8},"pose_evidence":"Own low braced/forward preparation and reverse-sampled recovery; no glow."},
+    {"name":"Rotate","clip":"chr053_fq01","seconds":2.000001,"sample_phases":[0,0.083333,0.166667,0.25,0.333333,0.416667,0.5,0.583333,0.666667,0.75,0.833333,0.916667],"durations":[4,4,4,4,4,4,4,4,4,4,4,4],"ground_policy":"fixed","turn_degrees":[0,30,60,90,120,150,180,210,240,270,300,330],"events":{"HitFrame":6},"pose_evidence":"Own pose motion with whole-view yaw, no duplicated endpoint."}
+  ]
+}

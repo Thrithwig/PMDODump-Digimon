@@ -1,0 +1,13 @@
+{
+  "species":"yokomon",
+  "jobs":[
+    {"clip":"chr510_bf01","time":0.12,"azimuth":90},{"clip":"chr510_bf01","time":0.63,"azimuth":90},
+    {"clip":"chr510_bg02","time":0.13,"azimuth":90},{"clip":"chr510_bg02","time":0.73,"azimuth":90},
+    {"clip":"chr510_bv01","time":0.2,"azimuth":90},{"clip":"chr510_bv01","time":1.2,"azimuth":90},
+    {"clip":"chr510_fe02","time":0.2,"azimuth":90},{"clip":"chr510_fe02","time":1.2,"azimuth":90},
+    {"clip":"chr510_fe04","time":0.17,"azimuth":90},{"clip":"chr510_fe04","time":1.0,"azimuth":90},
+    {"clip":"chr510_bd02","time":0.14,"azimuth":90},{"clip":"chr510_bd02","time":0.84,"azimuth":90},
+    {"clip":"chr510_fq01","time":0.13,"azimuth":90},{"clip":"chr510_fq01","time":0.8,"azimuth":90},
+    {"clip":"chr510_fq02","time":0.2,"azimuth":90},{"clip":"chr510_fq02","time":1.2,"azimuth":90}
+  ]
+}

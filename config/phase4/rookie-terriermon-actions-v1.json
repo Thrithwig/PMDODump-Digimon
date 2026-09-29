@@ -1,0 +1,24 @@
+{
+  "species":"terriermon",
+  "model_path":"work/phase4/rookie-production/terriermon-idle-candidate/terriermon.glb",
+  "approved_idle":"work/phase4/rookie-production/terriermon-idle-candidate/trial-v2/package/10039",
+  "palette_policy":"approved-idle",
+  "mouth_palette":false,
+  "mouth_colors":[],
+  "open_mouth_actions":[],
+  "palette_rationale":"Retain the reviewed pale face and body, green ear marks and collar, dark source eyes, pink mouth and black outline from the approved Idle palette.",
+  "reference":"Own DSTS chr701 Terriermon mesh and native clips; PMDO registry supplies action names and event fields.",
+  "ground_policy_note":"Grounded 20px Idle with a fixed row-47 shadow. Walk follows feet; source-native lift and recoil are preserved. Never trim Idle or Physical Attack.",
+  "actions":[
+    {"name":"Walk","clip":"chr701_br01","seconds":0.666667,"sample_phases":[0,0.125,0.25,0.375,0.5,0.625,0.75,0.875],"durations":[8,8,8,8,8,8,8,8],"ground_policy":"per-frame","pose_evidence":"Own stepping and alternating long-ear flap; loop endpoint excluded."},
+    {"name":"Attack","clip":"chr701_ba01","seconds":1.7,"sample_phases":[0,0.08,0.16,0.25,0.38,0.5,0.64,0.78,0.95],"durations":[3,3,4,5,5,4,4,4,5],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":7},"pose_evidence":"Native forward leap and ear-led strike; Physical Attack is never trimmed."},
+    {"name":"Shoot","clip":"chr701_fe02","seconds":2.933333,"sample_phases":[0,0.1,0.22,0.35,0.48,0.62,0.78,0.96],"durations":[4,4,5,5,6,5,4,6],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":5,"ReturnFrame":6},"pose_evidence":"Native ear-lift and forward release; no projectile or glow."},
+    {"name":"Sleep","clip":"chr701_bn02","seconds":2.666667,"sample_phases":[0,0.166667,0.333333,0.5,0.666667,0.833333],"durations":[33,33,33,33,33,33],"ground_policy":"fixed","pose_evidence":"Source crouch/rest; source eyes retained without invented eyelids."},
+    {"name":"Hurt","clip":"chr701_bd01","seconds":1.0,"sample_phases":[0,0.06,0.13,0.22,0.35,0.48,0.62,0.8,0.97],"durations":[3,4,4,4,5,4,4,4,5],"ground_policy":"fixed","events":{"HitFrame":4},"pose_evidence":"Own backward recoil and asymmetric ear swing."},
+    {"name":"Swing","clip":"chr701_bs01","seconds":2.433333,"sample_phases":[0,0.08,0.18,0.33,0.48,0.62,0.8,0.96],"durations":[4,4,5,5,5,4,4,5],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":6},"pose_evidence":"Own ear-and-body sweep; bs02 was rejected because its source motion exits fixed framing."},
+    {"name":"Double","clip":"chr701_ba01","seconds":1.7,"sample_phases":[0,0.16,0.38,0.64,0.9,0,0.16,0.38,0.64,0.9],"durations":[3,4,5,4,4,3,4,5,4,6],"ground_policy":"fixed","events":{"RushFrame":1,"HitFrame":2,"ReturnFrame":8},"pose_evidence":"Two visual contacts of the native ear-led strike; one engine HitFrame."},
+    {"name":"Hop","clip":"chr701_bf01","seconds":1.7,"sample_phases":[0,0.07,0.16,0.27,0.4,0.55,0.72,0.95],"durations":[4,5,5,8,8,5,4,6],"ground_policy":"fixed","events":{"HitFrame":4},"pose_evidence":"Distinct source-native hop and ear lift; no artificial vertical offset."},
+    {"name":"Charge","clip":"chr701_bv02","seconds":1.0,"sample_phases":[0,0.1,0.2,0.3,0.5,0.7,0.9,0.6,0.3,0],"durations":[4,5,5,6,7,7,8,5,4,5],"ground_policy":"fixed","events":{"HitFrame":6,"ReturnFrame":8},"pose_evidence":"Bounded first second of the native ear-raise Charge with reverse-sampled recovery; later source somersault is excluded and no effect is added."},
+    {"name":"Rotate","clip":"chr701_fq01","seconds":2.933333,"sample_phases":[0,0.083333,0.166667,0.25,0.333333,0.416667,0.5,0.583333,0.666667,0.75,0.833333,0.916667],"durations":[4,4,4,4,4,4,4,4,4,4,4,4],"ground_policy":"fixed","turn_degrees":[0,30,60,90,120,150,180,210,240,270,300,330],"events":{"HitFrame":6},"pose_evidence":"Own turning clip with whole-view yaw; endpoint excluded."}
+  ]
+}

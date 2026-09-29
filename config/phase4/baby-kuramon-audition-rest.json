@@ -1,0 +1,101 @@
+{
+  "species": "kuramon",
+  "jobs": [
+    {
+      "clip": "chr629_bn02",
+      "time": 0.2,
+      "azimuth": 90,
+      "note": "bn02 phase0.05, native pose; root XZ stabilized where configured"
+    },
+    {
+      "clip": "chr629_bn02",
+      "time": 1.2,
+      "azimuth": 90,
+      "note": "bn02 phase0.3, native pose; root XZ stabilized where configured"
+    },
+    {
+      "clip": "chr629_bn02",
+      "time": 2.2,
+      "azimuth": 90,
+      "note": "bn02 phase0.55, native pose; root XZ stabilized where configured"
+    },
+    {
+      "clip": "chr629_bn02",
+      "time": 3.2,
+      "azimuth": 90,
+      "note": "bn02 phase0.8, native pose; root XZ stabilized where configured"
+    },
+    {
+      "clip": "chr629_fe01",
+      "time": 0.116665,
+      "azimuth": 90,
+      "note": "fe01 phase0.05, native pose; root XZ stabilized where configured"
+    },
+    {
+      "clip": "chr629_fe01",
+      "time": 0.69999,
+      "azimuth": 90,
+      "note": "fe01 phase0.3, native pose; root XZ stabilized where configured"
+    },
+    {
+      "clip": "chr629_fe01",
+      "time": 1.283315,
+      "azimuth": 90,
+      "note": "fe01 phase0.55, native pose; root XZ stabilized where configured"
+    },
+    {
+      "clip": "chr629_fe01",
+      "time": 1.86664,
+      "azimuth": 90,
+      "note": "fe01 phase0.8, native pose; root XZ stabilized where configured"
+    },
+    {
+      "clip": "chr629_fe03",
+      "time": 0.15,
+      "azimuth": 90,
+      "note": "fe03 phase0.05, native pose; root XZ stabilized where configured"
+    },
+    {
+      "clip": "chr629_fe03",
+      "time": 0.9,
+      "azimuth": 90,
+      "note": "fe03 phase0.3, native pose; root XZ stabilized where configured"
+    },
+    {
+      "clip": "chr629_fe03",
+      "time": 1.65,
+      "azimuth": 90,
+      "note": "fe03 phase0.55, native pose; root XZ stabilized where configured"
+    },
+    {
+      "clip": "chr629_fe03",
+      "time": 2.4,
+      "azimuth": 90,
+      "note": "fe03 phase0.8, native pose; root XZ stabilized where configured"
+    },
+    {
+      "clip": "chr629_fq01",
+      "time": 0.1,
+      "azimuth": 90,
+      "note": "fq01 phase0.05, native pose; root XZ stabilized where configured"
+    },
+    {
+      "clip": "chr629_fq01",
+      "time": 0.6,
+      "azimuth": 90,
+      "note": "fq01 phase0.3, native pose; root XZ stabilized where configured"
+    },
+    {
+      "clip": "chr629_fq01",
+      "time": 1.1,
+      "azimuth": 90,
+      "note": "fq01 phase0.55, native pose; root XZ stabilized where configured"
+    },
+    {
+      "clip": "chr629_fq01",
+      "time": 1.6,
+      "azimuth": 90,
+      "note": "fq01 phase0.8, native pose; root XZ stabilized where configured"
+    }
+  ]
+}

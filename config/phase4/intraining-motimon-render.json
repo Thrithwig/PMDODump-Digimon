@@ -1,0 +1,54 @@
+{
+  "species": "motimon",
+  "display_name": "Motimon",
+  "source_chr_id": "chr388",
+  "model_path": "work/phase4/source/motimon.glb",
+  "pmdo_index": 10016,
+  "idle_clip": "chr388_bn01",
+  "idle_frames": 4,
+  "frame_times": [0, 0.3333333432674408, 0.6666666865348816, 1.0000000298023224],
+  "idle_duration_ticks": 20,
+  "approved_neutral_height": 18,
+  "neutral_frame": 0,
+  "frame_size": 64,
+  "render_size": 512,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {"enabled": true, "depth_threshold": 1, "normal_dot_threshold": -1},
+  "idle_ground_policy": "fixed",
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "source_eye_masks": true,
+    "head_bones": ["J_mune", "J_kuchi"],
+    "emissive_intensity": 0.55,
+    "elevation": 0.08,
+    "fixed_framing": {"center": [0, 0.245, 0], "extent": 0.96},
+    "offset_bones": {
+      "head": {"bone": "J_mune", "local_point": [0, 0.15385548770427704, 0.12914899364113808]},
+      "center": "J_center",
+      "left_hand": "J_te_L",
+      "right_hand": "J_te_R"
+    },
+    "native_eye_expression_offsets": {"chr388_bn02": [0, 0.25]}
+  },
+  "offsets": {"source": "projected-native-bones-v1", "shadow": [0.5, 0.8]},
+  "directions": [
+    {"name": "Down", "azimuth_degrees": 0},
+    {"name": "DownRight", "azimuth_degrees": 315},
+    {"name": "Right", "azimuth_degrees": 270},
+    {"name": "UpRight", "azimuth_degrees": 225},
+    {"name": "Up", "azimuth_degrees": 180},
+    {"name": "UpLeft", "azimuth_degrees": 135},
+    {"name": "Left", "azimuth_degrees": 90},
+    {"name": "DownLeft", "azimuth_degrees": 45}
+  ],
+  "placement": {"mode": "airborne", "shadow_row": 43, "minimum_gap": -2, "fixed_vertical_shift": 2},
+  "anatomy_notes": {
+    "source": "chr388 own model; PMDO10016; fixed 18px neutral scale inherited from 40px Idle extent0.6 (64px action extent0.96).",
+    "eyes": "Source b01 openings and p01 iris with depth-visible coverage; approved action override only recolors source-dark visible iris pixels RGB96,28,40; no black ring. Native bn02 closed-eye UV row.",
+    "ground": "Grounded J_ashi underside, native root motion retained vertically; fixed shadow/registration, no per-frame fitting.",
+    "markers": "Native J_mune eye midpoint, J_center and real J_te_L/R short arms."
+  }
+}

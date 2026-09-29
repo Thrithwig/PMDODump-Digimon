@@ -1,0 +1,13 @@
+{
+ "species":"pabumon",
+ "jobs":[
+  {"clip":"chr387_bn01","time":0,"azimuth":0,"note":"neutral front; body ground and four beads"},
+  {"clip":"chr387_bn01","time":0.8333333333333334,"azimuth":0,"note":"quarter front"},
+  {"clip":"chr387_bn01","time":1.6666666666666667,"azimuth":0,"note":"half front"},
+  {"clip":"chr387_bn01","time":2.5,"azimuth":0,"note":"three quarters front"},
+  {"clip":"chr387_bn01","time":0,"azimuth":90,"note":"neutral native left"},
+  {"clip":"chr387_bn01","time":0.8333333333333334,"azimuth":90,"note":"quarter native left"},
+  {"clip":"chr387_bn01","time":1.6666666666666667,"azimuth":90,"note":"half native left"},
+  {"clip":"chr387_bn01","time":2.5,"azimuth":90,"note":"three quarters native left"}
+ ]
+}

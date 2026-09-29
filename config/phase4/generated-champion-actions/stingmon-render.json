@@ -1,0 +1,101 @@
+{
+  "species": "stingmon",
+  "display_name": "Stingmon",
+  "source_chr_id": "chr091",
+  "model_path": "work/phase4/champion-production/stingmon-idle-candidate/stingmon.glb",
+  "pmdo_index": 10108,
+  "idle_clip": "chr091_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0,
+    0.3333333545,
+    0.6666667091,
+    1.0000000636
+  ],
+  "idle_duration_ticks": 20,
+  "approved_neutral_height": 30,
+  "neutral_frame": 0,
+  "frame_size": 144,
+  "render_size": 1152,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1
+  },
+  "idle_ground_policy": "fixed",
+  "ground_contact_row": 104,
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "source_eye_masks": true,
+    "head_bones": [
+      "J_head"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.06,
+    "fixed_framing": {
+      "center": [
+        0,
+        2.01,
+        -0.42
+      ],
+      "extent": 7.5
+    },
+    "offset_bones": {
+      "head": "J_head",
+      "center": "J_center",
+      "left_hand": "J_handL1",
+      "right_hand": "J_handR1"
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.8333333333
+    ]
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ],
+  "anatomy_notes": {
+    "source": "Direct chr091 Time Stranger model and native chr091_bn01 Idle; no fallback.",
+    "silhouette": "Preserve insect head, paired antennae, compound eye meshes, green armor, translucent wings, paired arms and legs.",
+    "eyes": "Use source eye meshes and mapped compositor. Add only an anatomy-bounded edge if visible eyes on a light face require separation; no pupils or speculative repaint.",
+    "ground": "Grounded biped with fixed shadow. Toe bones J_toeL/R govern contact; wings and hanging hands do not. J_handL1/R1 provide the PMDO hand offsets."
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "species": "yokomon",
+  "jobs": [
+    {"clip": "chr510_bn02", "time": 2.98, "azimuth": 0, "note": "late Sleep front"},
+    {"clip": "chr510_bn02", "time": 3.25, "azimuth": 0, "note": "near-end Sleep front"},
+    {"clip": "chr510_bn02", "time": 3.25, "azimuth": 90, "note": "near-end Sleep side"}
+  ]
+}

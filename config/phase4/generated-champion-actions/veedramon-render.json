@@ -1,0 +1,101 @@
+{
+  "species": "veedramon",
+  "display_name": "Veedramon",
+  "source_chr_id": "chr397",
+  "model_path": "work/phase4/champion-production/veedramon-idle-candidate/veedramon.glb",
+  "pmdo_index": 10125,
+  "idle_clip": "chr397_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0,
+    0.33333335452609725,
+    0.6666667090521945,
+    1.0000000635782917
+  ],
+  "idle_duration_ticks": 20,
+  "approved_neutral_height": 28,
+  "neutral_frame": 0,
+  "frame_size": 128,
+  "render_size": 1024,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1
+  },
+  "idle_ground_policy": "fixed",
+  "ground_contact_row": 110,
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "source_eye_masks": true,
+    "head_bones": [
+      "J_head"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.06,
+    "fixed_framing": {
+      "center": [
+        0,
+        1.15,
+        0
+      ],
+      "extent": 4.7
+    },
+    "offset_bones": {
+      "head": "J_head",
+      "center": "J_center",
+      "left_hand": "J_wristL",
+      "right_hand": "J_wristR"
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.859375
+    ]
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ],
+  "anatomy_notes": {
+    "source": "Direct chr397 Time Stranger model and native chr397_bn01 Idle loop.",
+    "silhouette": "Preserve head horn, muzzle, cream torso, arms, claws, legs and long tail.",
+    "eyes": "Use source eye_L and eye_R meshes and native material layers. Inspect native-size contrast before any source-bounded edge decision.",
+    "ground": "Grounded. Inspect toe/foot contact against the fixed PMDO shadow row; tail is not evidence of foot contact."
+  }
+}

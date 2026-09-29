@@ -1,0 +1,83 @@
+{
+  "species": "monodramon",
+  "model_path": "work/phase4/rookie-production/monodramon-preflight/monodramon.glb",
+  "approved_idle": "work/phase4/rookie-production/monodramon-idle-trial-v1/package/10058",
+  "palette_policy": "approved-idle",
+  "mouth_palette": false,
+  "mouth_colors": [],
+  "open_mouth_actions": [],
+  "palette_rationale": "Preserve the reviewed dark violet body, gold horn and markings, red chest, pale claws, source eyes, and black outline from the approved Idle palette.",
+  "reference": "Own DSTS chr458 mesh and native clips; PMDO registry supplies action names and event fields.",
+  "ground_policy_note": "Grounded with fixed row-47 shadow. Preserve native lift and recoil; never trim Idle or Physical Attack.",
+  "actions": [
+    {
+      "name": "Walk", "clip": "chr458_br01", "seconds": 0.666667,
+      "sample_phases": [0, 0.125, 0.25, 0.375, 0.5, 0.625, 0.75, 0.875],
+      "durations": [8, 8, 8, 8, 8, 8, 8, 8], "ground_policy": "fixed",
+      "pose_evidence": "Own leg-and-tail step cycle; endpoint excluded."
+    },
+    {
+      "name": "Attack", "clip": "chr458_ba01", "seconds": 1.2,
+      "sample_phases": [0, 0.08, 0.17, 0.28, 0.4, 0.55, 0.7, 0.84, 0.98],
+      "durations": [3, 3, 4, 5, 5, 4, 4, 4, 5], "ground_policy": "fixed",
+      "events": {"RushFrame": 1, "HitFrame": 4, "ReturnFrame": 7},
+      "pose_evidence": "Own forward claw lunge; Physical Attack remains untrimmed."
+    },
+    {
+      "name": "Shoot", "clip": "chr458_fe04", "seconds": 1.333333,
+      "sample_phases": [0, 0.1, 0.22, 0.35, 0.48, 0.62, 0.78, 0.96],
+      "durations": [4, 4, 5, 5, 6, 5, 4, 6], "ground_policy": "fixed",
+      "events": {"RushFrame": 2, "HitFrame": 4, "ReturnFrame": 6},
+      "pose_evidence": "Own hand gather and release pose; no invented projectile or glow."
+    },
+    {
+      "name": "Sleep", "clip": "chr458_bn02", "seconds": 2.666667,
+      "sample_phases": [0, 0.166667, 0.333333, 0.5, 0.666667, 0.833333],
+      "durations": [33, 33, 33, 33, 33, 33], "ground_policy": "fixed",
+      "pose_evidence": "Own lowered resting loop; no painted eyelids."
+    },
+    {
+      "name": "Hurt", "clip": "chr458_bd01", "seconds": 1.333333,
+      "sample_phases": [0, 0.06, 0.13, 0.22, 0.32, 0.45, 0.62, 0.8, 0.97],
+      "durations": [3, 4, 4, 4, 5, 4, 4, 4, 5], "ground_policy": "fixed",
+      "events": {"HitFrame": 2},
+      "pose_evidence": "Own ordinary recoil; extreme knockdown clips remain unused."
+    },
+    {
+      "name": "Swing", "clip": "chr458_ba02", "seconds": 2.0,
+      "sample_phases": [0.05, 0.2, 0.35, 0.5, 0.65, 0.8, 0.9, 0.975],
+      "durations": [4, 4, 5, 5, 5, 4, 4, 5], "ground_policy": "fixed",
+      "events": {"RushFrame": 2, "HitFrame": 4, "ReturnFrame": 6},
+      "pose_evidence": "Own alternate arm-and-wing sweep, distinct from ba01 Attack. The native bs01 clip exits the stationary frame and is rejected; no synthetic weapon."
+    },
+    {
+      "name": "Double", "clip": "chr458_ba01", "seconds": 1.2,
+      "sample_phases": [0, 0.17, 0.4, 0.7, 0.98, 0, 0.17, 0.4, 0.7, 0.98],
+      "durations": [3, 4, 5, 4, 4, 3, 4, 5, 4, 6], "ground_policy": "fixed",
+      "events": {"RushFrame": 1, "HitFrame": 2, "ReturnFrame": 8},
+      "pose_evidence": "Two visual cycles of the own claw strike; one PMDO HitFrame."
+    },
+    {
+      "name": "Hop", "clip": "chr458_bf01", "seconds": 1.2,
+      "sample_phases": [0, 0.06, 0.14, 0.25, 0.4, 0.55, 0.72, 0.97],
+      "durations": [4, 5, 5, 8, 8, 5, 4, 6], "ground_policy": "fixed",
+      "events": {"HitFrame": 5},
+      "pose_evidence": "Own compact crouch-and-rise clip. Source lift is subtle; no artificial vertical offset."
+    },
+    {
+      "name": "Charge", "clip": "chr458_bv01", "seconds": 1.666667,
+      "sample_phases": [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.5, 0.3, 0],
+      "durations": [4, 5, 5, 6, 7, 7, 8, 5, 4, 5], "ground_policy": "fixed",
+      "events": {"HitFrame": 6, "ReturnFrame": 8},
+      "pose_evidence": "Own braced hand charge with reverse-sampled recovery; no aura."
+    },
+    {
+      "name": "Rotate", "clip": "chr458_fq01", "seconds": 2.0,
+      "sample_phases": [0, 0.083333, 0.166667, 0.25, 0.333333, 0.416667, 0.5, 0.583333, 0.666667, 0.75, 0.833333, 0.916667],
+      "durations": [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4], "ground_policy": "fixed",
+      "turn_degrees": [0, 30, 60, 90, 120, 150, 180, 210, 240, 270, 300, 330],
+      "events": {"HitFrame": 6},
+      "pose_evidence": "Own body-ready motion with whole-view yaw for engine Rotate; endpoint excluded."
+    }
+  ]
+}

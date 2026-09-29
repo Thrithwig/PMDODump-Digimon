@@ -1,0 +1,102 @@
+{
+  "species": "grademon",
+  "display_name": "Grademon",
+  "source_chr_id": "chr026",
+  "model_path": "work/phase4/ultimate-production/grademon-idle-candidate/grademon.glb",
+  "pmdo_index": 10161,
+  "idle_clip": "chr026_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0,
+    0.5000000317891459,
+    1.0000000635782917,
+    1.5000000953674377
+  ],
+  "idle_duration_ticks": 30,
+  "approved_neutral_height": 46,
+  "neutral_frame": 0,
+  "frame_size": 256,
+  "render_size": 2048,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1
+  },
+  "idle_ground_policy": "fixed",
+  "ground_contact_row": 158,
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "source_eye_masks": true,
+    "head_bones": [
+      "J_head"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.08,
+    "fixed_framing": {
+      "center": [
+        0,
+        1.6,
+        0
+      ],
+      "extent": 10.34
+    },
+    "offset_bones": {
+      "head": "J_head",
+      "center": "J_center",
+      "left_hand": "J_hand_l",
+      "right_hand": "J_hand_r"
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.734375
+    ]
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 45
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 0
+    }
+  ],
+  "anatomy_notes": {
+    "source": "Direct Time Stranger chr026 and four endpoint-exclusive samples of the native two-second chr026_bn01 loop; source front is camera azimuth 315 degrees.",
+    "face": "Separate source eye_L/eye_R meshes; inspect native-size contrast before any treatment.",
+    "silhouette": "Preserve source horns, cape, armor, paired swords, legs and feet.",
+    "offsets": "Native J_head, J_center and anatomical J_hand_l/r joints; swords remain held props.",
+    "ground": "Fixed shadow anchored to actual foot contact; Huge corridor gate pending."
+  }
+}

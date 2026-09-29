@@ -1,0 +1,22 @@
+{
+  "species": "motimon",
+  "model_path": "work/phase4/source/motimon.glb",
+  "approved_idle": "work/phase4/intraining-production/motimon-idle-red-v1/package/10016",
+  "palette_policy": "approved-idle",
+  "mouth_palette": false,
+  "mouth_colors": [],
+  "open_mouth_actions": [],
+  "reference": "Jigglypuff PMDO0039 round grounded body: timing and action semantics only; chr388 geometry and clips primary.",
+  "actions": [
+    {"name":"Walk","clip":"chr388_br01","seconds":0.6666667,"sample_phases":[0,0.125,0.25,0.375,0.5,0.625,0.75,0.875],"durations":[5,5,5,5,5,5,5,5],"ground_policy":"fixed"},
+    {"name":"Attack","clip":"chr388_ba01","seconds":1.4333334,"sample_phases":[0,0.08,0.18,0.3,0.42,0.55,0.7,0.84,0.98],"durations":[3,3,4,5,5,4,4,4,5],"ground_policy":"fixed","events":{"RushFrame":1,"HitFrame":4,"ReturnFrame":7}},
+    {"name":"Shoot","clip":"chr388_ba02","seconds":1.2,"sample_phases":[0,0.08,0.2,0.32,0.45,0.58,0.72,0.96],"durations":[4,4,5,5,6,5,4,5],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":6}},
+    {"name":"Sleep","clip":"chr388_bn02","seconds":2.9333334,"sample_phases":[0,0.1666667,0.3333333,0.5,0.6666667,0.8333333],"durations":[29,29,29,29,29,29],"ground_policy":"fixed","closed_eyes":true},
+    {"name":"Hurt","clip":"chr388_bd01","seconds":1.0,"sample_phases":[0,0.06,0.13,0.22,0.32,0.45,0.62,0.8,0.97],"durations":[3,4,4,4,5,4,4,4,5],"ground_policy":"fixed","events":{"HitFrame":2}},
+    {"name":"Swing","clip":"chr388_fe01","seconds":2.6666667,"sample_phases":[0,0.1,0.22,0.35,0.48,0.62,0.78,0.96],"durations":[4,4,5,5,5,4,4,5],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":6}},
+    {"name":"Double","clip":"chr388_ba01","seconds":1.4333334,"sample_phases":[0,0.18,0.42,0.7,0.98,0,0.18,0.42,0.7,0.98],"durations":[3,4,5,4,4,3,4,5,4,6],"ground_policy":"fixed","events":{"RushFrame":1,"HitFrame":2,"ReturnFrame":8}},
+    {"name":"Hop","clip":"chr388_br01","seconds":0.6666667,"sample_phases":[0,0.125,0.25,0.375,0.5,0.625,0.75,0.875],"durations":[4,4,5,6,9,6,4,5],"ground_policy":"fixed","events":{"HitFrame":5},"pose_evidence":"Source br01 walk includes a genuine center rise and airborne underside at midcycle; Hop holds that apex longer. This shares native locomotion poses with Walk, not Attack."},
+    {"name":"Charge","clip":"chr388_fe03","seconds":3.0,"sample_phases":[0,0.1,0.2,0.3,0.4,0.5,0.6,0.5,0.3,0],"durations":[4,5,5,6,7,7,8,5,4,5],"ground_policy":"fixed","events":{"HitFrame":6,"ReturnFrame":8}},
+    {"name":"Rotate","clip":"chr388_fq01","seconds":1.3333334,"sample_phases":[0,0.0833333,0.1666667,0.25,0.3333333,0.4166667,0.5,0.5833333,0.6666667,0.75,0.8333333,0.9166667],"durations":[4,4,4,4,4,4,4,4,4,4,4,4],"ground_policy":"fixed","turn_degrees":[0,30,60,90,120,150,180,210,240,270,300,330],"events":{"HitFrame":6}}
+  ]
+}

@@ -1,0 +1,10 @@
+{"species":"gomamon","jobs":[
+  {"clip":"chr343_bf01","time":0.25,"azimuth":0,"note":"Hop windup"},
+  {"clip":"chr343_bf01","time":1.1,"azimuth":0,"note":"Hop later"},
+  {"clip":"chr343_bf01","time":0.35,"azimuth":270,"note":"Hop side early"},
+  {"clip":"chr343_bf01","time":1.1,"azimuth":270,"note":"Hop side late"},
+  {"clip":"chr343_bs01","time":0.45,"azimuth":0,"note":"Swing early"},
+  {"clip":"chr343_bs01","time":2.1,"azimuth":0,"note":"Swing late"},
+  {"clip":"chr343_bs01","time":2.1,"azimuth":270,"note":"Swing side late"},
+  {"clip":"chr343_fe02","time":2.0,"azimuth":0,"note":"Shoot recovery"}
+]}

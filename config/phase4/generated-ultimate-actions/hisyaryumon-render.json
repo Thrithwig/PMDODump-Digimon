@@ -1,0 +1,107 @@
+{
+  "species": "hisyaryumon",
+  "display_name": "Hisyaryumon",
+  "source_chr_id": "chr192",
+  "model_path": "work/phase4/ultimate-production/hisyaryumon-idle-candidate/hisyaryumon.glb",
+  "pmdo_index": 10330,
+  "idle_clip": "chr192_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0,
+    0.5000000317891459,
+    1.0000000635782917,
+    1.5000000953674377
+  ],
+  "idle_duration_ticks": 30,
+  "approved_neutral_height": 41,
+  "neutral_frame": 0,
+  "frame_size": 176,
+  "render_size": 1024,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1
+  },
+  "idle_ground_policy": "fixed",
+  "placement": {
+    "mode": "airborne",
+    "shadow_row": 136,
+    "minimum_gap": 7
+  },
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "source_eye_masks": true,
+    "head_bones": [
+      "J_head"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.08,
+    "fixed_framing": {
+      "center": [
+        0,
+        1.0,
+        -1.7
+      ],
+      "extent": 6.06
+    },
+    "offset_bones": {
+      "head": "J_head",
+      "center": "J_center",
+      "left_hand": "J_wrist_l",
+      "right_hand": "J_wrist_r"
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.7727272727272727
+    ]
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ],
+  "anatomy_notes": {
+    "source": "Direct Time Stranger chr192 model and native 2.000000127-second chr192_bn01 loop; four endpoint-exclusive samples.",
+    "bind_axis": "Bind head and chin lie at Z+1.54 to +1.66, front wrists at Z+0.90, hind ankles at Z-1.22 and tail tip at Z-5.63. Camera azimuth 0 sees +Z, so Down is frontal; 270/90 are opposing screen profiles; 180 sees the rear.",
+    "face": "Source eye_L and eye_R meshes are present; evaluate their native-scale contrast before any source-bounded treatment.",
+    "silhouette": "Preserve native head, jaw, armored limbs, claws, long tail and sword detail.",
+    "offsets": "Native J_head, J_center and J_wrist_l/r provide projected PMDO markers.",
+    "ground": "Native Idle holds all paws in a suspended pose while the tail hangs lower. Use one fixed airborne transform and a 7 px minimum shadow gap; do not ground the tail tip."
+  }
+}

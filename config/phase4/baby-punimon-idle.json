@@ -1,0 +1,37 @@
+{
+  "species":"punimon", "display_name":"Punimon", "source_chr_id":"chr437",
+  "model_path":"work/phase4/source/punimon.glb", "pmdo_index":10003,
+  "idle_clip":"chr437_bn01", "idle_frames":4,
+  "frame_times":[0,0.28333336114883423,0.5666667222976685,0.8500000834465027],
+  "idle_duration_ticks":17, "approved_neutral_height":18, "neutral_frame":0,
+  "frame_size":32, "render_size":256, "minimum_edge_margin":2,
+  "palette_size":63, "alpha_cutoff":128,
+  "outline":{"enabled":true,"depth_threshold":1,"normal_dot_threshold":-1},
+  "ground_contact_row":25, "idle_ground_policy":"fixed",
+  "renderer":{
+    "eye_mode":"source", "head_bones":["J_center"], "emissive_intensity":0.55, "elevation":0.08,
+    "fixed_framing":{"center":[0,0.27,0],"extent":0.48},
+    "offset_bones":{
+      "head":{"bone":"J_center","local_point":[0,0.006163496524095535,0.20377548784017563]},
+      "center":"J_center",
+      "left_hand":{"bone":"J_center","local_point":[0.18,-0.02390099167823792,0.06]},
+      "right_hand":{"bone":"J_center","local_point":[-0.18,-0.02390099167823792,0.06]}
+    }
+  },
+  "offsets":{"source":"projected-native-bones-v1","shadow":[0.5,0.8]},
+  "anatomy_notes":{
+    "source":"Existing chr437 dsts-extractor0.9.0 GLB; PMDO10003 verified against local installed manifest read-only.",
+    "eyes":"Source eye_L/eye_R meshes use white chr437e01h; separate chr437b01 UV3 face patches map neutral dark circles/rings. Keep both and depth occlusion; no invented pupils, Agumon masks or inferred overlay shader replacement.",
+    "head":"Measured bind eye-pair midpoint [0,0.1800644882,0.2037754878] transformed to native J_center local space.",
+    "hand_slots":"No arm/leg bones. J_mimi_L/R/B animate three upper spikes. Hand slots instead use inner body-side bind points [+/-0.18,0.15,0.06] relative to J_center; conventions, not anatomical hands. Anatomical left +X is screen-right in Down.",
+    "ground":"Native J_root remains at origin; J_center bobs by0.0507 world units with body squash and independently moving spikes. Sampled neutral underside-0.0023 near bind floor0, quarter phases+0.0275,+0.0108,+0.0264: grounded soft-body bob, not sustained flight. Fixed neutral ground placement per direction preserves subsequent native gaps; fixed shadowrow25, no per-frame fitting.",
+    "motion":"bn01 duration1.133333s, four quarter-cycle samples at17ticks each. Scale track ends at1.1s with Y scale1.014769 versus0.971765 at start; source seam retained, not procedurally repaired.",
+    "pending":"18px neutral calibration and source facial/three-spike readability require native-size audition and parent gate. Idle only; all other actions placeholders."
+  },
+  "directions":[
+    {"name":"Down","azimuth_degrees":0},{"name":"DownRight","azimuth_degrees":315},
+    {"name":"Right","azimuth_degrees":270},{"name":"UpRight","azimuth_degrees":225},
+    {"name":"Up","azimuth_degrees":180},{"name":"UpLeft","azimuth_degrees":135},
+    {"name":"Left","azimuth_degrees":90},{"name":"DownLeft","azimuth_degrees":45}
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "species":"keramon",
+  "model_path":"work/phase4/rookie-production/keramon-preflight/keramon.glb",
+  "approved_idle":"work/phase4/rookie-production/keramon-idle-trial-v5/package/10031",
+  "palette_policy":"approved-idle","mouth_palette":false,"mouth_colors":[],"open_mouth_actions":[],
+  "palette_rationale":"Preserve reviewed lavender body, dark source eyes, red/white mouth and teeth, yellow collar, and orange hand markings from the Idle palette.",
+  "reference":"Own DSTS chr626 model and clips; PMDO registry supplies engine names, indices, event fields and timing.",
+  "ground_policy_note":"Keramon intentionally hovers at least 2px over its fixed row-47 Idle shadow. All action sampling retains airborne source motion; no limb-to-ground snap.",
+  "actions":[
+    {"name":"Walk","clip":"chr626_br01","seconds":0.866668,"sample_phases":[0,0.125,0.25,0.375,0.5,0.625,0.75,0.875],"durations":[8,8,8,8,8,8,8,8],"ground_policy":"fixed","pose_evidence":"Own airborne travel/bob loop, endpoint excluded; no invented walking feet."},
+    {"name":"Attack","clip":"chr626_ba02","seconds":2.000001,"sample_phases":[0,0.08,0.18,0.3,0.4,0.5,0.62,0.78,0.95],"durations":[3,3,4,5,5,4,4,4,5],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":7},"pose_evidence":"Native upright hand strike/spread with visible forward contact; never trim Physical Attack."},
+    {"name":"Shoot","clip":"chr626_fe02","seconds":4.000001,"sample_phases":[0,0.08,0.18,0.3,0.45,0.55,0.72,0.95],"durations":[4,4,5,5,6,5,4,6],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":5,"ReturnFrame":6},"pose_evidence":"Native open-mouth and arms-spread release; no projectile or effect asset invented."},
+    {"name":"Sleep","clip":"chr626_bn02","seconds":3.333335,"sample_phases":[0,0.166667,0.333333,0.5,0.666667,0.833333],"durations":[33,33,33,33,33,33],"ground_policy":"fixed","pose_evidence":"Own drooped hovering rest; no fabricated eyelids or eye closure."},
+    {"name":"Hurt","clip":"chr626_bd01","seconds":1.333334,"sample_phases":[0,0.06,0.13,0.22,0.32,0.45,0.62,0.8,0.97],"durations":[3,4,4,4,5,4,4,4,5],"ground_policy":"fixed","events":{"HitFrame":3},"pose_evidence":"Own head/arms recoil and mouth expression."},
+    {"name":"Swing","clip":"chr626_bs01","seconds":2.666668,"sample_phases":[0,0.1,0.22,0.35,0.48,0.62,0.78,0.96],"durations":[4,4,5,5,5,4,4,5],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":6},"pose_evidence":"Native long-arm lateral sweep without synthetic weapon."},
+    {"name":"Double","clip":"chr626_ba02","seconds":2.000001,"sample_phases":[0,0.17,0.4,0.65,0.95,0,0.17,0.4,0.65,0.95],"durations":[3,4,5,4,4,3,4,5,4,6],"ground_policy":"fixed","events":{"RushFrame":1,"HitFrame":2,"ReturnFrame":8},"pose_evidence":"Two visual cycles of own hand-strike motion; one PMDO HitFrame."},
+    {"name":"Hop","clip":"chr626_bf01","seconds":1.666668,"sample_phases":[0,0.07,0.16,0.27,0.4,0.55,0.72,0.95],"durations":[4,5,5,8,8,5,4,6],"ground_policy":"fixed","events":{"HitFrame":4},"pose_evidence":"Own tumbling/inverted rise above fixed shadow; no artificial height offset."},
+    {"name":"Charge","clip":"chr626_bv01","seconds":3.000001,"sample_phases":[0,0.1,0.2,0.3,0.4,0.5,0.6,0.5,0.3,0],"durations":[4,5,5,6,7,7,8,5,4,5],"ground_policy":"fixed","events":{"HitFrame":6,"ReturnFrame":8},"pose_evidence":"Own body/hand preparation with reverse-sampled recovery, no glow."},
+    {"name":"Rotate","clip":"chr626_fq01","seconds":1.333334,"sample_phases":[0,0.083333,0.166667,0.25,0.333333,0.416667,0.5,0.583333,0.666667,0.75,0.833333,0.916667],"durations":[4,4,4,4,4,4,4,4,4,4,4,4],"ground_policy":"fixed","turn_degrees":[0,30,60,90,120,150,180,210,240,270,300,330],"events":{"HitFrame":6},"pose_evidence":"Own expression/pose motion with whole-view yaw; no duplicated endpoint."}
+  ]
+}

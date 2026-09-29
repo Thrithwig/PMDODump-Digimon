@@ -1,0 +1,21 @@
+{
+  "species": "renamon",
+  "jobs": [
+    {"clip":"chr391_br01","time":0.30,"azimuth":0,"note":"Walk"},
+    {"clip":"chr391_ba01","time":0.90,"azimuth":0,"note":"Attack ba01"},
+    {"clip":"chr391_ba02","time":0.95,"azimuth":0,"note":"Attack ba02"},
+    {"clip":"chr391_fe01","time":1.00,"azimuth":0,"note":"Shoot fe01"},
+    {"clip":"chr391_fe02","time":1.40,"azimuth":0,"note":"Shoot fe02"},
+    {"clip":"chr391_fe03","time":1.50,"azimuth":0,"note":"Shoot fe03"},
+    {"clip":"chr391_fe04","time":1.00,"azimuth":0,"note":"Shoot fe04"},
+    {"clip":"chr391_bn02","time":0.90,"azimuth":0,"note":"Sleep"},
+    {"clip":"chr391_bd01","time":0.65,"azimuth":0,"note":"Hurt bd01"},
+    {"clip":"chr391_bd02","time":0.40,"azimuth":0,"note":"Hurt bd02"},
+    {"clip":"chr391_bd03","time":1.10,"azimuth":0,"note":"Hurt bd03"},
+    {"clip":"chr391_bs01","time":1.15,"azimuth":0,"note":"Swing"},
+    {"clip":"chr391_bf01","time":0.90,"azimuth":0,"note":"Hop"},
+    {"clip":"chr391_bv01","time":0.75,"azimuth":0,"note":"Charge"},
+    {"clip":"chr391_fq01","time":0.85,"azimuth":0,"note":"Rotate fq01"},
+    {"clip":"chr391_fq02","time":0.85,"azimuth":0,"note":"Rotate fq02"}
+  ]
+}

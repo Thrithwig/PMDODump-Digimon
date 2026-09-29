@@ -1,0 +1,21 @@
+{
+  "species":"armadillomon",
+  "jobs":[
+    {"clip":"chr707_br01","time":0.10,"azimuth":0},
+    {"clip":"chr707_br01","time":0.32,"azimuth":90},
+    {"clip":"chr707_ba01","time":0.35,"azimuth":0},
+    {"clip":"chr707_ba01","time":0.95,"azimuth":90},
+    {"clip":"chr707_ba02","time":0.45,"azimuth":0},
+    {"clip":"chr707_ba02","time":1.1,"azimuth":90},
+    {"clip":"chr707_fe01","time":0.5,"azimuth":0},
+    {"clip":"chr707_fe01","time":1.5,"azimuth":90},
+    {"clip":"chr707_bn02","time":0.4,"azimuth":0},
+    {"clip":"chr707_bn02","time":1.6,"azimuth":90},
+    {"clip":"chr707_bd01","time":0.2,"azimuth":0},
+    {"clip":"chr707_bd01","time":0.55,"azimuth":90},
+    {"clip":"chr707_bg01","time":0.25,"azimuth":0},
+    {"clip":"chr707_bg01","time":0.55,"azimuth":90},
+    {"clip":"chr707_bs01","time":0.55,"azimuth":0},
+    {"clip":"chr707_bs01","time":1.45,"azimuth":90}
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "species":"dracmon",
+  "display_name":"Dracmon",
+  "source_chr_id":"chr457",
+  "model_path":"work/phase4/source/dracmon.glb",
+  "pmdo_index":10042,
+  "idle_clip":"chr457_bn01",
+  "idle_frames":4,
+  "frame_times":[0,0.5,1.0,1.5],
+  "idle_duration_ticks":60,
+  "approved_neutral_height":16,
+  "neutral_frame":0,
+  "frame_size":64,
+  "render_size":512,
+  "minimum_edge_margin":2,
+  "palette_size":64,
+  "alpha_cutoff":128,
+  "outline":{"enabled":true,"depth_threshold":1,"normal_dot_threshold":-1},
+  "idle_ground_policy":"fixed",
+  "ground_contact_row":47,
+  "renderer":{
+    "eye_mode":"source",
+    "native_eye_layers":true,
+    "source_eye_masks":true,
+    "head_bones":["J_atama"],
+    "emissive_intensity":0.55,
+    "elevation":0.08,
+    "fixed_framing":{"center":[0,0.11,0],"extent":0.48},
+    "offset_bones":{
+      "head":"J_atama",
+      "center":"J_center",
+      "left_hand":"J_te_L",
+      "right_hand":"J_te_R"
+    }
+  },
+  "offsets":{"source":"projected-native-bones-v1","shadow":[0.5,0.8]},
+  "directions":[
+    {"name":"Down","azimuth_degrees":0},
+    {"name":"DownRight","azimuth_degrees":315},
+    {"name":"Right","azimuth_degrees":270},
+    {"name":"UpRight","azimuth_degrees":225},
+    {"name":"Up","azimuth_degrees":180},
+    {"name":"UpLeft","azimuth_degrees":135},
+    {"name":"Left","azimuth_degrees":90},
+    {"name":"DownLeft","azimuth_degrees":45}
+  ],
+  "anatomy_notes":{
+    "source":"Own chr457 model; approved 16px target is very small for large eyes and hand markings. Idle trial only.",
+    "eyes":"Separate source eyes are violet and green against charcoal skin; check at 16px after palette.",
+    "markers":"Use native head, center, left/right hand bones.",
+    "ground":"Feet define contact; long finger extensions must stay inside sheet margins."
+  }
+}

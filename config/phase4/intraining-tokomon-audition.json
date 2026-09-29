@@ -1,0 +1,21 @@
+{
+  "species": "tokomon",
+  "jobs": [
+    {"clip":"chr325_br01","time":0.08,"azimuth":90},
+    {"clip":"chr325_br01","time":0.35,"azimuth":90},
+    {"clip":"chr325_ba01","time":0.16,"azimuth":90},
+    {"clip":"chr325_ba01","time":0.77,"azimuth":90},
+    {"clip":"chr325_ba02","time":0.17,"azimuth":90},
+    {"clip":"chr325_ba02","time":0.91,"azimuth":90},
+    {"clip":"chr325_bd01","time":0.1,"azimuth":90},
+    {"clip":"chr325_bd01","time":0.55,"azimuth":90},
+    {"clip":"chr325_bn02","time":0.6,"azimuth":90},
+    {"clip":"chr325_bn02","time":2.4,"azimuth":90},
+    {"clip":"chr325_bg01","time":0.09,"azimuth":90},
+    {"clip":"chr325_bg01","time":0.42,"azimuth":90},
+    {"clip":"chr325_fe01","time":0.22,"azimuth":90},
+    {"clip":"chr325_fe01","time":1.1,"azimuth":90},
+    {"clip":"chr325_bv01","time":0.22,"azimuth":90},
+    {"clip":"chr325_bv01","time":1.2,"azimuth":90}
+  ]
+}

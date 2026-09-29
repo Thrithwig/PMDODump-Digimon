@@ -1,0 +1,337 @@
+{
+  "species": "punimon",
+  "model_path": "work/phase4/source/punimon.glb",
+  "approved_idle": "work/phase4/baby-production/punimon-idle-v2/package/10003",
+  "palette_policy": "approved-idle",
+  "mouth_palette": false,
+  "mouth_colors": [],
+  "open_mouth_actions": [],
+  "palette_rationale": "Exactly62 source/approved Idle v2 RGB colors shared across all actions. Nearest-RGB map applied before per-action conversion; no dithering or per-sheet palette. No new mouth/eye colors or painted marks.",
+  "reference": "RawAsset Sprite/0132 Ditto, rounded limbless body timing/hold convention only for absent semantic detail; no facial/anatomy transfer.",
+  "reference_commit": "03c80dad937911572f8fb19903771a47956fc696",
+  "reference_animdata_sha256": "2f8c3de9f6bd3e08cad800bf6d114c58507b9b8b2cea248613c56a8f6f1a218f",
+  "actions": [
+    {
+      "name": "Walk",
+      "clip": "chr437_br01",
+      "seconds": 1.333333418104389,
+      "sample_phases": [
+        0.0,
+        0.125,
+        0.25,
+        0.375,
+        0.5,
+        0.625,
+        0.75,
+        0.8750000000000001
+      ],
+      "durations": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Native alternating tilted body spring/landing loop, two bob cycles. Side auditions show spike lag and forward tilt. Center XZ locked for engine travel; native Y/rotation/scales retained."
+    },
+    {
+      "name": "Attack",
+      "clip": "chr437_ba01",
+      "seconds": 1.1333334053887307,
+      "sample_phases": [
+        0.0,
+        0.11470587506013759,
+        0.22058822126949534,
+        0.3529411540311926,
+        0.46764702909133016,
+        0.5823529041514678,
+        0.7499999523162841,
+        0.8823528850779814,
+        0.9838234668619492
+      ],
+      "durations": [
+        4,
+        3,
+        4,
+        3,
+        5,
+        4,
+        4,
+        3,
+        6
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Native forward body/spike lunge with early rise, strongly pitched low contact around .4-.66s, and rebound/recovery. No arms. Visible contact frame4, not inferred solely from clip suffix.",
+      "events": {
+        "RushFrame": 2,
+        "HitFrame": 4,
+        "ReturnFrame": 7
+      }
+    },
+    {
+      "name": "Shoot",
+      "clip": "chr437_fq02",
+      "seconds": 1.1333334053887307,
+      "sample_phases": [
+        0.0,
+        0.14117646161247702,
+        0.28235292322495403,
+        0.423529384837431,
+        0.5647058464499081,
+        0.7058823080623852,
+        0.847058769674862,
+        0.9838234668619492
+      ],
+      "durations": [
+        5,
+        4,
+        4,
+        5,
+        5,
+        4,
+        4,
+        6
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Native body lift and forward head/spike nod, interpreted as body-only special release; no verified projectile or mouth discharge. Pinned Ditto Shoot copies Charge, supporting body-only release timing convention only.",
+      "events": {
+        "RushFrame": 2,
+        "HitFrame": 4,
+        "ReturnFrame": 6
+      }
+    },
+    {
+      "name": "Sleep",
+      "clip": "chr437_bn02",
+      "seconds": 2.0000001271565835,
+      "sample_phases": [
+        0.0,
+        0.24999998410542806,
+        0.4999999682108561,
+        0.7499999523162842
+      ],
+      "durations": [
+        28,
+        32,
+        28,
+        32
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Native flattened low body and flattened spikes, slow breathing. Explicit source b01 second-row closed-eye art at UV3 V+0.25, with matching source green crop mask. No raster lid/pupil synthesis. Pinned Ditto long/short30/35 holds informed120tick breathing rhythm; native facial animation not exported."
+    },
+    {
+      "name": "Hurt",
+      "clip": "chr437_bd01",
+      "seconds": 1.0000000635782917,
+      "sample_phases": [
+        0.02999999809265137,
+        0.15999998982747396,
+        0.2999999809265137,
+        0.4999999682108561,
+        0.6999999554951986,
+        0.969999938329061
+      ],
+      "durations": [
+        3,
+        4,
+        7,
+        5,
+        4,
+        6
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Native backward/side roll-like recoil and body compression, strong low tipped contact at .3-.5s then recovery; source spike deformation retained."
+    },
+    {
+      "name": "Swing",
+      "clip": "chr437_ba01",
+      "seconds": 1.1333334053887307,
+      "sample_phases": [
+        0.0,
+        0.11470587506013759,
+        0.22058822126949534,
+        0.3529411540311926,
+        0.46764702909133016,
+        0.5823529041514678,
+        0.7499999523162841,
+        0.8823528850779814,
+        0.9838234668619492
+      ],
+      "durations": [
+        4,
+        3,
+        3,
+        3,
+        5,
+        4,
+        4,
+        3,
+        6
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Native body/spike lunge plus restrained procedural whole-body yaw[-30,+35] for a lateral sweep. No human punch/arm. Native deformation and height retained.",
+      "events": {
+        "RushFrame": 2,
+        "HitFrame": 4,
+        "ReturnFrame": 7
+      },
+      "turn_degrees": [
+        0,
+        -15,
+        -30,
+        -15,
+        35,
+        25,
+        15,
+        5,
+        0
+      ]
+    },
+    {
+      "name": "Double",
+      "clip": "chr437_ba01",
+      "seconds": 1.1333334053887307,
+      "sample_phases": [
+        0.0,
+        0.22058822126949534,
+        0.46764702909133016,
+        0.5823529041514678,
+        0.7499999523162841,
+        0.9838234668619492,
+        0.0,
+        0.22058822126949534,
+        0.46764702909133016,
+        0.5823529041514678,
+        0.7499999523162841,
+        0.9838234668619492
+      ],
+      "durations": [
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        6
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Two retimed native body-lunge cycles, visible contacts2 and8. Only one gameplay HitFrame2; second contact is animation, not invented second damage event.",
+      "events": {
+        "RushFrame": 1,
+        "HitFrame": 2,
+        "ReturnFrame": 10
+      },
+      "secondary_visual_contact_frame": 8
+    },
+    {
+      "name": "Hop",
+      "clip": "chr437_ba01",
+      "seconds": 1.1333334053887307,
+      "sample_phases": [
+        0.5470587887483485,
+        0.6176470195545869,
+        0.6882352503608254,
+        0.7499999523162841,
+        0.8117646542717429,
+        0.8823528850779814,
+        0.9352940581826603,
+        0.9926469957127291
+      ],
+      "durations": [
+        3,
+        3,
+        4,
+        5,
+        5,
+        4,
+        3,
+        5
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Isolated native second rebound arc from ba01, not a distinct exported jump clip. Starts low/pitched, rises upright, lands upright. Retimed standalone hop, unlike Attack full lunge/contact sequence. Native Y only, no fabricated vertical offset.",
+      "events": {
+        "HitFrame": 7
+      }
+    },
+    {
+      "name": "Charge",
+      "clip": "chr437_fe03",
+      "seconds": 3.0000001907348754,
+      "sample_phases": [
+        0.0,
+        0.11666665924919975,
+        0.24999998410542806,
+        0.36666664335462784,
+        0.4999999682108561,
+        0.6333332930670844,
+        0.7666666179233127,
+        0.8999999427795411,
+        0.9899999370574951
+      ],
+      "durations": [
+        5,
+        5,
+        6,
+        7,
+        8,
+        7,
+        6,
+        5,
+        5
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Native subtle planted body rock and independent spike flex, interpreted as gathering tension using pinned Ditto Charge buildup/hold convention. Small18px scale limits amplitude; no energy/projectile graphic.",
+      "events": {
+        "HitFrame": 4,
+        "ReturnFrame": 7
+      }
+    },
+    {
+      "name": "Rotate",
+      "clip": "chr437_bv01",
+      "seconds": 1.966666791703974,
+      "sample_phases": [
+        0.0,
+        0.2033898175772974,
+        0.3813559079574326,
+        0.4237286171278549,
+        0.4576270895489192,
+        0.49152556196998337,
+        0.5254235259165037,
+        0.5593219983375679,
+        0.6101694527318922,
+        0.7118643615205409,
+        0.8389829975063517,
+        0.9864406152498923
+      ],
+      "durations": [
+        4,
+        4,
+        4,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        4,
+        4,
+        6
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Native springing full yaw turn: J_center quaternion track turns chiefly .83-1.2s. Dense samples preserve facing/occlusion; no synthetic camera turn. Native lift/spike deflection retained.",
+      "events": {
+        "HitFrame": 9
+      }
+    }
+  ]
+}

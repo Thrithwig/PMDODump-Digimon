@@ -1,0 +1,24 @@
+{
+  "species":"palmon",
+  "model_path":"work/phase4/rookie-production/palmon-preflight/palmon.glb",
+  "approved_idle":"work/phase4/rookie-production/palmon-idle-trial-v1/package/10048",
+  "palette_policy":"approved-idle",
+  "mouth_palette":false,
+  "mouth_colors":[],
+  "open_mouth_actions":[],
+  "palette_rationale":"Preserve the reviewed light green body, pink-yellow flower, orange sprout, green-purple vine tips, source eyes and dark outline from the approved Idle palette.",
+  "reference":"Own DSTS chr348 mesh and native clips; PMDO registry supplies action names and event fields.",
+  "ground_policy_note":"Grounded with fixed row-47 shadow. Preserve native lift and recoil; never trim Idle or Physical Attack.",
+  "actions":[
+    {"name":"Walk","clip":"chr348_br01","seconds":0.8,"sample_phases":[0,0.125,0.25,0.375,0.5,0.625,0.75,0.875],"durations":[8,8,8,8,8,8,8,8],"ground_policy":"fixed","pose_evidence":"Own alternating feet, vine-arm and flower sway; endpoint excluded."},
+    {"name":"Attack","clip":"chr348_ba01","seconds":1.4,"sample_phases":[0,0.07,0.16,0.3,0.48,0.62,0.76,0.9,0.98],"durations":[3,3,4,5,5,4,4,4,5],"ground_policy":"fixed","events":{"RushFrame":1,"HitFrame":4,"ReturnFrame":7},"pose_evidence":"Own forward vine-arm strike and recovery; Physical Attack remains untrimmed."},
+    {"name":"Shoot","clip":"chr348_fe03","seconds":3.0,"sample_phases":[0,0.1,0.22,0.35,0.5,0.64,0.8,0.96],"durations":[4,4,5,5,6,5,4,6],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":6},"pose_evidence":"Own raised-vine open-mouth release gesture; no invented projectile or glow."},
+    {"name":"Sleep","clip":"chr348_bn02","seconds":3.0,"sample_phases":[0,0.166667,0.333333,0.5,0.666667,0.833333],"durations":[33,33,33,33,33,33],"ground_policy":"fixed","pose_evidence":"Own curled flower-and-vine resting loop; no painted eyelids."},
+    {"name":"Hurt","clip":"chr348_bd01","seconds":0.933333,"sample_phases":[0,0.06,0.13,0.22,0.34,0.48,0.62,0.8,0.97],"durations":[3,4,4,4,5,4,4,4,5],"ground_policy":"fixed","events":{"HitFrame":4},"pose_evidence":"Own ordinary backward recoil. Prone bd02/bd03 knockdowns remain unused."},
+    {"name":"Swing","clip":"chr348_bs01","seconds":1.833333,"sample_phases":[0,0.1,0.22,0.35,0.5,0.64,0.8,0.96],"durations":[4,4,5,5,5,4,4,5],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":6},"pose_evidence":"Own signature long-vine sweep; no synthetic weapon and no shortened anatomy."},
+    {"name":"Double","clip":"chr348_ba01","seconds":1.4,"sample_phases":[0,0.16,0.48,0.76,0.96,0,0.16,0.48,0.76,0.96],"durations":[3,4,5,4,4,3,4,5,4,6],"ground_policy":"fixed","events":{"RushFrame":1,"HitFrame":2,"ReturnFrame":8},"pose_evidence":"Two visual cycles of the own vine strike; one PMDO HitFrame."},
+    {"name":"Hop","clip":"chr348_bf01","seconds":1.4,"sample_phases":[0,0.07,0.18,0.3,0.5,0.66,0.82,0.97],"durations":[4,5,5,8,8,5,4,6],"ground_policy":"fixed","events":{"HitFrame":5},"pose_evidence":"Own compact crouch-and-rise motion; no artificial vertical offset."},
+    {"name":"Charge","clip":"chr348_bv01","seconds":1.333333,"sample_phases":[0,0.1,0.2,0.3,0.4,0.5,0.6,0.5,0.3,0],"durations":[4,5,5,6,7,7,8,5,4,5],"ground_policy":"fixed","events":{"HitFrame":6,"ReturnFrame":8},"pose_evidence":"Own braced vine-and-flower charge with reverse-sampled recovery; no aura."},
+    {"name":"Rotate","clip":"chr348_fq01","seconds":1.333333,"sample_phases":[0,0.083333,0.166667,0.25,0.333333,0.416667,0.5,0.583333,0.666667,0.75,0.833333,0.916667],"durations":[4,4,4,4,4,4,4,4,4,4,4,4],"ground_policy":"fixed","turn_degrees":[0,30,60,90,120,150,180,210,240,270,300,330],"events":{"HitFrame":6},"pose_evidence":"Own ready motion with whole-view yaw for engine Rotate; endpoint excluded."}
+  ]
+}

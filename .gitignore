@@ -9,6 +9,9 @@ obj/
 *.manifest
 publish/
 
+# Disposable lab profiles, screenshots, saves and diagnostic evidence
+/work/
+
 # Debug logs (npm, yarn)
 *.log
 
@@ -35,3 +38,4 @@ Scripts/monster_sheet_id.txt
 DataAsset/Wiki/
 DataAsset/Docs/
 venv/
+Scripts/SpritePipeline/renderer/node_modules/

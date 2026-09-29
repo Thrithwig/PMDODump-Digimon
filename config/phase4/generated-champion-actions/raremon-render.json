@@ -1,0 +1,100 @@
+{
+  "species": "raremon",
+  "display_name": "Raremon",
+  "source_chr_id": "chr590",
+  "model_path": "work/phase4/champion-production/raremon-idle-candidate/raremon.glb",
+  "pmdo_index": 10136,
+  "idle_clip": "chr590_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0,
+    0.4166667,
+    0.8333333,
+    1.25
+  ],
+  "idle_duration_ticks": 25,
+  "approved_neutral_height": 18,
+  "neutral_frame": 0,
+  "frame_size": 96,
+  "render_size": 768,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1
+  },
+  "idle_ground_policy": "fixed",
+  "ground_contact_row": 68,
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "source_eye_masks": true,
+    "head_bones": [
+      "J_atama"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.06,
+    "fixed_framing": {
+      "center": [
+        0,
+        0.23,
+        0
+      ],
+      "extent": 1.46
+    },
+    "offset_bones": {
+      "head": "J_atama",
+      "center": "J_center",
+      "left_hand": "J_te_L",
+      "right_hand": "J_te_R"
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.7083333333
+    ]
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ],
+  "anatomy_notes": {
+    "source": "Direct chr590 model and native chr590_bn01 loop.",
+    "eyes": "Two source eye meshes; retain effective native layers and inspect at final palette size before any bounded correction.",
+    "ground": "Broad low body with tail and paired forelimbs; maintain fixed shadow and check native contact rather than snapping per frame."
+  }
+}

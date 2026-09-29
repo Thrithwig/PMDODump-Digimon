@@ -1,0 +1,10 @@
+{
+  "species":"hackmon",
+  "jobs":[
+    {"clip":"chr687_ba02","time":0,"azimuth":315,"note":"Alternate swing initial DownRight"},
+    {"clip":"chr687_ba02","time":0.4,"azimuth":315,"note":"Alternate swing early DownRight"},
+    {"clip":"chr687_ba02","time":0.9,"azimuth":0,"note":"Alternate swing front contact"},
+    {"clip":"chr687_ba02","time":1.3,"azimuth":270,"note":"Alternate swing side follow-through"},
+    {"clip":"chr687_ba02","time":1.92,"azimuth":315,"note":"Alternate swing recovery DownRight"}
+  ]
+}

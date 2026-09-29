@@ -1,0 +1,104 @@
+{
+  "species": "waspmon",
+  "display_name": "Waspmon",
+  "source_chr_id": "chr454",
+  "model_path": "work/phase4/champion-production/waspmon-idle-candidate/waspmon.glb",
+  "pmdo_index": 10140,
+  "idle_clip": "chr454_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0,
+    0.6666667,
+    1.3333333,
+    2.0
+  ],
+  "idle_duration_ticks": 40,
+  "approved_neutral_height": 30,
+  "neutral_frame": 0,
+  "frame_size": 192,
+  "render_size": 1536,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1
+  },
+  "placement": {
+    "mode": "airborne",
+    "shadow_row": 130,
+    "minimum_gap": 4
+  },
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "source_eye_masks": true,
+    "head_bones": [
+      "J_atama"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.06,
+    "fixed_framing": {
+      "center": [
+        0,
+        1.05,
+        0
+      ],
+      "extent": 6.9
+    },
+    "offset_bones": {
+      "head": "J_atama",
+      "center": "J_center",
+      "left_hand": "J_te_L",
+      "right_hand": "J_te_R"
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.8541666667
+    ]
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ],
+  "anatomy_notes": {
+    "source": "Direct chr454 model and native 2.667-second chr454_bn01 Idle loop.",
+    "silhouette": "Preserve striped abdomen, head, paired wings, arms and sting.",
+    "eyes": "Use source facial materials and visible eye anatomy; no constructed pupils or repaint.",
+    "ground": "Winged hover; one fixed translation preserves vertical bob and a minimum four-pixel gap over a ground-anchored PMDO shadow."
+  }
+}

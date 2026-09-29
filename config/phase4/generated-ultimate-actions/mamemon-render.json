@@ -1,0 +1,123 @@
+{
+  "species": "mamemon",
+  "display_name": "Mamemon",
+  "source_chr_id": "chr412",
+  "model_path": "work/phase4/ultimate-production/mamemon-idle-candidate/mamemon.glb",
+  "pmdo_index": 10199,
+  "idle_clip": "chr412_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0,
+    0.33333335452609725,
+    0.6666667090521945,
+    1.0000000635782917
+  ],
+  "idle_duration_ticks": 20,
+  "approved_neutral_height": 21,
+  "neutral_frame": 0,
+  "frame_size": 128,
+  "render_size": 1024,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1
+  },
+  "idle_ground_policy": "per-frame",
+  "ground_contact_row": 82,
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "source_eye_masks": true,
+    "head_bones": [
+      "J_center"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.08,
+    "fixed_framing": {
+      "center": [
+        0,
+        0.5,
+        0
+      ],
+      "extent": 3.42
+    },
+    "offset_bones": {
+      "head": "J_mouth",
+      "center": "J_center",
+      "left_hand": "J_wristL",
+      "right_hand": "J_wristR"
+    },
+    "horizontal_root_lock": {
+      "chr412_br01": {
+        "bone": "J_center",
+        "reference_time": 0.0,
+        "axes": [
+          "x",
+          "y",
+          "z"
+        ],
+        "reference_clip": "chr412_bn01"
+      },
+      "chr412_ba01": {
+        "bone": "J_center",
+        "reference_time": 0.0,
+        "axes": [
+          "x",
+          "y",
+          "z"
+        ],
+        "reference_clip": "chr412_bn01"
+      }
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.78125
+    ]
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ],
+  "anatomy_notes": {
+    "source": "Direct Time Stranger chr412 model and native 1.333333-second chr412_bn01 Idle; four endpoint-exclusive samples.",
+    "face": "Separate source eye meshes are dark and strongly visible on the pale spherical body at native size; no synthetic eye border.",
+    "silhouette": "Preserve spherical body, mouth, boxing-glove hands, thin arms, legs, and small feet.",
+    "ground": "Native Idle is grounded; snap the lowest foot pixels per frame to row 50. Never crop Idle."
+  }
+}

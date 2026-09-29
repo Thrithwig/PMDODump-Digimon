@@ -1,0 +1,21 @@
+{
+  "species":"impmon",
+  "model_path":"work/phase4/rookie-production/impmon-preflight/impmon.glb",
+  "approved_idle":"work/phase4/rookie-production/impmon-idle-trial-v2/package/10022",
+  "palette_policy":"approved-idle","mouth_palette":false,"mouth_colors":[],"open_mouth_actions":[],
+  "palette_rationale":"Preserve reviewed pale face/dark eye edge, source eye tones where native pixels survive, purple skin, red gloves/scarf and white claws/tail tip from the approved Idle palette.",
+  "reference":"Own DSTS chr081 model and native clips; PMDO engine registry provides names, indices, events and timing fields.",
+  "ground_policy_note":"Grounded Idle and row-47 shadow. Walk foot contact per frame; retain native one-shot lift and localized below-shadow audit elsewhere.",
+  "actions":[
+    {"name":"Walk","clip":"chr081_br01","seconds":0.666668,"sample_phases":[0,0.125,0.25,0.375,0.5,0.625,0.75,0.875],"durations":[8,8,8,8,8,8,8,8],"ground_policy":"per-frame","pose_evidence":"Own biped gait with alternating feet and tail; endpoint excluded."},
+    {"name":"Attack","clip":"chr081_ba01","seconds":1.733334,"sample_phases":[0,0.07,0.14,0.22,0.3,0.4,0.5,0.64,0.85],"durations":[3,3,4,5,5,4,4,4,5],"ground_policy":"fixed","events":{"RushFrame":1,"HitFrame":4,"ReturnFrame":7},"pose_evidence":"Native early leap and forward claw contact near 0.52s, then source recovery; never ground-trim Attack."},
+    {"name":"Shoot","clip":"chr081_fe01","seconds":2.000001,"sample_phases":[0,0.1,0.22,0.35,0.48,0.62,0.78,0.96],"durations":[4,4,5,5,6,5,4,6],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":5,"ReturnFrame":6},"pose_evidence":"Native hand-to-mouth preparation and hands-out release; no projectile/effect invented."},
+    {"name":"Sleep","clip":"chr081_bn02","seconds":2.666668,"sample_phases":[0,0.166667,0.333333,0.5,0.666667,0.833333],"durations":[33,33,33,33,33,33],"ground_policy":"fixed","pose_evidence":"Own crouched rest with lowered head; no painted eyelids."},
+    {"name":"Hurt","clip":"chr081_bd01","seconds":1.000001,"sample_phases":[0,0.06,0.13,0.22,0.32,0.45,0.62,0.8,0.97],"durations":[3,4,4,4,5,4,4,4,5],"ground_policy":"fixed","events":{"HitFrame":3},"pose_evidence":"Own startled backward recoil and raised gloves."},
+    {"name":"Swing","clip":"chr081_bs01","seconds":2.666668,"sample_phases":[0,0.1,0.22,0.35,0.48,0.62,0.78,0.96],"durations":[4,4,5,5,5,4,4,5],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":5,"ReturnFrame":6},"pose_evidence":"Native arm/tail sweep and later outward stance, without a synthetic weapon."},
+    {"name":"Double","clip":"chr081_ba01","seconds":1.733334,"sample_phases":[0,0.12,0.3,0.5,0.85,0,0.12,0.3,0.5,0.85],"durations":[3,4,5,4,4,3,4,5,4,6],"ground_policy":"fixed","events":{"RushFrame":1,"HitFrame":2,"ReturnFrame":8},"pose_evidence":"Two visual cycles of the native early leap/contact, one PMDO HitFrame."},
+    {"name":"Hop","clip":"chr081_bf01","seconds":1.733334,"sample_phases":[0,0.07,0.15,0.25,0.36,0.48,0.63,0.82],"durations":[4,5,5,8,8,5,4,6],"ground_policy":"fixed","events":{"HitFrame":4},"pose_evidence":"Own leap and landing arc sampled around the early source apex; no artificial height offset."},
+    {"name":"Charge","clip":"chr081_bv01","seconds":2.666668,"sample_phases":[0,0.1,0.2,0.3,0.4,0.5,0.6,0.5,0.3,0],"durations":[4,5,5,6,7,7,8,5,4,5],"ground_policy":"fixed","events":{"HitFrame":6,"ReturnFrame":8},"pose_evidence":"Native preparation/strain and reverse-sampled recovery; no glow."},
+    {"name":"Rotate","clip":"chr081_fq01","seconds":2.000001,"sample_phases":[0,0.083333,0.166667,0.25,0.333333,0.416667,0.5,0.583333,0.666667,0.75,0.833333,0.916667],"durations":[4,4,4,4,4,4,4,4,4,4,4,4],"ground_policy":"fixed","turn_degrees":[0,30,60,90,120,150,180,210,240,270,300,330],"events":{"HitFrame":6},"pose_evidence":"Own pose motion with whole-view yaw; no duplicate endpoint."}
+  ]
+}

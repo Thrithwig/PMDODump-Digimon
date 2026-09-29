@@ -1,0 +1,111 @@
+{
+  "species": "aquilamon",
+  "display_name": "Aquilamon",
+  "source_chr_id": "chr015",
+  "model_path": "work/phase4/champion-production/aquilamon-idle-candidate/aquilamon.glb",
+  "pmdo_index": 10067,
+  "idle_clip": "chr015_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0,
+    0.25,
+    0.5,
+    0.75
+  ],
+  "idle_duration_ticks": 15,
+  "approved_neutral_height": 37,
+  "neutral_frame": 0,
+  "frame_size": 144,
+  "render_size": 1152,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1
+  },
+  "idle_ground_policy": "fixed",
+  "placement": {
+    "mode": "airborne",
+    "shadow_row": 113,
+    "minimum_gap": 4
+  },
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "source_eye_masks": true,
+    "head_bones": [
+      "head"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.08,
+    "fixed_framing": {
+      "center": [
+        0,
+        1.3,
+        0
+      ],
+      "extent": 5.7299999999999995
+    },
+    "offset_bones": {
+      "head": "head",
+      "center": "mass",
+      "left_hand": "L_foot1",
+      "right_hand": "R_foot1"
+    },
+    "horizontal_root_lock": {
+      "chr015_bs01": {
+        "bone": "mass",
+        "reference_time": 0.0
+      }
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.9
+    ]
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ],
+  "anatomy_notes": {
+    "source": "Direct chr015 model and one-second chr015_bn01 native Idle loop; 26 animated channels.",
+    "silhouette": "Preserve both four-joint wing chains, beak, tail, legs and clawed feet.",
+    "markers": "Aquilamon has no hands; source left/right foot-tip bones are anatomical attack-offset proxies.",
+    "flight": "Keep native wing flap and body bob above one fixed ground shadow without cropping Idle."
+  }
+}

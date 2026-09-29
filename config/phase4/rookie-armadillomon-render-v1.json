@@ -1,0 +1,29 @@
+{
+  "species":"armadillomon","display_name":"Armadillomon","source_chr_id":"chr707",
+  "model_path":"work/phase4/source/armadillomon.glb","pmdo_index":10021,
+  "idle_clip":"chr707_bn01","idle_frames":4,"frame_times":[0,0.266666,0.533333,0.799999],
+  "idle_duration_ticks":32,"approved_neutral_height":19,"neutral_frame":0,
+  "frame_size":128,"render_size":1024,"minimum_edge_margin":2,
+  "palette_size":64,"alpha_cutoff":128,
+  "outline":{"enabled":true,"depth_threshold":1,"normal_dot_threshold":-1},
+  "idle_ground_policy":"fixed","ground_contact_row":79,
+  "renderer":{
+    "eye_mode":"source","native_eye_layers":true,"source_eye_masks":true,
+    "head_bones":["J_head"],"emissive_intensity":0.55,"elevation":0.08,
+    "fixed_framing":{"center":[0,0.36,0],"extent":2.8},
+    "offset_bones":{"head":"J_head","center":"J_center","left_hand":"J_hand_l","right_hand":"J_hand_r"}
+  },
+  "offsets":{"source":"projected-native-bones-v1","shadow":[0.5,0.8]},
+  "directions":[
+    {"name":"Down","azimuth_degrees":0},{"name":"DownRight","azimuth_degrees":315},
+    {"name":"Right","azimuth_degrees":270},{"name":"UpRight","azimuth_degrees":225},
+    {"name":"Up","azimuth_degrees":180},{"name":"UpLeft","azimuth_degrees":135},
+    {"name":"Left","azimuth_degrees":90},{"name":"DownLeft","azimuth_degrees":45}
+  ],
+  "anatomy_notes":{
+    "source":"Own chr707 armored quadruped. 128px action canvas and extent 2.8 retain the approved Idle's exact pixels-per-world-unit scale from 64px/1.4.",
+    "eyes":"Two source green eye meshes. Corrected Idle baseline has one restrained green core and one lower black source-eye edge where front-visible. Action postprocess is bounded by the same source-eye coverage; no pupil or head outline.",
+    "markers":"Native J_head, J_center and paired J_hand bones. All headings need native-size review.",
+    "ground":"Four feet set contact; fixed row79 is the 128px equivalent of approved Idle row47. Native lift/recoil remains unsnapped."
+  }
+}

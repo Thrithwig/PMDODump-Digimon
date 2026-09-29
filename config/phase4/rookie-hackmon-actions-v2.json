@@ -1,0 +1,24 @@
+{
+  "species":"hackmon",
+  "model_path":"work/phase4/rookie-production/hackmon-preflight/hackmon.glb",
+  "approved_idle":"work/phase4/rookie-production/hackmon-idle-trial-v2/package/10047",
+  "palette_policy":"approved-idle",
+  "mouth_palette":false,
+  "mouth_colors":[],
+  "open_mouth_actions":[],
+  "palette_rationale":"Preserve approved white fur, red cape, blue claws and source yellow/dark eye details in the anchored Idle palette.",
+  "reference":"Own DSTS chr687 Huckmon model and native clips; PMDO engine registry supplies action IDs/timing fields.",
+  "ground_policy_note":"Fixed row-79 shadow on padded action canvas; preserve source cape, ear, tail and quadrupedal root motion without per-frame recentering.",
+  "actions":[
+    {"name":"Walk","clip":"chr687_br01","seconds":0.666667,"sample_phases":[0,0.125,0.25,0.375,0.5,0.625,0.75,0.875],"durations":[8,8,8,8,8,8,8,8],"ground_policy":"fixed","pose_evidence":"Native quadrupedal gait and trailing cape; endpoint omitted."},
+    {"name":"Attack","clip":"chr687_ba01","seconds":1.333333,"sample_phases":[0,0.08,0.17,0.28,0.4,0.55,0.7,0.84,0.98],"durations":[3,3,4,5,5,4,4,4,5],"ground_policy":"fixed","events":{"RushFrame":1,"HitFrame":4,"ReturnFrame":7},"pose_evidence":"Native lunging claw attack and recovery; no painted impact."},
+    {"name":"Shoot","clip":"chr687_fe04","seconds":1.666667,"sample_phases":[0,0.1,0.22,0.35,0.48,0.62,0.78,0.96],"durations":[4,4,5,5,6,5,4,6],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":6},"pose_evidence":"Source cape-spread special release; no projectile asset invented."},
+    {"name":"Sleep","clip":"chr687_bn02","seconds":3.333333,"sample_phases":[0,0.166667,0.333333,0.5,0.666667,0.833333],"durations":[33,33,33,33,33,33],"ground_policy":"fixed","pose_evidence":"Source resting quadrupedal pose and lowered cape; no invented eyelids."},
+    {"name":"Hurt","clip":"chr687_bd01","seconds":1.0,"sample_phases":[0,0.06,0.13,0.22,0.32,0.45,0.62,0.8,0.97],"durations":[3,4,4,4,5,4,4,4,5],"ground_policy":"fixed","events":{"HitFrame":2},"pose_evidence":"Native recoil with cape response."},
+    {"name":"Swing","clip":"chr687_ba02","seconds":2.0,"sample_phases":[0,0.1,0.22,0.35,0.48,0.62,0.78,0.96],"durations":[4,4,5,5,5,4,4,5],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":6},"pose_evidence":"Native secondary attack clip spreads and sweeps the red cape while keeping the body inside stable framing; own bs01 leaves the frame at its opening and is preserved only as failed diagnostic evidence."},
+    {"name":"Double","clip":"chr687_ba01","seconds":1.333333,"sample_phases":[0,0.17,0.4,0.7,0.98,0,0.17,0.4,0.7,0.98],"durations":[3,4,5,4,4,3,4,5,4,6],"ground_policy":"fixed","events":{"RushFrame":1,"HitFrame":2,"ReturnFrame":8},"pose_evidence":"Two native lunge cycles with one PMDO HitFrame."},
+    {"name":"Hop","clip":"chr687_bf01","seconds":1.333333,"sample_phases":[0,0.06,0.14,0.25,0.4,0.55,0.72,0.97],"durations":[4,5,5,8,8,5,4,6],"ground_policy":"fixed","events":{"HitFrame":5},"pose_evidence":"Own source spring and cape/tail lift; preserve actual ground gap."},
+    {"name":"Charge","clip":"chr687_bv01","seconds":2.433333,"sample_phases":[0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.82,0.96],"durations":[4,5,5,6,7,7,8,5,4,5],"ground_policy":"fixed","events":{"HitFrame":6,"ReturnFrame":8},"pose_evidence":"Native braced body and cape flare without glow."},
+    {"name":"Rotate","clip":"chr687_fq01","seconds":2.0,"sample_phases":[0,0.083333,0.166667,0.25,0.333333,0.416667,0.5,0.583333,0.666667,0.75,0.833333,0.916667],"durations":[4,4,4,4,4,4,4,4,4,4,4,4],"ground_policy":"fixed","turn_degrees":[0,30,60,90,120,150,180,210,240,270,300,330],"events":{"HitFrame":6},"pose_evidence":"Native stance/cape motion plus whole-view yaw; endpoint excluded."}
+  ]
+}

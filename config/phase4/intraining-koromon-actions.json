@@ -1,0 +1,348 @@
+{
+  "species": "koromon",
+  "model_path": "work/phase4/source/koromon.glb",
+  "approved_idle": "work/phase4/intraining-production/koromon-idle-v3/package/10007",
+  "palette_policy": "approved-idle",
+  "mouth_palette": false,
+  "mouth_colors": [],
+  "open_mouth_actions": [],
+  "palette_rationale": "Exact62 approved Idle v3 colors used for all actions; no per-sheet newcolors. User-approved47pixel rule applied per source-visible native eye.",
+  "reference": "Round grounded body/ears: missing semantic hold/recovery timing only, never reference limbs, eyes, pose pixels or geometry.",
+  "reference_commit": "03c80dad937911572f8fb19903771a47956fc696",
+  "reference_animdata_sha256": "baa5ab4acbf6234acb7c80dad62be58eebd9694dccda2ed60f03597b9c1b3359",
+  "actions": [
+    {
+      "name": "Walk",
+      "clip": "chr322_br01",
+      "seconds": 0.6666667090521945,
+      "sample_phases": [
+        0,
+        0.125,
+        0.25,
+        0.375,
+        0.5,
+        0.625,
+        0.75,
+        0.8750000000000001
+      ],
+      "durations": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Native repeated whole-body bounding with opening jaw and trailing ears; no feet. Native vertical arc retained; engine logical travel replaces rootXZ."
+    },
+    {
+      "name": "Attack",
+      "clip": "chr322_ba01",
+      "seconds": 1.700000108083096,
+      "sample_phases": [
+        0,
+        0.04999999682108562,
+        0.14999999046325685,
+        0.2999999809265137,
+        0.39999997456868497,
+        0.5499999650319418,
+        0.5999999618530274,
+        0.7999999491373699,
+        0.9882352312873391
+      ],
+      "durations": [
+        3,
+        3,
+        4,
+        5,
+        5,
+        4,
+        3,
+        4,
+        5
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Native large airborne open-mouth bite/body lunge, ears recoil separately. Contact chosen at open-jaw forward phase .68s. No crop or invented arms.",
+      "events": {
+        "RushFrame": 1,
+        "HitFrame": 4,
+        "ReturnFrame": 6
+      }
+    },
+    {
+      "name": "Shoot",
+      "clip": "chr322_ba02",
+      "seconds": 1.7333334435357057,
+      "sample_phases": [
+        0,
+        0.09807691684136025,
+        0.20019229496442353,
+        0.2999999809265137,
+        0.44999997138977055,
+        0.5498076573518607,
+        0.7499999523162842,
+        0.9692307076087365
+      ],
+      "durations": [
+        4,
+        4,
+        5,
+        5,
+        7,
+        4,
+        4,
+        5
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Native backward head windup then lower open-mouth release and landing; distinct from high Attack arc. No projectile asset or inferred ejection.",
+      "events": {
+        "RushFrame": 2,
+        "HitFrame": 4,
+        "ReturnFrame": 6
+      }
+    },
+    {
+      "name": "Sleep",
+      "clip": "chr322_bn02",
+      "seconds": 2.333333481682681,
+      "sample_phases": [
+        0,
+        0.16666666666666666,
+        0.3333333333333333,
+        0.5,
+        0.6666666666666666,
+        0.8333333333333334
+      ],
+      "durations": [
+        23,
+        23,
+        23,
+        23,
+        23,
+        23
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Native low resting breathing/ears. Source b01 closed-eye row selected UV+.25. Constant post-conversionY-2 for whole Sleep sequence from audited underside -.044..-.048world; not per-frame fit/crop."
+    },
+    {
+      "name": "Hurt",
+      "clip": "chr322_bd01",
+      "seconds": 1.1333334053887307,
+      "sample_phases": [
+        0,
+        0.05294117310467888,
+        0.0997058760138119,
+        0.1764705770155963,
+        0.2470588078218348,
+        0.3529411540311926,
+        0.5999999618530274,
+        0.7941175965701832,
+        0.9705881735857795
+      ],
+      "durations": [
+        3,
+        4,
+        5,
+        4,
+        5,
+        4,
+        4,
+        4,
+        5
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Native head/back recoil then body slump and recovery. Ground audit required for transient low poses; no blanket crop.",
+      "events": {
+        "HitFrame": 2
+      }
+    },
+    {
+      "name": "Swing",
+      "clip": "chr322_fe01",
+      "seconds": 2.0000001271565835,
+      "sample_phases": [
+        0,
+        0.12499999205271403,
+        0.24999998410542806,
+        0.3749999761581421,
+        0.4999999682108561,
+        0.6249999602635702,
+        0.7999999491373699,
+        0.9849999373753866
+      ],
+      "durations": [
+        3,
+        4,
+        4,
+        5,
+        5,
+        4,
+        4,
+        5
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Native two long feelers lift/sweep back with body turn and mouth gesture; appendage-based sweep, not hands. Front/side auditions used.",
+      "events": {
+        "RushFrame": 2,
+        "HitFrame": 4,
+        "ReturnFrame": 6
+      }
+    },
+    {
+      "name": "Double",
+      "clip": "chr322_ba02",
+      "seconds": 1.7333334435357057,
+      "sample_phases": [
+        0,
+        0.20019229496442353,
+        0.3501922854276804,
+        0.5498076573518607,
+        0.9692307076087365,
+        0,
+        0.20019229496442353,
+        0.3501922854276804,
+        0.5498076573518607,
+        0.9692307076087365
+      ],
+      "durations": [
+        3,
+        4,
+        5,
+        4,
+        4,
+        3,
+        4,
+        5,
+        4,
+        6
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Two retimed smaller native head/body thrust cycles. Visual contacts2 and7; engine only one HitFrame, no invented gameplay second hit.",
+      "events": {
+        "RushFrame": 1,
+        "HitFrame": 2,
+        "ReturnFrame": 8
+      }
+    },
+    {
+      "name": "Hop",
+      "clip": "chr322_ba01",
+      "seconds": 1.700000108083096,
+      "sample_phases": [
+        0,
+        0.09999999364217124,
+        0.24999998410542806,
+        0.39999997456868497,
+        0.4999999682108561,
+        0.5999999618530274,
+        0.6999999554951986,
+        0.9882352312873391
+      ],
+      "durations": [
+        4,
+        5,
+        5,
+        8,
+        6,
+        4,
+        4,
+        6
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Same source ba01 airborne body arc as Attack, explicitly retimed for ascent/apex/landing; no separate native jump claim. Hop apex hold8ticks vsAttack5; no procedural lift.",
+      "events": {
+        "HitFrame": 5
+      }
+    },
+    {
+      "name": "Charge",
+      "clip": "chr322_fe03",
+      "seconds": 3.0000001907348754,
+      "sample_phases": [
+        0,
+        0.09999999364217121,
+        0.19999998728434243,
+        0.2999999809265137,
+        0.39999997456868486,
+        0.4999999682108561,
+        0.5499999650319417,
+        0.39999997456868486,
+        0.19999998728434243,
+        0
+      ],
+      "durations": [
+        4,
+        5,
+        5,
+        6,
+        7,
+        7,
+        8,
+        5,
+        4,
+        5
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Native gathering head/mouth rise and raised feelers through1.65s, then reverse buildup to neutral. Omit later ear sweep that geometry survey places belowfloor. Pinned round-body reference hold/release convention only.",
+      "events": {
+        "HitFrame": 6,
+        "ReturnFrame": 8
+      }
+    },
+    {
+      "name": "Rotate",
+      "clip": "chr322_fq01",
+      "seconds": 1.333333418104389,
+      "sample_phases": [
+        0,
+        0.08333333333333333,
+        0.16666666666666666,
+        0.25,
+        0.3333333333333333,
+        0.41666666666666663,
+        0.5,
+        0.5833333333333334,
+        0.6666666666666666,
+        0.75,
+        0.8333333333333333,
+        0.9166666666666667
+      ],
+      "durations": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Native grounded head/ear look gesture plus explicit whole-model360 yaw via camera azimuth. No native completeyaw clip identified; fixedscale/ground retained. Endpoint excluded for seamless turn.",
+      "events": {
+        "HitFrame": 6
+      },
+      "turn_degrees": [
+        0,
+        30,
+        60,
+        90,
+        120,
+        150,
+        180,
+        210,
+        240,
+        270,
+        300,
+        330
+      ]
+    }
+  ]
+}

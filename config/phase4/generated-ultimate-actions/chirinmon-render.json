@@ -1,0 +1,114 @@
+{
+  "species": "chirinmon",
+  "display_name": "Chirinmon",
+  "source_chr_id": "chr084",
+  "model_path": "work/phase4/ultimate-production/chirinmon-idle-candidate/chirinmon.glb",
+  "pmdo_index": 10174,
+  "idle_clip": "chr084_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0,
+    0.5,
+    1.0,
+    1.5
+  ],
+  "idle_duration_ticks": 30,
+  "approved_neutral_height": 50,
+  "neutral_frame": 0,
+  "frame_size": 288,
+  "render_size": 2304,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1
+  },
+  "idle_ground_policy": "fixed",
+  "ground_contact_row": 172,
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "source_eye_masks": true,
+    "head_bones": [
+      "J_head"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.08,
+    "fixed_framing": {
+      "center": [
+        0,
+        2.6,
+        0
+      ],
+      "extent": 16.200000000000003
+    },
+    "offset_bones": {
+      "head": "J_head",
+      "center": "J_center",
+      "left_hand": "J_frontmanus01_l",
+      "right_hand": "J_frontmanus01_r"
+    },
+    "horizontal_root_lock": {
+      "chr084_bs01": {
+        "bone": "J_center",
+        "reference_time": 0.0,
+        "axes": [
+          "x",
+          "y",
+          "z"
+        ],
+        "reference_clip": "chr084_bn01"
+      }
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.7916666666666666
+    ]
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ],
+  "anatomy_notes": {
+    "source": "Direct Time Stranger chr084; native two-second chr084_bn01 loop sampled endpoint-exclusively.",
+    "face": "Paired eye_L/R use source e01 diffuse, e01h shine, and b01m overlay mask; no painted pupils.",
+    "silhouette": "Preserve source crest, face, quadruped legs, wide wings, and tail.",
+    "offsets": "Front manus bones supply anatomically matched PMDO hand slots.",
+    "ground": "Fixed shadow; assess front and hind feet separately from wings and tail."
+  }
+}

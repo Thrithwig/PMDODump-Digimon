@@ -1,0 +1,38 @@
+{
+  "species": "pagumon", "display_name": "Pagumon", "source_chr_id": "chr567",
+  "model_path": "work/phase4/source/pagumon.glb", "pmdo_index": 10013,
+  "idle_clip": "chr567_bn01", "idle_frames": 4,
+  "frame_times": [0, 0.5000000317891459, 1.0000000635782917, 1.5000000953674377],
+  "idle_duration_ticks": 30, "approved_neutral_height": 18, "neutral_frame": 0,
+  "frame_size": 64, "render_size": 512, "minimum_edge_margin": 2,
+  "palette_size": 64, "alpha_cutoff": 128,
+  "outline": {"enabled": true, "depth_threshold": 1, "normal_dot_threshold": -1},
+  "idle_ground_policy": "fixed", "ground_contact_row": 43,
+  "renderer": {
+    "eye_mode": "source", "native_eye_layers": true, "source_eye_masks": true,
+    "head_bones": ["J_ago"], "emissive_intensity": 0.55, "elevation": 0.08,
+    "fixed_framing": {"center": [0, 0.28, 0], "extent": 1.13},
+    "offset_bones": {
+      "head": {"bone": "J_ago", "local_point": [0, 0.147, 0.15]},
+      "center": "J_center", "left_hand": "J_mimi_L1", "right_hand": "J_mimi_R1"
+    }
+  },
+  "offsets": {"source": "projected-native-bones-v1", "shadow": [0.5, 0.8]},
+  "directions": [
+    {"name": "Down", "azimuth_degrees": 0},
+    {"name": "DownRight", "azimuth_degrees": 315},
+    {"name": "Right", "azimuth_degrees": 270},
+    {"name": "UpRight", "azimuth_degrees": 225},
+    {"name": "Up", "azimuth_degrees": 180},
+    {"name": "UpLeft", "azimuth_degrees": 135},
+    {"name": "Left", "azimuth_degrees": 90},
+    {"name": "DownLeft", "azimuth_degrees": 45}
+  ],
+  "anatomy_notes": {
+    "source": "Own chr567 model; PMDO10013; 18px Small target. Fresh fixed extent1.13 between failed 1.125/19px and 1.138/17px; no raster resize or frame fit.",
+    "eyes": "Paired source eye_L/R meshes, e01/e01h and UV2-b01 dark opening/mask; p01 overlay-normal is not a pupil. Audit true depth visibility and native-size contrast.",
+    "ground": "Native J_center vertical bounce; fixed ground row43. Include two-segment ear appendages in silhouette.",
+    "markers": "J_ago projected eye midpoint, J_center body, real ear roots J_mimi_L1/R1 as PMDO hand-field substitutes, not literal hands.",
+    "motion": "bn01 native 2.00000013s loop; four quarter-cycle frames/30 ticks, endpoint excluded."
+  }
+}

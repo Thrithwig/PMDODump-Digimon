@@ -1,0 +1,30 @@
+{
+  "species":"keramon","display_name":"Keramon","source_chr_id":"chr626",
+  "model_path":"work/phase4/rookie-production/keramon-preflight/keramon.glb","pmdo_index":10031,
+  "idle_clip":"chr626_bn01","idle_frames":4,"frame_times":[0,0.333333,0.666667,1.0],
+  "idle_duration_ticks":20,"approved_neutral_height":21,"neutral_frame":0,
+  "frame_size":64,"render_size":512,"minimum_edge_margin":2,"palette_size":64,
+  "alpha_cutoff":128,"outline":{"enabled":true,"depth_threshold":1,"normal_dot_threshold":-1},
+  "placement":{"mode":"airborne","shadow_row":47,"minimum_gap":2},
+  "idle_ground_policy":"fixed",
+  "renderer":{
+    "eye_mode":"source","native_eye_layers":true,"source_eye_masks":true,
+    "head_bones":["J_atama"],"emissive_intensity":0.55,"elevation":0.08,
+    "fixed_framing":{"center":[0,0.55,0],"extent":1.82},
+    "offset_bones":{"head":"J_atama","center":"J_center",
+      "left_hand":"J_te_L","right_hand":"J_te_R"}
+  },
+  "offsets":{"source":"projected-native-bones-v1","shadow":[0.5,0.8]},
+  "directions":[
+    {"name":"Down","azimuth_degrees":0},{"name":"DownRight","azimuth_degrees":315},
+    {"name":"Right","azimuth_degrees":270},{"name":"UpRight","azimuth_degrees":225},
+    {"name":"Up","azimuth_degrees":180},{"name":"UpLeft","azimuth_degrees":135},
+    {"name":"Left","azimuth_degrees":90},{"name":"DownLeft","azimuth_degrees":45}
+  ],
+  "anatomy_notes":{
+    "source":"Own DSTS chr626 Keramon model/clips; reviewed 21px Idle fixes scale and facings.",
+    "face":"Preserve own paired eye meshes, mouth/teeth and yellow collar only where source-depth visible; no painted pupils.",
+    "silhouette":"Keep lavender head, paired hands, long thin appendages and distinct side/back occlusion.",
+    "ground":"Intentional airborne row-47 shadow with 2px Idle gap; retain source lift and do not snap limbs to ground."
+  }
+}

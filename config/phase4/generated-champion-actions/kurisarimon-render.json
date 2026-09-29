@@ -1,0 +1,106 @@
+{
+  "species": "kurisarimon",
+  "display_name": "Kurisarimon",
+  "source_chr_id": "chr630",
+  "model_path": "work/phase4/champion-production/kurisarimon-idle-candidate/kurisarimon.glb",
+  "pmdo_index": 10089,
+  "idle_clip": "chr630_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0,
+    0.416667,
+    0.833333,
+    1.25
+  ],
+  "idle_duration_ticks": 25,
+  "approved_neutral_height": 26,
+  "neutral_frame": 0,
+  "frame_size": 192,
+  "render_size": 1536,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 32,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1
+  },
+  "idle_ground_policy": "fixed",
+  "placement": {
+    "mode": "airborne",
+    "shadow_row": 124,
+    "minimum_gap": 4
+  },
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "source_eye_masks": true,
+    "head_bones": [
+      "J_atama"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.06,
+    "fixed_framing": {
+      "center": [
+        0,
+        0.9,
+        0
+      ],
+      "extent": 7.0
+    },
+    "offset_bones": {
+      "head": "J_atama",
+      "center": "J_center",
+      "left_hand": "J_shokushu_a_L07",
+      "right_hand": "J_shokushu_a_R07"
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.7916666667
+    ]
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ],
+  "anatomy_notes": {
+    "source": "Direct chr630 model; native chr630_bn01 Idle loop (1.666667 seconds, 32 channels).",
+    "silhouette": "Preserve segmented violet body, paired eye meshes, terminal abdominal spike and three tentacle chains on each side.",
+    "eyes": "Source eye_L/eye_R use e01 diffuse, e01h shine alpha and b01m mask. Inspect native-size result before any eye edit.",
+    "markers": "The a-chain terminal bones are left/right PMDO hand-slot tentacle substitutes, not humanoid hands.",
+    "placement": "The source pose has no ground-contact feet; keep a fixed shadow below the abdominal spike and native loop bob."
+  }
+}

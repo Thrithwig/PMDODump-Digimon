@@ -1,0 +1,21 @@
+{
+  "species": "demidevimon",
+  "jobs": [
+    {"clip":"chr097_br01","time":0.30,"azimuth":0,"note":"flight locomotion midpoint"},
+    {"clip":"chr097_ba01","time":0.66,"azimuth":0,"note":"primary attack midpoint"},
+    {"clip":"chr097_ba02","time":1.11,"azimuth":0,"note":"alternate attack midpoint"},
+    {"clip":"chr097_bf01","time":0.66,"azimuth":0,"note":"flight hop midpoint"},
+    {"clip":"chr097_bg01","time":0.36,"azimuth":0,"note":"native bg01 midpoint"},
+    {"clip":"chr097_bg02","time":0.36,"azimuth":0,"note":"native bg02 midpoint"},
+    {"clip":"chr097_bs01","time":1.10,"azimuth":0,"note":"native swing midpoint"},
+    {"clip":"chr097_bn02","time":1.98,"azimuth":0,"note":"sleep midpoint"},
+    {"clip":"chr097_bv01","time":1.58,"azimuth":0,"note":"charge midpoint"},
+    {"clip":"chr097_fe01","time":0.96,"azimuth":0,"note":"fe01 expression midpoint"},
+    {"clip":"chr097_fe04","time":1.11,"azimuth":0,"note":"fe04 expression midpoint"},
+    {"clip":"chr097_fq01","time":0.90,"azimuth":0,"note":"rotate clip midpoint"},
+    {"clip":"chr097_bd01","time":0.46,"azimuth":0,"note":"hurt midpoint"},
+    {"clip":"chr097_br01","time":0.30,"azimuth":90,"note":"walk side"},
+    {"clip":"chr097_bf01","time":0.66,"azimuth":90,"note":"hop side"},
+    {"clip":"chr097_fe04","time":1.11,"azimuth":90,"note":"shoot side"}
+  ]
+}

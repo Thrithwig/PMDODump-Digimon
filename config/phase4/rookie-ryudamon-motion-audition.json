@@ -1,0 +1,6 @@
+{"species":"ryudamon","jobs":[
+  {"clip":"chr190_ba01","time":0.06,"azimuth":0,"note":"ba01 start"},{"clip":"chr190_ba01","time":0.38,"azimuth":0,"note":"ba01 windup"},{"clip":"chr190_ba01","time":0.75,"azimuth":0,"note":"ba01 contact"},{"clip":"chr190_ba01","time":1.38,"azimuth":0,"note":"ba01 recovery"},
+  {"clip":"chr190_ba02","time":0.06,"azimuth":0,"note":"ba02 start"},{"clip":"chr190_ba02","time":0.55,"azimuth":0,"note":"ba02 windup"},{"clip":"chr190_ba02","time":1.05,"azimuth":0,"note":"ba02 contact"},{"clip":"chr190_ba02","time":1.9,"azimuth":0,"note":"ba02 recovery"},
+  {"clip":"chr190_bs01","time":0.06,"azimuth":0,"note":"Swing start"},{"clip":"chr190_bs01","time":0.55,"azimuth":0,"note":"Swing rise"},{"clip":"chr190_bs01","time":1.05,"azimuth":0,"note":"Swing contact"},{"clip":"chr190_bs01","time":1.9,"azimuth":0,"note":"Swing recovery"},
+  {"clip":"chr190_fe01","time":0.06,"azimuth":0,"note":"fe01 start"},{"clip":"chr190_fe01","time":0.85,"azimuth":0,"note":"fe01 gather"},{"clip":"chr190_fe01","time":1.55,"azimuth":0,"note":"fe01 release"},{"clip":"chr190_fe01","time":2.9,"azimuth":0,"note":"fe01 recovery"}
+]}

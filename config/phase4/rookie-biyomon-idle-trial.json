@@ -1,0 +1,53 @@
+{
+  "species": "biyomon",
+  "display_name": "Biyomon",
+  "source_chr_id": "chr307",
+  "model_path": "work/phase4/source/biyomon.glb",
+  "pmdo_index": 10050,
+  "idle_clip": "chr307_bn01",
+  "idle_frames": 4,
+  "frame_times": [0, 0.416666, 0.833333, 1.249999],
+  "idle_duration_ticks": 50,
+  "approved_neutral_height": 22,
+  "neutral_frame": 0,
+  "frame_size": 64,
+  "render_size": 512,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {"enabled": true, "depth_threshold": 1, "normal_dot_threshold": -1},
+  "idle_ground_policy": "fixed",
+  "ground_contact_row": 47,
+  "renderer": {
+    "eye_mode":"source",
+    "native_eye_layers":true,
+    "source_eye_masks":true,
+    "head_bones":["J_atama"],
+    "emissive_intensity":0.55,
+    "elevation":0.08,
+    "fixed_framing":{"center":[0,1.13,0],"extent":1.82},
+    "offset_bones":{
+      "head":"J_atama",
+      "center":"J_center",
+      "left_hand":"J_te_L",
+      "right_hand":"J_te_R"
+    }
+  },
+  "offsets":{"source":"projected-native-bones-v1","shadow":[0.5,0.8]},
+  "directions":[
+    {"name":"Down","azimuth_degrees":0},
+    {"name":"DownRight","azimuth_degrees":315},
+    {"name":"Right","azimuth_degrees":270},
+    {"name":"UpRight","azimuth_degrees":225},
+    {"name":"Up","azimuth_degrees":180},
+    {"name":"UpLeft","azimuth_degrees":135},
+    {"name":"Left","azimuth_degrees":90},
+    {"name":"DownLeft","azimuth_degrees":45}
+  ],
+  "anatomy_notes":{
+    "source":"Own chr307 model; 22px Idle trial only, not installed or action-approved.",
+    "eyes":"Blue source-layered eyes are visible against pink face at model scale; native-size check pending.",
+    "markers":"Use native head, center, and wing/hand bones; left/right orientation to verify.",
+    "ground":"Feet define ground contact; raised wings and head plume belong to silhouette."
+  }
+}

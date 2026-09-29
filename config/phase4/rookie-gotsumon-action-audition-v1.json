@@ -1,0 +1,21 @@
+{
+  "species":"gotsumon",
+  "jobs":[
+    {"clip":"chr595_br01","time":0.2,"azimuth":0,"note":"Walk front early"},
+    {"clip":"chr595_br01","time":0.6,"azimuth":270,"note":"Walk side late"},
+    {"clip":"chr595_ba01","time":0.48,"azimuth":0,"note":"Attack fist windup"},
+    {"clip":"chr595_ba01","time":1.1,"azimuth":270,"note":"Attack side contact"},
+    {"clip":"chr595_ba02","time":1.0,"azimuth":0,"note":"Alternate attack"},
+    {"clip":"chr595_fe04","time":1.0,"azimuth":0,"note":"Special front"},
+    {"clip":"chr595_fe01","time":1.25,"azimuth":270,"note":"Alternate special"},
+    {"clip":"chr595_bn02","time":1.0,"azimuth":0,"note":"Sleep front"},
+    {"clip":"chr595_bd01","time":0.42,"azimuth":0,"note":"Hurt front"},
+    {"clip":"chr595_bs01","time":0.8,"azimuth":270,"note":"Swing side"},
+    {"clip":"chr595_bs02","time":1.5,"azimuth":0,"note":"Alternate swing"},
+    {"clip":"chr595_bf01","time":0.8,"azimuth":0,"note":"Hop front"},
+    {"clip":"chr595_bv01","time":1.35,"azimuth":270,"note":"Charge side"},
+    {"clip":"chr595_bg01","time":0.42,"azimuth":0,"note":"Guard alternate"},
+    {"clip":"chr595_fq01","time":0.75,"azimuth":0,"note":"Rotate source"},
+    {"clip":"chr595_bs01","time":1.45,"azimuth":0,"note":"Swing late front"}
+  ]
+}

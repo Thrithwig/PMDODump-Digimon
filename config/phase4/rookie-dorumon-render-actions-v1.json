@@ -1,0 +1,28 @@
+{
+  "species":"dorumon","display_name":"Dorumon","source_chr_id":"chr112",
+  "model_path":"work/phase4/source/dorumon.glb","pmdo_index":10044,
+  "idle_clip":"chr112_bn01","idle_frames":4,"frame_times":[0,0.5,1,1.5],"idle_duration_ticks":30,
+  "approved_neutral_height":24,"neutral_frame":0,"frame_size":96,"render_size":768,
+  "minimum_edge_margin":2,"palette_size":64,"alpha_cutoff":128,
+  "outline":{"enabled":true,"depth_threshold":1,"normal_dot_threshold":-1},
+  "idle_ground_policy":"fixed","ground_contact_row":71,
+  "renderer":{
+    "eye_mode":"source","native_eye_layers":true,"source_eye_masks":true,
+    "head_bones":["J_atama"],"emissive_intensity":0.55,"elevation":0.08,
+    "fixed_framing":{"center":[0,0.9,-0.45],"extent":3.45},
+    "offset_bones":{"head":"J_atama","center":"J_center","left_hand":"J_te_L","right_hand":"J_te_R"}
+  },
+  "offsets":{"source":"projected-native-bones-v1","shadow":[0.5,0.8]},
+  "directions":[
+    {"name":"Down","azimuth_degrees":0},{"name":"DownRight","azimuth_degrees":315},
+    {"name":"Right","azimuth_degrees":270},{"name":"UpRight","azimuth_degrees":225},
+    {"name":"Up","azimuth_degrees":180},{"name":"UpLeft","azimuth_degrees":135},
+    {"name":"Left","azimuth_degrees":90},{"name":"DownLeft","azimuth_degrees":45}
+  ],
+  "anatomy_notes":{
+    "source":"Own DSTS chr112 with large ears, four limbs, and tail. 96 px action canvas uses the Idle trial's exact pixels per world unit.",
+    "eyes":"Source eye_L and eye_R plus p01 gold iris and dark pupil. Any contrast revision must use source eye coverage.",
+    "markers":"Native J_atama, J_center, J_te_L, J_te_R.",
+    "ground":"Four feet are ground evidence; fixed shadow row 71 is 24 px below Idle trial row 47."
+  }
+}

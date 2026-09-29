@@ -1,0 +1,159 @@
+{
+  "species": "kuramon",
+  "display_name": "Kuramon",
+  "dsts_chr": "chr629",
+  "model_path": "work/phase4/source/kuramon.glb",
+  "pmdo_index": 10001,
+  "idle_clip": "chr629_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0,
+    0.5,
+    1,
+    1.5
+  ],
+  "idle_duration_ticks": 30,
+  "approved_neutral_height": 18,
+  "neutral_frame": 0,
+  "frame_size": 96,
+  "render_size": 768,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1,
+    "closed_eye_row": "widest",
+    "closed_eye_fill": [
+      145,
+      141,
+      165
+    ],
+    "closed_eye_ink": [
+      0,
+      0,
+      0
+    ]
+  },
+  "placement": {
+    "mode": "airborne",
+    "shadow_row": 57,
+    "minimum_gap": 0,
+    "fixed_vertical_shift": 0
+  },
+  "idle_ground_policy": "fixed",
+  "renderer": {
+    "eye_mode": "source",
+    "head_bones": [
+      "J_center",
+      "J_mune",
+      "J_hip"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.08,
+    "fixed_framing": {
+      "center": [
+        0,
+        0.29,
+        -0.15
+      ],
+      "extent": 1.755
+    },
+    "offset_bones": {
+      "head": {
+        "bone": "J_mune",
+        "local_point": [
+          0,
+          0.0492115,
+          0.2252438
+        ]
+      },
+      "center": "J_center",
+      "left_hand": {
+        "bone": "J_center",
+        "local_point": [
+          0.18,
+          -0.07,
+          0.08
+        ]
+      },
+      "right_hand": {
+        "bone": "J_center",
+        "local_point": [
+          -0.18,
+          -0.07,
+          0.08
+        ]
+      }
+    },
+    "source_eye_masks": true,
+    "horizontal_root_lock": {
+      "chr629_ba01": {
+        "bone": "J_center",
+        "reference_time": 0
+      },
+      "chr629_ba02": {
+        "bone": "J_center",
+        "reference_time": 0
+      },
+      "chr629_bd01": {
+        "bone": "J_center",
+        "reference_time": 0
+      },
+      "chr629_bv01": {
+        "bone": "J_center",
+        "reference_time": 0
+      }
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.8
+    ]
+  },
+  "anatomy_notes": {
+    "eye": "One central eye mesh named eye_L; no eye_R exists. Native white eye textures chr629e01h/e01 and black rim from body overlay chr629b01 retained. No procedural pupils or paired-eye mask.",
+    "head": "Eye bind-box center minus J_mune bind world position yields local head attachment [0,0.0492115,0.2252438].",
+    "hand_slots": "No limb bones: documented left/right inner body-side points attached to J_center, not arms or hands. Anatomical left is native +X (front view screen-right).",
+    "motion": "Native bn01 has a closed two-second bob loop with J_center vertical span0.1073. Preserve the motion above a fixed shadow rather than snapping radial appendages to ground each frame.",
+    "pending": "18px neutral height to be verified after fixed-scale probe; parent reviews readability and body-side marker convention.",
+    "actions": "96px canvas at triple Idle extent/resolution: identical pixels per model unit. Shadow57-center48 = approved Idle25-center16 = +9; fixed zero placement translation retains source Y. No per-frame fit."
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ]
+}

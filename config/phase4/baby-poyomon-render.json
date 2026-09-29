@@ -1,0 +1,510 @@
+{
+  "species": "poyomon",
+  "display_name": "Poyomon",
+  "source_chr_id": "chr320",
+  "model_path": "work/phase4/source/poyomon.glb",
+  "pmdo_index": 10005,
+  "idle_clip": "chr320_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0,
+    0.5,
+    1,
+    1.5
+  ],
+  "idle_duration_ticks": 30,
+  "approved_neutral_height": 17,
+  "neutral_frame": 0,
+  "frame_size": 96,
+  "render_size": 768,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1,
+    "closed_eye_fill": [
+      180,
+      216,
+      234
+    ],
+    "closed_eye_ink": [
+      65,
+      93,
+      120
+    ],
+    "closed_eye_row": "widest"
+  },
+  "placement": {
+    "mode": "airborne",
+    "shadow_row": 57,
+    "minimum_gap": 0,
+    "fixed_vertical_shift": -2
+  },
+  "idle_ground_policy": "fixed",
+  "renderer": {
+    "eye_mode": "source",
+    "head_bones": [
+      "J_center",
+      "J_body2"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.08,
+    "fixed_framing": {
+      "center": [
+        0,
+        0.265,
+        0
+      ],
+      "extent": 1.47
+    },
+    "offset_bones": {
+      "head": {
+        "bone": "J_body2",
+        "local_point": [
+          0,
+          -0.012552980821506576,
+          0.1293178911134719
+        ]
+      },
+      "center": "J_center",
+      "left_hand": {
+        "bone": "J_center",
+        "local_point": [
+          0.17,
+          -0.02611687055785547,
+          0.05331075649935334
+        ]
+      },
+      "right_hand": {
+        "bone": "J_center",
+        "local_point": [
+          -0.17,
+          -0.02611687055785547,
+          0.05331075649935334
+        ]
+      }
+    },
+    "source_eye_masks": true,
+    "horizontal_root_lock": {
+      "chr320_ba01": {
+        "bone": "J_root",
+        "reference_time": 0
+      },
+      "chr320_ba02": {
+        "bone": "J_root",
+        "reference_time": 0
+      },
+      "chr320_bd01": {
+        "bone": "J_root",
+        "reference_time": 0
+      },
+      "chr320_bi01": {
+        "bone": "J_root",
+        "reference_time": 0
+      },
+      "chr320_br01": {
+        "bone": "J_root",
+        "reference_time": 0
+      },
+      "chr320_bv01": {
+        "bone": "J_root",
+        "reference_time": 0
+      },
+      "chr320_fe01": {
+        "bone": "J_root",
+        "reference_time": 0
+      },
+      "chr320_fe02": {
+        "bone": "J_root",
+        "reference_time": 0
+      },
+      "chr320_fe03": {
+        "bone": "J_root",
+        "reference_time": 0
+      },
+      "chr320_fe04": {
+        "bone": "J_root",
+        "reference_time": 0
+      },
+      "chr320_fq01": {
+        "bone": "J_root",
+        "reference_time": 0
+      }
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.8
+    ]
+  },
+  "anatomy_notes": {
+    "source": "chr320 existing dsts-extractor0.9.0 GLB; PMDO10005 verified from installed manifest read-only.",
+    "eyes": "Two white eye_L/eye_R meshes use source chr320e01h. UV3 face patches explicitly sample chr320b01 dark neutral circles, retained unmodified beneath the separate eye geometry. chr320p01 is source OverlayNormalSampler, not a diffuse pupil map. No borrowed pupils, replacement eye texture, or Agumon mask; fidelity is to exported GLB, not a claim of full original shader equivalence.",
+    "head": "Measured eye bind midpoint [0,0.2810914889,0.1426289938] transformed into J_body2 local space; follows native face deformation.",
+    "hand_slots": "No limbs or arm bones. Documented inner body-side points at bind-world [+/-0.17,0.14,0.05], transformed into J_center local space; anatomical left is +X, screen-right from front. Markers are attachment conventions, not hands.",
+    "ground": "Native underside sampled above bind floor Y0: minima0.0035..0.0853 with root bob0.08. Low airborne float with drooping rim; preserve all native Y/rotation/scale and small XZ sway above fixed shadow25 using one global placement shift across all directions and frames.",
+    "motion": "Native bn01 two-second bob/sway, quarter-cycle samples0,.5,1,1.5 at30ticks each. Source scale tracks stop before loop endpoint; root XZ scale endpoint differs about1.9%, retained rather than synthetic loop repair.",
+    "pending": "17px neutral target requires pixel verification; pale source-white eyes may be subtle against pale-blue body. Idle only, other actions explicit placeholders pending separate authorization.",
+    "actions": "96px canvas/768 render/extent1.47, triple Idle values: exact same pixels per model unit. Shadow57-center48=Idle25-center16=+9. Same fixed placement Y-2 for every action/frame/direction; native bob/lift retained. J_root XZ stabilized, no per-frame fit."
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ],
+  "fixed_palette_colors": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      146,
+      176,
+      198
+    ],
+    [
+      148,
+      183,
+      217
+    ],
+    [
+      149,
+      181,
+      206
+    ],
+    [
+      151,
+      178,
+      197
+    ],
+    [
+      151,
+      186,
+      217
+    ],
+    [
+      152,
+      182,
+      206
+    ],
+    [
+      152,
+      187,
+      219
+    ],
+    [
+      155,
+      186,
+      212
+    ],
+    [
+      155,
+      188,
+      220
+    ],
+    [
+      156,
+      183,
+      204
+    ],
+    [
+      156,
+      187,
+      214
+    ],
+    [
+      156,
+      190,
+      223
+    ],
+    [
+      157,
+      188,
+      213
+    ],
+    [
+      157,
+      192,
+      226
+    ],
+    [
+      160,
+      154,
+      161
+    ],
+    [
+      160,
+      188,
+      211
+    ],
+    [
+      160,
+      190,
+      215
+    ],
+    [
+      161,
+      193,
+      219
+    ],
+    [
+      162,
+      195,
+      223
+    ],
+    [
+      162,
+      198,
+      230
+    ],
+    [
+      166,
+      195,
+      215
+    ],
+    [
+      167,
+      197,
+      220
+    ],
+    [
+      167,
+      199,
+      225
+    ],
+    [
+      168,
+      201,
+      229
+    ],
+    [
+      169,
+      203,
+      232
+    ],
+    [
+      172,
+      200,
+      220
+    ],
+    [
+      172,
+      205,
+      231
+    ],
+    [
+      175,
+      205,
+      226
+    ],
+    [
+      177,
+      206,
+      229
+    ],
+    [
+      177,
+      211,
+      235
+    ],
+    [
+      182,
+      216,
+      238
+    ],
+    [
+      183,
+      210,
+      230
+    ],
+    [
+      184,
+      205,
+      222
+    ],
+    [
+      185,
+      213,
+      234
+    ],
+    [
+      188,
+      219,
+      240
+    ],
+    [
+      189,
+      216,
+      236
+    ],
+    [
+      190,
+      223,
+      245
+    ],
+    [
+      194,
+      223,
+      243
+    ],
+    [
+      196,
+      225,
+      243
+    ],
+    [
+      198,
+      229,
+      249
+    ],
+    [
+      199,
+      232,
+      252
+    ],
+    [
+      202,
+      225,
+      241
+    ],
+    [
+      202,
+      232,
+      250
+    ],
+    [
+      203,
+      232,
+      251
+    ],
+    [
+      203,
+      235,
+      254
+    ],
+    [
+      204,
+      237,
+      255
+    ],
+    [
+      206,
+      233,
+      250
+    ],
+    [
+      207,
+      238,
+      254
+    ],
+    [
+      211,
+      243,
+      255
+    ],
+    [
+      212,
+      239,
+      253
+    ],
+    [
+      217,
+      245,
+      254
+    ],
+    [
+      220,
+      248,
+      254
+    ],
+    [
+      223,
+      252,
+      255
+    ],
+    [
+      233,
+      255,
+      255
+    ],
+    [
+      234,
+      253,
+      254
+    ],
+    [
+      237,
+      248,
+      250
+    ],
+    [
+      241,
+      255,
+      255
+    ],
+    [
+      247,
+      253,
+      253
+    ],
+    [
+      249,
+      255,
+      255
+    ],
+    [
+      253,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255
+    ],
+    [
+      174,
+      105,
+      95
+    ],
+    [
+      217,
+      181,
+      176
+    ]
+  ]
+}

@@ -1,0 +1,498 @@
+{
+  "species": "bukamon",
+  "display_name": "Bukamon",
+  "source_chr_id": "chr514",
+  "model_path": "work/phase4/source/bukamon.glb",
+  "pmdo_index": 10015,
+  "idle_clip": "chr514_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0,
+    0.3333333432674408,
+    0.6666666865348816,
+    1.0000000298023224
+  ],
+  "idle_duration_ticks": 20,
+  "approved_neutral_height": 18,
+  "neutral_frame": 0,
+  "frame_size": 96,
+  "render_size": 768,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1
+  },
+  "idle_ground_policy": "fixed",
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "head_bones": [
+      "J_atama",
+      "J_ago"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.08,
+    "fixed_framing": {
+      "center": [
+        0,
+        0.32,
+        0
+      ],
+      "extent": 1.95
+    },
+    "offset_bones": {
+      "head": {
+        "bone": "J_atama",
+        "local_point": [
+          0,
+          0.1754393307379623,
+          0.10254254213127294
+        ]
+      },
+      "center": "J_center",
+      "left_hand": "J_tubi_L",
+      "right_hand": "J_tubi_R"
+    },
+    "source_eye_masks": true,
+    "horizontal_root_lock": {
+      "chr514_ba01": {
+        "bone": "J_center",
+        "reference_time": 0
+      },
+      "chr514_ba02": {
+        "bone": "J_center",
+        "reference_time": 0
+      },
+      "chr514_bd01": {
+        "bone": "J_center",
+        "reference_time": 0
+      },
+      "chr514_bd02": {
+        "bone": "J_center",
+        "reference_time": 0
+      },
+      "chr514_bd03": {
+        "bone": "J_center",
+        "reference_time": 0
+      },
+      "chr514_bf01": {
+        "bone": "J_center",
+        "reference_time": 0
+      },
+      "chr514_bg01": {
+        "bone": "J_center",
+        "reference_time": 0
+      },
+      "chr514_bg02": {
+        "bone": "J_center",
+        "reference_time": 0
+      },
+      "chr514_br01": {
+        "bone": "J_center",
+        "reference_time": 0
+      },
+      "chr514_bs01": {
+        "bone": "J_center",
+        "reference_time": 0
+      },
+      "chr514_fe03": {
+        "bone": "J_center",
+        "reference_time": 0
+      },
+      "chr514_fe04": {
+        "bone": "J_center",
+        "reference_time": 0
+      }
+    },
+    "native_eye_expression_offsets": {
+      "chr514_bn02": [
+        0,
+        0.25
+      ]
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.8
+    ]
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ],
+  "anatomy_notes": {
+    "source": "chr514 / Bukamon / PMDO10015 directly verified in census and installed manifest. Approved height18 from parent height-target-manifest.",
+    "eyes": "Explicit source opt-in: b01 UV3 top-row black openings, p01 UV2 source blue iris/black pupil through b01m green. e01h alpha shine in view space, cropped by mask and original vertex alpha; never opaque-white fallback, no invented pupils. Original full game shader/Fresnel not claimed.",
+    "ground": "Grounded seal-like belly: bn01 J_center fixed[0,.1074,0], underside about-.0051 world versus source floor0. Flippers sway close to ground, tail and orange crest animate independently; no flight/hop synthesis. Fixed neutral ground registration, no per-frame fit or cropping.",
+    "markers": "Head measured eye midpoint in J_atama local coordinates. Center J_center. Hand slots are actual L/R flipper distal joints J_tubi_L/R, not human hands. Native +X is anatomical left.",
+    "motion": "Native1.333333s bn01; four quarter-cycle samples,20ticks each; endpoint excluded. Source rotations/poses retained, no root lock required.",
+    "scope": "Idle only. Non-Idle XML entries remain explicit Idle placeholders, not completed actions. No Punimon crop rule.",
+    "readability": "Native layered blue/dark eyes on grey-brown face; audit native-size depth-visible eyes before approving any added contour. No global Baby border style.",
+    "palette": "V1 median-cut collapsed source dark blue eye pixels in Right/DownRight. Fixed 64-color palette retains its62 colors plus two exact source-render eye samples; no painted pupils/contour.",
+    "actions": "96px canvas with extent1.95: same24.615px/world unit as18px Idle. Fixed globalY+1 retains Idle neutral engine origin; shadow57-center48=+9. Placement airborne is only fixed-origin API, species is grounded. Source flipper/tail/crest motion; no generic humanoid/limbless Baby transfer.",
+    "sleep": "Explicit source b01 second-row closed-eye lines atV+.25 and matching green shine crop, pending pose audition. Not an exported facial animation."
+  },
+  "fixed_palette_colors": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      92,
+      86,
+      91
+    ],
+    [
+      103,
+      87,
+      87
+    ],
+    [
+      105,
+      90,
+      91
+    ],
+    [
+      107,
+      111,
+      123
+    ],
+    [
+      109,
+      92,
+      93
+    ],
+    [
+      111,
+      96,
+      97
+    ],
+    [
+      111,
+      100,
+      105
+    ],
+    [
+      114,
+      97,
+      97
+    ],
+    [
+      116,
+      101,
+      103
+    ],
+    [
+      119,
+      101,
+      101
+    ],
+    [
+      121,
+      104,
+      104
+    ],
+    [
+      122,
+      107,
+      110
+    ],
+    [
+      125,
+      107,
+      107
+    ],
+    [
+      126,
+      111,
+      115
+    ],
+    [
+      129,
+      110,
+      109
+    ],
+    [
+      129,
+      112,
+      114
+    ],
+    [
+      130,
+      115,
+      119
+    ],
+    [
+      132,
+      112,
+      112
+    ],
+    [
+      132,
+      116,
+      120
+    ],
+    [
+      134,
+      115,
+      115
+    ],
+    [
+      134,
+      118,
+      123
+    ],
+    [
+      136,
+      120,
+      124
+    ],
+    [
+      137,
+      119,
+      120
+    ],
+    [
+      137,
+      123,
+      128
+    ],
+    [
+      142,
+      121,
+      120
+    ],
+    [
+      142,
+      124,
+      128
+    ],
+    [
+      142,
+      129,
+      133
+    ],
+    [
+      144,
+      111,
+      111
+    ],
+    [
+      145,
+      125,
+      125
+    ],
+    [
+      146,
+      134,
+      139
+    ],
+    [
+      147,
+      129,
+      131
+    ],
+    [
+      149,
+      129,
+      129
+    ],
+    [
+      151,
+      130,
+      128
+    ],
+    [
+      154,
+      132,
+      130
+    ],
+    [
+      155,
+      134,
+      134
+    ],
+    [
+      155,
+      138,
+      140
+    ],
+    [
+      157,
+      125,
+      116
+    ],
+    [
+      157,
+      148,
+      153
+    ],
+    [
+      158,
+      135,
+      132
+    ],
+    [
+      159,
+      137,
+      136
+    ],
+    [
+      160,
+      140,
+      141
+    ],
+    [
+      163,
+      139,
+      136
+    ],
+    [
+      163,
+      142,
+      140
+    ],
+    [
+      166,
+      143,
+      140
+    ],
+    [
+      166,
+      148,
+      148
+    ],
+    [
+      169,
+      146,
+      142
+    ],
+    [
+      170,
+      147,
+      145
+    ],
+    [
+      171,
+      149,
+      147
+    ],
+    [
+      175,
+      150,
+      146
+    ],
+    [
+      178,
+      155,
+      153
+    ],
+    [
+      182,
+      157,
+      154
+    ],
+    [
+      182,
+      173,
+      172
+    ],
+    [
+      186,
+      164,
+      160
+    ],
+    [
+      189,
+      189,
+      191
+    ],
+    [
+      192,
+      139,
+      110
+    ],
+    [
+      213,
+      154,
+      114
+    ],
+    [
+      218,
+      210,
+      201
+    ],
+    [
+      221,
+      172,
+      130
+    ],
+    [
+      242,
+      189,
+      124
+    ],
+    [
+      245,
+      245,
+      243
+    ],
+    [
+      252,
+      175,
+      99
+    ],
+    [
+      59,
+      83,
+      103
+    ],
+    [
+      78,
+      90,
+      104
+    ]
+  ],
+  "placement": {
+    "mode": "airborne",
+    "shadow_row": 57,
+    "minimum_gap": -1,
+    "fixed_vertical_shift": 1
+  }
+}

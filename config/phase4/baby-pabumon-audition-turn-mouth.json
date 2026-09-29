@@ -1,0 +1,6 @@
+{"species":"pabumon","jobs":[
+ {"clip":"chr387_bv01","time":0.3,"azimuth":0},{"clip":"chr387_bv01","time":0.6,"azimuth":0},{"clip":"chr387_bv01","time":0.9,"azimuth":0},{"clip":"chr387_bv01","time":1.2,"azimuth":0},
+ {"clip":"chr387_bv01","time":1.5,"azimuth":0},{"clip":"chr387_bv01","time":1.8,"azimuth":0},{"clip":"chr387_bv01","time":2.1,"azimuth":0},{"clip":"chr387_bv01","time":2.4,"azimuth":0},
+ {"clip":"chr387_ba02","time":0.2,"azimuth":0},{"clip":"chr387_ba02","time":0.4,"azimuth":0},{"clip":"chr387_ba02","time":0.8,"azimuth":0},{"clip":"chr387_ba02","time":1.2,"azimuth":0},
+ {"clip":"chr387_fe03","time":0,"azimuth":0},{"clip":"chr387_fe03","time":0.75,"azimuth":0},{"clip":"chr387_fe03","time":1.5,"azimuth":0},{"clip":"chr387_fe03","time":2.25,"azimuth":0}
+]}

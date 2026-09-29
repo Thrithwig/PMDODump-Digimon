@@ -1,0 +1,113 @@
+{
+  "species": "icemon",
+  "display_name": "Icemon",
+  "source_chr_id": "chr758",
+  "model_path": "work/phase4/champion-production/icemon-idle-candidate/icemon.glb",
+  "pmdo_index": 10066,
+  "idle_clip": "chr758_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0.0,
+    0.25,
+    0.5,
+    0.75
+  ],
+  "idle_duration_ticks": 15,
+  "approved_neutral_height": 21,
+  "neutral_frame": 0,
+  "frame_size": 96,
+  "render_size": 768,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1
+  },
+  "idle_ground_policy": "fixed",
+  "ground_contact_row": 63,
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "source_eye_masks": true,
+    "head_bones": [
+      "J_atama"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.08,
+    "fixed_framing": {
+      "center": [
+        0,
+        0.55,
+        0
+      ],
+      "extent": 2.7
+    },
+    "offset_bones": {
+      "head": "J_atama",
+      "center": "J_center",
+      "left_hand": "J_te_L",
+      "right_hand": "J_te_R"
+    },
+    "horizontal_root_lock": {
+      "chr758_bv01": {
+        "bone": "J_center",
+        "reference_time": 0.0,
+        "axes": [
+          "x",
+          "y",
+          "z"
+        ],
+        "reference_clip": "chr758_bn01"
+      }
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.8
+    ]
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ],
+  "anatomy_notes": {
+    "source": "Direct chr758 Icemon model with its own one-second chr758_bn01 Idle clip; source geometry matches the compact Gotsumon family rig but retains Icemon's own textures and materials.",
+    "silhouette": "Preserve faceted ice head and body, paired arms and fingers, legs and planted feet.",
+    "eyes": "Inspect separate source eye_L and eye_R meshes and mapped native layers against the light blue face at native size before any bounded adjustment.",
+    "ground": "Grounded biped; use one fixed row-47 PMDO shadow and assess foot contact without raster rescaling or per-frame shifting."
+  }
+}

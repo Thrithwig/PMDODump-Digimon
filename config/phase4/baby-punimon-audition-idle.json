@@ -1,0 +1,10 @@
+{"species":"punimon","jobs":[
+ {"clip":"chr437_bn01","time":0,"azimuth":0},
+ {"clip":"chr437_bn01","time":0.28333336114883423,"azimuth":0},
+ {"clip":"chr437_bn01","time":0.5666667222976685,"azimuth":0},
+ {"clip":"chr437_bn01","time":0.8500000834465027,"azimuth":0},
+ {"clip":"chr437_bn01","time":0,"azimuth":90},
+ {"clip":"chr437_bn01","time":0.28333336114883423,"azimuth":90},
+ {"clip":"chr437_bn01","time":0.5666667222976685,"azimuth":90},
+ {"clip":"chr437_bn01","time":0.8500000834465027,"azimuth":90}
+]}

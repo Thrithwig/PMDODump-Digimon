@@ -1,0 +1,101 @@
+{
+  "species": "poyomon",
+  "jobs": [
+    {
+      "clip": "chr320_bn02",
+      "time": 0.166667,
+      "azimuth": 90,
+      "note": "Native body/rim/mouth motion; configured J_root XZ lock only"
+    },
+    {
+      "clip": "chr320_bn02",
+      "time": 1.0,
+      "azimuth": 90,
+      "note": "Native body/rim/mouth motion; configured J_root XZ lock only"
+    },
+    {
+      "clip": "chr320_bn02",
+      "time": 1.833333,
+      "azimuth": 90,
+      "note": "Native body/rim/mouth motion; configured J_root XZ lock only"
+    },
+    {
+      "clip": "chr320_bn02",
+      "time": 2.666667,
+      "azimuth": 90,
+      "note": "Native body/rim/mouth motion; configured J_root XZ lock only"
+    },
+    {
+      "clip": "chr320_br01",
+      "time": 0.08,
+      "azimuth": 90,
+      "note": "Native body/rim/mouth motion; configured J_root XZ lock only"
+    },
+    {
+      "clip": "chr320_br01",
+      "time": 0.48,
+      "azimuth": 90,
+      "note": "Native body/rim/mouth motion; configured J_root XZ lock only"
+    },
+    {
+      "clip": "chr320_br01",
+      "time": 0.88,
+      "azimuth": 90,
+      "note": "Native body/rim/mouth motion; configured J_root XZ lock only"
+    },
+    {
+      "clip": "chr320_br01",
+      "time": 1.28,
+      "azimuth": 90,
+      "note": "Native body/rim/mouth motion; configured J_root XZ lock only"
+    },
+    {
+      "clip": "chr320_fe03",
+      "time": 0.15,
+      "azimuth": 90,
+      "note": "Native body/rim/mouth motion; configured J_root XZ lock only"
+    },
+    {
+      "clip": "chr320_fe03",
+      "time": 0.9,
+      "azimuth": 90,
+      "note": "Native body/rim/mouth motion; configured J_root XZ lock only"
+    },
+    {
+      "clip": "chr320_fe03",
+      "time": 1.65,
+      "azimuth": 90,
+      "note": "Native body/rim/mouth motion; configured J_root XZ lock only"
+    },
+    {
+      "clip": "chr320_fe03",
+      "time": 2.4,
+      "azimuth": 90,
+      "note": "Native body/rim/mouth motion; configured J_root XZ lock only"
+    },
+    {
+      "clip": "chr320_fq01",
+      "time": 0.1,
+      "azimuth": 90,
+      "note": "Native body/rim/mouth motion; configured J_root XZ lock only"
+    },
+    {
+      "clip": "chr320_fq01",
+      "time": 0.6,
+      "azimuth": 90,
+      "note": "Native body/rim/mouth motion; configured J_root XZ lock only"
+    },
+    {
+      "clip": "chr320_fq01",
+      "time": 1.1,
+      "azimuth": 90,
+      "note": "Native body/rim/mouth motion; configured J_root XZ lock only"
+    },
+    {
+      "clip": "chr320_fq01",
+      "time": 1.6,
+      "azimuth": 90,
+      "note": "Native body/rim/mouth motion; configured J_root XZ lock only"
+    }
+  ]
+}

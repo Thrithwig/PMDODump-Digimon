@@ -1,0 +1,21 @@
+{
+  "species":"keramon",
+  "jobs":[
+    {"clip":"chr626_br01","time":0.2,"azimuth":0,"note":"Walk front"},
+    {"clip":"chr626_br01","time":0.42,"azimuth":270,"note":"Walk side"},
+    {"clip":"chr626_ba01","time":0.55,"azimuth":0,"note":"Attack ba01"},
+    {"clip":"chr626_ba01","time":0.55,"azimuth":270,"note":"Attack ba01 side"},
+    {"clip":"chr626_ba02","time":0.85,"azimuth":0,"note":"Attack ba02"},
+    {"clip":"chr626_fe01","time":1.0,"azimuth":0,"note":"Shoot fe01"},
+    {"clip":"chr626_fe02","time":1.8,"azimuth":0,"note":"Shoot fe02"},
+    {"clip":"chr626_fe03","time":1.5,"azimuth":0,"note":"Shoot fe03"},
+    {"clip":"chr626_fe04","time":1.0,"azimuth":0,"note":"Shoot fe04"},
+    {"clip":"chr626_bn02","time":1.65,"azimuth":0,"note":"Sleep front"},
+    {"clip":"chr626_bn02","time":1.65,"azimuth":270,"note":"Sleep side"},
+    {"clip":"chr626_bd01","time":0.45,"azimuth":0,"note":"Hurt recoil"},
+    {"clip":"chr626_bs01","time":1.2,"azimuth":0,"note":"Swing front"},
+    {"clip":"chr626_bs01","time":1.2,"azimuth":270,"note":"Swing side"},
+    {"clip":"chr626_bf01","time":0.8,"azimuth":0,"note":"Hop source"},
+    {"clip":"chr626_bv01","time":1.5,"azimuth":0,"note":"Charge source"}
+  ]
+}

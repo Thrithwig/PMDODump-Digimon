@@ -1,0 +1,6 @@
+{"species":"ryudamon","jobs":[
+  {"clip":"chr190_ba01","time":0.10,"azimuth":0,"note":"ba01 0.10"},{"clip":"chr190_ba01","time":0.16,"azimuth":0,"note":"ba01 0.16"},{"clip":"chr190_ba01","time":0.22,"azimuth":0,"note":"ba01 0.22"},{"clip":"chr190_ba01","time":0.28,"azimuth":0,"note":"ba01 0.28"},
+  {"clip":"chr190_bs01","time":0.15,"azimuth":0,"note":"bs01 0.15"},{"clip":"chr190_bs01","time":0.30,"azimuth":0,"note":"bs01 0.30"},{"clip":"chr190_bs01","time":0.45,"azimuth":0,"note":"bs01 0.45"},{"clip":"chr190_bs01","time":0.60,"azimuth":0,"note":"bs01 0.60"},
+  {"clip":"chr190_bf01","time":0.10,"azimuth":0,"note":"bf01 0.10"},{"clip":"chr190_bf01","time":0.18,"azimuth":0,"note":"bf01 0.18"},{"clip":"chr190_bf01","time":0.25,"azimuth":0,"note":"bf01 0.25"},{"clip":"chr190_bf01","time":0.32,"azimuth":0,"note":"bf01 0.32"},
+  {"clip":"chr190_bv01","time":0.15,"azimuth":0,"note":"bv01 0.15"},{"clip":"chr190_bv01","time":0.30,"azimuth":0,"note":"bv01 0.30"},{"clip":"chr190_bv01","time":0.45,"azimuth":0,"note":"bv01 0.45"},{"clip":"chr190_bv01","time":0.60,"azimuth":0,"note":"bv01 0.60"}
+]}

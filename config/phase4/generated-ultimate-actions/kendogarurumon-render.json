@@ -1,0 +1,120 @@
+{
+  "species": "kendogarurumon",
+  "display_name": "KendoGarurumon",
+  "source_chr_id": "chr681",
+  "model_path": "work/phase4/ultimate-production/kendogarurumon-idle-candidate/kendogarurumon.glb",
+  "pmdo_index": 10155,
+  "idle_clip": "chr681_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0,
+    0.41666669315762156,
+    0.8333333863152431,
+    1.2500000794728647
+  ],
+  "idle_duration_ticks": 25,
+  "approved_neutral_height": 24,
+  "neutral_frame": 0,
+  "frame_size": 192,
+  "render_size": 1536,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1
+  },
+  "idle_ground_policy": "per-frame",
+  "ground_contact_row": 113,
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "source_eye_masks": true,
+    "head_bones": [
+      "J_head"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.08,
+    "fixed_framing": {
+      "center": [
+        0,
+        0.9,
+        0
+      ],
+      "extent": 7.26
+    },
+    "offset_bones": {
+      "head": "J_head",
+      "center": "J_center",
+      "left_hand": "J_hand02_l",
+      "right_hand": "J_hand02_r"
+    },
+    "horizontal_root_lock": {
+      "chr681_bs01": {
+        "bone": "J_center",
+        "reference_time": 0.0,
+        "axes": [
+          "x",
+          "y",
+          "z"
+        ],
+        "reference_clip": "chr681_bn01"
+      },
+      "chr681_bv01": {
+        "bone": "J_center",
+        "reference_time": 0.0,
+        "reference_clip": "chr681_bn01"
+      }
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.765625
+    ]
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ],
+  "anatomy_notes": {
+    "source": "Direct Time Stranger chr681 model and native 1.666666773-second chr681_bn01 Idle; endpoint-exclusive samples.",
+    "bind_axis": "Bind head/chin at Z+1.13 to +1.15, paired front hands at Z+0.81 to +0.94, hind feet at Z-0.34 to -0.17, and tail at Z-1.17. Camera azimuth 0 sees +Z; Down is front, 270/90 are opposing profiles, 180 is rear, and 315/225/135/45 are interleaved diagonals.",
+    "face": "Source eye_L and eye_R meshes; inspect native-size contrast before any source-bounded treatment.",
+    "silhouette": "Preserve native wolf head, long body and tail, leg and hand wheels, and paws.",
+    "offsets": "Source J_head and J_center with anatomical J_hand02_l/r markers.",
+    "ground": "Four native feet near Y=0.05; per-frame ground contact at one fixed shadow row."
+  }
+}

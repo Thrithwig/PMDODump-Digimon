@@ -1,0 +1,7 @@
+{
+  "species": "tentomon",
+  "jobs": [
+    {"clip":"chr303_bn01", "time":0.0, "azimuth":0, "note":"front Idle, 48px"},
+    {"clip":"chr303_bd01", "time":0.25, "azimuth":90, "note":"side Hurt, 48px"}
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "species": "tsunomon",
+  "jobs": [
+    {"clip": "chr438_bn02", "time": 3.30, "azimuth": 0, "note": "late Sleep front"},
+    {"clip": "chr438_bn02", "time": 3.58, "azimuth": 0, "note": "near-end Sleep front"},
+    {"clip": "chr438_bn02", "time": 3.58, "azimuth": 90, "note": "near-end Sleep side"}
+  ]
+}

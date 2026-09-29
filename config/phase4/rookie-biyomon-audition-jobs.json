@@ -1,0 +1,18 @@
+{"species":"biyomon","jobs":[
+  {"clip":"chr307_br01","time":0.2,"azimuth":0,"note":"Walk quarter cycle front"},
+  {"clip":"chr307_br01","time":0.6,"azimuth":270,"note":"Walk late side"},
+  {"clip":"chr307_ba01","time":0.14,"azimuth":0,"note":"Attack anticipation"},
+  {"clip":"chr307_ba01","time":0.55,"azimuth":270,"note":"Attack contact side"},
+  {"clip":"chr307_fe01","time":0.8,"azimuth":0,"note":"Shoot center"},
+  {"clip":"chr307_fe02","time":1.0,"azimuth":0,"note":"Shoot alternate"},
+  {"clip":"chr307_bn02","time":1.0,"azimuth":0,"note":"Sleep expression"},
+  {"clip":"chr307_bd01","time":0.5,"azimuth":270,"note":"Hurt recoil"},
+  {"clip":"chr307_bg01","time":0.4,"azimuth":0,"note":"Swing center"},
+  {"clip":"chr307_bg02","time":0.4,"azimuth":0,"note":"Swing alternate"},
+  {"clip":"chr307_ba02","time":0.8,"azimuth":0,"note":"Hop candidate"},
+  {"clip":"chr307_bf01","time":0.65,"azimuth":0,"note":"Hop alternate"},
+  {"clip":"chr307_bv01","time":1.1,"azimuth":0,"note":"Charge center"},
+  {"clip":"chr307_bs01","time":1.0,"azimuth":0,"note":"Secondary pose"},
+  {"clip":"chr307_fq01","time":0.8,"azimuth":0,"note":"Rotate center"},
+  {"clip":"chr307_fq02","time":0.8,"azimuth":270,"note":"Rotate alternate"}
+]}

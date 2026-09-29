@@ -1,0 +1,83 @@
+{
+  "species": "mushroomon",
+  "model_path": "work/phase4/rookie-production/mushroomon-preflight/mushroomon.glb",
+  "approved_idle": "work/phase4/rookie-production/mushroomon-idle-trial-v1/package/10057",
+  "palette_policy": "approved-idle",
+  "mouth_palette": false,
+  "mouth_colors": [],
+  "open_mouth_actions": [],
+  "palette_rationale": "Preserve the reviewed purple and yellow cap, pale body, magenta limbs, brown soles, source eyes and black outline from the approved Idle palette.",
+  "reference": "Own DSTS chr607 mesh and native clips; PMDO registry supplies action names and event fields.",
+  "ground_policy_note": "Grounded with fixed row-47 shadow. Preserve source lift and recoil; never trim Idle or Physical Attack.",
+  "actions": [
+    {
+      "name":"Walk", "clip":"chr607_br01", "seconds":0.666667,
+      "sample_phases":[0,0.125,0.25,0.375,0.5,0.625,0.75,0.875],
+      "durations":[8,8,8,8,8,8,8,8], "ground_policy":"fixed",
+      "pose_evidence":"Own alternating boot-and-arm step cycle; endpoint excluded."
+    },
+    {
+      "name":"Attack", "clip":"chr607_ba01", "seconds":1.5,
+      "sample_phases":[0,0.07,0.16,0.3,0.48,0.62,0.76,0.9,0.98],
+      "durations":[3,3,4,5,5,4,4,4,5], "ground_policy":"fixed",
+      "events":{"RushFrame":1,"HitFrame":4,"ReturnFrame":7},
+      "pose_evidence":"Own forward arm-and-boot strike with full recovery; Physical Attack remains untrimmed."
+    },
+    {
+      "name":"Shoot", "clip":"chr607_fe04", "seconds":1.833333,
+      "sample_phases":[0,0.1,0.22,0.35,0.5,0.64,0.8,0.96],
+      "durations":[4,4,5,5,6,5,4,6], "ground_policy":"fixed",
+      "events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":6},
+      "pose_evidence":"Own two-hand gather and release gesture; no invented projectile or glow."
+    },
+    {
+      "name":"Sleep", "clip":"chr607_bn02", "seconds":3.2,
+      "sample_phases":[0,0.166667,0.333333,0.5,0.666667,0.833333],
+      "durations":[33,33,33,33,33,33], "ground_policy":"fixed",
+      "pose_evidence":"Own lowered cap-and-head resting loop; no painted eyelids."
+    },
+    {
+      "name":"Hurt", "clip":"chr607_bd01", "seconds":1.333333,
+      "sample_phases":[0,0.06,0.13,0.22,0.34,0.48,0.62,0.8,0.97],
+      "durations":[3,4,4,4,5,4,4,4,5], "ground_policy":"fixed",
+      "events":{"HitFrame":4},
+      "pose_evidence":"Own ordinary backward recoil. Extreme upside-down bd02/bd03 knockdowns remain unused."
+    },
+    {
+      "name":"Swing", "clip":"chr607_ba02", "seconds":1.833333,
+      "sample_phases":[0,0.1,0.24,0.4,0.56,0.7,0.84,0.96],
+      "durations":[4,4,5,5,5,4,4,5], "ground_policy":"fixed",
+      "events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":6},
+      "pose_evidence":"Own broad alternate arm-and-leg sweep. Native bs01 exits the stationary frame and is rejected; no synthetic weapon."
+    },
+    {
+      "name":"Double", "clip":"chr607_ba01", "seconds":1.5,
+      "sample_phases":[0,0.16,0.48,0.76,0.96,0,0.16,0.48,0.76,0.96],
+      "durations":[3,4,5,4,4,3,4,5,4,6], "ground_policy":"fixed",
+      "events":{"RushFrame":1,"HitFrame":2,"ReturnFrame":8},
+      "pose_evidence":"Two visual cycles of the own strike; one PMDO HitFrame."
+    },
+    {
+      "name":"Hop", "clip":"chr607_bf01", "seconds":1.5,
+      "sample_phases":[0,0.07,0.18,0.3,0.5,0.66,0.82,0.97],
+      "durations":[4,5,5,8,8,5,4,6], "ground_policy":"fixed",
+      "events":{"HitFrame":5},
+      "pose_evidence":"Own crouch, airborne boot-forward apex, and landing; no artificial vertical offset."
+    },
+    {
+      "name":"Charge", "clip":"chr607_bv01", "seconds":2.0,
+      "sample_phases":[0,0.1,0.2,0.3,0.4,0.5,0.6,0.5,0.3,0],
+      "durations":[4,5,5,6,7,7,8,5,4,5], "ground_policy":"fixed",
+      "events":{"HitFrame":6,"ReturnFrame":8},
+      "pose_evidence":"Own raised-arm braced charge with reverse-sampled recovery; no aura."
+    },
+    {
+      "name":"Rotate", "clip":"chr607_fq01", "seconds":2.0,
+      "sample_phases":[0,0.083333,0.166667,0.25,0.333333,0.416667,0.5,0.583333,0.666667,0.75,0.833333,0.916667],
+      "durations":[4,4,4,4,4,4,4,4,4,4,4,4], "ground_policy":"fixed",
+      "turn_degrees":[0,30,60,90,120,150,180,210,240,270,300,330],
+      "events":{"HitFrame":6},
+      "pose_evidence":"Own ready stance with whole-view yaw for engine Rotate; endpoint excluded."
+    }
+  ]
+}

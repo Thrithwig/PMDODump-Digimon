@@ -1,0 +1,21 @@
+{
+  "species": "monodramon",
+  "jobs": [
+    {"clip": "chr458_ba02", "time": 0.1, "azimuth": 0, "note": "Alternate launch"},
+    {"clip": "chr458_ba02", "time": 0.4, "azimuth": 0, "note": "Alternate rise"},
+    {"clip": "chr458_ba02", "time": 0.8, "azimuth": 0, "note": "Alternate apex"},
+    {"clip": "chr458_ba02", "time": 1.2, "azimuth": 0, "note": "Alternate descent"},
+    {"clip": "chr458_ba02", "time": 1.8, "azimuth": 0, "note": "Alternate recovery"},
+    {"clip": "chr458_bs01", "time": 0.1, "azimuth": 0, "note": "Swing windup"},
+    {"clip": "chr458_bs01", "time": 0.4, "azimuth": 0, "note": "Swing early"},
+    {"clip": "chr458_bs01", "time": 0.8, "azimuth": 0, "note": "Swing contact"},
+    {"clip": "chr458_bs01", "time": 1.2, "azimuth": 0, "note": "Swing follow"},
+    {"clip": "chr458_bs01", "time": 1.8, "azimuth": 0, "note": "Swing recovery"},
+    {"clip": "chr458_bv01", "time": 0.1, "azimuth": 0, "note": "Charge start"},
+    {"clip": "chr458_bv01", "time": 0.5, "azimuth": 0, "note": "Charge gather"},
+    {"clip": "chr458_bv01", "time": 1.0, "azimuth": 0, "note": "Charge hold"},
+    {"clip": "chr458_bv01", "time": 1.5, "azimuth": 0, "note": "Charge release"},
+    {"clip": "chr458_fq01", "time": 0.6, "azimuth": 0, "note": "Rotate fq01"},
+    {"clip": "chr458_fq02", "time": 0.6, "azimuth": 0, "note": "Rotate fq02"}
+  ]
+}

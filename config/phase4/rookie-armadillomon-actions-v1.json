@@ -1,0 +1,19 @@
+{
+  "species":"armadillomon","model_path":"work/phase4/source/armadillomon.glb",
+  "approved_idle":"work/phase4/rookie-production/armadillomon-idle-eye-v3/package/10021",
+  "palette_policy":"approved-idle","mouth_palette":false,"mouth_colors":[],"open_mouth_actions":[],
+  "palette_rationale":"Corrected 64-color Idle palette is the shared source for all actions. Green source eyes and restrained black edges are applied only to source-visible coverage after action assembly.",
+  "reference":"Own chr707 DSTS skeleton and clips. No external pose or pixel reference used.",
+  "actions":[
+    {"name":"Walk","clip":"chr707_br01","seconds":0.533333,"sample_phases":[0,0.125,0.25,0.375,0.5,0.625,0.75,0.875],"durations":[4,4,4,4,4,4,4,4],"ground_policy":"fixed","pose_evidence":"Native rapid quadruped stride, endpoint excluded."},
+    {"name":"Attack","clip":"chr707_ba01","seconds":1.833333,"sample_phases":[0,0.07,0.15,0.24,0.34,0.5,0.66,0.84,0.98],"durations":[3,3,4,4,5,4,4,4,5],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":7},"pose_evidence":"Native upright hand strike and recovery, with contact around .62s."},
+    {"name":"Shoot","clip":"chr707_fe02","seconds":2.0,"sample_phases":[0,0.1,0.22,0.34,0.48,0.62,0.78,0.96],"durations":[4,4,5,5,6,5,4,6],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":6},"pose_evidence":"Native head and open-mouth release gesture. No projectile asset implied."},
+    {"name":"Sleep","clip":"chr707_bn02","seconds":3.2,"sample_phases":[0,0.166667,0.333333,0.5,0.666667,0.833333],"durations":[32,32,32,32,32,32],"ground_policy":"fixed","closed_eyes":true,"pose_evidence":"Native crouched/resting breath. Eye closure must be verified at sprite size; no synthetic lids."},
+    {"name":"Hurt","clip":"chr707_bd01","seconds":0.966667,"sample_phases":[0,0.06,0.13,0.22,0.32,0.45,0.62,0.8,0.97],"durations":[3,4,4,4,5,4,4,4,5],"ground_policy":"fixed","events":{"HitFrame":2},"pose_evidence":"Native forward head/body recoil and recovery."},
+    {"name":"Swing","clip":"chr707_bs01","seconds":2.333333,"sample_phases":[0,0.08,0.17,0.28,0.4,0.55,0.72,0.97],"durations":[4,4,5,5,5,4,4,5],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":6},"pose_evidence":"Native raised arm and open-jaw sweeping strike."},
+    {"name":"Double","clip":"chr707_ba01","seconds":1.833333,"sample_phases":[0,0.17,0.34,0.65,0.98,0,0.17,0.34,0.65,0.98],"durations":[3,4,5,4,4,3,4,5,4,6],"ground_policy":"fixed","events":{"RushFrame":1,"HitFrame":2,"ReturnFrame":8},"pose_evidence":"Two retimed native arm-strike cycles; engine has one HitFrame."},
+    {"name":"Hop","clip":"chr707_ba02","seconds":2.133333,"sample_phases":[0,0.06,0.14,0.25,0.4,0.55,0.72,0.97],"durations":[4,5,5,8,8,5,4,6],"ground_policy":"fixed","events":{"HitFrame":5},"pose_evidence":"Native upright lift and spring/recovery, distinct from forward arm strike; inspect shadow gap."},
+    {"name":"Charge","clip":"chr707_bv01","seconds":2.666667,"sample_phases":[0,0.08,0.16,0.25,0.35,0.48,0.62,0.48,0.25,0],"durations":[4,5,5,6,7,7,8,5,4,5],"ground_policy":"fixed","events":{"HitFrame":6,"ReturnFrame":8},"pose_evidence":"Native body rise and head lift through roughly 1.65s, then reverse to neutral; no effect asset."},
+    {"name":"Rotate","clip":"chr707_fq01","seconds":2.133333,"sample_phases":[0,0.083333,0.166667,0.25,0.333333,0.416667,0.5,0.583333,0.666667,0.75,0.833333,0.916667],"durations":[4,4,4,4,4,4,4,4,4,4,4,4],"ground_policy":"fixed","turn_degrees":[0,30,60,90,120,150,180,210,240,270,300,330],"events":{"HitFrame":6},"pose_evidence":"Native look gesture plus explicit whole-view yaw; source has no confirmed full-body 360 clip."}
+  ]
+}

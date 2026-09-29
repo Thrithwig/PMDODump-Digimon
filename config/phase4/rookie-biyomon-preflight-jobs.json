@@ -1,0 +1,7 @@
+{
+  "species":"biyomon",
+  "jobs":[
+    {"clip":"chr307_bn01","time":0,"azimuth":0},
+    {"clip":"chr307_bn01","time":0,"azimuth":90}
+  ]
+}

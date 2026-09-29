@@ -1,0 +1,107 @@
+{
+  "species": "devimon",
+  "display_name": "Devimon",
+  "source_chr_id": "chr093",
+  "model_path": "work/phase4/champion-production/devimon-idle-candidate/devimon.glb",
+  "pmdo_index": 10116,
+  "idle_clip": "chr093_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0,
+    0.5,
+    1.0,
+    1.5
+  ],
+  "idle_duration_ticks": 30,
+  "approved_neutral_height": 39,
+  "neutral_frame": 0,
+  "frame_size": 192,
+  "render_size": 1536,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1
+  },
+  "idle_ground_policy": "fixed",
+  "ground_contact_row": 126,
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "source_eye_masks": true,
+    "head_bones": [
+      "J_head"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.06,
+    "fixed_framing": {
+      "center": [
+        0,
+        2.18,
+        -0.8
+      ],
+      "extent": 7.48
+    },
+    "offset_bones": {
+      "head": "J_head",
+      "center": "J_center",
+      "left_hand": "J_hand_l",
+      "right_hand": "J_hand_r"
+    },
+    "horizontal_root_lock": {
+      "chr093_bs01": {
+        "bone": "J_center",
+        "reference_time": 0.0
+      }
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.8125
+    ]
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ],
+  "anatomy_notes": {
+    "source": "Direct chr093 model; native two-second chr093_bn01 Idle loop with 22 channels.",
+    "silhouette": "Preserve paired wings, head, long arms and fingers, and long legs and feet.",
+    "eyes": "Preserve source eye_L and eye_R meshes without repaint.",
+    "ground": "Source J_center Y range is 2.35778-2.36532 m; boots reach row 77-78. Keep one fixed row-78 shadow for contact, with at most a one-pixel view-dependent gap."
+  }
+}

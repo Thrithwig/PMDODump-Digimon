@@ -1,0 +1,22 @@
+{
+  "species":"wanyamon",
+  "model_path":"work/phase4/source/wanyamon.glb",
+  "approved_idle":"work/phase4/intraining-production/wanyamon-idle-trial-v2/package/10017",
+  "palette_policy":"approved-idle",
+  "mouth_palette":false,
+  "mouth_colors":[],
+  "open_mouth_actions":[],
+  "reference":"Own chr321 head/ears/striped-tail anatomy and native clips primary; PMDO timing only.",
+  "actions":[
+    {"name":"Walk","clip":"chr321_br01","seconds":1.33333,"sample_phases":[0,0.125,0.25,0.375,0.5,0.625,0.75,0.875],"durations":[10,10,10,10,10,10,10,10],"ground_policy":"fixed","pose_evidence":"Native head bob and tail counter-swing; no legs invented."},
+    {"name":"Attack","clip":"chr321_ba01","seconds":1.46667,"sample_phases":[0,0.08,0.18,0.3,0.42,0.55,0.7,0.84,0.98],"durations":[3,3,4,5,5,4,4,4,5],"ground_policy":"fixed","events":{"RushFrame":1,"HitFrame":4,"ReturnFrame":7},"pose_evidence":"Native head-first upward lunge."},
+    {"name":"Shoot","clip":"chr321_fe01","seconds":2.33333,"sample_phases":[0,0.1,0.22,0.35,0.48,0.62,0.78,0.96],"durations":[4,4,5,5,6,5,4,5],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":6},"pose_evidence":"Native eye/face preparation and release; no invented projectile."},
+    {"name":"Sleep","clip":"chr321_bn02","seconds":3.0,"sample_phases":[0,0.166667,0.333333,0.5,0.666667,0.833333],"durations":[30,30,30,30,30,30],"ground_policy":"fixed","pose_evidence":"Native curled resting head and tail, eye closure to inspect."},
+    {"name":"Hurt","clip":"chr321_bd01","seconds":0.96667,"sample_phases":[0,0.06,0.13,0.22,0.32,0.45,0.62,0.8,0.97],"durations":[3,4,4,4,5,4,4,4,5],"ground_policy":"fixed","events":{"HitFrame":2},"pose_evidence":"Native head and tail roll/recoil."},
+    {"name":"Swing","clip":"chr321_bg01","seconds":0.83333,"sample_phases":[0,0.1,0.22,0.35,0.48,0.62,0.78,0.96],"durations":[4,4,5,5,5,4,4,5],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":6},"pose_evidence":"Native sweeping tail arc."},
+    {"name":"Double","clip":"chr321_ba01","seconds":1.46667,"sample_phases":[0,0.18,0.42,0.7,0.98,0,0.18,0.42,0.7,0.98],"durations":[3,4,5,4,4,3,4,5,4,6],"ground_policy":"fixed","events":{"RushFrame":1,"HitFrame":2,"ReturnFrame":8},"pose_evidence":"Two native head-first attacks."},
+    {"name":"Hop","clip":"chr321_bf01","seconds":1.46667,"sample_phases":[0,0.06,0.14,0.25,0.4,0.55,0.72,0.97],"durations":[4,5,5,8,8,5,4,6],"ground_policy":"fixed","events":{"HitFrame":5},"pose_evidence":"Native vertical leap, distinct from tail-swing walk."},
+    {"name":"Charge","clip":"chr321_bv01","seconds":2.83333,"sample_phases":[0,0.1,0.2,0.3,0.4,0.5,0.6,0.5,0.3,0],"durations":[4,5,5,6,7,7,8,5,4,5],"ground_policy":"fixed","events":{"HitFrame":6,"ReturnFrame":8},"pose_evidence":"Native tail/ears buildup and return; no effect art."},
+    {"name":"Rotate","clip":"chr321_fq01","seconds":1.5,"sample_phases":[0,0.083333,0.166667,0.25,0.333333,0.416667,0.5,0.583333,0.666667,0.75,0.833333,0.916667],"durations":[4,4,4,4,4,4,4,4,4,4,4,4],"ground_policy":"fixed","turn_degrees":[0,30,60,90,120,150,180,210,240,270,300,330],"events":{"HitFrame":6},"pose_evidence":"Native head/tail motion with explicit whole-view yaw."}
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "species": "fanbeemon",
+  "display_name": "FanBeemon",
+  "source_chr_id": "chr042",
+  "model_path": "work/phase4/rookie-production/fanbeemon-preflight/fanbeemon.glb",
+  "pmdo_index": 10052,
+  "idle_clip": "chr042_bn01",
+  "idle_frames": 4,
+  "frame_times": [0, 0.5, 1.0, 1.5],
+  "idle_duration_ticks": 30,
+  "approved_neutral_height": 29,
+  "neutral_frame": 0,
+  "frame_size": 64,
+  "render_size": 512,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {"enabled": true, "depth_threshold": 1, "normal_dot_threshold": -1},
+  "placement": {"mode": "airborne", "shadow_row": 50, "minimum_gap": 4},
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "source_eye_masks": true,
+    "head_bones": ["J_head"],
+    "emissive_intensity": 0.55,
+    "elevation": 0.08,
+    "fixed_framing": {"center": [0, 1.9, 0], "extent": 2.6},
+    "offset_bones": {
+      "head": "J_head",
+      "center": "J_center",
+      "left_hand": "J_hand_b_l",
+      "right_hand": "J_hand_b_r"
+    }
+  },
+  "offsets": {"source": "projected-native-bones-v1", "shadow": [0.5, 0.8]},
+  "directions": [
+    {"name": "Down", "azimuth_degrees": 0},
+    {"name": "DownRight", "azimuth_degrees": 315},
+    {"name": "Right", "azimuth_degrees": 270},
+    {"name": "UpRight", "azimuth_degrees": 225},
+    {"name": "Up", "azimuth_degrees": 180},
+    {"name": "UpLeft", "azimuth_degrees": 135},
+    {"name": "Left", "azimuth_degrees": 90},
+    {"name": "DownLeft", "azimuth_degrees": 45}
+  ],
+  "anatomy_notes": {
+    "source": "Own DSTS chr042 FunBeemon model and bn01 Idle, exported from existing lab unpacked data.",
+    "eyes": "Native eye_L/eye_R layers and masks; inspect readability at 29px without painted pupils.",
+    "markers": "J_head, J_center and paired J_hand_b appendage anchors; the latter are native forelimbs.",
+    "flight": "Source wing motion with fixed ground shadow and a visible gap through all frames."
+  }
+}

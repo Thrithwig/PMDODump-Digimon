@@ -1,0 +1,32 @@
+{
+  "species":"hackmon","display_name":"Hackmon","source_chr_id":"chr687",
+  "model_path":"work/phase4/rookie-production/hackmon-preflight/hackmon.glb",
+  "pmdo_index":10047,"idle_clip":"chr687_bn01","idle_frames":4,
+  "frame_times":[0,0.25,0.5,0.75],"idle_duration_ticks":15,
+  "approved_neutral_height":21,"neutral_frame":0,
+  "frame_size":128,"render_size":1024,"minimum_edge_margin":2,
+  "palette_size":64,"alpha_cutoff":128,
+  "outline":{"enabled":true,"depth_threshold":1,"normal_dot_threshold":-1},
+  "idle_ground_policy":"fixed","ground_contact_row":79,
+  "renderer":{
+    "eye_mode":"source","native_eye_layers":true,"source_eye_masks":true,
+    "head_bones":["J_atama"],"emissive_intensity":0.55,"elevation":0.08,
+    "fixed_framing":{"center":[0,0.55,0],"extent":3.44},
+    "offset_bones":{"head":"J_atama","center":"J_center",
+      "left_hand":"J_te_L","right_hand":"J_te_R"}
+  },
+  "offsets":{"source":"projected-native-bones-v1","shadow":[0.5,0.8]},
+  "directions":[
+    {"name":"Down","azimuth_degrees":0},{"name":"DownRight","azimuth_degrees":315},
+    {"name":"Right","azimuth_degrees":270},{"name":"UpRight","azimuth_degrees":225},
+    {"name":"Up","azimuth_degrees":180},{"name":"UpLeft","azimuth_degrees":135},
+    {"name":"Left","azimuth_degrees":90},{"name":"DownLeft","azimuth_degrees":45}
+  ],
+  "anatomy_notes":{
+    "source":"Own chr687 Huckmon model and native clips, named Hackmon in PMDO.",
+    "scale":"128px action canvas at 1024/3.44 retains approved 64px Idle scale at 512/1.72; only transparent margin grows.",
+    "face":"Native yellow irises/dark pupil eye meshes project to about one packed pixel each; do not fabricate a larger border.",
+    "silhouette":"Preserve source red cape, white body, ears, tail, blue claws, and correct facings.",
+    "ground":"Fixed row-79 action shadow corresponds to Idle row47 plus 32px transparent padding."
+  }
+}

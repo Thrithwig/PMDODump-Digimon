@@ -1,0 +1,116 @@
+{
+  "species": "koromon",
+  "display_name": "Koromon",
+  "source_chr_id": "chr322",
+  "model_path": "work/phase4/source/koromon.glb",
+  "pmdo_index": 10007,
+  "idle_clip": "chr322_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0,
+    0.2500000298023224,
+    0.5000000596046448,
+    0.7500000894069672
+  ],
+  "idle_duration_ticks": 15,
+  "approved_neutral_height": 17,
+  "neutral_frame": 0,
+  "frame_size": 48,
+  "render_size": 384,
+  "minimum_edge_margin": 2,
+  "palette_size": 63,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1
+  },
+  "idle_ground_policy": "fixed",
+  "ground_contact_row": 37,
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "head_bones": [
+      "J_ue_ago"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.08,
+    "fixed_framing": {
+      "center": [
+        0,
+        0.24,
+        0
+      ],
+      "extent": 0.7
+    },
+    "offset_bones": {
+      "head": {
+        "bone": "J_ue_ago",
+        "local_point": [
+          0,
+          0.10327199101448059,
+          0.18956390023231506
+        ]
+      },
+      "center": "J_center",
+      "left_hand": "J_mimiL",
+      "right_hand": "J_mimiR"
+    },
+    "source_eye_masks": true
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.8
+    ]
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ],
+  "anatomy_notes": {
+    "source": "chr322, PMDO10007 verified in local manifests; approved neutral height17.",
+    "eyes": "Source b01 black almond openings on UV3 with red/black p01 iris on UV2, b01m green is composition mask not eye color, e01h alpha shine. Opt-in native layers; no invented pupil or cosmetic border.",
+    "ground": "Skinned bn01 underside -0.0043 to -0.0063 near native floor0; grounded pink head/body, native jaw and two independently moving ears/feelers. Fixed neutral registration per direction, no per-frame fit or crop.",
+    "markers": "Head measured eye midpoint in J_ue_ago local space; center J_center. PMDO hand slots are ear/feeler roots J_mimiL/R, documented body appendage substitutes, not hands. +X anatomical left.",
+    "motion": "Native bn01 1.00000012s loop with body breathing and independent feeler motion, four quarter-cycle samples15ticks. No horizontal root travel.",
+    "scope": "Initial Idle only; all other XML actions explicit placeholders.",
+    "readability": "Parent approved exact koromon-eye-border-v2 probe: up to2 black pixels at lower source-depth-visible eye/body interface. Native eye interiors preserved; not v2b experiment. Overlay is an explicit post-build revision, not automatically applied by build-idle."
+  },
+  "approved_eye_contour": {
+    "rule": "koromon-visible-eye-lower-interface-v2",
+    "probe": "work/phase4/intraining-production/koromon-eye-border-v2",
+    "application": "Exact approved probe PNG, verified against source-visible masks and 52 recorded coordinate edits; generic build-idle alone produces unstyled source Idle."
+  }
+}

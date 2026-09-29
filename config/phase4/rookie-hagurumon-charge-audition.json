@@ -1,0 +1,9 @@
+{
+  "species":"hagurumon",
+  "jobs":[
+    {"clip":"chr009_bv01","time":1.3,"azimuth":0,"note":"Charge peak"},
+    {"clip":"chr009_bv01","time":1.3,"azimuth":270,"note":"Charge side"},
+    {"clip":"chr009_fq01","time":1.2,"azimuth":0,"note":"Rotate source"},
+    {"clip":"chr009_fq01","time":1.2,"azimuth":270,"note":"Rotate side"}
+  ]
+}

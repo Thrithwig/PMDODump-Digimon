@@ -1,0 +1,108 @@
+{
+  "species": "starmon",
+  "display_name": "Starmon",
+  "source_chr_id": "chr014",
+  "model_path": "work/phase4/champion-production/starmon-idle-candidate/starmon.glb",
+  "pmdo_index": 10107,
+  "idle_clip": "chr014_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0,
+    0.62500004,
+    1.25000008,
+    1.87500012
+  ],
+  "idle_duration_ticks": 38,
+  "approved_neutral_height": 41,
+  "neutral_frame": 0,
+  "frame_size": 96,
+  "render_size": 768,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1
+  },
+  "idle_ground_policy": "fixed",
+  "ground_contact_row": 79,
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "source_eye_masks": true,
+    "head_bones": [
+      "body"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.06,
+    "fixed_framing": {
+      "center": [
+        0,
+        1.78,
+        -0.45
+      ],
+      "extent": 4.18
+    },
+    "offset_bones": {
+      "head": {
+        "bone": "body",
+        "local_point": [
+          0,
+          0.45,
+          0.2
+        ]
+      },
+      "center": "mass",
+      "left_hand": "L_hand",
+      "right_hand": "R_hand"
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.8229166667
+    ]
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ],
+  "anatomy_notes": {
+    "source": "Direct chr014 star-bodied model and native chr014_bn01 Idle loop; eye meshes use source diffuse, shine and overlay mask.",
+    "face": "The star body is also the face; use source visible eye layers and inspect at native size before any bounded adjustment.",
+    "offsets": "No distinct head joint. Head marker is a documented body-local point; center uses mass, anatomical hands use L_hand and R_hand.",
+    "ground": "Grounded biped, with L_foot and R_foot evidence and one fixed PMDO shadow. Preserve native bounce without cropping."
+  }
+}

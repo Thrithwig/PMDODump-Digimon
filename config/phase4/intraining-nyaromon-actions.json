@@ -1,0 +1,23 @@
+{
+  "species": "nyaromon",
+  "model_path": "work/phase4/source/nyaromon.glb",
+  "approved_idle": "work/phase4/intraining-production/nyaromon-idle-v1/package/10012",
+  "palette_policy": "approved-idle",
+  "mouth_palette": false,
+  "mouth_colors": [],
+  "open_mouth_actions": [],
+  "palette_rationale": "Exact approved 63-color Idle palette for all action sheets; preserve native red eyes and mouth under source-only one-pixel lower eye rule.",
+  "reference": "Native chr515 clips and anatomy provide the motion; no separate PMDO reference pose or pixels used.",
+  "actions": [
+    {"name":"Walk","clip":"chr515_br01","seconds":1.1666667408413405,"sample_phases":[0,0.125,0.25,0.375,0.5,0.625,0.75,0.875],"durations":[9,9,9,9,9,9,9,9],"ground_policy":"fixed","pose_evidence":"Native bouncing locomotion with open-mouth rise and independently swinging tail. J_center XZ travel locked; source Y retained. Loop endpoint excluded."},
+    {"name":"Attack","clip":"chr515_ba01","seconds":1.4000000890096085,"sample_phases":[0,0.08,0.13,0.2,0.32,0.45,0.6,0.8,0.98],"durations":[3,3,4,5,5,4,4,4,5],"ground_policy":"fixed","events":{"RushFrame":1,"HitFrame":3,"ReturnFrame":6},"pose_evidence":"Native jaw-open forward body strike; contact near .18-.28s. Horizontal native travel locked, vertical recoil retained."},
+    {"name":"Shoot","clip":"chr515_fe03","seconds":3.0000001907348754,"sample_phases":[0,0.1,0.2,0.3,0.4,0.5,0.7,0.96],"durations":[4,4,5,5,7,5,4,6],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":5,"ReturnFrame":6},"pose_evidence":"Native wide-mouth body release near1.5s, tail upright; no verified projectile/effect asset."},
+    {"name":"Sleep","clip":"chr515_bn02","seconds":5.666667026943654,"sample_phases":[0,0.1666667,0.3333333,0.5,0.6666667,0.8333333],"durations":[57,57,57,57,57,57],"ground_policy":"fixed","closed_eyes":true,"pose_evidence":"Native low breathing rest; source b01 closed-eye row selected atV+.25, no black open-eye edge postprocess."},
+    {"name":"Hurt","clip":"chr515_bd01","seconds":0.8666667217678529,"sample_phases":[0,0.06,0.13,0.22,0.32,0.45,0.62,0.8,0.97],"durations":[3,4,4,4,5,4,4,4,5],"ground_policy":"fixed","events":{"HitFrame":2},"pose_evidence":"Native head/body recoil with rearward tail swing; avoids bd02 extreme vertical travel."},
+    {"name":"Swing","clip":"chr515_fe01","seconds":2.333333481682681,"sample_phases":[0,0.1,0.22,0.35,0.48,0.62,0.78,0.96],"durations":[4,4,5,5,5,4,4,5],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":6},"pose_evidence":"Source three-bone tail sweep and head turn; tail is actual appendage, no invented hand."},
+    {"name":"Double","clip":"chr515_ba01","seconds":1.4000000890096085,"sample_phases":[0,0.13,0.2,0.45,0.98,0,0.13,0.2,0.45,0.98],"durations":[3,4,5,4,4,3,4,5,4,6],"ground_policy":"fixed","events":{"RushFrame":1,"HitFrame":2,"ReturnFrame":8},"pose_evidence":"Two retimed native jaw/body strikes; two visual contacts, one PMDO HitFrame. Horizontal travel locked."},
+    {"name":"Hop","clip":"chr515_ba02","seconds":1.833333449893535,"sample_phases":[0,0.06,0.14,0.25,0.4,0.55,0.72,0.97],"durations":[4,5,5,8,8,5,4,6],"ground_policy":"fixed","events":{"HitFrame":5},"pose_evidence":"Distinct native high vertical body arc, selected to separate Hop from br01 Walk and ba01 Attack; no procedural lift."},
+    {"name":"Charge","clip":"chr515_bv01","seconds":2.5000001589457295,"sample_phases":[0,0.1,0.2,0.3,0.4,0.5,0.6,0.5,0.3,0],"durations":[4,5,5,6,7,7,8,5,4,5],"ground_policy":"fixed","events":{"HitFrame":6,"ReturnFrame":8},"pose_evidence":"Source centerY rising body/tail buildup then mirrored release to neutral; no invented glow/effect."},
+    {"name":"Rotate","clip":"chr515_fq01","seconds":2.333333481682681,"sample_phases":[0,0.0833333,0.1666667,0.25,0.3333333,0.4166667,0.5,0.5833333,0.6666667,0.75,0.8333333,0.9166667],"durations":[4,4,4,4,4,4,4,4,4,4,4,4],"ground_policy":"fixed","turn_degrees":[0,30,60,90,120,150,180,210,240,270,300,330],"events":{"HitFrame":6},"pose_evidence":"Native tail/head looking gesture plus explicit whole-view yaw; endpoint excluded."}
+  ]
+}

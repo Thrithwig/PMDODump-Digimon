@@ -1,0 +1,114 @@
+{
+  "species": "dragomon",
+  "display_name": "Dragomon",
+  "source_chr_id": "chr129",
+  "model_path": "work/phase4/ultimate-production/dragomon-idle-candidate/dragomon.glb",
+  "pmdo_index": 10173,
+  "idle_clip": "chr129_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0,
+    0.5000000317891459,
+    1.0000000635782917,
+    1.5000000953674377
+  ],
+  "idle_duration_ticks": 30,
+  "approved_neutral_height": 47,
+  "neutral_frame": 0,
+  "frame_size": 256,
+  "render_size": 2048,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1
+  },
+  "idle_ground_policy": "fixed",
+  "ground_contact_row": 158,
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "source_eye_masks": true,
+    "head_bones": [
+      "J_head"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.08,
+    "fixed_framing": {
+      "center": [
+        0,
+        1.7,
+        0
+      ],
+      "extent": 11.2
+    },
+    "offset_bones": {
+      "head": "J_head",
+      "center": "J_center",
+      "left_hand": "J_hand_l",
+      "right_hand": "J_javelin02"
+    },
+    "horizontal_root_lock": {
+      "chr129_br01": {
+        "bone": "J_center",
+        "reference_time": 0.0,
+        "axes": [
+          "x",
+          "y",
+          "z"
+        ],
+        "reference_clip": "chr129_bn01"
+      }
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.734375
+    ]
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ],
+  "anatomy_notes": {
+    "source": "Direct Time Stranger chr129; four endpoint-exclusive samples of native two-second chr129_bn01.",
+    "face": "Paired native eye_L/eye_R meshes and source material layers; inspect native-size contrast.",
+    "silhouette": "Native head, tentacles, asymmetrical arms, wings, legs and feet.",
+    "offsets": "Native J_head, J_center, J_hand_l; J_javelin02 is a right-side held-item marker proxy.",
+    "ground": "Fixed shadow with actual foot contact; Huge corridor gate pending."
+  }
+}

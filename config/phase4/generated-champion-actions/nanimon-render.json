@@ -1,0 +1,99 @@
+{
+  "species": "nanimon",
+  "display_name": "Nanimon",
+  "source_chr_id": "chr375",
+  "model_path": "work/phase4/champion-production/nanimon-idle-candidate/nanimon.glb",
+  "pmdo_index": 10120,
+  "idle_clip": "chr375_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0.0,
+    0.25,
+    0.5,
+    0.75
+  ],
+  "idle_duration_ticks": 15,
+  "approved_neutral_height": 21,
+  "neutral_frame": 0,
+  "frame_size": 96,
+  "render_size": 768,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1
+  },
+  "idle_ground_policy": "fixed",
+  "ground_contact_row": 63,
+  "renderer": {
+    "eye_mode": "source",
+    "head_bones": [
+      "J_ago"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.06,
+    "fixed_framing": {
+      "center": [
+        0,
+        0.9,
+        0
+      ],
+      "extent": 2.58
+    },
+    "offset_bones": {
+      "head": "J_ago",
+      "center": "J_center",
+      "left_hand": "J_te_L",
+      "right_hand": "J_te_R"
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.734375
+    ]
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ],
+  "anatomy_notes": {
+    "source": "Direct chr375 Nanimon geometry, native chr375_bn01 one-second Idle, and mapped chr375a01 body material.",
+    "silhouette": "Preserve the source oval body, facial markings, paired arms and hands, hair, and short legs and feet.",
+    "eyes": "Facial detail is on the source body texture with no separate eye mesh; inspect its native-size contrast before any source-bounded correction.",
+    "ground": "Grounded biped; maintain one fixed PMDO shadow and inspect actual foot contact through the loop."
+  }
+}

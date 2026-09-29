@@ -1,0 +1,13 @@
+{
+  "species":"tsumemon",
+  "jobs":[
+    {"clip":"chr631_br01","time":0.08,"azimuth":90},{"clip":"chr631_br01","time":0.45,"azimuth":90},
+    {"clip":"chr631_ba01","time":0.15,"azimuth":90},{"clip":"chr631_ba01","time":0.72,"azimuth":90},
+    {"clip":"chr631_ba02","time":0.2,"azimuth":90},{"clip":"chr631_ba02","time":1.1,"azimuth":90},
+    {"clip":"chr631_bd01","time":0.13,"azimuth":90},{"clip":"chr631_bd01","time":0.65,"azimuth":90},
+    {"clip":"chr631_bn02","time":1.2,"azimuth":90},{"clip":"chr631_bn02","time":4.2,"azimuth":90},
+    {"clip":"chr631_bg01","time":0.13,"azimuth":90},{"clip":"chr631_bg01","time":0.72,"azimuth":90},
+    {"clip":"chr631_bs01","time":0.12,"azimuth":90},{"clip":"chr631_bs01","time":0.72,"azimuth":90},
+    {"clip":"chr631_fe01","time":0.25,"azimuth":90},{"clip":"chr631_fe01","time":1.5,"azimuth":90}
+  ]
+}

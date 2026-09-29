@@ -1,0 +1,23 @@
+{
+  "species": "chuumon",
+  "model_path": "work/phase4/source/chuumon.glb",
+  "approved_idle": "work/phase4/rookie-production/chuumon-idle-trial-v2/package/10038",
+  "palette_policy": "approved-idle",
+  "mouth_palette": false,
+  "mouth_colors": [],
+  "open_mouth_actions": [],
+  "palette_rationale": "Keep the source-visible black eye meshes, pink anatomy, and orange mouth within the reviewed 63-color Idle palette. No painted pupil, eyelid, or projectile.",
+  "reference": "Own DSTS chr020 model and native animation clips; PMDO registry supplies action names and timing fields.",
+  "actions": [
+    {"name":"Walk","clip":"chr020_br01","seconds":1.0,"sample_phases":[0,0.125,0.25,0.375,0.5,0.625,0.75,0.875],"durations":[8,8,8,8,8,8,8,8],"ground_policy":"fixed","pose_evidence":"Native energetic bounded locomotion; endpoint excluded."},
+    {"name":"Attack","clip":"chr020_ba01","seconds":1.6666667,"sample_phases":[0,0.06,0.15,0.27,0.38,0.52,0.67,0.82,0.97],"durations":[3,3,4,5,5,4,4,4,5],"ground_policy":"fixed","events":{"RushFrame":1,"HitFrame":4,"ReturnFrame":7},"pose_evidence":"Native acrobatic strike with an inverted middle pose; preserve the source arc."},
+    {"name":"Shoot","clip":"chr020_fe04","seconds":2.6666667,"sample_phases":[0,0.1,0.22,0.35,0.48,0.62,0.78,0.96],"durations":[4,4,5,5,6,5,4,6],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":6},"pose_evidence":"Native open-mouth expression/release; no projectile exists in this package."},
+    {"name":"Sleep","clip":"chr020_bn02","seconds":2.0,"sample_phases":[0,0.1666667,0.3333333,0.5,0.6666667,0.8333333],"durations":[33,33,33,33,33,33],"ground_policy":"fixed","pose_evidence":"Native crouched/resting motion; source eyes remain open looking."},
+    {"name":"Hurt","clip":"chr020_bd01","seconds":1.0,"sample_phases":[0,0.06,0.13,0.22,0.32,0.45,0.62,0.8,0.97],"durations":[3,4,4,4,5,4,4,4,5],"ground_policy":"fixed","events":{"HitFrame":2},"pose_evidence":"Native recoil; avoids the more extreme bd02/bd03 variants."},
+    {"name":"Swing","clip":"chr020_bs01","seconds":2.8333334,"sample_phases":[0,0.1,0.22,0.35,0.48,0.62,0.78,0.96],"durations":[4,4,5,5,5,4,4,5],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":6},"pose_evidence":"Native arm/body swing, without adding a weapon."},
+    {"name":"Double","clip":"chr020_ba01","seconds":1.6666667,"sample_phases":[0,0.17,0.4,0.7,0.98,0,0.17,0.4,0.7,0.98],"durations":[3,4,5,4,4,3,4,5,4,6],"ground_policy":"fixed","events":{"RushFrame":1,"HitFrame":2,"ReturnFrame":8},"pose_evidence":"Two repeated native attack cycles; PMDO exposes one HitFrame."},
+    {"name":"Hop","clip":"chr020_ba02","seconds":2.6666667,"sample_phases":[0,0.06,0.14,0.25,0.4,0.55,0.72,0.97],"durations":[4,5,5,8,8,5,4,6],"ground_policy":"fixed","events":{"HitFrame":5},"pose_evidence":"Distinct native high flip and landing arc."},
+    {"name":"Charge","clip":"chr020_bv01","seconds":2.6666667,"sample_phases":[0,0.1,0.2,0.3,0.4,0.5,0.6,0.5,0.3,0],"durations":[4,5,5,6,7,7,8,5,4,5],"ground_policy":"fixed","events":{"HitFrame":6,"ReturnFrame":8},"pose_evidence":"Native anticipation/strain with reverse sampled recovery; no effect added."},
+    {"name":"Rotate","clip":"chr020_fq01","seconds":2.0,"sample_phases":[0,0.0833333,0.1666667,0.25,0.3333333,0.4166667,0.5,0.5833333,0.6666667,0.75,0.8333333,0.9166667],"durations":[4,4,4,4,4,4,4,4,4,4,4,4],"ground_policy":"fixed","turn_degrees":[0,30,60,90,120,150,180,210,240,270,300,330],"events":{"HitFrame":6},"pose_evidence":"Native head/gaze motion combined with explicit whole-view yaw; endpoint excluded."}
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "species":"lunamon",
+  "model_path":"work/phase4/rookie-production/lunamon-preflight/lunamon.glb",
+  "approved_idle":"work/phase4/rookie-production/lunamon-idle-trial-v2/package/10061",
+  "palette_policy":"approved-idle","mouth_palette":false,"mouth_colors":[],"open_mouth_actions":[],
+  "palette_rationale":"Preserve reviewed pale body, blue-white ears, red source eye centers with dark rims, yellow crescents and dark outlines from the 63-color Idle palette.",
+  "reference":"Own DSTS chr002 mesh/clips; PMDO registry supplies action names and event fields.",
+  "ground_policy_note":"Grounded fixed row-48 shadow. Walk follows feet; native one-shot lift is not flattened. Idle and Attack are never trimmed.",
+  "actions":[
+    {"name":"Walk","clip":"chr002_br01","seconds":0.5,"sample_phases":[0,0.125,0.25,0.375,0.5,0.625,0.75,0.875],"durations":[8,8,8,8,8,8,8,8],"ground_policy":"per-frame","pose_evidence":"Own ear-sway step cycle; loop endpoint excluded."},
+    {"name":"Attack","clip":"chr002_ba02","seconds":2.833333,"sample_phases":[0,0.1,0.2,0.3,0.45,0.56,0.68,0.82,0.96],"durations":[3,3,4,5,5,4,4,4,5],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":7},"pose_evidence":"Own arm/ear lunge; ba01 contact exits approved framing, so ba02 selected. Never trim Physical Attack."},
+    {"name":"Shoot","clip":"chr002_fe01","seconds":1.833333,"sample_phases":[0,0.1,0.22,0.35,0.48,0.62,0.78,0.96],"durations":[4,4,5,5,6,5,4,6],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":5,"ReturnFrame":6},"pose_evidence":"Own hand-gather and release; no invented projectile or glow."},
+    {"name":"Sleep","clip":"chr002_bn02","seconds":2.0,"sample_phases":[0,0.166667,0.333333,0.5,0.666667,0.833333],"durations":[33,33,33,33,33,33],"ground_policy":"fixed","pose_evidence":"Native lowered head and ears; no painted eyelids."},
+    {"name":"Hurt","clip":"chr002_bd01","seconds":1.1,"sample_phases":[0,0.06,0.13,0.22,0.35,0.48,0.62,0.8,0.97],"durations":[3,4,4,4,5,4,4,4,5],"ground_policy":"fixed","events":{"HitFrame":4},"pose_evidence":"Own backward/side recoil and ear swing."},
+    {"name":"Swing","clip":"chr002_bs01","seconds":3.866667,"sample_phases":[0,0.1,0.22,0.35,0.48,0.62,0.78,0.96],"durations":[4,4,5,5,5,4,4,5],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":6},"pose_evidence":"Native sweeping ear/arm gesture; no synthetic weapon."},
+    {"name":"Double","clip":"chr002_ba02","seconds":2.833333,"sample_phases":[0,0.2,0.45,0.68,0.9,0,0.2,0.45,0.68,0.9],"durations":[3,4,5,4,4,3,4,5,4,6],"ground_policy":"fixed","events":{"RushFrame":1,"HitFrame":2,"ReturnFrame":8},"pose_evidence":"Two source ba02 visual contacts, one PMDO HitFrame."},
+    {"name":"Hop","clip":"chr002_bf01","seconds":0.3,"sample_phases":[0,0.166667,0.333333,0.533333,0.733333,0.933333,0.666667,0.266667],"durations":[4,5,5,8,8,5,4,6],"ground_policy":"fixed","events":{"HitFrame":5},"pose_evidence":"Bounded first 0.3s of own high-jump clip with reverse-sampled recovery; later source apex exits approved fixed framing, so no invented vertical offset."},
+    {"name":"Charge","clip":"chr002_bv01","seconds":2.7,"sample_phases":[0,0.1,0.2,0.3,0.4,0.5,0.6,0.5,0.3,0],"durations":[4,5,5,6,7,7,8,5,4,5],"ground_policy":"fixed","events":{"HitFrame":6,"ReturnFrame":8},"pose_evidence":"Native braced ear/arm charge with reverse-sampled recovery; no aura."},
+    {"name":"Rotate","clip":"chr002_fq01","seconds":1.533333,"sample_phases":[0,0.083333,0.166667,0.25,0.333333,0.416667,0.5,0.583333,0.666667,0.75,0.833333,0.916667],"durations":[4,4,4,4,4,4,4,4,4,4,4,4],"ground_policy":"fixed","turn_degrees":[0,30,60,90,120,150,180,210,240,270,300,330],"events":{"HitFrame":6},"pose_evidence":"Own ear/body turn with whole-view yaw; endpoint excluded."}
+  ]
+}

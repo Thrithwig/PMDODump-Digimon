@@ -1,0 +1,13 @@
+{"species":"falcomon","jobs":[
+  {"clip":"chr705_ba02","time":0.15,"azimuth":0,"note":"ba02 windup"},
+  {"clip":"chr705_ba02","time":0.45,"azimuth":0,"note":"ba02 contact"},
+  {"clip":"chr705_ba02","time":0.75,"azimuth":0,"note":"ba02 follow"},
+  {"clip":"chr705_ba02","time":1.1,"azimuth":0,"note":"ba02 recovery"},
+  {"clip":"chr705_bg01","time":0.25,"azimuth":0,"note":"bg01 first"},
+  {"clip":"chr705_bg01","time":0.6,"azimuth":0,"note":"bg01 middle"},
+  {"clip":"chr705_bg02","time":0.25,"azimuth":0,"note":"bg02 first"},
+  {"clip":"chr705_bg02","time":0.6,"azimuth":0,"note":"bg02 middle"},
+  {"clip":"chr705_ba02","time":0.45,"azimuth":270,"note":"ba02 side"},
+  {"clip":"chr705_bg01","time":0.6,"azimuth":270,"note":"bg01 side"},
+  {"clip":"chr705_bg02","time":0.6,"azimuth":270,"note":"bg02 side"}
+]}

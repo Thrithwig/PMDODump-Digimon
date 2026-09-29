@@ -1,0 +1,101 @@
+{
+  "species": "golemon",
+  "display_name": "Golemon",
+  "source_chr_id": "chr005",
+  "model_path": "work/phase4/champion-production/golemon-idle-candidate/golemon.glb",
+  "pmdo_index": 10099,
+  "idle_clip": "chr005_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0,
+    0.625,
+    1.25,
+    1.875
+  ],
+  "idle_duration_ticks": 38,
+  "approved_neutral_height": 47,
+  "neutral_frame": 0,
+  "frame_size": 128,
+  "render_size": 1024,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1
+  },
+  "idle_ground_policy": "fixed",
+  "ground_contact_row": 111,
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "source_eye_masks": true,
+    "head_bones": [
+      "J_head"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.06,
+    "fixed_framing": {
+      "center": [
+        0,
+        1.8,
+        0
+      ],
+      "extent": 5.32
+    },
+    "offset_bones": {
+      "head": "J_head",
+      "center": "J_center",
+      "left_hand": "J_hand_l",
+      "right_hand": "J_hand_r"
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.8671875
+    ]
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ],
+  "anatomy_notes": {
+    "source": "Direct chr005 model and native 2.5-second chr005_bn01 Idle clip.",
+    "silhouette": "Preserve broad rock torso, head, both arms, both legs, feet and stone segmentation.",
+    "eyes": "Retain source eye_L and eye_R meshes and materials without repaint.",
+    "ground": "Grounded biped with one fixed shadow; assess foot contact in all four source poses."
+  }
+}

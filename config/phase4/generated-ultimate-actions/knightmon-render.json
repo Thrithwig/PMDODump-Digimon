@@ -1,0 +1,103 @@
+{
+  "species": "knightmon",
+  "display_name": "Knightmon",
+  "source_chr_id": "chr718",
+  "model_path": "work/phase4/ultimate-production/knightmon-idle-candidate/knightmon.glb",
+  "pmdo_index": 10182,
+  "idle_clip": "chr718_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0,
+    0.4083333592944692,
+    0.8166667185889384,
+    1.2250000778834076
+  ],
+  "idle_duration_ticks": 25,
+  "approved_neutral_height": 39,
+  "neutral_frame": 0,
+  "frame_size": 192,
+  "render_size": 1536,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1
+  },
+  "idle_ground_policy": "fixed",
+  "ground_contact_row": 126,
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "source_eye_masks": true,
+    "head_bones": [
+      "J_neck"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.08,
+    "fixed_framing": {
+      "center": [
+        0,
+        1.4,
+        0
+      ],
+      "extent": 7.68
+    },
+    "offset_bones": {
+      "head": "J_neck",
+      "center": "J_center",
+      "left_hand": "J_hand_l",
+      "right_hand": "J_hand_r"
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.8125
+    ]
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ],
+  "anatomy_notes": {
+    "source": "Direct Time Stranger chr718 model and 1.633333437-second native chr718_bn01 loop; four endpoint-exclusive samples.",
+    "bind_axis": "Source eye_L/R geometry sits at Z+0.104..0.146, centered near Y2.14; frontal plate and cloth joints extend toward Z+, while shield joint lies at Z-0.325. Camera azimuth 0 sees +Z, so Down is frontal; 270 and 90 are opposing profiles; 180 sees the back.",
+    "face": "Separate source eye meshes; inspect native-size contrast before any source-bounded treatment.",
+    "silhouette": "Preserve source helmet, armor, shield, long blade, legs and boots.",
+    "offsets": "J_neck is the closest native head anchor; J_hand_l/r are anatomical hands.",
+    "ground": "Grounded armored biped; assess actual boot contact separately from sword and shield extrema."
+  }
+}

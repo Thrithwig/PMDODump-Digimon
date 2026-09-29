@@ -1,0 +1,22 @@
+{
+  "species":"fanbeemon",
+  "model_path":"work/phase4/rookie-production/fanbeemon-preflight/fanbeemon.glb",
+  "approved_idle":"work/phase4/rookie-production/fanbeemon-idle-trial-v4/package/10052",
+  "palette_policy":"approved-idle","mouth_palette":false,"mouth_colors":[],
+  "open_mouth_actions":[],
+  "reference":"Own DSTS chr042 FunBeemon model and clips. PMDO engine registry supplies action names, timing and events.",
+  "flight_policy":"Fixed row-82 shadow on padded action canvas; native wingbeats and vertical bob are retained.",
+  "eye_policy":"Retain source pale eyes, green iris and native dark detail; no speculative pupil or eyelid.",
+  "actions":[
+    {"name":"Walk","clip":"chr042_br01","seconds":2.0,"sample_phases":[0,0.125,0.25,0.375,0.5,0.625,0.75,0.875],"durations":[8,8,8,8,8,8,8,8],"ground_policy":"fixed","pose_evidence":"Native forward flight and alternating wingbeat; loop endpoint excluded."},
+    {"name":"Attack","clip":"chr042_ba01","seconds":1.7,"sample_phases":[0,0.06,0.15,0.27,0.38,0.52,0.67,0.82,0.97],"durations":[3,3,4,5,5,4,4,4,5],"ground_policy":"fixed","events":{"RushFrame":1,"HitFrame":4,"ReturnFrame":7},"pose_evidence":"Native head and forelimb lunge while flying."},
+    {"name":"Shoot","clip":"chr042_fe04","seconds":2.666667,"sample_phases":[0,0.1,0.22,0.35,0.48,0.62,0.78,0.96],"durations":[4,4,5,5,6,5,4,6],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":6},"pose_evidence":"Native upright release gesture; no projectile asset."},
+    {"name":"Sleep","clip":"chr042_bn02","seconds":4.0,"sample_phases":[0,0.166667,0.333333,0.5,0.666667,0.833333],"durations":[33,33,33,33,33,33],"ground_policy":"fixed","pose_evidence":"Native resting flight and lowered forelimbs; source eye closure uncertain at native scale."},
+    {"name":"Hurt","clip":"chr042_bd01","seconds":1.266667,"sample_phases":[0,0.06,0.13,0.22,0.32,0.45,0.62,0.8,0.97],"durations":[3,4,4,4,5,4,4,4,5],"ground_policy":"fixed","events":{"HitFrame":2},"pose_evidence":"Native recoil and disrupted wing motion."},
+    {"name":"Swing","clip":"chr042_bs01","seconds":2.833334,"sample_phases":[0.06,0.10,0.15,0.20,0.25,0.30,0.34,0.25],"durations":[4,4,5,5,5,4,4,5],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":5,"ReturnFrame":7},"pose_evidence":"First 0.96s of native sweep, then recovery; later native clip dives entirely out of sprite view."},
+    {"name":"Double","clip":"chr042_ba01","seconds":1.7,"sample_phases":[0,0.17,0.4,0.7,0.98,0,0.17,0.4,0.7,0.98],"durations":[3,4,5,4,4,3,4,5,4,6],"ground_policy":"fixed","events":{"RushFrame":1,"HitFrame":2,"ReturnFrame":8},"pose_evidence":"Two native strike cycles; PMDO XML has one HitFrame."},
+    {"name":"Hop","clip":"chr042_bf01","seconds":1.7,"sample_phases":[0,0.06,0.14,0.25,0.4,0.55,0.72,0.97],"durations":[4,5,5,8,8,5,4,6],"ground_policy":"fixed","events":{"HitFrame":5},"pose_evidence":"Native high flight arc on a padded action canvas; no forced landing."},
+    {"name":"Charge","clip":"chr042_bv01","seconds":4.333334,"sample_phases":[0,0.1,0.2,0.3,0.4,0.5,0.6,0.5,0.3,0],"durations":[4,5,5,6,7,7,8,5,4,5],"ground_policy":"fixed","events":{"HitFrame":6,"ReturnFrame":8},"pose_evidence":"Native forelimb strain and reverse-sampled recovery. Horizontal root travel is anchored; vertical/rotational motion remains."},
+    {"name":"Rotate","clip":"chr042_bn01","seconds":2.0,"sample_phases":[0,0.083333,0.166667,0.25,0.333333,0.416667,0.5,0.583333,0.666667,0.75,0.833333,0.916667],"durations":[4,4,4,4,4,4,4,4,4,4,4,4],"ground_policy":"fixed","turn_degrees":[0,30,60,90,120,150,180,210,240,270,300,330],"events":{"HitFrame":6},"pose_evidence":"Native flight Idle wingbeat with explicit whole-view yaw; fq01 travels beyond fixed sprite framing."}
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "species":"poyomon", "display_name":"Poyomon", "source_chr_id":"chr320",
+  "model_path":"work/phase4/source/poyomon.glb", "pmdo_index":10005,
+  "idle_clip":"chr320_bn01", "idle_frames":4,
+  "frame_times":[0,0.5,1,1.5], "idle_duration_ticks":30,
+  "approved_neutral_height":17, "neutral_frame":0,
+  "frame_size":32, "render_size":256, "minimum_edge_margin":2,
+  "palette_size":63, "alpha_cutoff":128,
+  "outline":{"enabled":true,"depth_threshold":1,"normal_dot_threshold":-1},
+  "placement":{"mode":"airborne","shadow_row":25,"minimum_gap":2},
+  "idle_ground_policy":"fixed",
+  "renderer":{
+    "eye_mode":"source", "head_bones":["J_center","J_body2"],
+    "emissive_intensity":0.55, "elevation":0.08,
+    "fixed_framing":{"center":[0,0.265,0],"extent":0.49},
+    "offset_bones":{
+      "head":{"bone":"J_body2","local_point":[0,-0.012552980821506576,0.1293178911134719]},
+      "center":"J_center",
+      "left_hand":{"bone":"J_center","local_point":[0.17,-0.02611687055785547,0.05331075649935334]},
+      "right_hand":{"bone":"J_center","local_point":[-0.17,-0.02611687055785547,0.05331075649935334]}
+    }
+  },
+  "offsets":{"source":"projected-native-bones-v1","shadow":[0.5,0.8]},
+  "anatomy_notes":{
+    "source":"chr320 existing dsts-extractor0.9.0 GLB; PMDO10005 verified from installed manifest read-only.",
+    "eyes":"Two white eye_L/eye_R meshes use source chr320e01h. UV3 face patches explicitly sample chr320b01 dark neutral circles, retained unmodified beneath the separate eye geometry. chr320p01 is source OverlayNormalSampler, not a diffuse pupil map. No borrowed pupils, replacement eye texture, or Agumon mask; fidelity is to exported GLB, not a claim of full original shader equivalence.",
+    "head":"Measured eye bind midpoint [0,0.2810914889,0.1426289938] transformed into J_body2 local space; follows native face deformation.",
+    "hand_slots":"No limbs or arm bones. Documented inner body-side points at bind-world [+/-0.17,0.14,0.05], transformed into J_center local space; anatomical left is +X, screen-right from front. Markers are attachment conventions, not hands.",
+    "ground":"Native underside sampled above bind floor Y0: minima0.0035..0.0853 with root bob0.08. Low airborne float with drooping rim; preserve all native Y/rotation/scale and small XZ sway above fixed shadow25 using one global placement shift across all directions and frames.",
+    "motion":"Native bn01 two-second bob/sway, quarter-cycle samples0,.5,1,1.5 at30ticks each. Source scale tracks stop before loop endpoint; root XZ scale endpoint differs about1.9%, retained rather than synthetic loop repair.",
+    "pending":"17px neutral target requires pixel verification; pale source-white eyes may be subtle against pale-blue body. Idle only, other actions explicit placeholders pending separate authorization."
+  },
+  "directions":[
+    {"name":"Down","azimuth_degrees":0},{"name":"DownRight","azimuth_degrees":315},
+    {"name":"Right","azimuth_degrees":270},{"name":"UpRight","azimuth_degrees":225},
+    {"name":"Up","azimuth_degrees":180},{"name":"UpLeft","azimuth_degrees":135},
+    {"name":"Left","azimuth_degrees":90},{"name":"DownLeft","azimuth_degrees":45}
+  ]
+}

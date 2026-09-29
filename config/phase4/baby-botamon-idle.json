@@ -1,0 +1,29 @@
+{
+  "species":"botamon", "display_name":"Botamon", "dsts_chr":"chr317",
+  "idle_clip":"chr317_bn01", "pmdo_index":10004,
+  "approved_neutral_height":17,
+  "frame_size":32, "render_size":256, "idle_frames":4,
+  "frame_times":[0,0.416667,0.833333,1.25], "idle_duration_ticks":25,
+  "palette_size":64, "alpha_cutoff":128,
+  "outline":{"enabled":true,"depth_threshold":1,"normal_dot_threshold":-1},
+  "ground_contact_row":25,
+  "renderer":{
+    "eye_mode":"source", "head_bones":["J_face2","J_mimiL","J_mimiR"],
+    "emissive_intensity":0.55, "elevation":0.08,
+    "framing":{"sample_times":[0,0.416667,0.833333,1.25],"margin":1.8},
+    "offset_bones":{"head":"J_face2","center":"J_center","left_hand":"J_mimiL","right_hand":"J_mimiR"}
+  },
+  "offsets":{"source":"projected-native-bones-v1","shadow":[0.5,0.8]},
+  "anatomy_notes":{
+    "hand_markers":"PMDO left/right hand fields use anatomical left/right ear-base anchors J_mimiL/J_mimiR as appendage substitutes; Botamon has no arms.",
+    "ground":"This Idle is a grounded round body; lowest body silhouette is contact evidence. No jumping action is included.",
+    "eyes":"Native source material retained; no Agumon pupil or facial-mask defaults.",
+    "height":"17 pixels measured on outlined Down neutral frame at t=0; one fixed camera scale across the loop and directions. Canvas is 32 pixels."
+  },
+  "directions":[
+    {"name":"Down","azimuth_degrees":0},{"name":"DownRight","azimuth_degrees":315},
+    {"name":"Right","azimuth_degrees":270},{"name":"UpRight","azimuth_degrees":225},
+    {"name":"Up","azimuth_degrees":180},{"name":"UpLeft","azimuth_degrees":135},
+    {"name":"Left","azimuth_degrees":90},{"name":"DownLeft","azimuth_degrees":45}
+  ]
+}

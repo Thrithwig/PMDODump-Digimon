@@ -1,0 +1,38 @@
+{
+  "species": "agumon",
+  "display_name": "Agumon",
+  "dsts_model": "agumon",
+  "dsts_chr": "chr050",
+  "idle_clip": "chr050_bn01",
+  "pmdo_index": 10018,
+  "frame_size": 40,
+  "render_size": 256,
+  "idle_frames": 4,
+  "frame_times": [0.0, 0.283333, 0.566667, 0.85],
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 0.045,
+    "normal_dot_threshold": 0.2
+  },
+  "ground_contact_row": 32,
+  "directions": [
+    {"name": "Down", "azimuth_degrees": 0},
+    {"name": "DownRight", "azimuth_degrees": 315},
+    {"name": "Right", "azimuth_degrees": 270},
+    {"name": "UpRight", "azimuth_degrees": 225},
+    {"name": "Up", "azimuth_degrees": 180},
+    {"name": "UpLeft", "azimuth_degrees": 135},
+    {"name": "Left", "azimuth_degrees": 90},
+    {"name": "DownLeft", "azimuth_degrees": 45}
+  ],
+  "offsets": {
+    "source": "template-assisted-agumon-v1",
+    "head": [0.50, 0.20],
+    "left_hand": [0.34, 0.50],
+    "center": [0.50, 0.76],
+    "right_hand": [0.66, 0.50],
+    "shadow": [0.50, 0.94]
+  }
+}

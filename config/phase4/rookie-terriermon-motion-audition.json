@@ -1,0 +1,21 @@
+{
+  "species":"terriermon",
+  "jobs":[
+    {"clip":"chr701_ba01","time":0.05,"azimuth":0,"note":"ba01 start"},
+    {"clip":"chr701_ba01","time":0.45,"azimuth":0,"note":"ba01 windup"},
+    {"clip":"chr701_ba01","time":0.85,"azimuth":0,"note":"ba01 contact"},
+    {"clip":"chr701_ba01","time":1.62,"azimuth":0,"note":"ba01 recovery"},
+    {"clip":"chr701_ba02","time":0.05,"azimuth":0,"note":"ba02 start"},
+    {"clip":"chr701_ba02","time":0.6,"azimuth":0,"note":"ba02 windup"},
+    {"clip":"chr701_ba02","time":1.15,"azimuth":0,"note":"ba02 contact"},
+    {"clip":"chr701_ba02","time":2.2,"azimuth":0,"note":"ba02 recovery"},
+    {"clip":"chr701_bs01","time":0.15,"azimuth":0,"note":"bs01 early"},
+    {"clip":"chr701_bs01","time":0.8,"azimuth":0,"note":"bs01 windup"},
+    {"clip":"chr701_bs01","time":1.4,"azimuth":0,"note":"bs01 contact"},
+    {"clip":"chr701_bs01","time":2.3,"azimuth":0,"note":"bs01 recovery"},
+    {"clip":"chr701_bv01","time":0.1,"azimuth":0,"note":"bv01 start"},
+    {"clip":"chr701_bv01","time":1.4,"azimuth":0,"note":"bv01 gather"},
+    {"clip":"chr701_bv01","time":2.6,"azimuth":0,"note":"bv01 peak"},
+    {"clip":"chr701_bv01","time":4.2,"azimuth":0,"note":"bv01 recovery"}
+  ]
+}

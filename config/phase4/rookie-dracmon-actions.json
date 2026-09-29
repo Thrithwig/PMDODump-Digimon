@@ -1,0 +1,23 @@
+{
+  "species": "dracmon",
+  "model_path": "work/phase4/source/dracmon.glb",
+  "approved_idle": "work/phase4/rookie-production/dracmon-idle-trial-v1/package/10042",
+  "palette_policy": "approved-idle",
+  "mouth_palette": false,
+  "mouth_colors": [],
+  "open_mouth_actions": [],
+  "palette_rationale": "Anchor the 16px palette to the reviewed Idle: keep Dracmon's violet and green eye shapes, white eye glints, light hand surfaces, and red finger/foot markings. Do not invent pupils, eyelids, mouth colors, or effects.",
+  "reference": "Own DSTS chr457 model and native clips; PMDO registry supplies action names and timing fields.",
+  "actions": [
+    {"name":"Walk","clip":"chr457_br01","seconds":0.6666667,"sample_phases":[0,0.125,0.25,0.375,0.5,0.625,0.75,0.875],"durations":[8,8,8,8,8,8,8,8],"ground_policy":"fixed","pose_evidence":"Native buoyant forward cycle; endpoint excluded."},
+    {"name":"Attack","clip":"chr457_ba01","seconds":1.1333334,"sample_phases":[0,0.08,0.17,0.28,0.4,0.55,0.7,0.84,0.98],"durations":[3,3,4,5,5,4,4,4,5],"ground_policy":"fixed","events":{"RushFrame":1,"HitFrame":5,"ReturnFrame":7},"pose_evidence":"Native hand-led strike with distinct windup and side contact."},
+    {"name":"Shoot","clip":"chr457_fe04","seconds":2.3333334,"sample_phases":[0,0.1,0.22,0.35,0.48,0.62,0.78,0.96],"durations":[4,4,5,5,6,5,4,6],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":6},"pose_evidence":"Native front-facing expression and hand raise; no projectile asset."},
+    {"name":"Sleep","clip":"chr457_bn02","seconds":3.0,"sample_phases":[0,0.1666667,0.3333333,0.5,0.6666667,0.8333333],"durations":[33,33,33,33,33,33],"ground_policy":"fixed","pose_evidence":"Native resting crouch; source eyes appear open in the audition."},
+    {"name":"Hurt","clip":"chr457_bd01","seconds":1.2,"sample_phases":[0,0.06,0.13,0.22,0.32,0.45,0.62,0.8,0.97],"durations":[3,4,4,4,5,4,4,4,5],"ground_policy":"fixed","events":{"HitFrame":2},"pose_evidence":"Native ordinary recoil; bf01 and deeper bd variants are more extreme."},
+    {"name":"Swing","clip":"chr457_bs01","seconds":2.6666667,"sample_phases":[0,0.1,0.22,0.35,0.48,0.62,0.78,0.96],"durations":[4,4,5,5,5,4,4,5],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":6},"pose_evidence":"Native arm sweep, preserving the colored hand and finger anatomy."},
+    {"name":"Double","clip":"chr457_ba01","seconds":1.1333334,"sample_phases":[0,0.17,0.4,0.7,0.98,0,0.17,0.4,0.7,0.98],"durations":[3,4,5,4,4,3,4,5,4,6],"ground_policy":"fixed","events":{"RushFrame":1,"HitFrame":2,"ReturnFrame":8},"pose_evidence":"Two repeats of the native strike; PMDO has only one HitFrame field."},
+    {"name":"Hop","clip":"chr457_ba02","seconds":2.0,"sample_phases":[0,0.06,0.14,0.25,0.4,0.55,0.72,0.97],"durations":[4,5,5,8,8,5,4,6],"ground_policy":"fixed","events":{"HitFrame":5},"pose_evidence":"Native alternate hand-raised action; inspect actual shadow separation after packing."},
+    {"name":"Charge","clip":"chr457_bv01","seconds":3.3333335,"sample_phases":[0,0.1,0.2,0.3,0.4,0.5,0.6,0.5,0.3,0],"durations":[4,5,5,6,7,7,8,5,4,5],"ground_policy":"fixed","events":{"HitFrame":6,"ReturnFrame":8},"pose_evidence":"Native anticipation and reverse-sampled recovery; no aura or effect added."},
+    {"name":"Rotate","clip":"chr457_fq01","seconds":2.0,"sample_phases":[0,0.0833333,0.1666667,0.25,0.3333333,0.4166667,0.5,0.5833333,0.6666667,0.75,0.8333333,0.9166667],"durations":[4,4,4,4,4,4,4,4,4,4,4,4],"ground_policy":"fixed","turn_degrees":[0,30,60,90,120,150,180,210,240,270,300,330],"events":{"HitFrame":6},"pose_evidence":"Native gaze clip with whole-view yaw for the PMDO rotate cycle; endpoint excluded."}
+  ]
+}

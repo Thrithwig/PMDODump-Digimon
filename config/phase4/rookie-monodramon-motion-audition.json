@@ -1,0 +1,21 @@
+{
+  "species": "monodramon",
+  "jobs": [
+    {"clip": "chr458_ba01", "time": 0.1, "azimuth": 0, "note": "Attack windup"},
+    {"clip": "chr458_ba01", "time": 0.3, "azimuth": 0, "note": "Attack rise"},
+    {"clip": "chr458_ba01", "time": 0.55, "azimuth": 0, "note": "Attack contact"},
+    {"clip": "chr458_ba01", "time": 0.8, "azimuth": 0, "note": "Attack recoil"},
+    {"clip": "chr458_ba01", "time": 1.1, "azimuth": 0, "note": "Attack recovery"},
+    {"clip": "chr458_fe04", "time": 0.1, "azimuth": 0, "note": "Shoot windup"},
+    {"clip": "chr458_fe04", "time": 0.4, "azimuth": 0, "note": "Shoot gather"},
+    {"clip": "chr458_fe04", "time": 0.7, "azimuth": 0, "note": "Shoot release"},
+    {"clip": "chr458_fe04", "time": 1.1, "azimuth": 0, "note": "Shoot recovery"},
+    {"clip": "chr458_bn02", "time": 0.3, "azimuth": 0, "note": "Sleep settle"},
+    {"clip": "chr458_bn02", "time": 1.0, "azimuth": 0, "note": "Sleep low"},
+    {"clip": "chr458_bn02", "time": 1.8, "azimuth": 0, "note": "Sleep loop"},
+    {"clip": "chr458_bn02", "time": 2.5, "azimuth": 0, "note": "Sleep late"},
+    {"clip": "chr458_bf01", "time": 0.2, "azimuth": 0, "note": "Hop launch"},
+    {"clip": "chr458_bf01", "time": 0.6, "azimuth": 0, "note": "Hop apex"},
+    {"clip": "chr458_bf01", "time": 1.0, "azimuth": 0, "note": "Hop landing"}
+  ]
+}

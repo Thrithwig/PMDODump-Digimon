@@ -1,0 +1,21 @@
+{
+  "species":"hackmon",
+  "jobs":[
+    {"clip":"chr687_br01","time":0.16,"azimuth":0,"note":"Walk front early cape tail"},
+    {"clip":"chr687_br01","time":0.48,"azimuth":270,"note":"Walk side late cape tail"},
+    {"clip":"chr687_ba01","time":0.35,"azimuth":0,"note":"Attack native windup"},
+    {"clip":"chr687_ba01","time":0.75,"azimuth":270,"note":"Attack side contact"},
+    {"clip":"chr687_ba02","time":0.9,"azimuth":0,"note":"Alternate attack"},
+    {"clip":"chr687_fe04","time":0.7,"azimuth":0,"note":"Special front"},
+    {"clip":"chr687_fe01","time":0.85,"azimuth":270,"note":"Alternate special"},
+    {"clip":"chr687_bn02","time":1.0,"azimuth":0,"note":"Sleep front"},
+    {"clip":"chr687_bd01","time":0.32,"azimuth":0,"note":"Hurt front"},
+    {"clip":"chr687_bs01","time":0.85,"azimuth":270,"note":"Swing side"},
+    {"clip":"chr687_bf01","time":0.57,"azimuth":0,"note":"Hop front"},
+    {"clip":"chr687_bv01","time":1.0,"azimuth":270,"note":"Charge side"},
+    {"clip":"chr687_bg01","time":0.35,"azimuth":0,"note":"Guard alternate"},
+    {"clip":"chr687_fq01","time":0.75,"azimuth":0,"note":"Rotate source"},
+    {"clip":"chr687_bs01","time":1.5,"azimuth":0,"note":"Swing late front"},
+    {"clip":"chr687_bv01","time":1.9,"azimuth":0,"note":"Charge late front"}
+  ]
+}

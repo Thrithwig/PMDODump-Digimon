@@ -1,0 +1,101 @@
+{
+  "species": "sunflowmon",
+  "display_name": "Sunflowmon",
+  "source_chr_id": "chr058",
+  "model_path": "work/phase4/champion-production/sunflowmon-idle-candidate/sunflowmon.glb",
+  "pmdo_index": 10102,
+  "idle_clip": "chr058_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0,
+    0.5333333672,
+    1.0666667345,
+    1.6000001017
+  ],
+  "idle_duration_ticks": 32,
+  "approved_neutral_height": 34,
+  "neutral_frame": 0,
+  "frame_size": 128,
+  "render_size": 1024,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1
+  },
+  "idle_ground_policy": "fixed",
+  "ground_contact_row": 109,
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "source_eye_masks": true,
+    "head_bones": [
+      "J_head"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.06,
+    "fixed_framing": {
+      "center": [
+        0,
+        1.3,
+        0
+      ],
+      "extent": 4.64
+    },
+    "offset_bones": {
+      "head": "J_head",
+      "center": "J_center",
+      "left_hand": "J_hand_l",
+      "right_hand": "J_hand_r"
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.8515625
+    ]
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ],
+  "anatomy_notes": {
+    "source": "Direct chr058 source model; native chr058_bn01 2.133333469-second Idle loop.",
+    "eyes": "Use source eye_L and eye_R diffuse/shine/mask layers; inspect native-size contrast before any bounded edge edit.",
+    "markers": "Projected native head, center, and paired hand bones; no template substitutions.",
+    "ground": "Use paired foot bones and visible sole contact to audit one fixed PMDO shadow. Preserve native hover if present."
+  }
+}

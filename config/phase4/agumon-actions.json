@@ -1,0 +1,23 @@
+{
+  "species": "agumon",
+  "reference": "RawAsset HEAD:Sprite/0004/AnimData.xml",
+  "reference_commit": "03c80dad937911572f8fb19903771a47956fc696",
+  "reference_animdata_sha256": "d14356987aafc0bc86c2bdd46fd026a479499032056dad58a0c8f13fbf0686ff",
+  "approved_idle": "work/phase4/face-corrected/output/agumon",
+  "reference_index_kind": "user-requested category number, not PMDO engine or Charmander XML Index",
+  "approved_idle_category_index": 7,
+  "approved_idle_engine_index": 1,
+  "charmander_shoot_xml_index": 3,
+  "actions": [
+    {"name":"Walk","reference_index":0,"clip":"chr050_br01","seconds":0.667,"durations":[6,8,6,8],"ground_policy":"per-frame","source":"native walk/run stride"},
+    {"name":"Attack","reference_index":1,"clip":"chr050_ba02","seconds":2.333,"durations":[2,2,4,2,2,2,2,2,2,2,2],"sample_phases":[0.03,0.122,0.214,0.306,0.398,0.49,0.50,0.674,0.766,0.858,0.95],"events":{"RushFrame":2,"HitFrame":6,"ReturnFrame":8},"ground_policy":"per-frame","source":"native grounded claw/bite; open-mouth contact sampled at reference HitFrame 6"},
+    {"name":"Shoot","reference_index":2,"clip":"chr050_e007","seconds":2.6,"durations":[2,2,2,2,2,2,2,2,2,2],"events":{"HitFrame":5,"ReturnFrame":9},"ground_policy":"per-frame","source":"native open-mouth special gesture; timing adapted from reference Charge because reference Shoot copies Charge"},
+    {"name":"Sleep","reference_index":5,"clip":"chr050_fn02_01","seconds":2.0,"durations":[30,35],"ground_policy":"per-frame","closed_eyes":true,"source":"native low seated/resting pose plus procedural eyelids"},
+    {"name":"Hurt","reference_index":6,"clip":"chr050_bd01","seconds":1.0,"durations":[2,8],"sample_phases":[0.35,0.65],"ground_policy":"per-frame","source":"native impact at 35% and recoil at 65% after pose inspection"},
+    {"name":"Swing","reference_index":8,"clip":"chr050_e006","seconds":2.433,"durations":[2,1,2,2,3,2,2,1,1],"events":{"HitFrame":5,"ReturnFrame":5},"ground_policy":"per-frame","turn_degrees":[0,45,90,135,180,135,90,45,0],"source":"native arm motion plus reference-derived half-turn swing"},
+    {"name":"Double","reference_index":9,"clip":"chr050_ba02","seconds":2.333,"durations":[2,2,2,2,2,2,3,3,3,2,3,2,2,2,2,2],"ground_policy":"per-frame","repeat_cycles":2,"source":"two cycles of native battle attack with reference double-hit timing"},
+    {"name":"Hop","reference_index":10,"clip":"chr050_fe02","seconds":2.733,"durations":[2,1,2,3,4,4,3,2,1,2],"events":{"HitFrame":9},"ground_policy":"fixed","source":"native leap with fixed root/shadow placement"},
+    {"name":"Charge","reference_index":11,"clip":"chr050_e005","seconds":4.333,"durations":[2,2,2,2,2,2,2,2,2,2],"events":{"HitFrame":5,"ReturnFrame":9},"ground_policy":"per-frame","source":"native buildup gesture; reference timing and event markers"},
+    {"name":"Rotate","reference_index":12,"clip":"chr050_bn01","seconds":1.133,"durations":[2,2,2,2,2,2,2,2,2],"events":{"HitFrame":8},"ground_policy":"per-frame","turn_degrees":[0,45,90,135,180,225,270,315,360],"source":"procedural turn using native Idle rig motion and reference angular progression"}
+  ]
+}

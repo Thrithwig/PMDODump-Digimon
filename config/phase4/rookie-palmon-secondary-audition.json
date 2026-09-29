@@ -1,0 +1,9 @@
+{
+  "species":"palmon",
+  "jobs":[
+    {"clip":"chr348_bn02","time":0.2,"azimuth":0,"note":"Sleep settle"},{"clip":"chr348_bn02","time":1.0,"azimuth":0,"note":"Sleep lower"},{"clip":"chr348_bn02","time":2.0,"azimuth":0,"note":"Sleep loop"},{"clip":"chr348_bn02","time":2.8,"azimuth":0,"note":"Sleep late"},
+    {"clip":"chr348_bd01","time":0.08,"azimuth":0,"note":"Hurt start"},{"clip":"chr348_bd01","time":0.28,"azimuth":0,"note":"Hurt recoil"},{"clip":"chr348_bd01","time":0.58,"azimuth":0,"note":"Hurt apex"},{"clip":"chr348_bd01","time":0.88,"azimuth":0,"note":"Hurt recovery"},
+    {"clip":"chr348_bv01","time":0.08,"azimuth":0,"note":"Charge start"},{"clip":"chr348_bv01","time":0.4,"azimuth":0,"note":"Charge gather"},{"clip":"chr348_bv01","time":0.8,"azimuth":0,"note":"Charge hold"},{"clip":"chr348_bv01","time":1.25,"azimuth":0,"note":"Charge recovery"},
+    {"clip":"chr348_fq01","time":0.08,"azimuth":0,"note":"Rotate start"},{"clip":"chr348_fq01","time":0.4,"azimuth":0,"note":"Rotate early"},{"clip":"chr348_fq01","time":0.8,"azimuth":0,"note":"Rotate late"},{"clip":"chr348_fq01","time":1.25,"azimuth":0,"note":"Rotate recovery"}
+  ]
+}

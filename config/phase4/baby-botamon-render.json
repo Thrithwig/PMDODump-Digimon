@@ -1,0 +1,112 @@
+{
+  "species": "botamon",
+  "display_name": "Botamon",
+  "dsts_chr": "chr317",
+  "idle_clip": "chr317_bn01",
+  "pmdo_index": 10004,
+  "approved_neutral_height": 17,
+  "frame_size": 64,
+  "minimum_edge_margin": 2,
+  "render_size": 512,
+  "idle_frames": 4,
+  "frame_times": [
+    0,
+    0.416667,
+    0.833333,
+    1.25
+  ],
+  "idle_duration_ticks": 25,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1,
+    "closed_eye_fill": [
+      38,
+      36,
+      34
+    ],
+    "closed_eye_ink": [
+      0,
+      0,
+      0
+    ]
+  },
+  "ground_contact_row": 41,
+  "renderer": {
+    "eye_mode": "source",
+    "head_bones": [
+      "J_face2",
+      "J_mimiL",
+      "J_mimiR"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.08,
+    "offset_bones": {
+      "head": "J_face2",
+      "center": "J_center",
+      "left_hand": "J_mimiL",
+      "right_hand": "J_mimiR"
+    },
+    "fixed_framing": {
+      "center": [
+        0,
+        0.6112392360572456,
+        0
+      ],
+      "extent": 0.9977298195409381
+    },
+    "source_eye_masks": true,
+    "horizontal_root_lock": {
+      "chr317_ba01": {"bone": "J_root", "reference_time": 0}
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.8
+    ]
+  },
+  "anatomy_notes": {
+    "hand_markers": "PMDO left/right hand fields use anatomical left/right ear-base anchors J_mimiL/J_mimiR as appendage substitutes; Botamon has no arms.",
+    "ground": "Grounded rolls/rest use silhouette contact translation; Walk and Hop retain native airborne lift with a fixed transform. Ground 41 minus canvas center 32 equals approved Idle ground 25 minus center 16 (+9).",
+    "eyes": "Native source material retained; no Agumon pupil or facial-mask defaults.",
+    "height": "Fixed camera: twice the approved extent on twice the canvas, preserving 17px neutral height; Idle itself remains 32px canvas byte-identical."
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ]
+}

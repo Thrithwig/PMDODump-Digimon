@@ -1,0 +1,6 @@
+{"species":"gaomon","jobs":[
+  {"clip":"chr055_bs01","time":0.45,"azimuth":0,"note":"Swing root-locked early"},
+  {"clip":"chr055_bs01","time":1.8,"azimuth":0,"note":"Swing root-locked late"},
+  {"clip":"chr055_bs01","time":1.8,"azimuth":270,"note":"Swing root-locked side"},
+  {"clip":"chr055_fe02","time":1.2,"azimuth":0,"note":"Hop root-locked apex"}
+]}

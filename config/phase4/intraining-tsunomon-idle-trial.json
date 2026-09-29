@@ -1,0 +1,115 @@
+{
+  "species": "tsunomon",
+  "display_name": "Tsunomon",
+  "source_chr_id": "chr438",
+  "model_path": "work/phase4/source/tsunomon.glb",
+  "pmdo_index": 10009,
+  "idle_clip": "chr438_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0,
+    0.541667,
+    1.083335,
+    1.625002
+  ],
+  "idle_duration_ticks": 30,
+  "approved_neutral_height": 20,
+  "neutral_frame": 0,
+  "frame_size": 64,
+  "render_size": 512,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1
+  },
+  "idle_ground_policy": "fixed",
+  "ground_contact_row": 47,
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "source_eye_masks": true,
+    "head_bones": [
+      "J_ue_ago"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.08,
+    "fixed_framing": {
+      "center": [
+        0,
+        0.36,
+        0
+      ],
+      "extent": 1.35
+    },
+    "offset_bones": {
+      "head": "J_ue_ago",
+      "center": "J_center",
+      "left_hand": {
+        "bone": "J_center",
+        "local_point": [
+          -0.13,
+          0,
+          0
+        ]
+      },
+      "right_hand": {
+        "bone": "J_center",
+        "local_point": [
+          0.13,
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.8
+    ]
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ],
+  "anatomy_notes": {
+    "source": "Own chr438 model. Trial only; no action package approval.",
+    "eyes": "Inspect source-visible eyes against skin/face at native target size before continuing.",
+    "markers": "No paired limbs; source-anchored lateral body points are explicit PMDO hand-slot substitutes.",
+    "ground": "Ground contact and fixed shadow row 47 are trial measurements to verify."
+  }
+}

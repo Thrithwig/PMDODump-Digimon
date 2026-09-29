@@ -1,0 +1,21 @@
+{
+  "species": "dracmon",
+  "jobs": [
+    {"clip":"chr457_br01","time":0.00,"azimuth":0,"note":"walk start"},
+    {"clip":"chr457_br01","time":0.33,"azimuth":0,"note":"walk midpoint"},
+    {"clip":"chr457_ba01","time":0.35,"azimuth":0,"note":"attack windup"},
+    {"clip":"chr457_ba01","time":0.75,"azimuth":90,"note":"attack side contact"},
+    {"clip":"chr457_ba02","time":0.55,"azimuth":0,"note":"alternate attack"},
+    {"clip":"chr457_ba02","time":1.25,"azimuth":90,"note":"alternate attack side"},
+    {"clip":"chr457_fe04","time":1.10,"azimuth":0,"note":"expression special"},
+    {"clip":"chr457_bn02","time":1.00,"azimuth":0,"note":"rest front"},
+    {"clip":"chr457_bn02","time":2.00,"azimuth":90,"note":"rest side"},
+    {"clip":"chr457_bd01","time":0.50,"azimuth":0,"note":"recoil"},
+    {"clip":"chr457_bs01","time":1.20,"azimuth":0,"note":"swing front"},
+    {"clip":"chr457_bs01","time":1.70,"azimuth":90,"note":"swing side"},
+    {"clip":"chr457_bv01","time":1.50,"azimuth":0,"note":"charge"},
+    {"clip":"chr457_fq01","time":1.00,"azimuth":0,"note":"turn expression"},
+    {"clip":"chr457_bg01","time":0.50,"azimuth":0,"note":"guard alternate"},
+    {"clip":"chr457_bf01","time":0.50,"azimuth":90,"note":"fall alternate"}
+  ]
+}

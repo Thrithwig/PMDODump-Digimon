@@ -1,0 +1,13 @@
+{
+  "species": "agumon",
+  "jobs": [
+    {"clip":"chr050_bn01", "time":0.0, "azimuth":0, "note":"front idle"},
+    {"clip":"chr050_ba02", "time":1.1665, "azimuth":315, "note":"open-mouth attack contact"},
+    {"clip":"chr050_bd01", "time":0.35, "azimuth":90, "note":"Hurt impact"},
+    {"clip":"chr050_ba02", "time":1.1665, "azimuth":180, "note":"direction switch"},
+    {"clip":"chr050_e007", "time":1.3, "azimuth":270, "note":"open-mouth special"},
+    {"clip":"chr050_bd01", "time":0.65, "azimuth":0, "note":"Hurt recoil"},
+    {"clip":"chr050_bn01", "time":0.0, "azimuth":0, "note":"repeat after clip switches"},
+    {"clip":"chr050_ba02", "time":1.1665, "azimuth":315, "note":"repeat out of order"}
+  ]
+}

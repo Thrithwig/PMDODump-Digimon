@@ -1,0 +1,101 @@
+{
+  "species": "botamon",
+  "jobs": [
+    {
+      "clip": "chr317_br01",
+      "time": 0.043335,
+      "azimuth": 90,
+      "note": "br01 phase 0.05"
+    },
+    {
+      "clip": "chr317_br01",
+      "time": 0.26001,
+      "azimuth": 90,
+      "note": "br01 phase 0.3"
+    },
+    {
+      "clip": "chr317_br01",
+      "time": 0.476685,
+      "azimuth": 90,
+      "note": "br01 phase 0.55"
+    },
+    {
+      "clip": "chr317_br01",
+      "time": 0.69336,
+      "azimuth": 90,
+      "note": "br01 phase 0.8"
+    },
+    {
+      "clip": "chr317_ba01",
+      "time": 0.066665,
+      "azimuth": 90,
+      "note": "ba01 phase 0.05"
+    },
+    {
+      "clip": "chr317_ba01",
+      "time": 0.39999,
+      "azimuth": 90,
+      "note": "ba01 phase 0.3"
+    },
+    {
+      "clip": "chr317_ba01",
+      "time": 0.733315,
+      "azimuth": 90,
+      "note": "ba01 phase 0.55"
+    },
+    {
+      "clip": "chr317_ba01",
+      "time": 1.06664,
+      "azimuth": 90,
+      "note": "ba01 phase 0.8"
+    },
+    {
+      "clip": "chr317_ba02",
+      "time": 0.1,
+      "azimuth": 90,
+      "note": "ba02 phase 0.05"
+    },
+    {
+      "clip": "chr317_ba02",
+      "time": 0.6,
+      "azimuth": 90,
+      "note": "ba02 phase 0.3"
+    },
+    {
+      "clip": "chr317_ba02",
+      "time": 1.1,
+      "azimuth": 90,
+      "note": "ba02 phase 0.55"
+    },
+    {
+      "clip": "chr317_ba02",
+      "time": 1.6,
+      "azimuth": 90,
+      "note": "ba02 phase 0.8"
+    },
+    {
+      "clip": "chr317_bd01",
+      "time": 0.066665,
+      "azimuth": 90,
+      "note": "bd01 phase 0.05"
+    },
+    {
+      "clip": "chr317_bd01",
+      "time": 0.39999,
+      "azimuth": 90,
+      "note": "bd01 phase 0.3"
+    },
+    {
+      "clip": "chr317_bd01",
+      "time": 0.733315,
+      "azimuth": 90,
+      "note": "bd01 phase 0.55"
+    },
+    {
+      "clip": "chr317_bd01",
+      "time": 1.06664,
+      "azimuth": 90,
+      "note": "bd01 phase 0.8"
+    }
+  ]
+}

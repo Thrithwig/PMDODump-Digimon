@@ -1,0 +1,29 @@
+{
+  "species": "koromon",
+  "jobs": [
+    {
+      "clip": "chr322_br01",
+      "time": 0,
+      "azimuth": 0,
+      "note": "Walk source loop seam: near-end vs0, same rootXZ lock and fixedscale"
+    },
+    {
+      "clip": "chr322_br01",
+      "time": 0.66665,
+      "azimuth": 0,
+      "note": "Walk source loop seam: near-end vs0, same rootXZ lock and fixedscale"
+    },
+    {
+      "clip": "chr322_br01",
+      "time": 0,
+      "azimuth": 90,
+      "note": "Walk source loop seam: near-end vs0, same rootXZ lock and fixedscale"
+    },
+    {
+      "clip": "chr322_br01",
+      "time": 0.66665,
+      "azimuth": 90,
+      "note": "Walk source loop seam: near-end vs0, same rootXZ lock and fixedscale"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "species": "bukamon",
+  "display_name": "Bukamon",
+  "source_chr_id": "chr514",
+  "model_path": "work/phase4/source/bukamon.glb",
+  "pmdo_index": 10015,
+  "idle_clip": "chr514_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0,
+    0.3333333432674408,
+    0.6666666865348816,
+    1.0000000298023224
+  ],
+  "idle_duration_ticks": 20,
+  "approved_neutral_height": 18,
+  "neutral_frame": 0,
+  "frame_size": 32,
+  "render_size": 256,
+  "minimum_edge_margin": 2,
+  "palette_size": 63,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1
+  },
+  "idle_ground_policy": "fixed",
+  "ground_contact_row": 25,
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "head_bones": [
+      "J_atama",
+      "J_ago"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.08,
+    "fixed_framing": {
+      "center": [
+        0,
+        0.32,
+        0
+      ],
+      "extent": 0.65
+    },
+    "offset_bones": {
+      "head": {
+        "bone": "J_atama",
+        "local_point": [
+          0,
+          0.1754393307379623,
+          0.10254254213127294
+        ]
+      },
+      "center": "J_center",
+      "left_hand": "J_tubi_L",
+      "right_hand": "J_tubi_R"
+    },
+    "source_eye_masks": true
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.8
+    ]
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ],
+  "anatomy_notes": {
+    "source": "chr514 / Bukamon / PMDO10015 directly verified in census and installed manifest. Approved height18 from parent height-target-manifest.",
+    "eyes": "Explicit source opt-in: b01 UV3 top-row black openings, p01 UV2 source blue iris/black pupil through b01m green. e01h alpha shine in view space, cropped by mask and original vertex alpha; never opaque-white fallback, no invented pupils. Original full game shader/Fresnel not claimed.",
+    "ground": "Grounded seal-like belly: bn01 J_center fixed[0,.1074,0], underside about-.0051 world versus source floor0. Flippers sway close to ground, tail and orange crest animate independently; no flight/hop synthesis. Fixed neutral ground registration, no per-frame fit or cropping.",
+    "markers": "Head measured eye midpoint in J_atama local coordinates. Center J_center. Hand slots are actual L/R flipper distal joints J_tubi_L/R, not human hands. Native +X is anatomical left.",
+    "motion": "Native1.333333s bn01; four quarter-cycle samples,20ticks each; endpoint excluded. Source rotations/poses retained, no root lock required.",
+    "scope": "Idle only. Non-Idle XML entries remain explicit Idle placeholders, not completed actions. No Punimon crop rule.",
+    "readability": "Native layered blue/dark eyes on grey-brown face; audit native-size depth-visible eyes before approving any added contour. No global Baby border style."
+  }
+}

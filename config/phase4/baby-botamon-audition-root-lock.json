@@ -1,0 +1,13 @@
+{
+  "species": "botamon",
+  "jobs": [
+    {"clip":"chr317_ba01","time":0.6,"azimuth":0,"note":"Peak lunge Down, X/Z root locked at native t0; Y and pose retained"},
+    {"clip":"chr317_ba01","time":0.6,"azimuth":315,"note":"DownRight"},
+    {"clip":"chr317_ba01","time":0.6,"azimuth":270,"note":"Right"},
+    {"clip":"chr317_ba01","time":0.6,"azimuth":225,"note":"UpRight"},
+    {"clip":"chr317_ba01","time":0.6,"azimuth":180,"note":"Up"},
+    {"clip":"chr317_ba01","time":0.6,"azimuth":135,"note":"UpLeft"},
+    {"clip":"chr317_ba01","time":0.6,"azimuth":90,"note":"Left"},
+    {"clip":"chr317_ba01","time":0.6,"azimuth":45,"note":"DownLeft"}
+  ]
+}

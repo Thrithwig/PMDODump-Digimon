@@ -1,0 +1,21 @@
+{
+  "species": "renamon",
+  "jobs": [
+    {"clip":"chr391_bn02","time":0.10,"azimuth":0,"note":"Sleep start"},
+    {"clip":"chr391_bn02","time":0.55,"azimuth":0,"note":"Sleep settle"},
+    {"clip":"chr391_bn02","time":1.05,"azimuth":0,"note":"Sleep loop"},
+    {"clip":"chr391_bn02","time":1.60,"azimuth":0,"note":"Sleep late"},
+    {"clip":"chr391_bd01","time":0.08,"azimuth":0,"note":"Hurt start"},
+    {"clip":"chr391_bd01","time":0.38,"azimuth":0,"note":"Hurt recoil"},
+    {"clip":"chr391_bd01","time":0.72,"azimuth":0,"note":"Hurt apex"},
+    {"clip":"chr391_bd01","time":1.20,"azimuth":0,"note":"Hurt recovery"},
+    {"clip":"chr391_bf01","time":0.08,"azimuth":0,"note":"Hop start"},
+    {"clip":"chr391_bf01","time":0.50,"azimuth":0,"note":"Hop launch"},
+    {"clip":"chr391_bf01","time":0.95,"azimuth":0,"note":"Hop apex"},
+    {"clip":"chr391_bf01","time":1.70,"azimuth":0,"note":"Hop landing"},
+    {"clip":"chr391_bv01","time":0.08,"azimuth":0,"note":"Charge start"},
+    {"clip":"chr391_bv01","time":0.42,"azimuth":0,"note":"Charge gather"},
+    {"clip":"chr391_bv01","time":0.85,"azimuth":0,"note":"Charge peak"},
+    {"clip":"chr391_bv01","time":1.40,"azimuth":0,"note":"Charge recovery"}
+  ]
+}

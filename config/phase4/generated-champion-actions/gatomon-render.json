@@ -1,0 +1,112 @@
+{
+  "species": "gatomon",
+  "display_name": "Gatomon",
+  "source_chr_id": "chr092",
+  "model_path": "work/phase4/champion-production/gatomon-idle-candidate/gatomon.glb",
+  "pmdo_index": 10115,
+  "idle_clip": "chr092_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0,
+    0.333333,
+    0.666667,
+    1.0
+  ],
+  "idle_duration_ticks": 20,
+  "approved_neutral_height": 23,
+  "neutral_frame": 0,
+  "frame_size": 128,
+  "render_size": 1024,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1
+  },
+  "idle_ground_policy": "fixed",
+  "ground_contact_row": 79,
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "source_eye_masks": true,
+    "head_bones": [
+      "J_head"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.08,
+    "fixed_framing": {
+      "center": [
+        0,
+        0.88,
+        0
+      ],
+      "extent": 4.2
+    },
+    "offset_bones": {
+      "head": "J_head",
+      "center": "J_center",
+      "left_hand": "J_hand_l",
+      "right_hand": "J_hand_r"
+    },
+    "horizontal_root_lock": {
+      "chr092_bv01": {
+        "bone": "J_center",
+        "reference_time": 0.0,
+        "axes": [
+          "x",
+          "y",
+          "z"
+        ]
+      }
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.8
+    ]
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ],
+  "anatomy_notes": {
+    "source": "Direct chr092 Gatomon model and native chr092_bn01 Idle loop.",
+    "face": "Inspect source eye_L and eye_R against the pale face; retain thin source-bounded dark separation without a heavy outline.",
+    "silhouette": "Preserve ears, eyes, muzzle, paws, tail ring and correct side facing.",
+    "ground": "Grounded feet meet one fixed shadow without cropping Idle pixels."
+  }
+}

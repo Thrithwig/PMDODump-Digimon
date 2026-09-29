@@ -1,0 +1,9 @@
+{
+  "species":"palmon",
+  "jobs":[
+    {"clip":"chr348_ba01","time":0.08,"azimuth":0,"note":"Attack start"},{"clip":"chr348_ba01","time":0.42,"azimuth":0,"note":"Attack windup"},{"clip":"chr348_ba01","time":0.78,"azimuth":0,"note":"Attack contact"},{"clip":"chr348_ba01","time":1.32,"azimuth":0,"note":"Attack recovery"},
+    {"clip":"chr348_fe03","time":0.1,"azimuth":0,"note":"Shoot start"},{"clip":"chr348_fe03","time":0.9,"azimuth":0,"note":"Shoot gather"},{"clip":"chr348_fe03","time":1.7,"azimuth":0,"note":"Shoot release"},{"clip":"chr348_fe03","time":2.85,"azimuth":0,"note":"Shoot recovery"},
+    {"clip":"chr348_bs01","time":0.1,"azimuth":0,"note":"Swing start"},{"clip":"chr348_bs01","time":0.55,"azimuth":0,"note":"Swing rise"},{"clip":"chr348_bs01","time":1.05,"azimuth":0,"note":"Swing contact"},{"clip":"chr348_bs01","time":1.72,"azimuth":0,"note":"Swing recovery"},
+    {"clip":"chr348_bf01","time":0.08,"azimuth":0,"note":"Hop start"},{"clip":"chr348_bf01","time":0.42,"azimuth":0,"note":"Hop launch"},{"clip":"chr348_bf01","time":0.78,"azimuth":0,"note":"Hop apex"},{"clip":"chr348_bf01","time":1.32,"azimuth":0,"note":"Hop landing"}
+  ]
+}

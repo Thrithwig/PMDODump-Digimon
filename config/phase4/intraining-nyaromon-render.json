@@ -1,0 +1,59 @@
+{
+  "species": "nyaromon",
+  "display_name": "Nyaromon",
+  "source_chr_id": "chr515",
+  "model_path": "work/phase4/source/nyaromon.glb",
+  "pmdo_index": 10012,
+  "idle_clip": "chr515_bn01",
+  "idle_frames": 4,
+  "frame_times": [0, 0.5833333704206702, 1.1666667408413405, 1.750000111262011],
+  "idle_duration_ticks": 35,
+  "approved_neutral_height": 18,
+  "neutral_frame": 0,
+  "frame_size": 96,
+  "render_size": 768,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {"enabled": true, "depth_threshold": 1, "normal_dot_threshold": -1},
+  "idle_ground_policy": "fixed",
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "source_eye_masks": true,
+    "head_bones": ["J_ue_ago"],
+    "emissive_intensity": 0.55,
+    "elevation": 0.08,
+    "fixed_framing": {"center": [0, 0.27, 0], "extent": 1.76},
+    "offset_bones": {
+      "head": {"bone": "J_ue_ago", "local_point": [0, 0.08331920206546783, 0.19067718088626862]},
+      "center": "J_center",
+      "left_hand": {"bone": "J_ue_ago", "local_point": [0.25, -0.035, 0]},
+      "right_hand": {"bone": "J_ue_ago", "local_point": [-0.25, -0.035, 0]}
+    },
+    "native_eye_expression_offsets": {"chr515_bn02": [0, 0.25]},
+    "horizontal_root_lock": {
+      "chr515_ba01": {"bone": "J_center", "reference_time": 0},
+      "chr515_bf01": {"bone": "J_center", "reference_time": 0},
+      "chr515_br01": {"bone": "J_center", "reference_time": 0}
+    }
+  },
+  "offsets": {"source": "projected-native-bones-v1", "shadow": [0.5, 0.8]},
+  "directions": [
+    {"name": "Down", "azimuth_degrees": 0},
+    {"name": "DownRight", "azimuth_degrees": 315},
+    {"name": "Right", "azimuth_degrees": 270},
+    {"name": "UpRight", "azimuth_degrees": 225},
+    {"name": "Up", "azimuth_degrees": 180},
+    {"name": "UpLeft", "azimuth_degrees": 135},
+    {"name": "Left", "azimuth_degrees": 90},
+    {"name": "DownLeft", "azimuth_degrees": 45}
+  ],
+  "placement": {"mode": "airborne", "shadow_row": 57, "minimum_gap": -2, "fixed_vertical_shift": 1},
+  "anatomy_notes": {
+    "source": "chr515 own model; PMDO10012; approved 18px neutral silhouette. Idle48/0.88 and actions96/1.76 both equal54.545px/world.",
+    "eyes": "Paired source red/dark eyes with b01 dark opening, e01/e01h native eye layers. Approved Idle one lower-opening exact-black pixel per depth-visible eye. Native bn02 selects source closed-eye row via V+.25.",
+    "ground": "Grounded body base with separate three-bone tail; one fixed registration+1 from approved Idle raw-to-package comparison, shadow at canvas center+9. Source-native Y retained; XZ root travel locked for ba01/br01/bf01.",
+    "markers": "Actual J_ue_ago eye midpoint and J_center; no hands, paired cheek/body side substitutes for PMDO hand fields."
+  }
+}

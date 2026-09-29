@@ -1,0 +1,18 @@
+{"species":"falcomon","jobs":[
+  {"clip":"chr705_br01","time":0.25,"azimuth":0,"note":"Walk middle"},
+  {"clip":"chr705_ba01","time":0.25,"azimuth":0,"note":"Attack windup"},
+  {"clip":"chr705_ba01","time":0.7,"azimuth":0,"note":"Attack contact"},
+  {"clip":"chr705_ba02","time":0.65,"azimuth":0,"note":"Alternate attack"},
+  {"clip":"chr705_fe04","time":0.85,"azimuth":0,"note":"Shoot release"},
+  {"clip":"chr705_bn02","time":1.5,"azimuth":0,"note":"Sleep rest"},
+  {"clip":"chr705_bd01","time":0.35,"azimuth":0,"note":"Hurt recoil"},
+  {"clip":"chr705_bs01","time":1.0,"azimuth":0,"note":"Swing sweep"},
+  {"clip":"chr705_bf01","time":0.65,"azimuth":0,"note":"Hop apex"},
+  {"clip":"chr705_bv01","time":1.0,"azimuth":0,"note":"Charge peak"},
+  {"clip":"chr705_fe01","time":1.3,"azimuth":0,"note":"Alternate charge"},
+  {"clip":"chr705_fq01","time":0.65,"azimuth":0,"note":"Rotate source"},
+  {"clip":"chr705_br01","time":0.25,"azimuth":270,"note":"Walk side"},
+  {"clip":"chr705_bn02","time":1.5,"azimuth":270,"note":"Sleep side"},
+  {"clip":"chr705_bf01","time":0.65,"azimuth":270,"note":"Hop side"},
+  {"clip":"chr705_bs01","time":1.0,"azimuth":270,"note":"Swing side"}
+]}

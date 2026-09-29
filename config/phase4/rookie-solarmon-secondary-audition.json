@@ -1,0 +1,6 @@
+{"species":"solarmon","jobs":[
+  {"clip":"chr009_bn02","time":0.1,"azimuth":0,"note":"Sleep start"},{"clip":"chr009_bn02","time":1.6,"azimuth":0,"note":"Sleep settle"},{"clip":"chr009_bn02","time":3.2,"azimuth":0,"note":"Sleep loop"},{"clip":"chr009_bn02","time":5.1,"azimuth":0,"note":"Sleep late"},
+  {"clip":"chr009_bd01","time":0.05,"azimuth":0,"note":"Hurt start"},{"clip":"chr009_bd01","time":0.22,"azimuth":0,"note":"Hurt recoil"},{"clip":"chr009_bd01","time":0.45,"azimuth":0,"note":"Hurt apex"},{"clip":"chr009_bd01","time":0.75,"azimuth":0,"note":"Hurt recovery"},
+  {"clip":"chr009_bf01","time":0.05,"azimuth":0,"note":"Hop start"},{"clip":"chr009_bf01","time":0.32,"azimuth":0,"note":"Hop launch"},{"clip":"chr009_bf01","time":0.65,"azimuth":0,"note":"Hop apex"},{"clip":"chr009_bf01","time":1.16,"azimuth":0,"note":"Hop recovery"},
+  {"clip":"chr009_fe02","time":0.05,"azimuth":0,"note":"fe02 start"},{"clip":"chr009_fe02","time":0.45,"azimuth":0,"note":"fe02 gather"},{"clip":"chr009_fe02","time":0.9,"azimuth":0,"note":"fe02 release"},{"clip":"chr009_fe02","time":1.58,"azimuth":0,"note":"fe02 recovery"}
+]}

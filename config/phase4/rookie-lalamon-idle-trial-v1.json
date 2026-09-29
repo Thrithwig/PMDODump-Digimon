@@ -1,0 +1,37 @@
+{
+  "species": "lalamon", "display_name": "Lalamon", "source_chr_id": "chr056",
+  "model_path": "work/phase4/rookie-production/lalamon-preflight/lalamon.glb",
+  "pmdo_index": 10059, "idle_clip": "chr056_bn01", "idle_frames": 4,
+  "frame_times": [0, 0.41666669, 0.83333339, 1.25000008], "idle_duration_ticks": 25,
+  "approved_neutral_height": 20, "neutral_frame": 0,
+  "frame_size": 64, "render_size": 512, "minimum_edge_margin": 2,
+  "palette_size": 64, "alpha_cutoff": 128,
+  "outline": {"enabled": true, "depth_threshold": 1, "normal_dot_threshold": -1},
+  "idle_ground_policy": "fixed", "ground_contact_row": 47,
+  "renderer": {
+    "eye_mode": "source", "native_eye_layers": true, "source_eye_masks": true,
+    "head_bones": ["J_joint6"], "emissive_intensity": 0.55, "elevation": 0.08,
+    "fixed_framing": {"center": [0, 0.7, 0], "extent": 2.0},
+    "offset_bones": {
+      "head": "J_joint6", "center": "J_center",
+      "left_hand": "J_joint13", "right_hand": "J_joint9"
+    }
+  },
+  "offsets": {"source": "projected-native-bones-v1", "shadow": [0.5, 0.8]},
+  "directions": [
+    {"name": "Down", "azimuth_degrees": 0},
+    {"name": "DownRight", "azimuth_degrees": 315},
+    {"name": "Right", "azimuth_degrees": 270},
+    {"name": "UpRight", "azimuth_degrees": 225},
+    {"name": "Up", "azimuth_degrees": 180},
+    {"name": "UpLeft", "azimuth_degrees": 135},
+    {"name": "Left", "azimuth_degrees": 90},
+    {"name": "DownLeft", "azimuth_degrees": 45}
+  ],
+  "anatomy_notes": {
+    "source": "Own DSTS chr056 model and native chr056_bn01 Idle only; 1.666667 second loop.",
+    "face": "Inspect source f01/f02 facial meshes and b01 overlay against pale face at native size; do not invent eyes.",
+    "silhouette": "Inspect sprout, leaf arms and lower plant limbs in all headings.",
+    "ground": "Preserve source Idle motion, fixed row-47 shadow and lower limb contact."
+  }
+}

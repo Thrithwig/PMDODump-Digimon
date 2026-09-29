@@ -1,0 +1,13 @@
+{
+  "species": "agumon",
+  "jobs": [
+    {"clip":"chr050_bn01", "time":0.0, "azimuth":0},
+    {"clip":"chr050_ba02", "time":1.1665, "azimuth":315},
+    {"clip":"chr050_bd01", "time":0.36, "azimuth":90},
+    {"clip":"chr050_ba02", "time":1.1665, "azimuth":180},
+    {"clip":"chr050_e007", "time":1.3, "azimuth":270},
+    {"clip":"chr050_bd01", "time":0.65, "azimuth":0},
+    {"clip":"chr050_bn01", "time":0.0, "azimuth":0},
+    {"clip":"chr050_ba02", "time":1.1665, "azimuth":315}
+  ]
+}

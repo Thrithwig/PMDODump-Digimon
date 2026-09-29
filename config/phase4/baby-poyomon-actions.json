@@ -1,0 +1,350 @@
+{
+  "species": "poyomon",
+  "model_path": "work/phase4/source/poyomon.glb",
+  "approved_idle": "work/phase4/baby-production/poyomon-idle-v1/package/10005",
+  "palette_policy": "approved-idle",
+  "mouth_palette": false,
+  "mouth_colors": [
+    [
+      174,
+      105,
+      95
+    ],
+    [
+      217,
+      181,
+      176
+    ]
+  ],
+  "open_mouth_actions": [],
+  "palette_rationale": "One fixed species palette: all62 approved Idle colors plus2 actual resized native-render mouth RGB samples. Direct nearest-RGB mapping before any per-action quantization; no dithering. Same64-color mapping in every action. Idle PNGs untouched. Mouth colors reserved, not painted onto non-mouth geometry.",
+  "reference": "RawAsset Sprite/0353 Shuppet: hovering draped body; missing Sleep/Shoot/Charge timing and hold conventions only. No horn, limbs, facial anatomy or effect transfer.",
+  "reference_commit": "03c80dad937911572f8fb19903771a47956fc696",
+  "reference_animdata_sha256": "8a796c110f8b28454415d943c24c44199ffc98b41236b050a89e9cee2be058bd",
+  "actions": [
+    {
+      "name": "Walk",
+      "clip": "chr320_br01",
+      "seconds": 1.6,
+      "sample_phases": [
+        0.0,
+        0.125,
+        0.25,
+        0.37499999999999994,
+        0.5,
+        0.625,
+        0.7499999999999999,
+        0.8749999999999999
+      ],
+      "durations": [
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Native cyclic forward body tilt and low-hover bob, verified side audition. No feet or arms invented. Full1.6s loop; J_root XZ translation stabilized, native Y/deformation retained."
+    },
+    {
+      "name": "Attack",
+      "clip": "chr320_ba01",
+      "seconds": 1.666667,
+      "sample_phases": [
+        0.0,
+        0.11999997600000481,
+        0.23999995200000962,
+        0.3599999280000144,
+        0.47999990400001924,
+        0.599999880000024,
+        0.7799998440000313,
+        0.9839998032000393
+      ],
+      "durations": [
+        4,
+        4,
+        4,
+        5,
+        5,
+        4,
+        4,
+        6
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Native rise and forward/upward body lunge, contact around.75-.9s with mouth/body pitching and rim trailing; front/side auditions show real body deformation. Recovery sampled near native endpoint.",
+      "events": {
+        "RushFrame": 2,
+        "HitFrame": 4,
+        "ReturnFrame": 6
+      }
+    },
+    {
+      "name": "Shoot",
+      "clip": "chr320_ba02",
+      "seconds": 2,
+      "sample_phases": [
+        0.0,
+        0.1,
+        0.225,
+        0.35,
+        0.5,
+        0.6,
+        0.8,
+        0.99
+      ],
+      "durations": [
+        5,
+        4,
+        4,
+        4,
+        5,
+        4,
+        4,
+        6
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Native raised-mouth body release with a more horizontal forward pitch than ba01; special-action interpretation, not a verified native projectile. Pinned hovering Shuppet Shoot copies Charge, supporting body-only special gesture/timing convention. No generated projectile or pupil.",
+      "events": {
+        "RushFrame": 2,
+        "HitFrame": 4,
+        "ReturnFrame": 6
+      }
+    },
+    {
+      "name": "Sleep",
+      "clip": "chr320_bn02",
+      "seconds": 3.333334,
+      "sample_phases": [
+        0.0,
+        0.1666667666666467,
+        0.33333323333335335,
+        0.5,
+        0.6666664666667067,
+        0.8333332333333534
+      ],
+      "durations": [
+        25,
+        25,
+        50,
+        25,
+        25,
+        50
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Native subdued low-hover rest and breathing. Source-white eyes stay open in GLB; close only visible source-eye masks with blue body fill and horizontal lid, preserving UV3 surrounds and occlusion. Six-pose long/short hold rhythm informed by pinned Shuppet Sleep [10,10,18,10,10,18]; retimed to200ticks native cycle.",
+      "closed_eyes": true
+    },
+    {
+      "name": "Hurt",
+      "clip": "chr320_bd01",
+      "seconds": 1.633333,
+      "sample_phases": [
+        0.04081653894215081,
+        0.1530612557267869,
+        0.3000000612245023,
+        0.48979601832571806,
+        0.7040817763432197,
+        0.9857144868805077
+      ],
+      "durations": [
+        3,
+        6,
+        6,
+        4,
+        4,
+        6
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Native early tip-back impact and body wobble/recovery; explicit impact samples rather than uniform idle-looking frames. Low rim may approach ground during recoil; audit all pixels."
+    },
+    {
+      "name": "Swing",
+      "clip": "chr320_ba01",
+      "seconds": 1.666667,
+      "sample_phases": [
+        0.0,
+        0.11999997600000481,
+        0.23999995200000962,
+        0.3599999280000144,
+        0.47999990400001924,
+        0.599999880000024,
+        0.7799998440000313,
+        0.9839998032000393
+      ],
+      "durations": [
+        4,
+        3,
+        4,
+        4,
+        5,
+        4,
+        4,
+        6
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Native body lunge with restrained procedural whole-body yaw [-30,+35] to make a lateral body/rim sweep. No hand/arm strike.",
+      "turn_degrees": [
+        0,
+        -15,
+        -30,
+        -15,
+        35,
+        25,
+        10,
+        0
+      ],
+      "events": {
+        "RushFrame": 2,
+        "HitFrame": 4,
+        "ReturnFrame": 6
+      }
+    },
+    {
+      "name": "Double",
+      "clip": "chr320_ba01",
+      "seconds": 1.666667,
+      "sample_phases": [
+        0.0,
+        0.23999995200000962,
+        0.44999991000001804,
+        0.599999880000024,
+        0.7799998440000313,
+        0.9839998032000393,
+        0.0,
+        0.23999995200000962,
+        0.44999991000001804,
+        0.599999880000024,
+        0.7799998440000313,
+        0.9839998032000393
+      ],
+      "durations": [
+        4,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        4,
+        6
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Two retimed native ba01 body-lunge cycles. Visual contacts2/8; only engine HitFrame2, no invented second gameplay damage event.",
+      "events": {
+        "RushFrame": 1,
+        "HitFrame": 2,
+        "ReturnFrame": 10
+      },
+      "secondary_visual_contact_frame": 8
+    },
+    {
+      "name": "Hop",
+      "clip": "chr320_bi01",
+      "seconds": 2,
+      "sample_phases": [
+        0.0,
+        0.075,
+        0.175,
+        0.275,
+        0.375,
+        0.5,
+        0.6,
+        0.75,
+        0.9,
+        0.995
+      ],
+      "durations": [
+        4,
+        3,
+        4,
+        5,
+        5,
+        5,
+        4,
+        4,
+        3,
+        5
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Distinct native high-rise jump arc verified front/side. J_root native Y reaches.969 versus.086 start and returns; child pitch/rim deformation retained. Sampled gap reaches27px, unlike the2-5px Idle hover. Shadow remains fixed, no synthetic vertical translation.",
+      "events": {
+        "HitFrame": 9
+      }
+    },
+    {
+      "name": "Charge",
+      "clip": "chr320_fe03",
+      "seconds": 3,
+      "sample_phases": [
+        0.0,
+        0.049999999999999996,
+        0.16666666666666666,
+        0.3,
+        0.4666666666666666,
+        0.6333333333333333,
+        0.7999999999999999,
+        0.9833333333333334
+      ],
+      "durations": [
+        6,
+        6,
+        7,
+        8,
+        8,
+        7,
+        6,
+        6
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Native body stretch/raised mouth gathering pose, clearly taller/narrower at midclip; retimed buildup guided by pinned Shuppet hovering-body Charge convention. No energy graphic or fabricated mouth anatomy.",
+      "events": {
+        "HitFrame": 4,
+        "ReturnFrame": 6
+      }
+    },
+    {
+      "name": "Rotate",
+      "clip": "chr320_bv01",
+      "seconds": 3.666667,
+      "sample_phases": [
+        0.0,
+        0.19090907355372058,
+        0.38181814710744116,
+        0.5090909537190043,
+        0.5272725884297647,
+        0.5363636785123929,
+        0.5454544958677732,
+        0.5636364033057815,
+        0.581818038016542,
+        0.5999999454545505,
+        0.7636362942148823,
+        0.9818180925619916
+      ],
+      "durations": [
+        4,
+        4,
+        4,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        4,
+        6
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Native hopping full yaw turn. Key-track evidence shows most rotation at1.933-2.133s; dense front auditions verify side/rear occlusion there. Retimed dense phases make the turn visible instead of skipping it with uniform samples. Native Y/rotation preserved; no synthetic camera spin.",
+      "events": {
+        "HitFrame": 11
+      }
+    }
+  ]
+}

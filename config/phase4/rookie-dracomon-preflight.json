@@ -1,0 +1,11 @@
+{
+  "species":"dracomon","render_size":512,"frame_size":64,"idle_frames":1,"frame_times":[0],
+  "directions":[
+    {"name":"Down","azimuth_degrees":0},{"name":"DownRight","azimuth_degrees":315},
+    {"name":"Right","azimuth_degrees":270},{"name":"UpRight","azimuth_degrees":225},
+    {"name":"Up","azimuth_degrees":180},{"name":"UpLeft","azimuth_degrees":135},
+    {"name":"Left","azimuth_degrees":90},{"name":"DownLeft","azimuth_degrees":45}
+  ],
+  "renderer":{"eye_mode":"source","native_eye_layers":true,"source_eye_masks":true,
+              "emissive_intensity":0.55,"elevation":0.08}
+}

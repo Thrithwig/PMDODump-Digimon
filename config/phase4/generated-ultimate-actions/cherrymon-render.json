@@ -1,0 +1,102 @@
+{
+  "species": "cherrymon",
+  "display_name": "Cherrymon",
+  "source_chr_id": "chr379",
+  "model_path": "work/phase4/ultimate-production/cherrymon-idle-candidate/cherrymon.glb",
+  "pmdo_index": 10165,
+  "idle_clip": "chr379_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0,
+    0.5000000317891459,
+    1.0000000635782917,
+    1.5000000953674377
+  ],
+  "idle_duration_ticks": 30,
+  "approved_neutral_height": 43,
+  "neutral_frame": 0,
+  "frame_size": 96,
+  "render_size": 768,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1
+  },
+  "idle_ground_policy": "fixed",
+  "ground_contact_row": 77,
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "source_eye_masks": true,
+    "head_bones": [
+      "J_atama"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.08,
+    "fixed_framing": {
+      "center": [
+        0,
+        1.5,
+        0
+      ],
+      "extent": 4.015
+    },
+    "offset_bones": {
+      "head": "J_atama",
+      "center": "J_center",
+      "left_hand": "J_te_a_L",
+      "right_hand": "J_te_a_R"
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.8020833333333334
+    ]
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ],
+  "anatomy_notes": {
+    "source": "Direct chr379; four endpoint-exclusive samples of native chr379_bn01.",
+    "silhouette": "Native bark face, broad foliage, branch arms, staff, and roots.",
+    "eyes": "Source facial mesh patches use chr379a01 diffuse and a01m overlay mask; no speculative repaint.",
+    "offsets": "J_atama/J_center and actual J_te_a_L/R branch hand joints.",
+    "ground": "Fixed shadow and source-root contact, retaining native bob."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "species": "renamon",
+  "jobs": [
+    {"clip":"chr391_ba01","time":0.08,"azimuth":0,"note":"ba01 start"},
+    {"clip":"chr391_ba01","time":0.45,"azimuth":0,"note":"ba01 windup"},
+    {"clip":"chr391_ba01","time":0.90,"azimuth":0,"note":"ba01 contact"},
+    {"clip":"chr391_ba01","time":1.70,"azimuth":0,"note":"ba01 recovery"},
+    {"clip":"chr391_ba02","time":0.08,"azimuth":0,"note":"ba02 start"},
+    {"clip":"chr391_ba02","time":0.50,"azimuth":0,"note":"ba02 windup"},
+    {"clip":"chr391_ba02","time":1.00,"azimuth":0,"note":"ba02 contact"},
+    {"clip":"chr391_ba02","time":1.80,"azimuth":0,"note":"ba02 recovery"},
+    {"clip":"chr391_bs01","time":0.08,"azimuth":0,"note":"Swing start"},
+    {"clip":"chr391_bs01","time":0.70,"azimuth":0,"note":"Swing rise"},
+    {"clip":"chr391_bs01","time":1.25,"azimuth":0,"note":"Swing contact"},
+    {"clip":"chr391_bs01","time":2.20,"azimuth":0,"note":"Swing recovery"},
+    {"clip":"chr391_fe01","time":0.08,"azimuth":0,"note":"fe01 start"},
+    {"clip":"chr391_fe01","time":0.70,"azimuth":0,"note":"fe01 gather"},
+    {"clip":"chr391_fe01","time":1.25,"azimuth":0,"note":"fe01 release"},
+    {"clip":"chr391_fe01","time":1.95,"azimuth":0,"note":"fe01 recovery"}
+  ]
+}

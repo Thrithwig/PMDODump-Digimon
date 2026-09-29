@@ -1,0 +1,18 @@
+{
+  "species": "lopmon",
+  "jobs": [
+    {"clip":"chr701_bs01","time":0.15,"azimuth":0,"note":"Swing bs01 early"},
+    {"clip":"chr701_bs01","time":0.45,"azimuth":0,"note":"Swing bs01 windup"},
+    {"clip":"chr701_bs01","time":0.8,"azimuth":0,"note":"Swing bs01 contact"},
+    {"clip":"chr701_bs01","time":1.5,"azimuth":0,"note":"Swing bs01 later"},
+    {"clip":"chr701_bs01","time":2.0,"azimuth":0,"note":"Swing bs01 recover"},
+    {"clip":"chr701_ba02","time":0.3,"azimuth":0,"note":"Alternate ear swat early"},
+    {"clip":"chr701_ba02","time":0.65,"azimuth":0,"note":"Alternate ear swat contact"},
+    {"clip":"chr701_ba02","time":1.35,"azimuth":0,"note":"Alternate ear swat recover"},
+    {"clip":"chr701_fe02","time":0.35,"azimuth":0,"note":"Shoot fe02 early"},
+    {"clip":"chr701_fe02","time":0.8,"azimuth":0,"note":"Shoot fe02 windup"},
+    {"clip":"chr701_fe02","time":1.7,"azimuth":0,"note":"Shoot fe02 later"},
+    {"clip":"chr701_bn02","time":0.35,"azimuth":0,"note":"Sleep early"},
+    {"clip":"chr701_bn02","time":2.25,"azimuth":0,"note":"Sleep later"}
+  ]
+}

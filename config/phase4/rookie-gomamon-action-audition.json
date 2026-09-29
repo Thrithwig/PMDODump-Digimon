@@ -1,0 +1,18 @@
+{"species":"gomamon","jobs":[
+  {"clip":"chr343_br01","time":0.25,"azimuth":0,"note":"Walk front"},
+  {"clip":"chr343_ba01","time":0.65,"azimuth":0,"note":"Attack candidate"},
+  {"clip":"chr343_ba02","time":0.75,"azimuth":0,"note":"Alternate attack"},
+  {"clip":"chr343_fe01","time":1.25,"azimuth":0,"note":"Shoot candidate fe01"},
+  {"clip":"chr343_fe02","time":1.3,"azimuth":0,"note":"Shoot candidate fe02"},
+  {"clip":"chr343_fe04","time":0.8,"azimuth":0,"note":"Shoot candidate fe04"},
+  {"clip":"chr343_bn02","time":1.2,"azimuth":0,"note":"Sleep rest"},
+  {"clip":"chr343_bd01","time":0.35,"azimuth":0,"note":"Hurt recoil"},
+  {"clip":"chr343_bs01","time":1.1,"azimuth":0,"note":"Swing front"},
+  {"clip":"chr343_bf01","time":0.7,"azimuth":0,"note":"Hop source"},
+  {"clip":"chr343_bv01","time":1.1,"azimuth":0,"note":"Charge source"},
+  {"clip":"chr343_fq01","time":0.6,"azimuth":0,"note":"Rotate source"},
+  {"clip":"chr343_br01","time":0.25,"azimuth":270,"note":"Walk side"},
+  {"clip":"chr343_ba01","time":0.65,"azimuth":270,"note":"Attack side"},
+  {"clip":"chr343_bs01","time":1.1,"azimuth":270,"note":"Swing side"},
+  {"clip":"chr343_bf01","time":0.7,"azimuth":270,"note":"Hop side"}
+]}

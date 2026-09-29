@@ -1,0 +1,21 @@
+{
+  "species": "monodramon",
+  "jobs": [
+    {"clip":"chr458_bs01","time":0.7,"azimuth":0,"note":"Swing front 0"},
+    {"clip":"chr458_bs01","time":0.8,"azimuth":0,"note":"Swing front 1"},
+    {"clip":"chr458_bs01","time":1.0,"azimuth":0,"note":"Swing front 2"},
+    {"clip":"chr458_bs01","time":1.2,"azimuth":0,"note":"Swing front 3"},
+    {"clip":"chr458_bs01","time":1.4,"azimuth":0,"note":"Swing front 4"},
+    {"clip":"chr458_bs01","time":1.6,"azimuth":0,"note":"Swing front 5"},
+    {"clip":"chr458_bs01","time":1.8,"azimuth":0,"note":"Swing front 6"},
+    {"clip":"chr458_bs01","time":1.95,"azimuth":0,"note":"Swing front 7"},
+    {"clip":"chr458_bs01","time":0.7,"azimuth":270,"note":"Swing side 0"},
+    {"clip":"chr458_bs01","time":0.8,"azimuth":270,"note":"Swing side 1"},
+    {"clip":"chr458_bs01","time":1.0,"azimuth":270,"note":"Swing side 2"},
+    {"clip":"chr458_bs01","time":1.2,"azimuth":270,"note":"Swing side 3"},
+    {"clip":"chr458_bs01","time":1.4,"azimuth":270,"note":"Swing side 4"},
+    {"clip":"chr458_bs01","time":1.6,"azimuth":270,"note":"Swing side 5"},
+    {"clip":"chr458_bs01","time":1.8,"azimuth":270,"note":"Swing side 6"},
+    {"clip":"chr458_bs01","time":1.95,"azimuth":270,"note":"Swing side 7"}
+  ]
+}

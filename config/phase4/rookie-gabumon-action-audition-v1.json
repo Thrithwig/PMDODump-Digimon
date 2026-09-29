@@ -1,0 +1,21 @@
+{
+  "species":"gabumon",
+  "jobs":[
+    {"clip":"chr151_br01","time":0.16,"azimuth":0,"note":"walk early front"},
+    {"clip":"chr151_br01","time":0.48,"azimuth":270,"note":"walk later side"},
+    {"clip":"chr151_ba01","time":0.28,"azimuth":0,"note":"attack anticipation"},
+    {"clip":"chr151_ba01","time":0.65,"azimuth":270,"note":"attack contact side"},
+    {"clip":"chr151_ba02","time":0.8,"azimuth":0,"note":"alternate attack"},
+    {"clip":"chr151_fe04","time":0.8,"azimuth":0,"note":"special release"},
+    {"clip":"chr151_fe01","time":0.8,"azimuth":0,"note":"alternate special expression"},
+    {"clip":"chr151_bn02","time":0.9,"azimuth":0,"note":"sleep"},
+    {"clip":"chr151_bd01","time":0.32,"azimuth":0,"note":"hurt"},
+    {"clip":"chr151_bs01","time":0.8,"azimuth":0,"note":"swing"},
+    {"clip":"chr151_bf01","time":0.52,"azimuth":0,"note":"hop"},
+    {"clip":"chr151_bv01","time":1.2,"azimuth":0,"note":"charge"},
+    {"clip":"chr151_bg01","time":0.3,"azimuth":0,"note":"guard alternate charge"},
+    {"clip":"chr151_fq01","time":0.5,"azimuth":0,"note":"rotate pose"},
+    {"clip":"chr151_bv01","time":2.3,"azimuth":270,"note":"charge late side"},
+    {"clip":"chr151_bs01","time":1.7,"azimuth":270,"note":"swing late side"}
+  ]
+}

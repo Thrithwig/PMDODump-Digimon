@@ -1,0 +1,21 @@
+{
+  "species":"palmon",
+  "jobs":[
+    {"clip":"chr348_br01","time":0.4,"azimuth":0,"note":"Walk"},
+    {"clip":"chr348_ba01","time":0.7,"azimuth":0,"note":"Attack ba01"},
+    {"clip":"chr348_ba02","time":1.2,"azimuth":0,"note":"Attack ba02"},
+    {"clip":"chr348_fe01","time":1.5,"azimuth":0,"note":"Shoot fe01"},
+    {"clip":"chr348_fe02","time":0.85,"azimuth":0,"note":"Shoot fe02"},
+    {"clip":"chr348_fe03","time":1.5,"azimuth":0,"note":"Shoot fe03"},
+    {"clip":"chr348_fe04","time":0.8,"azimuth":0,"note":"Shoot fe04"},
+    {"clip":"chr348_bn02","time":1.5,"azimuth":0,"note":"Sleep"},
+    {"clip":"chr348_bd01","time":0.45,"azimuth":0,"note":"Hurt bd01"},
+    {"clip":"chr348_bd02","time":0.5,"azimuth":0,"note":"Hurt bd02"},
+    {"clip":"chr348_bd03","time":0.95,"azimuth":0,"note":"Hurt bd03"},
+    {"clip":"chr348_bs01","time":0.9,"azimuth":0,"note":"Swing"},
+    {"clip":"chr348_bf01","time":0.7,"azimuth":0,"note":"Hop"},
+    {"clip":"chr348_bv01","time":0.65,"azimuth":0,"note":"Charge"},
+    {"clip":"chr348_fq01","time":0.65,"azimuth":0,"note":"Rotate fq01"},
+    {"clip":"chr348_fq02","time":1.3,"azimuth":0,"note":"Rotate fq02"}
+  ]
+}

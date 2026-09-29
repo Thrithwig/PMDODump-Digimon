@@ -1,0 +1,115 @@
+{
+  "species": "sangloupmon",
+  "display_name": "Sangloupmon",
+  "source_chr_id": "chr030",
+  "model_path": "work/phase4/champion-production/sangloupmon-idle-candidate/sangloupmon.glb",
+  "pmdo_index": 10101,
+  "idle_clip": "chr030_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0,
+    0.3333333333,
+    0.6666666667,
+    1.0
+  ],
+  "idle_duration_ticks": 20,
+  "approved_neutral_height": 27,
+  "neutral_frame": 0,
+  "frame_size": 192,
+  "render_size": 1536,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1
+  },
+  "idle_ground_policy": "fixed",
+  "ground_contact_row": 127,
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "source_eye_masks": true,
+    "head_bones": [
+      "J_head"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.06,
+    "fixed_framing": {
+      "center": [
+        0,
+        1.05,
+        0
+      ],
+      "extent": 6.8
+    },
+    "offset_bones": {
+      "head": "J_head",
+      "center": "J_center",
+      "left_hand": "J_foot01_l",
+      "right_hand": "J_foot01_r"
+    },
+    "horizontal_root_lock": {
+      "chr030_bs01": {
+        "bone": "J_center",
+        "reference_time": 0.0
+      },
+      "chr030_bv01": {
+        "bone": "J_center",
+        "reference_time": 0.0,
+        "axes": [
+          "y"
+        ],
+        "reference_clip": "chr030_bn01"
+      }
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.8229166667
+    ]
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ],
+  "anatomy_notes": {
+    "source": "Direct Time Stranger chr030 model and native chr030_bn01 Idle; no fallback.",
+    "silhouette": "Preserve wolf muzzle, ears and head ornaments, dark body, four feet, and tail.",
+    "eyes": "Inspect source-composited eyes at native size; edit only a source-visible edge if the light face needs separation.",
+    "ground": "Grounded quadruped. Judge contact by paws, not tail or head ornament. J_foot01_l/r are front paws attached to J_spine03 and occupy PMDO hand slots."
+  }
+}

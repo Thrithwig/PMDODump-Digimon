@@ -1,0 +1,24 @@
+{
+  "species":"goblimon",
+  "model_path":"work/phase4/rookie-production/goblimon-preflight/goblimon.glb",
+  "approved_idle":"work/phase4/rookie-production/goblimon-idle-trial-v3/package/10033",
+  "palette_policy":"approved-idle",
+  "mouth_palette":false,
+  "mouth_colors":[],
+  "open_mouth_actions":[],
+  "palette_rationale":"Keep the approved green skin, red crest, black-red eyes, tan outfit, wood club and pale teeth within the reviewed Idle palette.",
+  "reference":"Own DSTS chr111 model and native clips; PMDO registry supplies engine action names and event fields.",
+  "ground_policy_note":"Fixed grounded row-47 shadow; preserve native club arc, crouch and lift without per-frame recentering.",
+  "actions":[
+    {"name":"Walk","clip":"chr111_br01","seconds":0.8,"sample_phases":[0,0.125,0.25,0.375,0.5,0.625,0.75,0.875],"durations":[8,8,8,8,8,8,8,8],"ground_policy":"fixed","pose_evidence":"Native gait with club carried in the source right hand; endpoint omitted."},
+    {"name":"Attack","clip":"chr111_ba02","seconds":2.333333,"sample_phases":[0,0.08,0.17,0.28,0.4,0.55,0.7,0.84,0.98],"durations":[3,3,4,5,5,4,4,4,5],"ground_policy":"fixed","events":{"RushFrame":1,"HitFrame":4,"ReturnFrame":7},"pose_evidence":"Native raised-club attack, forward strike and recovery; no painted hit effect."},
+    {"name":"Shoot","clip":"chr111_fe04","seconds":1.8,"sample_phases":[0,0.1,0.22,0.35,0.48,0.62,0.78,0.96],"durations":[4,4,5,5,6,5,4,6],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":6},"pose_evidence":"Native open-mouth/club special release; no invented projectile."},
+    {"name":"Sleep","clip":"chr111_bn02","seconds":3.333333,"sample_phases":[0,0.166667,0.333333,0.5,0.666667,0.833333],"durations":[33,33,33,33,33,33],"ground_policy":"fixed","pose_evidence":"Source crouched rest with club grounded; do not invent eyelids."},
+    {"name":"Hurt","clip":"chr111_bd01","seconds":0.866667,"sample_phases":[0,0.06,0.13,0.22,0.32,0.45,0.62,0.8,0.97],"durations":[3,4,4,4,5,4,4,4,5],"ground_policy":"fixed","events":{"HitFrame":2},"pose_evidence":"Native upper-body recoil while retaining held club."},
+    {"name":"Swing","clip":"chr111_bs01","seconds":2.666667,"sample_phases":[0,0.1,0.22,0.35,0.48,0.62,0.78,0.96],"durations":[4,4,5,5,5,4,4,5],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":6},"pose_evidence":"Separate native broad club/body swing, with source weapon grip retained."},
+    {"name":"Double","clip":"chr111_ba02","seconds":2.333333,"sample_phases":[0,0.17,0.4,0.7,0.98,0,0.17,0.4,0.7,0.98],"durations":[3,4,5,4,4,3,4,5,4,6],"ground_policy":"fixed","events":{"RushFrame":1,"HitFrame":2,"ReturnFrame":8},"pose_evidence":"Two cycles of native raised-club attack; PMDO exposes one HitFrame."},
+    {"name":"Hop","clip":"chr111_bf01","seconds":1.333333,"sample_phases":[0,0.06,0.14,0.25,0.4,0.55,0.72,0.97],"durations":[4,5,5,8,8,5,4,6],"ground_policy":"fixed","events":{"HitFrame":5},"pose_evidence":"Own source hindleg spring and club carry; preserve whatever lift survives at 29 px."},
+    {"name":"Charge","clip":"chr111_bv01","seconds":3.5,"sample_phases":[0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.82,0.96],"durations":[4,5,5,6,7,7,8,5,4,5],"ground_policy":"fixed","events":{"HitFrame":6,"ReturnFrame":8},"pose_evidence":"Native braced club-over-shoulder charge and recovery, no glow invented."},
+    {"name":"Rotate","clip":"chr111_fq01","seconds":2.0,"sample_phases":[0,0.083333,0.166667,0.25,0.333333,0.416667,0.5,0.583333,0.666667,0.75,0.833333,0.916667],"durations":[4,4,4,4,4,4,4,4,4,4,4,4],"ground_policy":"fixed","turn_degrees":[0,30,60,90,120,150,180,210,240,270,300,330],"events":{"HitFrame":6},"pose_evidence":"Source look/stance motion with whole-view yaw; endpoint excluded."}
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "species": "bukamon",
+  "jobs": [
+    {
+      "clip": "chr514_ba01",
+      "time": 0.045,
+      "azimuth": 90,
+      "note": "Native geometry; audited source eyes; rootXZ stabilized only when authored travel exists"
+    },
+    {
+      "clip": "chr514_ba01",
+      "time": 0.45,
+      "azimuth": 90,
+      "note": "Native geometry; audited source eyes; rootXZ stabilized only when authored travel exists"
+    },
+    {
+      "clip": "chr514_ba01",
+      "time": 0.825,
+      "azimuth": 90,
+      "note": "Native geometry; audited source eyes; rootXZ stabilized only when authored travel exists"
+    },
+    {
+      "clip": "chr514_ba01",
+      "time": 1.2,
+      "azimuth": 90,
+      "note": "Native geometry; audited source eyes; rootXZ stabilized only when authored travel exists"
+    },
+    {
+      "clip": "chr514_ba02",
+      "time": 0.04,
+      "azimuth": 90,
+      "note": "Native geometry; audited source eyes; rootXZ stabilized only when authored travel exists"
+    },
+    {
+      "clip": "chr514_ba02",
+      "time": 0.4,
+      "azimuth": 90,
+      "note": "Native geometry; audited source eyes; rootXZ stabilized only when authored travel exists"
+    },
+    {
+      "clip": "chr514_ba02",
+      "time": 0.733333,
+      "azimuth": 90,
+      "note": "Native geometry; audited source eyes; rootXZ stabilized only when authored travel exists"
+    },
+    {
+      "clip": "chr514_ba02",
+      "time": 1.066667,
+      "azimuth": 90,
+      "note": "Native geometry; audited source eyes; rootXZ stabilized only when authored travel exists"
+    },
+    {
+      "clip": "chr514_br01",
+      "time": 0.02,
+      "azimuth": 90,
+      "note": "Native geometry; audited source eyes; rootXZ stabilized only when authored travel exists"
+    },
+    {
+      "clip": "chr514_br01",
+      "time": 0.2,
+      "azimuth": 90,
+      "note": "Native geometry; audited source eyes; rootXZ stabilized only when authored travel exists"
+    },
+    {
+      "clip": "chr514_br01",
+      "time": 0.366667,
+      "azimuth": 90,
+      "note": "Native geometry; audited source eyes; rootXZ stabilized only when authored travel exists"
+    },
+    {
+      "clip": "chr514_br01",
+      "time": 0.533333,
+      "azimuth": 90,
+      "note": "Native geometry; audited source eyes; rootXZ stabilized only when authored travel exists"
+    },
+    {
+      "clip": "chr514_bv01",
+      "time": 0.06,
+      "azimuth": 90,
+      "note": "Native geometry; audited source eyes; rootXZ stabilized only when authored travel exists"
+    },
+    {
+      "clip": "chr514_bv01",
+      "time": 0.6,
+      "azimuth": 90,
+      "note": "Native geometry; audited source eyes; rootXZ stabilized only when authored travel exists"
+    },
+    {
+      "clip": "chr514_bv01",
+      "time": 1.1,
+      "azimuth": 90,
+      "note": "Native geometry; audited source eyes; rootXZ stabilized only when authored travel exists"
+    },
+    {
+      "clip": "chr514_bv01",
+      "time": 1.6,
+      "azimuth": 90,
+      "note": "Native geometry; audited source eyes; rootXZ stabilized only when authored travel exists"
+    }
+  ]
+}

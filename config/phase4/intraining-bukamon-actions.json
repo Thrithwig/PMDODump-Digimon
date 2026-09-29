@@ -1,0 +1,347 @@
+{
+  "species": "bukamon",
+  "model_path": "work/phase4/source/bukamon.glb",
+  "approved_idle": "work/phase4/intraining-production/bukamon-idle-v2/package/10015",
+  "palette_policy": "approved-idle",
+  "mouth_palette": false,
+  "mouth_colors": [],
+  "open_mouth_actions": [],
+  "palette_rationale": "Exactly64 approved Idle v2 colors including both source dark-eye blues. Fixed source-nearest palette before packing; no per-sheet quantization/dithering/newcolors.",
+  "reference": "Seel PMDO Sprite0086: flipper/belly body archetype for timing/hold only where native semantics absent; no face/pose transfer.",
+  "reference_commit": "03c80dad937911572f8fb19903771a47956fc696",
+  "actions": [
+    {
+      "name": "Walk",
+      "clip": "chr514_br01",
+      "seconds": 0.6666667090521945,
+      "sample_phases": [
+        0,
+        0.125,
+        0.25,
+        0.375,
+        0.5,
+        0.625,
+        0.75,
+        0.8750000000000001
+      ],
+      "durations": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Source alternating flipper paddle with belly bob and lagging tail/crest. Engine owns logical travel; native centerXZ stabilized, Y retained."
+    },
+    {
+      "name": "Attack",
+      "clip": "chr514_ba02",
+      "seconds": 1.333333418104389,
+      "sample_phases": [
+        0,
+        0.0899999942779541,
+        0.18749998807907106,
+        0.2999999809265137,
+        0.41249997377395636,
+        0.5249999666213989,
+        0.6749999570846558,
+        0.8249999475479127,
+        0.9824999375343324
+      ],
+      "durations": [
+        4,
+        4,
+        4,
+        5,
+        3,
+        5,
+        4,
+        4,
+        6
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Source rear-up, tucked flippers and forward open-mouth body/flipper thrust; .4s anticipation and .7s contact chosen from side audition. ba01 deep downward flipper stab rejected for ground incompatibility; no alpha crop.",
+      "events": {
+        "RushFrame": 2,
+        "HitFrame": 5,
+        "ReturnFrame": 7
+      }
+    },
+    {
+      "name": "Shoot",
+      "clip": "chr514_bs01",
+      "seconds": 1.333333418104389,
+      "sample_phases": [
+        0,
+        0.11249999284744262,
+        0.22499998569488525,
+        0.3374999785423279,
+        0.4499999713897705,
+        0.5624999642372132,
+        0.7499999523162842,
+        0.9749999380111696
+      ],
+      "durations": [
+        4,
+        4,
+        5,
+        5,
+        6,
+        4,
+        4,
+        6
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Source open-mouth rear-up/release and recovery. Native bs01 resembles ba02 body thrust but begins with mouth open; emphasis on mouth release/hold. No projectile asset or verified discharge claimed; Seel Shoot hold convention only.",
+      "events": {
+        "RushFrame": 2,
+        "HitFrame": 4,
+        "ReturnFrame": 6
+      }
+    },
+    {
+      "name": "Sleep",
+      "clip": "chr514_bn02",
+      "seconds": 3.66666689978707,
+      "sample_phases": [
+        0,
+        0.25,
+        0.5,
+        0.7500000000000001
+      ],
+      "durations": [
+        55,
+        55,
+        55,
+        55
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Native lowered head/resting flippers and slow body/tail breathing. Authored b01 second-row closed-eye curves selected explicitly at UV3V+.25 with crop mask; not inferred/exported facial clip, no raster lid."
+    },
+    {
+      "name": "Hurt",
+      "clip": "chr514_bd01",
+      "seconds": 0.9333333926730724,
+      "sample_phases": [
+        0,
+        0.12857142039707728,
+        0.27857141086033416,
+        0.4607142564228603,
+        0.6964285271508354,
+        0.9749999380111695
+      ],
+      "durations": [
+        3,
+        5,
+        6,
+        5,
+        5,
+        6
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Native backward head/chest recoil, braced flippers and tail bend, recovering to upright. Source pose only; ground-color overlap must be audited.",
+      "events": {
+        "HitFrame": 2
+      }
+    },
+    {
+      "name": "Swing",
+      "clip": "chr514_fe01",
+      "seconds": 2.5000001589457295,
+      "sample_phases": [
+        0,
+        0.11999999237060546,
+        0.2599999834696452,
+        0.3999999745686849,
+        0.5199999669392904,
+        0.6399999593098958,
+        0.7999999491373698,
+        0.9879999371846517
+      ],
+      "durations": [
+        4,
+        4,
+        4,
+        5,
+        6,
+        5,
+        4,
+        6
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Native paired flippers fold/cross at chest then sweep outward, mouth opening and tail counterpose. Body-appropriate flipper sweep, not human arm attack. Retimed pose evidence from front/side auditions.",
+      "events": {
+        "RushFrame": 2,
+        "HitFrame": 4,
+        "ReturnFrame": 6
+      }
+    },
+    {
+      "name": "Double",
+      "clip": "chr514_ba02",
+      "seconds": 1.333333418104389,
+      "sample_phases": [
+        0,
+        0.18749998807907106,
+        0.3374999785423279,
+        0.5249999666213989,
+        0.7499999523162842,
+        0.9824999375343324,
+        0,
+        0.18749998807907106,
+        0.3374999785423279,
+        0.5249999666213989,
+        0.7499999523162842,
+        0.9824999375343324
+      ],
+      "durations": [
+        3,
+        3,
+        4,
+        5,
+        3,
+        4,
+        3,
+        3,
+        4,
+        5,
+        3,
+        6
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Two retimed native rear-up/thrust cycles, visible contacts3 and9. Only first contact is engine HitFrame; no invented additional gameplay damage.",
+      "events": {
+        "RushFrame": 1,
+        "HitFrame": 3,
+        "ReturnFrame": 10
+      },
+      "secondary_visual_contact_frame": 9
+    },
+    {
+      "name": "Hop",
+      "clip": "chr514_bd02",
+      "seconds": 1.0000000635782917,
+      "sample_phases": [
+        0,
+        0.1299999917348226,
+        0.15999998982747396,
+        0.19999998728434248,
+        0.23999998474121095,
+        0.2799999821980795,
+        0.23999998474121095,
+        0.19999998728434248,
+        0.15999998982747396,
+        0.1299999917348226,
+        0
+      ],
+      "durations": [
+        3,
+        3,
+        3,
+        4,
+        5,
+        5,
+        4,
+        4,
+        3,
+        3,
+        5
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Native bd02 launch has a clear airborne arc but later falls onto back. Use only first upright launch poses, then reverse them to land upright. Explicit mirrored native-pose retiming, not a native standalone jump. Seel Hop landing/airtime convention; no synthetic vertical displacement.",
+      "events": {
+        "HitFrame": 10
+      }
+    },
+    {
+      "name": "Charge",
+      "clip": "chr514_fe03",
+      "seconds": 3.0000001907348754,
+      "sample_phases": [
+        0,
+        0.11666665924919975,
+        0.2333333184983995,
+        0.3499999777475993,
+        0.466666636996799,
+        0.5833332962459988,
+        0.6999999554951986,
+        0.8333332803514268,
+        0.9899999370574951
+      ],
+      "durations": [
+        5,
+        5,
+        6,
+        7,
+        8,
+        7,
+        6,
+        5,
+        6
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Native upright belly/chest rise with tucked/crossed flippers and crest/tail motion, then release. Interpreted gathering tension; pinned Seel Charge buildup/hold convention, no energy effect.",
+      "events": {
+        "HitFrame": 4,
+        "ReturnFrame": 7
+      }
+    },
+    {
+      "name": "Rotate",
+      "clip": "chr514_fq02",
+      "seconds": 2.0000001271565835,
+      "sample_phases": [
+        0,
+        0.0899999942779541,
+        0.1799999885559082,
+        0.2699999828338623,
+        0.3599999771118164,
+        0.44999997138977055,
+        0.5399999656677246,
+        0.6299999599456787,
+        0.7199999542236328,
+        0.809999948501587,
+        0.8999999427795411,
+        0.9899999370574952
+      ],
+      "durations": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "No native complete grounded yaw turn found: add explicit whole-body360deg yaw through canonical camera azimuth to native fq02 head look/tail gesture. Full upright turn, fixed scale/origin and source occlusion; native bv01 is a flipper celebration, not a spin.",
+      "events": {
+        "HitFrame": 9
+      },
+      "turn_degrees": [
+        0,
+        32.72727272727273,
+        65.45454545454545,
+        98.18181818181819,
+        130.9090909090909,
+        163.63636363636363,
+        196.36363636363637,
+        229.0909090909091,
+        261.8181818181818,
+        294.54545454545456,
+        327.27272727272725,
+        360
+      ]
+    }
+  ],
+  "reference_animdata_sha256": "ea1ed209d4b586fba420b2f5f0f1d16eb573ce9a50095a6e14515316e3eb6d5d"
+}

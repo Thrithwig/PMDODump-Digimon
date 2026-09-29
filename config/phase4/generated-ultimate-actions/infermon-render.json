@@ -1,0 +1,103 @@
+{
+  "species": "infermon",
+  "display_name": "Infermon",
+  "source_chr_id": "chr627",
+  "model_path": "work/phase4/ultimate-production/infermon-idle-candidate/infermon.glb",
+  "pmdo_index": 10146,
+  "idle_clip": "chr627_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0,
+    0.5000000317891459,
+    1.0000000635782917,
+    1.5000000953674377
+  ],
+  "idle_duration_ticks": 30,
+  "approved_neutral_height": 21,
+  "neutral_frame": 0,
+  "frame_size": 128,
+  "render_size": 1024,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1
+  },
+  "idle_ground_policy": "fixed",
+  "ground_contact_row": 96,
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "source_eye_masks": true,
+    "head_bones": [
+      "J_atama"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.08,
+    "fixed_framing": {
+      "center": [
+        0,
+        0.37,
+        0
+      ],
+      "extent": 3.8
+    },
+    "offset_bones": {
+      "head": "J_atama",
+      "center": "J_center",
+      "left_hand": "J_te1_L",
+      "right_hand": "J_te1_R"
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.75
+    ]
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ],
+  "anatomy_notes": {
+    "source": "Direct Time Stranger chr627 model and native chr627_bn01 Idle loop; four endpoint-exclusive samples.",
+    "bind_axis": "J_atama is at bind Z +0.694; J_center at Z -0.267 and rear heels at Z -0.497. Renderer azimuth 0 views from +Z; Down frontal, 270/90 side profiles, Up rear.",
+    "face": "Preserve native eye_L and eye_R meshes, e01 diffuse/e01h shine/b01m masks; inspect source-visible contrast at native scale.",
+    "silhouette": "Preserve native head, jaw, four arm chains and splayed legs.",
+    "offsets": "Native head, center and first left/right hand bones supply projected PMDO markers.",
+    "ground": "Ground-contact legs connect to fixed shadow; inspect selected trial for genuine contact or hover."
+  }
+}

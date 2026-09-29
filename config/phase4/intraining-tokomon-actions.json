@@ -1,0 +1,22 @@
+{
+  "species":"tokomon",
+  "model_path":"work/phase4/source/tokomon.glb",
+  "approved_idle":"work/phase4/intraining-production/tokomon-idle-dark-red-v1/package/10011",
+  "palette_policy":"approved-idle",
+  "mouth_palette":false,
+  "mouth_colors":[],
+  "open_mouth_actions":[],
+  "reference":"Own chr325 anatomy and native clips primary. Existing PMDO timing only; no borrowed sprite pixels or geometry.",
+  "actions":[
+    {"name":"Walk","clip":"chr325_br01","seconds":0.53333,"sample_phases":[0,0.125,0.25,0.375,0.5,0.625,0.75,0.875],"durations":[5,5,5,5,5,5,5,5],"ground_policy":"fixed","pose_evidence":"Native alternating leg motion and ear sway, side-view audition."},
+    {"name":"Attack","clip":"chr325_ba01","seconds":1.36667,"sample_phases":[0,0.08,0.18,0.3,0.42,0.55,0.7,0.84,0.98],"durations":[3,3,4,5,5,4,4,4,5],"ground_policy":"fixed","events":{"RushFrame":1,"HitFrame":4,"ReturnFrame":7},"pose_evidence":"Native leap-and-strike, distinct from grounded walk."},
+    {"name":"Shoot","clip":"chr325_fe01","seconds":2.0,"sample_phases":[0,0.1,0.22,0.35,0.48,0.62,0.78,0.96],"durations":[4,4,5,5,6,5,4,5],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":6},"pose_evidence":"Native upright windup/release; no invented projectile."},
+    {"name":"Sleep","clip":"chr325_bn02","seconds":3.33333,"sample_phases":[0,0.166667,0.333333,0.5,0.666667,0.833333],"durations":[33,33,33,33,33,33],"ground_policy":"fixed","pose_evidence":"Native resting body and lowered ears; eye expression must be visually reviewed."},
+    {"name":"Hurt","clip":"chr325_bd01","seconds":0.96667,"sample_phases":[0,0.06,0.13,0.22,0.32,0.45,0.62,0.8,0.97],"durations":[3,4,4,4,5,4,4,4,5],"ground_policy":"fixed","events":{"HitFrame":2},"pose_evidence":"Native recoil and roll, ground contact to be checked per frame."},
+    {"name":"Swing","clip":"chr325_bs01","seconds":1.13333,"sample_phases":[0,0.1,0.22,0.35,0.48,0.62,0.78,0.96],"durations":[4,4,5,5,5,4,4,5],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":6},"pose_evidence":"Native mouth-open upward swing; no invented implement."},
+    {"name":"Double","clip":"chr325_ba01","seconds":1.36667,"sample_phases":[0,0.18,0.42,0.7,0.98,0,0.18,0.42,0.7,0.98],"durations":[3,4,5,4,4,3,4,5,4,6],"ground_policy":"fixed","events":{"RushFrame":1,"HitFrame":2,"ReturnFrame":8},"pose_evidence":"Two complete native strike cycles."},
+    {"name":"Hop","clip":"chr325_ba02","seconds":1.66667,"sample_phases":[0,0.06,0.14,0.25,0.4,0.55,0.72,0.97],"durations":[4,5,5,8,8,5,4,6],"ground_policy":"fixed","events":{"HitFrame":5},"pose_evidence":"Native upward hop and stretched body, distinct from horizontal Attack."},
+    {"name":"Charge","clip":"chr325_bv01","seconds":2.2,"sample_phases":[0,0.1,0.2,0.3,0.4,0.5,0.6,0.5,0.3,0],"durations":[4,5,5,6,7,7,8,5,4,5],"ground_policy":"fixed","events":{"HitFrame":6,"ReturnFrame":8},"pose_evidence":"Native crouched energy build/recovery, no added effects."},
+    {"name":"Rotate","clip":"chr325_fq01","seconds":2.0,"sample_phases":[0,0.083333,0.166667,0.25,0.333333,0.416667,0.5,0.583333,0.666667,0.75,0.833333,0.916667],"durations":[4,4,4,4,4,4,4,4,4,4,4,4],"ground_policy":"fixed","turn_degrees":[0,30,60,90,120,150,180,210,240,270,300,330],"events":{"HitFrame":6},"pose_evidence":"Native fq01 ears/face motion with explicit view rotation."}
+  ]
+}

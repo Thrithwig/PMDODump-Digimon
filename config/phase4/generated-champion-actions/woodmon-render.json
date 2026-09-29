@@ -1,0 +1,101 @@
+{
+  "species": "woodmon",
+  "display_name": "Woodmon",
+  "source_chr_id": "chr393",
+  "model_path": "work/phase4/champion-production/woodmon-idle-candidate/woodmon.glb",
+  "pmdo_index": 10074,
+  "idle_clip": "chr393_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0,
+    0.3333333545,
+    0.6666667091,
+    1.0000000636
+  ],
+  "idle_duration_ticks": 20,
+  "approved_neutral_height": 27,
+  "neutral_frame": 0,
+  "frame_size": 96,
+  "render_size": 768,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1
+  },
+  "idle_ground_policy": "fixed",
+  "ground_contact_row": 76,
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "source_eye_masks": true,
+    "head_bones": [
+      "J_body2"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.06,
+    "fixed_framing": {
+      "center": [
+        0,
+        1.0,
+        0
+      ],
+      "extent": 3.49
+    },
+    "offset_bones": {
+      "head": "J_body2",
+      "center": "J_center",
+      "left_hand": "J_wristL2",
+      "right_hand": "J_wristR2"
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.7916666667
+    ]
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ],
+  "anatomy_notes": {
+    "source": "Direct chr393 model and native chr393_bn01 loop (1.333333418 s).",
+    "eyes": "Paired source eye_L/eye_R meshes; inspect native e01 diffuse, e01h shine and b01m mask before any bounded separation. No repaint by default.",
+    "markers": "Head slot uses upper trunk J_body2; hand slots use native J_wristL2 and J_wristR2. These are PMDO slot approximations on a four-legged tree body.",
+    "ground": "Retain native motion against a fixed row-76 PMDO shadow; inspect lower trunk and feet for contact or hover."
+  }
+}

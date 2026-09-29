@@ -1,0 +1,320 @@
+{
+  "species": "botamon",
+  "model_path": "work/phase4/source/botamon.glb",
+  "approved_idle": "work/phase4/baby-production/botamon-idle-v1/package/10004",
+  "palette_policy": "approved-idle",
+  "mouth_palette": false,
+  "mouth_colors": [],
+  "open_mouth_actions": [],
+  "reference": "RawAsset Sprite/0132 (Ditto), body-only timing/closure/rotation conventions, not anatomy transfer",
+  "reference_commit": "03c80dad937911572f8fb19903771a47956fc696",
+  "reference_animdata_sha256": "2f8c3de9f6bd3e08cad800bf6d114c58507b9b8b2cea248613c56a8f6f1a218f",
+  "review_status": "candidate-pending-parent-visual-review",
+  "actions": [
+    {
+      "name": "Walk",
+      "clip": "chr317_br01",
+      "seconds": 0.866667,
+      "sample_phases": [
+        0.0,
+        0.12499956730785873,
+        0.2500002884614275,
+        0.3749998557692863,
+        0.499999423077145,
+        0.6250001442307138,
+        0.7499997115385726,
+        0.8749992788464312
+      ],
+      "durations": [
+        7,
+        6,
+        7,
+        6,
+        7,
+        6,
+        7,
+        6
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Side audition confirms two squash/bounce cycles. Fixed contact preserves actual root lift; cyclic sampling omits duplicated endpoint."
+    },
+    {
+      "name": "Attack",
+      "clip": "chr317_ba02",
+      "seconds": 2,
+      "sample_phases": [
+        0.0,
+        0.15,
+        0.3,
+        0.425,
+        0.55,
+        0.675,
+        0.825,
+        0.975
+      ],
+      "durations": [
+        5,
+        5,
+        4,
+        3,
+        5,
+        4,
+        5,
+        6
+      ],
+      "ground_policy": "per-frame",
+      "pose_evidence": "Reviewed native side roll: compressed anticipation, rolling body impact near 1.1s, upright recovery. No hand strike.",
+      "events": {
+        "RushFrame": 2,
+        "HitFrame": 4,
+        "ReturnFrame": 6
+      }
+    },
+    {
+      "name": "Shoot",
+      "clip": "chr317_ba01",
+      "seconds": 1.333333,
+      "sample_phases": [
+        0.0,
+        0.15000003750000937,
+        0.30000007500001874,
+        0.4500001125000281,
+        0.6750001687500422,
+        0.9600002400000599
+      ],
+      "durations": [
+        6,
+        6,
+        4,
+        3,
+        5,
+        7
+      ],
+      "ground_policy": "per-frame",
+      "pose_evidence": "Native smaller forward lunge supplies a restrained body-pulse release gesture. NOT evidence of a source projectile or mouth mechanism. Procedural adaptation is retiming/contact stabilization; pinned Ditto Shoot delegates to body Charge. No projectile painted.",
+      "events": {
+        "RushFrame": 1,
+        "HitFrame": 3,
+        "ReturnFrame": 4
+      },
+      "root_motion_policy": "J_root local X/Z fixed at native clip t=0; native Y, rotation, scale and all child deformation retained. Engine logical travel is not baked into this sprite gesture."
+    },
+    {
+      "name": "Sleep",
+      "clip": "chr317_bn02",
+      "seconds": 3,
+      "sample_phases": [
+        0.09999999999999999,
+        0.5
+      ],
+      "durations": [
+        30,
+        35
+      ],
+      "ground_policy": "per-frame",
+      "pose_evidence": "Native low resting posture, source eyes stay open. Explicit source-eye mask closes the white eye to a dark lid; slow two-pose breathing adapted from pinned Ditto timing.",
+      "closed_eyes": true
+    },
+    {
+      "name": "Hurt",
+      "clip": "chr317_bd01",
+      "seconds": 1.333333,
+      "sample_phases": [
+        0.11250002812500702,
+        0.30000007500001874,
+        0.5625001406250351,
+        0.9375002343750585
+      ],
+      "durations": [
+        3,
+        7,
+        5,
+        5
+      ],
+      "ground_policy": "per-frame",
+      "pose_evidence": "Side audition shows whole-body recoil/tip then return. No invented limb response."
+    },
+    {
+      "name": "Swing",
+      "clip": "chr317_ba02",
+      "seconds": 2,
+      "sample_phases": [
+        0.0,
+        0.15,
+        0.3,
+        0.425,
+        0.55,
+        0.675,
+        0.825,
+        0.975
+      ],
+      "durations": [
+        4,
+        4,
+        3,
+        3,
+        5,
+        4,
+        4,
+        5
+      ],
+      "ground_policy": "per-frame",
+      "pose_evidence": "Same evidenced native roll, explicitly adapted to a whole-body lateral sweep using restrained yaw (-30 to +45 degrees); limb-free procedural interpretation, not a claimed native named Swing.",
+      "turn_degrees": [
+        0,
+        -15,
+        -30,
+        0,
+        45,
+        30,
+        15,
+        0
+      ],
+      "events": {
+        "RushFrame": 2,
+        "HitFrame": 4,
+        "ReturnFrame": 6
+      }
+    },
+    {
+      "name": "Double",
+      "clip": "chr317_ba01",
+      "seconds": 1.333333,
+      "sample_phases": [
+        0.0,
+        0.15000003750000937,
+        0.30000007500001874,
+        0.4500001125000281,
+        0.6750001687500422,
+        0.9600002400000599,
+        0.0,
+        0.15000003750000937,
+        0.30000007500001874,
+        0.4500001125000281,
+        0.6750001687500422,
+        0.9600002400000599
+      ],
+      "durations": [
+        4,
+        3,
+        2,
+        3,
+        3,
+        4,
+        3,
+        3,
+        2,
+        4,
+        4,
+        6
+      ],
+      "ground_policy": "per-frame",
+      "pose_evidence": "Two retimed native short body lunges, visible contacts at frames 3 and 9. Engine exposes one HitFrame (first contact); second contact recorded here, not fabricated gameplay damage.",
+      "events": {
+        "RushFrame": 1,
+        "HitFrame": 3,
+        "ReturnFrame": 10
+      },
+      "secondary_visual_contact_frame": 9,
+      "root_motion_policy": "J_root local X/Z fixed at native clip t=0; native Y, rotation, scale and all child deformation retained. Engine logical travel is not baked into this sprite gesture."
+    },
+    {
+      "name": "Hop",
+      "clip": "chr317_br01",
+      "seconds": 0.866667,
+      "sample_phases": [
+        0.0,
+        0.06923074260356053,
+        0.13846148520712107,
+        0.2076922278106816,
+        0.27692297041424213,
+        0.3461537130178027,
+        0.4153844556213632,
+        0.48461519822492377
+      ],
+      "durations": [
+        3,
+        2,
+        3,
+        4,
+        5,
+        4,
+        3,
+        4
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "One observed half-cycle bounce, unlike two-cycle Walk. Fixed baseline contact retains source airborne arc with extended apex timing.",
+      "events": {
+        "HitFrame": 7
+      }
+    },
+    {
+      "name": "Charge",
+      "clip": "chr317_fq02",
+      "seconds": 1.666667,
+      "sample_phases": [
+        0.049999790000042,
+        0.299999940000012,
+        0.5500000899999821,
+        0.7999996400000721,
+        0.049999790000042
+      ],
+      "durations": [
+        8,
+        7,
+        8,
+        7,
+        8
+      ],
+      "ground_policy": "per-frame",
+      "pose_evidence": "Audition shows native body/head gather and ear tilt; retimed as restrained charge-up, no invented energy effect. Interpretation uncertain until visual review; not semantic inference from clip suffix.",
+      "events": {
+        "HitFrame": 2,
+        "ReturnFrame": 4
+      }
+    },
+    {
+      "name": "Rotate",
+      "clip": "chr317_bn01",
+      "seconds": 1.666667,
+      "sample_phases": [
+        0.0,
+        0.124999775000045,
+        0.25000014999997,
+        0.374999925000015,
+        0.49999970000006,
+        0.625000074999985,
+        0.74999985000003,
+        0.8749996250000751,
+        0.0
+      ],
+      "durations": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "ground_policy": "per-frame",
+      "pose_evidence": "Explicit procedural full-body yaw over native neutral breathing; pinned Ditto rotation convention. Not a native rotation clip, and not an Idle copy.",
+      "turn_degrees": [
+        0,
+        45,
+        90,
+        135,
+        180,
+        225,
+        270,
+        315,
+        360
+      ],
+      "events": {
+        "HitFrame": 8
+      }
+    }
+  ]
+}

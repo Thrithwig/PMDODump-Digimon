@@ -1,0 +1,13 @@
+{
+  "species":"otamamon",
+  "jobs":[
+    {"clip":"chr582_bf01","time":0.16,"azimuth":315,"note":"phase 0.12 DownRight"},
+    {"clip":"chr582_bf01","time":0.16,"azimuth":270,"note":"phase 0.12 Right"},
+    {"clip":"chr582_bf01","time":0.16,"azimuth":135,"note":"phase 0.12 UpLeft"},
+    {"clip":"chr582_bf01","time":0.16,"azimuth":90,"note":"phase 0.12 Left"},
+    {"clip":"chr582_bf01","time":0.32,"azimuth":315,"note":"phase 0.24 DownRight"},
+    {"clip":"chr582_bf01","time":0.32,"azimuth":270,"note":"phase 0.24 Right"},
+    {"clip":"chr582_bf01","time":0.32,"azimuth":135,"note":"phase 0.24 UpLeft"},
+    {"clip":"chr582_bf01","time":0.32,"azimuth":90,"note":"phase 0.24 Left"}
+  ]
+}

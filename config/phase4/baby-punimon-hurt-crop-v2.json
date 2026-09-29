@@ -1,0 +1,13 @@
+{
+  "species": "punimon",
+  "action": "Hurt",
+  "source_candidate": "work/phase4/baby-production/punimon-actions/full-v1",
+  "frame_index": 2,
+  "directions": ["UpRight", "Up"],
+  "fixed_shadow_row": 57,
+  "operation": "Set only opaque pixels strictly below the fixed shadow row to transparent RGBA zero in these two cells.",
+  "expected_removed_pixels": {"UpRight": 4, "Up": 5},
+  "maximum_cutoff_rows": 2,
+  "authorization": "Explicit user correction of Punimon Hurt only. No crop of Attack/Physical Attack or any other action/frame; no new global crop policy.",
+  "preserve": ["approved Idle four-file source hashes", "Idle PNG bytes and XML element", "all other atlas pixels", "offsets", "shadow", "timing", "source render cache"]
+}

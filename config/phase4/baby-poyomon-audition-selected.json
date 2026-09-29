@@ -1,0 +1,11 @@
+{"species":"poyomon","jobs":[
+ {"clip":"chr320_bv01","time":0,"azimuth":0},{"clip":"chr320_bv01","time":0.35,"azimuth":0},
+ {"clip":"chr320_bv01","time":0.7,"azimuth":0},{"clip":"chr320_bv01","time":1.05,"azimuth":0},
+ {"clip":"chr320_bv01","time":1.4,"azimuth":0},{"clip":"chr320_bv01","time":1.75,"azimuth":0},
+ {"clip":"chr320_bv01","time":2.1,"azimuth":0},{"clip":"chr320_bv01","time":2.45,"azimuth":0},
+ {"clip":"chr320_bv01","time":2.8,"azimuth":0},{"clip":"chr320_bv01","time":3.15,"azimuth":0},
+ {"clip":"chr320_bv01","time":3.6,"azimuth":0},
+ {"clip":"chr320_ba01","time":0.75,"azimuth":0},{"clip":"chr320_ba02","time":1.0,"azimuth":0},
+ {"clip":"chr320_fe03","time":0.9,"azimuth":0},{"clip":"chr320_bn02","time":0,"azimuth":0},
+ {"clip":"chr320_bn02","time":1.666667,"azimuth":0}
+]}

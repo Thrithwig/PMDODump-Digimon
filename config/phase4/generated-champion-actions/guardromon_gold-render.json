@@ -1,0 +1,109 @@
+{
+  "species": "guardromon_gold",
+  "display_name": "Guardromon (Gold)",
+  "source_chr_id": "chr760",
+  "model_path": "work/phase4/champion-production/guardromon-gold-idle-candidate/guardromon-gold.glb",
+  "pmdo_index": 10080,
+  "idle_clip": "chr341_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0,
+    0.4,
+    0.8,
+    1.2
+  ],
+  "idle_duration_ticks": 24,
+  "approved_neutral_height": 27,
+  "neutral_frame": 0,
+  "frame_size": 96,
+  "render_size": 768,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1
+  },
+  "idle_ground_policy": "fixed",
+  "ground_contact_row": 76,
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "source_eye_masks": true,
+    "head_bones": [
+      "J_mune"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.06,
+    "fixed_framing": {
+      "center": [
+        0,
+        0.92,
+        0
+      ],
+      "extent": 3.3
+    },
+    "offset_bones": {
+      "head": {
+        "bone": "J_mune",
+        "local_point": [
+          0,
+          0.55,
+          0
+        ]
+      },
+      "center": "J_center",
+      "left_hand": "J_te_L",
+      "right_hand": "J_te_R"
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.7916666667
+    ]
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 45
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 225
+    }
+  ],
+  "anatomy_notes": {
+    "source": "Direct chr760 Gold mesh and materials. Extractor bundles shared chr341_bn01 native clip onto its identical 24-bone rig; no normal-model visual fallback.",
+    "orientation": "Source eye side faces the camera at azimuth 180. Add 180 degrees to canonical PMDO azimuths so Down is facial/front and Right/Left face their named screen direction.",
+    "silhouette": "Preserve cylindrical armor body, head, paired arms, hands, legs and feet.",
+    "eyes": "Use source eye_L and eye_R meshes and native layer masks; no palette recolor or invented eyes.",
+    "ground": "Grounded biped with a fixed shadow; verify foot contact and keep pose lift if present."
+  }
+}

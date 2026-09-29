@@ -1,0 +1,19 @@
+{
+  "species":"biyomon","model_path":"work/phase4/source/biyomon.glb",
+  "approved_idle":"work/phase4/rookie-production/biyomon-idle-v3/package/10050",
+  "palette_policy":"approved-idle","mouth_palette":false,"mouth_colors":[],"open_mouth_actions":[],
+  "palette_rationale":"Keep corrected 61-color 22px Idle; one source-visible lower eye-edge pixel is added to open action cells, retaining blue centers and exact black.",
+  "reference":"Own chr307 skeleton, separate eye meshes and native clips; no unrelated species pose is transplanted.",
+  "actions":[
+    {"name":"Walk","clip":"chr307_br01","seconds":0.800000051,"sample_phases":[0,0.125,0.25,0.375,0.5,0.625,0.75,0.875],"durations":[6,6,6,6,6,6,6,6],"ground_policy":"fixed","pose_evidence":"Native alternating wing and leg gait; loop endpoint excluded."},
+    {"name":"Attack","clip":"chr307_ba01","seconds":1.366666754,"sample_phases":[0,0.1,0.2,0.35,0.5,0.65,0.8,0.97],"durations":[4,4,5,5,6,5,4,5],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":6},"pose_evidence":"Native forward peck/contact and recovery, side contact auditioned."},
+    {"name":"Shoot","clip":"chr307_fe01","seconds":1.666666773,"sample_phases":[0,0.12,0.25,0.38,0.52,0.68,0.83,0.97],"durations":[4,5,5,6,6,5,5,6],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":6},"pose_evidence":"Native wing/chest special release; no invented projectile."},
+    {"name":"Sleep","clip":"chr307_bn02","seconds":3.333333545,"sample_phases":[0,0.125,0.25,0.375,0.5,0.625,0.75,0.875],"durations":[25,25,25,25,25,25,25,25],"ground_policy":"fixed","closed_eyes":true,"pose_evidence":"Native bn02 breathing/wing pose. Expression needs visual check at native resolution."},
+    {"name":"Hurt","clip":"chr307_bd01","seconds":1.100000070,"sample_phases":[0,0.08,0.18,0.3,0.45,0.6,0.78,0.97],"durations":[4,4,5,5,5,4,4,5],"ground_policy":"fixed","events":{"HitFrame":2},"pose_evidence":"Native side recoil with foot and wing response."},
+    {"name":"Swing","clip":"chr307_bg01","seconds":0.800000051,"sample_phases":[0,0.12,0.25,0.38,0.5,0.62,0.75,0.9],"durations":[4,4,5,5,5,5,4,5],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":6},"pose_evidence":"Native wing sweep; no invented held weapon."},
+    {"name":"Double","clip":"chr307_ba01","seconds":1.366666754,"sample_phases":[0,0.2,0.5,0.8,0,0.2,0.5,0.8],"durations":[4,5,6,5,4,5,6,6],"ground_policy":"fixed","events":{"RushFrame":1,"HitFrame":2,"ReturnFrame":7},"pose_evidence":"Two native peck cycles; one PMDO HitFrame limitation."},
+    {"name":"Hop","clip":"chr307_ba02","seconds":2.000000127,"sample_phases":[0,0.08,0.18,0.3,0.45,0.6,0.77,0.97],"durations":[5,5,6,7,7,6,5,6],"ground_policy":"fixed","events":{"HitFrame":4},"pose_evidence":"Native ba02 wing-up leap distinct from ba01 forward peck."},
+    {"name":"Charge","clip":"chr307_bv01","seconds":2.333333482,"sample_phases":[0,0.12,0.25,0.38,0.5,0.62,0.78,0.96],"durations":[5,5,6,6,7,6,5,6],"ground_policy":"fixed","events":{"HitFrame":5,"ReturnFrame":7},"pose_evidence":"Native chest/wing build and release."},
+    {"name":"Rotate","clip":"chr307_fq01","seconds":1.666666773,"sample_phases":[0,0.0833333,0.1666667,0.25,0.3333333,0.4166667,0.5,0.5833333,0.6666667,0.75,0.8333333,0.9166667],"durations":[4,4,4,4,4,4,4,4,4,4,4,4],"ground_policy":"fixed","turn_degrees":[0,30,60,90,120,150,180,210,240,270,300,330],"events":{"HitFrame":6},"pose_evidence":"Source fq01 looking pose with a controlled whole-view turn; loop endpoint excluded."}
+  ]
+}

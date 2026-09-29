@@ -1,0 +1,36 @@
+{
+  "species":"pabumon", "display_name":"Pabumon", "source_chr_id":"chr387",
+  "model_path":"work/phase4/source/pabumon.glb", "pmdo_index":10002,
+  "idle_clip":"chr387_bn01", "idle_frames":4,
+  "frame_times":[0,0.8333333333333334,1.6666666666666667,2.5], "idle_duration_ticks":50,
+  "approved_neutral_height":19, "neutral_frame":0,
+  "frame_size":32, "render_size":256, "minimum_edge_margin":2,
+  "palette_size":63, "alpha_cutoff":128,
+  "outline":{"enabled":true,"depth_threshold":1,"normal_dot_threshold":-1},
+  "ground_contact_row":25, "idle_ground_policy":"fixed",
+  "renderer":{
+    "eye_mode":"source", "head_bones":["J_body2","J_body3","J_body4","J_mouth1","J_mouth2"],
+    "emissive_intensity":0.55, "elevation":0.08,
+    "fixed_framing":{"center":[0,0.4,0.08],"extent":0.72},
+    "offset_bones":{
+      "head":{"bone":"J_body2","local_point":[0.09065,0,0.1984]},
+      "center":"J_body2", "left_hand":"J_legL1", "right_hand":"J_legR1"
+    }
+  },
+  "offsets":{"source":"projected-native-bones-v1","shadow":[0.5,0.8]},
+  "anatomy_notes":{
+    "source":"chr387 GLB exported by existing dsts-extractor0.9.0; PMDO10002 verified in local installed manifest, no installed asset writes.",
+    "eyes":"Actual eye_L and eye_R source meshes/textures retained, no procedural pupils or Agumon face masks.",
+    "head":"Source eye pair bind midpoint approximately [0,0.257795,0.198399]; J_body2 bind world [0,0.167143,0] with90degZ rotation gives local [0.09065,0,0.1984].",
+    "hand_slots":"PMDO hand slots use native front-side ground appendage anchors J_legL1(+X) and J_legR1(-X), not invented arms; anatomical left appears screen-right from front.",
+    "ground":"Native Idle J_root fixed [0,0.07,0.1773]. Lateral ground appendage tracks retainY0 while body rotates; floating J_float1..4 bead translation/scale preserved. One placement shift per direction established from neutral ground outline, never per-frame bead/body fitting.",
+    "motion":"bn01 native3.333333s cycle; four quarter-cycle samples,50ticks each. Root stationary, body sway and separately bobbing beads. Float scale tracks end slightly before translation endpoint; retain source interpolation and document native loop seam.",
+    "pending":"Neutral Down source probe measures19px total visible height including beads at fixedextent0.72. Native white eye highlights are small against the pale body: parent readability gate required. Other113 actions remain explicit Idle placeholders."
+  },
+  "directions":[
+    {"name":"Down","azimuth_degrees":0},{"name":"DownRight","azimuth_degrees":315},
+    {"name":"Right","azimuth_degrees":270},{"name":"UpRight","azimuth_degrees":225},
+    {"name":"Up","azimuth_degrees":180},{"name":"UpLeft","azimuth_degrees":135},
+    {"name":"Left","azimuth_degrees":90},{"name":"DownLeft","azimuth_degrees":45}
+  ]
+}

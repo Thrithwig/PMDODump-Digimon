@@ -1,0 +1,31 @@
+{
+  "species":"hagurumon","display_name":"Hagurumon","source_chr_id":"chr009",
+  "model_path":"work/phase4/rookie-production/hagurumon-preflight/hagurumon.glb","pmdo_index":10045,
+  "idle_clip":"chr009_bn01","idle_frames":4,"frame_times":[0,0.666667,1.333333,2.0],
+  "idle_duration_ticks":40,"approved_neutral_height":24,"neutral_frame":0,
+  "frame_size":64,"render_size":512,"minimum_edge_margin":2,"palette_size":64,
+  "alpha_cutoff":128,"outline":{"enabled":true,"depth_threshold":1,"normal_dot_threshold":-1},
+  "placement":{"mode":"airborne","shadow_row":50,"minimum_gap":4,"fixed_vertical_shift":2},
+  "renderer":{
+    "eye_mode":"source","native_eye_layers":true,"source_eye_masks":true,
+    "head_bones":["J_center"],"emissive_intensity":0.55,"elevation":0.08,
+    "fixed_framing":{"center":[0,1.0,-0.02],"extent":2.35},
+    "offset_bones":{
+      "head":{"bone":"J_center","local_point":[0,0.15,-0.4]},
+      "center":"J_center","left_hand":"J_joint_F","right_hand":"J_joint_E"
+    }
+  },
+  "offsets":{"source":"projected-native-bones-v1","shadow":[0.5,0.8]},
+  "directions":[
+    {"name":"Down","azimuth_degrees":0},{"name":"DownRight","azimuth_degrees":315},
+    {"name":"Right","azimuth_degrees":270},{"name":"UpRight","azimuth_degrees":225},
+    {"name":"Up","azimuth_degrees":180},{"name":"UpLeft","azimuth_degrees":135},
+    {"name":"Left","azimuth_degrees":90},{"name":"DownLeft","azimuth_degrees":45}
+  ],
+  "anatomy_notes":{
+    "source":"Own chr009 gear body, native clips, two side gear joints and source eye meshes.",
+    "eyes":"Dark face with source eyes; preserve existing source eye colors and depth, no painted pupil or eyelid.",
+    "markers":"J_center body point and native J_joint_F/J_joint_E side-gear pivots substitute for hand slots.",
+    "ground":"Intentional hovering, no feet; approved Idle uses one +2 px transform over fixed shadow row 50, leaving 4–6 px clearance."
+  }
+}

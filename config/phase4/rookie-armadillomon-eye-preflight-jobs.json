@@ -1,0 +1,7 @@
+{
+  "species": "armadillomon",
+  "jobs": [
+    {"clip": "chr707_bn01", "time": 0, "azimuth": 0},
+    {"clip": "chr707_bn01", "time": 0, "azimuth": 90}
+  ]
+}

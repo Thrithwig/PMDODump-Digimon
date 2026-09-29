@@ -1,0 +1,316 @@
+{
+  "species": "kuramon",
+  "model_path": "work/phase4/source/kuramon.glb",
+  "approved_idle": "work/phase4/baby-production/kuramon-idle-v1/package/10001",
+  "palette_policy": "approved-idle",
+  "mouth_palette": false,
+  "mouth_colors": [],
+  "open_mouth_actions": [],
+  "reference": "RawAsset Sprite/0201 Unown: one-eyed airborne body; timing, Sleep and Shoot/Charge convention only, no anatomy transfer",
+  "reference_commit": "03c80dad937911572f8fb19903771a47956fc696",
+  "reference_animdata_sha256": "e54bce4ef822a653abc91580449854fc2d5de5c6d8533991cfed6f086a79d6c0",
+  "actions": [
+    {
+      "name": "Walk",
+      "clip": "chr629_br01",
+      "seconds": 1.066667,
+      "sample_phases": [
+        0.0,
+        0.12499964843760987,
+        0.25000023437492674,
+        0.37499988281253666,
+        0.4999995312501464,
+        0.6250001171874634,
+        0.7499997656250733,
+        0.874999414062683
+      ],
+      "durations": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Audition confirms cyclic airborne advance/bob with radial body tilt; no walking feet invented. Full native loop, endpoint excluded."
+    },
+    {
+      "name": "Attack",
+      "clip": "chr629_ba01",
+      "seconds": 1.133333,
+      "sample_phases": [
+        0.0,
+        0.10588238408305414,
+        0.22058830017302947,
+        0.3529412802768472,
+        0.4941177923875861,
+        0.6352943044983249,
+        0.7941178806229061,
+        0.9705885207613297
+      ],
+      "durations": [
+        4,
+        4,
+        3,
+        4,
+        4,
+        3,
+        4,
+        5
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Front/side audition: anticipation, body/radial-point jab or whip at .25-.56s, recovery. Root XZ stabilized at native t0; Y/deformation retained.",
+      "events": {
+        "RushFrame": 2,
+        "HitFrame": 3,
+        "ReturnFrame": 6
+      }
+    },
+    {
+      "name": "Shoot",
+      "clip": "chr629_fq01",
+      "seconds": 2,
+      "sample_phases": [
+        0.0,
+        0.05,
+        0.25,
+        0.45,
+        0.7,
+        0.95
+      ],
+      "durations": [
+        5,
+        5,
+        4,
+        3,
+        4,
+        6
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Native small forward body/eye tilt and release, retimed as restrained special gesture. No verified source beam/projectile mechanism. Pinned one-eyed airborne Unown Shoot copies body Charge; this is a documented body-release interpretation, not claimed native projectile ejection.",
+      "events": {
+        "RushFrame": 1,
+        "HitFrame": 3,
+        "ReturnFrame": 4
+      }
+    },
+    {
+      "name": "Sleep",
+      "clip": "chr629_bn02",
+      "seconds": 4,
+      "sample_phases": [
+        0.05,
+        0.3,
+        0.55,
+        0.8
+      ],
+      "durations": [
+        35,
+        5,
+        35,
+        5
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Native low calm bob, native eye stays open. Single visible eye mask is filled lilac with horizontal dark lid; native dark surrounding ring remains. Four-pose slow/transition timing follows pinned Unown Sleep [30,4,35,4] convention.",
+      "closed_eyes": true
+    },
+    {
+      "name": "Hurt",
+      "clip": "chr629_bd01",
+      "seconds": 1,
+      "sample_phases": [
+        0.05,
+        0.3,
+        0.55,
+        0.8
+      ],
+      "durations": [
+        3,
+        7,
+        5,
+        5
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Native body tips/rolls back in impact recoil then recovers. Root XZ stabilization removes gameplay travel; no limbs added."
+    },
+    {
+      "name": "Swing",
+      "clip": "chr629_ba01",
+      "seconds": 1.133333,
+      "sample_phases": [
+        0.0,
+        0.10588238408305414,
+        0.22058830017302947,
+        0.3529412802768472,
+        0.4941177923875861,
+        0.6352943044983249,
+        0.7941178806229061,
+        0.9705885207613297
+      ],
+      "durations": [
+        4,
+        3,
+        3,
+        4,
+        5,
+        3,
+        4,
+        5
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Native radial body jab with explicitly procedural yaw sweep; point-bearing body performs lateral contact, not a humanoid hand strike.",
+      "turn_degrees": [
+        0,
+        -15,
+        -35,
+        -10,
+        40,
+        30,
+        15,
+        0
+      ],
+      "events": {
+        "RushFrame": 2,
+        "HitFrame": 4,
+        "ReturnFrame": 6
+      }
+    },
+    {
+      "name": "Double",
+      "clip": "chr629_ba01",
+      "seconds": 1.133333,
+      "sample_phases": [
+        0.0,
+        0.22058830017302947,
+        0.3529412802768472,
+        0.4941177923875861,
+        0.7941178806229061,
+        0.9705885207613297,
+        0.0,
+        0.22058830017302947,
+        0.3529412802768472,
+        0.4941177923875861,
+        0.7941178806229061,
+        0.9705885207613297
+      ],
+      "durations": [
+        4,
+        3,
+        3,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        4,
+        6
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Two retimed native radial-body contacts. Visual contacts at frames2/8; one engine HitFrame names the first only, not an added second gameplay damage event.",
+      "events": {
+        "RushFrame": 1,
+        "HitFrame": 2,
+        "ReturnFrame": 10
+      },
+      "secondary_visual_contact_frame": 8
+    },
+    {
+      "name": "Hop",
+      "clip": "chr629_ba02",
+      "seconds": 1.833333,
+      "sample_phases": [
+        0.0,
+        0.08181819669421757,
+        0.16363639338843514,
+        0.30000005454546447,
+        0.43636371570249377,
+        0.572727376859523,
+        0.7090910380165524,
+        0.8454546991735816,
+        0.981818360330611
+      ],
+      "durations": [
+        4,
+        3,
+        4,
+        5,
+        5,
+        4,
+        4,
+        3,
+        4
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Front/side audition shows a real airborne somersault rise, large arc and native return to baseline height by1.8s. Fixed shadow and source Y retained. Not a vertically shifted Idle.",
+      "events": {
+        "HitFrame": 8
+      }
+    },
+    {
+      "name": "Charge",
+      "clip": "chr629_fe01",
+      "seconds": 2.333333,
+      "sample_phases": [
+        0.0,
+        0.05000015000002143,
+        0.30000004285714893,
+        0.5499999357142765,
+        0.8000002571428939,
+        0.9857144265306322
+      ],
+      "durations": [
+        6,
+        7,
+        8,
+        8,
+        7,
+        6
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Native gather/lean and body-facing adjustment selected from side audition. Interpreted charge buildup, no fabricated energy effect; subtle at18px.",
+      "events": {
+        "HitFrame": 3,
+        "ReturnFrame": 5
+      }
+    },
+    {
+      "name": "Rotate",
+      "clip": "chr629_fe02",
+      "seconds": 3,
+      "sample_phases": [
+        0.0,
+        0.09999999999999999,
+        0.19999999999999998,
+        0.3,
+        0.39999999999999997,
+        0.5,
+        0.6,
+        0.7000000000000001,
+        0.7999999999999999,
+        0.9
+      ],
+      "durations": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "ground_policy": "fixed",
+      "pose_evidence": "Native complete body yaw turn verified by front and side views: eye visible, side-occluded, rear-occluded, then front again. No camera rotation or invented native spin label; sample full3s clip excluding duplicated endpoint.",
+      "events": {
+        "HitFrame": 9
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{"species":"ryudamon","jobs":[
+  {"clip":"chr190_bn02","time":0.08,"azimuth":0,"note":"Sleep start"},{"clip":"chr190_bn02","time":0.62,"azimuth":0,"note":"Sleep settle"},{"clip":"chr190_bn02","time":1.25,"azimuth":0,"note":"Sleep loop"},{"clip":"chr190_bn02","time":1.9,"azimuth":0,"note":"Sleep late"},
+  {"clip":"chr190_bd01","time":0.05,"azimuth":0,"note":"Hurt start"},{"clip":"chr190_bd01","time":0.2,"azimuth":0,"note":"Hurt recoil"},{"clip":"chr190_bd01","time":0.38,"azimuth":0,"note":"Hurt apex"},{"clip":"chr190_bd01","time":0.6,"azimuth":0,"note":"Hurt recovery"},
+  {"clip":"chr190_bf01","time":0.06,"azimuth":0,"note":"Hop start"},{"clip":"chr190_bf01","time":0.38,"azimuth":0,"note":"Hop launch"},{"clip":"chr190_bf01","time":0.76,"azimuth":0,"note":"Hop apex"},{"clip":"chr190_bf01","time":1.38,"azimuth":0,"note":"Hop landing"},
+  {"clip":"chr190_bv01","time":0.06,"azimuth":0,"note":"Charge start"},{"clip":"chr190_bv01","time":0.55,"azimuth":0,"note":"Charge gather"},{"clip":"chr190_bv01","time":1.1,"azimuth":0,"note":"Charge peak"},{"clip":"chr190_bv01","time":1.9,"azimuth":0,"note":"Charge recovery"}
+]}

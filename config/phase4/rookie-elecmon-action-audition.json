@@ -1,0 +1,21 @@
+{
+  "species": "elecmon",
+  "jobs": [
+    {"clip":"chr564_br01","time":0.30,"azimuth":0,"note":"walk midpoint"},
+    {"clip":"chr564_ba01","time":0.85,"azimuth":0,"note":"attack strike"},
+    {"clip":"chr564_ba02","time":0.90,"azimuth":0,"note":"alternate attack"},
+    {"clip":"chr564_bf01","time":0.90,"azimuth":0,"note":"hop candidate"},
+    {"clip":"chr564_bg01","time":0.42,"azimuth":0,"note":"swing alternate one"},
+    {"clip":"chr564_bg02","time":0.42,"azimuth":0,"note":"swing alternate two"},
+    {"clip":"chr564_bs01","time":0.90,"azimuth":0,"note":"swing pose"},
+    {"clip":"chr564_bn02","time":1.50,"azimuth":0,"note":"sleep pose"},
+    {"clip":"chr564_bd01","time":0.42,"azimuth":0,"note":"hurt recoil"},
+    {"clip":"chr564_bv01","time":1.05,"azimuth":0,"note":"charge pose"},
+    {"clip":"chr564_fe01","time":0.95,"azimuth":0,"note":"special pose one"},
+    {"clip":"chr564_fe04","time":0.95,"azimuth":0,"note":"special pose four"},
+    {"clip":"chr564_fq01","time":0.95,"azimuth":0,"note":"rotation source"},
+    {"clip":"chr564_ba01","time":0.85,"azimuth":90,"note":"attack side"},
+    {"clip":"chr564_bf01","time":0.90,"azimuth":90,"note":"hop side"},
+    {"clip":"chr564_bn02","time":1.50,"azimuth":90,"note":"sleep side"}
+  ]
+}

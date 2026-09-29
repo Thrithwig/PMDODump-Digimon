@@ -1,0 +1,6 @@
+{"species":"poyomon","jobs":[
+ {"clip":"chr320_bi01","time":0,"azimuth":90},{"clip":"chr320_bi01","time":0.35,"azimuth":90},
+ {"clip":"chr320_bi01","time":0.7,"azimuth":90},{"clip":"chr320_bi01","time":1.0,"azimuth":90},
+ {"clip":"chr320_bi01","time":1.2,"azimuth":90},{"clip":"chr320_bi01","time":1.99,"azimuth":90},
+ {"clip":"chr320_bi01","time":0.7,"azimuth":0},{"clip":"chr320_bi01","time":1.2,"azimuth":0}
+]}

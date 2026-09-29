@@ -1,0 +1,7 @@
+{
+  "species":"dracmon",
+  "jobs":[
+    {"clip":"chr457_bn01","time":0,"azimuth":0},
+    {"clip":"chr457_bn01","time":0,"azimuth":90}
+  ]
+}

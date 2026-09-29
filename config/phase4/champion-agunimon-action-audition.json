@@ -1,0 +1,18 @@
+{"species":"agunimon","jobs":[
+  {"clip":"chr676_br01","time":0.3,"azimuth":0,"note":"Walk front"},
+  {"clip":"chr676_br01","time":0.5,"azimuth":270,"note":"Walk side"},
+  {"clip":"chr676_ba01","time":0.67,"azimuth":0,"note":"Attack ba01"},
+  {"clip":"chr676_ba01","time":0.67,"azimuth":270,"note":"Attack ba01 side"},
+  {"clip":"chr676_ba02","time":1.75,"azimuth":0,"note":"Attack ba02"},
+  {"clip":"chr676_fe01","time":1.33,"azimuth":0,"note":"Shoot fe01"},
+  {"clip":"chr676_fe02","time":1.16,"azimuth":0,"note":"Shoot fe02"},
+  {"clip":"chr676_fe04","time":1.75,"azimuth":0,"note":"Shoot fe04"},
+  {"clip":"chr676_bn02","time":1.53,"azimuth":0,"note":"Sleep front"},
+  {"clip":"chr676_bn02","time":1.53,"azimuth":270,"note":"Sleep side"},
+  {"clip":"chr676_bd01","time":0.56,"azimuth":0,"note":"Hurt"},
+  {"clip":"chr676_bs01","time":2.06,"azimuth":0,"note":"Swing"},
+  {"clip":"chr676_bs01","time":2.06,"azimuth":270,"note":"Swing side"},
+  {"clip":"chr676_bf01","time":0.67,"azimuth":0,"note":"Hop"},
+  {"clip":"chr676_bv01","time":1.26,"azimuth":0,"note":"Charge"},
+  {"clip":"chr676_fq01","time":1.0,"azimuth":0,"note":"Rotate"}
+]}

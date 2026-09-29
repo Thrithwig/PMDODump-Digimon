@@ -1,0 +1,21 @@
+{
+  "species":"keramon",
+  "jobs":[
+    {"clip":"chr626_ba02","time":0.15,"azimuth":0,"note":"Attack startup"},
+    {"clip":"chr626_ba02","time":0.4,"azimuth":0,"note":"Attack windup"},
+    {"clip":"chr626_ba02","time":0.75,"azimuth":0,"note":"Attack contact"},
+    {"clip":"chr626_ba02","time":1.2,"azimuth":0,"note":"Attack recovery"},
+    {"clip":"chr626_ba02","time":0.75,"azimuth":270,"note":"Attack side"},
+    {"clip":"chr626_bf01","time":0.15,"azimuth":0,"note":"Hop startup"},
+    {"clip":"chr626_bf01","time":0.4,"azimuth":0,"note":"Hop launch"},
+    {"clip":"chr626_bf01","time":0.7,"azimuth":0,"note":"Hop inverted"},
+    {"clip":"chr626_bf01","time":1.0,"azimuth":0,"note":"Hop descent"},
+    {"clip":"chr626_bf01","time":1.4,"azimuth":0,"note":"Hop recovery"},
+    {"clip":"chr626_fe02","time":0.5,"azimuth":0,"note":"Shoot prep"},
+    {"clip":"chr626_fe02","time":1.4,"azimuth":0,"note":"Shoot mouth/arms"},
+    {"clip":"chr626_fe02","time":2.2,"azimuth":0,"note":"Shoot release"},
+    {"clip":"chr626_fe02","time":3.3,"azimuth":0,"note":"Shoot recovery"},
+    {"clip":"chr626_bs01","time":0.45,"azimuth":0,"note":"Swing early"},
+    {"clip":"chr626_bs01","time":1.65,"azimuth":0,"note":"Swing late"}
+  ]
+}

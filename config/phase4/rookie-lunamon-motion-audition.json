@@ -1,0 +1,20 @@
+{
+  "species":"lunamon",
+  "jobs":[
+    {"clip":"chr002_ba02","time":0.3,"azimuth":0,"note":"Attack early"},
+    {"clip":"chr002_ba02","time":0.8,"azimuth":0,"note":"Attack windup"},
+    {"clip":"chr002_ba02","time":1.6,"azimuth":0,"note":"Attack contact"},
+    {"clip":"chr002_ba02","time":2.4,"azimuth":0,"note":"Attack recover"},
+    {"clip":"chr002_bs01","time":0.4,"azimuth":0,"note":"Swing early"},
+    {"clip":"chr002_bs01","time":1.0,"azimuth":0,"note":"Swing windup"},
+    {"clip":"chr002_bs01","time":2.0,"azimuth":0,"note":"Swing contact"},
+    {"clip":"chr002_bs01","time":3.2,"azimuth":0,"note":"Swing recover"},
+    {"clip":"chr002_bf01","time":0.2,"azimuth":0,"note":"Hop early"},
+    {"clip":"chr002_bf01","time":0.5,"azimuth":0,"note":"Hop rise"},
+    {"clip":"chr002_bf01","time":1.0,"azimuth":0,"note":"Hop apex"},
+    {"clip":"chr002_bf01","time":1.4,"azimuth":0,"note":"Hop landing"},
+    {"clip":"chr002_fe01","time":0.3,"azimuth":0,"note":"Shoot early"},
+    {"clip":"chr002_fe01","time":1.2,"azimuth":0,"note":"Shoot release"},
+    {"clip":"chr002_bn02","time":1.0,"azimuth":270,"note":"Sleep side"}
+  ]
+}

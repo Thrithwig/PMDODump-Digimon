@@ -1,0 +1,10 @@
+{"species":"veemon","jobs":[
+  {"clip":"chr114_br01","time":0.2,"azimuth":0,"note":"Walk front"},{"clip":"chr114_br01","time":0.4,"azimuth":270,"note":"Walk side"},
+  {"clip":"chr114_ba01","time":0.9,"azimuth":0,"note":"Attack ba01"},{"clip":"chr114_ba01","time":0.9,"azimuth":270,"note":"Attack ba01 side"},
+  {"clip":"chr114_ba02","time":1.0,"azimuth":0,"note":"Attack ba02"},
+  {"clip":"chr114_fe01","time":1.05,"azimuth":0,"note":"Shoot fe01"},{"clip":"chr114_fe02","time":1.0,"azimuth":0,"note":"Shoot fe02"},
+  {"clip":"chr114_fe03","time":1.5,"azimuth":0,"note":"Shoot fe03"},{"clip":"chr114_fe04","time":0.53,"azimuth":0,"note":"Shoot fe04"},
+  {"clip":"chr114_bn02","time":1.5,"azimuth":0,"note":"Sleep front"},{"clip":"chr114_bn02","time":1.5,"azimuth":270,"note":"Sleep side"},
+  {"clip":"chr114_bd01","time":0.45,"azimuth":0,"note":"Hurt"},{"clip":"chr114_bs01","time":1.16,"azimuth":0,"note":"Swing"},
+  {"clip":"chr114_bf01","time":0.93,"azimuth":0,"note":"Hop"},{"clip":"chr114_bv01","time":1.5,"azimuth":0,"note":"Charge"},{"clip":"chr114_fq01","time":0.7,"azimuth":0,"note":"Rotate"}
+]}

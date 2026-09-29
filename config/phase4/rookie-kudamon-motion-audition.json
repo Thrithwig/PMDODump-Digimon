@@ -1,0 +1,21 @@
+{
+  "species":"kudamon",
+  "jobs":[
+    {"clip":"chr053_ba01","time":0.12,"azimuth":0,"note":"Attack ba01 startup"},
+    {"clip":"chr053_ba01","time":0.28,"azimuth":0,"note":"Attack ba01 launch"},
+    {"clip":"chr053_ba01","time":0.45,"azimuth":0,"note":"Attack ba01 contact"},
+    {"clip":"chr053_ba01","time":0.75,"azimuth":0,"note":"Attack ba01 recovery"},
+    {"clip":"chr053_ba02","time":0.2,"azimuth":0,"note":"Attack ba02 startup"},
+    {"clip":"chr053_ba02","time":0.55,"azimuth":0,"note":"Attack ba02 sweep"},
+    {"clip":"chr053_ba02","time":1.2,"azimuth":0,"note":"Attack ba02 recovery"},
+    {"clip":"chr053_bf01","time":0.14,"azimuth":0,"note":"Hop startup"},
+    {"clip":"chr053_bf01","time":0.35,"azimuth":0,"note":"Hop lift"},
+    {"clip":"chr053_bf01","time":0.58,"azimuth":0,"note":"Hop apex"},
+    {"clip":"chr053_bf01","time":0.85,"azimuth":0,"note":"Hop descent"},
+    {"clip":"chr053_bf01","time":1.05,"azimuth":0,"note":"Hop recovery"},
+    {"clip":"chr053_fe01","time":0.45,"azimuth":0,"note":"Shoot prep"},
+    {"clip":"chr053_fe01","time":1.2,"azimuth":0,"note":"Shoot release"},
+    {"clip":"chr053_fe01","time":2.2,"azimuth":0,"note":"Shoot later"},
+    {"clip":"chr053_bs01","time":0.5,"azimuth":0,"note":"Swing startup"}
+  ]
+}

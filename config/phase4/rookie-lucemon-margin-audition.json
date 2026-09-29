@@ -1,0 +1,15 @@
+{
+  "species":"lucemon",
+  "jobs":[
+    {"clip":"chr390_ba01","time":1.05,"azimuth":315,"note":"Attack diagonal 1.05"},
+    {"clip":"chr390_ba01","time":1.05,"azimuth":135,"note":"Attack opposite 1.05"},
+    {"clip":"chr390_ba01","time":1.10,"azimuth":315,"note":"Attack diagonal 1.10"},
+    {"clip":"chr390_ba01","time":1.10,"azimuth":135,"note":"Attack opposite 1.10"},
+    {"clip":"chr390_bf01","time":0.65,"azimuth":315,"note":"Hop diagonal 0.65"},
+    {"clip":"chr390_bf01","time":0.65,"azimuth":135,"note":"Hop opposite 0.65"},
+    {"clip":"chr390_bf01","time":1.20,"azimuth":315,"note":"Hop diagonal 1.20"},
+    {"clip":"chr390_bf01","time":1.20,"azimuth":135,"note":"Hop opposite 1.20"},
+    {"clip":"chr390_bf01","time":1.27,"azimuth":315,"note":"Hop diagonal 1.27"},
+    {"clip":"chr390_bf01","time":1.27,"azimuth":135,"note":"Hop opposite 1.27"}
+  ]
+}

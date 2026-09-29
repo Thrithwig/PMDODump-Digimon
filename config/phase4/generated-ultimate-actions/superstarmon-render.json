@@ -1,0 +1,101 @@
+{
+  "species": "superstarmon",
+  "display_name": "SuperStarmon",
+  "source_chr_id": "chr079",
+  "model_path": "work/phase4/model-exports/superstarmon.glb",
+  "pmdo_index": 10167,
+  "idle_clip": "chr079_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0.0,
+    0.6250000397364324,
+    1.2500000794728647,
+    1.875000119209297
+  ],
+  "idle_duration_ticks": 38,
+  "approved_neutral_height": 41,
+  "neutral_frame": 0,
+  "frame_size": 96,
+  "render_size": 768,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1
+  },
+  "idle_ground_policy": "fixed",
+  "ground_contact_row": 78,
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "source_eye_masks": true,
+    "head_bones": [
+      "body"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.08,
+    "fixed_framing": {
+      "center": [
+        0,
+        1.5775,
+        0
+      ],
+      "extent": 4.58362
+    },
+    "offset_bones": {
+      "head": "body",
+      "center": "mass",
+      "left_hand": "L_hand",
+      "right_hand": "R_hand"
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.8125
+    ]
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ],
+  "anatomy_notes": {
+    "source": "Direct Time Stranger chr079; native chr079_bn01 loop sampled endpoint-exclusively.",
+    "face": "Preserve source eye meshes, texture anatomy, and material layers; no speculative repaint.",
+    "silhouette": "Preserve complete source anatomy and review the native-size contact sheet before approval.",
+    "ground": "Fixed PMDO shadow; judge anatomical contact separately from tails, wings, weapons, and other extensions."
+  }
+}

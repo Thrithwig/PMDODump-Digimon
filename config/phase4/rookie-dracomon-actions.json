@@ -1,0 +1,23 @@
+{
+  "species":"dracomon",
+  "model_path":"work/phase4/source/dracomon.glb",
+  "approved_idle":"work/phase4/rookie-production/dracomon-idle-trial-v2/package/10043",
+  "palette_policy":"approved-idle",
+  "mouth_palette":false,
+  "mouth_colors":[],
+  "open_mouth_actions":[],
+  "palette_rationale":"Preserve the reviewed turquoise body, red horns and wings, cream chest, and source dark red/black eyes. The eyes already separate from the face in native Idle; no added facial pixels.",
+  "reference":"Own DSTS chr208 model and native clips; PMDO registry supplies action names, events, and timing fields.",
+  "actions":[
+    {"name":"Walk","clip":"chr208_br01","seconds":0.733334,"sample_phases":[0,0.125,0.25,0.375,0.5,0.625,0.75,0.875],"durations":[8,8,8,8,8,8,8,8],"ground_policy":"fixed","pose_evidence":"Native leg cycle; exclude duplicate endpoint."},
+    {"name":"Attack","clip":"chr208_ba01","seconds":1.433334,"sample_phases":[0,0.08,0.17,0.28,0.4,0.55,0.7,0.84,0.98],"durations":[3,3,4,5,5,4,4,4,5],"ground_policy":"fixed","events":{"RushFrame":1,"HitFrame":4,"ReturnFrame":7},"pose_evidence":"Native forward lunge and claw strike; auditioned the windup and contact."},
+    {"name":"Shoot","clip":"chr208_fe04","seconds":1.866667,"sample_phases":[0,0.1,0.22,0.35,0.48,0.62,0.78,0.96],"durations":[4,4,5,5,6,5,4,6],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":6},"pose_evidence":"Native open-mouth face release; no projectile asset."},
+    {"name":"Sleep","clip":"chr208_bn02","seconds":2.166667,"sample_phases":[0,0.166667,0.333333,0.5,0.666667,0.833333],"durations":[33,33,33,33,33,33],"ground_policy":"fixed","pose_evidence":"Native crouched resting motion; source eyes appear open at auditioned front and side poses."},
+    {"name":"Hurt","clip":"chr208_bd01","seconds":0.866667,"sample_phases":[0,0.06,0.13,0.22,0.32,0.45,0.62,0.8,0.97],"durations":[3,4,4,4,5,4,4,4,5],"ground_policy":"fixed","events":{"HitFrame":2},"pose_evidence":"Native ordinary recoil; more extreme bd02/bd03 remain unused."},
+    {"name":"Swing","clip":"chr208_bs01","seconds":3.000001,"sample_phases":[0,0.1,0.22,0.35,0.48,0.62,0.78,0.96],"durations":[4,4,5,5,5,4,4,5],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":6},"pose_evidence":"Native broad body and wing/claw sweep; no weapon added."},
+    {"name":"Double","clip":"chr208_ba01","seconds":1.433334,"sample_phases":[0,0.17,0.4,0.7,0.98,0,0.17,0.4,0.7,0.98],"durations":[3,4,5,4,4,3,4,5,4,6],"ground_policy":"fixed","events":{"RushFrame":1,"HitFrame":2,"ReturnFrame":8},"pose_evidence":"Two native strike cycles; PMDO XML exposes one HitFrame."},
+    {"name":"Hop","clip":"chr208_bf01","seconds":1.433334,"sample_phases":[0,0.06,0.14,0.25,0.4,0.55,0.72,0.97],"durations":[4,5,5,8,8,5,4,6],"ground_policy":"fixed","events":{"HitFrame":5},"pose_evidence":"Native whole-body lift with foot separation visible in front and side auditions."},
+    {"name":"Charge","clip":"chr208_fe01","seconds":2.000001,"sample_phases":[0,0.1,0.2,0.3,0.4,0.5,0.6,0.5,0.3,0],"durations":[4,5,5,6,7,7,8,5,4,5],"ground_policy":"fixed","events":{"HitFrame":6,"ReturnFrame":8},"pose_evidence":"Native braced hands, head and mouth expression, reverse-sampled to recover. The bv01 source clip moves off canvas early and late and was rejected; no invented effect."},
+    {"name":"Rotate","clip":"chr208_fq01","seconds":2.000001,"sample_phases":[0,0.083333,0.166667,0.25,0.333333,0.416667,0.5,0.583333,0.666667,0.75,0.833333,0.916667],"durations":[4,4,4,4,4,4,4,4,4,4,4,4],"ground_policy":"fixed","turn_degrees":[0,30,60,90,120,150,180,210,240,270,300,330],"events":{"HitFrame":6},"pose_evidence":"Native gaze/face motion with whole-view yaw for engine Rotate; exclude duplicate endpoint."}
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "species":"dracomon","display_name":"Dracomon","source_chr_id":"chr208",
+  "model_path":"work/phase4/source/dracomon.glb","pmdo_index":10043,
+  "idle_clip":"chr208_bn01","idle_frames":4,"frame_times":[0,0.5,1.0,1.5],
+  "idle_duration_ticks":60,"approved_neutral_height":20,"neutral_frame":0,
+  "frame_size":64,"render_size":512,"minimum_edge_margin":2,"palette_size":64,
+  "alpha_cutoff":128,"outline":{"enabled":true,"depth_threshold":1,"normal_dot_threshold":-1},
+  "idle_ground_policy":"fixed","ground_contact_row":47,
+  "renderer":{
+    "eye_mode":"source","native_eye_layers":true,"source_eye_masks":true,
+    "head_bones":["J_head"],"emissive_intensity":0.55,"elevation":0.08,
+    "fixed_framing":{"center":[0,0.5,0],"extent":1.7},
+    "horizontal_root_lock":{"chr208_bs01":{"bone":"J_center","reference_time":0.0}},
+    "offset_bones":{"head":"J_head","center":"J_center",
+                    "left_hand":"J_hand_l","right_hand":"J_hand_r"}
+  },
+  "offsets":{"source":"projected-native-bones-v1","shadow":[0.5,0.8]},
+  "directions":[
+    {"name":"Down","azimuth_degrees":0},{"name":"DownRight","azimuth_degrees":315},
+    {"name":"Right","azimuth_degrees":270},{"name":"UpRight","azimuth_degrees":225},
+    {"name":"Up","azimuth_degrees":180},{"name":"UpLeft","azimuth_degrees":135},
+    {"name":"Left","azimuth_degrees":90},{"name":"DownLeft","azimuth_degrees":45}
+  ],
+  "anatomy_notes":{
+    "source":"Own chr208 turquoise dragon, red wings and horns; approved Idle-only 20px trial is byte-exact.",
+    "eyes":"Source dark red/black eyes already stand apart from turquoise face; no extra eye pixels.",
+    "markers":"Native head, center and hands. The Swing clip animates J_center translation; its horizontal travel is held at its own time-zero position while native vertical motion and articulation remain.",
+    "ground":"Feet define fixed ground contact; shadow row 47."
+  }
+}

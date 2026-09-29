@@ -1,0 +1,111 @@
+{
+  "species": "kuwagamon",
+  "display_name": "Kuwagamon",
+  "source_chr_id": "chr367",
+  "model_path": "work/phase4/champion-production/kuwagamon-idle-candidate/kuwagamon.glb",
+  "pmdo_index": 10093,
+  "idle_clip": "chr367_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0,
+    0.266667,
+    0.533333,
+    0.8
+  ],
+  "idle_duration_ticks": 16,
+  "approved_neutral_height": 24,
+  "neutral_frame": 0,
+  "frame_size": 192,
+  "render_size": 1536,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1
+  },
+  "idle_ground_policy": "fixed",
+  "placement": {
+    "mode": "airborne",
+    "shadow_row": 125,
+    "minimum_gap": 4
+  },
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "source_eye_masks": true,
+    "head_bones": [
+      "J_atama"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.06,
+    "fixed_framing": {
+      "center": [
+        0,
+        0.55,
+        0
+      ],
+      "extent": 6.6
+    },
+    "offset_bones": {
+      "head": "J_atama",
+      "center": "J_center",
+      "left_hand": "J_te_1L",
+      "right_hand": "J_te_1R"
+    },
+    "horizontal_root_lock": {
+      "chr367_bs01": {
+        "bone": "J_center",
+        "reference_time": 0.0
+      }
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.8020833333
+    ]
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ],
+  "anatomy_notes": {
+    "source": "Direct chr367 Time Stranger model and native chr367_bn01 Idle loop.",
+    "silhouette": "Preserve paired mandibles, segmented beetle body, four source arms, two legs, and wing pairs.",
+    "eyes": "Inspect source compound eye regions and native-size contrast; do not invent pupils or speculative repaint.",
+    "ground": "Native wing-spread Idle with dangling feet reads as hovering; use a fixed shadow and preserve the source bob."
+  }
+}

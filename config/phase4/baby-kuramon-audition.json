@@ -1,0 +1,10 @@
+{"species":"kuramon","jobs":[
+ {"clip":"chr629_bn01","time":0,"azimuth":0,"note":"Neutral Down"},
+ {"clip":"chr629_bn01","time":0.5,"azimuth":0,"note":"Quarter loop Down"},
+ {"clip":"chr629_bn01","time":1,"azimuth":0,"note":"Half loop Down"},
+ {"clip":"chr629_bn01","time":1.5,"azimuth":0,"note":"Three-quarter loop Down"},
+ {"clip":"chr629_bn01","time":0,"azimuth":90,"note":"Neutral Left"},
+ {"clip":"chr629_bn01","time":0.5,"azimuth":90,"note":"Quarter loop Left"},
+ {"clip":"chr629_bn01","time":1,"azimuth":90,"note":"Half loop Left"},
+ {"clip":"chr629_bn01","time":1.5,"azimuth":90,"note":"Three-quarter loop Left"}
+]}

@@ -1,0 +1,503 @@
+{
+  "species": "koromon",
+  "display_name": "Koromon",
+  "source_chr_id": "chr322",
+  "model_path": "work/phase4/source/koromon.glb",
+  "pmdo_index": 10007,
+  "idle_clip": "chr322_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0,
+    0.2500000298023224,
+    0.5000000596046448,
+    0.7500000894069672
+  ],
+  "idle_duration_ticks": 15,
+  "approved_neutral_height": 17,
+  "neutral_frame": 0,
+  "frame_size": 96,
+  "render_size": 768,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1
+  },
+  "idle_ground_policy": "fixed",
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "head_bones": [
+      "J_ue_ago"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.08,
+    "fixed_framing": {
+      "center": [
+        0,
+        0.24,
+        0
+      ],
+      "extent": 1.4
+    },
+    "offset_bones": {
+      "head": {
+        "bone": "J_ue_ago",
+        "local_point": [
+          0,
+          0.10327199101448059,
+          0.18956390023231506
+        ]
+      },
+      "center": "J_center",
+      "left_hand": "J_mimiL",
+      "right_hand": "J_mimiR"
+    },
+    "source_eye_masks": true,
+    "horizontal_root_lock": {
+      "chr322_ba01": {
+        "bone": "J_base",
+        "reference_time": 0
+      },
+      "chr322_ba02": {
+        "bone": "J_base",
+        "reference_time": 0
+      },
+      "chr322_bd01": {
+        "bone": "J_base",
+        "reference_time": 0
+      },
+      "chr322_bd02": {
+        "bone": "J_base",
+        "reference_time": 0
+      },
+      "chr322_bd03": {
+        "bone": "J_base",
+        "reference_time": 0
+      },
+      "chr322_bf01": {
+        "bone": "J_base",
+        "reference_time": 0
+      },
+      "chr322_bg01": {
+        "bone": "J_base",
+        "reference_time": 0
+      },
+      "chr322_bg02": {
+        "bone": "J_base",
+        "reference_time": 0
+      },
+      "chr322_br01": {
+        "bone": "J_base",
+        "reference_time": 0
+      },
+      "chr322_bs01": {
+        "bone": "J_base",
+        "reference_time": 0
+      },
+      "chr322_bv01": {
+        "bone": "J_base",
+        "reference_time": 0
+      },
+      "chr322_fe01": {
+        "bone": "J_base",
+        "reference_time": 0
+      },
+      "chr322_fe02": {
+        "bone": "J_base",
+        "reference_time": 0
+      },
+      "chr322_fe03": {
+        "bone": "J_base",
+        "reference_time": 0
+      },
+      "chr322_fe04": {
+        "bone": "J_base",
+        "reference_time": 0
+      }
+    },
+    "native_eye_expression_offsets": {
+      "chr322_bn02": [
+        0,
+        0.25
+      ]
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.8
+    ]
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ],
+  "anatomy_notes": {
+    "source": "chr322, PMDO10007 verified in local manifests; approved neutral height17.",
+    "eyes": "Source b01 black almond openings on UV3 with red/black p01 iris on UV2, b01m green is composition mask not eye color, e01h alpha shine. Opt-in native layers; no invented pupil; explicit approved source-opening edge revision only.",
+    "ground": "Skinned bn01 underside -0.0043 to -0.0063 near native floor0; grounded pink head/body, native jaw and two independently moving ears/feelers. Fixed neutral registration per direction, no per-frame fit or crop.",
+    "markers": "Head measured eye midpoint in J_ue_ago local space; center J_center. PMDO hand slots are ear/feeler roots J_mimiL/R, documented body appendage substitutes, not hands. +X anatomical left.",
+    "motion": "Native bn01 1.00000012s loop with body breathing and independent feeler motion, four quarter-cycle samples15ticks. No horizontal root travel.",
+    "scope": "Initial Idle only; all other XML actions explicit placeholders.",
+    "readability": "Parent preferred v2b over v2: exact47 source-bounded dark opening lower-edge pixels across32frames. No added pixels outside visible eye mesh, no rear eye marks. Retain other iris and shine pixels. Post-build RGB overlay only.",
+    "actions": "96px canvas extent1.4 holds Idle48/.7 same34.2857px/world scale. Fixed +5px registration; shadow+13 from engine origin. Placement airborne API supplies fixed origin only; grounded species with native intentional jumps.",
+    "sleep": "Audition source bn02 low resting body with b01 second-row closed-eye expression, explicitUV+.25. No invented raster pupil."
+  },
+  "approved_eye_contour": {
+    "rule": "koromon-source-opening-lower-edge-v2b",
+    "probe": "work/phase4/intraining-production/koromon-eye-border-v2b",
+    "application": "Exact approved47-pixel probe PNG; generic build-idle creates source baseline, package_v2b.py validates explicit recorded overlay."
+  },
+  "placement": {
+    "mode": "airborne",
+    "shadow_row": 61,
+    "minimum_gap": -2,
+    "fixed_vertical_shift": 5
+  },
+  "fixed_palette_colors": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      38,
+      0,
+      0
+    ],
+    [
+      85,
+      36,
+      35
+    ],
+    [
+      147,
+      94,
+      97
+    ],
+    [
+      179,
+      126,
+      138
+    ],
+    [
+      185,
+      138,
+      153
+    ],
+    [
+      191,
+      140,
+      157
+    ],
+    [
+      195,
+      127,
+      147
+    ],
+    [
+      195,
+      159,
+      170
+    ],
+    [
+      196,
+      143,
+      160
+    ],
+    [
+      198,
+      151,
+      167
+    ],
+    [
+      202,
+      159,
+      174
+    ],
+    [
+      207,
+      142,
+      162
+    ],
+    [
+      208,
+      157,
+      174
+    ],
+    [
+      209,
+      165,
+      182
+    ],
+    [
+      209,
+      172,
+      184
+    ],
+    [
+      214,
+      172,
+      190
+    ],
+    [
+      220,
+      181,
+      196
+    ],
+    [
+      221,
+      172,
+      187
+    ],
+    [
+      221,
+      176,
+      194
+    ],
+    [
+      221,
+      189,
+      196
+    ],
+    [
+      223,
+      155,
+      177
+    ],
+    [
+      223,
+      166,
+      184
+    ],
+    [
+      227,
+      182,
+      200
+    ],
+    [
+      229,
+      188,
+      206
+    ],
+    [
+      232,
+      204,
+      212
+    ],
+    [
+      233,
+      188,
+      209
+    ],
+    [
+      237,
+      193,
+      213
+    ],
+    [
+      238,
+      197,
+      215
+    ],
+    [
+      239,
+      174,
+      196
+    ],
+    [
+      240,
+      183,
+      201
+    ],
+    [
+      241,
+      189,
+      206
+    ],
+    [
+      242,
+      197,
+      217
+    ],
+    [
+      242,
+      203,
+      220
+    ],
+    [
+      243,
+      221,
+      228
+    ],
+    [
+      245,
+      201,
+      222
+    ],
+    [
+      246,
+      205,
+      224
+    ],
+    [
+      250,
+      196,
+      214
+    ],
+    [
+      250,
+      235,
+      244
+    ],
+    [
+      251,
+      202,
+      220
+    ],
+    [
+      251,
+      205,
+      224
+    ],
+    [
+      252,
+      242,
+      248
+    ],
+    [
+      252,
+      247,
+      251
+    ],
+    [
+      253,
+      209,
+      223
+    ],
+    [
+      253,
+      210,
+      231
+    ],
+    [
+      253,
+      217,
+      233
+    ],
+    [
+      253,
+      226,
+      240
+    ],
+    [
+      253,
+      252,
+      253
+    ],
+    [
+      254,
+      255,
+      255
+    ],
+    [
+      255,
+      215,
+      232
+    ],
+    [
+      255,
+      218,
+      235
+    ],
+    [
+      255,
+      222,
+      238
+    ],
+    [
+      255,
+      227,
+      239
+    ],
+    [
+      255,
+      228,
+      246
+    ],
+    [
+      255,
+      232,
+      248
+    ],
+    [
+      255,
+      237,
+      250
+    ],
+    [
+      255,
+      242,
+      253
+    ],
+    [
+      255,
+      247,
+      254
+    ],
+    [
+      255,
+      251,
+      255
+    ],
+    [
+      255,
+      253,
+      255
+    ],
+    [
+      255,
+      255,
+      254
+    ],
+    [
+      255,
+      255,
+      255
+    ]
+  ]
+}

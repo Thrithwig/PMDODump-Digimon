@@ -1,0 +1,53 @@
+{
+  "species": "terriermon",
+  "display_name": "Terriermon",
+  "source_chr_id": "chr701",
+  "model_path": "work/phase4/rookie-production/terriermon-idle-candidate/terriermon.glb",
+  "pmdo_index": 10039,
+  "idle_clip": "chr701_bn01",
+  "idle_frames": 4,
+  "frame_times": [0, 0.733333, 1.466667, 2.2],
+  "idle_duration_ticks": 44,
+  "approved_neutral_height": 20,
+  "neutral_frame": 0,
+  "frame_size": 64,
+  "render_size": 512,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {"enabled": true, "depth_threshold": 1, "normal_dot_threshold": -1},
+  "idle_ground_policy": "fixed",
+  "ground_contact_row": 47,
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "source_eye_masks": true,
+    "head_bones": ["J_neck"],
+    "emissive_intensity": 0.55,
+    "elevation": 0.08,
+    "fixed_framing": {"center": [0, 0.45, 0], "extent": 1.43},
+    "offset_bones": {
+      "head": "J_neck",
+      "center": "J_center",
+      "left_hand": "J_hand_l",
+      "right_hand": "J_hand_r"
+    }
+  },
+  "offsets": {"source": "projected-native-bones-v1", "shadow": [0.5, 0.8]},
+  "directions": [
+    {"name": "Down", "azimuth_degrees": 0},
+    {"name": "DownRight", "azimuth_degrees": 315},
+    {"name": "Right", "azimuth_degrees": 270},
+    {"name": "UpRight", "azimuth_degrees": 225},
+    {"name": "Up", "azimuth_degrees": 180},
+    {"name": "UpLeft", "azimuth_degrees": 135},
+    {"name": "Left", "azimuth_degrees": 90},
+    {"name": "DownLeft", "azimuth_degrees": 45}
+  ],
+  "anatomy_notes": {
+    "source": "Direct DSTS chr701 Terriermon model and native chr701 clips.",
+    "face": "Preserve native eye layers and inspect their dark edge against the pale face at native size.",
+    "silhouette": "Preserve the long ears, hands, feet, mouth and all eight headings.",
+    "ground": "Preserve native motion with a fixed row-47 shadow; never trim Idle or Physical Attack."
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "species": "tentomon",
+  "display_name": "Tentomon",
+  "source_chr_id": "chr303",
+  "model_path": "work/phase4/source/tentomon.glb",
+  "pmdo_index": 10040,
+  "idle_clip": "chr303_bn01",
+  "idle_frames": 8,
+  "frame_times": [0, 0.166667, 0.333333, 0.5, 0.666667, 0.833333, 1, 1.166667],
+  "idle_duration_ticks": 10,
+  "approved_neutral_height": 35,
+  "neutral_frame": 0,
+  "frame_size": 96,
+  "render_size": 512,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 0.05,
+    "normal_dot_threshold": 0.05
+  },
+  "placement": {
+    "mode": "airborne",
+    "shadow_row": 66,
+    "minimum_gap": 5
+  },
+  "renderer": {
+    "eye_mode": "source",
+    "head_bones": ["J_atama"],
+    "emissive_intensity": 0.55,
+    "elevation": 0.08,
+    "fixed_framing": {
+      "center": [0, 0.6235770209103849, 0],
+      "extent": 1.7472434739195036
+    },
+    "offset_bones": {
+      "head": "J_atama",
+      "center": "J_mune",
+      "left_hand": "J_te_L",
+      "right_hand": "J_te_R"
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [0.5, 0.6875]
+  },
+  "directions": [
+    {"name": "Down", "azimuth_degrees": 0},
+    {"name": "DownRight", "azimuth_degrees": 315},
+    {"name": "Right", "azimuth_degrees": 270},
+    {"name": "UpRight", "azimuth_degrees": 225},
+    {"name": "Up", "azimuth_degrees": 180},
+    {"name": "UpLeft", "azimuth_degrees": 135},
+    {"name": "Left", "azimuth_degrees": 90},
+    {"name": "DownLeft", "azimuth_degrees": 45}
+  ],
+  "anatomy_notes": {
+    "source": "Own chr303 Tentomon model; reviewed 48 px Idle supplies the approved apparent size, palette, hover gap, and projected markers.",
+    "eyes": "Use only the source eye materials and geometry; do not invent a pupil or eye border.",
+    "markers": "Native J_atama, J_mune, and paired J_te hand bones.",
+    "ground": "Tentomon flies. Preserve one fixed transform and the approved five-pixel minimum hover gap; do not ground-normalize individual frames."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "species":"patamon",
+  "model_path":"work/phase4/rookie-production/patamon-preflight/patamon.glb",
+  "approved_idle":"work/phase4/rookie-production/patamon-idle-trial-v5/package/10046",
+  "palette_policy":"approved-idle","mouth_palette":false,"mouth_colors":[],"open_mouth_actions":[],
+  "palette_rationale":"Preserve the reviewed orange body, pale muzzle and belly, blue source eyes with dark separation, dark claws and black outline from the approved Idle palette.",
+  "reference":"Own DSTS chr096 mesh and native clips; PMDO registry supplies action names and event fields.",
+  "ground_policy_note":"Grounded with fixed row-47 shadow. Preserve native lift and recoil; never trim Idle or Physical Attack.",
+  "actions":[
+    {"name":"Walk","clip":"chr096_br01","seconds":0.666667,"sample_phases":[0,0.125,0.25,0.375,0.5,0.625,0.75,0.875],"durations":[8,8,8,8,8,8,8,8],"ground_policy":"fixed","pose_evidence":"Own feet-and-ear-wing travel cycle; endpoint excluded."},
+    {"name":"Attack","clip":"chr096_ba02","seconds":2.333333,"sample_phases":[0,0.07,0.16,0.3,0.48,0.62,0.76,0.9,0.98],"durations":[3,3,4,5,5,4,4,4,5],"ground_policy":"fixed","events":{"RushFrame":1,"HitFrame":4,"ReturnFrame":7},"pose_evidence":"Own forward ear-wing flap strike and recovery; ba01 is a full flip and remains unused for Physical Attack."},
+    {"name":"Shoot","clip":"chr096_fe01","seconds":3.433334,"sample_phases":[0,0.1,0.22,0.35,0.5,0.64,0.8,0.96],"durations":[4,4,5,5,6,5,4,6],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":6},"pose_evidence":"Own braced ear-wing and mouth release gesture; no invented projectile or glow."},
+    {"name":"Sleep","clip":"chr096_bn02","seconds":4.0,"sample_phases":[0,0.166667,0.333333,0.5,0.666667,0.833333],"durations":[33,33,33,33,33,33],"ground_policy":"fixed","pose_evidence":"Own lowered ear-wing resting loop; no painted eyelids."},
+    {"name":"Hurt","clip":"chr096_bd01","seconds":0.833333,"sample_phases":[0,0.06,0.13,0.22,0.34,0.48,0.62,0.8,0.97],"durations":[3,4,4,4,5,4,4,4,5],"ground_policy":"fixed","events":{"HitFrame":4},"pose_evidence":"Own ordinary backward recoil. Inverted bd02 and prone bd03 remain unused."},
+    {"name":"Swing","clip":"chr096_bs01","seconds":2.333333,"sample_phases":[0,0.1,0.22,0.35,0.5,0.64,0.8,0.96],"durations":[4,4,5,5,5,4,4,5],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":6},"pose_evidence":"Own broad ear-wing body sweep and flip; no synthetic weapon."},
+    {"name":"Double","clip":"chr096_ba02","seconds":2.333333,"sample_phases":[0,0.16,0.48,0.76,0.96,0,0.16,0.48,0.76,0.96],"durations":[3,4,5,4,4,3,4,5,4,6],"ground_policy":"fixed","events":{"RushFrame":1,"HitFrame":2,"ReturnFrame":8},"pose_evidence":"Two visual cycles of the own ear-wing strike; one PMDO HitFrame."},
+    {"name":"Hop","clip":"chr096_bf01","seconds":0.7,"sample_phases":[0,0.1,0.22,0.38,0.58,0.48,0.28,0],"durations":[4,5,5,8,8,5,4,6],"ground_policy":"fixed","events":{"HitFrame":5},"pose_evidence":"Bounded first 0.7 seconds of the own launch with earlier reverse-sampled recovery; late source inversion and wide recovery margin contact are excluded, with no vertical offset invented."},
+    {"name":"Charge","clip":"chr096_bv01","seconds":0.9,"sample_phases":[0,0.1,0.2,0.3,0.4,0.5,0.6,0.5,0.3,0],"durations":[4,5,5,6,7,7,8,5,4,5],"ground_policy":"fixed","events":{"HitFrame":6,"ReturnFrame":8},"pose_evidence":"Bounded source ear-wing brace with reverse-sampled recovery; later root rise is excluded and no aura is invented."},
+    {"name":"Rotate","clip":"chr096_fq01","seconds":2.0,"sample_phases":[0,0.083333,0.166667,0.25,0.333333,0.416667,0.5,0.583333,0.666667,0.75,0.833333,0.916667],"durations":[4,4,4,4,4,4,4,4,4,4,4,4],"ground_policy":"fixed","turn_degrees":[0,30,60,90,120,150,180,210,240,270,300,330],"events":{"HitFrame":6},"pose_evidence":"Own ready motion with whole-view yaw for engine Rotate; endpoint excluded."}
+  ]
+}

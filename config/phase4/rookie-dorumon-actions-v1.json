@@ -1,0 +1,20 @@
+{
+  "species":"dorumon",
+  "model_path":"work/phase4/source/dorumon.glb",
+  "approved_idle":"work/phase4/rookie-production/dorumon-idle-trial-v1/package/10044",
+  "palette_policy":"approved-idle","mouth_palette":false,"mouth_colors":[],"open_mouth_actions":[],
+  "palette_rationale":"Use the 24 px native Idle palette, with Dorumon-specific source-eye correction reviewed separately; no invented effects or pupils.",
+  "reference":"Own DSTS chr112 clips and PMDO action registry only.",
+  "actions":[
+    {"name":"Walk","clip":"chr112_br01","seconds":0.73333338,"sample_phases":[0,0.125,0.25,0.375,0.5,0.625,0.75,0.875],"durations":[8,8,8,8,8,8,8,8],"ground_policy":"fixed","pose_evidence":"Native running gait; endpoint excluded."},
+    {"name":"Attack","clip":"chr112_ba01","seconds":1.46666676,"sample_phases":[0,0.06,0.15,0.27,0.38,0.52,0.67,0.82,0.97],"durations":[3,3,4,5,5,4,4,4,5],"ground_policy":"fixed","events":{"RushFrame":1,"HitFrame":4,"ReturnFrame":7},"pose_evidence":"Native forward claw/body strike."},
+    {"name":"Shoot","clip":"chr112_fe04","seconds":1.50000010,"sample_phases":[0,0.1,0.22,0.35,0.48,0.62,0.78,0.96],"durations":[4,4,5,5,6,5,4,6],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":6},"pose_evidence":"Native open-mouth release; no projectile asset."},
+    {"name":"Sleep","clip":"chr112_bn02","seconds":3.33333355,"sample_phases":[0,0.1666667,0.3333333,0.5,0.6666667,0.8333333],"durations":[33,33,33,33,33,33],"ground_policy":"fixed","pose_evidence":"Native lowered resting pose; inspect actual eye expression."},
+    {"name":"Hurt","clip":"chr112_bd01","seconds":1.00000006,"sample_phases":[0,0.06,0.13,0.22,0.32,0.45,0.62,0.8,0.97],"durations":[3,4,4,4,5,4,4,4,5],"ground_policy":"fixed","events":{"HitFrame":2},"pose_evidence":"Native recoil, avoiding more extreme bd02/bd03."},
+    {"name":"Swing","clip":"chr112_bs01","seconds":1.60000010,"sample_phases":[0,0.1,0.22,0.35,0.48,0.62,0.78,0.96],"durations":[4,4,5,5,5,4,4,5],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":6},"pose_evidence":"Native limb/body sweep; no weapon."},
+    {"name":"Double","clip":"chr112_ba01","seconds":1.46666676,"sample_phases":[0,0.17,0.4,0.7,0.98,0,0.17,0.4,0.7,0.98],"durations":[3,4,5,4,4,3,4,5,4,6],"ground_policy":"fixed","events":{"RushFrame":1,"HitFrame":2,"ReturnFrame":8},"pose_evidence":"Two native attack cycles; one PMDO HitFrame."},
+    {"name":"Hop","clip":"chr112_bf01","seconds":1.46666676,"sample_phases":[0,0.06,0.14,0.25,0.4,0.55,0.72,0.97],"durations":[4,5,5,8,8,5,4,6],"ground_policy":"fixed","events":{"HitFrame":5},"pose_evidence":"Native vertical jump distinct from ba01 and ba02."},
+    {"name":"Charge","clip":"chr112_bv01","seconds":2.00000013,"sample_phases":[0,0.1,0.2,0.3,0.4,0.5,0.6,0.5,0.3,0],"durations":[4,5,5,6,7,7,8,5,4,5],"ground_policy":"fixed","events":{"HitFrame":6,"ReturnFrame":8},"pose_evidence":"Native strain with reverse sampled recovery; no effect added."},
+    {"name":"Rotate","clip":"chr112_fq01","seconds":2.00000013,"sample_phases":[0,0.0833333,0.1666667,0.25,0.3333333,0.4166667,0.5,0.5833333,0.6666667,0.75,0.8333333,0.9166667],"durations":[4,4,4,4,4,4,4,4,4,4,4,4],"ground_policy":"fixed","turn_degrees":[0,30,60,90,120,150,180,210,240,270,300,330],"events":{"HitFrame":6},"pose_evidence":"Native gaze with explicit yaw; endpoint excluded."}
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "species": "bukamon",
+  "jobs": [
+    {
+      "clip": "chr514_bd02",
+      "time": 0,
+      "azimuth": 90,
+      "note": "Audit native airborne recoil arc; no assumed Hop semantics"
+    },
+    {
+      "clip": "chr514_bd02",
+      "time": 0.1,
+      "azimuth": 90,
+      "note": "Audit native airborne recoil arc; no assumed Hop semantics"
+    },
+    {
+      "clip": "chr514_bd02",
+      "time": 0.2,
+      "azimuth": 90,
+      "note": "Audit native airborne recoil arc; no assumed Hop semantics"
+    },
+    {
+      "clip": "chr514_bd02",
+      "time": 0.35,
+      "azimuth": 90,
+      "note": "Audit native airborne recoil arc; no assumed Hop semantics"
+    },
+    {
+      "clip": "chr514_bd02",
+      "time": 0.5,
+      "azimuth": 90,
+      "note": "Audit native airborne recoil arc; no assumed Hop semantics"
+    },
+    {
+      "clip": "chr514_bd02",
+      "time": 0.65,
+      "azimuth": 90,
+      "note": "Audit native airborne recoil arc; no assumed Hop semantics"
+    },
+    {
+      "clip": "chr514_bd02",
+      "time": 0.8,
+      "azimuth": 90,
+      "note": "Audit native airborne recoil arc; no assumed Hop semantics"
+    },
+    {
+      "clip": "chr514_bd02",
+      "time": 0.98,
+      "azimuth": 90,
+      "note": "Audit native airborne recoil arc; no assumed Hop semantics"
+    },
+    {
+      "clip": "chr514_bd03",
+      "time": 0,
+      "azimuth": 90,
+      "note": "Audit native rotational recoil; determine usable turn mechanism"
+    },
+    {
+      "clip": "chr514_bd03",
+      "time": 0.16500001049041815,
+      "azimuth": 90,
+      "note": "Audit native rotational recoil; determine usable turn mechanism"
+    },
+    {
+      "clip": "chr514_bd03",
+      "time": 0.36300002307891993,
+      "azimuth": 90,
+      "note": "Audit native rotational recoil; determine usable turn mechanism"
+    },
+    {
+      "clip": "chr514_bd03",
+      "time": 0.5500000349680605,
+      "azimuth": 90,
+      "note": "Audit native rotational recoil; determine usable turn mechanism"
+    },
+    {
+      "clip": "chr514_bd03",
+      "time": 0.8250000524520907,
+      "azimuth": 90,
+      "note": "Audit native rotational recoil; determine usable turn mechanism"
+    },
+    {
+      "clip": "chr514_bd03",
+      "time": 1.0780000685373985,
+      "azimuth": 90,
+      "note": "Audit native rotational recoil; determine usable turn mechanism"
+    },
+    {
+      "clip": "chr514_bn02",
+      "time": 1.5,
+      "azimuth": 0,
+      "note": "Source second-row eye closure and sleeping rest"
+    },
+    {
+      "clip": "chr514_fe01",
+      "time": 1,
+      "azimuth": 0,
+      "note": "Front flipper sweep anatomy"
+    }
+  ]
+}

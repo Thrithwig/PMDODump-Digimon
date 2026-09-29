@@ -1,0 +1,6 @@
+{"species":"veemon","jobs":[
+  {"clip":"chr114_ba01","time":0.05,"azimuth":0,"note":"ba01 start"},{"clip":"chr114_ba01","time":0.45,"azimuth":0,"note":"ba01 windup"},{"clip":"chr114_ba01","time":0.95,"azimuth":0,"note":"ba01 contact"},{"clip":"chr114_ba01","time":1.8,"azimuth":0,"note":"ba01 recovery"},
+  {"clip":"chr114_ba02","time":0.05,"azimuth":0,"note":"ba02 start"},{"clip":"chr114_ba02","time":0.5,"azimuth":0,"note":"ba02 windup"},{"clip":"chr114_ba02","time":1.0,"azimuth":0,"note":"ba02 contact"},{"clip":"chr114_ba02","time":1.9,"azimuth":0,"note":"ba02 recovery"},
+  {"clip":"chr114_bs01","time":0.05,"azimuth":0,"note":"swing start"},{"clip":"chr114_bs01","time":0.65,"azimuth":0,"note":"swing windup"},{"clip":"chr114_bs01","time":1.2,"azimuth":0,"note":"swing contact"},{"clip":"chr114_bs01","time":2.25,"azimuth":0,"note":"swing recovery"},
+  {"clip":"chr114_bv01","time":0.05,"azimuth":0,"note":"charge start"},{"clip":"chr114_bv01","time":0.8,"azimuth":0,"note":"charge gather"},{"clip":"chr114_bv01","time":1.5,"azimuth":0,"note":"charge peak"},{"clip":"chr114_bv01","time":2.9,"azimuth":0,"note":"charge recovery"}
+]}

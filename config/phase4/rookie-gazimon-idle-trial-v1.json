@@ -1,0 +1,54 @@
+{
+  "species": "gazimon",
+  "display_name": "Gazimon",
+  "source_chr_id": "chr569",
+  "model_path": "work/phase4/rookie-production/gazimon-preflight/gazimon.glb",
+  "pmdo_index": 10026,
+  "idle_clip": "chr569_bn01",
+  "idle_frames": 4,
+  "frame_times": [0, 0.4, 0.8, 1.2],
+  "idle_duration_ticks": 24,
+  "approved_neutral_height": 21,
+  "neutral_frame": 0,
+  "frame_size": 64,
+  "render_size": 512,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {"enabled": true, "depth_threshold": 1, "normal_dot_threshold": -1},
+  "idle_ground_policy": "fixed",
+  "ground_contact_row": 47,
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "source_eye_masks": true,
+    "head_bones": ["J_atama"],
+    "emissive_intensity": 0.55,
+    "elevation": 0.08,
+    "fixed_framing": {"center": [0, 0.6, 0], "extent": 1.85},
+    "offset_bones": {
+      "head": "J_atama",
+      "center": "J_center",
+      "left_hand": "J_te_L",
+      "right_hand": "J_te_R"
+    }
+  },
+  "offsets": {"source": "projected-native-bones-v1", "shadow": [0.5, 0.8]},
+  "directions": [
+    {"name": "Down", "azimuth_degrees": 0},
+    {"name": "DownRight", "azimuth_degrees": 315},
+    {"name": "Right", "azimuth_degrees": 270},
+    {"name": "UpRight", "azimuth_degrees": 225},
+    {"name": "Up", "azimuth_degrees": 180},
+    {"name": "UpLeft", "azimuth_degrees": 135},
+    {"name": "Left", "azimuth_degrees": 90},
+    {"name": "DownLeft", "azimuth_degrees": 45}
+  ],
+  "anatomy_notes": {
+    "source": "Own DSTS Gazimon chr569 model and chr569_bn01 Idle from the existing lab unpacked source.",
+    "eyes": "Use native eye_L and eye_R layers; inspect at 21 px.",
+    "ears_claws": "Retain long ear silhouette and native forepaw claws through turns.",
+    "markers": "Native J_atama, J_center, J_te_L, and J_te_R bones.",
+    "ground": "Fixed ground with row-47 shadow; preserve source Idle motion."
+  }
+}

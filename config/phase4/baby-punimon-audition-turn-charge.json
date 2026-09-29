@@ -1,0 +1,85 @@
+{
+  "species": "punimon",
+  "jobs": [
+    {
+      "clip": "chr437_bv01",
+      "time": 0.7,
+      "azimuth": 0
+    },
+    {
+      "clip": "chr437_bv01",
+      "time": 0.8,
+      "azimuth": 0
+    },
+    {
+      "clip": "chr437_bv01",
+      "time": 0.9,
+      "azimuth": 0
+    },
+    {
+      "clip": "chr437_bv01",
+      "time": 1,
+      "azimuth": 0
+    },
+    {
+      "clip": "chr437_bv01",
+      "time": 1.1,
+      "azimuth": 0
+    },
+    {
+      "clip": "chr437_bv01",
+      "time": 1.2,
+      "azimuth": 0
+    },
+    {
+      "clip": "chr437_bv01",
+      "time": 1.4,
+      "azimuth": 0
+    },
+    {
+      "clip": "chr437_bv01",
+      "time": 1.9,
+      "azimuth": 0
+    },
+    {
+      "clip": "chr437_fq02",
+      "time": 0,
+      "azimuth": 0
+    },
+    {
+      "clip": "chr437_fq02",
+      "time": 0.16,
+      "azimuth": 0
+    },
+    {
+      "clip": "chr437_fq02",
+      "time": 0.32,
+      "azimuth": 0
+    },
+    {
+      "clip": "chr437_fq02",
+      "time": 0.48,
+      "azimuth": 0
+    },
+    {
+      "clip": "chr437_fq02",
+      "time": 0.64,
+      "azimuth": 0
+    },
+    {
+      "clip": "chr437_fq02",
+      "time": 0.8,
+      "azimuth": 0
+    },
+    {
+      "clip": "chr437_fq02",
+      "time": 0.96,
+      "azimuth": 0
+    },
+    {
+      "clip": "chr437_fq02",
+      "time": 1.1,
+      "azimuth": 0
+    }
+  ]
+}

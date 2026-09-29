@@ -1,0 +1,18 @@
+{"species":"gaomon","jobs":[
+  {"clip":"chr055_br01","time":0.25,"azimuth":0,"note":"Walk front cycle"},
+  {"clip":"chr055_ba01","time":0.45,"azimuth":0,"note":"Attack contact"},
+  {"clip":"chr055_ba02","time":0.6,"azimuth":0,"note":"Alternate attack"},
+  {"clip":"chr055_fe02","time":1.5,"azimuth":0,"note":"Shoot candidate"},
+  {"clip":"chr055_fe04","time":1.0,"azimuth":0,"note":"Alternate Shoot"},
+  {"clip":"chr055_bn02","time":3.0,"azimuth":0,"note":"Sleep rest"},
+  {"clip":"chr055_bd01","time":0.35,"azimuth":0,"note":"Hurt recoil"},
+  {"clip":"chr055_bs01","time":1.1,"azimuth":0,"note":"Swing candidate"},
+  {"clip":"chr055_bf01","time":0.6,"azimuth":0,"note":"Hop apex"},
+  {"clip":"chr055_bv01","time":1.0,"azimuth":0,"note":"Charge candidate"},
+  {"clip":"chr055_fq01","time":0.8,"azimuth":0,"note":"Rotate source"},
+  {"clip":"chr055_br01","time":0.25,"azimuth":270,"note":"Walk side"},
+  {"clip":"chr055_ba01","time":0.45,"azimuth":270,"note":"Attack side"},
+  {"clip":"chr055_bn02","time":3.0,"azimuth":270,"note":"Sleep side"},
+  {"clip":"chr055_bs01","time":1.1,"azimuth":270,"note":"Swing side"},
+  {"clip":"chr055_bf01","time":0.6,"azimuth":270,"note":"Hop side"}
+]}

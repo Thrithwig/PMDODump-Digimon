@@ -1,0 +1,106 @@
+{
+  "species": "gargomon",
+  "display_name": "Gargomon",
+  "source_chr_id": "chr710",
+  "model_path": "work/phase4/champion-production/gargomon-idle-candidate/gargomon.glb",
+  "pmdo_index": 10084,
+  "idle_clip": "chr710_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0,
+    0.25,
+    0.5,
+    0.75
+  ],
+  "idle_duration_ticks": 15,
+  "approved_neutral_height": 28,
+  "neutral_frame": 1,
+  "frame_size": 144,
+  "render_size": 1152,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1,
+    "source_eye_dark_rgb": [
+      20,
+      20,
+      20
+    ]
+  },
+  "idle_ground_policy": "fixed",
+  "ground_contact_row": 100,
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "source_eye_masks": true,
+    "head_bones": [
+      "J_neck"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.06,
+    "fixed_framing": {
+      "center": [
+        0,
+        1.08,
+        0.06
+      ],
+      "extent": 5.3100000000000005
+    },
+    "offset_bones": {
+      "head": "J_neck",
+      "center": "J_center",
+      "left_hand": "J_weapon_l",
+      "right_hand": "J_weapon_r"
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.7916666667
+    ]
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ],
+  "anatomy_notes": {
+    "source": "Direct chr710 model and native one-second chr710_bn01 Idle loop.",
+    "silhouette": "Preserve both long ears, paired arm cannons, legs, feet and body markings.",
+    "eyes": "Keep source eye_L and eye_R meshes and material layers; inspect separation on the pale face without repaint.",
+    "ground": "Grounded biped with one fixed shadow. Verify feet, rather than cannon tips, establish contact."
+  }
+}

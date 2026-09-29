@@ -1,0 +1,24 @@
+{
+  "species":"gazimon",
+  "model_path":"work/phase4/rookie-production/gazimon-preflight/gazimon.glb",
+  "approved_idle":"work/phase4/rookie-production/gazimon-idle-trial-v2/package/10026",
+  "palette_policy":"approved-idle",
+  "mouth_palette":false,
+  "mouth_colors":[],
+  "open_mouth_actions":[],
+  "palette_rationale":"Preserve the approved pale fur, source eye contrast, dark claws, and pink-red mouth within the reviewed Idle palette.",
+  "reference":"Own DSTS chr569 model and native clips; PMDO registry supplies action names, timing fields and event fields.",
+  "ground_policy_note":"Fixed row-47 grounded shadow; retain native crouch, recoil and Hop lift rather than normalizing the lowest opaque appendage.",
+  "actions":[
+    {"name":"Walk","clip":"chr569_br01","seconds":0.666667,"sample_phases":[0,0.125,0.25,0.375,0.5,0.625,0.75,0.875],"durations":[8,8,8,8,8,8,8,8],"ground_policy":"fixed","pose_evidence":"Native quadrupedal forepaw and hindleg gait; omit duplicate loop endpoint."},
+    {"name":"Attack","clip":"chr569_ba01","seconds":1.433333,"sample_phases":[0,0.08,0.17,0.28,0.4,0.55,0.7,0.84,0.98],"durations":[3,3,4,5,5,4,4,4,5],"ground_policy":"fixed","events":{"RushFrame":1,"HitFrame":4,"ReturnFrame":7},"pose_evidence":"Native raised forepaw windup, slash and recovery; no painted effect."},
+    {"name":"Shoot","clip":"chr569_fe04","seconds":1.5,"sample_phases":[0,0.1,0.22,0.35,0.48,0.62,0.78,0.96],"durations":[4,4,5,5,6,5,4,6],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":6},"pose_evidence":"Source open-mouth special release; no invented projectile."},
+    {"name":"Sleep","clip":"chr569_bn02","seconds":3.333333,"sample_phases":[0,0.166667,0.333333,0.5,0.666667,0.833333],"durations":[33,33,33,33,33,33],"ground_policy":"fixed","pose_evidence":"Source drooped ears and resting body; do not invent eyelids."},
+    {"name":"Hurt","clip":"chr569_bd01","seconds":1.166667,"sample_phases":[0,0.06,0.13,0.22,0.32,0.45,0.62,0.8,0.97],"durations":[3,4,4,4,5,4,4,4,5],"ground_policy":"fixed","events":{"HitFrame":2},"pose_evidence":"Source recoil, arched torso and recovery."},
+    {"name":"Swing","clip":"chr569_bs01","seconds":2.0,"sample_phases":[0,0.1,0.22,0.35,0.48,0.62,0.78,0.96],"durations":[4,4,5,5,5,4,4,5],"ground_policy":"fixed","events":{"RushFrame":2,"HitFrame":4,"ReturnFrame":6},"pose_evidence":"Native broad claw and tail swing; no weapon added."},
+    {"name":"Double","clip":"chr569_ba01","seconds":1.433333,"sample_phases":[0,0.17,0.4,0.7,0.98,0,0.17,0.4,0.7,0.98],"durations":[3,4,5,4,4,3,4,5,4,6],"ground_policy":"fixed","events":{"RushFrame":1,"HitFrame":2,"ReturnFrame":8},"pose_evidence":"Two source-native attack cycles; PMDO exposes one HitFrame."},
+    {"name":"Hop","clip":"chr569_bf01","seconds":1.433333,"sample_phases":[0,0.06,0.14,0.25,0.4,0.55,0.72,0.97],"durations":[4,5,5,8,8,5,4,6],"ground_policy":"fixed","events":{"HitFrame":5},"pose_evidence":"Source-native hindleg spring and airborne arc; preserve lift."},
+    {"name":"Charge","clip":"chr569_bv01","seconds":1.666667,"sample_phases":[0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.82,0.96],"durations":[4,5,5,6,7,7,8,5,4,5],"ground_policy":"fixed","events":{"HitFrame":6,"ReturnFrame":8},"pose_evidence":"Native braced stance and charge-up gesture without invented glow."},
+    {"name":"Rotate","clip":"chr569_fq01","seconds":1.6,"sample_phases":[0,0.083333,0.166667,0.25,0.333333,0.416667,0.5,0.583333,0.666667,0.75,0.833333,0.916667],"durations":[4,4,4,4,4,4,4,4,4,4,4,4],"ground_policy":"fixed","turn_degrees":[0,30,60,90,120,150,180,210,240,270,300,330],"events":{"HitFrame":6},"pose_evidence":"Source look motion with whole-view yaw; endpoint excluded."}
+  ]
+}

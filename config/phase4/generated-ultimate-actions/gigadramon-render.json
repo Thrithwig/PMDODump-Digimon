@@ -1,0 +1,106 @@
+{
+  "species": "gigadramon",
+  "display_name": "Gigadramon",
+  "source_chr_id": "chr402",
+  "model_path": "work/phase4/ultimate-production/gigadramon-idle-candidate/gigadramon.glb",
+  "pmdo_index": 10156,
+  "idle_clip": "chr301_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0,
+    0.30000001907348756,
+    0.6000000381469751,
+    0.9000000572204626
+  ],
+  "idle_duration_ticks": 18,
+  "approved_neutral_height": 49,
+  "neutral_frame": 0,
+  "frame_size": 256,
+  "render_size": 2048,
+  "minimum_edge_margin": 2,
+  "palette_size": 64,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1
+  },
+  "idle_ground_policy": "fixed",
+  "placement": {
+    "mode": "airborne",
+    "shadow_row": 158,
+    "minimum_gap": 6
+  },
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "source_eye_masks": true,
+    "head_bones": [
+      "J_atama"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.08,
+    "fixed_framing": {
+      "center": [
+        0,
+        -1.2,
+        0
+      ],
+      "extent": 12.96
+    },
+    "offset_bones": {
+      "head": "J_atama",
+      "center": "J_center",
+      "left_hand": "J_te_L",
+      "right_hand": "J_te_R"
+    }
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.734375
+    ]
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ],
+  "anatomy_notes": {
+    "source": "Direct chr402 Gigadramon mesh; exporter associates the native chr301 animation bank with this shared rig. Endpoint-exclusive chr301_bn01 samples.",
+    "silhouette": "Preserve mechanical dragon head, wings, claws and long segmented tail.",
+    "eyes": "Source eye_L/R meshes and source material layers; inspect native-size contrast before treatment.",
+    "offsets": "Native J_atama, J_center, and J_te_L/R anatomical anchors.",
+    "ground": "Winged source has no leg joints; preserve source hover over one fixed PMDO shadow. Huge corridor gate pending."
+  }
+}

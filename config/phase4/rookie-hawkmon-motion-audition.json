@@ -1,0 +1,21 @@
+{
+  "species": "hawkmon",
+  "jobs": [
+    {"clip":"chr706_ba02","time":0.15,"azimuth":0,"note":"Attack startup"},
+    {"clip":"chr706_ba02","time":0.45,"azimuth":0,"note":"Attack launch"},
+    {"clip":"chr706_ba02","time":0.75,"azimuth":0,"note":"Attack contact"},
+    {"clip":"chr706_ba02","time":1.2,"azimuth":0,"note":"Attack recovery"},
+    {"clip":"chr706_ba02","time":0.75,"azimuth":270,"note":"Attack side"},
+    {"clip":"chr706_bf01","time":0.16,"azimuth":0,"note":"Hop startup"},
+    {"clip":"chr706_bf01","time":0.4,"azimuth":0,"note":"Hop launch"},
+    {"clip":"chr706_bf01","time":0.75,"azimuth":0,"note":"Hop middle"},
+    {"clip":"chr706_bf01","time":1.0,"azimuth":0,"note":"Hop later"},
+    {"clip":"chr706_bf01","time":1.25,"azimuth":0,"note":"Hop recovery"},
+    {"clip":"chr706_fe02","time":0.35,"azimuth":0,"note":"Shoot fe02 startup"},
+    {"clip":"chr706_fe02","time":0.8,"azimuth":0,"note":"Shoot fe02 apex"},
+    {"clip":"chr706_fe02","time":1.4,"azimuth":0,"note":"Shoot fe02 later"},
+    {"clip":"chr706_fe01","time":0.6,"azimuth":0,"note":"Shoot fe01 prep"},
+    {"clip":"chr706_fe01","time":1.8,"azimuth":0,"note":"Shoot fe01 release"},
+    {"clip":"chr706_bs01","time":0.4,"azimuth":0,"note":"Swing early"}
+  ]
+}

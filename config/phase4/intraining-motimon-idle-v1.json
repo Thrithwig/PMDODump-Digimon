@@ -1,0 +1,112 @@
+{
+  "species": "motimon",
+  "display_name": "Motimon",
+  "source_chr_id": "chr388",
+  "model_path": "work/phase4/source/motimon.glb",
+  "pmdo_index": 10016,
+  "idle_clip": "chr388_bn01",
+  "idle_frames": 4,
+  "frame_times": [
+    0,
+    0.3333333432674408,
+    0.6666666865348816,
+    1.0000000298023224
+  ],
+  "idle_duration_ticks": 20,
+  "approved_neutral_height": 18,
+  "neutral_frame": 0,
+  "frame_size": 40,
+  "render_size": 320,
+  "minimum_edge_margin": 2,
+  "palette_size": 63,
+  "alpha_cutoff": 128,
+  "outline": {
+    "enabled": true,
+    "depth_threshold": 1,
+    "normal_dot_threshold": -1
+  },
+  "idle_ground_policy": "fixed",
+  "ground_contact_row": 31,
+  "renderer": {
+    "eye_mode": "source",
+    "native_eye_layers": true,
+    "head_bones": [
+      "J_mune",
+      "J_kuchi"
+    ],
+    "emissive_intensity": 0.55,
+    "elevation": 0.08,
+    "fixed_framing": {
+      "center": [
+        0,
+        0.245,
+        0
+      ],
+      "extent": 0.6
+    },
+    "offset_bones": {
+      "head": {
+        "bone": "J_mune",
+        "local_point": [
+          0,
+          0.15385548770427704,
+          0.12914899364113808
+        ]
+      },
+      "center": "J_center",
+      "left_hand": "J_te_L",
+      "right_hand": "J_te_R"
+    },
+    "source_eye_masks": true
+  },
+  "offsets": {
+    "source": "projected-native-bones-v1",
+    "shadow": [
+      0.5,
+      0.8
+    ]
+  },
+  "directions": [
+    {
+      "name": "Down",
+      "azimuth_degrees": 0
+    },
+    {
+      "name": "DownRight",
+      "azimuth_degrees": 315
+    },
+    {
+      "name": "Right",
+      "azimuth_degrees": 270
+    },
+    {
+      "name": "UpRight",
+      "azimuth_degrees": 225
+    },
+    {
+      "name": "Up",
+      "azimuth_degrees": 180
+    },
+    {
+      "name": "UpLeft",
+      "azimuth_degrees": 135
+    },
+    {
+      "name": "Left",
+      "azimuth_degrees": 90
+    },
+    {
+      "name": "DownLeft",
+      "azimuth_degrees": 45
+    }
+  ],
+  "anatomy_notes": {
+    "source": "chr388 own model; PMDO10016 installed manifest; approved neutral18 from height-target-manifest. No fallback.",
+    "eyes": "Native b01 circular dark openings UV3, brown/red p01 iris UV2 gated by b01m green; green is mask, e01h alpha matcap shine not opaque white. Opt-in source layers; no invented pupil.",
+    "ground": "Grounded soft foot/base J_ashi, skinned native underside +.0006..-.0088world at quarter phases, nearfloor0. Body/chest sway with real short arm/hand bones and mouth. Preserve source idle sway; no flight, no horizontal root lock, fixed neutral placement per direction.",
+    "markers": "Head measured eye midpoint in J_mune localspace, centerJ_center, actual short hand bonesJ_te_L/R. Native+X anatomicalleft. No borrowed fake limbs.",
+    "motion": "Nativebn01 1.33333337s, four evenly spaced quarter phases20ticks; source chest and armsway, mouth breathing, foot compensation. No per-framefit.",
+    "readability": "Literal light-pink skin/visible-eye rule: source-depth-bounded thin lower eye-opening edge to be compared at native size. Explicit post-build contour only, not source opaque-white fallback or global full ring.",
+    "scope": "Initial Idle only. Other registry entries explicit Idle placeholders, not completed actions."
+  }
+}

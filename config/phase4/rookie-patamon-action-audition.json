@@ -1,0 +1,9 @@
+{
+  "species":"patamon",
+  "jobs":[
+    {"clip":"chr096_br01","time":0.3,"azimuth":0,"note":"Walk"},{"clip":"chr096_ba01","time":0.75,"azimuth":0,"note":"Attack ba01"},{"clip":"chr096_ba02","time":1.15,"azimuth":0,"note":"Attack ba02"},
+    {"clip":"chr096_fe01","time":1.7,"azimuth":0,"note":"Shoot fe01"},{"clip":"chr096_fe02","time":1.15,"azimuth":0,"note":"Shoot fe02"},{"clip":"chr096_fe03","time":1.5,"azimuth":0,"note":"Shoot fe03"},{"clip":"chr096_fe04","time":1.15,"azimuth":0,"note":"Shoot fe04"},
+    {"clip":"chr096_bn02","time":2.0,"azimuth":0,"note":"Sleep"},{"clip":"chr096_bd01","time":0.4,"azimuth":0,"note":"Hurt bd01"},{"clip":"chr096_bd02","time":0.65,"azimuth":0,"note":"Hurt bd02"},{"clip":"chr096_bd03","time":1.15,"azimuth":0,"note":"Hurt bd03"},
+    {"clip":"chr096_bs01","time":1.15,"azimuth":0,"note":"Swing"},{"clip":"chr096_bf01","time":0.75,"azimuth":0,"note":"Hop"},{"clip":"chr096_bv01","time":1.15,"azimuth":0,"note":"Charge"},{"clip":"chr096_fq01","time":1.0,"azimuth":0,"note":"Rotate fq01"},{"clip":"chr096_fq02","time":1.0,"azimuth":0,"note":"Rotate fq02"}
+  ]
+}
